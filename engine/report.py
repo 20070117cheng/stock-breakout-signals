@@ -173,7 +173,14 @@ th {{ background: #f8fafc; font-size: 13px; color: #475569; }}
 details.cand summary {{ cursor: pointer; font-size: 15px; line-height: 1.6; }}
 .help {{ background: #eff6ff; border-radius: 12px; padding: 14px 16px; font-size: 14px; line-height: 1.8; }}
 footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
-@media (max-width: 640px) {{ th, td {{ padding: 6px; font-size: 12px; }} }}
+.tabs {{ position: sticky; top: 0; z-index: 10; display: flex; gap: 4px; background: #0f172a;
+  padding: 8px 12px; overflow-x: auto; -webkit-overflow-scrolling: touch; }}
+.tabs button {{ flex-shrink: 0; border: 0; border-radius: 999px; padding: 8px 16px; font-size: 14px;
+  background: #1e293b; color: #cbd5e1; cursor: pointer; font-family: inherit; }}
+.tabs button.active {{ background: #2563eb; color: #fff; font-weight: 700; }}
+.tab {{ display: none; }}
+.tab.active {{ display: block; }}
+@media (max-width: 640px) {{ th, td {{ padding: 6px; font-size: 12px; }} .tabs button {{ padding: 8px 12px; font-size: 13px; }} }}
 </style>
 </head>
 <body>
@@ -181,7 +188,16 @@ footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
   <h1>📊 大漲訊號儀表板</h1>
   <p>依《大漲的訊號》創新高價投資法自動掃描台股（上市+上櫃）與美股（S&P 500 + NASDAQ 100）｜更新：{now}</p>
 </header>
+<nav class="tabs">
+  <button data-tab="market" class="active">🚦 大盤燈號</button>
+  <button data-tab="buy">📈 買進候選</button>
+  <button data-tab="hold">💼 持股監控</button>
+  <button data-tab="log">🗒️ 訊號記錄</button>
+  <button data-tab="learn">📖 方法教學</button>
+</nav>
 <main>
+
+<section id="tab-market" class="tab active">
 <h2>今天可以進場嗎？（大盤上漲力道）</h2>
 <div class="grid">
 {_market_card("台股", state.get("tw"))}
@@ -190,22 +206,36 @@ footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 <div class="help">🟢 綠燈＝創新高股多、行情強，可依計畫買進（單檔上限＝總資產 10%）｜
 🟡 黃燈＝力道普通，減量操作｜🔴 紅燈＝創新高股稀少，書中建議空手等待。
 判斷依據：全市場「創一年新高家數比率」與前 50 大市值股動向（書第二章第六節）。</div>
+</section>
 
+<section id="tab-buy" class="tab">
 <h2>📈 買進候選（今日突破 2 年新高＋基本面檢核）</h2>
 {_candidates_section(state)}
 <div class="help">每張評分卡對應書中附錄一的 9 項檢核表（★＝書中標示的重要項目）。
 <b>👤 第⑦項一律需要你自己判斷</b>：去看該公司法說會或年報，問自己「它獲利成長的理由，能不能用一句話說清楚？」
-說不清楚就放棄這檔（書 p.131-146）。買進時機：訊號日的隔天開盤（書中為機械式操作）。</div>
+說不清楚就放棄這檔（書 p.131-146）。<br>
+<b>為什麼只列「今日」的訊號？</b>買進時機就是突破日的隔天開盤（機械式操作）；過幾天才追買，
+進場價偏離訊號價，8% 停損的風險設計就失效了。錯過的訊號請放掉，去「訊號記錄」分頁複盤即可。</div>
+</section>
 
+<section id="tab-hold" class="tab">
 <h2>💼 持股監控（賣出三條件）</h2>
 {_holdings_section(state)}
 <div class="help">⛔ 立即賣出＝觸發停損（跌破買價 8%，賣股公式4）或基本面惡化（單季獲利年增 &lt;20%），書中要求不猶豫、不攤平｜
 ⚠️ 賣出訊號＝賣壓比例 SPR ≥ 117%（股價可能到中長期高點，可觀察後從容賣出，書 p.211），
-或跌幅已達 7% 且跌破近 20 日最低價（書 p.228：此時即可提前停損）。</div>
+或跌幅已達 7% 且跌破近 20 日最低價（書 p.228：此時即可提前停損）。<br>
+買進股票後，到 GitHub 編輯 <code>holdings.csv</code> 加一行（格式：<code>tw,2330.TW,台積電,980,2026-07-01</code>），
+賣出後刪掉該行。</div>
+</section>
 
+<section id="tab-log" class="tab">
 <h2>🗒️ 近期訊號記錄</h2>
 {_log_section(log)}
+<div class="help">保留近 300 筆訊號供複盤。練習方法：回頭看每個買進候選後來的走勢，驗證「訊號＋檢核表」的勝率，
+這是書中說累積投資實力最快的方式（p.74：每天分析走勢圖是最有效的學習）。</div>
+</section>
 
+<section id="tab-learn" class="tab">
 <h2>📖 新手三分鐘看懂這套方法</h2>
 <div class="help">
 1️⃣ <b>只買創新高的股票</b>：突破 2~3 年高價代表公司進入新時代，之前要有長而平穩的整理期（能量累積）。<br>
@@ -214,7 +244,26 @@ footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 4️⃣ <b>看大盤臉色</b>：創新高股愈多行情愈強；紅燈時系統自然找不到訊號，空手就是策略。<br>
 5️⃣ <b>資金控管</b>：單檔不超過總資產 10%，行情弱就再減量。
 </div>
+<h2>每天的例行流程（2 分鐘）</h2>
+<div class="help">
+① 看「大盤燈號」決定今天的心態（綠＝積極、黃＝保守、紅＝休息）。<br>
+② 有收到 Email 才需要動作：買進候選 → 做第⑦項功課 → 決定要不要隔天開盤買；持股警報 → 依指示賣出。<br>
+③ 買賣之後記得更新 <code>holdings.csv</code>。<br>
+④ 週末有空去「訊號記錄」複盤，養眼力。
+</div>
+</section>
 </main>
+<script>
+document.querySelectorAll('.tabs button').forEach(btn => {{
+  btn.addEventListener('click', () => {{
+    document.querySelectorAll('.tabs button').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+    window.scrollTo(0, 0);
+  }});
+}});
+</script>
 <footer>本頁由 GitHub Actions 自動產生，規則出自林則行《大漲的訊號》。僅供學習參考，不構成投資建議；投資人應自行承擔風險。</footer>
 </body>
 </html>"""
