@@ -275,7 +275,10 @@ def main() -> None:
             "equity": pm["equity_history"][-1]["equity"] if pm["equity_history"] else pm["start_capital"],
             "equity_history": pm["equity_history"][-160:],
             "positions": [
-                {**p, "pnl_pct": p["last_price"] / p["buy_price"] - 1} for p in pm["positions"]
+                {**p,
+                 "pnl_pct": p["last_price"] / p["buy_price"] - 1,
+                 "stop_price": round(p["buy_price"] * (1 - cfg["stop_loss_pct"]), 2)}
+                for p in pm["positions"]
             ],
             "trades": pm["trades"][-20:],
             "n_trades": len(pm["trades"]),

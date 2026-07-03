@@ -167,12 +167,20 @@ def _paper_card(name: str, currency: str, p: dict | None) -> str:
     ret = equity / p["start_capital"] - 1
     ret_color = "#16a34a" if ret >= 0 else "#dc2626"
     spark = _sparkline([e["equity"] for e in p.get("equity_history", [])], ret_color)
-    pos_rows = "".join(
-        f"<tr><td><b>{q['name']}</b><br class='m'>{q['ticker']}</td>"
-        f"<td>{q['buy_date']}</td><td>{q['buy_price']:g}</td><td>{q['last_price']:g}</td>"
-        f"<td style='color:{'#16a34a' if q['pnl_pct'] >= 0 else '#dc2626'}'>{q['pnl_pct']:+.1%}</td></tr>"
-        for q in p.get("positions", [])
-    ) or "<tr><td colspan='5' class='muted'>目前空手（等待強力候選訊號）</td></tr>"
+    def _pos_row(q: dict) -> str:
+        label, color = ACTION_LABEL.get(q.get("status", "HOLD"), ACTION_LABEL["HOLD"])
+        note = f"<br><span class='muted'>{q['status_note']}</span>" if q.get("status_note") else ""
+        stop = f"{q['stop_price']:g}" if q.get("stop_price") else "—"
+        return (
+            f"<tr><td><b>{q['name']}</b><br class='m'>{q['ticker']}</td>"
+            f"<td>{q['buy_date']}</td><td>{q['buy_price']:g}</td>"
+            f"<td style='color:#dc2626'>{stop}</td><td>{q['last_price']:g}</td>"
+            f"<td style='color:{'#16a34a' if q['pnl_pct'] >= 0 else '#dc2626'}'>{q['pnl_pct']:+.1%}</td>"
+            f"<td style='color:{color};font-weight:700'>{label}{note}</td></tr>"
+        )
+
+    pos_rows = "".join(_pos_row(q) for q in p.get("positions", [])) or \
+        "<tr><td colspan='7' class='muted'>目前空手（等待強力候選訊號）</td></tr>"
     trade_rows = "".join(
         f"<tr><td>{t['date']}</td><td>{'買進' if t['action'] == 'BUY' else '賣出'}</td>"
         f"<td><b>{t['name']}</b></td><td>{t['price']:g}</td>"
@@ -192,10 +200,10 @@ def _paper_card(name: str, currency: str, p: dict | None) -> str:
   <p class="muted">起始 {p['start_capital']:,.0f}｜現金 {p['cash']:,.0f}｜累計成交 {p.get('n_trades', 0)} 筆</p>
   {spark}
   {pending}
-  <h4>持倉</h4>
-  <table><thead><tr><th>股票</th><th>買進日</th><th>買價</th><th>現價</th><th>損益</th></tr></thead>
+  <h4>持倉（賣出三條件每天自動檢查）</h4>
+  <table><thead><tr><th>股票</th><th>買進日</th><th>買價</th><th>停損價</th><th>現價</th><th>損益</th><th>賣出檢查</th></tr></thead>
   <tbody>{pos_rows}</tbody></table>
-  <h4>近期成交</h4>
+  <h4>近期成交（賣出會顯示在這裡，含損益與原因）</h4>
   <table><thead><tr><th>日期</th><th>動作</th><th>股票</th><th>成交價</th><th>損益</th><th>原因</th></tr></thead>
   <tbody>{trade_rows}</tbody></table>
 </div>"""
