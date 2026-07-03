@@ -26,7 +26,7 @@ paper_capital_us: 30000         # 美股虛擬帳戶（美元）
 # --- AI 第⑦項判斷（Gemini 免費 API，未設金鑰時自動退回人工模式）---
 ai_judge_enabled: true
 max_ai_judgments_per_day: 8     # 每日最多判斷幾檔（控制免費額度）
-gemini_model: "gemini-2.0-flash"
+gemini_model: "gemini-flash-latest"   # 失敗會自動嘗試備援模型清單（見 engine/ai_judge.py）
 
 # --- 系統 ---
 max_candidates_per_day: 25      # 每日最多細查幾檔候選（控制執行時間與 API 用量）
