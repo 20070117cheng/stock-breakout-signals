@@ -157,9 +157,10 @@ def run_paper_cycle(pm: dict, market: str, date: str,
             )
 
     # 4. 依今日買進候選排明日買單（強力候選才買，紅燈不排單）
+    # 用純機械結論（mech_verdict）——虛擬操盤是「不含 AI、不做功課」的方法基準線
     if light != "red":
         strong = [c for c in candidates
-                  if c["scorecard"]["verdict"].startswith("強力候選")]
+                  if c.get("mech_verdict", c["scorecard"]["verdict"]).startswith("強力候選")]
         strong.sort(key=lambda c: c["scorecard"]["score"], reverse=True)
         held = {p["ticker"] for p in pm["positions"]}
         queued = 0

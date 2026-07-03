@@ -50,6 +50,11 @@ git push -u origin main
 
 3. （選填但建議）到 https://finmindtrade.com 免費註冊拿 API token，
    再新增第三筆 secret：`FINMIND_TOKEN`＝你的 token。台股資料額度會更充裕。
+4. （選填）啟用 AI 自動判斷檢核表第⑦項（未來獲利/產業趨勢）：
+   - 打開 https://aistudio.google.com/apikey （用 Google 帳號登入）
+   - 按「Create API key」，複製產生的金鑰
+   - 新增 secret：`GEMINI_API_KEY`＝你的金鑰
+   - 完全免費；沒設的話第⑦項就維持人工判斷，系統照常運作
 
 ## 第 6 步：開啟儀表板網頁（GitHub Pages）
 

@@ -14,7 +14,7 @@ import pandas as pd
 import yaml
 import yfinance as yf
 
-from engine import datastore, notify, paper as pp, report, universe
+from engine import ai_judge as aij, datastore, notify, paper as pp, report, universe
 from engine.scoring import build_scorecard
 from engine.signals import fundamentals as fu
 from engine.signals import market as mk
@@ -119,6 +119,7 @@ def enrich_fundamentals(market: str, cand: dict, cfg: dict, gauge: dict) -> dict
             gauge["reason"],
         ),
     }
+    cand["_items"] = items  # 保留原始評分，AI 判斷後重建評分卡用
     cand["scorecard"] = build_scorecard(items)
     return cand
 
@@ -194,6 +195,34 @@ def main() -> None:
             time.sleep(cfg["fundamental_pause_sec"])
         except Exception:
             print(f"[screen] {c['ticker']} 基本面檢核失敗：\n{traceback.format_exc()}")
+    # 3.5 AI 第⑦項判斷（僅對較強候選執行，控制免費額度；失敗自動退回人工模式）
+    for c in buy_candidates:
+        c["mech_verdict"] = c["scorecard"]["verdict"]  # 純機械結論（虛擬操盤依此，不受 AI 影響）
+    judged = 0
+    for c in sorted(buy_candidates, key=lambda x: x["scorecard"]["score"], reverse=True):
+        if judged >= cfg.get("max_ai_judgments_per_day", 8):
+            break
+        v = c["scorecard"]["verdict"]
+        if v.startswith("淘汰") or v.startswith("偏弱"):
+            continue
+        ftext = "；".join(
+            it["detail"] for it in c["scorecard"]["items"] if it["key"] in ("3", "4", "5", "6")
+        )
+        try:
+            ai7 = aij.judge_candidate(market, c["ticker"], c["name"], ftext, cfg)
+        except Exception:
+            print(f"[ai_judge] {c['ticker']} 判斷異常，退回人工：\n{traceback.format_exc()}")
+            ai7 = None
+        if ai7:
+            c["ai7"] = ai7
+            c["scorecard"] = build_scorecard(c["_items"], ai7=ai7)
+            judged += 1
+            time.sleep(2)
+    for c in buy_candidates:
+        c.pop("_items", None)
+    if judged:
+        print(f"[ai_judge] 已完成 {judged} 檔 AI 第⑦項判斷")
+
     # 淘汰硬性不合格者不寄信，但保留在儀表板供學習
     notified = [c for c in buy_candidates if not c["scorecard"]["verdict"].startswith("淘汰") and c["scorecard"]["score"] >= cfg["min_score_to_notify"]]
 

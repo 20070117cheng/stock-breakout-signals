@@ -94,6 +94,26 @@ def _scorecard_table(sc: dict) -> str:
     )
 
 
+def _ai_block(ai7: dict | None) -> str:
+    if not ai7:
+        return ""
+    grade_txt = {"O": "看好（○）", "T": "存疑（△）", "X": "不看好（×）"}.get(ai7["grade"], "—")
+    srcs = "".join(
+        f"<li><a href='{s['link']}' target='_blank' rel='noopener'>{s['title']}</a>"
+        f"<span class='muted'>（{s['source']}，{s['date']}）</span></li>"
+        for s in ai7.get("sources", [])
+    ) or "<li class='muted'>未引用特定新聞（僅依營運數字判斷）</li>"
+    return f"""<div class="aibox">
+  <p><b>AI 第⑦項判斷：{grade_txt}</b>——{ai7['one_line']}</p>
+  <p><b>推理過程：</b>{ai7.get('analysis', '')}</p>
+  <p><b>主要風險：</b>{ai7.get('risks', '')}</p>
+  <p><b>引用來源（點連結自行查證）：</b></p>
+  <ul>{srcs}</ul>
+  <p class="muted">模型：{ai7.get('model', '')}｜判斷時間：{ai7.get('judged_at', '')}｜
+  AI 只讀取上列公開資訊，可能出錯——買進前請自行複核，特別是去看公司法說會（書 p.131-146）。</p>
+</div>"""
+
+
 def _candidates_section(state: dict) -> str:
     cards = []
     for mkt_key, mkt_name in [("tw", "台股"), ("us", "美股")]:
@@ -104,6 +124,7 @@ def _candidates_section(state: dict) -> str:
   <summary><b>{mkt_name}｜{c['name']}（{c['ticker']}）</b>
     收盤 {c['close']:g}｜檢核 <b>{sc['score']}/100</b> — {sc['verdict']}</summary>
   {_scorecard_table(sc)}
+  {_ai_block(c.get('ai7'))}
   <p class="muted">反彈幅度 {c.get('rebound', 0):.0%}｜平穩期品質 {c.get('base_quality', 0):.0%}｜訊號日 {m.get('date', '')}</p>
 </details>""")
     if not cards:
@@ -220,6 +241,9 @@ th {{ background: #f8fafc; font-size: 13px; color: #475569; }}
 .check td.sym {{ font-size: 15px; text-align: center; }}
 details.cand summary {{ cursor: pointer; font-size: 15px; line-height: 1.6; }}
 .help {{ background: #eff6ff; border-radius: 12px; padding: 14px 16px; font-size: 14px; line-height: 1.8; }}
+.aibox {{ background: #fefce8; border: 1px solid #fde047; border-radius: 10px; padding: 12px 14px;
+  margin-top: 10px; font-size: 14px; line-height: 1.7; }}
+.aibox ul {{ margin: 4px 0; padding-left: 20px; }}
 footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 .tabs {{ position: sticky; top: 0; z-index: 10; display: flex; gap: 4px; background: #0f172a;
   padding: 8px 12px; overflow-x: auto; -webkit-overflow-scrolling: touch; }}
@@ -261,8 +285,9 @@ footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 <h2>買進候選（今日突破 2 年新高＋基本面檢核）</h2>
 {_candidates_section(state)}
 <div class="help">每張評分卡對應書中附錄一的 9 項檢核表（★＝書中標示的重要項目）。
-<b>第⑦項（標示「人工」）一律需要你自己判斷</b>：去看該公司法說會或年報，問自己「它獲利成長的理由，能不能用一句話說清楚？」
-說不清楚就放棄這檔（書 p.131-146）。<br>
+<b>第⑦項未來獲利判斷</b>：設定 AI 金鑰後，系統會自動蒐集新聞與營運數字請 AI 判斷，
+並在評分卡下方的黃色區塊完整顯示「推理過程＋引用來源」——AI 是參考意見，買進前請點來源連結自行查證，
+行有餘力再看公司法說會（書 p.131-146：成長理由要能一句話說清楚，聽到景氣發言就淘汰）。<br>
 <b>為什麼只列「今日」的訊號？</b>訊號的定義是「收盤價」創 2 年新高，收盤後才能確認；買進時機就是隔天開盤（機械式操作）。
 過幾天才追買，進場價偏離訊號價，8% 停損的風險設計就失效了。錯過的訊號請放掉，去「訊號記錄」分頁複盤即可。</div>
 </section>

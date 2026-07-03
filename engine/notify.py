@@ -61,9 +61,11 @@ def format_signal_email(market_name: str, date_str: str, buy_candidates: list[di
     if buy_candidates:
         html.append(f"<h3>📈 今日突破新高的買進候選</h3><p>{position_hint}</p><ul>")
         for c in buy_candidates:
+            ai = c.get("ai7")
+            ai_line = f"<br>AI 第⑦項（參考）：{ai['one_line']}" if ai else ""
             html.append(
                 f"<li><b>{c['name']}（{c['ticker']}）</b> 收盤 {c['close']:g}，"
-                f"檢核分數 {c['scorecard']['score']}/100 — {c['scorecard']['verdict']}</li>"
+                f"檢核分數 {c['scorecard']['score']}/100 — {c['scorecard']['verdict']}{ai_line}</li>"
             )
         html.append("</ul>")
         html.append("<p>⚠️ 買進前請完成檢核表第⑦項人工確認（看法說會），細節見儀表板。</p>")
