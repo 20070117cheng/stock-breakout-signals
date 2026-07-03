@@ -25,8 +25,14 @@ def evaluate_holding(
     spr: float | None,
     stop_loss_pct: float = 0.08,
     spr_threshold: float = 1.17,
+    near_stop_new_low: bool = False,
+    stop_warn_pct: float = 0.07,
 ) -> dict:
-    """回傳 {"action": HOLD|SELL_SIGNAL|SELL_NOW, "reasons": [...], "pnl_pct": float}。"""
+    """回傳 {"action": HOLD|SELL_SIGNAL|SELL_NOW, "reasons": [...], "pnl_pct": float}。
+
+    near_stop_new_low：跌幅在 stop_warn_pct~stop_loss_pct 間且跌破近N日最低價時為 True
+    （書 p.228：此時「即可賣出」，作為 8% 硬停損前的提前警示）。
+    """
     from engine.spr import spr_sell_signal
 
     reasons: list[str] = []
@@ -38,6 +44,12 @@ def evaluate_holding(
             f"{(1 - close / buy_price):.1%}（門檻 {stop_loss_pct:.0%}），立即賣出"
         )
         action = "SELL_NOW"
+    elif near_stop_new_low and check_stop_loss(buy_price, close, stop_warn_pct):
+        reasons.append(
+            f"接近停損：跌幅 {(1 - close / buy_price):.1%} 已達 {stop_warn_pct:.0%} "
+            f"且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 {stop_loss_pct:.0%}"
+        )
+        action = "SELL_SIGNAL"
 
     if check_fundamental_sell(latest_quarter_yoy):
         reasons.append(

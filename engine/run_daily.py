@@ -138,6 +138,10 @@ def monitor_holdings(market: str, holdings: list[dict], cfg: dict) -> list[dict]
             else:
                 f = fu.us_fundamentals(h["ticker"])
             latest_yoy = fu.latest_quarter_pretax_yoy(f["quarterly"])
+            # p.228 輔助條件：收盤跌破近 N 日最低收盤價
+            win = cfg.get("low_break_window", 20)
+            closes = ohlcv["Close"]
+            near_low = len(closes) > win and float(closes.iloc[-1]) <= float(closes.iloc[-(win + 1):-1].min())
             result = sl.evaluate_holding(
                 buy_price=h["buy_price"],
                 close=close,
@@ -145,6 +149,8 @@ def monitor_holdings(market: str, holdings: list[dict], cfg: dict) -> list[dict]
                 spr=spr,
                 stop_loss_pct=cfg["stop_loss_pct"],
                 spr_threshold=cfg["spr_threshold"],
+                near_stop_new_low=near_low,
+                stop_warn_pct=cfg.get("stop_warn_pct", 0.07),
             )
             out.append({**h, "close": round(close, 2), "spr": spr, **result})
         except Exception:

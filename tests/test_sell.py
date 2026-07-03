@@ -57,3 +57,46 @@ def test_evaluate_holding_spr_only_is_watch():
         spr_threshold=1.17,
     )
     assert result["action"] == "SELL_SIGNAL"
+
+
+def test_near_stop_with_recent_low_break_warns():
+    # p.228：跌幅達 7~10% 且跌破近N日最低價 → 即可提前賣出（警示）
+    result = evaluate_holding(
+        buy_price=100,
+        close=92.5,               # -7.5%：未達 8% 硬停損
+        latest_quarter_yoy=0.30,
+        spr=0.95,
+        stop_loss_pct=0.08,
+        spr_threshold=1.17,
+        near_stop_new_low=True,   # 已跌破近期最低價
+    )
+    assert result["action"] == "SELL_SIGNAL"
+    assert any("跌破近" in r for r in result["reasons"])
+
+
+def test_near_stop_without_low_break_holds():
+    # 跌 7.5% 但沒破近期低點 → 尚未觸發任何訊號
+    result = evaluate_holding(
+        buy_price=100,
+        close=92.5,
+        latest_quarter_yoy=0.30,
+        spr=0.95,
+        stop_loss_pct=0.08,
+        spr_threshold=1.17,
+        near_stop_new_low=False,
+    )
+    assert result["action"] == "HOLD"
+
+
+def test_hard_stop_overrides_warning():
+    # 已達 8% → 是硬停損 SELL_NOW，不是警示
+    result = evaluate_holding(
+        buy_price=100,
+        close=91.0,
+        latest_quarter_yoy=0.30,
+        spr=0.95,
+        stop_loss_pct=0.08,
+        spr_threshold=1.17,
+        near_stop_new_low=True,
+    )
+    assert result["action"] == "SELL_NOW"
