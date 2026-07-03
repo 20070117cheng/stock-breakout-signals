@@ -20,8 +20,8 @@ spr_threshold: 1.17             # SPR ≥117% 出現賣出訊號（書建議 116
 total_capital: 50000            # 你的總投資資產（用來算單檔 10% 上限），請自行修改
 
 # --- 虛擬操盤（紙上交易）起始資金 ---
-paper_capital_tw: 100000        # 台股虛擬帳戶（台幣）
-paper_capital_us: 3000          # 美股虛擬帳戶（美元）
+paper_capital_tw: 1000000       # 台股虛擬帳戶（台幣）
+paper_capital_us: 30000         # 美股虛擬帳戶（美元）
 
 # --- AI 第⑦項判斷（Gemini 免費 API，未設金鑰時自動退回人工模式）---
 ai_judge_enabled: true

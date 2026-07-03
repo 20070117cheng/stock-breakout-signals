@@ -47,8 +47,14 @@ def save_paper(paper: dict) -> None:
     PAPER_PATH.write_text(json.dumps(paper, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
-def position_size_pct(light: str) -> float:
-    return {"green": 0.10, "yellow": 0.05}.get(light, 0.0)
+def position_size_pct(light: str, score: int = 100) -> float:
+    """部位 % ＝ 燈號基準（綠10%／黃5%／紅0）×（檢核分數/100）。
+
+    書 p.95：依行情強弱增減購買量；分數係數把「訊號品質」納入，
+    公式固定、每筆交易記錄都寫明，成效可回溯歸因。
+    """
+    base = {"green": 0.10, "yellow": 0.05}.get(light, 0.0)
+    return base * max(0, min(100, score)) / 100
 
 
 def _equity(pm: dict, prices: dict[str, float] | None = None) -> float:
@@ -60,13 +66,13 @@ def _equity(pm: dict, prices: dict[str, float] | None = None) -> float:
 
 
 def execute_buy(pm: dict, market: str, ticker: str, name: str,
-                open_price: float, date: str, light: str) -> dict | None:
+                open_price: float, date: str, light: str, score: int = 100) -> dict | None:
     """以開盤價買進。回傳成交記錄；不符合條件回傳 None。"""
     if open_price is None or open_price <= 0:
         return None
     if any(p["ticker"] == ticker for p in pm["positions"]):
         return None
-    pct = position_size_pct(light)
+    pct = position_size_pct(light, score)
     if pct == 0:
         return None
     budget = _equity(pm) * pct
@@ -82,9 +88,10 @@ def execute_buy(pm: dict, market: str, ticker: str, name: str,
         {"ticker": ticker, "name": name, "shares": shares,
          "buy_price": open_price, "buy_date": date, "last_price": open_price}
     )
+    light_txt = {"green": "綠", "yellow": "黃"}.get(light, light)
     trade = {"date": date, "action": "BUY", "ticker": ticker, "name": name,
              "price": open_price, "shares": shares, "amount": round(total, 2),
-             "reason": f"買進訊號（{light} 燈，部位 {pct:.0%}）"}
+             "reason": f"買進訊號（{light_txt}燈基準 × 檢核{score}分 → 部位 {pct:.1%}）"}
     pm["trades"].append(trade)
     return trade
 
@@ -144,7 +151,8 @@ def run_paper_cycle(pm: dict, market: str, date: str,
     # 2. 執行昨日排的買單
     for order in pm["pending_buys"]:
         t = execute_buy(pm, market, order["ticker"], order["name"],
-                        opens.get(order["ticker"]), date, order["light"])
+                        opens.get(order["ticker"]), date, order["light"],
+                        score=order.get("score", 100))
         if t:
             executed.append(t)
     pm["pending_buys"] = []
@@ -176,7 +184,8 @@ def run_paper_cycle(pm: dict, market: str, date: str,
             if c["ticker"] in held or queued >= MAX_NEW_BUYS_PER_DAY:
                 continue
             pm["pending_buys"].append(
-                {"ticker": c["ticker"], "name": c["name"], "light": light}
+                {"ticker": c["ticker"], "name": c["name"], "light": light,
+                 "score": c["scorecard"]["score"]}
             )
             queued += 1
 
