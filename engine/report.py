@@ -115,17 +115,21 @@ def _ai_block(ai7: dict | None) -> str:
 
 
 def _candidates_section(state: dict) -> str:
-    cards = []
+    entries = []
     for mkt_key, mkt_name in [("tw", "台股"), ("us", "美股")]:
         m = state.get(mkt_key) or {}
         for c in m.get("buy_candidates", []):
-            sc = c["scorecard"]
-            cards.append(f"""<details class="card cand">
-  <summary><b>{mkt_name}｜{c['name']}（{c['ticker']}）</b>
-    收盤 {c['close']:g}｜檢核 <b>{sc['score']}/100</b> — {sc['verdict']}</summary>
+            entries.append((c["scorecard"]["score"], mkt_name, m.get("date", ""), c))
+    entries.sort(key=lambda e: e[0], reverse=True)  # 檢核分數高者排前
+    cards = []
+    for score, mkt_name, date, c in entries:
+        sc = c["scorecard"]
+        cards.append(f"""<details class="card cand">
+  <summary><b>{sc['score']}/100</b>｜{mkt_name}｜<b>{c['name']}（{c['ticker']}）</b>
+    收盤 {c['close']:g} — {sc['verdict']}</summary>
   {_scorecard_table(sc)}
   {_ai_block(c.get('ai7'))}
-  <p class="muted">反彈幅度 {c.get('rebound', 0):.0%}｜平穩期品質 {c.get('base_quality', 0):.0%}｜訊號日 {m.get('date', '')}</p>
+  <p class="muted">反彈幅度 {c.get('rebound', 0):.0%}｜平穩期品質 {c.get('base_quality', 0):.0%}｜訊號日 {date}</p>
 </details>""")
     if not cards:
         return "<p class='empty'>今日沒有通過篩選的突破新高候選股。書中提醒：下跌行情裡本來就不會出現創新高股，沒訊號就空手等待（p.87）。</p>"

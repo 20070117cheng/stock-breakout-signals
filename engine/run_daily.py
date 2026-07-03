@@ -223,6 +223,8 @@ def main() -> None:
     if judged:
         print(f"[ai_judge] 已完成 {judged} 檔 AI 第⑦項判斷")
 
+    # 依檢核分數排序（儀表板與 Email 都由高至低呈現）
+    buy_candidates.sort(key=lambda c: c["scorecard"]["score"], reverse=True)
     # 淘汰硬性不合格者不寄信，但保留在儀表板供學習
     notified = [c for c in buy_candidates if not c["scorecard"]["verdict"].startswith("淘汰") and c["scorecard"]["score"] >= cfg["min_score_to_notify"]]
 
