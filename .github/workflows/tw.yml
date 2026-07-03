@@ -48,6 +48,10 @@ jobs:
           git config user.name "signal-bot"
           git config user.email "bot@users.noreply.github.com"
           git add docs/index.html data/state.json data/signals_log.json data/paper.json
-          git diff --cached --quiet || git commit -m "台股掃描 $(date +%F)"
-          git pull --rebase origin main || true
-          git push
+          git diff --cached --quiet && exit 0 || git commit -m "台股掃描 $(date +%F)"
+          n=0
+          until git push; do
+            n=$((n+1)); [ $n -ge 3 ] && exit 1
+            # 有人同時推送：合併並以本次掃描產出為準（皆為自動生成檔）
+            git pull --no-rebase -X ours --no-edit || { git merge --abort || true; git fetch origin; git reset --hard HEAD; }
+          done
