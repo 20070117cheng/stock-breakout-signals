@@ -256,6 +256,12 @@ details.cand summary {{ cursor: pointer; font-size: 15px; line-height: 1.6; }}
 .aibox {{ background: #fefce8; border: 1px solid #fde047; border-radius: 10px; padding: 12px 14px;
   margin-top: 10px; font-size: 14px; line-height: 1.7; }}
 .aibox ul {{ margin: 4px 0; padding-left: 20px; }}
+.formrow {{ display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }}
+.formrow input, .formrow select {{ padding: 8px 10px; border: 1px solid #cbd5e1; border-radius: 8px;
+  font-size: 14px; font-family: inherit; flex: 1 1 120px; min-width: 0; }}
+.btn {{ padding: 8px 16px; border: 0; border-radius: 8px; background: #2563eb; color: #fff;
+  font-size: 14px; font-family: inherit; cursor: pointer; flex: 0 0 auto; }}
+.btn-red {{ background: #dc2626; }}
 footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 .tabs {{ position: sticky; top: 0; z-index: 10; display: flex; gap: 4px; background: #0f172a;
   padding: 8px 12px; overflow-x: auto; -webkit-overflow-scrolling: touch; }}
@@ -349,6 +355,29 @@ footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 <section id="tab-hold" class="tab">
 <h2>持股監控（賣出三條件）</h2>
 {_holdings_section(state)}
+
+<div class="card">
+<h4>快速登錄（送出後約 1 分鐘自動寫入，下次掃描開始監控）</h4>
+<div class="formrow">
+  <select id="f-mkt">
+    <option value=".TW">台股上市</option>
+    <option value=".TWO">台股上櫃</option>
+    <option value="">美股</option>
+  </select>
+  <input id="f-ticker" placeholder="代號（如 2330 或 AAPL）">
+  <input id="f-name" placeholder="名稱（可留白）">
+  <input id="f-price" type="number" step="any" placeholder="買價">
+  <input id="f-date" type="date">
+  <button class="btn" onclick="regBuy()">登錄買進</button>
+</div>
+<div class="formrow">
+  <input id="f-sell" placeholder="要移除的代號（如 2330.TW）">
+  <button class="btn btn-red" onclick="regSell()">登錄賣出（移除監控）</button>
+</div>
+<p class="muted">送出後會開啟 GitHub 頁面（需登入你的帳號），按綠色「Create」即完成；
+系統會自動寫入並回覆確認。也可以直接
+<a href="https://github.com/20070117cheng/stock-breakout-signals/edit/main/holdings.csv" target="_blank" rel="noopener">手動編輯 holdings.csv</a>。</p>
+</div>
 <div class="help"><b style="color:{r}">立即賣出</b>＝觸發停損（跌破買價 8%，賣股公式4）或基本面惡化（單季獲利年增 &lt;20%），書中要求不猶豫、不攤平｜
 <b style="color:#ea580c">賣出訊號</b>＝賣壓比例 SPR ≥ 117%（股價可能到中長期高點，可觀察後從容賣出，書 p.211），
 或跌幅已達 7% 且跌破近 20 日最低價（書 p.228：此時即可提前停損）。<br>
@@ -398,6 +427,27 @@ footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 </main>
 <footer>本頁由 GitHub Actions 自動產生，規則出自林則行《大漲的訊號》。僅供學習參考，不構成投資建議；投資人應自行承擔風險。</footer>
 <script>
+const REPO = 'https://github.com/20070117cheng/stock-breakout-signals';
+function openIssue(title) {{
+  const body = '由儀表板產生，按下方綠色 Create 按鈕即完成登錄。';
+  window.open(REPO + '/issues/new?title=' + encodeURIComponent(title) +
+              '&body=' + encodeURIComponent(body), '_blank');
+}}
+function regBuy() {{
+  const suffix = document.getElementById('f-mkt').value;
+  const ticker = document.getElementById('f-ticker').value.trim().toUpperCase();
+  const name = document.getElementById('f-name').value.trim();
+  const price = document.getElementById('f-price').value.trim();
+  const date = document.getElementById('f-date').value || new Date().toISOString().slice(0, 10);
+  if (!ticker || !price) {{ alert('請填代號和買價'); return; }}
+  const full = ticker.includes('.') ? ticker : ticker + suffix;
+  openIssue(['持股', '買', full, price, date, name].filter(Boolean).join(' '));
+}}
+function regSell() {{
+  const ticker = document.getElementById('f-sell').value.trim().toUpperCase();
+  if (!ticker) {{ alert('請填代號'); return; }}
+  openIssue('持股 賣 ' + ticker);
+}}
 document.querySelectorAll('.tabs button').forEach(btn => {{
   btn.addEventListener('click', () => {{
     document.querySelectorAll('.tabs button').forEach(b => b.classList.remove('active'));

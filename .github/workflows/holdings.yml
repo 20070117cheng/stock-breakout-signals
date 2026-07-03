@@ -1,0 +1,66 @@
+name: 持股登錄
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: daily-scan
+  cancel-in-progress: false
+
+jobs:
+  update:
+    # 安全限制：只接受儲存庫擁有者本人開的「持股」Issue
+    if: startsWith(github.event.issue.title, '持股') && github.event.issue.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 更新持股清單
+        id: apply
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          set +e
+          msg=$(python -m engine.holdings_cmd)
+          code=$?
+          echo "msg=$msg" >> "$GITHUB_OUTPUT"
+          exit $code
+
+      - name: 提交變更
+        run: |
+          git config user.name "signal-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add holdings.csv
+          git diff --cached --quiet && exit 0 || git commit -m "持股登錄：${{ github.event.issue.title }}"
+          n=0
+          until git push; do
+            n=$((n+1)); [ $n -ge 3 ] && exit 1
+            git pull --no-rebase -X ours --no-edit
+          done
+
+      - name: 回覆並關閉 Issue（成功）
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} --repo ${{ github.repository }} \
+            --body "${{ steps.apply.outputs.msg }}"
+          gh issue close ${{ github.event.issue.number }} --repo ${{ github.repository }}
+
+      - name: 回覆並關閉 Issue（失敗）
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} --repo ${{ github.repository }} \
+            --body "登錄失敗，請檢查格式（持股 買 代號 買價 日期 名稱 / 持股 賣 代號），或直接編輯 holdings.csv。"
+          gh issue close ${{ github.event.issue.number }} --repo ${{ github.repository }}
