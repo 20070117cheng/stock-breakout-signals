@@ -262,6 +262,11 @@ details.cand summary {{ cursor: pointer; font-size: 15px; line-height: 1.6; }}
 .btn {{ padding: 8px 16px; border: 0; border-radius: 8px; background: #2563eb; color: #fff;
   font-size: 14px; font-family: inherit; cursor: pointer; flex: 0 0 auto; }}
 .btn-red {{ background: #dc2626; }}
+.tag {{ display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 12px;
+  font-weight: 700; white-space: nowrap; line-height: 1.6; }}
+.tag-book {{ background: #dcfce7; color: #15803d; }}
+.tag-sys {{ background: #fef9c3; color: #a16207; }}
+.tag-ai {{ background: #ede9fe; color: #6d28d9; }}
 footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 .tabs {{ position: sticky; top: 0; z-index: 10; display: flex; gap: 4px; background: #0f172a;
   padding: 8px 12px; overflow-x: auto; -webkit-overflow-scrolling: touch; }}
@@ -410,17 +415,148 @@ footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 <section id="tab-learn" class="tab">
 <h2>新手三分鐘看懂這套方法</h2>
 <div class="help">
+出處：林則行《大漲的訊號》（大是文化）。核心邏輯一句話：<b>「選擇股價創新高的股票，分析今後能否持續大幅成長」（p.17）</b>，
+選股關鍵是「新高價」＋「成長」，配合絕不賠錢的賣出紀律。<br>
 <b>1. 只買創新高的股票</b>：突破 2~3 年高價代表公司進入新時代，之前要有長而平穩的整理期（能量累積）。<br>
 <b>2. 基本面要加速</b>：長期獲利年均 ≥7%、近年 ≥20%、近幾季營收 ≥10% 且獲利 ≥20%，本益比 &lt;60 倍。<br>
 <b>3. 絕不賠大錢</b>：跌破買價 8% 無條件停損；單季獲利年增掉到 20% 以下就賣；賣壓比例出現訊號代表高點近了。<br>
 <b>4. 看大盤臉色</b>：創新高股愈多行情愈強；紅燈時系統自然找不到訊號，空手就是策略。<br>
 <b>5. 資金控管</b>：單檔不超過總資產 10%，行情弱就再減量。
 </div>
+
+<h2>標記說明</h2>
+<div class="help">
+<span class="tag tag-book">書中原文</span> 規則和數字直接出自書中，附頁數可對證。<br>
+<span class="tag tag-sys">系統近似</span> 書中要求人工看圖或綜合判斷、沒給公式，系統為了自動化設計的替代演算法——用前請理解差異。<br>
+<span class="tag tag-ai">AI 輔助</span> 由 Gemini 模型依書中標準給參考意見，推理過程與來源公開，最終判斷仍在你。
+</div>
+
+<h2>買進：九項檢核表（書附錄一 p.229-238）</h2>
+<table>
+<thead><tr><th>項目</th><th>書中規則（出處）</th><th>本系統的做法</th><th>性質</th></tr></thead>
+<tbody>
+<tr><td>① 創新高價</td>
+    <td>突破近 2~3 年高價才算「創新高」，突破平穩期進入暴漲期（第二章第一、四節）；1 年 10 個月也可接受（p.73）</td>
+    <td>收盤價 &gt; 前 490 個交易日（約 2 年）最高收盤價，每天全市場掃描</td>
+    <td><span class="tag tag-book">書中原文</span></td></tr>
+<tr><td>② 新高價位置</td>
+    <td>反彈幅度＝(突破價−谷底)÷(前峰−谷底)，須達六成以上（買股公式2，p.70）；平穩期愈長、波動愈小愈好（p.66-67）；上次高點超過 10 年不考慮（p.73）</td>
+    <td>反彈幅度自動計算（≥60%＝○、45~60%＝△、更低淘汰）；10 年規則自動排除；平穩期書中明言「無法用明確數字定義」（p.73），系統以 2 年價格變異係數換算 0~100% 品質分數輔助排序，仍建議自己看一眼月 K 線</td>
+    <td><span class="tag tag-book">書中原文</span><br><span class="tag tag-sys">平穩期為系統近似</span></td></tr>
+<tr><td>③ 長期獲利穩健</td>
+    <td>過去 5~10 年經常利益年成長率 7% 以上且穩定（第三章第二節，p.104-109）</td>
+    <td>稅前淨利年成長平均 ≥7% 且多數年份為正。台股用 FinMind 財報（最多 9 年）；美股資料源只有 4 年（已知限制）。「經常利益」是日本會計科目，系統以「稅前淨利」對應</td>
+    <td><span class="tag tag-book">書中原文</span></td></tr>
+<tr><td>④ 近 1~2 年獲利加速</td>
+    <td>最近 1~2 年經常利益成長率 20% 以上（第三章第三節）</td>
+    <td>近四季合計 vs 前四季合計 ≥20%（達 15% 給 △）</td>
+    <td><span class="tag tag-book">書中原文</span></td></tr>
+<tr><td>⑤ 營收動能</td>
+    <td>最近 2~3 季營收成長率 10% 以上（第三章第三節，p.110-122）</td>
+    <td>近 3 季營收年增逐季檢查；台股輔以月營收（更即時）</td>
+    <td><span class="tag tag-book">書中原文</span></td></tr>
+<tr><td>⑥ 獲利動能</td>
+    <td>最近 2~3 季獲利成長率 20% 以上；未達原則上淘汰但保留彈性（p.122）</td>
+    <td>近 3 季稅前淨利年增逐季檢查；不合格時結論降為「有硬傷」而非直接剔除（依 p.122 的彈性）</td>
+    <td><span class="tag tag-book">書中原文</span></td></tr>
+<tr><td>⑦ 未來獲利判斷</td>
+    <td>成長理由要能「一句話說清楚」；聽到「景氣發言」（成長只靠景氣好）就淘汰（第三章第五、六節，p.131-146）。書中方式是看公司說明會</td>
+    <td>AI 讀取近期新聞＋營運數字＋業務簡介，依上述標準給 ○/△/×，推理過程與引用新聞連結完整顯示在評分卡黃色區塊；AI 失敗時退回「人工」。AI 看不到法說會影片，判斷深度有限，是參考不是決定</td>
+    <td><span class="tag tag-ai">AI 輔助</span></td></tr>
+<tr><td>⑧ 本益比</td>
+    <td>排除本益比 60 倍以上的標的（第三章第七節，p.153）</td>
+    <td>台股以近四季 EPS 計算、美股用資料源本益比；≥60 直接淘汰</td>
+    <td><span class="tag tag-book">書中原文</span></td></tr>
+<tr><td>⑨ 大盤上漲力道</td>
+    <td>創新高價股數量比（近一年新高家數÷全市場）愈高漲勢愈強；書中明言「沒有必漲的基準點、套公式危險」，要求比對歷史走勢圖（p.91）；輔看前 50 大市值股是否創高（p.92-94）</td>
+    <td>比率每日計算並畫成走勢線（等同書中圖表 2-25）；紅黃綠燈是系統把「比對歷史」自動化的近似（現值在近一年的相對位置＋與一個月前比的趨勢方向）</td>
+    <td><span class="tag tag-book">比率為書中原文</span><br><span class="tag tag-sys">燈號為系統近似</span></td></tr>
+</tbody>
+</table>
+<div class="help">評分卡的「檢核分數 /100」與結論分級（強力候選／候選／偏弱／淘汰）也是<span class="tag tag-sys">系統近似</span>——
+書中做法是人工看 ○△× 做「綜合性判斷」（p.237，沒有一支股票會全部是○）。系統加權計分（書中標★的重要項目權重加倍）
+是為了自動排序與寄信門檻，分數相近時請自己看各項目內容，不要只比分數。</div>
+
+<h2>賣出：三種情況（第四章）</h2>
+<table>
+<thead><tr><th>條件</th><th>書中規則（出處）</th><th>本系統的做法</th><th>性質</th></tr></thead>
+<tbody>
+<tr><td>1. 停損</td>
+    <td>「停損必須在股價從買價下跌 8% 左右時進行，務必嚴格遵守」（賣股公式4，p.227）；幅度可依人設 7~10%（p.228）；跌 7~10% 且跌破近Ｎ日最低價可提前賣（p.228）；攤平是最糟糕的規則（p.228）</td>
+    <td>收盤跌破買價 8% → 立即賣出警報；跌幅達 7% 且跌破近 20 日最低收盤 → 提前警示。以每日收盤檢查（免費資料限制，非盤中即時）</td>
+    <td><span class="tag tag-book">書中原文</span></td></tr>
+<tr><td>2. 基本面惡化</td>
+    <td>單季獲利年增未達 20% 就賣，即使財測上修也一樣；爆發醜聞立即賣（p.192-193）。基本面賣訊通常太慢，僅供緊急應對（第四章第四節）</td>
+    <td>每天檢查持股最新一季稅前淨利年增，&lt;20% 觸發警報；醜聞無法自動偵測，靠你看新聞（AI 判斷的新聞連結可輔助）</td>
+    <td><span class="tag tag-book">書中原文</span></td></tr>
+<tr><td>3. 技術面（賣壓比例 SPR）</td>
+    <td>作者自創指標：以每日開高低收把行進拆成買盤段與賣壓段，按幅度比例分配成交量，SPR＝20 個營業日賣出股數÷買進股數，達 116~118% 為賣出訊號（第四章第五節，p.201-215）；訊號出現未必要立刻賣，可觀察（p.211-213）</td>
+    <td>照書中演算法完整實作（含書中數值範例的程式驗證），門檻 117%；觸發顯示「賣出訊號」（橘色，非紅色急賣）</td>
+    <td><span class="tag tag-book">書中原文</span></td></tr>
+</tbody>
+</table>
+
+<h2>資金管理與操作節奏</h2>
+<table>
+<thead><tr><th>規則</th><th>書中出處</th><th>本系統的做法</th><th>性質</th></tr></thead>
+<tbody>
+<tr><td>單檔上限 10%</td><td>模擬操作「每次都拿資產的 10% 當投資額」（p.28）</td>
+    <td>Email 附建議金額（總資產 × 10%）</td><td><span class="tag tag-book">書中原文</span></td></tr>
+<tr><td>依行情增減買量</td><td>「行情走強可增加單次股數量，走弱則減少」（p.95）</td>
+    <td>綠燈全額、黃燈減半、紅燈不買</td><td><span class="tag tag-book">書中原文</span><span class="tag tag-sys">減半比例為系統設定</span></td></tr>
+<tr><td>從最小單位開始</td><td>「就算口袋很深，也請從最小單位開始買起」（p.22）</td>
+    <td>小額可用台股零股執行，規則完全相同</td><td><span class="tag tag-book">書中原文</span></td></tr>
+<tr><td>訊號隔日開盤買進</td><td>訊號收盤確認、機械式操作（第一章模擬設定，p.28-29）</td>
+    <td>收盤後掃描 → 通知 → 你隔日開盤下單；虛擬操盤用同一假設</td><td><span class="tag tag-book">書中原文</span></td></tr>
+<tr><td>虛擬操盤部位公式</td><td>—（書中無此公式）</td>
+    <td>部位％＝燈號基準（綠10%／黃5%／紅0）×（檢核分數÷100），把「行情強弱」與「訊號品質」都納入，每筆成交記錄寫明算式；含台股手續費與證交稅</td>
+    <td><span class="tag tag-sys">系統近似</span></td></tr>
+</tbody>
+</table>
+
+<h2>網頁本身用到的方法與技術</h2>
+<div class="help">上面是「投資規則」，這裡說明「這個網頁怎麼運作、資料哪裡來、算法在做什麼」。
+全部程式與計算公開在 <a href="https://github.com/20070117cheng/stock-breakout-signals" target="_blank" rel="noopener">GitHub</a>，可自行檢視。</div>
+<table>
+<thead><tr><th>功能</th><th>怎麼運作 / 用到的方法</th><th>資料來源</th></tr></thead>
+<tbody>
+<tr><td>每日自動掃描</td>
+    <td>GitHub Actions 排程（雲端伺服器，與你的電腦無關）：台股每交易日 16:30、美股每交易日 06:00（台北時間）自動執行，收盤資料為準</td>
+    <td>GitHub Actions（免費額度）</td></tr>
+<tr><td>股價與掃描範圍</td>
+    <td>批次下載全市場收盤價，快取成檔案增量更新（省流量）；台股上市＋上櫃約 2000 檔、美股 S&amp;P500＋NASDAQ100 約 500 檔</td>
+    <td>Yahoo Finance（yfinance）、FinMind、Wikipedia 成分股表</td></tr>
+<tr><td>大盤燈號走勢線</td>
+    <td>每日算「創一年新高家數÷全市場家數」，取 10 日移動平均畫成走勢線（即書中圖表 2-25）；燈號＝此比率在近一年分布的位置＋與一個月前比的趨勢（<span class="tag tag-sys">系統近似</span>，非書中公式）</td>
+    <td>由股價計算</td></tr>
+<tr><td>賣壓比例 SPR</td>
+    <td>用每日開高低收還原當日買賣路徑、按幅度分配成交量，滾動 20 日計算（書 p.201-215 演算法，已用書中數值範例做程式驗證）</td>
+    <td>由持股 OHLCV 計算</td></tr>
+<tr><td>AI 第⑦項判斷</td>
+    <td>對較強候選（每日最多 8 檔）蒐集新聞與營運數字，交給 Gemini 模型依書中標準判斷，推理與來源顯示於評分卡；失敗自動退回人工，且模型有備援清單</td>
+    <td>Google News＋Google Gemini API（免費額度）</td></tr>
+<tr><td>Email 通知</td>
+    <td>有買賣訊號時，用 Gmail 應用程式密碼透過 SMTP 寄信給你自己；無訊號不寄</td>
+    <td>Gmail SMTP</td></tr>
+<tr><td>虛擬操盤</td>
+    <td>純機械模擬（不吃 AI 意見），訊號隔日開盤價成交、記錄每筆買賣與資產曲線，當作「方法本身」的成效基準線</td>
+    <td>由股價與訊號計算</td></tr>
+<tr><td>持股快速登錄</td>
+    <td>網頁是靜態頁面無法直接寫資料，改用「表單產生 GitHub Issue → 雲端自動解析寫入 holdings.csv → 回覆並關閉」；僅接受你本人帳號的 Issue</td>
+    <td>GitHub Issues + Actions</td></tr>
+<tr><td>儀表板網頁</td>
+    <td>每次掃描後由程式重新產生單一 HTML，推送到 GitHub Pages 免費空間；純靜態、無後端、無追蹤</td>
+    <td>GitHub Pages</td></tr>
+</tbody>
+</table>
+<div class="help">完整資料來源清單（含各項連結與更新頻率）在「大盤燈號」分頁最下方。
+這一切都設計成不依賴任何付費訂閱（含 AI 訂閱），你之後不續訂也能繼續自動運作。</div>
+
 <h2>每天的例行流程（2 分鐘）</h2>
 <div class="help">
 1. 看「大盤燈號」決定今天的心態（綠＝積極、黃＝保守、紅＝休息）。<br>
-2. 有收到 Email 才需要動作：買進候選 → 做第⑦項功課 → 決定要不要隔天開盤買；持股警報 → 依指示賣出。<br>
-3. 買賣之後記得更新 <code>holdings.csv</code>。<br>
+2. 有收到 Email 才需要動作：買進候選 → 看評分卡與 AI 依據、有餘力查法說會 → 決定要不要隔天開盤買；持股警報 → 依指示賣出。<br>
+3. 買賣之後到「持股監控」用快速登錄表單更新。<br>
 4. 週末有空去「訊號記錄」複盤，並比較「虛擬操盤」和自己的操作差在哪。
 </div>
 </section>
