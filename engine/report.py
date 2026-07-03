@@ -283,6 +283,44 @@ footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 <div class="help">{_dot(g)} 綠燈＝創新高股多、行情強，可依計畫買進（單檔上限＝總資產 10%）｜
 {_dot(y)} 黃燈＝力道普通，減量操作｜{_dot(r)} 紅燈＝創新高股稀少，書中建議空手等待。
 判斷依據：全市場「創一年新高家數比率」與前 50 大市值股動向（書第二章第六節）。</div>
+
+<h2>資料來源</h2>
+<table>
+<thead><tr><th>資料</th><th>來源</th><th>用途</th><th>更新頻率</th></tr></thead>
+<tbody>
+<tr><td>股價（台股＋美股）</td>
+    <td><a href="https://finance.yahoo.com" target="_blank" rel="noopener">Yahoo Finance</a>（yfinance）</td>
+    <td>突破新高偵測、大盤燈號、停損監控、賣壓比例、虛擬操盤成交價</td><td>每個交易日收盤後</td></tr>
+<tr><td>台股公司清單</td>
+    <td><a href="https://finmindtrade.com" target="_blank" rel="noopener">FinMind</a></td>
+    <td>掃描範圍（上市＋上櫃全部普通股）</td><td>每次執行</td></tr>
+<tr><td>台股財報（稅前淨利、營收、EPS）</td>
+    <td><a href="https://finmindtrade.com" target="_blank" rel="noopener">FinMind</a>
+        （原始來源：<a href="https://mops.twse.com.tw" target="_blank" rel="noopener">公開資訊觀測站</a>）</td>
+    <td>檢核表③④⑤⑥⑧、持股基本面監控</td><td>候選股出現時查詢</td></tr>
+<tr><td>台股月營收</td>
+    <td><a href="https://finmindtrade.com" target="_blank" rel="noopener">FinMind</a></td>
+    <td>檢核表⑤（營收動能輔助）</td><td>候選股出現時查詢</td></tr>
+<tr><td>美股財報與本益比</td>
+    <td><a href="https://finance.yahoo.com" target="_blank" rel="noopener">Yahoo Finance</a>（yfinance）</td>
+    <td>檢核表③④⑤⑥⑧、持股基本面監控</td><td>候選股出現時查詢</td></tr>
+<tr><td>美股成分股清單</td>
+    <td><a href="https://en.wikipedia.org/wiki/List_of_S%26P_500_companies" target="_blank" rel="noopener">Wikipedia S&amp;P 500</a>、
+        <a href="https://en.wikipedia.org/wiki/Nasdaq-100" target="_blank" rel="noopener">Wikipedia Nasdaq-100</a></td>
+    <td>掃描範圍</td><td>每次執行</td></tr>
+<tr><td>個股新聞</td>
+    <td><a href="https://news.google.com" target="_blank" rel="noopener">Google News</a></td>
+    <td>AI 第⑦項判斷的證據（各評分卡內附引用連結）</td><td>AI 判斷時查詢</td></tr>
+<tr><td>AI 模型</td>
+    <td><a href="https://ai.google.dev" target="_blank" rel="noopener">Google Gemini API</a></td>
+    <td>檢核表第⑦項參考意見（推理過程顯示於評分卡）</td><td>每日最多 8 檔</td></tr>
+<tr><td>系統程式碼與執行紀錄</td>
+    <td><a href="https://github.com/20070117cheng/stock-breakout-signals" target="_blank" rel="noopener">GitHub（本專案）</a></td>
+    <td>所有規則與計算公開可查，Actions 頁可看每次執行過程</td><td>—</td></tr>
+</tbody>
+</table>
+<p class="muted">所有資料源皆為免費公開資料，可能有延遲或錯漏；關鍵決策前建議至券商軟體或
+<a href="https://mops.twse.com.tw" target="_blank" rel="noopener">公開資訊觀測站</a>複核原始數字。</p>
 </section>
 
 <section id="tab-buy" class="tab">
