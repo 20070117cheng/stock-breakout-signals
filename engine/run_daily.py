@@ -12,8 +12,9 @@ from pathlib import Path
 
 import pandas as pd
 import yaml
+import yfinance as yf
 
-from engine import datastore, notify, report, universe
+from engine import datastore, notify, paper as pp, report, universe
 from engine.scoring import build_scorecard
 from engine.signals import fundamentals as fu
 from engine.signals import market as mk
@@ -200,6 +201,32 @@ def main() -> None:
     holdings = monitor_holdings(market, load_holdings(market), cfg)
     sell_alerts = [h for h in holdings if h["action"] != "HOLD"]
 
+    # 4.5 虛擬操盤（紙上交易，追蹤方法成效）
+    paper = pp.load_paper(cfg)
+    pm = paper[market]
+    pending = [o["ticker"] for o in pm["pending_buys"] + pm["pending_sells"]]
+    opens: dict[str, float] = {}
+    if pending:
+        try:
+            odf = yf.download(pending, period="5d", progress=False, auto_adjust=True)["Open"]
+            if isinstance(odf, pd.Series):
+                odf = odf.to_frame(pending[0])
+            opens = {t: float(odf[t].dropna().iloc[-1]) for t in odf.columns if odf[t].notna().any()}
+        except Exception:
+            print(f"[paper] 開盤價抓取失敗，排單保留至下次：\n{traceback.format_exc()}")
+    paper_evals = monitor_holdings(
+        market,
+        [{"ticker": p["ticker"], "name": p["name"], "buy_price": p["buy_price"]} for p in pm["positions"]],
+        cfg,
+    )
+    closes_last = {t: float(v) for t, v in close.iloc[-1].dropna().items()}
+    executed = pp.run_paper_cycle(
+        pm, market, date_str, opens, closes_last, notified, paper_evals, gauge["light"]
+    )
+    pp.save_paper(paper)
+    if executed:
+        print(f"[paper] 今日虛擬成交 {len(executed)} 筆")
+
     # 5. 狀態、記錄、儀表板
     state = report.load_state()
     state[market] = {
@@ -211,6 +238,19 @@ def main() -> None:
         "n_universe": int(close.iloc[-1].notna().sum()),
         "buy_candidates": buy_candidates,
         "holdings": holdings,
+        "paper": {
+            "start_capital": pm["start_capital"],
+            "cash": round(pm["cash"], 2),
+            "equity": pm["equity_history"][-1]["equity"] if pm["equity_history"] else pm["start_capital"],
+            "equity_history": pm["equity_history"][-160:],
+            "positions": [
+                {**p, "pnl_pct": p["last_price"] / p["buy_price"] - 1} for p in pm["positions"]
+            ],
+            "trades": pm["trades"][-20:],
+            "n_trades": len(pm["trades"]),
+            "pending_buys": [o["name"] for o in pm["pending_buys"]],
+            "pending_sells": [o["ticker"] for o in pm["pending_sells"]],
+        },
     }
     report.save_state(state)
 
