@@ -160,12 +160,12 @@
   "n_universe": 517,
   "buy_candidates": [
    {
-    "ticker": "ESS",
-    "name": "Essex Property Trust",
-    "close": 298.33,
-    "rebound": 0.94660393152755,
+    "ticker": "AIZ",
+    "name": "Assurant",
+    "close": 279.48,
+    "rebound": 1.0,
     "rebound_grade": "O",
-    "base_quality": 0.8947200572482255,
+    "base_quality": 0.7949556687353858,
     "scorecard": {
      "items": [
       {
@@ -173,7 +173,7 @@
        "name": "① 股價突破近年來高價",
        "grade": "O",
        "symbol": "○",
-       "detail": "收盤 298.33 創近 2 年新高",
+       "detail": "收盤 279.48 創近 2 年新高",
        "starred": true
       },
       {
@@ -181,23 +181,272 @@
        "name": "② 新高價位置（反彈幅度≥60%）",
        "grade": "O",
        "symbol": "○",
-       "detail": "反彈幅度 95%（目標≥60%），平穩期品質 89%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 79%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
        "starred": true
       },
       {
        "key": "3",
        "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "T",
-       "symbol": "△",
-       "detail": "近5年平均年成長 25%，成長年份占 33%（成長不夠穩定）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近5年平均年成長 54%，成長年份占 100%",
        "starred": false
       },
       {
        "key": "4",
        "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近四季獲利年增 -13%",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "近四季獲利年增 17%（接近 20% 門檻）",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近1期季營收年增 11%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近1季獲利年增 83%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "AI 判斷（僅供參考，請複核依據）：由於現有新聞與數據僅提及業績創歷史新高並調高展望，缺乏具體成長驅動因素的細節，無法判斷其成長是否來自結構性變化。",
+       "starred": true,
+       "ai": {
+        "grade": "T",
+        "one_line": "由於現有新聞與數據僅提及業績創歷史新高並調高展望，缺乏具體成長驅動因素的細節，無法判斷其成長是否來自結構性變化。",
+        "analysis": "雖然公司近期營運數字表現極為亮眼，近一季獲利年增達 83% 且創下歷史新高，並調高了全年展望。然而，所提供的八篇新聞僅為財報發布、電話會議紀錄與分析師調升目標價的標題，並未揭露任何關於業務成長的具體結構性原因（如市占率提升或商業模式變革）。在缺乏詳細業務成長動能資訊的情況下，無法排除其僅為短期景氣循環或一次性因素所致，依保守原則判定為證據不足。",
+        "risks": [
+         "因缺乏具體業務資訊，無法評估其核心業務（如行動裝置或房屋保險）面臨的實質競爭與市場風險。",
+         "若高成長僅源於短期景氣波動而非結構性轉變，未來獲利恐面臨無預警衰退。"
+        ],
+        "sources": [
+         {
+          "title": "Assurant (AIZ) Q1 2026 Earnings Call Transcript - Fortune",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCcF9PR25KT3JNZEdJVjN6TXljNG9LcnBmYzJnbkNfNjBxNUNZd05DbThMV3p5OGRoQ0c3clNDYnhHM1JuLXYyOUlHOUxSZ2ZIRzF1YXd0SFQxajZZR05DREppbHI?oc=5",
+          "date": "Sat, 27 Jun 2026",
+          "source": "Fortune"
+         },
+         {
+          "title": "Assurant Increases Full Year Outlook on Record First Quarter Results - Business Wire",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTHVJd3dXRnAxYjlXTHdkdHI2ZzdPZ3g1Qko4bXhER3RQWXRMUWtmX3dIcEQzSW5zY1FJZDBJU04wMEJ1d2htUi1tV05MZkpUT3dGUVJlTU9wbGJtVUJncGI0dWN3VnFqVFNYZmx2ZFZia0NlSGFyZzV2R1dSbVdXNGozb2VVcndfaTNzdC1MQWozRk1MQWVyaEY4ZXQxdnRDUWtZNTVaVmxSWlk4dHd5Nm5KUFFIdldrTkJDNUczLURZZ2c?oc=5",
+          "date": "Tue, 05 May 2026",
+          "source": "Business Wire"
+         },
+         {
+          "title": "Assurant Inc (NYSE:AIZ) Delivers Best Quarter in History, Smashes Estimates and Raises Full-Year Outlook - ChartMill",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPT0NmX3pHZXRGSzdjSE04b2h3ako2TEJMUFJHTHp0VVU0UkgxUmt6OTVFSV8xNUFDQjgyZGIxQnhDc1dYTklrejlqdFhzb0VYbElIY1cxMEsxczRaaWtzcHdaUUtRMC1pd1J1RmlTekZHY1NyLWRSQkZGZDBYd1p0bks2bTQ1VEVBOHJNTUxDcmlIS2RTcllRZzFKVC1ST3ZGMjhXMmROR2FDdDZ6TWdmblRLWHBPMW9BU0VsOXVEODIyQWpQLXF0dXFFd3BQOFJibWNMMnBhZ2NRR0dmcHdjVzRNUndsdw?oc=5",
+          "date": "Tue, 05 May 2026",
+          "source": "ChartMill"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "Assurant Q1 2025 Earnings Report - BigGo ファイナンス",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjTlJ2akxPSmt0N0VwNEpETDMweWF2UE0wZEdJcmNlRE1FT25Ibm80a3llaVBUa3FuQm5DSllRT2ZtalNBektMQVhEdDRmUFFaeWRULUJ4MTBaMVI4UlBydG9NNjZwWkNCcTNRWGNzRll2R09X?oc=5",
+          "date": "Tue, 30 Jun 2026",
+          "source": "BigGo ファイナンス"
+         },
+         {
+          "title": "Assurant (AIZ) Q1 2026 Earnings Call Transcript - Fortune",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCcF9PR25KT3JNZEdJVjN6TXljNG9LcnBmYzJnbkNfNjBxNUNZd05DbThMV3p5OGRoQ0c3clNDYnhHM1JuLXYyOUlHOUxSZ2ZIRzF1YXd0SFQxajZZR05DREppbHI?oc=5",
+          "date": "Sat, 27 Jun 2026",
+          "source": "Fortune"
+         },
+         {
+          "title": "5 Revealing Analyst Questions From Assurant’s Q1 Earnings Call - StockStory",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaGkwRXU3RVBpeDd4TnpjbWh0OUV4a1A3ckxVVGRLZlpHVEFSTllCTmdpUHN5WklKRHYwd2JuTUpLZVE1dmtDWWhid0RHenM0cTR2OVhVNHpiVTFaOUVFTU9wb3JReXhPZmg2VkdqS2s0c2pkNkp0NjNZRW9TOFNJWGdrU3dDZjM5R09zR25LZTRaeVRGM3ktSGxzNVZMd3c4OTlqTHNIOERleUpnVmxKZlJ4b3FESl9HM3MwOVJVTQ?oc=5",
+          "date": "Mon, 11 May 2026",
+          "source": "StockStory"
+         },
+         {
+          "title": "Assurant (AIZ) Tops Q1 Earnings and Revenue Estimates - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbV9rdW8xWlBONWI4eXhIc2IwOTJjbWt3ZFR0Yk95VTc4Slk0WFhEOExHdWc0OUk2VTBGMWE2R2tERGlSWmxjUy16NlZkUGpMUXFkUXl3eGlWYWJaN1RfT0tXcXRHNy1MSlZkVnJhRmVUd0RST1l1WWNyQmRGWkFCQ1I0N0o4RThJZkRQRV9aZS05Qm52bkpvbVFn?oc=5",
+          "date": "Tue, 05 May 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "AIZ Stock Near 52-Week High: A Signal for Investors to Hold Tight? - TradingView",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMHRwemRmaUxuUGs0R0IxUmJOVms3bnNGVWJ4QmVGY0xaeHNpSEhsVVMzajlNOVBBSGJObjNaSjJhMFZiNFNEV0tXYVhBRktYVkh0OVc0cFZvMXZLTlhzSlNXc3RCOTlYbkotRGNhdkVFRVNVNzcwWDhoSE52enBxeXFMQi01Z3ozeXNZbEJkYzVjeXA3OUhrTFRKbUNjWG4xZ2VmQjdsZ0x5QnkzY1RPVzM0T0dqem1IZ3Q3TQ?oc=5",
+          "date": "Mon, 29 Jun 2026",
+          "source": "TradingView"
+         },
+         {
+          "title": "Assurant Increases Full Year Outlook on Record First Quarter Results - Business Wire",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTHVJd3dXRnAxYjlXTHdkdHI2ZzdPZ3g1Qko4bXhER3RQWXRMUWtmX3dIcEQzSW5zY1FJZDBJU04wMEJ1d2htUi1tV05MZkpUT3dGUVJlTU9wbGJtVUJncGI0dWN3VnFqVFNYZmx2ZFZia0NlSGFyZzV2R1dSbVdXNGozb2VVcndfaTNzdC1MQWozRk1MQWVyaEY4ZXQxdnRDUWtZNTVaVmxSWlk4dHd5Nm5KUFFIdldrTkJDNUczLURZZ2c?oc=5",
+          "date": "Tue, 05 May 2026",
+          "source": "Business Wire"
+         },
+         {
+          "title": "Assurant Inc (NYSE:AIZ) Delivers Best Quarter in History, Smashes Estimates and Raises Full-Year Outlook - ChartMill",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPT0NmX3pHZXRGSzdjSE04b2h3ako2TEJMUFJHTHp0VVU0UkgxUmt6OTVFSV8xNUFDQjgyZGIxQnhDc1dYTklrejlqdFhzb0VYbElIY1cxMEsxczRaaWtzcHdaUUtRMC1pd1J1RmlTekZHY1NyLWRSQkZGZDBYd1p0bks2bTQ1VEVBOHJNTUxDcmlIS2RTcllRZzFKVC1ST3ZGMjhXMmROR2FDdDZ6TWdmblRLWHBPMW9BU0VsOXVEODIyQWpQLXF0dXFFd3BQOFJibWNMMnBhZ2NRR0dmcHdjVzRNUndsdw?oc=5",
+          "date": "Tue, 05 May 2026",
+          "source": "ChartMill"
+         },
+         {
+          "title": "Truist raises Assurant stock price target to $310 on growth momentum - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWjA5cnhITUxWdWp4OG9CVmwtMi1kaV90THE3aUlpZTYyYVB3QURBRDJKQ0lFRTlTbmt1THBZUlI1aTZpMXN3WEsxRkNjS3diTF9jMGR3dk1Ba0M1MVJpU2gwOG8xUEgxcVNOdldqb2N6a3h0RW9WNXdoNDJOWWw5NXV0VTZzNUxfSjIyRDliVm51RzkxOVJXX0E4SVhTWXJ4bGM0MWVJSjI4dzk3MGdGUjl3c244Y0tRcGxLX0tNeTJqdVNSQkE?oc=5",
+          "date": "Wed, 17 Jun 2026",
+          "source": "Investing.com"
+         }
+        ],
+        "model": "gemini-flash-latest",
+        "judged_at": "2026-07-03 10:39"
+       }
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 14.3 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 89,
+     "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+    },
+    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量",
+    "ai7": {
+     "grade": "T",
+     "one_line": "由於現有新聞與數據僅提及業績創歷史新高並調高展望，缺乏具體成長驅動因素的細節，無法判斷其成長是否來自結構性變化。",
+     "analysis": "雖然公司近期營運數字表現極為亮眼，近一季獲利年增達 83% 且創下歷史新高，並調高了全年展望。然而，所提供的八篇新聞僅為財報發布、電話會議紀錄與分析師調升目標價的標題，並未揭露任何關於業務成長的具體結構性原因（如市占率提升或商業模式變革）。在缺乏詳細業務成長動能資訊的情況下，無法排除其僅為短期景氣循環或一次性因素所致，依保守原則判定為證據不足。",
+     "risks": [
+      "因缺乏具體業務資訊，無法評估其核心業務（如行動裝置或房屋保險）面臨的實質競爭與市場風險。",
+      "若高成長僅源於短期景氣波動而非結構性轉變，未來獲利恐面臨無預警衰退。"
+     ],
+     "sources": [
+      {
+       "title": "Assurant (AIZ) Q1 2026 Earnings Call Transcript - Fortune",
+       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCcF9PR25KT3JNZEdJVjN6TXljNG9LcnBmYzJnbkNfNjBxNUNZd05DbThMV3p5OGRoQ0c3clNDYnhHM1JuLXYyOUlHOUxSZ2ZIRzF1YXd0SFQxajZZR05DREppbHI?oc=5",
+       "date": "Sat, 27 Jun 2026",
+       "source": "Fortune"
+      },
+      {
+       "title": "Assurant Increases Full Year Outlook on Record First Quarter Results - Business Wire",
+       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTHVJd3dXRnAxYjlXTHdkdHI2ZzdPZ3g1Qko4bXhER3RQWXRMUWtmX3dIcEQzSW5zY1FJZDBJU04wMEJ1d2htUi1tV05MZkpUT3dGUVJlTU9wbGJtVUJncGI0dWN3VnFqVFNYZmx2ZFZia0NlSGFyZzV2R1dSbVdXNGozb2VVcndfaTNzdC1MQWozRk1MQWVyaEY4ZXQxdnRDUWtZNTVaVmxSWlk4dHd5Nm5KUFFIdldrTkJDNUczLURZZ2c?oc=5",
+       "date": "Tue, 05 May 2026",
+       "source": "Business Wire"
+      },
+      {
+       "title": "Assurant Inc (NYSE:AIZ) Delivers Best Quarter in History, Smashes Estimates and Raises Full-Year Outlook - ChartMill",
+       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPT0NmX3pHZXRGSzdjSE04b2h3ako2TEJMUFJHTHp0VVU0UkgxUmt6OTVFSV8xNUFDQjgyZGIxQnhDc1dYTklrejlqdFhzb0VYbElIY1cxMEsxczRaaWtzcHdaUUtRMC1pd1J1RmlTekZHY1NyLWRSQkZGZDBYd1p0bks2bTQ1VEVBOHJNTUxDcmlIS2RTcllRZzFKVC1ST3ZGMjhXMmROR2FDdDZ6TWdmblRLWHBPMW9BU0VsOXVEODIyQWpQLXF0dXFFd3BQOFJibWNMMnBhZ2NRR0dmcHdjVzRNUndsdw?oc=5",
+       "date": "Tue, 05 May 2026",
+       "source": "ChartMill"
+      }
+     ],
+     "all_news": [
+      {
+       "title": "Assurant Q1 2025 Earnings Report - BigGo ファイナンス",
+       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjTlJ2akxPSmt0N0VwNEpETDMweWF2UE0wZEdJcmNlRE1FT25Ibm80a3llaVBUa3FuQm5DSllRT2ZtalNBektMQVhEdDRmUFFaeWRULUJ4MTBaMVI4UlBydG9NNjZwWkNCcTNRWGNzRll2R09X?oc=5",
+       "date": "Tue, 30 Jun 2026",
+       "source": "BigGo ファイナンス"
+      },
+      {
+       "title": "Assurant (AIZ) Q1 2026 Earnings Call Transcript - Fortune",
+       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCcF9PR25KT3JNZEdJVjN6TXljNG9LcnBmYzJnbkNfNjBxNUNZd05DbThMV3p5OGRoQ0c3clNDYnhHM1JuLXYyOUlHOUxSZ2ZIRzF1YXd0SFQxajZZR05DREppbHI?oc=5",
+       "date": "Sat, 27 Jun 2026",
+       "source": "Fortune"
+      },
+      {
+       "title": "5 Revealing Analyst Questions From Assurant’s Q1 Earnings Call - StockStory",
+       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaGkwRXU3RVBpeDd4TnpjbWh0OUV4a1A3ckxVVGRLZlpHVEFSTllCTmdpUHN5WklKRHYwd2JuTUpLZVE1dmtDWWhid0RHenM0cTR2OVhVNHpiVTFaOUVFTU9wb3JReXhPZmg2VkdqS2s0c2pkNkp0NjNZRW9TOFNJWGdrU3dDZjM5R09zR25LZTRaeVRGM3ktSGxzNVZMd3c4OTlqTHNIOERleUpnVmxKZlJ4b3FESl9HM3MwOVJVTQ?oc=5",
+       "date": "Mon, 11 May 2026",
+       "source": "StockStory"
+      },
+      {
+       "title": "Assurant (AIZ) Tops Q1 Earnings and Revenue Estimates - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbV9rdW8xWlBONWI4eXhIc2IwOTJjbWt3ZFR0Yk95VTc4Slk0WFhEOExHdWc0OUk2VTBGMWE2R2tERGlSWmxjUy16NlZkUGpMUXFkUXl3eGlWYWJaN1RfT0tXcXRHNy1MSlZkVnJhRmVUd0RST1l1WWNyQmRGWkFCQ1I0N0o4RThJZkRQRV9aZS05Qm52bkpvbVFn?oc=5",
+       "date": "Tue, 05 May 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "AIZ Stock Near 52-Week High: A Signal for Investors to Hold Tight? - TradingView",
+       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMHRwemRmaUxuUGs0R0IxUmJOVms3bnNGVWJ4QmVGY0xaeHNpSEhsVVMzajlNOVBBSGJObjNaSjJhMFZiNFNEV0tXYVhBRktYVkh0OVc0cFZvMXZLTlhzSlNXc3RCOTlYbkotRGNhdkVFRVNVNzcwWDhoSE52enBxeXFMQi01Z3ozeXNZbEJkYzVjeXA3OUhrTFRKbUNjWG4xZ2VmQjdsZ0x5QnkzY1RPVzM0T0dqem1IZ3Q3TQ?oc=5",
+       "date": "Mon, 29 Jun 2026",
+       "source": "TradingView"
+      },
+      {
+       "title": "Assurant Increases Full Year Outlook on Record First Quarter Results - Business Wire",
+       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTHVJd3dXRnAxYjlXTHdkdHI2ZzdPZ3g1Qko4bXhER3RQWXRMUWtmX3dIcEQzSW5zY1FJZDBJU04wMEJ1d2htUi1tV05MZkpUT3dGUVJlTU9wbGJtVUJncGI0dWN3VnFqVFNYZmx2ZFZia0NlSGFyZzV2R1dSbVdXNGozb2VVcndfaTNzdC1MQWozRk1MQWVyaEY4ZXQxdnRDUWtZNTVaVmxSWlk4dHd5Nm5KUFFIdldrTkJDNUczLURZZ2c?oc=5",
+       "date": "Tue, 05 May 2026",
+       "source": "Business Wire"
+      },
+      {
+       "title": "Assurant Inc (NYSE:AIZ) Delivers Best Quarter in History, Smashes Estimates and Raises Full-Year Outlook - ChartMill",
+       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPT0NmX3pHZXRGSzdjSE04b2h3ako2TEJMUFJHTHp0VVU0UkgxUmt6OTVFSV8xNUFDQjgyZGIxQnhDc1dYTklrejlqdFhzb0VYbElIY1cxMEsxczRaaWtzcHdaUUtRMC1pd1J1RmlTekZHY1NyLWRSQkZGZDBYd1p0bks2bTQ1VEVBOHJNTUxDcmlIS2RTcllRZzFKVC1ST3ZGMjhXMmROR2FDdDZ6TWdmblRLWHBPMW9BU0VsOXVEODIyQWpQLXF0dXFFd3BQOFJibWNMMnBhZ2NRR0dmcHdjVzRNUndsdw?oc=5",
+       "date": "Tue, 05 May 2026",
+       "source": "ChartMill"
+      },
+      {
+       "title": "Truist raises Assurant stock price target to $310 on growth momentum - Investing.com",
+       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWjA5cnhITUxWdWp4OG9CVmwtMi1kaV90THE3aUlpZTYyYVB3QURBRDJKQ0lFRTlTbmt1THBZUlI1aTZpMXN3WEsxRkNjS3diTF9jMGR3dk1Ba0M1MVJpU2gwOG8xUEgxcVNOdldqb2N6a3h0RW9WNXdoNDJOWWw5NXV0VTZzNUxfSjIyRDliVm51RzkxOVJXX0E4SVhTWXJ4bGM0MWVJSjI4dzk3MGdGUjl3c244Y0tRcGxLX0tNeTJqdVNSQkE?oc=5",
+       "date": "Wed, 17 Jun 2026",
+       "source": "Investing.com"
+      }
+     ],
+     "model": "gemini-flash-latest",
+     "judged_at": "2026-07-03 10:39"
+    }
+   },
+   {
+    "ticker": "VRTX",
+    "name": "Vertex Pharmaceuticals",
+    "close": 528.04,
+    "rebound": 1.0,
+    "rebound_grade": "O",
+    "base_quality": 0.8606720922337368,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 528.04 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 86%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近5年平均年成長 559%，成長年份占 67%",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近四季獲利年增 1768%",
        "starred": false
       },
       {
@@ -205,7 +454,487 @@
        "name": "⑤ 最近2~3季營收成長≥10%",
        "grade": "X",
        "symbol": "×",
-       "detail": "近1期季營收年增 4%",
+       "detail": "近1期季營收年增 8%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近1季獲利年增 72%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "AI 判斷（僅供參考，請複核依據）：現有資訊僅提及新藥 Povetacicept 與管線計畫，但缺乏其臨床進展、市場潛力及能否帶來結構性成長的具體數據。",
+       "starred": true,
+       "ai": {
+        "grade": "T",
+        "one_line": "現有資訊僅提及新藥 Povetacicept 與管線計畫，但缺乏其臨床進展、市場潛力及能否帶來結構性成長的具體數據。",
+        "analysis": "根據提供之數據，公司近期財務表現強勁，近一季獲利年增達 72%，且分析師因管線計畫與盈餘樂觀而調升評等。然而，新聞僅以標題提及「Povetacicept 可能重新定義成長敘事」及「管線焦點」，並未提供該藥物的具體療效、市場潛力或核准進度等實質資訊。在缺乏新產品結構性成長之具體證據下，無法評估其未來獲利能否穩健成長。",
+        "risks": "1. 新藥 Povetacicept 研發與核准進度不如預期的風險。2. 既有囊狀纖維化（CF）藥物市場成長放緩或競爭加劇的風險。",
+        "sources": [
+         {
+          "title": "Why Vertex Pharmaceuticals (VRTX) Is Up 8.8% After Analyst Upgrades On Earnings Optimism And Pipeline Focus - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWFhKbVE2YmJ0eUphNlRreXlsMTdzM1BjdDU0TVk2QnZfMHUxNzNTcF9IbDJTNlBCdWlZT2RHUFJVOHlDMVAtdldBLXdWc3BGOUlTTkpONnZ4ZkkwRzdUQlBNb1F0ZlhKUGtOZVdZMk5ocjRpTXhoSGlqUnNiVWRJQ1lVR1ctUXVuYnFPRDJRcWI4aDZpbi1ob1pqOVVpWDRFNGdXQkZmTFM0MEhtdUt3c3lraXo4aENpYlAwcEI0dWs1c3BneGhzWHVLczlzdXZ1VXVmNmJyTmFyeHZlWGFkdHdNX0NWXy16Qm8zMdIB8gFBVV95cUxPaXZmdjBmbmRINXdoVUdQQ1J6MlV5OERUMlZPem8xbDl1RFdzQnRxakVOU0QtaFNUdU10V05zUUFqZGFzVjY2cktiRzJDMGxkR0NYRzRhbURVR01JNC1aYUtXRUQzOXdRNXNtdWNMZUNMdUJNaWtrZ3BkdmhoME9NRVJIQmVodjFEb3RHeU9VRzZ5UHE0bnhmV3lhdVhxRTVDRGJEOVBFSjVEOUhDUXRTSnRNUHpkM2VzZDc3VDQzeThta1RjUkxWbTVER29VZ0l2N2VVV2gyUF9wTWRZSWhyODhGQXRIcFRzbU9zV0V2cjV0Zw?oc=5",
+          "date": "Sun, 28 Jun 2026",
+          "source": "simplywall.st"
+         },
+         {
+          "title": "Vertex Pharmaceuticals: Povetacicept May Redefine Growth Narrative (Rating Upgrade) (VRTX) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaXd1cVRJTG5BTTlvSWRTSTVaRDZBOFJZT1dicm1FMUNsb21LVXdPN2tJZnYzVjRlRjRRbzZreC14UmUtajd6UnRNQm5yMlNEaHJGVXE5bnFYTzdRS2RpT3ZXVWlqQlZTTzcwVWYtOVlrMkFuclJtMFVXby1OY3RlbnpYbUJsQUMzSG40bGRISVlLekRvUjBaaVVBMXhsNnNYSzBISzdQaEhUQzZBb1k5WXgzVzBPZkRLZTlaZWtB?oc=5",
+          "date": "Wed, 24 Jun 2026",
+          "source": "Seeking Alpha"
+         },
+         {
+          "title": "Vertex Pharmaceuticals (VRTX) Q1 Earnings and Revenues Beat Estimates - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0l2c2w2MVA5anluSE1YWG9yb2IyUWFzT3ZlNVFnZ1BhY21nVFFOMTBlMTlPZVNZY2dDa19EZ2NJM0JUT1BZQm1EUGN0TU1GUnVBSEVZWVlYTUJKc2VwNnlSZEluamV0UjZIbnBZeUpVbU1sSjByTU5kVWtTMm1NMkVDclBXd3I5RTk0RV82UDJ3V0UtdUJhSm85SUwxaEkxQ2czNHp1OA?oc=5",
+          "date": "Mon, 04 May 2026",
+          "source": "Yahoo Finance"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "Investors Heavily Search Vertex Pharmaceuticals Incorporated (VRTX): Here is What You Need to Know - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlVZTzFkVUEzUW15a3hzT0F5ek8wbkZTMzB0U0FWakxPWlptZkNDN3AwLXNWdWxEa0FBOFBHTDFNZWNZeTluaUhBelc5MXotU19xeEhRMnVzYkw5RzFLc2xGZlYza2pxdEh2WTlkZF8tRDY3blBzb1NKZVQ0TU50ZTFSRkRYX25FSm9JWjEtdGtXN1NhVlFuREtibXZWZ0IxcEU2LXlBMnB2a2hWNWZiV3VR?oc=5",
+          "date": "Wed, 01 Jul 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "Therapeutics Stocks Q1 Recap: Benchmarking Vertex Pharmaceuticals (NASDAQ:VRTX) - StockStory",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdDZyUHIwM3dZb3NhYnpvMl9hVFF2b09QdEZfRkg2QThQNE1yRjZ5S19UdWhFbGI3OHM1X2FfSTVGYzlqckdQcnNWQmpXOWY1dEtiOVNlaWtsZHNMYl9NOXBaYkhOX3FtTmJTZ0tRVU5kdFNVVzFiaHloM0RGTmx5eEhrSmd5MnN1a0RoT0NKeVVVREkzZVk5LTJvdnU1b1NMUktXbnN1R2NLWmJNMS1IZmdQREZNS0Z2Tjc3THpydnh2UTl3cTZFYmxHQmRMd28?oc=5",
+          "date": "Mon, 29 Jun 2026",
+          "source": "StockStory"
+         },
+         {
+          "title": "Why Vertex Pharmaceuticals (VRTX) Is Up 8.8% After Analyst Upgrades On Earnings Optimism And Pipeline Focus - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWFhKbVE2YmJ0eUphNlRreXlsMTdzM1BjdDU0TVk2QnZfMHUxNzNTcF9IbDJTNlBCdWlZT2RHUFJVOHlDMVAtdldBLXdWc3BGOUlTTkpONnZ4ZkkwRzdUQlBNb1F0ZlhKUGtOZVdZMk5ocjRpTXhoSGlqUnNiVWRJQ1lVR1ctUXVuYnFPRDJRcWI4aDZpbi1ob1pqOVVpWDRFNGdXQkZmTFM0MEhtdUt3c3lraXo4aENpYlAwcEI0dWs1c3BneGhzWHVLczlzdXZ1VXVmNmJyTmFyeHZlWGFkdHdNX0NWXy16Qm8zMdIB8gFBVV95cUxPaXZmdjBmbmRINXdoVUdQQ1J6MlV5OERUMlZPem8xbDl1RFdzQnRxakVOU0QtaFNUdU10V05zUUFqZGFzVjY2cktiRzJDMGxkR0NYRzRhbURVR01JNC1aYUtXRUQzOXdRNXNtdWNMZUNMdUJNaWtrZ3BkdmhoME9NRVJIQmVodjFEb3RHeU9VRzZ5UHE0bnhmV3lhdVhxRTVDRGJEOVBFSjVEOUhDUXRTSnRNUHpkM2VzZDc3VDQzeThta1RjUkxWbTVER29VZ0l2N2VVV2gyUF9wTWRZSWhyODhGQXRIcFRzbU9zV0V2cjV0Zw?oc=5",
+          "date": "Sun, 28 Jun 2026",
+          "source": "simplywall.st"
+         },
+         {
+          "title": "Vertex Pharmaceuticals: Povetacicept May Redefine Growth Narrative (Rating Upgrade) (VRTX) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaXd1cVRJTG5BTTlvSWRTSTVaRDZBOFJZT1dicm1FMUNsb21LVXdPN2tJZnYzVjRlRjRRbzZreC14UmUtajd6UnRNQm5yMlNEaHJGVXE5bnFYTzdRS2RpT3ZXVWlqQlZTTzcwVWYtOVlrMkFuclJtMFVXby1OY3RlbnpYbUJsQUMzSG40bGRISVlLekRvUjBaaVVBMXhsNnNYSzBISzdQaEhUQzZBb1k5WXgzVzBPZkRLZTlaZWtB?oc=5",
+          "date": "Wed, 24 Jun 2026",
+          "source": "Seeking Alpha"
+         },
+         {
+          "title": "Vertex Pharmaceuticals Incorporated(NasdaqGS:VRTX) dropped from Russell 3000E Growth Benchmark - marketscreener.com",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRVAwVTZhUGdOVUZxblFjM051UXBTOUVfMERqVnVDVEVaV2Yzc1l4djRTRzdZckwyWjA3alpQcUlFbThDWkVQeVMtNUdlSGR4ZEtMTzN4RVhjSFhsVXRuQkE1YTEtQlRhSk9QNm80MUltS0k2VGtGbmlCdU1zalZjbnpuWjVTQXFBQnA3cmVxWGFqRV9BV2tKVmdBVlBERE11Mm1EbmhLMHY5ZUxwSUFuTm9LRHZ0OXV2OTgwUVlmZFNfSXU5NDVTaFNsNVB4ZE9EaTc2Wk5TVU8tc0xzQ2VJ?oc=5",
+          "date": "Mon, 29 Jun 2026",
+          "source": "marketscreener.com"
+         },
+         {
+          "title": "Vertex earnings get muted investor response - BioPharma Dive",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOU8wZVBoRm1QUzdCU1RCWmFMYVBJTjh0ZndsdnZwaG1NcUdGYzVfN2tSRkFiaEpNSlBsblE2aHNzWE0yVGRPaXJYbFlmeExxanhmMkFjaUc0YnUzLWlWcHpETTdOQVM3cy0zcWNVMDgxakpmWWtLZDNGT3M5T0VxRlFFWFd0MUJqbFlHeU0xTUt5Y0diS0Y5dkR2eDB1ekt6UzU3SFFGZw?oc=5",
+          "date": "Tue, 05 May 2026",
+          "source": "BioPharma Dive"
+         },
+         {
+          "title": "Vertex Pharmaceuticals (NASDAQ:VRTX): A GARP Growth Stock with Reasonable Valuation and Strong Fundamentals - ChartMill",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQUVhHQnlLX21PaU02dU1KSld3ZTVkTHRXTFc3cVo2SmNhRld6b3BtNktDRWJ3LWJfeWtYLXkwa3hmcm8way0yVkRRREp4eUtnSUZMbHZNWUJvZWh4bmFUMGpEOE5KYkJmaEd5MDZvaC1EM2lJMlFadktPeXBTSFJIV0hrQk5OWi1xQ1hRS01HVHRUZzR2NTZoN1FLMk1ZbXJuTkhXdFB1cms2RFVELUM1clJxeVpHYWJENFU5QkM3NTNOZ2k1ZGFEMmpMYzZMaWZaaTJvcnVncW5LaTZGYjlCVld4MVhTSF8zckRJ?oc=5",
+          "date": "Tue, 23 Jun 2026",
+          "source": "ChartMill"
+         },
+         {
+          "title": "Vertex Pharmaceuticals (VRTX) Q1 Earnings and Revenues Beat Estimates - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0l2c2w2MVA5anluSE1YWG9yb2IyUWFzT3ZlNVFnZ1BhY21nVFFOMTBlMTlPZVNZY2dDa19EZ2NJM0JUT1BZQm1EUGN0TU1GUnVBSEVZWVlYTUJKc2VwNnlSZEluamV0UjZIbnBZeUpVbU1sSjByTU5kVWtTMm1NMkVDclBXd3I5RTk0RV82UDJ3V0UtdUJhSm85SUwxaEkxQ2czNHp1OA?oc=5",
+          "date": "Mon, 04 May 2026",
+          "source": "Yahoo Finance"
+         }
+        ],
+        "model": "gemini-flash-latest",
+        "judged_at": "2026-07-03 10:39"
+       }
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 31.4 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 86,
+     "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+    },
+    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量",
+    "ai7": {
+     "grade": "T",
+     "one_line": "現有資訊僅提及新藥 Povetacicept 與管線計畫，但缺乏其臨床進展、市場潛力及能否帶來結構性成長的具體數據。",
+     "analysis": "根據提供之數據，公司近期財務表現強勁，近一季獲利年增達 72%，且分析師因管線計畫與盈餘樂觀而調升評等。然而，新聞僅以標題提及「Povetacicept 可能重新定義成長敘事」及「管線焦點」，並未提供該藥物的具體療效、市場潛力或核准進度等實質資訊。在缺乏新產品結構性成長之具體證據下，無法評估其未來獲利能否穩健成長。",
+     "risks": "1. 新藥 Povetacicept 研發與核准進度不如預期的風險。2. 既有囊狀纖維化（CF）藥物市場成長放緩或競爭加劇的風險。",
+     "sources": [
+      {
+       "title": "Why Vertex Pharmaceuticals (VRTX) Is Up 8.8% After Analyst Upgrades On Earnings Optimism And Pipeline Focus - simplywall.st",
+       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWFhKbVE2YmJ0eUphNlRreXlsMTdzM1BjdDU0TVk2QnZfMHUxNzNTcF9IbDJTNlBCdWlZT2RHUFJVOHlDMVAtdldBLXdWc3BGOUlTTkpONnZ4ZkkwRzdUQlBNb1F0ZlhKUGtOZVdZMk5ocjRpTXhoSGlqUnNiVWRJQ1lVR1ctUXVuYnFPRDJRcWI4aDZpbi1ob1pqOVVpWDRFNGdXQkZmTFM0MEhtdUt3c3lraXo4aENpYlAwcEI0dWs1c3BneGhzWHVLczlzdXZ1VXVmNmJyTmFyeHZlWGFkdHdNX0NWXy16Qm8zMdIB8gFBVV95cUxPaXZmdjBmbmRINXdoVUdQQ1J6MlV5OERUMlZPem8xbDl1RFdzQnRxakVOU0QtaFNUdU10V05zUUFqZGFzVjY2cktiRzJDMGxkR0NYRzRhbURVR01JNC1aYUtXRUQzOXdRNXNtdWNMZUNMdUJNaWtrZ3BkdmhoME9NRVJIQmVodjFEb3RHeU9VRzZ5UHE0bnhmV3lhdVhxRTVDRGJEOVBFSjVEOUhDUXRTSnRNUHpkM2VzZDc3VDQzeThta1RjUkxWbTVER29VZ0l2N2VVV2gyUF9wTWRZSWhyODhGQXRIcFRzbU9zV0V2cjV0Zw?oc=5",
+       "date": "Sun, 28 Jun 2026",
+       "source": "simplywall.st"
+      },
+      {
+       "title": "Vertex Pharmaceuticals: Povetacicept May Redefine Growth Narrative (Rating Upgrade) (VRTX) - Seeking Alpha",
+       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaXd1cVRJTG5BTTlvSWRTSTVaRDZBOFJZT1dicm1FMUNsb21LVXdPN2tJZnYzVjRlRjRRbzZreC14UmUtajd6UnRNQm5yMlNEaHJGVXE5bnFYTzdRS2RpT3ZXVWlqQlZTTzcwVWYtOVlrMkFuclJtMFVXby1OY3RlbnpYbUJsQUMzSG40bGRISVlLekRvUjBaaVVBMXhsNnNYSzBISzdQaEhUQzZBb1k5WXgzVzBPZkRLZTlaZWtB?oc=5",
+       "date": "Wed, 24 Jun 2026",
+       "source": "Seeking Alpha"
+      },
+      {
+       "title": "Vertex Pharmaceuticals (VRTX) Q1 Earnings and Revenues Beat Estimates - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0l2c2w2MVA5anluSE1YWG9yb2IyUWFzT3ZlNVFnZ1BhY21nVFFOMTBlMTlPZVNZY2dDa19EZ2NJM0JUT1BZQm1EUGN0TU1GUnVBSEVZWVlYTUJKc2VwNnlSZEluamV0UjZIbnBZeUpVbU1sSjByTU5kVWtTMm1NMkVDclBXd3I5RTk0RV82UDJ3V0UtdUJhSm85SUwxaEkxQ2czNHp1OA?oc=5",
+       "date": "Mon, 04 May 2026",
+       "source": "Yahoo Finance"
+      }
+     ],
+     "all_news": [
+      {
+       "title": "Investors Heavily Search Vertex Pharmaceuticals Incorporated (VRTX): Here is What You Need to Know - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlVZTzFkVUEzUW15a3hzT0F5ek8wbkZTMzB0U0FWakxPWlptZkNDN3AwLXNWdWxEa0FBOFBHTDFNZWNZeTluaUhBelc5MXotU19xeEhRMnVzYkw5RzFLc2xGZlYza2pxdEh2WTlkZF8tRDY3blBzb1NKZVQ0TU50ZTFSRkRYX25FSm9JWjEtdGtXN1NhVlFuREtibXZWZ0IxcEU2LXlBMnB2a2hWNWZiV3VR?oc=5",
+       "date": "Wed, 01 Jul 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "Therapeutics Stocks Q1 Recap: Benchmarking Vertex Pharmaceuticals (NASDAQ:VRTX) - StockStory",
+       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdDZyUHIwM3dZb3NhYnpvMl9hVFF2b09QdEZfRkg2QThQNE1yRjZ5S19UdWhFbGI3OHM1X2FfSTVGYzlqckdQcnNWQmpXOWY1dEtiOVNlaWtsZHNMYl9NOXBaYkhOX3FtTmJTZ0tRVU5kdFNVVzFiaHloM0RGTmx5eEhrSmd5MnN1a0RoT0NKeVVVREkzZVk5LTJvdnU1b1NMUktXbnN1R2NLWmJNMS1IZmdQREZNS0Z2Tjc3THpydnh2UTl3cTZFYmxHQmRMd28?oc=5",
+       "date": "Mon, 29 Jun 2026",
+       "source": "StockStory"
+      },
+      {
+       "title": "Why Vertex Pharmaceuticals (VRTX) Is Up 8.8% After Analyst Upgrades On Earnings Optimism And Pipeline Focus - simplywall.st",
+       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWFhKbVE2YmJ0eUphNlRreXlsMTdzM1BjdDU0TVk2QnZfMHUxNzNTcF9IbDJTNlBCdWlZT2RHUFJVOHlDMVAtdldBLXdWc3BGOUlTTkpONnZ4ZkkwRzdUQlBNb1F0ZlhKUGtOZVdZMk5ocjRpTXhoSGlqUnNiVWRJQ1lVR1ctUXVuYnFPRDJRcWI4aDZpbi1ob1pqOVVpWDRFNGdXQkZmTFM0MEhtdUt3c3lraXo4aENpYlAwcEI0dWs1c3BneGhzWHVLczlzdXZ1VXVmNmJyTmFyeHZlWGFkdHdNX0NWXy16Qm8zMdIB8gFBVV95cUxPaXZmdjBmbmRINXdoVUdQQ1J6MlV5OERUMlZPem8xbDl1RFdzQnRxakVOU0QtaFNUdU10V05zUUFqZGFzVjY2cktiRzJDMGxkR0NYRzRhbURVR01JNC1aYUtXRUQzOXdRNXNtdWNMZUNMdUJNaWtrZ3BkdmhoME9NRVJIQmVodjFEb3RHeU9VRzZ5UHE0bnhmV3lhdVhxRTVDRGJEOVBFSjVEOUhDUXRTSnRNUHpkM2VzZDc3VDQzeThta1RjUkxWbTVER29VZ0l2N2VVV2gyUF9wTWRZSWhyODhGQXRIcFRzbU9zV0V2cjV0Zw?oc=5",
+       "date": "Sun, 28 Jun 2026",
+       "source": "simplywall.st"
+      },
+      {
+       "title": "Vertex Pharmaceuticals: Povetacicept May Redefine Growth Narrative (Rating Upgrade) (VRTX) - Seeking Alpha",
+       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaXd1cVRJTG5BTTlvSWRTSTVaRDZBOFJZT1dicm1FMUNsb21LVXdPN2tJZnYzVjRlRjRRbzZreC14UmUtajd6UnRNQm5yMlNEaHJGVXE5bnFYTzdRS2RpT3ZXVWlqQlZTTzcwVWYtOVlrMkFuclJtMFVXby1OY3RlbnpYbUJsQUMzSG40bGRISVlLekRvUjBaaVVBMXhsNnNYSzBISzdQaEhUQzZBb1k5WXgzVzBPZkRLZTlaZWtB?oc=5",
+       "date": "Wed, 24 Jun 2026",
+       "source": "Seeking Alpha"
+      },
+      {
+       "title": "Vertex Pharmaceuticals Incorporated(NasdaqGS:VRTX) dropped from Russell 3000E Growth Benchmark - marketscreener.com",
+       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRVAwVTZhUGdOVUZxblFjM051UXBTOUVfMERqVnVDVEVaV2Yzc1l4djRTRzdZckwyWjA3alpQcUlFbThDWkVQeVMtNUdlSGR4ZEtMTzN4RVhjSFhsVXRuQkE1YTEtQlRhSk9QNm80MUltS0k2VGtGbmlCdU1zalZjbnpuWjVTQXFBQnA3cmVxWGFqRV9BV2tKVmdBVlBERE11Mm1EbmhLMHY5ZUxwSUFuTm9LRHZ0OXV2OTgwUVlmZFNfSXU5NDVTaFNsNVB4ZE9EaTc2Wk5TVU8tc0xzQ2VJ?oc=5",
+       "date": "Mon, 29 Jun 2026",
+       "source": "marketscreener.com"
+      },
+      {
+       "title": "Vertex earnings get muted investor response - BioPharma Dive",
+       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOU8wZVBoRm1QUzdCU1RCWmFMYVBJTjh0ZndsdnZwaG1NcUdGYzVfN2tSRkFiaEpNSlBsblE2aHNzWE0yVGRPaXJYbFlmeExxanhmMkFjaUc0YnUzLWlWcHpETTdOQVM3cy0zcWNVMDgxakpmWWtLZDNGT3M5T0VxRlFFWFd0MUJqbFlHeU0xTUt5Y0diS0Y5dkR2eDB1ekt6UzU3SFFGZw?oc=5",
+       "date": "Tue, 05 May 2026",
+       "source": "BioPharma Dive"
+      },
+      {
+       "title": "Vertex Pharmaceuticals (NASDAQ:VRTX): A GARP Growth Stock with Reasonable Valuation and Strong Fundamentals - ChartMill",
+       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQUVhHQnlLX21PaU02dU1KSld3ZTVkTHRXTFc3cVo2SmNhRld6b3BtNktDRWJ3LWJfeWtYLXkwa3hmcm8way0yVkRRREp4eUtnSUZMbHZNWUJvZWh4bmFUMGpEOE5KYkJmaEd5MDZvaC1EM2lJMlFadktPeXBTSFJIV0hrQk5OWi1xQ1hRS01HVHRUZzR2NTZoN1FLMk1ZbXJuTkhXdFB1cms2RFVELUM1clJxeVpHYWJENFU5QkM3NTNOZ2k1ZGFEMmpMYzZMaWZaaTJvcnVncW5LaTZGYjlCVld4MVhTSF8zckRJ?oc=5",
+       "date": "Tue, 23 Jun 2026",
+       "source": "ChartMill"
+      },
+      {
+       "title": "Vertex Pharmaceuticals (VRTX) Q1 Earnings and Revenues Beat Estimates - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0l2c2w2MVA5anluSE1YWG9yb2IyUWFzT3ZlNVFnZ1BhY21nVFFOMTBlMTlPZVNZY2dDa19EZ2NJM0JUT1BZQm1EUGN0TU1GUnVBSEVZWVlYTUJKc2VwNnlSZEluamV0UjZIbnBZeUpVbU1sSjByTU5kVWtTMm1NMkVDclBXd3I5RTk0RV82UDJ3V0UtdUJhSm85SUwxaEkxQ2czNHp1OA?oc=5",
+       "date": "Mon, 04 May 2026",
+       "source": "Yahoo Finance"
+      }
+     ],
+     "model": "gemini-flash-latest",
+     "judged_at": "2026-07-03 10:39"
+    }
+   },
+   {
+    "ticker": "CB",
+    "name": "Chubb Limited",
+    "close": 361.17,
+    "rebound": 1.0,
+    "rebound_grade": "O",
+    "base_quality": 0.8504655608337595,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 361.17 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 85%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近5年平均年成長 27%，成長年份占 100%",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近四季獲利年增 14%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近1期季營收年增 11%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近1季獲利年增 80%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "AI 判斷（僅供參考，請複核依據）：現有新聞僅揭露短期獲利因天災損失減少而暴增，缺乏能證明未來具備結構性成長的長期趨勢或商業模式證據。",
+       "starred": true,
+       "ai": {
+        "grade": "T",
+        "one_line": "現有新聞僅揭露短期獲利因天災損失減少而暴增，缺乏能證明未來具備結構性成長的長期趨勢或商業模式證據。",
+        "analysis": "根據提供之新聞，公司第一季獲利大增主要歸因於天災損失大幅驟降，此屬於隨機或週期性因素而非結構性改變。雖然保費收入有所增長，但新聞中並未提及任何關於市占率提升、商業模式變革或長期產業趨勢等結構性成長的具體證據。在缺乏未來長期成長驅動因素的資訊下，身為保守的分析師，無法僅憑短期財報表現判斷其未來能否穩健成長。",
+        "risks": [
+         "天災損失具有高度不確定性，若未來天災增加將導致獲利劇烈波動。",
+         "缺乏結構性成長動能，獲利易受保險市場景氣與氣候變化影響。"
+        ],
+        "sources": [
+         {
+          "title": "Chubb Reports First Quarter Per Share Net Income and Core Operating Income of $5.88 and $6.82, Respectively, Up 78.8% and 85.2%; Consolidated Net Premiums Written of $14.0 Billion, Up 10.7%, with P&C and Life Insurance Up 7.2% and 33.1%; P&C Co - PR Newswire",
+          "link": "https://news.google.com/rss/articles/CBMiigNBVV95cUxORmJRMHFzSEtIa254bWZZU0RYSThNUDlXZ2pBaUQxM2JEcGpUbHV5OVJLc1BTVmRfNEhEbENzaUsyWHExUHNzYXZlSGtYaDBZRFZRWEw4ZGplVDFPT1lPOURwVmRtaW15WGhLLU9ielRZS3A4bGZXbEhJYnBna1M5YkNGSVlpQWJ2dmtFdVU5TVNLaGpsc1pQRjYwaWp4d1lVQThnN0RLZDgwSEU2TmNvWUR0YnByQ1FocEwxczh1YzZ5X2NwYlEzd2lZTmN2UHYyU0lVSGg1Z1FJcjZ0WWZQVGlIdWZXazIwOS1WZHVvN0paMW1udTAzenpXTDQ0SXlYM29VQ1d5VHRmR2tCbndxT3pPOEFYTFdwU3RXOS12c2RYblJHcDFjNmR0QkMwaGZ3a281dGRhVVBvRDctS1gxb1V0aVdkTG5VaDBlS1ppV2ljZU1qZjZaMGFxbC1sbXdqTGdFYWFWRXV2TWhRRkhYc0dnY1d4UTNRdDlDSmFoSlp1UVZ1WXJhUVJ3?oc=5",
+          "date": "Tue, 21 Apr 2026",
+          "source": "PR Newswire"
+         },
+         {
+          "title": "Chubb crushes Q1 forecasts as catastrophe losses plunge - Insurance Business",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPX2E3bDhGNWtvaUxGTkdYNW0tTmpqOE5uYUZqVGVQdEdyRDF4Wk1fSlZCX2R3WlJZRlhUejRJTFAxOVpla2VGZ1kyUHNseFoxVlRtRmJOU1ZWUlF3NnNHNWRZWlJHNS1fcXBLT0llRW5KLVZlelpIOEFaMTVZUThNX185X0QwN3dsdGhxNUt3UzRuZ2IyTkZqVjhuYUUzZ3ZsTHM0M0Ezd3JkWDVFcW5LWEl4NHh5SW5YZ2Y4Mk5vVjdtTlRn?oc=5",
+          "date": "Wed, 22 Apr 2026",
+          "source": "Insurance Business"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "Chubb Limited to Hold its Second Quarter Earnings Conference Call on Wednesday, July 22, 2026 - marketscreener.com",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOFhva1J0bXFRc2UybjhNRnhrU1B2allTRnVhVnRkQ0RublRDcUMyeklEdDM0QVh1a3VGXzB3V01KSDlmdUtaWFR6bFlwT0JtNmxFY2RPbUVRVWJIRGZvMmprMmdrXzBTbnB6LWlXSDFaWEdyQWF6YmZiaUtUWUpPT2UzZm9IZ00xcEp4cE9QSWxhMngzSml2b1dycE9MUUJkQ1pERUxxaXg1aXA0TUtnY3RwSF9EcGRUVDgtTXVQTmtKc01YdzdYdDk5TkxYMXJ0bTNaYzhBZDNDdlZR?oc=5",
+          "date": "Tue, 30 Jun 2026",
+          "source": "marketscreener.com"
+         },
+         {
+          "title": "CB Stock Outperforms Industry, Trades Near 52-Week High: Time to Exit? - TradingView",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVE1SVmVRb1lOMThSc0I0S2E2ci1wRkdGNGFMQzRyRlc1cWRtNGs0bUZRYUI1eS02Y0ZUaFFZaTBCQVNDWTlfZy04alktc0ZvOXQ2eGFrODNxTWNCRU1INVRDaHJlN25rWVozQnZXUlk0eE5xWVItcEJkVzQ4UzNsaTlQUWdOMnN4eVJySFY5ZHZRWURNREU3SEpBeHlTVGtUeFBLbmRfcl9TQmNJaURHU0NxTGdlQXZ6NzdNdWxwQlc?oc=5",
+          "date": "Wed, 01 Jul 2026",
+          "source": "TradingView"
+         },
+         {
+          "title": "Chubb (CB) Reports Q1: Everything You Need To Know Ahead Of Earnings - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWWRsZkFsWWZ6UWRDMUtrMU5yT253cFhxbkttaG9JamFLYWpPVWFoT1RfYjQ2UVlqMlFBWEFjUENTR3BsZTJKdnlnTTFpdi0yVEd3U0gxc2lyWkZJd0RtcWE2MHdGaU9RMkNCZU81RjJINFNjYjdFM2N5bXFLX0liU2x5YlJ1bUNHZFIzLVNDRXRsMWlsM01xbmIyWQ?oc=5",
+          "date": "Mon, 20 Apr 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "Chubb Reports First Quarter Per Share Net Income and Core Operating Income of $5.88 and $6.82, Respectively, Up 78.8% and 85.2%; Consolidated Net Premiums Written of $14.0 Billion, Up 10.7%, with P&C and Life Insurance Up 7.2% and 33.1%; P&C Co - PR Newswire",
+          "link": "https://news.google.com/rss/articles/CBMiigNBVV95cUxORmJRMHFzSEtIa254bWZZU0RYSThNUDlXZ2pBaUQxM2JEcGpUbHV5OVJLc1BTVmRfNEhEbENzaUsyWHExUHNzYXZlSGtYaDBZRFZRWEw4ZGplVDFPT1lPOURwVmRtaW15WGhLLU9ielRZS3A4bGZXbEhJYnBna1M5YkNGSVlpQWJ2dmtFdVU5TVNLaGpsc1pQRjYwaWp4d1lVQThnN0RLZDgwSEU2TmNvWUR0YnByQ1FocEwxczh1YzZ5X2NwYlEzd2lZTmN2UHYyU0lVSGg1Z1FJcjZ0WWZQVGlIdWZXazIwOS1WZHVvN0paMW1udTAzenpXTDQ0SXlYM29VQ1d5VHRmR2tCbndxT3pPOEFYTFdwU3RXOS12c2RYblJHcDFjNmR0QkMwaGZ3a281dGRhVVBvRDctS1gxb1V0aVdkTG5VaDBlS1ppV2ljZU1qZjZaMGFxbC1sbXdqTGdFYWFWRXV2TWhRRkhYc0dnY1d4UTNRdDlDSmFoSlp1UVZ1WXJhUVJ3?oc=5",
+          "date": "Tue, 21 Apr 2026",
+          "source": "PR Newswire"
+         },
+         {
+          "title": "Chubb Limited to hold Q2 earnings call on July 22, 2026 - scanx.trade",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPX2wxZ0h2ZkZEdVU2OU9HVWl5ZHdCY2VnU0cwN2NZQTZaazlZb2pjdW9NSWNDc1U3cjZESkJrd0kwQnZTbHJEaDNrYkhEN2YwUEFHcW4yUzFmelZsRDc5TTdTZzlhek1aZmhiTWZ5aFJwQU9ENjRpaUFqbURrQktqV0QwSHpDTVlPMFZYM2l6dXVsZEo4T2ozNUZRaGd3cm5ucXZNLURLejBjSUVDTWVNMw?oc=5",
+          "date": "Tue, 30 Jun 2026",
+          "source": "scanx.trade"
+         },
+         {
+          "title": "Chubb Limited Earnings Preview: What to Expect - Barchart.com",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeEJUYXVRQVU3OGlQdWI2WGNlVlhMUTMyN0hSVkIxYjY3UDFEQkdRTlloUGlvLXlGMkQxRVpVbjFNbXA1eWtJRmVCVl83bkUxNk5lemZnb0c3dWwxVml2TU1RcUd6NWZULWVWLXJKOWViMW12ZVNXUlVwZXJTOTRHQ3RXcXl4LXlFZHoteS02dkszS1k?oc=5",
+          "date": "Tue, 07 Apr 2026",
+          "source": "Barchart.com"
+         },
+         {
+          "title": "Chubb (NYSE:CB) Exceeds Q1 CY2026 Expectations - StockStory",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdkpzVzlLWXVvazlBek4wcGYzenRjUzI2eGJVLWJBcWZMT3lDUUJlbjVlLThsRktRR3NjVGJrRkhIS2ItemZxbE1iVXRGVWFrVkpMR2RINE94cUxQLU81Z3FtbmstNkhOMkdpay1adHY0RVdKbjhyOFlOVXlpWFEwS3VDa01rN3dsdVJkaE5seGxlRzVrRTVYaTYzSnhkZG8?oc=5",
+          "date": "Wed, 22 Apr 2026",
+          "source": "StockStory"
+         },
+         {
+          "title": "Chubb crushes Q1 forecasts as catastrophe losses plunge - Insurance Business",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPX2E3bDhGNWtvaUxGTkdYNW0tTmpqOE5uYUZqVGVQdEdyRDF4Wk1fSlZCX2R3WlJZRlhUejRJTFAxOVpla2VGZ1kyUHNseFoxVlRtRmJOU1ZWUlF3NnNHNWRZWlJHNS1fcXBLT0llRW5KLVZlelpIOEFaMTVZUThNX185X0QwN3dsdGhxNUt3UzRuZ2IyTkZqVjhuYUUzZ3ZsTHM0M0Ezd3JkWDVFcW5LWEl4NHh5SW5YZ2Y4Mk5vVjdtTlRn?oc=5",
+          "date": "Wed, 22 Apr 2026",
+          "source": "Insurance Business"
+         }
+        ],
+        "model": "gemini-flash-latest",
+        "judged_at": "2026-07-03 10:40"
+       }
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 12.8 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 86,
+     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+    },
+    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+    "ai7": {
+     "grade": "T",
+     "one_line": "現有新聞僅揭露短期獲利因天災損失減少而暴增，缺乏能證明未來具備結構性成長的長期趨勢或商業模式證據。",
+     "analysis": "根據提供之新聞，公司第一季獲利大增主要歸因於天災損失大幅驟降，此屬於隨機或週期性因素而非結構性改變。雖然保費收入有所增長，但新聞中並未提及任何關於市占率提升、商業模式變革或長期產業趨勢等結構性成長的具體證據。在缺乏未來長期成長驅動因素的資訊下，身為保守的分析師，無法僅憑短期財報表現判斷其未來能否穩健成長。",
+     "risks": [
+      "天災損失具有高度不確定性，若未來天災增加將導致獲利劇烈波動。",
+      "缺乏結構性成長動能，獲利易受保險市場景氣與氣候變化影響。"
+     ],
+     "sources": [
+      {
+       "title": "Chubb Reports First Quarter Per Share Net Income and Core Operating Income of $5.88 and $6.82, Respectively, Up 78.8% and 85.2%; Consolidated Net Premiums Written of $14.0 Billion, Up 10.7%, with P&C and Life Insurance Up 7.2% and 33.1%; P&C Co - PR Newswire",
+       "link": "https://news.google.com/rss/articles/CBMiigNBVV95cUxORmJRMHFzSEtIa254bWZZU0RYSThNUDlXZ2pBaUQxM2JEcGpUbHV5OVJLc1BTVmRfNEhEbENzaUsyWHExUHNzYXZlSGtYaDBZRFZRWEw4ZGplVDFPT1lPOURwVmRtaW15WGhLLU9ielRZS3A4bGZXbEhJYnBna1M5YkNGSVlpQWJ2dmtFdVU5TVNLaGpsc1pQRjYwaWp4d1lVQThnN0RLZDgwSEU2TmNvWUR0YnByQ1FocEwxczh1YzZ5X2NwYlEzd2lZTmN2UHYyU0lVSGg1Z1FJcjZ0WWZQVGlIdWZXazIwOS1WZHVvN0paMW1udTAzenpXTDQ0SXlYM29VQ1d5VHRmR2tCbndxT3pPOEFYTFdwU3RXOS12c2RYblJHcDFjNmR0QkMwaGZ3a281dGRhVVBvRDctS1gxb1V0aVdkTG5VaDBlS1ppV2ljZU1qZjZaMGFxbC1sbXdqTGdFYWFWRXV2TWhRRkhYc0dnY1d4UTNRdDlDSmFoSlp1UVZ1WXJhUVJ3?oc=5",
+       "date": "Tue, 21 Apr 2026",
+       "source": "PR Newswire"
+      },
+      {
+       "title": "Chubb crushes Q1 forecasts as catastrophe losses plunge - Insurance Business",
+       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPX2E3bDhGNWtvaUxGTkdYNW0tTmpqOE5uYUZqVGVQdEdyRDF4Wk1fSlZCX2R3WlJZRlhUejRJTFAxOVpla2VGZ1kyUHNseFoxVlRtRmJOU1ZWUlF3NnNHNWRZWlJHNS1fcXBLT0llRW5KLVZlelpIOEFaMTVZUThNX185X0QwN3dsdGhxNUt3UzRuZ2IyTkZqVjhuYUUzZ3ZsTHM0M0Ezd3JkWDVFcW5LWEl4NHh5SW5YZ2Y4Mk5vVjdtTlRn?oc=5",
+       "date": "Wed, 22 Apr 2026",
+       "source": "Insurance Business"
+      }
+     ],
+     "all_news": [
+      {
+       "title": "Chubb Limited to Hold its Second Quarter Earnings Conference Call on Wednesday, July 22, 2026 - marketscreener.com",
+       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOFhva1J0bXFRc2UybjhNRnhrU1B2allTRnVhVnRkQ0RublRDcUMyeklEdDM0QVh1a3VGXzB3V01KSDlmdUtaWFR6bFlwT0JtNmxFY2RPbUVRVWJIRGZvMmprMmdrXzBTbnB6LWlXSDFaWEdyQWF6YmZiaUtUWUpPT2UzZm9IZ00xcEp4cE9QSWxhMngzSml2b1dycE9MUUJkQ1pERUxxaXg1aXA0TUtnY3RwSF9EcGRUVDgtTXVQTmtKc01YdzdYdDk5TkxYMXJ0bTNaYzhBZDNDdlZR?oc=5",
+       "date": "Tue, 30 Jun 2026",
+       "source": "marketscreener.com"
+      },
+      {
+       "title": "CB Stock Outperforms Industry, Trades Near 52-Week High: Time to Exit? - TradingView",
+       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVE1SVmVRb1lOMThSc0I0S2E2ci1wRkdGNGFMQzRyRlc1cWRtNGs0bUZRYUI1eS02Y0ZUaFFZaTBCQVNDWTlfZy04alktc0ZvOXQ2eGFrODNxTWNCRU1INVRDaHJlN25rWVozQnZXUlk0eE5xWVItcEJkVzQ4UzNsaTlQUWdOMnN4eVJySFY5ZHZRWURNREU3SEpBeHlTVGtUeFBLbmRfcl9TQmNJaURHU0NxTGdlQXZ6NzdNdWxwQlc?oc=5",
+       "date": "Wed, 01 Jul 2026",
+       "source": "TradingView"
+      },
+      {
+       "title": "Chubb (CB) Reports Q1: Everything You Need To Know Ahead Of Earnings - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWWRsZkFsWWZ6UWRDMUtrMU5yT253cFhxbkttaG9JamFLYWpPVWFoT1RfYjQ2UVlqMlFBWEFjUENTR3BsZTJKdnlnTTFpdi0yVEd3U0gxc2lyWkZJd0RtcWE2MHdGaU9RMkNCZU81RjJINFNjYjdFM2N5bXFLX0liU2x5YlJ1bUNHZFIzLVNDRXRsMWlsM01xbmIyWQ?oc=5",
+       "date": "Mon, 20 Apr 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "Chubb Reports First Quarter Per Share Net Income and Core Operating Income of $5.88 and $6.82, Respectively, Up 78.8% and 85.2%; Consolidated Net Premiums Written of $14.0 Billion, Up 10.7%, with P&C and Life Insurance Up 7.2% and 33.1%; P&C Co - PR Newswire",
+       "link": "https://news.google.com/rss/articles/CBMiigNBVV95cUxORmJRMHFzSEtIa254bWZZU0RYSThNUDlXZ2pBaUQxM2JEcGpUbHV5OVJLc1BTVmRfNEhEbENzaUsyWHExUHNzYXZlSGtYaDBZRFZRWEw4ZGplVDFPT1lPOURwVmRtaW15WGhLLU9ielRZS3A4bGZXbEhJYnBna1M5YkNGSVlpQWJ2dmtFdVU5TVNLaGpsc1pQRjYwaWp4d1lVQThnN0RLZDgwSEU2TmNvWUR0YnByQ1FocEwxczh1YzZ5X2NwYlEzd2lZTmN2UHYyU0lVSGg1Z1FJcjZ0WWZQVGlIdWZXazIwOS1WZHVvN0paMW1udTAzenpXTDQ0SXlYM29VQ1d5VHRmR2tCbndxT3pPOEFYTFdwU3RXOS12c2RYblJHcDFjNmR0QkMwaGZ3a281dGRhVVBvRDctS1gxb1V0aVdkTG5VaDBlS1ppV2ljZU1qZjZaMGFxbC1sbXdqTGdFYWFWRXV2TWhRRkhYc0dnY1d4UTNRdDlDSmFoSlp1UVZ1WXJhUVJ3?oc=5",
+       "date": "Tue, 21 Apr 2026",
+       "source": "PR Newswire"
+      },
+      {
+       "title": "Chubb Limited to hold Q2 earnings call on July 22, 2026 - scanx.trade",
+       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPX2wxZ0h2ZkZEdVU2OU9HVWl5ZHdCY2VnU0cwN2NZQTZaazlZb2pjdW9NSWNDc1U3cjZESkJrd0kwQnZTbHJEaDNrYkhEN2YwUEFHcW4yUzFmelZsRDc5TTdTZzlhek1aZmhiTWZ5aFJwQU9ENjRpaUFqbURrQktqV0QwSHpDTVlPMFZYM2l6dXVsZEo4T2ozNUZRaGd3cm5ucXZNLURLejBjSUVDTWVNMw?oc=5",
+       "date": "Tue, 30 Jun 2026",
+       "source": "scanx.trade"
+      },
+      {
+       "title": "Chubb Limited Earnings Preview: What to Expect - Barchart.com",
+       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeEJUYXVRQVU3OGlQdWI2WGNlVlhMUTMyN0hSVkIxYjY3UDFEQkdRTlloUGlvLXlGMkQxRVpVbjFNbXA1eWtJRmVCVl83bkUxNk5lemZnb0c3dWwxVml2TU1RcUd6NWZULWVWLXJKOWViMW12ZVNXUlVwZXJTOTRHQ3RXcXl4LXlFZHoteS02dkszS1k?oc=5",
+       "date": "Tue, 07 Apr 2026",
+       "source": "Barchart.com"
+      },
+      {
+       "title": "Chubb (NYSE:CB) Exceeds Q1 CY2026 Expectations - StockStory",
+       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdkpzVzlLWXVvazlBek4wcGYzenRjUzI2eGJVLWJBcWZMT3lDUUJlbjVlLThsRktRR3NjVGJrRkhIS2ItemZxbE1iVXRGVWFrVkpMR2RINE94cUxQLU81Z3FtbmstNkhOMkdpay1adHY0RVdKbjhyOFlOVXlpWFEwS3VDa01rN3dsdVJkaE5seGxlRzVrRTVYaTYzSnhkZG8?oc=5",
+       "date": "Wed, 22 Apr 2026",
+       "source": "StockStory"
+      },
+      {
+       "title": "Chubb crushes Q1 forecasts as catastrophe losses plunge - Insurance Business",
+       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPX2E3bDhGNWtvaUxGTkdYNW0tTmpqOE5uYUZqVGVQdEdyRDF4Wk1fSlZCX2R3WlJZRlhUejRJTFAxOVpla2VGZ1kyUHNseFoxVlRtRmJOU1ZWUlF3NnNHNWRZWlJHNS1fcXBLT0llRW5KLVZlelpIOEFaMTVZUThNX185X0QwN3dsdGhxNUt3UzRuZ2IyTkZqVjhuYUUzZ3ZsTHM0M0Ezd3JkWDVFcW5LWEl4NHh5SW5YZ2Y4Mk5vVjdtTlRn?oc=5",
+       "date": "Wed, 22 Apr 2026",
+       "source": "Insurance Business"
+      }
+     ],
+     "model": "gemini-flash-latest",
+     "judged_at": "2026-07-03 10:40"
+    }
+   },
+   {
+    "ticker": "D",
+    "name": "Dominion Energy",
+    "close": 69.75,
+    "rebound": 0.9266473932060043,
+    "rebound_grade": "O",
+    "base_quality": 0.8224328428786976,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 69.75 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 93%（目標≥60%），平穩期品質 82%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近5年平均年成長 259%，成長年份占 67%",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近四季獲利年增 65%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近1期季營收年增 23%",
        "starred": false
       },
       {
@@ -213,7 +942,529 @@
        "name": "⑥ 最近2~3季獲利成長≥20%",
        "grade": "X",
        "symbol": "×",
-       "detail": "近1季獲利年增 -47%",
+       "detail": "近1季獲利年增 11%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "AI 判斷（僅供參考，請複核依據）：與NextEra合併打造全球最大受管制電力公用事業，並藉由其AI基礎建設優勢迎合結構性需求成長。",
+       "starred": true,
+       "ai": {
+        "grade": "O",
+        "one_line": "與NextEra合併打造全球最大受管制電力公用事業，並藉由其AI基礎建設優勢迎合結構性需求成長。",
+        "analysis": "根據新聞，Dominion與NextEra Energy達成價值約670億美元的合併案，將創立全球最大的受管制電力公用事業。此合併案不僅能提供資金支持成長，更顯示出Dominion在AI基礎建設趨勢中的核心價值。此外，公司持續升級電網以因應持續的成長需求。近期財務數據亦顯示獲利與營收皆呈現增長，具備穩健成長的結構性基礎。",
+        "risks": [
+         "合併案未能順利完成的監管或整合風險。",
+         "電網升級與基礎建設的高額資本支出壓力。"
+        ],
+        "sources": [
+         {
+          "title": "Dominion Energy Seeks Tie-Up With NextEra Energy To Fund Growth - Morningstar",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFpEVVV5N0l6aFV0ZDBXUVM3XzBlZWZJbnRzdTBuS0swY0pwSi1FRFdBWmljOUdFb25XajNRYTFpeHd5Z1ZJOWJmLW1ETlBya1k0NDRWbi15cm1WTlZqNFYxQ1FtS19ybXBvWHp0QnNKd0o1WU5Td3J0Y0xBYjdOSDRQN2lJVmU3TV9QcnpTZEdKVVlscmhNWFE2aG1JQVpCWHBucm9xMHBjVHFib3cwMFhIWWhkZw?oc=5",
+          "date": "Tue, 30 Jun 2026",
+          "source": "Morningstar"
+         },
+         {
+          "title": "Powering Mount Pleasant’s future: Dominion upgrades grid as growth continues - Live 5 News",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkZ1WUxkOUhIbnBIZ0NLYmFDVl9VZDFvNFJTcG5mWGVCZGtBOEpvY01PdnFDNGY3TXd4a0tydWJ6cTFMc29xX0lpS18xNUh0eFZ2NlBmZ2VnUngtdlgwbzdJRERVQ1dsMldvOWpsYUVDNG53a1NrYm1HY3ZMU3ZFanVnU3NheGY4dzZud1hGZkRHZEpPeFdTTEZTNVc3QjVDSTRXSUwyc08wQVF5d3fSAcIBQVVfeXFMTjZVRU92WGVRWnF5SUhvYUVRa2VqRjRYM2djcmpwYnIzNTJHemQxOUlUUmU5QVhrTTBwY0NtVlRBR2liLU5Bd3lVTVZIbTFBRG9EQXNRS0tfVG1sTmo0dWczb3ZqQk81bzI2Vjhmd0lxRTJ0MzJqWEtuLTN1UWQxRUhrQXBVMDc4c2RZd3pMOW05ci1zOWJjZTlqMUFfclJOLUN3MEluWkNDekExMUpIaEd0VTVBRUtITGQxMjF1UDVwbHc?oc=5",
+          "date": "Tue, 30 Jun 2026",
+          "source": "Live 5 News"
+         },
+         {
+          "title": "NextEra Energy and Dominion Energy to Combine, Creating the World's Largest Regulated Electric Utility Business and North America's Premier Energy Infrastructure Platform Benefiting Customers - May 18, 2026 - NextEra Energy Newsroom",
+          "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPU1BRVm5wa1A0WFQ3Uk9hZEdLZ0dzOW9fZjFURVZKRklab1UyT0VTekhJS3djN01BaVRQUGIxUFJUMURxSE1vZ3JiZ1FHSm1seW1TdWx5MnBQX3VXWkJyY2NhUk9kQVdzR1BHOFR4VXZUalBGWDloRFJXRExXQmFUQk5QWS1EUlJna3VrWWtqajhBMVh2LUc3V2hWT0I4RnlXNDZkUUlRTWZBbTJsZ01GV1F5ZTNpT2VzOHBtaE9Id1hvb05UdE56NnhTVDRuNUNYbVhpNHQ3bTl5TFZKSzYtMHk1QnhmQ1Mza2pFZ3FYdFBPQ2YwN1dRcWgyUWU2NkFEX1NaODdPOVh6RXYzT2s2SzdvZnRCVFhVNUtjS2M0d3JEM0RTeVpiR1otT0l1WkJyNXJhdEJScEFBRzZFQk15eFlCcFRTQWd3UGQtclhDZ3NiUVVyV096bS1EZHI?oc=5",
+          "date": "Mon, 18 May 2026",
+          "source": "NextEra Energy Newsroom"
+         },
+         {
+          "title": "NextEra’s $67 Billion Megamerger Proves Dominion Was the Real AI Infrastructure Prize All Along - 24/7 Wall St.",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMWZBRGJXelhRV3RZRHZHYTB4NjJLcU5zQ0VtTUpXbjJsOUFZTDFOTFlOWXQ4dDloaDZYQW5JNWhvSXJtRVlyNkJDUkVoY3VyT2NTTWVMaHdoTFg5ZUtMM2pCQlhZVkhhWXdDMndBMmlxT0NITTNrdzFCN0s2OFBlcUFnUFM1QjdQajVzWHMzV0s1aVpZVUJ0N0FUWlBiNy1EV3QwdDlnVVhfUHhVazVOZWNucDBqaDVvUk8taklGTzljcXRlaHdlRjQwaDZ0OV9LR0s0?oc=5",
+          "date": "Wed, 01 Jul 2026",
+          "source": "24/7 Wall St."
+         },
+         {
+          "title": "NextEra Energy Stock at $89: Here’s Why It Could Be Worth $137 After the Dominion Merger Closes - TIKR.com",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSWozV2haajVvdWVhRllma3FWZVJTVXltS0UtMFN4Qk1oTUdJblRjcFhFZVAtSXFRZFVDYXBmWGRULUNzdHFBcU5nOWlrSzVKT1VUa1VWTi1Td3BoU21wRDg3cWplVTk4WGk2dF85eGc4aldPV2RXOHdpSUFPTHJOX3FVNFNoSkZ2clM1bWI2V1FPUXdkMF8wZ1laVHhpSE9YSUtfVmJXZXdqWnlTQnRIUk9hMHhyNS16?oc=5",
+          "date": "Mon, 29 Jun 2026",
+          "source": "TIKR.com"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "Dominion Energy (D) Stock Trades At A Discount Following Its 48% Run - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaDZrQV85eDA3dWhmNmV3NGpmT256SnVueEdUVFlJQXlvQkV4RWRKajdjbFkxTVByblZmRzE3VkFZbDY1YUxZa1VSN255YzBmd25TaHVsM2tBbXcydU42ZEpOM0RJcnhXUHpOY3k5Qi11bDlpSjZWZy1Wd2hvenpMUnp0ZElGX1NROWZTOHEwUTR2ckxVQ3IzT1JDMA?oc=5",
+          "date": "Thu, 02 Jul 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "Dominion Energy Seeks Tie-Up With NextEra Energy To Fund Growth - Morningstar",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFpEVVV5N0l6aFV0ZDBXUVM3XzBlZWZJbnRzdTBuS0swY0pwSi1FRFdBWmljOUdFb25XajNRYTFpeHd5Z1ZJOWJmLW1ETlBya1k0NDRWbi15cm1WTlZqNFYxQ1FtS19ybXBvWHp0QnNKd0o1WU5Td3J0Y0xBYjdOSDRQN2lJVmU3TV9QcnpTZEdKVVlscmhNWFE2aG1JQVpCWHBucm9xMHBjVHFib3cwMFhIWWhkZw?oc=5",
+          "date": "Tue, 30 Jun 2026",
+          "source": "Morningstar"
+         },
+         {
+          "title": "Powering Mount Pleasant’s future: Dominion upgrades grid as growth continues - Live 5 News",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkZ1WUxkOUhIbnBIZ0NLYmFDVl9VZDFvNFJTcG5mWGVCZGtBOEpvY01PdnFDNGY3TXd4a0tydWJ6cTFMc29xX0lpS18xNUh0eFZ2NlBmZ2VnUngtdlgwbzdJRERVQ1dsMldvOWpsYUVDNG53a1NrYm1HY3ZMU3ZFanVnU3NheGY4dzZud1hGZkRHZEpPeFdTTEZTNVc3QjVDSTRXSUwyc08wQVF5d3fSAcIBQVVfeXFMTjZVRU92WGVRWnF5SUhvYUVRa2VqRjRYM2djcmpwYnIzNTJHemQxOUlUUmU5QVhrTTBwY0NtVlRBR2liLU5Bd3lVTVZIbTFBRG9EQXNRS0tfVG1sTmo0dWczb3ZqQk81bzI2Vjhmd0lxRTJ0MzJqWEtuLTN1UWQxRUhrQXBVMDc4c2RZd3pMOW05ci1zOWJjZTlqMUFfclJOLUN3MEluWkNDekExMUpIaEd0VTVBRUtITGQxMjF1UDVwbHc?oc=5",
+          "date": "Tue, 30 Jun 2026",
+          "source": "Live 5 News"
+         },
+         {
+          "title": "Is Dominion Energy (D) Fairly Valued On NextEra’s $66.8b Deal? - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYUVyRkJwZnd0R2ZjNzVjUUJjaUpFNnd6M1hwRy1JSzB1LUI5NTljSmE3VnJzamJGYWV1LUxwWUFlbjFSdF9RRzh1cnJZWXlrRDA3OURmcm1qdnpWamhKRnQxalNSSjF3QmkzZVNJQU1sSkZQRFotS2dPVEJoc1I0LWtSbS04ODI5UGRxQnQ2RVgtRThlQ2xlRjV3U3F3NUdTdVZjaU9QUUF0ektIbXI1MnpST1FscFhsTUlnUmRhbUNtOVVk0gHKAUFVX3lxTFA0U2FJZFRwNXdoeGNVejZNaTBkb1VhOHlfUHZpVHl4bWJMWlp1Q3RiYzVoSlpoS1dNMXVsdGdldW82OUxkdGJmRFhOU181YWZSdTNpQ0p6aDJ0MXNObkRPWEdRQUxlTW0tTnBSdGpiUlZza2R2aExUOGloeGhFR3F0XzZENHZnQThtLWQ1VlVibzBtYU5xTUQ4Z1BOWDhtSjFzeVFnc2xBYllPNF9faUVfNTh5Qm9VVXFMRWMxS09QN3VNSVY0MWFIZ2c?oc=5",
+          "date": "Wed, 01 Jul 2026",
+          "source": "simplywall.st"
+         },
+         {
+          "title": "Dominion Energy (D) - Recent Underperformance Relative to Broader Markets and Pre-Earnings Outlook for Q1 2026 - lwvtexas.org",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUlRyWnlrWVdLYXNpRl8yX3h2TEpHNWdjMFFBc25GMzhYay02REN2TGl0QjJnOVRMN2xzSGpUOXFoTU10MFlOcHU1VjNXUWVUdTU5WFRQaG1WaS1ObEpHWHBWbW9yM2xrSk9zd084QUhZbm1FTE5ON2xrdXF5SGpGT0ZacEh5dmtFei1LZzhvaTVSZHZhd3pRZXNneDJtdWN5SFNHT3NCR0dmODF0XzF0cVNNWGJ3X2xuRHVqWUlFR084WHlIZWtPYXJkLUkzRktoNmgyYTJuajc1Vm1vcjROWEU2OA?oc=5",
+          "date": "Fri, 24 Apr 2026",
+          "source": "lwvtexas.org"
+         },
+         {
+          "title": "NextEra Energy and Dominion Energy to Combine, Creating the World's Largest Regulated Electric Utility Business and North America's Premier Energy Infrastructure Platform Benefiting Customers - May 18, 2026 - NextEra Energy Newsroom",
+          "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPU1BRVm5wa1A0WFQ3Uk9hZEdLZ0dzOW9fZjFURVZKRklab1UyT0VTekhJS3djN01BaVRQUGIxUFJUMURxSE1vZ3JiZ1FHSm1seW1TdWx5MnBQX3VXWkJyY2NhUk9kQVdzR1BHOFR4VXZUalBGWDloRFJXRExXQmFUQk5QWS1EUlJna3VrWWtqajhBMVh2LUc3V2hWT0I4RnlXNDZkUUlRTWZBbTJsZ01GV1F5ZTNpT2VzOHBtaE9Id1hvb05UdE56NnhTVDRuNUNYbVhpNHQ3bTl5TFZKSzYtMHk1QnhmQ1Mza2pFZ3FYdFBPQ2YwN1dRcWgyUWU2NkFEX1NaODdPOVh6RXYzT2s2SzdvZnRCVFhVNUtjS2M0d3JEM0RTeVpiR1otT0l1WkJyNXJhdEJScEFBRzZFQk15eFlCcFRTQWd3UGQtclhDZ3NiUVVyV096bS1EZHI?oc=5",
+          "date": "Mon, 18 May 2026",
+          "source": "NextEra Energy Newsroom"
+         },
+         {
+          "title": "NextEra’s $67 Billion Megamerger Proves Dominion Was the Real AI Infrastructure Prize All Along - 24/7 Wall St.",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMWZBRGJXelhRV3RZRHZHYTB4NjJLcU5zQ0VtTUpXbjJsOUFZTDFOTFlOWXQ4dDloaDZYQW5JNWhvSXJtRVlyNkJDUkVoY3VyT2NTTWVMaHdoTFg5ZUtMM2pCQlhZVkhhWXdDMndBMmlxT0NITTNrdzFCN0s2OFBlcUFnUFM1QjdQajVzWHMzV0s1aVpZVUJ0N0FUWlBiNy1EV3QwdDlnVVhfUHhVazVOZWNucDBqaDVvUk8taklGTzljcXRlaHdlRjQwaDZ0OV9LR0s0?oc=5",
+          "date": "Wed, 01 Jul 2026",
+          "source": "24/7 Wall St."
+         },
+         {
+          "title": "NextEra Energy Stock at $89: Here’s Why It Could Be Worth $137 After the Dominion Merger Closes - TIKR.com",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSWozV2haajVvdWVhRllma3FWZVJTVXltS0UtMFN4Qk1oTUdJblRjcFhFZVAtSXFRZFVDYXBmWGRULUNzdHFBcU5nOWlrSzVKT1VUa1VWTi1Td3BoU21wRDg3cWplVTk4WGk2dF85eGc4aldPV2RXOHdpSUFPTHJOX3FVNFNoSkZ2clM1bWI2V1FPUXdkMF8wZ1laVHhpSE9YSUtfVmJXZXdqWnlTQnRIUk9hMHhyNS16?oc=5",
+          "date": "Mon, 29 Jun 2026",
+          "source": "TIKR.com"
+         }
+        ],
+        "model": "gemini-flash-latest",
+        "judged_at": "2026-07-03 10:41"
+       }
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 20.6 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 86,
+     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+    },
+    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+    "ai7": {
+     "grade": "O",
+     "one_line": "與NextEra合併打造全球最大受管制電力公用事業，並藉由其AI基礎建設優勢迎合結構性需求成長。",
+     "analysis": "根據新聞，Dominion與NextEra Energy達成價值約670億美元的合併案，將創立全球最大的受管制電力公用事業。此合併案不僅能提供資金支持成長，更顯示出Dominion在AI基礎建設趨勢中的核心價值。此外，公司持續升級電網以因應持續的成長需求。近期財務數據亦顯示獲利與營收皆呈現增長，具備穩健成長的結構性基礎。",
+     "risks": [
+      "合併案未能順利完成的監管或整合風險。",
+      "電網升級與基礎建設的高額資本支出壓力。"
+     ],
+     "sources": [
+      {
+       "title": "Dominion Energy Seeks Tie-Up With NextEra Energy To Fund Growth - Morningstar",
+       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFpEVVV5N0l6aFV0ZDBXUVM3XzBlZWZJbnRzdTBuS0swY0pwSi1FRFdBWmljOUdFb25XajNRYTFpeHd5Z1ZJOWJmLW1ETlBya1k0NDRWbi15cm1WTlZqNFYxQ1FtS19ybXBvWHp0QnNKd0o1WU5Td3J0Y0xBYjdOSDRQN2lJVmU3TV9QcnpTZEdKVVlscmhNWFE2aG1JQVpCWHBucm9xMHBjVHFib3cwMFhIWWhkZw?oc=5",
+       "date": "Tue, 30 Jun 2026",
+       "source": "Morningstar"
+      },
+      {
+       "title": "Powering Mount Pleasant’s future: Dominion upgrades grid as growth continues - Live 5 News",
+       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkZ1WUxkOUhIbnBIZ0NLYmFDVl9VZDFvNFJTcG5mWGVCZGtBOEpvY01PdnFDNGY3TXd4a0tydWJ6cTFMc29xX0lpS18xNUh0eFZ2NlBmZ2VnUngtdlgwbzdJRERVQ1dsMldvOWpsYUVDNG53a1NrYm1HY3ZMU3ZFanVnU3NheGY4dzZud1hGZkRHZEpPeFdTTEZTNVc3QjVDSTRXSUwyc08wQVF5d3fSAcIBQVVfeXFMTjZVRU92WGVRWnF5SUhvYUVRa2VqRjRYM2djcmpwYnIzNTJHemQxOUlUUmU5QVhrTTBwY0NtVlRBR2liLU5Bd3lVTVZIbTFBRG9EQXNRS0tfVG1sTmo0dWczb3ZqQk81bzI2Vjhmd0lxRTJ0MzJqWEtuLTN1UWQxRUhrQXBVMDc4c2RZd3pMOW05ci1zOWJjZTlqMUFfclJOLUN3MEluWkNDekExMUpIaEd0VTVBRUtITGQxMjF1UDVwbHc?oc=5",
+       "date": "Tue, 30 Jun 2026",
+       "source": "Live 5 News"
+      },
+      {
+       "title": "NextEra Energy and Dominion Energy to Combine, Creating the World's Largest Regulated Electric Utility Business and North America's Premier Energy Infrastructure Platform Benefiting Customers - May 18, 2026 - NextEra Energy Newsroom",
+       "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPU1BRVm5wa1A0WFQ3Uk9hZEdLZ0dzOW9fZjFURVZKRklab1UyT0VTekhJS3djN01BaVRQUGIxUFJUMURxSE1vZ3JiZ1FHSm1seW1TdWx5MnBQX3VXWkJyY2NhUk9kQVdzR1BHOFR4VXZUalBGWDloRFJXRExXQmFUQk5QWS1EUlJna3VrWWtqajhBMVh2LUc3V2hWT0I4RnlXNDZkUUlRTWZBbTJsZ01GV1F5ZTNpT2VzOHBtaE9Id1hvb05UdE56NnhTVDRuNUNYbVhpNHQ3bTl5TFZKSzYtMHk1QnhmQ1Mza2pFZ3FYdFBPQ2YwN1dRcWgyUWU2NkFEX1NaODdPOVh6RXYzT2s2SzdvZnRCVFhVNUtjS2M0d3JEM0RTeVpiR1otT0l1WkJyNXJhdEJScEFBRzZFQk15eFlCcFRTQWd3UGQtclhDZ3NiUVVyV096bS1EZHI?oc=5",
+       "date": "Mon, 18 May 2026",
+       "source": "NextEra Energy Newsroom"
+      },
+      {
+       "title": "NextEra’s $67 Billion Megamerger Proves Dominion Was the Real AI Infrastructure Prize All Along - 24/7 Wall St.",
+       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMWZBRGJXelhRV3RZRHZHYTB4NjJLcU5zQ0VtTUpXbjJsOUFZTDFOTFlOWXQ4dDloaDZYQW5JNWhvSXJtRVlyNkJDUkVoY3VyT2NTTWVMaHdoTFg5ZUtMM2pCQlhZVkhhWXdDMndBMmlxT0NITTNrdzFCN0s2OFBlcUFnUFM1QjdQajVzWHMzV0s1aVpZVUJ0N0FUWlBiNy1EV3QwdDlnVVhfUHhVazVOZWNucDBqaDVvUk8taklGTzljcXRlaHdlRjQwaDZ0OV9LR0s0?oc=5",
+       "date": "Wed, 01 Jul 2026",
+       "source": "24/7 Wall St."
+      },
+      {
+       "title": "NextEra Energy Stock at $89: Here’s Why It Could Be Worth $137 After the Dominion Merger Closes - TIKR.com",
+       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSWozV2haajVvdWVhRllma3FWZVJTVXltS0UtMFN4Qk1oTUdJblRjcFhFZVAtSXFRZFVDYXBmWGRULUNzdHFBcU5nOWlrSzVKT1VUa1VWTi1Td3BoU21wRDg3cWplVTk4WGk2dF85eGc4aldPV2RXOHdpSUFPTHJOX3FVNFNoSkZ2clM1bWI2V1FPUXdkMF8wZ1laVHhpSE9YSUtfVmJXZXdqWnlTQnRIUk9hMHhyNS16?oc=5",
+       "date": "Mon, 29 Jun 2026",
+       "source": "TIKR.com"
+      }
+     ],
+     "all_news": [
+      {
+       "title": "Dominion Energy (D) Stock Trades At A Discount Following Its 48% Run - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaDZrQV85eDA3dWhmNmV3NGpmT256SnVueEdUVFlJQXlvQkV4RWRKajdjbFkxTVByblZmRzE3VkFZbDY1YUxZa1VSN255YzBmd25TaHVsM2tBbXcydU42ZEpOM0RJcnhXUHpOY3k5Qi11bDlpSjZWZy1Wd2hvenpMUnp0ZElGX1NROWZTOHEwUTR2ckxVQ3IzT1JDMA?oc=5",
+       "date": "Thu, 02 Jul 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "Dominion Energy Seeks Tie-Up With NextEra Energy To Fund Growth - Morningstar",
+       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFpEVVV5N0l6aFV0ZDBXUVM3XzBlZWZJbnRzdTBuS0swY0pwSi1FRFdBWmljOUdFb25XajNRYTFpeHd5Z1ZJOWJmLW1ETlBya1k0NDRWbi15cm1WTlZqNFYxQ1FtS19ybXBvWHp0QnNKd0o1WU5Td3J0Y0xBYjdOSDRQN2lJVmU3TV9QcnpTZEdKVVlscmhNWFE2aG1JQVpCWHBucm9xMHBjVHFib3cwMFhIWWhkZw?oc=5",
+       "date": "Tue, 30 Jun 2026",
+       "source": "Morningstar"
+      },
+      {
+       "title": "Powering Mount Pleasant’s future: Dominion upgrades grid as growth continues - Live 5 News",
+       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkZ1WUxkOUhIbnBIZ0NLYmFDVl9VZDFvNFJTcG5mWGVCZGtBOEpvY01PdnFDNGY3TXd4a0tydWJ6cTFMc29xX0lpS18xNUh0eFZ2NlBmZ2VnUngtdlgwbzdJRERVQ1dsMldvOWpsYUVDNG53a1NrYm1HY3ZMU3ZFanVnU3NheGY4dzZud1hGZkRHZEpPeFdTTEZTNVc3QjVDSTRXSUwyc08wQVF5d3fSAcIBQVVfeXFMTjZVRU92WGVRWnF5SUhvYUVRa2VqRjRYM2djcmpwYnIzNTJHemQxOUlUUmU5QVhrTTBwY0NtVlRBR2liLU5Bd3lVTVZIbTFBRG9EQXNRS0tfVG1sTmo0dWczb3ZqQk81bzI2Vjhmd0lxRTJ0MzJqWEtuLTN1UWQxRUhrQXBVMDc4c2RZd3pMOW05ci1zOWJjZTlqMUFfclJOLUN3MEluWkNDekExMUpIaEd0VTVBRUtITGQxMjF1UDVwbHc?oc=5",
+       "date": "Tue, 30 Jun 2026",
+       "source": "Live 5 News"
+      },
+      {
+       "title": "Is Dominion Energy (D) Fairly Valued On NextEra’s $66.8b Deal? - simplywall.st",
+       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYUVyRkJwZnd0R2ZjNzVjUUJjaUpFNnd6M1hwRy1JSzB1LUI5NTljSmE3VnJzamJGYWV1LUxwWUFlbjFSdF9RRzh1cnJZWXlrRDA3OURmcm1qdnpWamhKRnQxalNSSjF3QmkzZVNJQU1sSkZQRFotS2dPVEJoc1I0LWtSbS04ODI5UGRxQnQ2RVgtRThlQ2xlRjV3U3F3NUdTdVZjaU9QUUF0ektIbXI1MnpST1FscFhsTUlnUmRhbUNtOVVk0gHKAUFVX3lxTFA0U2FJZFRwNXdoeGNVejZNaTBkb1VhOHlfUHZpVHl4bWJMWlp1Q3RiYzVoSlpoS1dNMXVsdGdldW82OUxkdGJmRFhOU181YWZSdTNpQ0p6aDJ0MXNObkRPWEdRQUxlTW0tTnBSdGpiUlZza2R2aExUOGloeGhFR3F0XzZENHZnQThtLWQ1VlVibzBtYU5xTUQ4Z1BOWDhtSjFzeVFnc2xBYllPNF9faUVfNTh5Qm9VVXFMRWMxS09QN3VNSVY0MWFIZ2c?oc=5",
+       "date": "Wed, 01 Jul 2026",
+       "source": "simplywall.st"
+      },
+      {
+       "title": "Dominion Energy (D) - Recent Underperformance Relative to Broader Markets and Pre-Earnings Outlook for Q1 2026 - lwvtexas.org",
+       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUlRyWnlrWVdLYXNpRl8yX3h2TEpHNWdjMFFBc25GMzhYay02REN2TGl0QjJnOVRMN2xzSGpUOXFoTU10MFlOcHU1VjNXUWVUdTU5WFRQaG1WaS1ObEpHWHBWbW9yM2xrSk9zd084QUhZbm1FTE5ON2xrdXF5SGpGT0ZacEh5dmtFei1LZzhvaTVSZHZhd3pRZXNneDJtdWN5SFNHT3NCR0dmODF0XzF0cVNNWGJ3X2xuRHVqWUlFR084WHlIZWtPYXJkLUkzRktoNmgyYTJuajc1Vm1vcjROWEU2OA?oc=5",
+       "date": "Fri, 24 Apr 2026",
+       "source": "lwvtexas.org"
+      },
+      {
+       "title": "NextEra Energy and Dominion Energy to Combine, Creating the World's Largest Regulated Electric Utility Business and North America's Premier Energy Infrastructure Platform Benefiting Customers - May 18, 2026 - NextEra Energy Newsroom",
+       "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPU1BRVm5wa1A0WFQ3Uk9hZEdLZ0dzOW9fZjFURVZKRklab1UyT0VTekhJS3djN01BaVRQUGIxUFJUMURxSE1vZ3JiZ1FHSm1seW1TdWx5MnBQX3VXWkJyY2NhUk9kQVdzR1BHOFR4VXZUalBGWDloRFJXRExXQmFUQk5QWS1EUlJna3VrWWtqajhBMVh2LUc3V2hWT0I4RnlXNDZkUUlRTWZBbTJsZ01GV1F5ZTNpT2VzOHBtaE9Id1hvb05UdE56NnhTVDRuNUNYbVhpNHQ3bTl5TFZKSzYtMHk1QnhmQ1Mza2pFZ3FYdFBPQ2YwN1dRcWgyUWU2NkFEX1NaODdPOVh6RXYzT2s2SzdvZnRCVFhVNUtjS2M0d3JEM0RTeVpiR1otT0l1WkJyNXJhdEJScEFBRzZFQk15eFlCcFRTQWd3UGQtclhDZ3NiUVVyV096bS1EZHI?oc=5",
+       "date": "Mon, 18 May 2026",
+       "source": "NextEra Energy Newsroom"
+      },
+      {
+       "title": "NextEra’s $67 Billion Megamerger Proves Dominion Was the Real AI Infrastructure Prize All Along - 24/7 Wall St.",
+       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMWZBRGJXelhRV3RZRHZHYTB4NjJLcU5zQ0VtTUpXbjJsOUFZTDFOTFlOWXQ4dDloaDZYQW5JNWhvSXJtRVlyNkJDUkVoY3VyT2NTTWVMaHdoTFg5ZUtMM2pCQlhZVkhhWXdDMndBMmlxT0NITTNrdzFCN0s2OFBlcUFnUFM1QjdQajVzWHMzV0s1aVpZVUJ0N0FUWlBiNy1EV3QwdDlnVVhfUHhVazVOZWNucDBqaDVvUk8taklGTzljcXRlaHdlRjQwaDZ0OV9LR0s0?oc=5",
+       "date": "Wed, 01 Jul 2026",
+       "source": "24/7 Wall St."
+      },
+      {
+       "title": "NextEra Energy Stock at $89: Here’s Why It Could Be Worth $137 After the Dominion Merger Closes - TIKR.com",
+       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSWozV2haajVvdWVhRllma3FWZVJTVXltS0UtMFN4Qk1oTUdJblRjcFhFZVAtSXFRZFVDYXBmWGRULUNzdHFBcU5nOWlrSzVKT1VUa1VWTi1Td3BoU21wRDg3cWplVTk4WGk2dF85eGc4aldPV2RXOHdpSUFPTHJOX3FVNFNoSkZ2clM1bWI2V1FPUXdkMF8wZ1laVHhpSE9YSUtfVmJXZXdqWnlTQnRIUk9hMHhyNS16?oc=5",
+       "date": "Mon, 29 Jun 2026",
+       "source": "TIKR.com"
+      }
+     ],
+     "model": "gemini-flash-latest",
+     "judged_at": "2026-07-03 10:41"
+    }
+   },
+   {
+    "ticker": "TRV",
+    "name": "Travelers Companies (The)",
+    "close": 342.31,
+    "rebound": 1.0,
+    "rebound_grade": "O",
+    "base_quality": 0.790344954003176,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 342.31 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 79%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近4年平均年成長 37%，成長年份占 100%",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近四季獲利年增 26%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1期季營收年增 1%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近1季獲利年增 353%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "AI 判斷（僅供參考，請複核依據）：因現有證據僅提及AI策略與行業重定價，缺乏具體論點支持其未來獲利成長的結構性因果關係，故判定證據不足。",
+       "starred": true,
+       "ai": {
+        "grade": "T",
+        "one_line": "因現有證據僅提及AI策略與行業重定價，缺乏具體論點支持其未來獲利成長的結構性因果關係，故判定證據不足。",
+        "analysis": "雖然公司近期財務數據極為亮眼，例如近一季獲利年增達353%，但這僅能代表過去的表現。檢視新聞[5]雖提及公司技術長正加大對AI的投資，但並未說明此舉如何具體轉化為未來的獲利成長。新聞[2]與[4]提及的市占增加與行業重定價，亦缺乏足夠的結構性細節（如商業模式變革或長期產業趨勢）來證實其非景氣循環因素。由於缺乏能連結至未來穩健成長的結構性證據，身為保守分析師，必須判定為證據不足。",
+        "risks": [
+         "AI投資成效未明且缺乏具體獲利貢獻證據的風險",
+         "保險業重定價（Sector Repricing）可能僅為短期景氣循環而非長期結構性成長的風險"
+        ],
+        "sources": [
+         {
+          "title": "Is Travelers Companies (TRV) Pricing Reflecting Its Recent Share Gains And Earnings Valuation? - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON2tPTEFLdDYxSUV6VTRrbF90X1JMUTVBRVNjZUtfVzYxTS11eEYza2dtVmZIU2F1el91MVR1V19wSDhwNEdxVzVjbFlORjN6aFd6MEJPZUxRQzdXSzB1X2VjcjQ2ZmduUUxnS1F1X05RSTg1ZHZENVBzdjNiV2ZfakY1aU53dWU3V1dmMzcxOEQtajNheXI5Z0lkX3dSS1o3anNxWlNlR0VYb3F1NDdTTlZsR29Lb0ZlWFYyVzVXRGxsZTVtUmROYkhwZ21QUmtuUFHSAdcBQVVfeXFMTm80Wi1VR2ZNWFA1ODlvUTBGb2FsSzNyNVd3UTdMNFpISng3bURfYzZrdWpKcERGY2NjRGNhenlWbE1wNkF2cThZVVg2ek16Z0ZKck1MdWl3Yk9fVldmaDNhTUNTaTBTLXAxLUxaWXhVdjREY0FNRU1OR0tuZG1nbDRvODVod0xLVk90UnlSb2Z1OUFvNUJkMGlleU5MR1NxUnBibHNTS2xBTjZ0WXlaeUlod01oWnU1SWxsSU96Yml2U3NweE5xUnlGdHExX0lXdlNoVUZtcnM?oc=5",
+          "date": "Fri, 01 May 2026",
+          "source": "simplywall.st"
+         },
+         {
+          "title": "Is Travelers (TRV) Price Weakness Creating An Opportunity After Insurance Sector Repricing? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSFlYYXBpWDliMko4X1dBQWV6cUJRTFJqMGN6MTVKLTI3c0UwQVh4d3dmbDB6RTB4YnRxMmJRa2VCR1R4VG1ac0xJY3NkUEszSERjWm9HalBXbjR4WE5LcldHUU90SkZ4SlNERVFrNF85MGw3NndWTXBOaVJUNDNKZzU4QUg0d3RVSFZhalU3UjFKTmVDX21GTmF6N0ItWFVJczB2Rw?oc=5",
+          "date": "Mon, 30 Mar 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "Why insurance giant Travelers’ CTO is placing fewer, bigger bets on AI - Fortune",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQmF5MXl6N3E2R3otWkFiSk5BNXdGaW0xSWNRUF82RVQ1M01aXzZ3R2hIUjlWemhDSHRtb1FDQ3h2SW53cWRPOVBIVV9sZUpHQkYyS0MyVmZVUUc0MkpkdHNHNU1xdmRfZGlEc3NXWGRlTndrRnJyWjR6SWFBSUNJazRMc0NXSURhMnhvY3FCZkR4YnpoS0ZmRzh1UEF6bFNidEE?oc=5",
+          "date": "Wed, 15 Apr 2026",
+          "source": "Fortune"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "Travelers (TRV) Marks 20 Years Backing A PGA Tour Event With Community Reach - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOLXBLd0Q3bVdCSF9faTYtLTJycXRnREhoR05FLUJEVFFESGZVNURFZkhreURrOGEtTzlNUEQyS1hQMnNTN0EtUkhwVlMyRzBWdWsxWm96YlQ3bW1uZEZkSDZWZDZzcjRaaUxIQmhBN2VYaXBYeW9seHNTWm5Telp1ejhjOU51cl9Yazhwc3VPeGlWMURFUEhKdE9EcWlOVy1jMWtHaHBFVWpTUWlUampER01GYm04c0dLV3JLazR6dEdEUVZMQnhwV2lIMzh1MTRVd1HSAdcBQVVfeXFMTUxDVklPY0VXOXZEOGsydVY3cmRGVm9nRFpjTEVweDBxNXNTaHhneng2SE9UMmk4U3NlM2VQNDNwek9qSWF6NzI3Z3l0bDFrQTZ5andYZXM0Nk13Nm41YkFXOFBzVzJrZUczRUpfbXBqU0hpY2E0RGhFdzktMTFQR1RxUWRUSFMyQXFJYXpscTAtS2gtQ0ZBaUpvRVdYVF9YeEJhUFF0RGJ1Uk9yOUlqQWZNdGJSbTlHMkRGNzEyLUFmYXI1RzNDLWY4aWkwMkNwR2hLR1B6ZlU?oc=5",
+          "date": "Thu, 25 Jun 2026",
+          "source": "simplywall.st"
+         },
+         {
+          "title": "Is Travelers Companies (TRV) Pricing Reflecting Its Recent Share Gains And Earnings Valuation? - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON2tPTEFLdDYxSUV6VTRrbF90X1JMUTVBRVNjZUtfVzYxTS11eEYza2dtVmZIU2F1el91MVR1V19wSDhwNEdxVzVjbFlORjN6aFd6MEJPZUxRQzdXSzB1X2VjcjQ2ZmduUUxnS1F1X05RSTg1ZHZENVBzdjNiV2ZfakY1aU53dWU3V1dmMzcxOEQtajNheXI5Z0lkX3dSS1o3anNxWlNlR0VYb3F1NDdTTlZsR29Lb0ZlWFYyVzVXRGxsZTVtUmROYkhwZ21QUmtuUFHSAdcBQVVfeXFMTm80Wi1VR2ZNWFA1ODlvUTBGb2FsSzNyNVd3UTdMNFpISng3bURfYzZrdWpKcERGY2NjRGNhenlWbE1wNkF2cThZVVg2ek16Z0ZKck1MdWl3Yk9fVldmaDNhTUNTaTBTLXAxLUxaWXhVdjREY0FNRU1OR0tuZG1nbDRvODVod0xLVk90UnlSb2Z1OUFvNUJkMGlleU5MR1NxUnBibHNTS2xBTjZ0WXlaeUlod01oWnU1SWxsSU96Yml2U3NweE5xUnlGdHExX0lXdlNoVUZtcnM?oc=5",
+          "date": "Fri, 01 May 2026",
+          "source": "simplywall.st"
+         },
+         {
+          "title": "A Look At Travelers (TRV) Valuation After Recent Mixed Share Price Moves - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRHliZ0pTVnlQOXZZWjBESmJjQ2FvcnllRWFwamptdnFremREYlNrMnQ4dksydTZYb0JwQlZmbkNRbWRqOFhBYTdPaHFoel9YYWVBVXJPLW5LT3I1UGpSNWhpZDBnQTdvVFNQU2FyajZZNGZ2LTBJaUlJeWMyRFk2ay1sVGo5cWZTUjVWN1g4ekVuNWt5VnRrNzhjMTRQMkh1enc?oc=5",
+          "date": "Sun, 10 May 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "Is Travelers (TRV) Price Weakness Creating An Opportunity After Insurance Sector Repricing? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSFlYYXBpWDliMko4X1dBQWV6cUJRTFJqMGN6MTVKLTI3c0UwQVh4d3dmbDB6RTB4YnRxMmJRa2VCR1R4VG1ac0xJY3NkUEszSERjWm9HalBXbjR4WE5LcldHUU90SkZ4SlNERVFrNF85MGw3NndWTXBOaVJUNDNKZzU4QUg0d3RVSFZhalU3UjFKTmVDX21GTmF6N0ItWFVJczB2Rw?oc=5",
+          "date": "Mon, 30 Mar 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "Why insurance giant Travelers’ CTO is placing fewer, bigger bets on AI - Fortune",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQmF5MXl6N3E2R3otWkFiSk5BNXdGaW0xSWNRUF82RVQ1M01aXzZ3R2hIUjlWemhDSHRtb1FDQ3h2SW53cWRPOVBIVV9sZUpHQkYyS0MyVmZVUUc0MkpkdHNHNU1xdmRfZGlEc3NXWGRlTndrRnJyWjR6SWFBSUNJazRMc0NXSURhMnhvY3FCZkR4YnpoS0ZmRzh1UEF6bFNidEE?oc=5",
+          "date": "Wed, 15 Apr 2026",
+          "source": "Fortune"
+         },
+         {
+          "title": "S&P and Nasdaq close at record highs on ceasefire optimism and tech strength - Proactive financial news",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb2l1b0pWUW80bTE2eWxjdzBESExCaFFwNnNHU1RxZE10dlk2ZzlseFpILTFpZmdxYnZUX0JFcFdnNk9iVlFONUE1ZHh0MFA2d3pyQXl2SHctd2xsMFNwM2lpZWRCckdtQmg1OUVkYTRvYVR0NEFoU0puRkdoRHhpc1FJN0o4TXpGSE12ODlPSXMteTN6M29PTkxiTkJtc0FQSENfd05sM2YwVU5oOG1WOC12VnlHVjlKVnc0Z3pRT3VtTGN4TDNoVG85ZHVUMnRNaV9nMmpxS2ZxeUZmSFA1LQ?oc=5",
+          "date": "Thu, 16 Apr 2026",
+          "source": "Proactive financial news"
+         },
+         {
+          "title": "California FAIR Plan running out of money; most homeowners to see extra charges - San Francisco Chronicle",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeHF6Y3g3TnNiV2p6LVVDMmR5YkE4QThSYVJkUE8tUTducURPQzJxMTBQVkZoMDQwTDMtUG5iQlRudDZLcU9tdjVKVy16Mk1HNy1UMlVXV1ZZTUNmaXJoMVVtOU1XZ3dQellKNHk0X3lYVGdfS2dVdXJyWWVSRWJsNVpHLWRlOVlkVTlPdWdMN2gtT3c?oc=5",
+          "date": "Tue, 11 Feb 2025",
+          "source": "San Francisco Chronicle"
+         },
+         {
+          "title": "In-office workers get the highest pay rises; staff at Apple store agree first contract - ere.net",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYUl6aHBmaG53VzFTc1huZXN6ZlVIN3kzTjZYWWFfTlZ0LTdaeFZ2QnZyOXI2clh5VURaTEM1SDNmSldwR1pLOUR2N3BqSG9uc00yTm1UTVdhczRLN3JFaE9vZDNBTEhKMFFwSl9LUFp6Y2N1UmYyQlQybjcySlJCRkhOWmlZamJNSUlCSzY2Q3o5cGxfNnFuTUJvRjNRMmpWT3dfN25aTVdXYmV4U2p4UHJOS1A?oc=5",
+          "date": "Thu, 08 Aug 2024",
+          "source": "ere.net"
+         }
+        ],
+        "model": "gemini-flash-latest",
+        "judged_at": "2026-07-03 10:40"
+       }
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 10.2 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 86,
+     "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+    },
+    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量",
+    "ai7": {
+     "grade": "T",
+     "one_line": "因現有證據僅提及AI策略與行業重定價，缺乏具體論點支持其未來獲利成長的結構性因果關係，故判定證據不足。",
+     "analysis": "雖然公司近期財務數據極為亮眼，例如近一季獲利年增達353%，但這僅能代表過去的表現。檢視新聞[5]雖提及公司技術長正加大對AI的投資，但並未說明此舉如何具體轉化為未來的獲利成長。新聞[2]與[4]提及的市占增加與行業重定價，亦缺乏足夠的結構性細節（如商業模式變革或長期產業趨勢）來證實其非景氣循環因素。由於缺乏能連結至未來穩健成長的結構性證據，身為保守分析師，必須判定為證據不足。",
+     "risks": [
+      "AI投資成效未明且缺乏具體獲利貢獻證據的風險",
+      "保險業重定價（Sector Repricing）可能僅為短期景氣循環而非長期結構性成長的風險"
+     ],
+     "sources": [
+      {
+       "title": "Is Travelers Companies (TRV) Pricing Reflecting Its Recent Share Gains And Earnings Valuation? - simplywall.st",
+       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON2tPTEFLdDYxSUV6VTRrbF90X1JMUTVBRVNjZUtfVzYxTS11eEYza2dtVmZIU2F1el91MVR1V19wSDhwNEdxVzVjbFlORjN6aFd6MEJPZUxRQzdXSzB1X2VjcjQ2ZmduUUxnS1F1X05RSTg1ZHZENVBzdjNiV2ZfakY1aU53dWU3V1dmMzcxOEQtajNheXI5Z0lkX3dSS1o3anNxWlNlR0VYb3F1NDdTTlZsR29Lb0ZlWFYyVzVXRGxsZTVtUmROYkhwZ21QUmtuUFHSAdcBQVVfeXFMTm80Wi1VR2ZNWFA1ODlvUTBGb2FsSzNyNVd3UTdMNFpISng3bURfYzZrdWpKcERGY2NjRGNhenlWbE1wNkF2cThZVVg2ek16Z0ZKck1MdWl3Yk9fVldmaDNhTUNTaTBTLXAxLUxaWXhVdjREY0FNRU1OR0tuZG1nbDRvODVod0xLVk90UnlSb2Z1OUFvNUJkMGlleU5MR1NxUnBibHNTS2xBTjZ0WXlaeUlod01oWnU1SWxsSU96Yml2U3NweE5xUnlGdHExX0lXdlNoVUZtcnM?oc=5",
+       "date": "Fri, 01 May 2026",
+       "source": "simplywall.st"
+      },
+      {
+       "title": "Is Travelers (TRV) Price Weakness Creating An Opportunity After Insurance Sector Repricing? - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSFlYYXBpWDliMko4X1dBQWV6cUJRTFJqMGN6MTVKLTI3c0UwQVh4d3dmbDB6RTB4YnRxMmJRa2VCR1R4VG1ac0xJY3NkUEszSERjWm9HalBXbjR4WE5LcldHUU90SkZ4SlNERVFrNF85MGw3NndWTXBOaVJUNDNKZzU4QUg0d3RVSFZhalU3UjFKTmVDX21GTmF6N0ItWFVJczB2Rw?oc=5",
+       "date": "Mon, 30 Mar 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "Why insurance giant Travelers’ CTO is placing fewer, bigger bets on AI - Fortune",
+       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQmF5MXl6N3E2R3otWkFiSk5BNXdGaW0xSWNRUF82RVQ1M01aXzZ3R2hIUjlWemhDSHRtb1FDQ3h2SW53cWRPOVBIVV9sZUpHQkYyS0MyVmZVUUc0MkpkdHNHNU1xdmRfZGlEc3NXWGRlTndrRnJyWjR6SWFBSUNJazRMc0NXSURhMnhvY3FCZkR4YnpoS0ZmRzh1UEF6bFNidEE?oc=5",
+       "date": "Wed, 15 Apr 2026",
+       "source": "Fortune"
+      }
+     ],
+     "all_news": [
+      {
+       "title": "Travelers (TRV) Marks 20 Years Backing A PGA Tour Event With Community Reach - simplywall.st",
+       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOLXBLd0Q3bVdCSF9faTYtLTJycXRnREhoR05FLUJEVFFESGZVNURFZkhreURrOGEtTzlNUEQyS1hQMnNTN0EtUkhwVlMyRzBWdWsxWm96YlQ3bW1uZEZkSDZWZDZzcjRaaUxIQmhBN2VYaXBYeW9seHNTWm5Telp1ejhjOU51cl9Yazhwc3VPeGlWMURFUEhKdE9EcWlOVy1jMWtHaHBFVWpTUWlUampER01GYm04c0dLV3JLazR6dEdEUVZMQnhwV2lIMzh1MTRVd1HSAdcBQVVfeXFMTUxDVklPY0VXOXZEOGsydVY3cmRGVm9nRFpjTEVweDBxNXNTaHhneng2SE9UMmk4U3NlM2VQNDNwek9qSWF6NzI3Z3l0bDFrQTZ5andYZXM0Nk13Nm41YkFXOFBzVzJrZUczRUpfbXBqU0hpY2E0RGhFdzktMTFQR1RxUWRUSFMyQXFJYXpscTAtS2gtQ0ZBaUpvRVdYVF9YeEJhUFF0RGJ1Uk9yOUlqQWZNdGJSbTlHMkRGNzEyLUFmYXI1RzNDLWY4aWkwMkNwR2hLR1B6ZlU?oc=5",
+       "date": "Thu, 25 Jun 2026",
+       "source": "simplywall.st"
+      },
+      {
+       "title": "Is Travelers Companies (TRV) Pricing Reflecting Its Recent Share Gains And Earnings Valuation? - simplywall.st",
+       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON2tPTEFLdDYxSUV6VTRrbF90X1JMUTVBRVNjZUtfVzYxTS11eEYza2dtVmZIU2F1el91MVR1V19wSDhwNEdxVzVjbFlORjN6aFd6MEJPZUxRQzdXSzB1X2VjcjQ2ZmduUUxnS1F1X05RSTg1ZHZENVBzdjNiV2ZfakY1aU53dWU3V1dmMzcxOEQtajNheXI5Z0lkX3dSS1o3anNxWlNlR0VYb3F1NDdTTlZsR29Lb0ZlWFYyVzVXRGxsZTVtUmROYkhwZ21QUmtuUFHSAdcBQVVfeXFMTm80Wi1VR2ZNWFA1ODlvUTBGb2FsSzNyNVd3UTdMNFpISng3bURfYzZrdWpKcERGY2NjRGNhenlWbE1wNkF2cThZVVg2ek16Z0ZKck1MdWl3Yk9fVldmaDNhTUNTaTBTLXAxLUxaWXhVdjREY0FNRU1OR0tuZG1nbDRvODVod0xLVk90UnlSb2Z1OUFvNUJkMGlleU5MR1NxUnBibHNTS2xBTjZ0WXlaeUlod01oWnU1SWxsSU96Yml2U3NweE5xUnlGdHExX0lXdlNoVUZtcnM?oc=5",
+       "date": "Fri, 01 May 2026",
+       "source": "simplywall.st"
+      },
+      {
+       "title": "A Look At Travelers (TRV) Valuation After Recent Mixed Share Price Moves - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRHliZ0pTVnlQOXZZWjBESmJjQ2FvcnllRWFwamptdnFremREYlNrMnQ4dksydTZYb0JwQlZmbkNRbWRqOFhBYTdPaHFoel9YYWVBVXJPLW5LT3I1UGpSNWhpZDBnQTdvVFNQU2FyajZZNGZ2LTBJaUlJeWMyRFk2ay1sVGo5cWZTUjVWN1g4ekVuNWt5VnRrNzhjMTRQMkh1enc?oc=5",
+       "date": "Sun, 10 May 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "Is Travelers (TRV) Price Weakness Creating An Opportunity After Insurance Sector Repricing? - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSFlYYXBpWDliMko4X1dBQWV6cUJRTFJqMGN6MTVKLTI3c0UwQVh4d3dmbDB6RTB4YnRxMmJRa2VCR1R4VG1ac0xJY3NkUEszSERjWm9HalBXbjR4WE5LcldHUU90SkZ4SlNERVFrNF85MGw3NndWTXBOaVJUNDNKZzU4QUg0d3RVSFZhalU3UjFKTmVDX21GTmF6N0ItWFVJczB2Rw?oc=5",
+       "date": "Mon, 30 Mar 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "Why insurance giant Travelers’ CTO is placing fewer, bigger bets on AI - Fortune",
+       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQmF5MXl6N3E2R3otWkFiSk5BNXdGaW0xSWNRUF82RVQ1M01aXzZ3R2hIUjlWemhDSHRtb1FDQ3h2SW53cWRPOVBIVV9sZUpHQkYyS0MyVmZVUUc0MkpkdHNHNU1xdmRfZGlEc3NXWGRlTndrRnJyWjR6SWFBSUNJazRMc0NXSURhMnhvY3FCZkR4YnpoS0ZmRzh1UEF6bFNidEE?oc=5",
+       "date": "Wed, 15 Apr 2026",
+       "source": "Fortune"
+      },
+      {
+       "title": "S&P and Nasdaq close at record highs on ceasefire optimism and tech strength - Proactive financial news",
+       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb2l1b0pWUW80bTE2eWxjdzBESExCaFFwNnNHU1RxZE10dlk2ZzlseFpILTFpZmdxYnZUX0JFcFdnNk9iVlFONUE1ZHh0MFA2d3pyQXl2SHctd2xsMFNwM2lpZWRCckdtQmg1OUVkYTRvYVR0NEFoU0puRkdoRHhpc1FJN0o4TXpGSE12ODlPSXMteTN6M29PTkxiTkJtc0FQSENfd05sM2YwVU5oOG1WOC12VnlHVjlKVnc0Z3pRT3VtTGN4TDNoVG85ZHVUMnRNaV9nMmpxS2ZxeUZmSFA1LQ?oc=5",
+       "date": "Thu, 16 Apr 2026",
+       "source": "Proactive financial news"
+      },
+      {
+       "title": "California FAIR Plan running out of money; most homeowners to see extra charges - San Francisco Chronicle",
+       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeHF6Y3g3TnNiV2p6LVVDMmR5YkE4QThSYVJkUE8tUTducURPQzJxMTBQVkZoMDQwTDMtUG5iQlRudDZLcU9tdjVKVy16Mk1HNy1UMlVXV1ZZTUNmaXJoMVVtOU1XZ3dQellKNHk0X3lYVGdfS2dVdXJyWWVSRWJsNVpHLWRlOVlkVTlPdWdMN2gtT3c?oc=5",
+       "date": "Tue, 11 Feb 2025",
+       "source": "San Francisco Chronicle"
+      },
+      {
+       "title": "In-office workers get the highest pay rises; staff at Apple store agree first contract - ere.net",
+       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYUl6aHBmaG53VzFTc1huZXN6ZlVIN3kzTjZYWWFfTlZ0LTdaeFZ2QnZyOXI2clh5VURaTEM1SDNmSldwR1pLOUR2N3BqSG9uc00yTm1UTVdhczRLN3JFaE9vZDNBTEhKMFFwSl9LUFp6Y2N1UmYyQlQybjcySlJCRkhOWmlZamJNSUlCSzY2Q3o5cGxfNnFuTUJvRjNRMmpWT3dfN25aTVdXYmV4U2p4UHJOS1A?oc=5",
+       "date": "Thu, 08 Aug 2024",
+       "source": "ere.net"
+      }
+     ],
+     "model": "gemini-flash-latest",
+     "judged_at": "2026-07-03 10:40"
+    }
+   },
+   {
+    "ticker": "CTVA",
+    "name": "Corteva",
+    "close": 85.8,
+    "rebound": 1.0,
+    "rebound_grade": "O",
+    "base_quality": 0.7357686042258298,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 85.8 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 74%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近4年平均年成長 9%，成長年份占 67%",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近四季獲利年增 32%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近1期季營收年增 11%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1季獲利年增 9%",
        "starred": true
       },
       {
@@ -229,7 +1480,7 @@
        "name": "⑧ 本益比未過熱（<60倍）",
        "grade": "O",
        "symbol": "○",
-       "detail": "本益比 33.6 倍",
+       "detail": "本益比 46.4 倍",
        "starred": false
       },
       {
@@ -241,7 +1492,7 @@
        "starred": true
       }
      ],
-     "score": 62,
+     "score": 83,
      "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
     },
     "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
@@ -306,10 +1557,97 @@
       {
        "key": "7",
        "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
+       "grade": "T",
+       "symbol": "△",
+       "detail": "AI 判斷（僅供參考，請複核依據）：因現有證據僅提及財報數據與股利宣告，缺乏能支持未來獲利穩健成長的結構性因素，故判定證據不足。",
+       "starred": true,
+       "ai": {
+        "grade": "T",
+        "one_line": "因現有證據僅提及財報數據與股利宣告，缺乏能支持未來獲利穩健成長的結構性因素，故判定證據不足。",
+        "analysis": "根據提供的營運數字，雖然最新一季獲利大幅增長，但近四年平均年成長率為0%且近四季獲利年增率為-29%，顯示獲利波動劇烈。檢視所有提供的新聞標題，內容僅限於財報發布、電話會議及股利調升等事件宣告，並未揭露任何關於產業趨勢、商業模式變革或市占率提升等結構性成長的具體原因。由於缺乏能支持長期穩健成長之結構性因素的證據，無法依此判斷未來獲利能否穩健成長。",
+        "risks": [
+         "缺乏結構性成長動能的具體證據，難以評估長期獲利穩定性",
+         "歷史獲利波動劇烈，近四季獲利年增率為-29%"
+        ],
+        "sources": [
+         {
+          "title": "Aflac Incorporated Announces First Quarter 2026 Results - PR Newswire",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc1dxVElVZVBYdGtMT3FKVVljUXp3Y25MTFBNSnhzNlJISVptZ1o2WXdkc282d2FUUURLRURnQWR2SEZ3dVBYY3pERzNuNDROVlJIb3h0NEVodGV4T0V2YjhNSHhsakl5WWhLbFp5MTVZdWkxVDdZVEtBazFVLTVuVUF2Q3dpUkRsSlI2dDBhWG5qTlRsUEJIQXM1SnFJdkk1LVVmS25YSElZdjlxWWFLbg?oc=5",
+          "date": "Wed, 29 Apr 2026",
+          "source": "PR Newswire"
+         },
+         {
+          "title": "Earnings call transcript: Aflac Q1 2026 reveals revenue beat, EPS miss - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZTMwWENINjdVNjBpWVlZTzhPTTQzRFRhemU1eWQxei1nS3hlREtqSjRWbGJnTEJDZTk3bkpRR2o3cHpob3Jtc0ktX0xDY3poa2lWS2NNakxNaVNjRHRmemV2TEZmNklnZ2RhZWt6cURRc3pabkExcEppVHMycHozb3pHVlE1dXZjNnZQY1kySG9hMDl3QmJka184dkF2VnJGSWE2OENDSmZXQzVFem9qalVpOHZnTXAxWXRMTlBnX0o5dw?oc=5",
+          "date": "Thu, 30 Apr 2026",
+          "source": "Investing.com"
+         },
+         {
+          "title": "Aflac Incorporated Announces Fourth Quarter Results, Reports Fourth Quarter Net Earnings of $1.4 Billion, Reiterates Increase in First Quarter Dividend of 5.2% - PR Newswire",
+          "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNbFNjTmdLTEViZjlpQjc0cF8zVVB4WUxEUWVQRHFfTFdSNG9Pb29CN083VXVrdWpPaGZ5cG5GSjhvSFFEMmxWYmtLVEdDOXIzYV9od0doRlJyMWZ0UmpXUWhLa2RNV1FxeThVV2tZaF8yaWg5dmhQcWk0TnhLQjVpcGZpZmFPVzRJVkppeVh4eGpGTkh4TGpfdFRJV0JldWtfeWxQSXEwbHlodzh0WTNNNVZvaVlmLVRTMkpkMFBFRTd3NWpxeDhhNWpQN0dWUG1kRzVtaXAwalVEM0RBdjZNOHhzNklfemh5MWUtd3lrSlFrZ3ZpekNNTlkzb0ppZkZGdEh5ZldTT1JmaXBpQ25qMUFxbHFXbG4wY1lCOFhoX1JqYWFzclNVQnVUU0tWd2dqeHlYMFFn?oc=5",
+          "date": "Wed, 04 Feb 2026",
+          "source": "PR Newswire"
+         },
+         {
+          "title": "What Aflac (AFL)'s Earnings Surge and Dividend Hike Mean For Shareholders - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT3c5elBLeWpNSUpaaXRLTFdHWmZWdmI2ZFlwaDFyQTc2LUF0Qkk4a0E4QVBFdzBKNmpZSTBzQ3ZldVV0SS00WW9FNG9QLUhGSnRod3V4NjhGdUI1RmR3VklIbmJrMldNdEhNN1N1cGRRU2RqOGdwQzVpQllzSDVCMmI3enNZZzEtRGxIRmpCd0w2amRwMnlLYTBuOWZYcEU?oc=5",
+          "date": "Thu, 30 Apr 2026",
+          "source": "Yahoo Finance"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "Aflac Incorporated to Release Second Quarter Results and CFO Video Update on August 6, 2026 and Host Webcast on August 7, 2026 - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQnNUUEpseHRVUGpvcExYYmdBQW9CX0s1VkxOUWtYS3lqY3UzdFlpdFFuYXZjRUVZRlYtcUhSQzR4ckJMN3ZQdVJydUZma2txOFladDdtWW1WWXlBVXN2MHFsdGJ6TG41amdnOHpXVTRwR2RCUUxyNFk2UzBzbmxEblNsbE5CR0doeTNJRWZVSUhnaVBNc3I4R0xsY2M3cXE3NnVRVTk3NTNwZw?oc=5",
+          "date": "Tue, 30 Jun 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "Aflac Incorporated to Release First Quarter Results and CFO Video Update on April 29, 2026 and Host Webcast on April 30, 2026 - Aflac",
+          "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQdkl4MWluMmdleWd6TTBHNmlMZXhvX2tCeDdhZ1FBRUJJNVVaS3ZsQ0pselk3OEtORzVVNEdFNW4zdlBiYlcyX3dxS3lBODlDQ0Rxd3JOR3puRjE4d3NtQmZhN3hhOFBMUW9DOExtUzF0Y0VJOFRXQXpwdXhiOUctMjRoVU9zVm5lMGItUkhpbTB2dUd1b0NTS0FLejZCR1hoQlI1cENiQWxJVTZOeDVmbG82eWw3ZzV2RHNDT3Y5ektOcGQtUHZlTC11TEZuMjZPQktKRnpEWldTNVI0ZEdXdmpNVnc4SXU3WHFKVEVIaU5tUnVjOWUtVW8wSXVDZDE3ejM3dFpmemVES3lZaHI0ZFJUT0RCZDJXaFpsa3ZSeHBIdVdiX1pEM0xqVmZjVDg?oc=5",
+          "date": "Thu, 02 Apr 2026",
+          "source": "Aflac"
+         },
+         {
+          "title": "Aflac Incorporated Announces First Quarter 2026 Results - PR Newswire",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc1dxVElVZVBYdGtMT3FKVVljUXp3Y25MTFBNSnhzNlJISVptZ1o2WXdkc282d2FUUURLRURnQWR2SEZ3dVBYY3pERzNuNDROVlJIb3h0NEVodGV4T0V2YjhNSHhsakl5WWhLbFp5MTVZdWkxVDdZVEtBazFVLTVuVUF2Q3dpUkRsSlI2dDBhWG5qTlRsUEJIQXM1SnFJdkk1LVVmS25YSElZdjlxWWFLbg?oc=5",
+          "date": "Wed, 29 Apr 2026",
+          "source": "PR Newswire"
+         },
+         {
+          "title": "Q1 Earnings Highlights: Aflac (NYSE:AFL) Vs The Rest Of The Life Insurance Stocks - FinancialContent",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUXRjMTB5V1B5UWk3QmgtTkZFVUg0SUx5TnVGWnBWSFQ5MmRkSUtITElveC10bm9RVmZXRUp3MlA4M2FiWW9VU2VHdUF3ZWZaZG1uUGFBN005d2RkdHY2Y3NsbnBydmFhemtKMXdMbENDTmFiWk50cURUYW1SZ0NzLVJIZ1pFdk9ldlBfaUY5OGRDYzMwNGF1cW85a19sOUJxQmdSNFNpWXFBSzN0bG0xS194R2pSMmZVdGZ2bHEyX183Rk1QWGdpNzRoR2JfZWRONEhqWlVn?oc=5",
+          "date": "Mon, 29 Jun 2026",
+          "source": "FinancialContent"
+         },
+         {
+          "title": "5 Must-Read Analyst Questions From Aflac’s Q1 Earnings Call - StockStory",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSnA5a1BnVmZCRDNZT0M0bjgwMUdmbEVNUU94cGQ1eTlPazlqWThDNy0yRzlESFk2ZngyajA2dGRQOXVOR3lDT3VsVzlrWVBXU3lPcU1WU1NtTThSbXBCQnR0XzZSY3drRnpwZjdUM2UxTF9maFNvdlEzcG1GNUZXZlpfM09XWTV2RjAyNWpKN1VaTmdLdlphU3FTSFo2dmxHWjB4Y3JFbWZQcFJ1dkpBeHh6MElfLWlCUnVn?oc=5",
+          "date": "Tue, 05 May 2026",
+          "source": "StockStory"
+         },
+         {
+          "title": "Earnings call transcript: Aflac Q1 2026 reveals revenue beat, EPS miss - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZTMwWENINjdVNjBpWVlZTzhPTTQzRFRhemU1eWQxei1nS3hlREtqSjRWbGJnTEJDZTk3bkpRR2o3cHpob3Jtc0ktX0xDY3poa2lWS2NNakxNaVNjRHRmemV2TEZmNklnZ2RhZWt6cURRc3pabkExcEppVHMycHozb3pHVlE1dXZjNnZQY1kySG9hMDl3QmJka184dkF2VnJGSWE2OENDSmZXQzVFem9qalVpOHZnTXAxWXRMTlBnX0o5dw?oc=5",
+          "date": "Thu, 30 Apr 2026",
+          "source": "Investing.com"
+         },
+         {
+          "title": "Aflac Incorporated Announces Fourth Quarter Results, Reports Fourth Quarter Net Earnings of $1.4 Billion, Reiterates Increase in First Quarter Dividend of 5.2% - PR Newswire",
+          "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNbFNjTmdLTEViZjlpQjc0cF8zVVB4WUxEUWVQRHFfTFdSNG9Pb29CN083VXVrdWpPaGZ5cG5GSjhvSFFEMmxWYmtLVEdDOXIzYV9od0doRlJyMWZ0UmpXUWhLa2RNV1FxeThVV2tZaF8yaWg5dmhQcWk0TnhLQjVpcGZpZmFPVzRJVkppeVh4eGpGTkh4TGpfdFRJV0JldWtfeWxQSXEwbHlodzh0WTNNNVZvaVlmLVRTMkpkMFBFRTd3NWpxeDhhNWpQN0dWUG1kRzVtaXAwalVEM0RBdjZNOHhzNklfemh5MWUtd3lrSlFrZ3ZpekNNTlkzb0ppZkZGdEh5ZldTT1JmaXBpQ25qMUFxbHFXbG4wY1lCOFhoX1JqYWFzclNVQnVUU0tWd2dqeHlYMFFn?oc=5",
+          "date": "Wed, 04 Feb 2026",
+          "source": "PR Newswire"
+         },
+         {
+          "title": "What Aflac (AFL)'s Earnings Surge and Dividend Hike Mean For Shareholders - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT3c5elBLeWpNSUpaaXRLTFdHWmZWdmI2ZFlwaDFyQTc2LUF0Qkk4a0E4QVBFdzBKNmpZSTBzQ3ZldVV0SS00WW9FNG9QLUhGSnRod3V4NjhGdUI1RmR3VklIbmJrMldNdEhNN1N1cGRRU2RqOGdwQzVpQllzSDVCMmI3enNZZzEtRGxIRmpCd0w2amRwMnlLYTBuOWZYcEU?oc=5",
+          "date": "Thu, 30 Apr 2026",
+          "source": "Yahoo Finance"
+         }
+        ],
+        "model": "gemini-flash-latest",
+        "judged_at": "2026-07-03 10:40"
+       }
       },
       {
        "key": "8",
@@ -328,18 +1666,105 @@
        "starred": true
       }
      ],
-     "score": 83,
+     "score": 79,
      "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
     },
-    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+    "ai7": {
+     "grade": "T",
+     "one_line": "因現有證據僅提及財報數據與股利宣告，缺乏能支持未來獲利穩健成長的結構性因素，故判定證據不足。",
+     "analysis": "根據提供的營運數字，雖然最新一季獲利大幅增長，但近四年平均年成長率為0%且近四季獲利年增率為-29%，顯示獲利波動劇烈。檢視所有提供的新聞標題，內容僅限於財報發布、電話會議及股利調升等事件宣告，並未揭露任何關於產業趨勢、商業模式變革或市占率提升等結構性成長的具體原因。由於缺乏能支持長期穩健成長之結構性因素的證據，無法依此判斷未來獲利能否穩健成長。",
+     "risks": [
+      "缺乏結構性成長動能的具體證據，難以評估長期獲利穩定性",
+      "歷史獲利波動劇烈，近四季獲利年增率為-29%"
+     ],
+     "sources": [
+      {
+       "title": "Aflac Incorporated Announces First Quarter 2026 Results - PR Newswire",
+       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc1dxVElVZVBYdGtMT3FKVVljUXp3Y25MTFBNSnhzNlJISVptZ1o2WXdkc282d2FUUURLRURnQWR2SEZ3dVBYY3pERzNuNDROVlJIb3h0NEVodGV4T0V2YjhNSHhsakl5WWhLbFp5MTVZdWkxVDdZVEtBazFVLTVuVUF2Q3dpUkRsSlI2dDBhWG5qTlRsUEJIQXM1SnFJdkk1LVVmS25YSElZdjlxWWFLbg?oc=5",
+       "date": "Wed, 29 Apr 2026",
+       "source": "PR Newswire"
+      },
+      {
+       "title": "Earnings call transcript: Aflac Q1 2026 reveals revenue beat, EPS miss - Investing.com",
+       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZTMwWENINjdVNjBpWVlZTzhPTTQzRFRhemU1eWQxei1nS3hlREtqSjRWbGJnTEJDZTk3bkpRR2o3cHpob3Jtc0ktX0xDY3poa2lWS2NNakxNaVNjRHRmemV2TEZmNklnZ2RhZWt6cURRc3pabkExcEppVHMycHozb3pHVlE1dXZjNnZQY1kySG9hMDl3QmJka184dkF2VnJGSWE2OENDSmZXQzVFem9qalVpOHZnTXAxWXRMTlBnX0o5dw?oc=5",
+       "date": "Thu, 30 Apr 2026",
+       "source": "Investing.com"
+      },
+      {
+       "title": "Aflac Incorporated Announces Fourth Quarter Results, Reports Fourth Quarter Net Earnings of $1.4 Billion, Reiterates Increase in First Quarter Dividend of 5.2% - PR Newswire",
+       "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNbFNjTmdLTEViZjlpQjc0cF8zVVB4WUxEUWVQRHFfTFdSNG9Pb29CN083VXVrdWpPaGZ5cG5GSjhvSFFEMmxWYmtLVEdDOXIzYV9od0doRlJyMWZ0UmpXUWhLa2RNV1FxeThVV2tZaF8yaWg5dmhQcWk0TnhLQjVpcGZpZmFPVzRJVkppeVh4eGpGTkh4TGpfdFRJV0JldWtfeWxQSXEwbHlodzh0WTNNNVZvaVlmLVRTMkpkMFBFRTd3NWpxeDhhNWpQN0dWUG1kRzVtaXAwalVEM0RBdjZNOHhzNklfemh5MWUtd3lrSlFrZ3ZpekNNTlkzb0ppZkZGdEh5ZldTT1JmaXBpQ25qMUFxbHFXbG4wY1lCOFhoX1JqYWFzclNVQnVUU0tWd2dqeHlYMFFn?oc=5",
+       "date": "Wed, 04 Feb 2026",
+       "source": "PR Newswire"
+      },
+      {
+       "title": "What Aflac (AFL)'s Earnings Surge and Dividend Hike Mean For Shareholders - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT3c5elBLeWpNSUpaaXRLTFdHWmZWdmI2ZFlwaDFyQTc2LUF0Qkk4a0E4QVBFdzBKNmpZSTBzQ3ZldVV0SS00WW9FNG9QLUhGSnRod3V4NjhGdUI1RmR3VklIbmJrMldNdEhNN1N1cGRRU2RqOGdwQzVpQllzSDVCMmI3enNZZzEtRGxIRmpCd0w2amRwMnlLYTBuOWZYcEU?oc=5",
+       "date": "Thu, 30 Apr 2026",
+       "source": "Yahoo Finance"
+      }
+     ],
+     "all_news": [
+      {
+       "title": "Aflac Incorporated to Release Second Quarter Results and CFO Video Update on August 6, 2026 and Host Webcast on August 7, 2026 - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQnNUUEpseHRVUGpvcExYYmdBQW9CX0s1VkxOUWtYS3lqY3UzdFlpdFFuYXZjRUVZRlYtcUhSQzR4ckJMN3ZQdVJydUZma2txOFladDdtWW1WWXlBVXN2MHFsdGJ6TG41amdnOHpXVTRwR2RCUUxyNFk2UzBzbmxEblNsbE5CR0doeTNJRWZVSUhnaVBNc3I4R0xsY2M3cXE3NnVRVTk3NTNwZw?oc=5",
+       "date": "Tue, 30 Jun 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "Aflac Incorporated to Release First Quarter Results and CFO Video Update on April 29, 2026 and Host Webcast on April 30, 2026 - Aflac",
+       "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQdkl4MWluMmdleWd6TTBHNmlMZXhvX2tCeDdhZ1FBRUJJNVVaS3ZsQ0pselk3OEtORzVVNEdFNW4zdlBiYlcyX3dxS3lBODlDQ0Rxd3JOR3puRjE4d3NtQmZhN3hhOFBMUW9DOExtUzF0Y0VJOFRXQXpwdXhiOUctMjRoVU9zVm5lMGItUkhpbTB2dUd1b0NTS0FLejZCR1hoQlI1cENiQWxJVTZOeDVmbG82eWw3ZzV2RHNDT3Y5ektOcGQtUHZlTC11TEZuMjZPQktKRnpEWldTNVI0ZEdXdmpNVnc4SXU3WHFKVEVIaU5tUnVjOWUtVW8wSXVDZDE3ejM3dFpmemVES3lZaHI0ZFJUT0RCZDJXaFpsa3ZSeHBIdVdiX1pEM0xqVmZjVDg?oc=5",
+       "date": "Thu, 02 Apr 2026",
+       "source": "Aflac"
+      },
+      {
+       "title": "Aflac Incorporated Announces First Quarter 2026 Results - PR Newswire",
+       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc1dxVElVZVBYdGtMT3FKVVljUXp3Y25MTFBNSnhzNlJISVptZ1o2WXdkc282d2FUUURLRURnQWR2SEZ3dVBYY3pERzNuNDROVlJIb3h0NEVodGV4T0V2YjhNSHhsakl5WWhLbFp5MTVZdWkxVDdZVEtBazFVLTVuVUF2Q3dpUkRsSlI2dDBhWG5qTlRsUEJIQXM1SnFJdkk1LVVmS25YSElZdjlxWWFLbg?oc=5",
+       "date": "Wed, 29 Apr 2026",
+       "source": "PR Newswire"
+      },
+      {
+       "title": "Q1 Earnings Highlights: Aflac (NYSE:AFL) Vs The Rest Of The Life Insurance Stocks - FinancialContent",
+       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUXRjMTB5V1B5UWk3QmgtTkZFVUg0SUx5TnVGWnBWSFQ5MmRkSUtITElveC10bm9RVmZXRUp3MlA4M2FiWW9VU2VHdUF3ZWZaZG1uUGFBN005d2RkdHY2Y3NsbnBydmFhemtKMXdMbENDTmFiWk50cURUYW1SZ0NzLVJIZ1pFdk9ldlBfaUY5OGRDYzMwNGF1cW85a19sOUJxQmdSNFNpWXFBSzN0bG0xS194R2pSMmZVdGZ2bHEyX183Rk1QWGdpNzRoR2JfZWRONEhqWlVn?oc=5",
+       "date": "Mon, 29 Jun 2026",
+       "source": "FinancialContent"
+      },
+      {
+       "title": "5 Must-Read Analyst Questions From Aflac’s Q1 Earnings Call - StockStory",
+       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSnA5a1BnVmZCRDNZT0M0bjgwMUdmbEVNUU94cGQ1eTlPazlqWThDNy0yRzlESFk2ZngyajA2dGRQOXVOR3lDT3VsVzlrWVBXU3lPcU1WU1NtTThSbXBCQnR0XzZSY3drRnpwZjdUM2UxTF9maFNvdlEzcG1GNUZXZlpfM09XWTV2RjAyNWpKN1VaTmdLdlphU3FTSFo2dmxHWjB4Y3JFbWZQcFJ1dkpBeHh6MElfLWlCUnVn?oc=5",
+       "date": "Tue, 05 May 2026",
+       "source": "StockStory"
+      },
+      {
+       "title": "Earnings call transcript: Aflac Q1 2026 reveals revenue beat, EPS miss - Investing.com",
+       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZTMwWENINjdVNjBpWVlZTzhPTTQzRFRhemU1eWQxei1nS3hlREtqSjRWbGJnTEJDZTk3bkpRR2o3cHpob3Jtc0ktX0xDY3poa2lWS2NNakxNaVNjRHRmemV2TEZmNklnZ2RhZWt6cURRc3pabkExcEppVHMycHozb3pHVlE1dXZjNnZQY1kySG9hMDl3QmJka184dkF2VnJGSWE2OENDSmZXQzVFem9qalVpOHZnTXAxWXRMTlBnX0o5dw?oc=5",
+       "date": "Thu, 30 Apr 2026",
+       "source": "Investing.com"
+      },
+      {
+       "title": "Aflac Incorporated Announces Fourth Quarter Results, Reports Fourth Quarter Net Earnings of $1.4 Billion, Reiterates Increase in First Quarter Dividend of 5.2% - PR Newswire",
+       "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNbFNjTmdLTEViZjlpQjc0cF8zVVB4WUxEUWVQRHFfTFdSNG9Pb29CN083VXVrdWpPaGZ5cG5GSjhvSFFEMmxWYmtLVEdDOXIzYV9od0doRlJyMWZ0UmpXUWhLa2RNV1FxeThVV2tZaF8yaWg5dmhQcWk0TnhLQjVpcGZpZmFPVzRJVkppeVh4eGpGTkh4TGpfdFRJV0JldWtfeWxQSXEwbHlodzh0WTNNNVZvaVlmLVRTMkpkMFBFRTd3NWpxeDhhNWpQN0dWUG1kRzVtaXAwalVEM0RBdjZNOHhzNklfemh5MWUtd3lrSlFrZ3ZpekNNTlkzb0ppZkZGdEh5ZldTT1JmaXBpQ25qMUFxbHFXbG4wY1lCOFhoX1JqYWFzclNVQnVUU0tWd2dqeHlYMFFn?oc=5",
+       "date": "Wed, 04 Feb 2026",
+       "source": "PR Newswire"
+      },
+      {
+       "title": "What Aflac (AFL)'s Earnings Surge and Dividend Hike Mean For Shareholders - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT3c5elBLeWpNSUpaaXRLTFdHWmZWdmI2ZFlwaDFyQTc2LUF0Qkk4a0E4QVBFdzBKNmpZSTBzQ3ZldVV0SS00WW9FNG9QLUhGSnRod3V4NjhGdUI1RmR3VklIbmJrMldNdEhNN1N1cGRRU2RqOGdwQzVpQllzSDVCMmI3enNZZzEtRGxIRmpCd0w2amRwMnlLYTBuOWZYcEU?oc=5",
+       "date": "Thu, 30 Apr 2026",
+       "source": "Yahoo Finance"
+      }
+     ],
+     "model": "gemini-flash-latest",
+     "judged_at": "2026-07-03 10:40"
+    }
    },
    {
-    "ticker": "MET",
-    "name": "MetLife",
-    "close": 90.06,
+    "ticker": "ALL",
+    "name": "Allstate",
+    "close": 250.33,
     "rebound": 1.0,
     "rebound_grade": "O",
-    "base_quality": 0.8882060430083937,
+    "base_quality": 0.8620781596362745,
     "scorecard": {
      "items": [
       {
@@ -347,7 +1772,7 @@
        "name": "① 股價突破近年來高價",
        "grade": "O",
        "symbol": "○",
-       "detail": "收盤 90.06 創近 2 年新高",
+       "detail": "收盤 250.33 創近 2 年新高",
        "starred": true
       },
       {
@@ -355,23 +1780,23 @@
        "name": "② 新高價位置（反彈幅度≥60%）",
        "grade": "O",
        "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 89%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 86%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
        "starred": true
       },
       {
        "key": "3",
        "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "T",
-       "symbol": "△",
-       "detail": "近5年平均年成長 26%，成長年份占 33%（成長不夠穩定）",
+       "grade": "N",
+       "symbol": "—",
+       "detail": "有效年成長樣本不足",
        "starred": false
       },
       {
        "key": "4",
        "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近四季獲利年增 -17%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近四季獲利年增 128%",
        "starred": false
       },
       {
@@ -379,7 +1804,250 @@
        "name": "⑤ 最近2~3季營收成長≥10%",
        "grade": "X",
        "symbol": "×",
-       "detail": "近1期季營收年增 2%",
+       "detail": "近1期季營收年增 3%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近1季獲利年增 332%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "AI 判斷（僅供參考，請複核依據）：僅憑新聞標題無法確認市占率提升與保費調升是否具備長期結構性支持，證據不足。",
+       "starred": true,
+       "ai": {
+        "grade": "T",
+        "one_line": "僅憑新聞標題無法確認市占率提升與保費調升是否具備長期結構性支持，證據不足。",
+        "analysis": "雖然新聞標題提及公司獲利成長來自「市占率提升」與「費率驅動的保費成長」，但僅憑標題無法深入分析其背後的結構性因素。我們無法確認市占率提升是源於長期的商業模式優勢，抑或僅是短期的市場波動。同時，費率調升可能只是應對供應鏈壓力的轉嫁手段，在缺乏詳細財務與營運報告內容的情況下，無法斷定其具備穩健成長的結構性變化。",
+        "risks": "財務槓桿過高與供應鏈壓力可能侵蝕獲利，且費率調升若僅為轉嫁成本，恐難以持續。",
+        "sources": [
+         {
+          "title": "Does Allstate’s (ALL) Premium Growth Justify Its Higher Leverage And Operational Trade‑Offs? - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMVkzNkhRUnZmVnB2ZHRZVHJ0Rl9IVlM0UDFQb2tyZ0dkN3BiVU52OXh2RGtfRDN4V1Z6bWpJVkhmZWtLc1B3cllkRC1UQTZXMDZzN3BDaXhNWk51R3pwbmVEb3daXzA0WnFUdnpFVFBta0VENTUtX2xOMlFjc3FhRUZxcUdWZDlidnpNTkQ5NVc5LUNDTTNqM3dLX1pHRU5Va2RPam1XSUEtNkgwZlM4eFNMQlJzTGI3Mi1yMW03dG4ta0HSAcgBQVVfeXFMUGNyZVRWZkNBcE4xZjVmRkp5d3ZHMklnZFIyLUJtanJqOGxRd3l6ZXpXajYxRVdaZHdzcDRUeUdxSVR0WWI0UDdXWi1aWDViZzFhSnd2eDhQQ1R2eXRLNjFiT2dPSlpJeXMwbUNuYkNwTy0yVnZuN21OUDk0OHZwSWpIdWh1YXlkR1h0WVdyVG9PWU9yZTlaMk82TTU5MGk2bHpBOFdCcFFpeDJXeW1GUDFtX1BfUkxIbjVpb25RYlVyNGJ3WnRMMG8?oc=5",
+          "date": "Tue, 30 Jun 2026",
+          "source": "simplywall.st"
+         },
+         {
+          "title": "Can Allstate's (ALL) Rate-Driven Premium Growth Offset Concerns Around Leverage and Supply Pressures? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcGxhTWRuWjJ4WFM0cWMwd1NVMkM4VUgzWWdjT2dCNFo3T3pQSW94MEdSR3BmWmJlOHg2RDVoT005czJKT3ByYzhSMWNJSmJrQmF1N1A4UDVDLXdPOHAycm1PaGZndkVIVU9QNi1kaTZRUGRpbmJXZFBIeV9TVTdSRGNfSGE2RG1DWFRzM0RFSS0xOWpHZU0tQTBENGZlNmxUWlI0?oc=5",
+          "date": "Mon, 29 Jun 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "Allstate Posts Higher First-Quarter Profit on Market Share Gains - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLUY4dC04V0hFa0d3LXlYeE52dUREb1RwQnBfaVZLNW5SdlE3Y1dUbGRmVXZLcXhFcjJzYzgwUzVrYWZUWkZIblhsX1JiVmE5ZEh5eFRDNXlMTTJlTndnWThHSnR4VGhaYnlLcDNqbm1XenhrdkI0Vk94enBYc1NTbW85VWxuN2lQZ05xWmV6QTBkMnNlOGk1dDNGcXRXTTNBdnN4Z3dBM3VEQl9Kc05PQw?oc=5",
+          "date": "Wed, 29 Apr 2026",
+          "source": "WSJ"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "Will Allstate (ALL) Beat Estimates Again in Its Next Earnings Report? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT19LM0pTN3hlSWlQSjNjMWU3dm52ZGJnaDRhUmlObEd0S092OFlOV2V1RDlIQ25YSHVGUkdhbDBBSEtabmJPbVZQX2NUcDlNTkg3eDNKYjNDVGpVWmpHN3FlXzBpZzh5U0M3LUlLOUExSUpDOXR1NmhnMmRPM19XNTZvdEI1UHA4VjhkX3o4V2U0ZU1SZE5IajhlTHBGNkFL?oc=5",
+          "date": "Wed, 01 Jul 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "Allstate (ALL) Q1 2026 Earnings Call Transcript - Fortune",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9BN24wMkJSMkRkdjJReWs4SndfbFRuOU1ORUhQSWdQVjdiVEQ3MVhfSUJINTZCb1htZW5YcVdrLVp4TlpOZVYyWVMydkJPbVd6UVRjOTVWUTBXU0ZtLTFjbGRxUlo?oc=5",
+          "date": "Wed, 01 Jul 2026",
+          "source": "Fortune"
+         },
+         {
+          "title": "Allstate Reports Strong Earnings and Increased Growth - PR Newswire",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcW9ZNHpmY2cwVFZpdW9yUzJYcjRzNnJMcmpZSWxDVXNoNHJzYnp6cXo5c1FXaGcyeDEza2p1X1VwakRocFBhMDdjVGw4N19jZjJaTW9Fam1fblExV0xYMTRjUDlpbjlBUTd6RGhtWlZQekV3Z2dyQzBXY2JRa01XbTkxZXc1QVF6MC05SVRwR01VN1E0N2NQOUtlbnk1UWpMeEpoNzRmbkpxaXNmVlE?oc=5",
+          "date": "Wed, 29 Apr 2026",
+          "source": "PR Newswire"
+         },
+         {
+          "title": "Does Allstate’s (ALL) Premium Growth Justify Its Higher Leverage And Operational Trade‑Offs? - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMVkzNkhRUnZmVnB2ZHRZVHJ0Rl9IVlM0UDFQb2tyZ0dkN3BiVU52OXh2RGtfRDN4V1Z6bWpJVkhmZWtLc1B3cllkRC1UQTZXMDZzN3BDaXhNWk51R3pwbmVEb3daXzA0WnFUdnpFVFBta0VENTUtX2xOMlFjc3FhRUZxcUdWZDlidnpNTkQ5NVc5LUNDTTNqM3dLX1pHRU5Va2RPam1XSUEtNkgwZlM4eFNMQlJzTGI3Mi1yMW03dG4ta0HSAcgBQVVfeXFMUGNyZVRWZkNBcE4xZjVmRkp5d3ZHMklnZFIyLUJtanJqOGxRd3l6ZXpXajYxRVdaZHdzcDRUeUdxSVR0WWI0UDdXWi1aWDViZzFhSnd2eDhQQ1R2eXRLNjFiT2dPSlpJeXMwbUNuYkNwTy0yVnZuN21OUDk0OHZwSWpIdWh1YXlkR1h0WVdyVG9PWU9yZTlaMk82TTU5MGk2bHpBOFdCcFFpeDJXeW1GUDFtX1BfUkxIbjVpb25RYlVyNGJ3WnRMMG8?oc=5",
+          "date": "Tue, 30 Jun 2026",
+          "source": "simplywall.st"
+         },
+         {
+          "title": "Can Allstate's (ALL) Rate-Driven Premium Growth Offset Concerns Around Leverage and Supply Pressures? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcGxhTWRuWjJ4WFM0cWMwd1NVMkM4VUgzWWdjT2dCNFo3T3pQSW94MEdSR3BmWmJlOHg2RDVoT005czJKT3ByYzhSMWNJSmJrQmF1N1A4UDVDLXdPOHAycm1PaGZndkVIVU9QNi1kaTZRUGRpbmJXZFBIeV9TVTdSRGNfSGE2RG1DWFRzM0RFSS0xOWpHZU0tQTBENGZlNmxUWlI0?oc=5",
+          "date": "Mon, 29 Jun 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "Price to earnings forward of Allstate Corporation (The) – NYSE:ALL - TradingView",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaWtfMkJQRGxnWTREVkt4SlUyLWV5WUNKQVl1di1xWDRlWFZaNlJ0V3hnblF4NTNIQVNlZzk4QkltNVVLemlzWFdhazFXaTZMdjBneS0xT3BfODhUdWJZS1BjVUViQThzUUhRemp5TFVaa29YYkFrbG83X1BzNVVwTng4QUZmV1VFT2VBbW9VbURuOVVldF91bndCV0ZRdw?oc=5",
+          "date": "Sat, 27 Jun 2026",
+          "source": "TradingView"
+         },
+         {
+          "title": "Allstate Posts Higher First-Quarter Profit on Market Share Gains - WSJ",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLUY4dC04V0hFa0d3LXlYeE52dUREb1RwQnBfaVZLNW5SdlE3Y1dUbGRmVXZLcXhFcjJzYzgwUzVrYWZUWkZIblhsX1JiVmE5ZEh5eFRDNXlMTTJlTndnWThHSnR4VGhaYnlLcDNqbm1XenhrdkI0Vk94enBYc1NTbW85VWxuN2lQZ05xWmV6QTBkMnNlOGk1dDNGcXRXTTNBdnN4Z3dBM3VEQl9Kc05PQw?oc=5",
+          "date": "Wed, 29 Apr 2026",
+          "source": "WSJ"
+         },
+         {
+          "title": "Allstate (ALL) Q1 2026 Earnings Transcript - The Motley Fool",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVllyT3p4YUF1UjVxaGY1VFpyanI1Mi1ra3ZLelhObGc3bEwwYVpRc09fR29POEZsazVSdFhabEU2MTFBb2ZsOVJGSTNET0JCYTJnckZNQUxubWdvME9CSmVyVURGTkNaMHMtbElBU004WDJwekRIem1fM3hfMTdiZ1M2YTlLWXJPLUpmMHBFT1hJUENkSWp5NElEc2dUTkJf?oc=5",
+          "date": "Thu, 30 Apr 2026",
+          "source": "The Motley Fool"
+         }
+        ],
+        "model": "gemini-flash-latest",
+        "judged_at": "2026-07-03 10:40"
+       }
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 5.5 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 79,
+     "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+    },
+    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量",
+    "ai7": {
+     "grade": "T",
+     "one_line": "僅憑新聞標題無法確認市占率提升與保費調升是否具備長期結構性支持，證據不足。",
+     "analysis": "雖然新聞標題提及公司獲利成長來自「市占率提升」與「費率驅動的保費成長」，但僅憑標題無法深入分析其背後的結構性因素。我們無法確認市占率提升是源於長期的商業模式優勢，抑或僅是短期的市場波動。同時，費率調升可能只是應對供應鏈壓力的轉嫁手段，在缺乏詳細財務與營運報告內容的情況下，無法斷定其具備穩健成長的結構性變化。",
+     "risks": "財務槓桿過高與供應鏈壓力可能侵蝕獲利，且費率調升若僅為轉嫁成本，恐難以持續。",
+     "sources": [
+      {
+       "title": "Does Allstate’s (ALL) Premium Growth Justify Its Higher Leverage And Operational Trade‑Offs? - simplywall.st",
+       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMVkzNkhRUnZmVnB2ZHRZVHJ0Rl9IVlM0UDFQb2tyZ0dkN3BiVU52OXh2RGtfRDN4V1Z6bWpJVkhmZWtLc1B3cllkRC1UQTZXMDZzN3BDaXhNWk51R3pwbmVEb3daXzA0WnFUdnpFVFBta0VENTUtX2xOMlFjc3FhRUZxcUdWZDlidnpNTkQ5NVc5LUNDTTNqM3dLX1pHRU5Va2RPam1XSUEtNkgwZlM4eFNMQlJzTGI3Mi1yMW03dG4ta0HSAcgBQVVfeXFMUGNyZVRWZkNBcE4xZjVmRkp5d3ZHMklnZFIyLUJtanJqOGxRd3l6ZXpXajYxRVdaZHdzcDRUeUdxSVR0WWI0UDdXWi1aWDViZzFhSnd2eDhQQ1R2eXRLNjFiT2dPSlpJeXMwbUNuYkNwTy0yVnZuN21OUDk0OHZwSWpIdWh1YXlkR1h0WVdyVG9PWU9yZTlaMk82TTU5MGk2bHpBOFdCcFFpeDJXeW1GUDFtX1BfUkxIbjVpb25RYlVyNGJ3WnRMMG8?oc=5",
+       "date": "Tue, 30 Jun 2026",
+       "source": "simplywall.st"
+      },
+      {
+       "title": "Can Allstate's (ALL) Rate-Driven Premium Growth Offset Concerns Around Leverage and Supply Pressures? - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcGxhTWRuWjJ4WFM0cWMwd1NVMkM4VUgzWWdjT2dCNFo3T3pQSW94MEdSR3BmWmJlOHg2RDVoT005czJKT3ByYzhSMWNJSmJrQmF1N1A4UDVDLXdPOHAycm1PaGZndkVIVU9QNi1kaTZRUGRpbmJXZFBIeV9TVTdSRGNfSGE2RG1DWFRzM0RFSS0xOWpHZU0tQTBENGZlNmxUWlI0?oc=5",
+       "date": "Mon, 29 Jun 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "Allstate Posts Higher First-Quarter Profit on Market Share Gains - WSJ",
+       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLUY4dC04V0hFa0d3LXlYeE52dUREb1RwQnBfaVZLNW5SdlE3Y1dUbGRmVXZLcXhFcjJzYzgwUzVrYWZUWkZIblhsX1JiVmE5ZEh5eFRDNXlMTTJlTndnWThHSnR4VGhaYnlLcDNqbm1XenhrdkI0Vk94enBYc1NTbW85VWxuN2lQZ05xWmV6QTBkMnNlOGk1dDNGcXRXTTNBdnN4Z3dBM3VEQl9Kc05PQw?oc=5",
+       "date": "Wed, 29 Apr 2026",
+       "source": "WSJ"
+      }
+     ],
+     "all_news": [
+      {
+       "title": "Will Allstate (ALL) Beat Estimates Again in Its Next Earnings Report? - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT19LM0pTN3hlSWlQSjNjMWU3dm52ZGJnaDRhUmlObEd0S092OFlOV2V1RDlIQ25YSHVGUkdhbDBBSEtabmJPbVZQX2NUcDlNTkg3eDNKYjNDVGpVWmpHN3FlXzBpZzh5U0M3LUlLOUExSUpDOXR1NmhnMmRPM19XNTZvdEI1UHA4VjhkX3o4V2U0ZU1SZE5IajhlTHBGNkFL?oc=5",
+       "date": "Wed, 01 Jul 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "Allstate (ALL) Q1 2026 Earnings Call Transcript - Fortune",
+       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9BN24wMkJSMkRkdjJReWs4SndfbFRuOU1ORUhQSWdQVjdiVEQ3MVhfSUJINTZCb1htZW5YcVdrLVp4TlpOZVYyWVMydkJPbVd6UVRjOTVWUTBXU0ZtLTFjbGRxUlo?oc=5",
+       "date": "Wed, 01 Jul 2026",
+       "source": "Fortune"
+      },
+      {
+       "title": "Allstate Reports Strong Earnings and Increased Growth - PR Newswire",
+       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcW9ZNHpmY2cwVFZpdW9yUzJYcjRzNnJMcmpZSWxDVXNoNHJzYnp6cXo5c1FXaGcyeDEza2p1X1VwakRocFBhMDdjVGw4N19jZjJaTW9Fam1fblExV0xYMTRjUDlpbjlBUTd6RGhtWlZQekV3Z2dyQzBXY2JRa01XbTkxZXc1QVF6MC05SVRwR01VN1E0N2NQOUtlbnk1UWpMeEpoNzRmbkpxaXNmVlE?oc=5",
+       "date": "Wed, 29 Apr 2026",
+       "source": "PR Newswire"
+      },
+      {
+       "title": "Does Allstate’s (ALL) Premium Growth Justify Its Higher Leverage And Operational Trade‑Offs? - simplywall.st",
+       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMVkzNkhRUnZmVnB2ZHRZVHJ0Rl9IVlM0UDFQb2tyZ0dkN3BiVU52OXh2RGtfRDN4V1Z6bWpJVkhmZWtLc1B3cllkRC1UQTZXMDZzN3BDaXhNWk51R3pwbmVEb3daXzA0WnFUdnpFVFBta0VENTUtX2xOMlFjc3FhRUZxcUdWZDlidnpNTkQ5NVc5LUNDTTNqM3dLX1pHRU5Va2RPam1XSUEtNkgwZlM4eFNMQlJzTGI3Mi1yMW03dG4ta0HSAcgBQVVfeXFMUGNyZVRWZkNBcE4xZjVmRkp5d3ZHMklnZFIyLUJtanJqOGxRd3l6ZXpXajYxRVdaZHdzcDRUeUdxSVR0WWI0UDdXWi1aWDViZzFhSnd2eDhQQ1R2eXRLNjFiT2dPSlpJeXMwbUNuYkNwTy0yVnZuN21OUDk0OHZwSWpIdWh1YXlkR1h0WVdyVG9PWU9yZTlaMk82TTU5MGk2bHpBOFdCcFFpeDJXeW1GUDFtX1BfUkxIbjVpb25RYlVyNGJ3WnRMMG8?oc=5",
+       "date": "Tue, 30 Jun 2026",
+       "source": "simplywall.st"
+      },
+      {
+       "title": "Can Allstate's (ALL) Rate-Driven Premium Growth Offset Concerns Around Leverage and Supply Pressures? - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcGxhTWRuWjJ4WFM0cWMwd1NVMkM4VUgzWWdjT2dCNFo3T3pQSW94MEdSR3BmWmJlOHg2RDVoT005czJKT3ByYzhSMWNJSmJrQmF1N1A4UDVDLXdPOHAycm1PaGZndkVIVU9QNi1kaTZRUGRpbmJXZFBIeV9TVTdSRGNfSGE2RG1DWFRzM0RFSS0xOWpHZU0tQTBENGZlNmxUWlI0?oc=5",
+       "date": "Mon, 29 Jun 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "Price to earnings forward of Allstate Corporation (The) – NYSE:ALL - TradingView",
+       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaWtfMkJQRGxnWTREVkt4SlUyLWV5WUNKQVl1di1xWDRlWFZaNlJ0V3hnblF4NTNIQVNlZzk4QkltNVVLemlzWFdhazFXaTZMdjBneS0xT3BfODhUdWJZS1BjVUViQThzUUhRemp5TFVaa29YYkFrbG83X1BzNVVwTng4QUZmV1VFT2VBbW9VbURuOVVldF91bndCV0ZRdw?oc=5",
+       "date": "Sat, 27 Jun 2026",
+       "source": "TradingView"
+      },
+      {
+       "title": "Allstate Posts Higher First-Quarter Profit on Market Share Gains - WSJ",
+       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLUY4dC04V0hFa0d3LXlYeE52dUREb1RwQnBfaVZLNW5SdlE3Y1dUbGRmVXZLcXhFcjJzYzgwUzVrYWZUWkZIblhsX1JiVmE5ZEh5eFRDNXlMTTJlTndnWThHSnR4VGhaYnlLcDNqbm1XenhrdkI0Vk94enBYc1NTbW85VWxuN2lQZ05xWmV6QTBkMnNlOGk1dDNGcXRXTTNBdnN4Z3dBM3VEQl9Kc05PQw?oc=5",
+       "date": "Wed, 29 Apr 2026",
+       "source": "WSJ"
+      },
+      {
+       "title": "Allstate (ALL) Q1 2026 Earnings Transcript - The Motley Fool",
+       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVllyT3p4YUF1UjVxaGY1VFpyanI1Mi1ra3ZLelhObGc3bEwwYVpRc09fR29POEZsazVSdFhabEU2MTFBb2ZsOVJGSTNET0JCYTJnckZNQUxubWdvME9CSmVyVURGTkNaMHMtbElBU004WDJwekRIem1fM3hfMTdiZ1M2YTlLWXJPLUpmMHBFT1hJUENkSWp5NElEc2dUTkJf?oc=5",
+       "date": "Thu, 30 Apr 2026",
+       "source": "The Motley Fool"
+      }
+     ],
+     "model": "gemini-flash-latest",
+     "judged_at": "2026-07-03 10:40"
+    }
+   },
+   {
+    "ticker": "KO",
+    "name": "Coca-Cola Company (The)",
+    "close": 84.14,
+    "rebound": 1.0,
+    "rebound_grade": "O",
+    "base_quality": 0.8332466220689186,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 84.14 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 83%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近5年平均年成長 11%，成長年份占 100%",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近四季獲利年增 22%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近1期季營收年增 12%",
        "starred": false
       },
       {
@@ -387,7 +2055,244 @@
        "name": "⑥ 最近2~3季獲利成長≥20%",
        "grade": "X",
        "symbol": "×",
-       "detail": "近1季獲利年增 11%",
+       "detail": "近1季獲利年增 14%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "AI 判斷（僅供參考，請複核依據）：現有新聞僅提供標題與財務數字，缺乏說明未來獲利能穩健成長之具體結構性變化的詳細證據。",
+       "starred": true,
+       "ai": {
+        "grade": "T",
+        "one_line": "現有新聞僅提供標題與財務數字，缺乏說明未來獲利能穩健成長之具體結構性變化的詳細證據。",
+        "analysis": "雖然公司近期財務數據表現亮眼，近5年平均年成長達11%，且近四季獲利年增22%，顯示過去營運穩健。然而，所提供的資訊僅有新聞標題，無法得知新聞[4]所述之『某一默默成為消費強大動力的業務』具體為何，亦缺乏關於產業趨勢、商業模式變革或市占率提升等結構性成長的實質內容。在缺乏具體營運細節與未來成長驅動因素的證據下，無法做出確切的穩健成長判斷。",
+        "risks": [
+         "資訊不足風險：無法評估推動未來成長的具體業務與結構性因素。",
+         "成本上升風險：新聞[7]提及裝瓶業務面臨更昂貴的罐裝成本壓力。"
+        ],
+        "sources": [
+         {
+          "title": "One Coca-Cola business is quietly becoming a consumer powerhouse - thestreet.com",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc1o5LThJeXRla3ZhTWI0OU5qbUhoZGxQWk9sSjlWa3ZfdHFVTWRJNzJDamM3MERCVkpOTlJrdnBFZGpfQUdSbVF1dVZQd0lLaDhqRVJIWElPU09Oc0lsZ1o4T01OUjhuV3lIb1NVUGwtLTNZNmpob0NsQldCZFFEdHR3Y2pSNWpoMUNOSks5Vmk2SVZTRkI2Z0M1bEtIajh5Qk45Z25oRHcxVkU?oc=5",
+          "date": "Thu, 11 Jun 2026",
+          "source": "thestreet.com"
+         },
+         {
+          "title": "Coca-Cola Consolidated: A Bottling Fortress Facing A Costlier Can (NASDAQ:COKE) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNkp0cnpSZUhrT3k4WUlqSUVWemdOWG83MDVGRHNjN0d5dmgyUzlnbzRyMVU2NnB0NjFIVDlRU2xyNXJQc0J1R2h6cnRGMjBWS2ZxN254Tld4aWxvUmpvMFF6cHZSM2NRTGxBUUJyQ1F6VkM2MzdjZ1lHRW8xcVdKRFl3TkxVbm9qOVMtT2pmLUpSYjNzTXlrVjloTjc2OV9kYUg5SG80bDg?oc=5",
+          "date": "Tue, 16 Jun 2026",
+          "source": "Seeking Alpha"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "The Coca-Cola Company Announces Timing of Second Quarter 2026 Earnings Release - Business Wire",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTU1Kajg3NkRzc1N3a1piUW5BM0FQNlQ1T0U1TDl2U0Z0U3dqeTRhLVFRZjNNNzNWd3gxdUJ4bWlSSjRLanVKRzZjRVNZaE1VVUtWQWZPSjlaZU1zSzRMRlJkSU90V1gzS2VPVm9nZ2RNQnl0MXdIcW1KQ210Vk1PdmJPRk0xWTBqekpzSUFMWk9CZ0RuZHpIY3g2XzBINFV1VzhmZFlWM05UdVljeHFsTGFYR1ctM2N2VjBsV0xaSjM4N00xZkI1blBpUklwZC0w?oc=5",
+          "date": "Mon, 29 Jun 2026",
+          "source": "Business Wire"
+         },
+         {
+          "title": "Coca-Cola Company Actuals & Estimates (NYSE:KO) - TradingView",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRmExWUl4RFBCOURKSkpQYl91dV9MSHRqTWRYTlJZS1FnMjM0S3RKamZQcUVBYjZSVnVKZXRpY2NSX05BVkxvQVNYdUtSckN5UHNuSFZCUHNWVjhxQ21KMFNkNWF5azhiV2ZXSlhyQV9BYjRTUUFtN3pmRUVULXc2UQ?oc=5",
+          "date": "Sat, 27 Jun 2026",
+          "source": "TradingView"
+         },
+         {
+          "title": "Here's How Much Traders Expect Coca-Cola Stock Could Move After Earnings Tuesday - Investopedia",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONjk3YmVsSW4zN3M3RFQ5eDA0Ykt2VUp5VlRGWFk4NHBXZEI1OWpfRzJySlpBSENNOXJxb3lmdW5qZUx4YlRqSUZGdUJGZTl0ajZ0V0RQanpFQllZSjhiTmNfNk11UGgxS3FoWFI0aUZyUFFibFpVUFM4dHhCMk1nYzNwcEpicjB5aHJ1RDRmZndPMVRxX0M5aXBDcnc1b01QM3czMVJ6YkNRaE1nUVE3bnRvQlB6WkRKTVVjNWE3TzJLSm92b05CMQ?oc=5",
+          "date": "Sat, 07 Feb 2026",
+          "source": "Investopedia"
+         },
+         {
+          "title": "One Coca-Cola business is quietly becoming a consumer powerhouse - thestreet.com",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc1o5LThJeXRla3ZhTWI0OU5qbUhoZGxQWk9sSjlWa3ZfdHFVTWRJNzJDamM3MERCVkpOTlJrdnBFZGpfQUdSbVF1dVZQd0lLaDhqRVJIWElPU09Oc0lsZ1o4T01OUjhuV3lIb1NVUGwtLTNZNmpob0NsQldCZFFEdHR3Y2pSNWpoMUNOSks5Vmk2SVZTRkI2Z0M1bEtIajh5Qk45Z25oRHcxVkU?oc=5",
+          "date": "Thu, 11 Jun 2026",
+          "source": "thestreet.com"
+         },
+         {
+          "title": "Coca-Cola Q4 Earnings Beat Estimates, Stock Falls on Revenues Miss - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4zWnM3YkxtT3dpYjFLb25UVDJpd3BMdkFoYXNqSjJUczRsQlZJSHBFMXVac1NMWVJkNTN4RmkxbnV0bUtvU3FtNnpQd055bVFoTk50cGhyWFFHWDFQLXJ2S1Y5dFVETFFlRVBfUm1XY1lvRDRJV0xMaWNpc0M?oc=5",
+          "date": "Tue, 10 Feb 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "Earnings call transcript: Coca-Cola Q1 2026 beats expectations, stock surges - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX2pabGlmWjFLUjZEbENIUXUtd1pfQXhsTGVJQXBKRHpZNUZNQ3daTVRDZ0FMazlUc2NUV1FvUDVwUnpoWGpDakFyeFd5VEpBODh1ZVhnZFBfVzhSd2JhaU9qcHRSSUFaY2dhbGFBcGZmb1JZOTcxalJxeENYQV9GWWRnWTBEaXBXaWI5VTdZSGx1Q2NJa3UtSUNwNnlEOHVBYWw4Y0k4T2d0TjkwRW9jQzM5U0lrWFYza0NERmxaQkpldjlYZW9Lbg?oc=5",
+          "date": "Tue, 28 Apr 2026",
+          "source": "Investing.com"
+         },
+         {
+          "title": "Coca-Cola Consolidated: A Bottling Fortress Facing A Costlier Can (NASDAQ:COKE) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNkp0cnpSZUhrT3k4WUlqSUVWemdOWG83MDVGRHNjN0d5dmgyUzlnbzRyMVU2NnB0NjFIVDlRU2xyNXJQc0J1R2h6cnRGMjBWS2ZxN254Tld4aWxvUmpvMFF6cHZSM2NRTGxBUUJyQ1F6VkM2MzdjZ1lHRW8xcVdKRFl3TkxVbm9qOVMtT2pmLUpSYjNzTXlrVjloTjc2OV9kYUg5SG80bDg?oc=5",
+          "date": "Tue, 16 Jun 2026",
+          "source": "Seeking Alpha"
+         },
+         {
+          "title": "Coca-Cola (KO) Q4 2025 Earnings Call Transcript - The Motley Fool",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQamJVcEdEWGRSblNBWlF5QVRuOVBmek9TUmlZM2xzR1c1MHlYcTM3bFAyNEJHdkxLdlVEWlBuaDFNUXQ1cGYxX281dFFjdXpJVERxOTVxaEY4QlI0QTZuT05pRzJoNktOSGdOMTlEN1FwSGctd0xTbDdEd0tXamg3U05jLUxVeFZudE50UGhOdm5XNHdFbUY1STd2TnVUaVVFWU1HbjZtQQ?oc=5",
+          "date": "Tue, 10 Feb 2026",
+          "source": "The Motley Fool"
+         }
+        ],
+        "model": "gemini-flash-latest",
+        "judged_at": "2026-07-03 10:41"
+       }
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 26.5 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 79,
+     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+    },
+    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+    "ai7": {
+     "grade": "T",
+     "one_line": "現有新聞僅提供標題與財務數字，缺乏說明未來獲利能穩健成長之具體結構性變化的詳細證據。",
+     "analysis": "雖然公司近期財務數據表現亮眼，近5年平均年成長達11%，且近四季獲利年增22%，顯示過去營運穩健。然而，所提供的資訊僅有新聞標題，無法得知新聞[4]所述之『某一默默成為消費強大動力的業務』具體為何，亦缺乏關於產業趨勢、商業模式變革或市占率提升等結構性成長的實質內容。在缺乏具體營運細節與未來成長驅動因素的證據下，無法做出確切的穩健成長判斷。",
+     "risks": [
+      "資訊不足風險：無法評估推動未來成長的具體業務與結構性因素。",
+      "成本上升風險：新聞[7]提及裝瓶業務面臨更昂貴的罐裝成本壓力。"
+     ],
+     "sources": [
+      {
+       "title": "One Coca-Cola business is quietly becoming a consumer powerhouse - thestreet.com",
+       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc1o5LThJeXRla3ZhTWI0OU5qbUhoZGxQWk9sSjlWa3ZfdHFVTWRJNzJDamM3MERCVkpOTlJrdnBFZGpfQUdSbVF1dVZQd0lLaDhqRVJIWElPU09Oc0lsZ1o4T01OUjhuV3lIb1NVUGwtLTNZNmpob0NsQldCZFFEdHR3Y2pSNWpoMUNOSks5Vmk2SVZTRkI2Z0M1bEtIajh5Qk45Z25oRHcxVkU?oc=5",
+       "date": "Thu, 11 Jun 2026",
+       "source": "thestreet.com"
+      },
+      {
+       "title": "Coca-Cola Consolidated: A Bottling Fortress Facing A Costlier Can (NASDAQ:COKE) - Seeking Alpha",
+       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNkp0cnpSZUhrT3k4WUlqSUVWemdOWG83MDVGRHNjN0d5dmgyUzlnbzRyMVU2NnB0NjFIVDlRU2xyNXJQc0J1R2h6cnRGMjBWS2ZxN254Tld4aWxvUmpvMFF6cHZSM2NRTGxBUUJyQ1F6VkM2MzdjZ1lHRW8xcVdKRFl3TkxVbm9qOVMtT2pmLUpSYjNzTXlrVjloTjc2OV9kYUg5SG80bDg?oc=5",
+       "date": "Tue, 16 Jun 2026",
+       "source": "Seeking Alpha"
+      }
+     ],
+     "all_news": [
+      {
+       "title": "The Coca-Cola Company Announces Timing of Second Quarter 2026 Earnings Release - Business Wire",
+       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTU1Kajg3NkRzc1N3a1piUW5BM0FQNlQ1T0U1TDl2U0Z0U3dqeTRhLVFRZjNNNzNWd3gxdUJ4bWlSSjRLanVKRzZjRVNZaE1VVUtWQWZPSjlaZU1zSzRMRlJkSU90V1gzS2VPVm9nZ2RNQnl0MXdIcW1KQ210Vk1PdmJPRk0xWTBqekpzSUFMWk9CZ0RuZHpIY3g2XzBINFV1VzhmZFlWM05UdVljeHFsTGFYR1ctM2N2VjBsV0xaSjM4N00xZkI1blBpUklwZC0w?oc=5",
+       "date": "Mon, 29 Jun 2026",
+       "source": "Business Wire"
+      },
+      {
+       "title": "Coca-Cola Company Actuals & Estimates (NYSE:KO) - TradingView",
+       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRmExWUl4RFBCOURKSkpQYl91dV9MSHRqTWRYTlJZS1FnMjM0S3RKamZQcUVBYjZSVnVKZXRpY2NSX05BVkxvQVNYdUtSckN5UHNuSFZCUHNWVjhxQ21KMFNkNWF5azhiV2ZXSlhyQV9BYjRTUUFtN3pmRUVULXc2UQ?oc=5",
+       "date": "Sat, 27 Jun 2026",
+       "source": "TradingView"
+      },
+      {
+       "title": "Here's How Much Traders Expect Coca-Cola Stock Could Move After Earnings Tuesday - Investopedia",
+       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONjk3YmVsSW4zN3M3RFQ5eDA0Ykt2VUp5VlRGWFk4NHBXZEI1OWpfRzJySlpBSENNOXJxb3lmdW5qZUx4YlRqSUZGdUJGZTl0ajZ0V0RQanpFQllZSjhiTmNfNk11UGgxS3FoWFI0aUZyUFFibFpVUFM4dHhCMk1nYzNwcEpicjB5aHJ1RDRmZndPMVRxX0M5aXBDcnc1b01QM3czMVJ6YkNRaE1nUVE3bnRvQlB6WkRKTVVjNWE3TzJLSm92b05CMQ?oc=5",
+       "date": "Sat, 07 Feb 2026",
+       "source": "Investopedia"
+      },
+      {
+       "title": "One Coca-Cola business is quietly becoming a consumer powerhouse - thestreet.com",
+       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc1o5LThJeXRla3ZhTWI0OU5qbUhoZGxQWk9sSjlWa3ZfdHFVTWRJNzJDamM3MERCVkpOTlJrdnBFZGpfQUdSbVF1dVZQd0lLaDhqRVJIWElPU09Oc0lsZ1o4T01OUjhuV3lIb1NVUGwtLTNZNmpob0NsQldCZFFEdHR3Y2pSNWpoMUNOSks5Vmk2SVZTRkI2Z0M1bEtIajh5Qk45Z25oRHcxVkU?oc=5",
+       "date": "Thu, 11 Jun 2026",
+       "source": "thestreet.com"
+      },
+      {
+       "title": "Coca-Cola Q4 Earnings Beat Estimates, Stock Falls on Revenues Miss - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4zWnM3YkxtT3dpYjFLb25UVDJpd3BMdkFoYXNqSjJUczRsQlZJSHBFMXVac1NMWVJkNTN4RmkxbnV0bUtvU3FtNnpQd055bVFoTk50cGhyWFFHWDFQLXJ2S1Y5dFVETFFlRVBfUm1XY1lvRDRJV0xMaWNpc0M?oc=5",
+       "date": "Tue, 10 Feb 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "Earnings call transcript: Coca-Cola Q1 2026 beats expectations, stock surges - Investing.com",
+       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX2pabGlmWjFLUjZEbENIUXUtd1pfQXhsTGVJQXBKRHpZNUZNQ3daTVRDZ0FMazlUc2NUV1FvUDVwUnpoWGpDakFyeFd5VEpBODh1ZVhnZFBfVzhSd2JhaU9qcHRSSUFaY2dhbGFBcGZmb1JZOTcxalJxeENYQV9GWWRnWTBEaXBXaWI5VTdZSGx1Q2NJa3UtSUNwNnlEOHVBYWw4Y0k4T2d0TjkwRW9jQzM5U0lrWFYza0NERmxaQkpldjlYZW9Lbg?oc=5",
+       "date": "Tue, 28 Apr 2026",
+       "source": "Investing.com"
+      },
+      {
+       "title": "Coca-Cola Consolidated: A Bottling Fortress Facing A Costlier Can (NASDAQ:COKE) - Seeking Alpha",
+       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNkp0cnpSZUhrT3k4WUlqSUVWemdOWG83MDVGRHNjN0d5dmgyUzlnbzRyMVU2NnB0NjFIVDlRU2xyNXJQc0J1R2h6cnRGMjBWS2ZxN254Tld4aWxvUmpvMFF6cHZSM2NRTGxBUUJyQ1F6VkM2MzdjZ1lHRW8xcVdKRFl3TkxVbm9qOVMtT2pmLUpSYjNzTXlrVjloTjc2OV9kYUg5SG80bDg?oc=5",
+       "date": "Tue, 16 Jun 2026",
+       "source": "Seeking Alpha"
+      },
+      {
+       "title": "Coca-Cola (KO) Q4 2025 Earnings Call Transcript - The Motley Fool",
+       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQamJVcEdEWGRSblNBWlF5QVRuOVBmek9TUmlZM2xzR1c1MHlYcTM3bFAyNEJHdkxLdlVEWlBuaDFNUXQ1cGYxX281dFFjdXpJVERxOTVxaEY4QlI0QTZuT05pRzJoNktOSGdOMTlEN1FwSGctd0xTbDdEd0tXamg3U05jLUxVeFZudE50UGhOdm5XNHdFbUY1STd2TnVUaVVFWU1HbjZtQQ?oc=5",
+       "date": "Tue, 10 Feb 2026",
+       "source": "The Motley Fool"
+      }
+     ],
+     "model": "gemini-flash-latest",
+     "judged_at": "2026-07-03 10:41"
+    }
+   },
+   {
+    "ticker": "PNW",
+    "name": "Pinnacle West Capital",
+    "close": 109.37,
+    "rebound": 1.0,
+    "rebound_grade": "O",
+    "base_quality": 0.8429025113725733,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 109.37 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 84%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近5年平均年成長 9%，成長年份占 100%",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近四季獲利年增 0%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近1期季營收年增 11%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "N",
+       "symbol": "—",
+       "detail": "季獲利資料不足",
        "starred": true
       },
       {
@@ -403,7 +2308,7 @@
        "name": "⑧ 本益比未過熱（<60倍）",
        "grade": "O",
        "symbol": "○",
-       "detail": "本益比 17.4 倍",
+       "detail": "本益比 20.4 倍",
        "starred": false
       },
       {
@@ -415,7 +2320,268 @@
        "starred": true
       }
      ],
-     "score": 62,
+     "score": 75,
+     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+    },
+    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+   },
+   {
+    "ticker": "CINF",
+    "name": "Cincinnati Financial",
+    "close": 192.03,
+    "rebound": 1.0,
+    "rebound_grade": "O",
+    "base_quality": 0.8112332333847401,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 192.03 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 81%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近4年平均年成長 15%，成長年份占 100%",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近四季獲利年增 4%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近1期季營收年增 12%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "N",
+       "symbol": "—",
+       "detail": "季獲利資料不足",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "M",
+       "symbol": "人工",
+       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+       "starred": true
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 11.0 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 75,
+     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+    },
+    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+   },
+   {
+    "ticker": "GD",
+    "name": "General Dynamics",
+    "close": 373.54,
+    "rebound": 1.0,
+    "rebound_grade": "O",
+    "base_quality": 0.7626034400684797,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 373.54 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 76%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近4年平均年成長 8%，成長年份占 67%",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近四季獲利年增 12%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近1期季營收年增 10%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1季獲利年增 14%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "M",
+       "symbol": "人工",
+       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+       "starred": true
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 23.5 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 75,
+     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+    },
+    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+   },
+   {
+    "ticker": "L",
+    "name": "Loews Corporation",
+    "close": 116.52,
+    "rebound": 1.0,
+    "rebound_grade": "O",
+    "base_quality": 0.7623758861903975,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 116.52 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 76%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近5年平均年成長 32%，成長年份占 67%",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近四季獲利年增 22%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1期季營收年增 1%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1季獲利年增 -10%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "M",
+       "symbol": "人工",
+       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+       "starred": true
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 14.8 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 75,
      "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
     },
     "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
@@ -503,6 +2669,267 @@
       }
      ],
      "score": 67,
+     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+    },
+    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+   },
+   {
+    "ticker": "ABBV",
+    "name": "AbbVie",
+    "close": 261.07,
+    "rebound": 1.0,
+    "rebound_grade": "O",
+    "base_quality": 0.7837905565991963,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 261.07 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 78%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近4年平均年成長 -6%，成長年份占 33%",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近四季獲利年增 78%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近1期季營收年增 12%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1季獲利年增 -37%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "M",
+       "symbol": "人工",
+       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+       "starred": true
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "本益比 128.0 倍（≥60 倍，過熱）",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 67,
+     "verdict": "淘汰：關鍵項目不合格"
+    },
+    "mech_verdict": "淘汰：關鍵項目不合格"
+   },
+   {
+    "ticker": "ESS",
+    "name": "Essex Property Trust",
+    "close": 298.33,
+    "rebound": 0.9466037038082858,
+    "rebound_grade": "O",
+    "base_quality": 0.8947200572482255,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 298.33 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 95%（目標≥60%），平穩期品質 89%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "近5年平均年成長 25%，成長年份占 33%（成長不夠穩定）",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近四季獲利年增 -13%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1期季營收年增 4%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1季獲利年增 -47%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "M",
+       "symbol": "人工",
+       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+       "starred": true
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 33.6 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 62,
+     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+    },
+    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+   },
+   {
+    "ticker": "MET",
+    "name": "MetLife",
+    "close": 90.06,
+    "rebound": 1.0,
+    "rebound_grade": "O",
+    "base_quality": 0.8882060430083937,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 90.06 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 89%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "近5年平均年成長 26%，成長年份占 33%（成長不夠穩定）",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近四季獲利年增 -17%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1期季營收年增 2%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1季獲利年增 11%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "M",
+       "symbol": "人工",
+       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+       "starred": true
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 17.4 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 62,
      "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
     },
     "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
@@ -682,358 +3109,10 @@
     "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
    },
    {
-    "ticker": "ALL",
-    "name": "Allstate",
-    "close": 250.33,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.8620781596362745,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 250.33 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 86%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "N",
-       "symbol": "—",
-       "detail": "有效年成長樣本不足",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近四季獲利年增 128%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近1期季營收年增 3%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1季獲利年增 332%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 5.5 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 83,
-     "verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
-    },
-    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
-   },
-   {
-    "ticker": "VRTX",
-    "name": "Vertex Pharmaceuticals",
-    "close": 528.04,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.8606720922337368,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 528.04 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 86%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近5年平均年成長 559%，成長年份占 67%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近四季獲利年增 1768%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近1期季營收年增 8%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1季獲利年增 72%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 31.4 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 92,
-     "verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
-    },
-    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
-   },
-   {
-    "ticker": "CB",
-    "name": "Chubb Limited",
-    "close": 361.17,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.8504655608337595,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 361.17 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 85%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近5年平均年成長 27%，成長年份占 100%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近四季獲利年增 14%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1期季營收年增 11%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1季獲利年增 80%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 12.8 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 92,
-     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-    },
-    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-   },
-   {
-    "ticker": "PNW",
-    "name": "Pinnacle West Capital",
-    "close": 109.37,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.8429025113725733,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 109.37 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 84%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近5年平均年成長 9%，成長年份占 100%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近四季獲利年增 0%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1期季營收年增 11%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "N",
-       "symbol": "—",
-       "detail": "季獲利資料不足",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 20.4 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 75,
-     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-    },
-    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-   },
-   {
     "ticker": "DOC",
     "name": "Healthpeak Properties",
     "close": 21.89,
-    "rebound": 0.5818040314916362,
+    "rebound": 0.5818042956474587,
     "rebound_grade": "T",
     "base_quality": 0.8350849119918269,
     "scorecard": {
@@ -1115,354 +3194,6 @@
      "verdict": "淘汰：關鍵項目不合格"
     },
     "mech_verdict": "淘汰：關鍵項目不合格"
-   },
-   {
-    "ticker": "KO",
-    "name": "Coca-Cola Company (The)",
-    "close": 84.14,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.8332466220689186,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 84.14 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 83%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近5年平均年成長 11%，成長年份占 100%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近四季獲利年增 22%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1期季營收年增 12%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近1季獲利年增 14%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 26.5 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 83,
-     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-    },
-    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-   },
-   {
-    "ticker": "EW",
-    "name": "Edwards Lifesciences",
-    "close": 94.37,
-    "rebound": 0.48844753358403853,
-    "rebound_grade": "T",
-    "base_quality": 0.8245883443910647,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 94.37 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "T",
-       "symbol": "△",
-       "detail": "反彈幅度 49%（目標≥60%），平穩期品質 82%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近5年平均年成長 -5%，成長年份占 33%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近四季獲利年增 -18%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "N",
-       "symbol": "—",
-       "detail": "營收資料不足",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "N",
-       "symbol": "—",
-       "detail": "季獲利資料不足",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 51.0 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 50,
-     "verdict": "偏弱：獲利成長檢核不合格，觀望為宜"
-    },
-    "mech_verdict": "偏弱：獲利成長檢核不合格，觀望為宜"
-   },
-   {
-    "ticker": "D",
-    "name": "Dominion Energy",
-    "close": 69.75,
-    "rebound": 0.926646825598746,
-    "rebound_grade": "O",
-    "base_quality": 0.8224328428786976,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 69.75 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 93%（目標≥60%），平穩期品質 82%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近5年平均年成長 259%，成長年份占 67%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近四季獲利年增 65%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1期季營收年增 23%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近1季獲利年增 11%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 20.6 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 83,
-     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-    },
-    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-   },
-   {
-    "ticker": "CINF",
-    "name": "Cincinnati Financial",
-    "close": 192.03,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.8112332333847401,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 192.03 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 81%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近4年平均年成長 15%，成長年份占 100%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近四季獲利年增 4%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1期季營收年增 12%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "N",
-       "symbol": "—",
-       "detail": "季獲利資料不足",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 11.0 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 75,
-     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-    },
-    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
    },
    {
     "ticker": "LNT",
@@ -1639,441 +3370,6 @@
     "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
    },
    {
-    "ticker": "AIZ",
-    "name": "Assurant",
-    "close": 279.48,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.7949556687353858,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 279.48 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 79%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近5年平均年成長 54%，成長年份占 100%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "T",
-       "symbol": "△",
-       "detail": "近四季獲利年增 17%（接近 20% 門檻）",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1期季營收年增 11%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1季獲利年增 83%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 14.3 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 96,
-     "verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
-    },
-    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
-   },
-   {
-    "ticker": "TRV",
-    "name": "Travelers Companies (The)",
-    "close": 342.31,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.790344954003176,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 342.31 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 79%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近4年平均年成長 37%，成長年份占 100%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近四季獲利年增 26%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近1期季營收年增 1%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1季獲利年增 353%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 10.2 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 92,
-     "verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
-    },
-    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
-   },
-   {
-    "ticker": "ABBV",
-    "name": "AbbVie",
-    "close": 261.07,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.7837905565991963,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 261.07 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 78%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近4年平均年成長 -6%，成長年份占 33%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近四季獲利年增 78%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1期季營收年增 12%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近1季獲利年增 -37%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "本益比 128.0 倍（≥60 倍，過熱）",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 67,
-     "verdict": "淘汰：關鍵項目不合格"
-    },
-    "mech_verdict": "淘汰：關鍵項目不合格"
-   },
-   {
-    "ticker": "GD",
-    "name": "General Dynamics",
-    "close": 373.54,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.7626034400684797,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 373.54 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 76%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近4年平均年成長 8%，成長年份占 67%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近四季獲利年增 12%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1期季營收年增 10%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近1季獲利年增 14%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 23.5 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 75,
-     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-    },
-    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-   },
-   {
-    "ticker": "L",
-    "name": "Loews Corporation",
-    "close": 116.52,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.7623758861903975,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 116.52 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 76%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近5年平均年成長 32%，成長年份占 67%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近四季獲利年增 22%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近1期季營收年增 1%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近1季獲利年增 -10%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 14.8 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 75,
-     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-    },
-    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-   },
-   {
     "ticker": "BAC",
     "name": "Bank of America",
     "close": 58.73,
@@ -2156,93 +3452,6 @@
       }
      ],
      "score": 58,
-     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-    },
-    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-   },
-   {
-    "ticker": "CTVA",
-    "name": "Corteva",
-    "close": 85.8,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.7357686042258298,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 85.8 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 74%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近4年平均年成長 9%，成長年份占 67%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近四季獲利年增 32%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1期季營收年增 11%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近1季獲利年增 9%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 46.4 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 83,
      "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
     },
     "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
@@ -2333,26 +3542,179 @@
      "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
     },
     "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+   },
+   {
+    "ticker": "EW",
+    "name": "Edwards Lifesciences",
+    "close": 94.37,
+    "rebound": 0.48844753358403853,
+    "rebound_grade": "T",
+    "base_quality": 0.8245883443910647,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 94.37 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "反彈幅度 49%（目標≥60%），平穩期品質 82%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近5年平均年成長 -5%，成長年份占 33%",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近四季獲利年增 -18%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "N",
+       "symbol": "—",
+       "detail": "營收資料不足",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "N",
+       "symbol": "—",
+       "detail": "季獲利資料不足",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "M",
+       "symbol": "人工",
+       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+       "starred": true
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 51.0 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 8.0%，位於近一年前 14% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 50,
+     "verdict": "偏弱：獲利成長檢核不合格，觀望為宜"
+    },
+    "mech_verdict": "偏弱：獲利成長檢核不合格，觀望為宜"
    }
   ],
   "holdings": [],
   "paper": {
-   "start_capital": 3000,
-   "cash": 3000,
-   "equity": 3000,
+   "start_capital": 30000,
+   "cash": 21000.0,
+   "equity": 30238.72,
    "equity_history": [
     {
      "date": "2026-07-02",
-     "equity": 3000
+     "equity": 30238.72
     }
    ],
-   "positions": [],
-   "trades": [],
-   "n_trades": 0,
+   "positions": [
+    {
+     "ticker": "AIZ",
+     "name": "Assurant",
+     "shares": 10.8704,
+     "buy_price": 275.9800109863281,
+     "buy_date": "2026-07-02",
+     "last_price": 279.4800109863281,
+     "status": "HOLD",
+     "status_note": "",
+     "pnl_pct": 0.012682077906625677,
+     "stop_price": 253.9
+    },
+    {
+     "ticker": "VRTX",
+     "name": "Vertex Pharmaceuticals",
+     "shares": 5.9552,
+     "buy_price": 503.760009765625,
+     "buy_date": "2026-07-02",
+     "last_price": 528.0399780273438,
+     "status": "HOLD",
+     "status_note": "",
+     "pnl_pct": 0.04819749045386712,
+     "stop_price": 463.46
+    },
+    {
+     "ticker": "TRV",
+     "name": "Travelers Companies (The)",
+     "shares": 8.9278,
+     "buy_price": 336.0299987792969,
+     "buy_date": "2026-07-02",
+     "last_price": 342.30999755859375,
+     "status": "HOLD",
+     "status_note": "",
+     "pnl_pct": 0.01868880398211581,
+     "stop_price": 309.15
+    }
+   ],
+   "trades": [
+    {
+     "date": "2026-07-02",
+     "action": "BUY",
+     "ticker": "AIZ",
+     "name": "Assurant",
+     "price": 275.9800109863281,
+     "shares": 10.8704,
+     "amount": 3000.0,
+     "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%）"
+    },
+    {
+     "date": "2026-07-02",
+     "action": "BUY",
+     "ticker": "VRTX",
+     "name": "Vertex Pharmaceuticals",
+     "price": 503.760009765625,
+     "shares": 5.9552,
+     "amount": 3000.0,
+     "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%）"
+    },
+    {
+     "date": "2026-07-02",
+     "action": "BUY",
+     "ticker": "TRV",
+     "name": "Travelers Companies (The)",
+     "price": 336.0299987792969,
+     "shares": 8.9278,
+     "amount": 3000.0,
+     "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%）"
+    }
+   ],
+   "n_trades": 3,
    "pending_buys": [
-    "Assurant",
-    "Vertex Pharmaceuticals",
-    "Travelers Companies (The)"
+    "Allstate"
    ],
    "pending_sells": []
   }

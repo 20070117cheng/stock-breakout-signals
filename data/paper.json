@@ -10,27 +10,85 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 30000,
-  "positions": [],
-  "pending_buys": [
+  "cash": 20999.998347813475,
+  "positions": [
    {
     "ticker": "AIZ",
     "name": "Assurant",
-    "light": "green"
+    "shares": 10.8704,
+    "buy_price": 275.9800109863281,
+    "buy_date": "2026-07-02",
+    "last_price": 279.4800109863281,
+    "status": "HOLD",
+    "status_note": ""
    },
    {
     "ticker": "VRTX",
     "name": "Vertex Pharmaceuticals",
-    "light": "green"
+    "shares": 5.9552,
+    "buy_price": 503.760009765625,
+    "buy_date": "2026-07-02",
+    "last_price": 528.0399780273438,
+    "status": "HOLD",
+    "status_note": ""
    },
    {
     "ticker": "TRV",
     "name": "Travelers Companies (The)",
-    "light": "green"
+    "shares": 8.9278,
+    "buy_price": 336.0299987792969,
+    "buy_date": "2026-07-02",
+    "last_price": 342.30999755859375,
+    "status": "HOLD",
+    "status_note": ""
+   }
+  ],
+  "pending_buys": [
+   {
+    "ticker": "ALL",
+    "name": "Allstate",
+    "light": "green",
+    "score": 79
    }
   ],
   "pending_sells": [],
-  "trades": [],
-  "equity_history": []
+  "trades": [
+   {
+    "date": "2026-07-02",
+    "action": "BUY",
+    "ticker": "AIZ",
+    "name": "Assurant",
+    "price": 275.9800109863281,
+    "shares": 10.8704,
+    "amount": 3000.0,
+    "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%）"
+   },
+   {
+    "date": "2026-07-02",
+    "action": "BUY",
+    "ticker": "VRTX",
+    "name": "Vertex Pharmaceuticals",
+    "price": 503.760009765625,
+    "shares": 5.9552,
+    "amount": 3000.0,
+    "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%）"
+   },
+   {
+    "date": "2026-07-02",
+    "action": "BUY",
+    "ticker": "TRV",
+    "name": "Travelers Companies (The)",
+    "price": 336.0299987792969,
+    "shares": 8.9278,
+    "amount": 3000.0,
+    "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%）"
+   }
+  ],
+  "equity_history": [
+   {
+    "date": "2026-07-02",
+    "equity": 30238.72
+   }
+  ]
  }
 }
