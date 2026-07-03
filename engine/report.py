@@ -115,17 +115,21 @@ def _ai_block(ai7: dict | None) -> str:
 
 
 def _candidates_section(state: dict) -> str:
-    cards = []
+    entries = []
     for mkt_key, mkt_name in [("tw", "台股"), ("us", "美股")]:
         m = state.get(mkt_key) or {}
         for c in m.get("buy_candidates", []):
-            sc = c["scorecard"]
-            cards.append(f"""<details class="card cand">
-  <summary><b>{mkt_name}｜{c['name']}（{c['ticker']}）</b>
-    收盤 {c['close']:g}｜檢核 <b>{sc['score']}/100</b> — {sc['verdict']}</summary>
+            entries.append((c["scorecard"]["score"], mkt_name, m.get("date", ""), c))
+    entries.sort(key=lambda e: e[0], reverse=True)  # 檢核分數高者排前
+    cards = []
+    for score, mkt_name, date, c in entries:
+        sc = c["scorecard"]
+        cards.append(f"""<details class="card cand">
+  <summary><b>{sc['score']}/100</b>｜{mkt_name}｜<b>{c['name']}（{c['ticker']}）</b>
+    收盤 {c['close']:g} — {sc['verdict']}</summary>
   {_scorecard_table(sc)}
   {_ai_block(c.get('ai7'))}
-  <p class="muted">反彈幅度 {c.get('rebound', 0):.0%}｜平穩期品質 {c.get('base_quality', 0):.0%}｜訊號日 {m.get('date', '')}</p>
+  <p class="muted">反彈幅度 {c.get('rebound', 0):.0%}｜平穩期品質 {c.get('base_quality', 0):.0%}｜訊號日 {date}</p>
 </details>""")
     if not cards:
         return "<p class='empty'>今日沒有通過篩選的突破新高候選股。書中提醒：下跌行情裡本來就不會出現創新高股，沒訊號就空手等待（p.87）。</p>"
@@ -163,12 +167,20 @@ def _paper_card(name: str, currency: str, p: dict | None) -> str:
     ret = equity / p["start_capital"] - 1
     ret_color = "#16a34a" if ret >= 0 else "#dc2626"
     spark = _sparkline([e["equity"] for e in p.get("equity_history", [])], ret_color)
-    pos_rows = "".join(
-        f"<tr><td><b>{q['name']}</b><br class='m'>{q['ticker']}</td>"
-        f"<td>{q['buy_date']}</td><td>{q['buy_price']:g}</td><td>{q['last_price']:g}</td>"
-        f"<td style='color:{'#16a34a' if q['pnl_pct'] >= 0 else '#dc2626'}'>{q['pnl_pct']:+.1%}</td></tr>"
-        for q in p.get("positions", [])
-    ) or "<tr><td colspan='5' class='muted'>目前空手（等待強力候選訊號）</td></tr>"
+    def _pos_row(q: dict) -> str:
+        label, color = ACTION_LABEL.get(q.get("status", "HOLD"), ACTION_LABEL["HOLD"])
+        note = f"<br><span class='muted'>{q['status_note']}</span>" if q.get("status_note") else ""
+        stop = f"{q['stop_price']:g}" if q.get("stop_price") else "—"
+        return (
+            f"<tr><td><b>{q['name']}</b><br class='m'>{q['ticker']}</td>"
+            f"<td>{q['buy_date']}</td><td>{q['buy_price']:g}</td>"
+            f"<td style='color:#dc2626'>{stop}</td><td>{q['last_price']:g}</td>"
+            f"<td style='color:{'#16a34a' if q['pnl_pct'] >= 0 else '#dc2626'}'>{q['pnl_pct']:+.1%}</td>"
+            f"<td style='color:{color};font-weight:700'>{label}{note}</td></tr>"
+        )
+
+    pos_rows = "".join(_pos_row(q) for q in p.get("positions", [])) or \
+        "<tr><td colspan='7' class='muted'>目前空手（等待強力候選訊號）</td></tr>"
     trade_rows = "".join(
         f"<tr><td>{t['date']}</td><td>{'買進' if t['action'] == 'BUY' else '賣出'}</td>"
         f"<td><b>{t['name']}</b></td><td>{t['price']:g}</td>"
@@ -188,10 +200,10 @@ def _paper_card(name: str, currency: str, p: dict | None) -> str:
   <p class="muted">起始 {p['start_capital']:,.0f}｜現金 {p['cash']:,.0f}｜累計成交 {p.get('n_trades', 0)} 筆</p>
   {spark}
   {pending}
-  <h4>持倉</h4>
-  <table><thead><tr><th>股票</th><th>買進日</th><th>買價</th><th>現價</th><th>損益</th></tr></thead>
+  <h4>持倉（賣出三條件每天自動檢查）</h4>
+  <table><thead><tr><th>股票</th><th>買進日</th><th>買價</th><th>停損價</th><th>現價</th><th>損益</th><th>賣出檢查</th></tr></thead>
   <tbody>{pos_rows}</tbody></table>
-  <h4>近期成交</h4>
+  <h4>近期成交（賣出會顯示在這裡，含損益與原因）</h4>
   <table><thead><tr><th>日期</th><th>動作</th><th>股票</th><th>成交價</th><th>損益</th><th>原因</th></tr></thead>
   <tbody>{trade_rows}</tbody></table>
 </div>"""
@@ -279,6 +291,44 @@ footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 <div class="help">{_dot(g)} 綠燈＝創新高股多、行情強，可依計畫買進（單檔上限＝總資產 10%）｜
 {_dot(y)} 黃燈＝力道普通，減量操作｜{_dot(r)} 紅燈＝創新高股稀少，書中建議空手等待。
 判斷依據：全市場「創一年新高家數比率」與前 50 大市值股動向（書第二章第六節）。</div>
+
+<h2>資料來源</h2>
+<table>
+<thead><tr><th>資料</th><th>來源</th><th>用途</th><th>更新頻率</th></tr></thead>
+<tbody>
+<tr><td>股價（台股＋美股）</td>
+    <td><a href="https://finance.yahoo.com" target="_blank" rel="noopener">Yahoo Finance</a>（yfinance）</td>
+    <td>突破新高偵測、大盤燈號、停損監控、賣壓比例、虛擬操盤成交價</td><td>每個交易日收盤後</td></tr>
+<tr><td>台股公司清單</td>
+    <td><a href="https://finmindtrade.com" target="_blank" rel="noopener">FinMind</a></td>
+    <td>掃描範圍（上市＋上櫃全部普通股）</td><td>每次執行</td></tr>
+<tr><td>台股財報（稅前淨利、營收、EPS）</td>
+    <td><a href="https://finmindtrade.com" target="_blank" rel="noopener">FinMind</a>
+        （原始來源：<a href="https://mops.twse.com.tw" target="_blank" rel="noopener">公開資訊觀測站</a>）</td>
+    <td>檢核表③④⑤⑥⑧、持股基本面監控</td><td>候選股出現時查詢</td></tr>
+<tr><td>台股月營收</td>
+    <td><a href="https://finmindtrade.com" target="_blank" rel="noopener">FinMind</a></td>
+    <td>檢核表⑤（營收動能輔助）</td><td>候選股出現時查詢</td></tr>
+<tr><td>美股財報與本益比</td>
+    <td><a href="https://finance.yahoo.com" target="_blank" rel="noopener">Yahoo Finance</a>（yfinance）</td>
+    <td>檢核表③④⑤⑥⑧、持股基本面監控</td><td>候選股出現時查詢</td></tr>
+<tr><td>美股成分股清單</td>
+    <td><a href="https://en.wikipedia.org/wiki/List_of_S%26P_500_companies" target="_blank" rel="noopener">Wikipedia S&amp;P 500</a>、
+        <a href="https://en.wikipedia.org/wiki/Nasdaq-100" target="_blank" rel="noopener">Wikipedia Nasdaq-100</a></td>
+    <td>掃描範圍</td><td>每次執行</td></tr>
+<tr><td>個股新聞</td>
+    <td><a href="https://news.google.com" target="_blank" rel="noopener">Google News</a></td>
+    <td>AI 第⑦項判斷的證據（各評分卡內附引用連結）</td><td>AI 判斷時查詢</td></tr>
+<tr><td>AI 模型</td>
+    <td><a href="https://ai.google.dev" target="_blank" rel="noopener">Google Gemini API</a></td>
+    <td>檢核表第⑦項參考意見（推理過程顯示於評分卡）</td><td>每日最多 8 檔</td></tr>
+<tr><td>系統程式碼與執行紀錄</td>
+    <td><a href="https://github.com/20070117cheng/stock-breakout-signals" target="_blank" rel="noopener">GitHub（本專案）</a></td>
+    <td>所有規則與計算公開可查，Actions 頁可看每次執行過程</td><td>—</td></tr>
+</tbody>
+</table>
+<p class="muted">所有資料源皆為免費公開資料，可能有延遲或錯漏；關鍵決策前建議至券商軟體或
+<a href="https://mops.twse.com.tw" target="_blank" rel="noopener">公開資訊觀測站</a>複核原始數字。</p>
 </section>
 
 <section id="tab-buy" class="tab">

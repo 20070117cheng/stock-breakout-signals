@@ -149,12 +149,20 @@ def run_paper_cycle(pm: dict, market: str, date: str,
             executed.append(t)
     pm["pending_buys"] = []
 
-    # 3. 依今日持倉訊號排明日賣單
+    # 3. 依今日持倉訊號排明日賣單，並把檢查結果標在持倉上（儀表板顯示用）
+    eval_map = {ev["ticker"]: ev for ev in holding_evals}
+    for p in pm["positions"]:
+        ev = eval_map.get(p["ticker"])
+        p["status"] = ev["action"] if ev else "HOLD"
+        p["status_note"] = "；".join(ev["reasons"]) if ev and ev["reasons"] else ""
     for ev in holding_evals:
         if ev["action"] in ("SELL_NOW", "SELL_SIGNAL") and ev["reasons"]:
             pm["pending_sells"].append(
                 {"ticker": ev["ticker"], "reason": ev["reasons"][0]}
             )
+            pos = next((p for p in pm["positions"] if p["ticker"] == ev["ticker"]), None)
+            if pos:
+                pos["status_note"] = "已排明日開盤賣出。" + pos["status_note"]
 
     # 4. 依今日買進候選排明日買單（強力候選才買，紅燈不排單）
     # 用純機械結論（mech_verdict）——虛擬操盤是「不含 AI、不做功課」的方法基準線
