@@ -1,0 +1,51 @@
+name: 美股每日掃描
+
+on:
+  schedule:
+    # UTC 22:00 = 美東 17:00/18:00（收盤後）= 台北隔天 06:00
+    - cron: "0 22 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 安裝套件
+        run: pip install -r requirements.txt
+
+      - name: 還原價格快取
+        uses: actions/cache@v4
+        with:
+          path: data/close_us.parquet
+          key: close-us-${{ github.run_id }}
+          restore-keys: close-us-
+
+      - name: 執行選股引擎
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python -m engine.run_daily --market us
+
+      - name: 更新儀表板與訊號記錄
+        run: |
+          git config user.name "signal-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/index.html data/state.json data/signals_log.json
+          git diff --cached --quiet || git commit -m "美股掃描 $(date +%F)"
+          git pull --rebase origin main || true
+          git push

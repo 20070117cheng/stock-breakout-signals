@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>大漲訊號儀表板</title>
+<style>
+:root { font-family: "Microsoft JhengHei", "PingFang TC", system-ui, sans-serif; }
+body { margin: 0; background: #f1f5f9; color: #0f172a; }
+header { background: #0f172a; color: #fff; padding: 20px 16px; }
+header h1 { margin: 0 0 4px; font-size: 22px; }
+header p { margin: 0; color: #94a3b8; font-size: 13px; }
+main { max-width: 1000px; margin: 0 auto; padding: 16px; }
+h2 { font-size: 18px; border-left: 4px solid #2563eb; padding-left: 10px; margin: 28px 0 12px; }
+.card { background: #fff; border-radius: 12px; padding: 16px; margin-bottom: 12px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }
+.big { font-size: 17px; margin: 6px 0; }
+.muted { color: #64748b; font-size: 13px; }
+.empty { background: #fff; border-radius: 12px; padding: 20px; color: #64748b; }
+table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 12px; overflow: hidden; font-size: 14px; }
+th, td { padding: 8px 10px; border-bottom: 1px solid #e2e8f0; text-align: left; vertical-align: top; }
+th { background: #f8fafc; font-size: 13px; color: #475569; }
+.check td.sym { font-size: 16px; text-align: center; }
+details.cand summary { cursor: pointer; font-size: 15px; line-height: 1.6; }
+.help { background: #eff6ff; border-radius: 12px; padding: 14px 16px; font-size: 14px; line-height: 1.8; }
+footer { text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }
+@media (max-width: 640px) { th, td { padding: 6px; font-size: 12px; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>📊 大漲訊號儀表板</h1>
+  <p>依《大漲的訊號》創新高價投資法自動掃描台股（上市+上櫃）與美股（S&P 500 + NASDAQ 100）｜更新：2026-07-03 16:50</p>
+</header>
+<main>
+<h2>今天可以進場嗎？（大盤上漲力道）</h2>
+<div class="grid">
+<div class="card">
+  <h3>台股 <span style="color:#dc2626">🔴 紅燈｜行情弱</span></h3>
+  <p class="big">創新高股比率：<b>0.84%</b></p>
+  <svg viewBox="0 0 240 48" width="240" height="48"><polyline points="0.0,32.0 2.0,31.2 4.0,30.5 6.1,30.5 8.1,27.5 10.1,27.5 12.1,29.0 14.1,27.5 16.1,23.7 18.2,21.5 20.2,22.2 22.2,23.7 24.2,22.2 26.2,23.0 28.2,26.7 30.3,25.2 32.3,25.2 34.3,28.2 36.3,32.0 38.3,35.0 40.3,35.7 42.4,36.5 44.4,38.8 46.4,38.0 48.4,36.5 50.4,38.8 52.4,37.3 54.5,37.3 56.5,38.0 58.5,41.0 60.5,44.0 62.5,43.3 64.5,42.5 66.6,39.5 68.6,39.5 70.6,38.8 72.6,41.0 74.6,41.0 76.6,41.0 78.7,40.3 80.7,38.8 82.7,38.0 84.7,38.0 86.7,38.8 88.7,35.0 90.8,32.7 92.8,29.7 94.8,27.5 96.8,28.2 98.8,28.2 100.8,28.2 102.9,28.2 104.9,28.2 106.9,29.0 108.9,33.5 110.9,36.5 112.9,38.0 115.0,40.3 117.0,38.0 119.0,35.7 121.0,33.5 123.0,32.0 125.0,30.5 127.1,29.7 129.1,25.2 131.1,23.0 133.1,20.0 135.1,12.5 137.1,11.7 139.2,8.0 141.2,11.0 143.2,14.0 145.2,16.2 147.2,18.5 149.2,22.2 151.3,23.0 153.3,23.7 155.3,31.2 157.3,33.5 159.3,39.5 161.3,38.0 163.4,34.2 165.4,30.5 167.4,27.5 169.4,26.7 171.4,26.0 173.4,28.2 175.5,27.5 177.5,27.5 179.5,26.0 181.5,25.2 183.5,26.0 185.5,25.2 187.6,23.7 189.6,22.9 191.6,19.1 193.6,16.1 195.6,10.1 197.6,7.0 199.7,4.0 201.7,5.5 203.7,8.5 205.7,9.2 207.7,12.3 209.7,13.0 211.8,17.5 213.8,21.3 215.8,28.9 217.8,28.1 219.8,29.6 221.8,29.6 223.9,28.1 225.9,31.1 227.9,33.4 229.9,34.9 231.9,36.4 233.9,36.4 236.0,35.6 238.0,39.4 240.0,40.8" fill="none" stroke="#dc2626" stroke-width="2"/></svg>
+  <p>創新高股比率僅 0.84%，位於近一年後段且未回升——書中建議此時不進場</p>
+  <p class="muted">前50大市值股近3個月創兩年新高：0 檔</p>
+  <p class="muted">資料日期：2026-07-03｜今日創一年新高：3 檔 / 掃描 188 檔</p>
+</div>
+<div class="card">
+  <h3>美股 <span style="color:#16a34a">🟢 綠燈｜行情強</span></h3>
+  <p class="big">創新高股比率：<b>8.27%</b></p>
+  <svg viewBox="0 0 240 48" width="240" height="48"><polyline points="0.0,38.8 2.0,37.0 4.0,33.9 6.1,31.9 8.1,27.7 10.1,25.7 12.1,28.5 14.1,28.5 16.1,26.2 18.2,25.9 20.2,27.5 22.2,26.5 24.2,27.2 26.2,25.2 28.2,27.5 30.3,25.2 32.3,19.7 34.3,17.7 36.3,17.4 38.3,12.0 40.3,8.4 42.4,9.7 44.4,7.1 46.4,7.6 48.4,4.0 50.4,6.6 52.4,10.5 54.5,12.8 56.5,12.3 58.5,14.6 60.5,14.3 62.5,14.1 64.5,16.9 66.6,14.3 68.6,15.4 70.6,16.6 72.6,17.4 74.6,20.3 76.6,23.9 78.7,28.3 80.7,33.9 82.7,36.0 84.7,36.5 86.7,41.4 88.7,43.5 90.8,42.2 92.8,42.2 94.8,41.7 96.8,41.7 98.8,40.9 100.8,38.8 102.9,38.1 104.9,38.3 106.9,37.8 108.9,39.6 110.9,41.2 112.9,42.2 115.0,41.4 117.0,41.7 119.0,41.9 121.0,41.4 123.0,39.4 125.0,38.8 127.1,38.3 129.1,37.3 131.1,37.0 133.1,35.7 135.1,35.0 137.1,32.1 139.2,30.8 141.2,30.1 143.2,31.6 145.2,31.1 147.2,32.4 149.2,33.9 151.3,34.2 153.3,32.1 155.3,31.9 157.3,33.2 159.3,30.8 161.3,29.8 163.4,31.4 165.4,30.3 167.4,27.2 169.4,25.7 171.4,22.3 173.4,23.9 175.5,25.9 177.5,25.9 179.5,29.3 181.5,33.4 183.5,33.4 185.5,35.0 187.6,36.8 189.6,37.3 191.6,40.1 193.6,40.6 195.6,38.8 197.6,39.1 199.7,38.8 201.7,37.8 203.7,38.3 205.7,39.9 207.7,41.7 209.7,41.9 211.8,41.4 213.8,41.2 215.8,43.0 217.8,43.7 219.8,43.2 221.8,44.0 223.9,40.6 225.9,38.8 227.9,37.6 229.9,34.5 231.9,31.9 233.9,30.1 236.0,29.0 238.0,26.7 240.0,23.9" fill="none" stroke="#16a34a" stroke-width="2"/></svg>
+  <p>創新高股比率 8.3%，位於近一年前 9% 強、趨勢向上</p>
+  <p class="muted">前50大市值股近3個月創兩年新高：12 檔（AAPL、GOOGL、AMZN、AVGO、COST、ABBV、BAC、KO…）</p>
+  <p class="muted">資料日期：2026-07-02｜今日創一年新高：18 檔 / 掃描 150 檔</p>
+</div>
+</div>
+<div class="help">🟢 綠燈＝創新高股多、行情強，可依計畫買進（單檔上限＝總資產 10%）｜
+🟡 黃燈＝力道普通，減量操作｜🔴 紅燈＝創新高股稀少，書中建議空手等待。
+判斷依據：全市場「創一年新高家數比率」與前 50 大市值股動向（書第二章第六節）。</div>
+
+<h2>📈 買進候選（今日突破 2 年新高＋基本面檢核）</h2>
+<details class="card cand">
+  <summary><b>台股｜寶雅（5904.TWO）</b>
+    收盤 721｜檢核 <b>62/100</b> — 候選：部分項目待觀察，書中提醒需綜合判斷（p.237）</summary>
+  <table class='check'><thead><tr><th></th><th>檢核項目</th><th>結果</th><th>說明</th></tr></thead><tbody><tr><td>★</td><td>① 股價突破近年來高價</td><td class='sym'>○</td><td class='muted'>收盤 721 創近 2 年新高</td></tr><tr><td>★</td><td>② 新高價位置（反彈幅度≥60%）</td><td class='sym'>○</td><td class='muted'>反彈幅度 100%（目標≥60%），平穩期品質 81%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）</td></tr><tr><td></td><td>③ 過去獲利穩健成長（年均≥7%）</td><td class='sym'>○</td><td class='muted'>近9年平均年成長 11%，成長年份占 88%</td></tr><tr><td></td><td>④ 最近1~2年獲利成長≥20%</td><td class='sym'>△</td><td class='muted'>近四季獲利年增 16%（接近 20% 門檻）</td></tr><tr><td></td><td>⑤ 最近2~3季營收成長≥10%</td><td class='sym'>×</td><td class='muted'>近3期季營收年增 5%、10%、13%</td></tr><tr><td>★</td><td>⑥ 最近2~3季獲利成長≥20%</td><td class='sym'>△</td><td class='muted'>近3季獲利年增 6%、27%、26%</td></tr><tr><td>★</td><td>⑦ 未來獲利能否穩健成長</td><td class='sym'>👤</td><td class='muted'>需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）</td></tr><tr><td></td><td>⑧ 本益比未過熱（<60倍）</td><td class='sym'>○</td><td class='muted'>本益比 22.9 倍</td></tr><tr><td>★</td><td>⑨ 大盤上漲力道</td><td class='sym'>×</td><td class='muted'>創新高股比率僅 0.84%，位於近一年後段且未回升——書中建議此時不進場</td></tr></tbody></table>
+  <p class="muted">反彈幅度 100%｜平穩期品質 81%｜訊號日 2026-07-03</p>
+</details>
+<details class="card cand">
+  <summary><b>台股｜翔名（8091.TWO）</b>
+    收盤 293.5｜檢核 <b>54/100</b> — 偏弱：獲利成長檢核不合格，觀望為宜</summary>
+  <table class='check'><thead><tr><th></th><th>檢核項目</th><th>結果</th><th>說明</th></tr></thead><tbody><tr><td>★</td><td>① 股價突破近年來高價</td><td class='sym'>○</td><td class='muted'>收盤 293.5 創近 2 年新高</td></tr><tr><td>★</td><td>② 新高價位置（反彈幅度≥60%）</td><td class='sym'>○</td><td class='muted'>反彈幅度 100%（目標≥60%），平穩期品質 40%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）</td></tr><tr><td></td><td>③ 過去獲利穩健成長（年均≥7%）</td><td class='sym'>×</td><td class='muted'>近9年平均年成長 5%，成長年份占 50%</td></tr><tr><td></td><td>④ 最近1~2年獲利成長≥20%</td><td class='sym'>×</td><td class='muted'>近四季獲利年增 11%</td></tr><tr><td></td><td>⑤ 最近2~3季營收成長≥10%</td><td class='sym'>△</td><td class='muted'>近3期季營收年增 8%、15%、38%</td></tr><tr><td>★</td><td>⑥ 最近2~3季獲利成長≥20%</td><td class='sym'>△</td><td class='muted'>近3季獲利年增 11%、23%、80%</td></tr><tr><td>★</td><td>⑦ 未來獲利能否穩健成長</td><td class='sym'>👤</td><td class='muted'>需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）</td></tr><tr><td></td><td>⑧ 本益比未過熱（<60倍）</td><td class='sym'>○</td><td class='muted'>本益比 40.4 倍</td></tr><tr><td>★</td><td>⑨ 大盤上漲力道</td><td class='sym'>×</td><td class='muted'>創新高股比率僅 0.84%，位於近一年後段且未回升——書中建議此時不進場</td></tr></tbody></table>
+  <p class="muted">反彈幅度 100%｜平穩期品質 40%｜訊號日 2026-07-03</p>
+</details>
+<details class="card cand">
+  <summary><b>台股｜沛爾生醫-創（6949.TW）</b>
+    收盤 916｜檢核 <b>33/100</b> — 偏弱：合格項目不足，觀望為宜</summary>
+  <table class='check'><thead><tr><th></th><th>檢核項目</th><th>結果</th><th>說明</th></tr></thead><tbody><tr><td>★</td><td>① 股價突破近年來高價</td><td class='sym'>○</td><td class='muted'>收盤 916 創近 2 年新高</td></tr><tr><td>★</td><td>② 新高價位置（反彈幅度≥60%）</td><td class='sym'>○</td><td class='muted'>反彈幅度 100%（目標≥60%），平穩期品質 0%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）</td></tr><tr><td></td><td>③ 過去獲利穩健成長（年均≥7%）</td><td class='sym'>—</td><td class='muted'>年度獲利資料不足</td></tr><tr><td></td><td>④ 最近1~2年獲利成長≥20%</td><td class='sym'>—</td><td class='muted'>資料不足</td></tr><tr><td></td><td>⑤ 最近2~3季營收成長≥10%</td><td class='sym'>×</td><td class='muted'>近3期季營收年增 51%、31%、-47%</td></tr><tr><td>★</td><td>⑥ 最近2~3季獲利成長≥20%</td><td class='sym'>—</td><td class='muted'>季獲利資料不足</td></tr><tr><td>★</td><td>⑦ 未來獲利能否穩健成長</td><td class='sym'>👤</td><td class='muted'>需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）</td></tr><tr><td></td><td>⑧ 本益比未過熱（<60倍）</td><td class='sym'>—</td><td class='muted'>本益比無資料（可能虧損或無盈餘）</td></tr><tr><td>★</td><td>⑨ 大盤上漲力道</td><td class='sym'>×</td><td class='muted'>創新高股比率僅 0.84%，位於近一年後段且未回升——書中建議此時不進場</td></tr></tbody></table>
+  <p class="muted">反彈幅度 100%｜平穩期品質 0%｜訊號日 2026-07-03</p>
+</details>
+<details class="card cand">
+  <summary><b>美股｜Aflac（AFL）</b>
+    收盤 120.88｜檢核 <b>83/100</b> — 候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</summary>
+  <table class='check'><thead><tr><th></th><th>檢核項目</th><th>結果</th><th>說明</th></tr></thead><tbody><tr><td>★</td><td>① 股價突破近年來高價</td><td class='sym'>○</td><td class='muted'>收盤 120.88 創近 2 年新高</td></tr><tr><td>★</td><td>② 新高價位置（反彈幅度≥60%）</td><td class='sym'>○</td><td class='muted'>反彈幅度 100%（目標≥60%），平穩期品質 89%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）</td></tr><tr><td></td><td>③ 過去獲利穩健成長（年均≥7%）</td><td class='sym'>×</td><td class='muted'>近4年平均年成長 0%，成長年份占 67%</td></tr><tr><td></td><td>④ 最近1~2年獲利成長≥20%</td><td class='sym'>×</td><td class='muted'>近四季獲利年增 -29%</td></tr><tr><td></td><td>⑤ 最近2~3季營收成長≥10%</td><td class='sym'>○</td><td class='muted'>近1期季營收年增 28%</td></tr><tr><td>★</td><td>⑥ 最近2~3季獲利成長≥20%</td><td class='sym'>○</td><td class='muted'>近1季獲利年增 745%</td></tr><tr><td>★</td><td>⑦ 未來獲利能否穩健成長</td><td class='sym'>👤</td><td class='muted'>需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）</td></tr><tr><td></td><td>⑧ 本益比未過熱（<60倍）</td><td class='sym'>○</td><td class='muted'>本益比 13.8 倍</td></tr><tr><td>★</td><td>⑨ 大盤上漲力道</td><td class='sym'>○</td><td class='muted'>創新高股比率 8.3%，位於近一年前 9% 強、趨勢向上</td></tr></tbody></table>
+  <p class="muted">反彈幅度 100%｜平穩期品質 89%｜訊號日 2026-07-02</p>
+</details>
+<details class="card cand">
+  <summary><b>美股｜Allstate（ALL）</b>
+    收盤 250.33｜檢核 <b>83/100</b> — 強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量</summary>
+  <table class='check'><thead><tr><th></th><th>檢核項目</th><th>結果</th><th>說明</th></tr></thead><tbody><tr><td>★</td><td>① 股價突破近年來高價</td><td class='sym'>○</td><td class='muted'>收盤 250.33 創近 2 年新高</td></tr><tr><td>★</td><td>② 新高價位置（反彈幅度≥60%）</td><td class='sym'>○</td><td class='muted'>反彈幅度 100%（目標≥60%），平穩期品質 86%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）</td></tr><tr><td></td><td>③ 過去獲利穩健成長（年均≥7%）</td><td class='sym'>—</td><td class='muted'>有效年成長樣本不足</td></tr><tr><td></td><td>④ 最近1~2年獲利成長≥20%</td><td class='sym'>○</td><td class='muted'>近四季獲利年增 128%</td></tr><tr><td></td><td>⑤ 最近2~3季營收成長≥10%</td><td class='sym'>×</td><td class='muted'>近1期季營收年增 3%</td></tr><tr><td>★</td><td>⑥ 最近2~3季獲利成長≥20%</td><td class='sym'>○</td><td class='muted'>近1季獲利年增 332%</td></tr><tr><td>★</td><td>⑦ 未來獲利能否穩健成長</td><td class='sym'>👤</td><td class='muted'>需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）</td></tr><tr><td></td><td>⑧ 本益比未過熱（<60倍）</td><td class='sym'>○</td><td class='muted'>本益比 5.5 倍</td></tr><tr><td>★</td><td>⑨ 大盤上漲力道</td><td class='sym'>○</td><td class='muted'>創新高股比率 8.3%，位於近一年前 9% 強、趨勢向上</td></tr></tbody></table>
+  <p class="muted">反彈幅度 100%｜平穩期品質 86%｜訊號日 2026-07-02</p>
+</details>
+<details class="card cand">
+  <summary><b>美股｜Chubb Limited（CB）</b>
+    收盤 361.17｜檢核 <b>92/100</b> — 候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</summary>
+  <table class='check'><thead><tr><th></th><th>檢核項目</th><th>結果</th><th>說明</th></tr></thead><tbody><tr><td>★</td><td>① 股價突破近年來高價</td><td class='sym'>○</td><td class='muted'>收盤 361.17 創近 2 年新高</td></tr><tr><td>★</td><td>② 新高價位置（反彈幅度≥60%）</td><td class='sym'>○</td><td class='muted'>反彈幅度 100%（目標≥60%），平穩期品質 85%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）</td></tr><tr><td></td><td>③ 過去獲利穩健成長（年均≥7%）</td><td class='sym'>○</td><td class='muted'>近5年平均年成長 27%，成長年份占 100%</td></tr><tr><td></td><td>④ 最近1~2年獲利成長≥20%</td><td class='sym'>×</td><td class='muted'>近四季獲利年增 14%</td></tr><tr><td></td><td>⑤ 最近2~3季營收成長≥10%</td><td class='sym'>○</td><td class='muted'>近1期季營收年增 11%</td></tr><tr><td>★</td><td>⑥ 最近2~3季獲利成長≥20%</td><td class='sym'>○</td><td class='muted'>近1季獲利年增 80%</td></tr><tr><td>★</td><td>⑦ 未來獲利能否穩健成長</td><td class='sym'>👤</td><td class='muted'>需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）</td></tr><tr><td></td><td>⑧ 本益比未過熱（<60倍）</td><td class='sym'>○</td><td class='muted'>本益比 12.8 倍</td></tr><tr><td>★</td><td>⑨ 大盤上漲力道</td><td class='sym'>○</td><td class='muted'>創新高股比率 8.3%，位於近一年前 9% 強、趨勢向上</td></tr></tbody></table>
+  <p class="muted">反彈幅度 100%｜平穩期品質 85%｜訊號日 2026-07-02</p>
+</details>
+<details class="card cand">
+  <summary><b>美股｜Coca-Cola Company (The)（KO）</b>
+    收盤 84.14｜檢核 <b>83/100</b> — 候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</summary>
+  <table class='check'><thead><tr><th></th><th>檢核項目</th><th>結果</th><th>說明</th></tr></thead><tbody><tr><td>★</td><td>① 股價突破近年來高價</td><td class='sym'>○</td><td class='muted'>收盤 84.14 創近 2 年新高</td></tr><tr><td>★</td><td>② 新高價位置（反彈幅度≥60%）</td><td class='sym'>○</td><td class='muted'>反彈幅度 100%（目標≥60%），平穩期品質 83%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）</td></tr><tr><td></td><td>③ 過去獲利穩健成長（年均≥7%）</td><td class='sym'>○</td><td class='muted'>近5年平均年成長 11%，成長年份占 100%</td></tr><tr><td></td><td>④ 最近1~2年獲利成長≥20%</td><td class='sym'>○</td><td class='muted'>近四季獲利年增 22%</td></tr><tr><td></td><td>⑤ 最近2~3季營收成長≥10%</td><td class='sym'>○</td><td class='muted'>近1期季營收年增 12%</td></tr><tr><td>★</td><td>⑥ 最近2~3季獲利成長≥20%</td><td class='sym'>×</td><td class='muted'>近1季獲利年增 14%</td></tr><tr><td>★</td><td>⑦ 未來獲利能否穩健成長</td><td class='sym'>👤</td><td class='muted'>需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）</td></tr><tr><td></td><td>⑧ 本益比未過熱（<60倍）</td><td class='sym'>○</td><td class='muted'>本益比 26.5 倍</td></tr><tr><td>★</td><td>⑨ 大盤上漲力道</td><td class='sym'>○</td><td class='muted'>創新高股比率 8.3%，位於近一年前 9% 強、趨勢向上</td></tr></tbody></table>
+  <p class="muted">反彈幅度 100%｜平穩期品質 83%｜訊號日 2026-07-02</p>
+</details>
+<details class="card cand">
+  <summary><b>美股｜Cincinnati Financial（CINF）</b>
+    收盤 192.03｜檢核 <b>75/100</b> — 候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</summary>
+  <table class='check'><thead><tr><th></th><th>檢核項目</th><th>結果</th><th>說明</th></tr></thead><tbody><tr><td>★</td><td>① 股價突破近年來高價</td><td class='sym'>○</td><td class='muted'>收盤 192.03 創近 2 年新高</td></tr><tr><td>★</td><td>② 新高價位置（反彈幅度≥60%）</td><td class='sym'>○</td><td class='muted'>反彈幅度 100%（目標≥60%），平穩期品質 81%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）</td></tr><tr><td></td><td>③ 過去獲利穩健成長（年均≥7%）</td><td class='sym'>○</td><td class='muted'>近4年平均年成長 15%，成長年份占 100%</td></tr><tr><td></td><td>④ 最近1~2年獲利成長≥20%</td><td class='sym'>×</td><td class='muted'>近四季獲利年增 4%</td></tr><tr><td></td><td>⑤ 最近2~3季營收成長≥10%</td><td class='sym'>○</td><td class='muted'>近1期季營收年增 12%</td></tr><tr><td>★</td><td>⑥ 最近2~3季獲利成長≥20%</td><td class='sym'>—</td><td class='muted'>季獲利資料不足</td></tr><tr><td>★</td><td>⑦ 未來獲利能否穩健成長</td><td class='sym'>👤</td><td class='muted'>需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）</td></tr><tr><td></td><td>⑧ 本益比未過熱（<60倍）</td><td class='sym'>○</td><td class='muted'>本益比 11.0 倍</td></tr><tr><td>★</td><td>⑨ 大盤上漲力道</td><td class='sym'>○</td><td class='muted'>創新高股比率 8.3%，位於近一年前 9% 強、趨勢向上</td></tr></tbody></table>
+  <p class="muted">反彈幅度 100%｜平穩期品質 81%｜訊號日 2026-07-02</p>
+</details>
+<details class="card cand">
+  <summary><b>美股｜Alliant Energy（LNT）</b>
+    收盤 78.03｜檢核 <b>58/100</b> — 候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</summary>
+  <table class='check'><thead><tr><th></th><th>檢核項目</th><th>結果</th><th>說明</th></tr></thead><tbody><tr><td>★</td><td>① 股價突破近年來高價</td><td class='sym'>○</td><td class='muted'>收盤 78.03 創近 2 年新高</td></tr><tr><td>★</td><td>② 新高價位置（反彈幅度≥60%）</td><td class='sym'>○</td><td class='muted'>反彈幅度 100%（目標≥60%），平穩期品質 81%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）</td></tr><tr><td></td><td>③ 過去獲利穩健成長（年均≥7%）</td><td class='sym'>×</td><td class='muted'>近5年平均年成長 -1%，成長年份占 33%</td></tr><tr><td></td><td>④ 最近1~2年獲利成長≥20%</td><td class='sym'>×</td><td class='muted'>近四季獲利年增 15%</td></tr><tr><td></td><td>⑤ 最近2~3季營收成長≥10%</td><td class='sym'>×</td><td class='muted'>近1期季營收年增 5%</td></tr><tr><td>★</td><td>⑥ 最近2~3季獲利成長≥20%</td><td class='sym'>×</td><td class='muted'>近1季獲利年增 -2%</td></tr><tr><td>★</td><td>⑦ 未來獲利能否穩健成長</td><td class='sym'>👤</td><td class='muted'>需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）</td></tr><tr><td></td><td>⑧ 本益比未過熱（<60倍）</td><td class='sym'>○</td><td class='muted'>本益比 24.5 倍</td></tr><tr><td>★</td><td>⑨ 大盤上漲力道</td><td class='sym'>○</td><td class='muted'>創新高股比率 8.3%，位於近一年前 9% 強、趨勢向上</td></tr></tbody></table>
+  <p class="muted">反彈幅度 100%｜平穩期品質 81%｜訊號日 2026-07-02</p>
+</details>
+<details class="card cand">
+  <summary><b>美股｜Assurant（AIZ）</b>
+    收盤 279.48｜檢核 <b>96/100</b> — 強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量</summary>
+  <table class='check'><thead><tr><th></th><th>檢核項目</th><th>結果</th><th>說明</th></tr></thead><tbody><tr><td>★</td><td>① 股價突破近年來高價</td><td class='sym'>○</td><td class='muted'>收盤 279.48 創近 2 年新高</td></tr><tr><td>★</td><td>② 新高價位置（反彈幅度≥60%）</td><td class='sym'>○</td><td class='muted'>反彈幅度 100%（目標≥60%），平穩期品質 79%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）</td></tr><tr><td></td><td>③ 過去獲利穩健成長（年均≥7%）</td><td class='sym'>○</td><td class='muted'>近5年平均年成長 54%，成長年份占 100%</td></tr><tr><td></td><td>④ 最近1~2年獲利成長≥20%</td><td class='sym'>△</td><td class='muted'>近四季獲利年增 17%（接近 20% 門檻）</td></tr><tr><td></td><td>⑤ 最近2~3季營收成長≥10%</td><td class='sym'>○</td><td class='muted'>近1期季營收年增 11%</td></tr><tr><td>★</td><td>⑥ 最近2~3季獲利成長≥20%</td><td class='sym'>○</td><td class='muted'>近1季獲利年增 83%</td></tr><tr><td>★</td><td>⑦ 未來獲利能否穩健成長</td><td class='sym'>👤</td><td class='muted'>需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）</td></tr><tr><td></td><td>⑧ 本益比未過熱（<60倍）</td><td class='sym'>○</td><td class='muted'>本益比 14.3 倍</td></tr><tr><td>★</td><td>⑨ 大盤上漲力道</td><td class='sym'>○</td><td class='muted'>創新高股比率 8.3%，位於近一年前 9% 強、趨勢向上</td></tr></tbody></table>
+  <p class="muted">反彈幅度 100%｜平穩期品質 79%｜訊號日 2026-07-02</p>
+</details>
+<details class="card cand">
+  <summary><b>美股｜AbbVie（ABBV）</b>
+    收盤 261.07｜檢核 <b>67/100</b> — 淘汰：關鍵項目不合格</summary>
+  <table class='check'><thead><tr><th></th><th>檢核項目</th><th>結果</th><th>說明</th></tr></thead><tbody><tr><td>★</td><td>① 股價突破近年來高價</td><td class='sym'>○</td><td class='muted'>收盤 261.07 創近 2 年新高</td></tr><tr><td>★</td><td>② 新高價位置（反彈幅度≥60%）</td><td class='sym'>○</td><td class='muted'>反彈幅度 100%（目標≥60%），平穩期品質 78%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）</td></tr><tr><td></td><td>③ 過去獲利穩健成長（年均≥7%）</td><td class='sym'>×</td><td class='muted'>近4年平均年成長 -6%，成長年份占 33%</td></tr><tr><td></td><td>④ 最近1~2年獲利成長≥20%</td><td class='sym'>○</td><td class='muted'>近四季獲利年增 78%</td></tr><tr><td></td><td>⑤ 最近2~3季營收成長≥10%</td><td class='sym'>○</td><td class='muted'>近1期季營收年增 12%</td></tr><tr><td>★</td><td>⑥ 最近2~3季獲利成長≥20%</td><td class='sym'>×</td><td class='muted'>近1季獲利年增 -37%</td></tr><tr><td>★</td><td>⑦ 未來獲利能否穩健成長</td><td class='sym'>👤</td><td class='muted'>需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）</td></tr><tr><td></td><td>⑧ 本益比未過熱（<60倍）</td><td class='sym'>×</td><td class='muted'>本益比 128.0 倍（≥60 倍，過熱）</td></tr><tr><td>★</td><td>⑨ 大盤上漲力道</td><td class='sym'>○</td><td class='muted'>創新高股比率 8.3%，位於近一年前 9% 強、趨勢向上</td></tr></tbody></table>
+  <p class="muted">反彈幅度 100%｜平穩期品質 78%｜訊號日 2026-07-02</p>
+</details>
+<details class="card cand">
+  <summary><b>美股｜Bank of America（BAC）</b>
+    收盤 58.73｜檢核 <b>58/100</b> — 候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</summary>
+  <table class='check'><thead><tr><th></th><th>檢核項目</th><th>結果</th><th>說明</th></tr></thead><tbody><tr><td>★</td><td>① 股價突破近年來高價</td><td class='sym'>○</td><td class='muted'>收盤 58.73 創近 2 年新高</td></tr><tr><td>★</td><td>② 新高價位置（反彈幅度≥60%）</td><td class='sym'>○</td><td class='muted'>反彈幅度 100%（目標≥60%），平穩期品質 75%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）</td></tr><tr><td></td><td>③ 過去獲利穩健成長（年均≥7%）</td><td class='sym'>×</td><td class='muted'>近5年平均年成長 7%，成長年份占 100%</td></tr><tr><td></td><td>④ 最近1~2年獲利成長≥20%</td><td class='sym'>×</td><td class='muted'>近四季獲利年增 13%</td></tr><tr><td></td><td>⑤ 最近2~3季營收成長≥10%</td><td class='sym'>×</td><td class='muted'>近1期季營收年增 7%</td></tr><tr><td>★</td><td>⑥ 最近2~3季獲利成長≥20%</td><td class='sym'>×</td><td class='muted'>近1季獲利年增 16%</td></tr><tr><td>★</td><td>⑦ 未來獲利能否穩健成長</td><td class='sym'>👤</td><td class='muted'>需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）</td></tr><tr><td></td><td>⑧ 本益比未過熱（<60倍）</td><td class='sym'>○</td><td class='muted'>本益比 14.6 倍</td></tr><tr><td>★</td><td>⑨ 大盤上漲力道</td><td class='sym'>○</td><td class='muted'>創新高股比率 8.3%，位於近一年前 9% 強、趨勢向上</td></tr></tbody></table>
+  <p class="muted">反彈幅度 100%｜平穩期品質 75%｜訊號日 2026-07-02</p>
+</details>
+<details class="card cand">
+  <summary><b>美股｜Corteva（CTVA）</b>
+    收盤 85.8｜檢核 <b>83/100</b> — 候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</summary>
+  <table class='check'><thead><tr><th></th><th>檢核項目</th><th>結果</th><th>說明</th></tr></thead><tbody><tr><td>★</td><td>① 股價突破近年來高價</td><td class='sym'>○</td><td class='muted'>收盤 85.8 創近 2 年新高</td></tr><tr><td>★</td><td>② 新高價位置（反彈幅度≥60%）</td><td class='sym'>○</td><td class='muted'>反彈幅度 100%（目標≥60%），平穩期品質 74%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）</td></tr><tr><td></td><td>③ 過去獲利穩健成長（年均≥7%）</td><td class='sym'>○</td><td class='muted'>近4年平均年成長 9%，成長年份占 67%</td></tr><tr><td></td><td>④ 最近1~2年獲利成長≥20%</td><td class='sym'>○</td><td class='muted'>近四季獲利年增 32%</td></tr><tr><td></td><td>⑤ 最近2~3季營收成長≥10%</td><td class='sym'>○</td><td class='muted'>近1期季營收年增 11%</td></tr><tr><td>★</td><td>⑥ 最近2~3季獲利成長≥20%</td><td class='sym'>×</td><td class='muted'>近1季獲利年增 9%</td></tr><tr><td>★</td><td>⑦ 未來獲利能否穩健成長</td><td class='sym'>👤</td><td class='muted'>需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）</td></tr><tr><td></td><td>⑧ 本益比未過熱（<60倍）</td><td class='sym'>○</td><td class='muted'>本益比 46.4 倍</td></tr><tr><td>★</td><td>⑨ 大盤上漲力道</td><td class='sym'>○</td><td class='muted'>創新高股比率 8.3%，位於近一年前 9% 強、趨勢向上</td></tr></tbody></table>
+  <p class="muted">反彈幅度 100%｜平穩期品質 74%｜訊號日 2026-07-02</p>
+</details>
+<details class="card cand">
+  <summary><b>美股｜CSX Corporation（CSX）</b>
+    收盤 48.89｜檢核 <b>75/100</b> — 候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</summary>
+  <table class='check'><thead><tr><th></th><th>檢核項目</th><th>結果</th><th>說明</th></tr></thead><tbody><tr><td>★</td><td>① 股價突破近年來高價</td><td class='sym'>○</td><td class='muted'>收盤 48.89 創近 2 年新高</td></tr><tr><td>★</td><td>② 新高價位置（反彈幅度≥60%）</td><td class='sym'>○</td><td class='muted'>反彈幅度 100%（目標≥60%），平穩期品質 72%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）</td></tr><tr><td></td><td>③ 過去獲利穩健成長（年均≥7%）</td><td class='sym'>×</td><td class='muted'>近5年平均年成長 -11%，成長年份占 0%</td></tr><tr><td></td><td>④ 最近1~2年獲利成長≥20%</td><td class='sym'>×</td><td class='muted'>近四季獲利年增 -17%</td></tr><tr><td></td><td>⑤ 最近2~3季營收成長≥10%</td><td class='sym'>×</td><td class='muted'>近1期季營收年增 2%</td></tr><tr><td>★</td><td>⑥ 最近2~3季獲利成長≥20%</td><td class='sym'>○</td><td class='muted'>近1季獲利年增 24%</td></tr><tr><td>★</td><td>⑦ 未來獲利能否穩健成長</td><td class='sym'>👤</td><td class='muted'>需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）</td></tr><tr><td></td><td>⑧ 本益比未過熱（<60倍）</td><td class='sym'>○</td><td class='muted'>本益比 30.0 倍</td></tr><tr><td>★</td><td>⑨ 大盤上漲力道</td><td class='sym'>○</td><td class='muted'>創新高股比率 8.3%，位於近一年前 9% 強、趨勢向上</td></tr></tbody></table>
+  <p class="muted">反彈幅度 100%｜平穩期品質 72%｜訊號日 2026-07-02</p>
+</details>
+<details class="card cand">
+  <summary><b>美股｜DaVita（DVA）</b>
+    收盤 234.91｜檢核 <b>67/100</b> — 候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</summary>
+  <table class='check'><thead><tr><th></th><th>檢核項目</th><th>結果</th><th>說明</th></tr></thead><tbody><tr><td>★</td><td>① 股價突破近年來高價</td><td class='sym'>○</td><td class='muted'>收盤 234.91 創近 2 年新高</td></tr><tr><td>★</td><td>② 新高價位置（反彈幅度≥60%）</td><td class='sym'>○</td><td class='muted'>反彈幅度 100%（目標≥60%），平穩期品質 70%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）</td></tr><tr><td></td><td>③ 過去獲利穩健成長（年均≥7%）</td><td class='sym'>○</td><td class='muted'>近5年平均年成長 13%，成長年份占 67%</td></tr><tr><td></td><td>④ 最近1~2年獲利成長≥20%</td><td class='sym'>×</td><td class='muted'>近四季獲利年增 -12%</td></tr><tr><td></td><td>⑤ 最近2~3季營收成長≥10%</td><td class='sym'>×</td><td class='muted'>近1期季營收年增 6%</td></tr><tr><td>★</td><td>⑥ 最近2~3季獲利成長≥20%</td><td class='sym'>×</td><td class='muted'>近1季獲利年增 19%</td></tr><tr><td>★</td><td>⑦ 未來獲利能否穩健成長</td><td class='sym'>👤</td><td class='muted'>需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）</td></tr><tr><td></td><td>⑧ 本益比未過熱（<60倍）</td><td class='sym'>○</td><td class='muted'>本益比 22.6 倍</td></tr><tr><td>★</td><td>⑨ 大盤上漲力道</td><td class='sym'>○</td><td class='muted'>創新高股比率 8.3%，位於近一年前 9% 強、趨勢向上</td></tr></tbody></table>
+  <p class="muted">反彈幅度 100%｜平穩期品質 70%｜訊號日 2026-07-02</p>
+</details>
+<details class="card cand">
+  <summary><b>美股｜Cardinal Health（CAH）</b>
+    收盤 238.94｜檢核 <b>83/100</b> — 候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</summary>
+  <table class='check'><thead><tr><th></th><th>檢核項目</th><th>結果</th><th>說明</th></tr></thead><tbody><tr><td>★</td><td>① 股價突破近年來高價</td><td class='sym'>○</td><td class='muted'>收盤 238.94 創近 2 年新高</td></tr><tr><td>★</td><td>② 新高價位置（反彈幅度≥60%）</td><td class='sym'>○</td><td class='muted'>反彈幅度 100%（目標≥60%），平穩期品質 48%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）</td></tr><tr><td></td><td>③ 過去獲利穩健成長（年均≥7%）</td><td class='sym'>○</td><td class='muted'>近4年平均年成長 78%，成長年份占 100%</td></tr><tr><td></td><td>④ 最近1~2年獲利成長≥20%</td><td class='sym'>○</td><td class='muted'>近四季獲利年增 75%</td></tr><tr><td></td><td>⑤ 最近2~3季營收成長≥10%</td><td class='sym'>○</td><td class='muted'>近1期季營收年增 11%</td></tr><tr><td>★</td><td>⑥ 最近2~3季獲利成長≥20%</td><td class='sym'>×</td><td class='muted'>近1季獲利年增 -41%</td></tr><tr><td>★</td><td>⑦ 未來獲利能否穩健成長</td><td class='sym'>👤</td><td class='muted'>需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）</td></tr><tr><td></td><td>⑧ 本益比未過熱（<60倍）</td><td class='sym'>○</td><td class='muted'>本益比 36.5 倍</td></tr><tr><td>★</td><td>⑨ 大盤上漲力道</td><td class='sym'>○</td><td class='muted'>創新高股比率 8.3%，位於近一年前 9% 強、趨勢向上</td></tr></tbody></table>
+  <p class="muted">反彈幅度 100%｜平穩期品質 48%｜訊號日 2026-07-02</p>
+</details>
+<div class="help">每張評分卡對應書中附錄一的 9 項檢核表（★＝書中標示的重要項目）。
+<b>👤 第⑦項一律需要你自己判斷</b>：去看該公司法說會或年報，問自己「它獲利成長的理由，能不能用一句話說清楚？」
+說不清楚就放棄這檔（書 p.131-146）。買進時機：訊號日的隔天開盤（書中為機械式操作）。</div>
+
+<h2>💼 持股監控（賣出三條件）</h2>
+<p class='empty'>尚未登錄持股。買進後請到 GitHub 編輯 <code>holdings.csv</code>，系統就會每天幫你檢查停損、基本面與賣壓比例。</p>
+<div class="help">⛔ 立即賣出＝觸發停損（跌破買價 8%）或基本面惡化（單季獲利年增 &lt;20%），書中要求不猶豫、不攤平｜
+⚠️ 賣出訊號＝賣壓比例 SPR ≥ 117%（股價可能到中長期高點），可觀察後從容賣出（書 p.211）。</div>
+
+<h2>🗒️ 近期訊號記錄</h2>
+<table><thead><tr><th>日期</th><th>市場</th><th>訊號</th><th>股票</th><th>說明</th></tr></thead><tbody><tr><td>2026-07-02</td><td>美股</td><td>買進候選</td><td><b>Cardinal Health（CAH）</b></td><td class='muted'>檢核 83/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</td></tr><tr><td>2026-07-02</td><td>美股</td><td>買進候選</td><td><b>DaVita（DVA）</b></td><td class='muted'>檢核 67/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</td></tr><tr><td>2026-07-02</td><td>美股</td><td>買進候選</td><td><b>CSX Corporation（CSX）</b></td><td class='muted'>檢核 75/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</td></tr><tr><td>2026-07-02</td><td>美股</td><td>買進候選</td><td><b>Corteva（CTVA）</b></td><td class='muted'>檢核 83/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</td></tr><tr><td>2026-07-02</td><td>美股</td><td>買進候選</td><td><b>Bank of America（BAC）</b></td><td class='muted'>檢核 58/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</td></tr><tr><td>2026-07-02</td><td>美股</td><td>買進候選</td><td><b>Assurant（AIZ）</b></td><td class='muted'>檢核 96/100，強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量</td></tr><tr><td>2026-07-02</td><td>美股</td><td>買進候選</td><td><b>Alliant Energy（LNT）</b></td><td class='muted'>檢核 58/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</td></tr><tr><td>2026-07-02</td><td>美股</td><td>買進候選</td><td><b>Cincinnati Financial（CINF）</b></td><td class='muted'>檢核 75/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</td></tr><tr><td>2026-07-02</td><td>美股</td><td>買進候選</td><td><b>Coca-Cola Company (The)（KO）</b></td><td class='muted'>檢核 83/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</td></tr><tr><td>2026-07-02</td><td>美股</td><td>買進候選</td><td><b>Chubb Limited（CB）</b></td><td class='muted'>檢核 92/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</td></tr><tr><td>2026-07-02</td><td>美股</td><td>買進候選</td><td><b>Allstate（ALL）</b></td><td class='muted'>檢核 83/100，強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量</td></tr><tr><td>2026-07-02</td><td>美股</td><td>買進候選</td><td><b>Aflac（AFL）</b></td><td class='muted'>檢核 83/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補</td></tr></tbody></table>
+
+<h2>📖 新手三分鐘看懂這套方法</h2>
+<div class="help">
+1️⃣ <b>只買創新高的股票</b>：突破 2~3 年高價代表公司進入新時代，之前要有長而平穩的整理期（能量累積）。<br>
+2️⃣ <b>基本面要加速</b>：長期獲利年均 ≥7%、近年 ≥20%、近幾季營收 ≥10% 且獲利 ≥20%，本益比 &lt;60 倍。<br>
+3️⃣ <b>絕不賠大錢</b>：跌破買價 8% 無條件停損；單季獲利年增掉到 20% 以下就賣；賣壓比例出現訊號代表高點近了。<br>
+4️⃣ <b>看大盤臉色</b>：創新高股愈多行情愈強；紅燈時系統自然找不到訊號，空手就是策略。<br>
+5️⃣ <b>資金控管</b>：單檔不超過總資產 10%，行情弱就再減量。
+</div>
+</main>
+<footer>本頁由 GitHub Actions 自動產生，規則出自林則行《大漲的訊號》。僅供學習參考，不構成投資建議；投資人應自行承擔風險。</footer>
+</body>
+</html>

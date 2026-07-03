@@ -1,0 +1,29 @@
+# ===== 大漲訊號系統設定 =====
+# 門檻皆出自《大漲的訊號》，改動前請先理解書中理由
+
+# --- 買進檢核門檻 ---
+breakout_lookback_days: 490     # ① 突破近 2 年（約 490 個交易日）新高
+long_term_growth: 0.07          # ③ 長期獲利年均成長 ≥7%
+recent_growth: 0.20             # ④ 最近 1~2 年獲利成長 ≥20%
+quarterly_revenue_growth: 0.10  # ⑤ 近 2~3 季營收年增 ≥10%
+quarterly_profit_growth: 0.20   # ⑥ 近 2~3 季獲利年增 ≥20%
+pe_limit: 60                    # ⑧ 本益比上限（書 p.153）
+
+# --- 賣出門檻 ---
+stop_loss_pct: 0.08             # 停損：跌破買價 8%（書 p.215，可改 0.07~0.10）
+spr_window: 20                  # 賣壓比例統計 20 個營業日（書 p.208）
+spr_threshold: 1.17             # SPR ≥117% 出現賣出訊號（書建議 116~118%）
+
+# --- 資金管理 ---
+total_capital: 1000000          # 你的總投資資產（用來算單檔 10% 上限），請自行修改
+
+# --- 系統 ---
+max_candidates_per_day: 25      # 每日最多細查幾檔候選（控制執行時間與 API 用量）
+min_score_to_notify: 55         # 檢核分數達此值才寄 Email（儀表板仍顯示全部）
+fundamental_pause_sec: 2        # 候選股間的 API 間隔秒數（禮貌限速）
+dashboard_url: "https://<你的GitHub帳號>.github.io/stock-breakout-signals/"
+
+# --- 市值前 50 大觀察名單（書 p.92：判斷大型股是否帶動行情）---
+# 成分會隨時間變化，建議每半年比對台灣50 / S&P500 市值排行更新一次
+tw_top50: ["2330.TW","2317.TW","2454.TW","2308.TW","2382.TW","2881.TW","2891.TW","2882.TW","2886.TW","2884.TW","2303.TW","3711.TW","2002.TW","1301.TW","1303.TW","2412.TW","2357.TW","2885.TW","3034.TW","2892.TW","5880.TW","2880.TW","2883.TW","2890.TW","2887.TW","1216.TW","2379.TW","3008.TW","2395.TW","3231.TW","4938.TW","2345.TW","3017.TW","2327.TW","2603.TW","2609.TW","2615.TW","1101.TW","2801.TW","5871.TW","6505.TW","1326.TW","2207.TW","2301.TW","2408.TW","3045.TW","4904.TW","6669.TW","3661.TW","2912.TW"]
+us_top50: ["AAPL","MSFT","NVDA","GOOGL","AMZN","META","AVGO","TSLA","BRK-B","LLY","JPM","V","XOM","UNH","MA","PG","COST","JNJ","HD","WMT","NFLX","ABBV","BAC","CRM","ORCL","CVX","KO","AMD","PEP","TMO","ADBE","WFC","CSCO","ACN","MRK","LIN","MCD","IBM","PM","GE","ABT","ISRG","QCOM","CAT","TXN","DIS","VZ","INTU","AMAT","GS"]
