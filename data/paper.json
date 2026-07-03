@@ -1,31 +1,96 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 1000000,
-  "positions": [],
-  "pending_buys": [
+  "cash": 849796.9527018379,
+  "positions": [
    {
     "ticker": "2887.TW",
     "name": "台新新光金",
-    "light": "yellow"
+    "shares": 1517.4506,
+    "buy_price": 32.95000076293945,
+    "buy_date": "2026-07-03",
+    "last_price": 34.150001525878906,
+    "status": "HOLD",
+    "status_note": ""
    },
    {
     "ticker": "2851.TW",
     "name": "中再保",
-    "light": "yellow"
+    "shares": 1349.4315,
+    "buy_price": 37.04999923706055,
+    "buy_date": "2026-07-03",
+    "last_price": 38.45000076293945,
+    "status": "HOLD",
+    "status_note": ""
    },
    {
     "ticker": "2415.TW",
     "name": "錩新",
-    "light": "yellow"
+    "shares": 1326.0709,
+    "buy_price": 37.70000076293945,
+    "buy_date": "2026-07-03",
+    "last_price": 37.900001525878906,
+    "status": "HOLD",
+    "status_note": ""
+   }
+  ],
+  "pending_buys": [
+   {
+    "ticker": "6509.TWO",
+    "name": "聚和",
+    "light": "yellow",
+    "score": 79
+   },
+   {
+    "ticker": "4207.TWO",
+    "name": "環泰",
+    "light": "yellow",
+    "score": 75
+   },
+   {
+    "ticker": "3015.TW",
+    "name": "全漢",
+    "light": "yellow",
+    "score": 64
    }
   ],
   "pending_sells": [],
-  "trades": [],
+  "trades": [
+   {
+    "date": "2026-07-03",
+    "action": "BUY",
+    "ticker": "2887.TW",
+    "name": "台新新光金",
+    "price": 32.95000076293945,
+    "shares": 1517.4506,
+    "amount": 50071.25,
+    "reason": "買進訊號（黃燈基準 × 檢核100分 → 部位 5.0%）"
+   },
+   {
+    "date": "2026-07-03",
+    "action": "BUY",
+    "ticker": "2851.TW",
+    "name": "中再保",
+    "price": 37.04999923706055,
+    "shares": 1349.4315,
+    "amount": 50067.68,
+    "reason": "買進訊號（黃燈基準 × 檢核100分 → 部位 5.0%）"
+   },
+   {
+    "date": "2026-07-03",
+    "action": "BUY",
+    "ticker": "2415.TW",
+    "name": "錩新",
+    "price": 37.70000076293945,
+    "shares": 1326.0709,
+    "amount": 50064.11,
+    "reason": "買進訊號（黃燈基準 × 檢核100分 → 部位 5.0%）"
+   }
+  ],
   "equity_history": [
    {
     "date": "2026-07-03",
-    "equity": 100000
+    "equity": 1003761.62
    }
   ]
  },

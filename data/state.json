@@ -3954,10 +3954,91 @@
       {
        "key": "7",
        "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
+       "grade": "T",
+       "symbol": "△",
+       "detail": "AI 判斷（僅供參考，請複核依據）：雖然合併綜效初顯，但因缺乏長期結構性成長的具體整合細節，且未說明法人擔憂配息卡關的關鍵原因，故無法判斷未來能否穩健成長。",
+       "starred": true,
+       "ai": {
+        "grade": "T",
+        "one_line": "雖然合併綜效初顯，但因缺乏長期結構性成長的具體整合細節，且未說明法人擔憂配息卡關的關鍵原因，故無法判斷未來能否穩健成長。",
+        "analysis": "根據新聞[1]與[5]，公司近期獲利暴增主要歸因於合併效益顯現，這屬於結構性變化。然而，新聞[3]指出首季雖賺210億，但法人因『1關鍵』不買單且配息卡關，而現有證據並未說明該關鍵為何。在缺乏長期合併整合計畫、具體綜效來源及法人疑慮細節的情況下，僅憑短期數月的獲利爆發，無法評估未來能否『穩健』成長。",
+        "risks": [
+         "法人不買單且配息卡關的未知關鍵風險",
+         "合併後續整合效益能否持續的未知性"
+        ],
+        "sources": [
+         {
+          "title": "金融股撐盤 台新新光金領漲 合併效益顯現 法人這樣看全年獲利 - UDN",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA4Zlo4NUFtMGlsNUNUNTY2dndnWjJyQlNqSTNHaWlpdnVycm5pcmxmSnAtVTVQVkY3eVRoTVlLVVlJeFE3MXJ3Y0N6VGtTMTRz0gFWQVVfeXFMTUUwTl9tNGlDWmxwVmJyT2pjUVJpN0s2ZjJEUkwyQlV4SE5lNER5aXVOMnJQT1ZRTms4RlY3S3RFQTBOQ1EwQWtKTmtrck53c1c0ZnAxOVE?oc=5",
+          "date": "Fri, 03 Jul 2026",
+          "source": "UDN"
+         },
+         {
+          "title": "台新新光金首季狂賺210億！法人卻不買單直指1關鍵讓配息卡關- 上市櫃 - 旺得富理財網",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9kTUpsSWV0NVo0dVNDcDMtQ3ZyTElESU02cDdVTWNCUkRtTkhZVjBPSklVNGFQWGNoVTh1cXN4dS1CTFlGRjNiYnNBaTVNamJPOFlpSG1GSmphZWJxRnRuS1ZreHY5cEIwSXc?oc=5",
+          "date": "Tue, 16 Jun 2026",
+          "source": "旺得富理財網"
+         },
+         {
+          "title": "展現合併綜效！台新新光前5月大賺349億 年成長432％ - 自由財經",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9uUzEzREtqZkRBZDE2WTFCRFVKMHdGNDVFemVESTVjb0otQkFIY1puSmc3S1I3S0tpYVo3NzczZ052bXlmUDZ0U09hQTMxc1Q2bjF6ZFNzS0EtU3BCVXFR0gFkQVVfeXFMT0I2aVQ1TXNQSG04YjRyeTlIak50ZmlUQ3ZGM1VHVE0wZTdGcDZlVVVmZndaaVJFRTR4Qy1qQldXRFZRVEd0ekd6ZmVINVF0SGRoV3BoaFJPcWZoeUlLSy1kX3QwVw?oc=5",
+          "date": "Thu, 11 Jun 2026",
+          "source": "自由財經"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "金融股撐盤 台新新光金領漲 合併效益顯現 法人這樣看全年獲利 - UDN",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA4Zlo4NUFtMGlsNUNUNTY2dndnWjJyQlNqSTNHaWlpdnVycm5pcmxmSnAtVTVQVkY3eVRoTVlLVVlJeFE3MXJ3Y0N6VGtTMTRz0gFWQVVfeXFMTUUwTl9tNGlDWmxwVmJyT2pjUVJpN0s2ZjJEUkwyQlV4SE5lNER5aXVOMnJQT1ZRTms4RlY3S3RFQTBOQ1EwQWtKTmtrck53c1c0ZnAxOVE?oc=5",
+          "date": "Fri, 03 Jul 2026",
+          "source": "UDN"
+         },
+         {
+          "title": "71萬股東看過來！台新新光金前5月獲利348億元年增四倍 - Yahoo股市",
+          "link": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxOUUVjTGZMczFoSUFiM25UWDk4RGdxYlljWFE2VkdjX1hIVDU2X3NCUlp0WVRaTDlNZ296djl2NnZUSk1wVWpXeUhubHEzLXZ2bWVMeC1qc0ROcEFqaE84NFNScU44dEtCTldicC1NWjdZY1JmTHBJQjJaNk9BZTN4RC1YT2tOS0dzUERtd1J1YTVUNDM3ZmprSDNtTnFldEhna3JrejVkWGdfNC0ySFFHWE5TaFZraHJUYXpxVkZhRFVGbU0zLVNSWlhnR3hVOEs5NFF1Qk13bVlhNTkteVVKYjZpRU5mVEdvVFBIT2FJbE8tUXVvdURyNzRYdVZUTGktdERTWEdnY2l3N0pxM0dKbEVKblRHVExjX2xpYlVpVUE1a1JOZGF2NFhPemN5MzdiZGxwZ3BFVGVwQ0N3clNIUEdPVk1zZ3FlTHB1b25MaVU2blRwdG12S0JZS1A2bHg4SWhwRko4RjBZYmc?oc=5",
+          "date": "Thu, 11 Jun 2026",
+          "source": "Yahoo股市"
+         },
+         {
+          "title": "台新新光金首季狂賺210億！法人卻不買單直指1關鍵讓配息卡關- 上市櫃 - 旺得富理財網",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9kTUpsSWV0NVo0dVNDcDMtQ3ZyTElESU02cDdVTWNCUkRtTkhZVjBPSklVNGFQWGNoVTh1cXN4dS1CTFlGRjNiYnNBaTVNamJPOFlpSG1GSmphZWJxRnRuS1ZreHY5cEIwSXc?oc=5",
+          "date": "Tue, 16 Jun 2026",
+          "source": "旺得富理財網"
+         },
+         {
+          "title": "個股／快檢查！你有買嗎？ 台新新光金目標價 - 三立新聞網SETN.com",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1pMFlURFRjOWpHRmNTT2Z0enh0WnlJU21Zc3NLMU9lbmRGSGFKVUdGb1czLURnek40Zlk5RUxWbVpUUEZnVTdndzBUQQ?oc=5",
+          "date": "Tue, 16 Jun 2026",
+          "source": "三立新聞網SETN.com"
+         },
+         {
+          "title": "展現合併綜效！台新新光前5月大賺349億 年成長432％ - 自由財經",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9uUzEzREtqZkRBZDE2WTFCRFVKMHdGNDVFemVESTVjb0otQkFIY1puSmc3S1I3S0tpYVo3NzczZ052bXlmUDZ0U09hQTMxc1Q2bjF6ZFNzS0EtU3BCVXFR0gFkQVVfeXFMT0I2aVQ1TXNQSG04YjRyeTlIak50ZmlUQ3ZGM1VHVE0wZTdGcDZlVVVmZndaaVJFRTR4Qy1qQldXRFZRVEd0ekd6ZmVINVF0SGRoV3BoaFJPcWZoeUlLSy1kX3QwVw?oc=5",
+          "date": "Thu, 11 Jun 2026",
+          "source": "自由財經"
+         },
+         {
+          "title": "2887 台新新光金- 孔明觀天象，6月結束拉大獲利差距7/1 台新新光金超車玉山... - 股市爆料同學會 - CMoney",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwMnk5RE5HNWRERFZnOHdjcTRoRHBVT3lfbGl4a21ZcFlGcVdqMG5RRFBpWGxQM1Atd1RpOUVTM2J1cTBBU2JVVDc4MDl4aHlSb08zd1pVQjk?oc=5",
+          "date": "Sun, 28 Jun 2026",
+          "source": "CMoney"
+         },
+         {
+          "title": "營收速報 - 台新新光金(2887)5月營收148.43億元年增率高達317.18％｜新聞快訊｜豐雲學堂 - sinotrade.com.tw",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE82WEkzT3ZQNXhkaG5kaExla1RPNTZNV1ZqSXB6dWFnYTFqeGVZUUJmVkFyeHFiN2w1T1g4Y1dYcHRWTEdLVElXNFBQblZDY1p0VW81RmdGMEs2cDd6eXRSMEZFeXRxSDhBY0wzWkpVdTVsdjZMMGc?oc=5",
+          "date": "Thu, 11 Jun 2026",
+          "source": "sinotrade.com.tw"
+         },
+         {
+          "title": "熱門股／股東會登場、前5月獲利創高！台新新光金大漲逾7%、衝22年新高| 產經 - 非凡新聞台",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wdmZvcEJUREtKR3hPLVlGcTJ4UGdkaDBSbTZoaXJFajA2ZlA3VlJXSmJ3QkVKOGZUV1NmbWlLWnBFN3lCYVdpc0gtaW9pVGk4SDlPRnEwVC1YWGFsVkVz?oc=5",
+          "date": "Fri, 12 Jun 2026",
+          "source": "非凡新聞台"
+         }
+        ],
+        "model": "gemini-flash-latest",
+        "judged_at": "2026-07-03 10:55"
+       }
       },
       {
        "key": "8",
@@ -3976,97 +4057,91 @@
        "starred": true
       }
      ],
-     "score": 92,
-     "verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
+     "score": 86,
+     "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
     },
-    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
-   },
-   {
-    "ticker": "2851.TW",
-    "name": "中再保",
-    "close": 38.45,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.7169855962304796,
-    "scorecard": {
-     "items": [
+    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量",
+    "ai7": {
+     "grade": "T",
+     "one_line": "雖然合併綜效初顯，但因缺乏長期結構性成長的具體整合細節，且未說明法人擔憂配息卡關的關鍵原因，故無法判斷未來能否穩健成長。",
+     "analysis": "根據新聞[1]與[5]，公司近期獲利暴增主要歸因於合併效益顯現，這屬於結構性變化。然而，新聞[3]指出首季雖賺210億，但法人因『1關鍵』不買單且配息卡關，而現有證據並未說明該關鍵為何。在缺乏長期合併整合計畫、具體綜效來源及法人疑慮細節的情況下，僅憑短期數月的獲利爆發，無法評估未來能否『穩健』成長。",
+     "risks": [
+      "法人不買單且配息卡關的未知關鍵風險",
+      "合併後續整合效益能否持續的未知性"
+     ],
+     "sources": [
       {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 38.45 創近 2 年新高",
-       "starred": true
+       "title": "金融股撐盤 台新新光金領漲 合併效益顯現 法人這樣看全年獲利 - UDN",
+       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA4Zlo4NUFtMGlsNUNUNTY2dndnWjJyQlNqSTNHaWlpdnVycm5pcmxmSnAtVTVQVkY3eVRoTVlLVVlJeFE3MXJ3Y0N6VGtTMTRz0gFWQVVfeXFMTUUwTl9tNGlDWmxwVmJyT2pjUVJpN0s2ZjJEUkwyQlV4SE5lNER5aXVOMnJQT1ZRTms4RlY3S3RFQTBOQ1EwQWtKTmtrck53c1c0ZnAxOVE?oc=5",
+       "date": "Fri, 03 Jul 2026",
+       "source": "UDN"
       },
       {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 72%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
+       "title": "台新新光金首季狂賺210億！法人卻不買單直指1關鍵讓配息卡關- 上市櫃 - 旺得富理財網",
+       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9kTUpsSWV0NVo0dVNDcDMtQ3ZyTElESU02cDdVTWNCUkRtTkhZVjBPSklVNGFQWGNoVTh1cXN4dS1CTFlGRjNiYnNBaTVNamJPOFlpSG1GSmphZWJxRnRuS1ZreHY5cEIwSXc?oc=5",
+       "date": "Tue, 16 Jun 2026",
+       "source": "旺得富理財網"
       },
       {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近9年平均年成長 1319%，成長年份占 75%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近四季獲利年增 97%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "T",
-       "symbol": "△",
-       "detail": "近3期季營收年增 -28%、17%、25%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近3季獲利年增 312%、196%、180%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 10.5 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "T",
-       "symbol": "△",
-       "detail": "創新高股比率 3.5%，上漲力道普通——書中建議減少單次購買量",
-       "starred": true
+       "title": "展現合併綜效！台新新光前5月大賺349億 年成長432％ - 自由財經",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9uUzEzREtqZkRBZDE2WTFCRFVKMHdGNDVFemVESTVjb0otQkFIY1puSmc3S1I3S0tpYVo3NzczZ052bXlmUDZ0U09hQTMxc1Q2bjF6ZFNzS0EtU3BCVXFR0gFkQVVfeXFMT0I2aVQ1TXNQSG04YjRyeTlIak50ZmlUQ3ZGM1VHVE0wZTdGcDZlVVVmZndaaVJFRTR4Qy1qQldXRFZRVEd0ekd6ZmVINVF0SGRoV3BoaFJPcWZoeUlLSy1kX3QwVw?oc=5",
+       "date": "Thu, 11 Jun 2026",
+       "source": "自由財經"
       }
      ],
-     "score": 88,
-     "verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
-    },
-    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
+     "all_news": [
+      {
+       "title": "金融股撐盤 台新新光金領漲 合併效益顯現 法人這樣看全年獲利 - UDN",
+       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA4Zlo4NUFtMGlsNUNUNTY2dndnWjJyQlNqSTNHaWlpdnVycm5pcmxmSnAtVTVQVkY3eVRoTVlLVVlJeFE3MXJ3Y0N6VGtTMTRz0gFWQVVfeXFMTUUwTl9tNGlDWmxwVmJyT2pjUVJpN0s2ZjJEUkwyQlV4SE5lNER5aXVOMnJQT1ZRTms4RlY3S3RFQTBOQ1EwQWtKTmtrck53c1c0ZnAxOVE?oc=5",
+       "date": "Fri, 03 Jul 2026",
+       "source": "UDN"
+      },
+      {
+       "title": "71萬股東看過來！台新新光金前5月獲利348億元年增四倍 - Yahoo股市",
+       "link": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxOUUVjTGZMczFoSUFiM25UWDk4RGdxYlljWFE2VkdjX1hIVDU2X3NCUlp0WVRaTDlNZ296djl2NnZUSk1wVWpXeUhubHEzLXZ2bWVMeC1qc0ROcEFqaE84NFNScU44dEtCTldicC1NWjdZY1JmTHBJQjJaNk9BZTN4RC1YT2tOS0dzUERtd1J1YTVUNDM3ZmprSDNtTnFldEhna3JrejVkWGdfNC0ySFFHWE5TaFZraHJUYXpxVkZhRFVGbU0zLVNSWlhnR3hVOEs5NFF1Qk13bVlhNTkteVVKYjZpRU5mVEdvVFBIT2FJbE8tUXVvdURyNzRYdVZUTGktdERTWEdnY2l3N0pxM0dKbEVKblRHVExjX2xpYlVpVUE1a1JOZGF2NFhPemN5MzdiZGxwZ3BFVGVwQ0N3clNIUEdPVk1zZ3FlTHB1b25MaVU2blRwdG12S0JZS1A2bHg4SWhwRko4RjBZYmc?oc=5",
+       "date": "Thu, 11 Jun 2026",
+       "source": "Yahoo股市"
+      },
+      {
+       "title": "台新新光金首季狂賺210億！法人卻不買單直指1關鍵讓配息卡關- 上市櫃 - 旺得富理財網",
+       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9kTUpsSWV0NVo0dVNDcDMtQ3ZyTElESU02cDdVTWNCUkRtTkhZVjBPSklVNGFQWGNoVTh1cXN4dS1CTFlGRjNiYnNBaTVNamJPOFlpSG1GSmphZWJxRnRuS1ZreHY5cEIwSXc?oc=5",
+       "date": "Tue, 16 Jun 2026",
+       "source": "旺得富理財網"
+      },
+      {
+       "title": "個股／快檢查！你有買嗎？ 台新新光金目標價 - 三立新聞網SETN.com",
+       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1pMFlURFRjOWpHRmNTT2Z0enh0WnlJU21Zc3NLMU9lbmRGSGFKVUdGb1czLURnek40Zlk5RUxWbVpUUEZnVTdndzBUQQ?oc=5",
+       "date": "Tue, 16 Jun 2026",
+       "source": "三立新聞網SETN.com"
+      },
+      {
+       "title": "展現合併綜效！台新新光前5月大賺349億 年成長432％ - 自由財經",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9uUzEzREtqZkRBZDE2WTFCRFVKMHdGNDVFemVESTVjb0otQkFIY1puSmc3S1I3S0tpYVo3NzczZ052bXlmUDZ0U09hQTMxc1Q2bjF6ZFNzS0EtU3BCVXFR0gFkQVVfeXFMT0I2aVQ1TXNQSG04YjRyeTlIak50ZmlUQ3ZGM1VHVE0wZTdGcDZlVVVmZndaaVJFRTR4Qy1qQldXRFZRVEd0ekd6ZmVINVF0SGRoV3BoaFJPcWZoeUlLSy1kX3QwVw?oc=5",
+       "date": "Thu, 11 Jun 2026",
+       "source": "自由財經"
+      },
+      {
+       "title": "2887 台新新光金- 孔明觀天象，6月結束拉大獲利差距7/1 台新新光金超車玉山... - 股市爆料同學會 - CMoney",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwMnk5RE5HNWRERFZnOHdjcTRoRHBVT3lfbGl4a21ZcFlGcVdqMG5RRFBpWGxQM1Atd1RpOUVTM2J1cTBBU2JVVDc4MDl4aHlSb08zd1pVQjk?oc=5",
+       "date": "Sun, 28 Jun 2026",
+       "source": "CMoney"
+      },
+      {
+       "title": "營收速報 - 台新新光金(2887)5月營收148.43億元年增率高達317.18％｜新聞快訊｜豐雲學堂 - sinotrade.com.tw",
+       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE82WEkzT3ZQNXhkaG5kaExla1RPNTZNV1ZqSXB6dWFnYTFqeGVZUUJmVkFyeHFiN2w1T1g4Y1dYcHRWTEdLVElXNFBQblZDY1p0VW81RmdGMEs2cDd6eXRSMEZFeXRxSDhBY0wzWkpVdTVsdjZMMGc?oc=5",
+       "date": "Thu, 11 Jun 2026",
+       "source": "sinotrade.com.tw"
+      },
+      {
+       "title": "熱門股／股東會登場、前5月獲利創高！台新新光金大漲逾7%、衝22年新高| 產經 - 非凡新聞台",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wdmZvcEJUREtKR3hPLVlGcTJ4UGdkaDBSbTZoaXJFajA2ZlA3VlJXSmJ3QkVKOGZUV1NmbWlLWnBFN3lCYVdpc0gtaW9pVGk4SDlPRnEwVC1YWGFsVkVz?oc=5",
+       "date": "Fri, 12 Jun 2026",
+       "source": "非凡新聞台"
+      }
+     ],
+     "model": "gemini-flash-latest",
+     "judged_at": "2026-07-03 10:55"
+    }
    },
    {
     "ticker": "2415.TW",
@@ -4128,10 +4203,85 @@
       {
        "key": "7",
        "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
+       "grade": "T",
+       "symbol": "△",
+       "detail": "AI 判斷（僅供參考，請複核依據）：現有證據無法證實新切入的AI組件能為過去成長不穩定的公司帶來具體且持續的獲利貢獻。",
+       "starred": true,
+       "ai": {
+        "grade": "T",
+        "one_line": "現有證據無法證實新切入的AI組件能為過去成長不穩定的公司帶來具體且持續的獲利貢獻。",
+        "analysis": "雖然公司近期營收與獲利呈現高成長，且新聞指出公司已切入AI組件並出貨，但歷史數據顯示其近9年成長年份僅占50%，成長極不穩定。現有新聞僅提及『切入AI組件並已出貨』與『看旺市場需求將續投資越南擴產』，缺乏AI組件的營收佔比、毛利表現及未來訂單能見度等關鍵數據。在缺乏具體結構性獲利貢獻證據的情況下，無法評估其未來獲利能否穩健成長。",
+        "risks": [
+         "歷史營運波動大，成長年份僅占五成，獲利缺乏穩定性。",
+         "新開發的AI組件與其他產業應用之實際營收貢獻與獲利能力尚不明確。"
+        ],
+        "sources": [
+         {
+          "title": "錩新Q1獲利年增42% EPS0.35元 看旺市場需求將續投資越南擴產 - news.cnyes.com",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBfams0UEktYnMzYTlXZUZkZXBRZlNzb29DNjNqNVZRaDdUbWRiWlA5Y3ZVeS13cUJya2x0N2RMb1ZRX2puSmI1bG9wM19JQVE?oc=5",
+          "date": "Wed, 13 May 2026",
+          "source": "news.cnyes.com"
+         },
+         {
+          "title": "〈焦點股〉錩新切入AI組件並已出貨 股價開高攻漲停價量齊走高 - Yahoo 財經",
+          "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxPUW1KS3daUmZUVFZNNzZfd2ZBTjBncHJNMlZrNDJCZlR2Mk9tZHU3M1Fuem1uUzQtbWNOekhpSFhUcEJHME5KMjBIdzY3M3ViTHN2NWtXbDdMOE9mWUVzckNBSW81dHA4bG52UlJGSjVGRTY3YjdHTGQ1WGJjaEhiQVppZmEyYkU4UjF2RHNoYzBaWEdRbDJlNzczZFVLa0VpTTk2ZUZNRzVWcUg2SU52d21XYjVHMFBKVlJQanBQU0hlbFlxbHFlMEt2ejA4ZEh6cDU1U0RwZUxGS0VncnZsTGt2Sk54Tlcza1FPNVJReFFQVDRSV05fRXBsNGFCRjJhNVpkSWNIT19xWVF5TUFJRVRfdmtIXzV3LUFFWFhUOHA5cHlfbE9BaWpZOXdQb3JiRDB3R25jNS14M3lMNFBEeUk4MFdodXVpR18xZzduQ1ZfbEh2cUxZRGZHemVsdTVlRVJlMzItOFpxRUJKM0ZSTkh6Yl9MYnhCZDFOcWUybG1oaC1ENjlCOGpGYVhodzg?oc=5",
+          "date": "Wed, 24 Jun 2026",
+          "source": "Yahoo 財經"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "【2026/06月營收公告】錩新(2415) 六月營收2.12億元，表現亮眼、呈現雙成長，年增9.2%-CMoney 小編 - CMoney投資網誌",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZmJtd2NHVVY0LXNCU0diM05sb21MdmtLekVENnE3MjNOcVd3UzRRb0p2dEsyaklIdnlhaXJfVk5Zd0p2OXhQc2JPYUVwb2ZaMmJFa0ZDT3p6X2tIcjZsUlpmTFlIMjZHTU9MQjVhcTJSTUN6a3Z6UlYtNzlXczZMeDN0WC1BbHhkOUE?oc=5",
+          "date": "Fri, 03 Jul 2026",
+          "source": "CMoney投資網誌"
+         },
+         {
+          "title": "營收：錩新(2415)6月營收2億1196萬元，月增率10.27%，年增率9.20% - 富聯網",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVEZWS2RDTDhrNWpPTFR5eWlJSVluUm1MTWlxNFhVRXRrUURHUHRUTVNtX29Tdkd3eE1DblR1eFZkdE0xNTlqZEctQUh0YmJXN0J6aHVoZ0VNZUJpc2Z3Rjh6SWduZ1JuSl9zZlh4RDdvOE8wVklBRVBvcDFsWkZISkRmeWFuNDFP?oc=5",
+          "date": "Fri, 03 Jul 2026",
+          "source": "富聯網"
+         },
+         {
+          "title": "錩新Q1獲利年增42% EPS0.35元 看旺市場需求將續投資越南擴產 - news.cnyes.com",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBfams0UEktYnMzYTlXZUZkZXBRZlNzb29DNjNqNVZRaDdUbWRiWlA5Y3ZVeS13cUJya2x0N2RMb1ZRX2puSmI1bG9wM19JQVE?oc=5",
+          "date": "Wed, 13 May 2026",
+          "source": "news.cnyes.com"
+         },
+         {
+          "title": "錩新將維持車用揚聲器領先，並積極開發其他產業 - 台視全球資訊網",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQa0dDU2dUQ2o4Y0V5dFVqMk4tRTZpQXkxckZZN1F6bWM5UU55TVpSemlyWUo1RjZEVllVNmttUHlDTERHMk4xaUdqWUhqalp5bTR6N1RKblQ2VVlZdjVTSmpsRHVLNkZRUGY0Y1M5M2ZJNkFzZ2lMN2ItQjZreUZWZnJvUElVM3FaWmpqdUxCZ2w4dw?oc=5",
+          "date": "Mon, 29 Jun 2026",
+          "source": "台視全球資訊網"
+         },
+         {
+          "title": "《業績-電零組》錩新6月營收為2.12億元，年增9.20% - 富聯網",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT1Fyc1ZmQ3dmZzFqM2xTOS1iT01ULXlSRlc3MWx0Wll0SHdfU2xkczJZS0g2eWFTX3psSDhSTTFaODVVbUJncWI5MTYxWl9nLWprVGV6MFF3dHN1aENHMzFWRWwwaHVNRDRKd0Y5VzN6UkdOdzdGVEo4NXFDUkUxa0V5MzV3QnhJ?oc=5",
+          "date": "Fri, 03 Jul 2026",
+          "source": "富聯網"
+         },
+         {
+          "title": "【法說會備忘錄】錩新 20250725 - 富果直送",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5OMTRrX0tFMEhYNlVWaVRuZnJyekk0UmdCNFJkTmozUG5RSmJRbzk3R2NveVVVdnB4UzFxNEU4cTBGME1zT19EQmQ1LVE0bkdSNVBMRm4wWmlURXNCcWVLZ1R1RnZSeEU?oc=5",
+          "date": "Mon, 28 Jul 2025",
+          "source": "富果直送"
+         },
+         {
+          "title": "〈焦點股〉錩新切入AI組件並已出貨 股價開高攻漲停價量齊走高 - Yahoo 財經",
+          "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxPUW1KS3daUmZUVFZNNzZfd2ZBTjBncHJNMlZrNDJCZlR2Mk9tZHU3M1Fuem1uUzQtbWNOekhpSFhUcEJHME5KMjBIdzY3M3ViTHN2NWtXbDdMOE9mWUVzckNBSW81dHA4bG52UlJGSjVGRTY3YjdHTGQ1WGJjaEhiQVppZmEyYkU4UjF2RHNoYzBaWEdRbDJlNzczZFVLa0VpTTk2ZUZNRzVWcUg2SU52d21XYjVHMFBKVlJQanBQU0hlbFlxbHFlMEt2ejA4ZEh6cDU1U0RwZUxGS0VncnZsTGt2Sk54Tlcza1FPNVJReFFQVDRSV05fRXBsNGFCRjJhNVpkSWNIT19xWVF5TUFJRVRfdmtIXzV3LUFFWFhUOHA5cHlfbE9BaWpZOXdQb3JiRDB3R25jNS14M3lMNFBEeUk4MFdodXVpR18xZzduQ1ZfbEh2cUxZRGZHemVsdTVlRVJlMzItOFpxRUJKM0ZSTkh6Yl9MYnhCZDFOcWUybG1oaC1ENjlCOGpGYVhodzg?oc=5",
+          "date": "Wed, 24 Jun 2026",
+          "source": "Yahoo 財經"
+         },
+         {
+          "title": "Q4雖看小修正，錩新今年EPS創4年高應無懸念- 新聞 - MoneyDJ",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNakxkY2V5ZUozOVI1d25EQkV1QV9QbVFmamRRVHp1LXRiZlNJcEtDQkEwX3k5bWxzdEhhTVFFbzMtb2JFa0tHbFJkVlp6SHFmZHVwbXFlSmxSNEtDcEpFWmtCNVdYeUdKOXpWWkRYbnpBaXdVVC16bWFRQ1RleUtKY0NJRGlnNjJGM2VmSnFuUnUyUQ?oc=5",
+          "date": "Fri, 14 Nov 2025",
+          "source": "MoneyDJ"
+         }
+        ],
+        "model": "gemini-flash-latest",
+        "judged_at": "2026-07-03 10:56"
+       }
       },
       {
        "key": "8",
@@ -4150,10 +4300,85 @@
        "starred": true
       }
      ],
-     "score": 83,
-     "verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
+     "score": 79,
+     "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
     },
-    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
+    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量",
+    "ai7": {
+     "grade": "T",
+     "one_line": "現有證據無法證實新切入的AI組件能為過去成長不穩定的公司帶來具體且持續的獲利貢獻。",
+     "analysis": "雖然公司近期營收與獲利呈現高成長，且新聞指出公司已切入AI組件並出貨，但歷史數據顯示其近9年成長年份僅占50%，成長極不穩定。現有新聞僅提及『切入AI組件並已出貨』與『看旺市場需求將續投資越南擴產』，缺乏AI組件的營收佔比、毛利表現及未來訂單能見度等關鍵數據。在缺乏具體結構性獲利貢獻證據的情況下，無法評估其未來獲利能否穩健成長。",
+     "risks": [
+      "歷史營運波動大，成長年份僅占五成，獲利缺乏穩定性。",
+      "新開發的AI組件與其他產業應用之實際營收貢獻與獲利能力尚不明確。"
+     ],
+     "sources": [
+      {
+       "title": "錩新Q1獲利年增42% EPS0.35元 看旺市場需求將續投資越南擴產 - news.cnyes.com",
+       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBfams0UEktYnMzYTlXZUZkZXBRZlNzb29DNjNqNVZRaDdUbWRiWlA5Y3ZVeS13cUJya2x0N2RMb1ZRX2puSmI1bG9wM19JQVE?oc=5",
+       "date": "Wed, 13 May 2026",
+       "source": "news.cnyes.com"
+      },
+      {
+       "title": "〈焦點股〉錩新切入AI組件並已出貨 股價開高攻漲停價量齊走高 - Yahoo 財經",
+       "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxPUW1KS3daUmZUVFZNNzZfd2ZBTjBncHJNMlZrNDJCZlR2Mk9tZHU3M1Fuem1uUzQtbWNOekhpSFhUcEJHME5KMjBIdzY3M3ViTHN2NWtXbDdMOE9mWUVzckNBSW81dHA4bG52UlJGSjVGRTY3YjdHTGQ1WGJjaEhiQVppZmEyYkU4UjF2RHNoYzBaWEdRbDJlNzczZFVLa0VpTTk2ZUZNRzVWcUg2SU52d21XYjVHMFBKVlJQanBQU0hlbFlxbHFlMEt2ejA4ZEh6cDU1U0RwZUxGS0VncnZsTGt2Sk54Tlcza1FPNVJReFFQVDRSV05fRXBsNGFCRjJhNVpkSWNIT19xWVF5TUFJRVRfdmtIXzV3LUFFWFhUOHA5cHlfbE9BaWpZOXdQb3JiRDB3R25jNS14M3lMNFBEeUk4MFdodXVpR18xZzduQ1ZfbEh2cUxZRGZHemVsdTVlRVJlMzItOFpxRUJKM0ZSTkh6Yl9MYnhCZDFOcWUybG1oaC1ENjlCOGpGYVhodzg?oc=5",
+       "date": "Wed, 24 Jun 2026",
+       "source": "Yahoo 財經"
+      }
+     ],
+     "all_news": [
+      {
+       "title": "【2026/06月營收公告】錩新(2415) 六月營收2.12億元，表現亮眼、呈現雙成長，年增9.2%-CMoney 小編 - CMoney投資網誌",
+       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZmJtd2NHVVY0LXNCU0diM05sb21MdmtLekVENnE3MjNOcVd3UzRRb0p2dEsyaklIdnlhaXJfVk5Zd0p2OXhQc2JPYUVwb2ZaMmJFa0ZDT3p6X2tIcjZsUlpmTFlIMjZHTU9MQjVhcTJSTUN6a3Z6UlYtNzlXczZMeDN0WC1BbHhkOUE?oc=5",
+       "date": "Fri, 03 Jul 2026",
+       "source": "CMoney投資網誌"
+      },
+      {
+       "title": "營收：錩新(2415)6月營收2億1196萬元，月增率10.27%，年增率9.20% - 富聯網",
+       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVEZWS2RDTDhrNWpPTFR5eWlJSVluUm1MTWlxNFhVRXRrUURHUHRUTVNtX29Tdkd3eE1DblR1eFZkdE0xNTlqZEctQUh0YmJXN0J6aHVoZ0VNZUJpc2Z3Rjh6SWduZ1JuSl9zZlh4RDdvOE8wVklBRVBvcDFsWkZISkRmeWFuNDFP?oc=5",
+       "date": "Fri, 03 Jul 2026",
+       "source": "富聯網"
+      },
+      {
+       "title": "錩新Q1獲利年增42% EPS0.35元 看旺市場需求將續投資越南擴產 - news.cnyes.com",
+       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBfams0UEktYnMzYTlXZUZkZXBRZlNzb29DNjNqNVZRaDdUbWRiWlA5Y3ZVeS13cUJya2x0N2RMb1ZRX2puSmI1bG9wM19JQVE?oc=5",
+       "date": "Wed, 13 May 2026",
+       "source": "news.cnyes.com"
+      },
+      {
+       "title": "錩新將維持車用揚聲器領先，並積極開發其他產業 - 台視全球資訊網",
+       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQa0dDU2dUQ2o4Y0V5dFVqMk4tRTZpQXkxckZZN1F6bWM5UU55TVpSemlyWUo1RjZEVllVNmttUHlDTERHMk4xaUdqWUhqalp5bTR6N1RKblQ2VVlZdjVTSmpsRHVLNkZRUGY0Y1M5M2ZJNkFzZ2lMN2ItQjZreUZWZnJvUElVM3FaWmpqdUxCZ2w4dw?oc=5",
+       "date": "Mon, 29 Jun 2026",
+       "source": "台視全球資訊網"
+      },
+      {
+       "title": "《業績-電零組》錩新6月營收為2.12億元，年增9.20% - 富聯網",
+       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT1Fyc1ZmQ3dmZzFqM2xTOS1iT01ULXlSRlc3MWx0Wll0SHdfU2xkczJZS0g2eWFTX3psSDhSTTFaODVVbUJncWI5MTYxWl9nLWprVGV6MFF3dHN1aENHMzFWRWwwaHVNRDRKd0Y5VzN6UkdOdzdGVEo4NXFDUkUxa0V5MzV3QnhJ?oc=5",
+       "date": "Fri, 03 Jul 2026",
+       "source": "富聯網"
+      },
+      {
+       "title": "【法說會備忘錄】錩新 20250725 - 富果直送",
+       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5OMTRrX0tFMEhYNlVWaVRuZnJyekk0UmdCNFJkTmozUG5RSmJRbzk3R2NveVVVdnB4UzFxNEU4cTBGME1zT19EQmQ1LVE0bkdSNVBMRm4wWmlURXNCcWVLZ1R1RnZSeEU?oc=5",
+       "date": "Mon, 28 Jul 2025",
+       "source": "富果直送"
+      },
+      {
+       "title": "〈焦點股〉錩新切入AI組件並已出貨 股價開高攻漲停價量齊走高 - Yahoo 財經",
+       "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxPUW1KS3daUmZUVFZNNzZfd2ZBTjBncHJNMlZrNDJCZlR2Mk9tZHU3M1Fuem1uUzQtbWNOekhpSFhUcEJHME5KMjBIdzY3M3ViTHN2NWtXbDdMOE9mWUVzckNBSW81dHA4bG52UlJGSjVGRTY3YjdHTGQ1WGJjaEhiQVppZmEyYkU4UjF2RHNoYzBaWEdRbDJlNzczZFVLa0VpTTk2ZUZNRzVWcUg2SU52d21XYjVHMFBKVlJQanBQU0hlbFlxbHFlMEt2ejA4ZEh6cDU1U0RwZUxGS0VncnZsTGt2Sk54Tlcza1FPNVJReFFQVDRSV05fRXBsNGFCRjJhNVpkSWNIT19xWVF5TUFJRVRfdmtIXzV3LUFFWFhUOHA5cHlfbE9BaWpZOXdQb3JiRDB3R25jNS14M3lMNFBEeUk4MFdodXVpR18xZzduQ1ZfbEh2cUxZRGZHemVsdTVlRVJlMzItOFpxRUJKM0ZSTkh6Yl9MYnhCZDFOcWUybG1oaC1ENjlCOGpGYVhodzg?oc=5",
+       "date": "Wed, 24 Jun 2026",
+       "source": "Yahoo 財經"
+      },
+      {
+       "title": "Q4雖看小修正，錩新今年EPS創4年高應無懸念- 新聞 - MoneyDJ",
+       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNakxkY2V5ZUozOVI1d25EQkV1QV9QbVFmamRRVHp1LXRiZlNJcEtDQkEwX3k5bWxzdEhhTVFFbzMtb2JFa0tHbFJkVlp6SHFmZHVwbXFlSmxSNEtDcEpFWmtCNVdYeUdKOXpWWkRYbnpBaXdVVC16bWFRQ1RleUtKY0NJRGlnNjJGM2VmSnFuUnUyUQ?oc=5",
+       "date": "Fri, 14 Nov 2025",
+       "source": "MoneyDJ"
+      }
+     ],
+     "model": "gemini-flash-latest",
+     "judged_at": "2026-07-03 10:56"
+    }
    },
    {
     "ticker": "6509.TWO",
@@ -4215,10 +4440,100 @@
       {
        "key": "7",
        "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
+       "grade": "T",
+       "symbol": "△",
+       "detail": "AI 判斷（僅供參考，請複核依據）：現有證據僅提及生物緩衝劑長線成長題材與擬建新廠，但缺乏新廠產能時程及該業務具體營收佔比等關鍵數據，無法確信未來獲利能穩健成長。",
+       "starred": true,
+       "ai": {
+        "grade": "T",
+        "one_line": "現有證據僅提及生物緩衝劑長線成長題材與擬建新廠，但缺乏新廠產能時程及該業務具體營收佔比等關鍵數據，無法確信未來獲利能穩健成長。",
+        "analysis": "雖然新聞指出公司受惠於生物緩衝劑長線成長題材，且精密化學部營收有所增長，並有屏東擴建新廠的計畫。然而，現有資訊並未揭露生物緩衝劑佔整體營收的具體比重，亦無新廠預計投產時間與產能貢獻等量化數據。此外，近期營收仍有波動，如25Q4營收連3季衰退及26年5月營收雙減，在缺乏具體結構性成長數據支持下，無法斷定未來獲利能穩健成長。",
+        "risks": "1. 擴廠進度延宕或產能開出後市場需求不如預期。2. 短期營收波動大，精密化學以外之部門（如造紙化學、文具）可能拖累整體成長。",
+        "sources": [
+         {
+          "title": "6509 聚和 - 聚和Q1 表現亮眼，受惠於精密化學部營收年增 17.7%，獲... - 股市爆料同學會 - CMoney",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53TFdZaHBKYUVwcmlfcTJhdF9VUm9BMEdLakFicnpnNm1VSGtfZmtmUWlPMFkxT25VOW1HcTRaSC1HR1pkRkZqS0ZVVEdYQm9XOVp5cHhtVmk?oc=5",
+          "date": "Thu, 14 May 2026",
+          "source": "CMoney"
+         },
+         {
+          "title": "【2026/05月營收公告】聚和(6509) 五月營收4.06億元，營收雙減，年減5.43%-CMoney 小編 - CMoney投資網誌",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQemFVblVIM0RnMkFxYmFWN0dJV1R3ZHBOWGxSTTRwaWlMNDBvTWpGMzBqUWRuekVyajZCVTRST1lFX01RZEppLXgyWUVtemczOGY4TkxFT3lValE0VGZGdmhEdTFaOWpwU01tamRHTGVINWFXY3FsRGFrczlsS1MwTWYyRVVoU1pMNHc?oc=5",
+          "date": "Wed, 10 Jun 2026",
+          "source": "CMoney投資網誌"
+         },
+         {
+          "title": "聚和擬屏東擴建新廠 - 經濟日報",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9JUWVkMkFVRVF1Z0haZHl5SmZkdXVacGFrQ0NpcV8xT1d2MUNLc0JaakxDNDlOZ3paenBTOXMzSnZCdGpjdjY5dnhVZXVaNldIRkx1MUU1S0QyUkHSAWBBVV95cUxNWjFKb3Q5cDl4NTJBYzVrZ2NNNEhTeVBjdlZYTDk4R0w4R3loaHY2QkZEYXF3THJ5bmh4Z0tENGNYWG5IRENqWVhWZlRHZHo2NWpSRFFtT2p5X0plNzlvcVQ?oc=5",
+          "date": "Fri, 28 Nov 2025",
+          "source": "經濟日報"
+         },
+         {
+          "title": "【13:23 即時新聞】聚和(6509)股價上漲逾6%，受惠生物緩衝劑長線成長題材帶動，搭配月營收穩健與評價偏低激勵買盤回補 - CMoney投資網誌",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONmNidFVZME91MlhSVUhRdnM2N1EzcTFMWE9DZS1SZG5GUGRCaUo5MG9mOXZIcDlNOVFRYTB6SmlrS0JLb1BqQVE2aDh0S1lxSVZzNWtNOGVZZ0xmeWlVbXl4M3pwU3lKSnY0c0hPOEVicHBGYjFNSlhRUE56QlFZUkxuWms3Wl85MVNXQmZ3?oc=5",
+          "date": "Tue, 12 May 2026",
+          "source": "CMoney投資網誌"
+         },
+         {
+          "title": "【25Q4財報公告】聚和(6509) Q4 營收10.9304億元，連3季衰退，季減 8.33％、年衰退 2.47％ - CMoney",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14djZaQXZoYnhtVjRnZDd4S00ybDFuZXBMRUZIWjQ1UjJDWEpwUWkxN1c1Y0JoMjRrcDBSM1NkQ3JhcHdfeGJxT1Q0N0pRZzQyeEhtbklqRFlJNVJZQWhKbzh1bDdQOEE?oc=5",
+          "date": "Fri, 27 Mar 2026",
+          "source": "CMoney"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "6509 聚和 - 聚和Q1 表現亮眼，受惠於精密化學部營收年增 17.7%，獲... - 股市爆料同學會 - CMoney",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53TFdZaHBKYUVwcmlfcTJhdF9VUm9BMEdLakFicnpnNm1VSGtfZmtmUWlPMFkxT25VOW1HcTRaSC1HR1pkRkZqS0ZVVEdYQm9XOVp5cHhtVmk?oc=5",
+          "date": "Thu, 14 May 2026",
+          "source": "CMoney"
+         },
+         {
+          "title": "【2026/05月營收公告】聚和(6509) 五月營收4.06億元，營收雙減，年減5.43%-CMoney 小編 - CMoney投資網誌",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQemFVblVIM0RnMkFxYmFWN0dJV1R3ZHBOWGxSTTRwaWlMNDBvTWpGMzBqUWRuekVyajZCVTRST1lFX01RZEppLXgyWUVtemczOGY4TkxFT3lValE0VGZGdmhEdTFaOWpwU01tamRHTGVINWFXY3FsRGFrczlsS1MwTWYyRVVoU1pMNHc?oc=5",
+          "date": "Wed, 10 Jun 2026",
+          "source": "CMoney投資網誌"
+         },
+         {
+          "title": "聚和擬屏東擴建新廠 - 經濟日報",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9JUWVkMkFVRVF1Z0haZHl5SmZkdXVacGFrQ0NpcV8xT1d2MUNLc0JaakxDNDlOZ3paenBTOXMzSnZCdGpjdjY5dnhVZXVaNldIRkx1MUU1S0QyUkHSAWBBVV95cUxNWjFKb3Q5cDl4NTJBYzVrZ2NNNEhTeVBjdlZYTDk4R0w4R3loaHY2QkZEYXF3THJ5bmh4Z0tENGNYWG5IRENqWVhWZlRHZHo2NWpSRFFtT2p5X0plNzlvcVQ?oc=5",
+          "date": "Fri, 28 Nov 2025",
+          "source": "經濟日報"
+         },
+         {
+          "title": "熱門股－聚和 營收股價雙喜 - 中時新聞網",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13T296eDMyNFdwZkhFc1RzbmxmeVJxYWZZcUczbVJpQzA2MXVoVl9uWE9uRV9JelBYa01CdDdteUN1cVNPUDM4ZjNzNXRORXdoU1NGcEdmbUdBS01WQk9iRVdYLThaZ1BJak1z?oc=5",
+          "date": "Thu, 12 Feb 2026",
+          "source": "中時新聞網"
+         },
+         {
+          "title": "6509 聚和- 弱勢是因為第一季獲利不好嗎?-股市爆料同學會 - CMoney",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKMWFtQmhPNzNnYlhfRkJLRURhbFJYTDVSMGVMRHEtYUFGWUdUSUJTRXBYeHhSYlBCaXllMHRlcjVXbzVnNEhkRlJUcDlydEZleVhfc3E0dEk?oc=5",
+          "date": "Wed, 29 Apr 2026",
+          "source": "CMoney"
+         },
+         {
+          "title": "【13:23 即時新聞】聚和(6509)股價上漲逾6%，受惠生物緩衝劑長線成長題材帶動，搭配月營收穩健與評價偏低激勵買盤回補 - CMoney投資網誌",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONmNidFVZME91MlhSVUhRdnM2N1EzcTFMWE9DZS1SZG5GUGRCaUo5MG9mOXZIcDlNOVFRYTB6SmlrS0JLb1BqQVE2aDh0S1lxSVZzNWtNOGVZZ0xmeWlVbXl4M3pwU3lKSnY0c0hPOEVicHBGYjFNSlhRUE56QlFZUkxuWms3Wl85MVNXQmZ3?oc=5",
+          "date": "Tue, 12 May 2026",
+          "source": "CMoney投資網誌"
+         },
+         {
+          "title": "【25Q4財報公告】聚和(6509) Q4 營收10.9304億元，連3季衰退，季減 8.33％、年衰退 2.47％ - CMoney",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14djZaQXZoYnhtVjRnZDd4S00ybDFuZXBMRUZIWjQ1UjJDWEpwUWkxN1c1Y0JoMjRrcDBSM1NkQ3JhcHdfeGJxT1Q0N0pRZzQyeEhtbklqRFlJNVJZQWhKbzh1bDdQOEE?oc=5",
+          "date": "Fri, 27 Mar 2026",
+          "source": "CMoney"
+         },
+         {
+          "title": "【26Q1財報公告】聚和(6509) Q1 營收13.8064億元，季增 26.31%、年成長 5.34%-CMoney 小編 - CMoney投資網誌",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaUFVcnY3ZzlLVUtTVUhpNkM5QW5ORU9YR0tFd0FsQnVjaUpCeVgwYTJBcHY0WHkxQmVIeVNtR3pCQTNEcTBVYk8wVXVMQnUzRFNUcUktVUlVY0lwSVNHSDg1SnNzWWdjSDRoVDVJTk5EZVVSZFdRTURLemdqTzBvR2dobzdHRi1OZHc?oc=5",
+          "date": "Fri, 15 May 2026",
+          "source": "CMoney投資網誌"
+         }
+        ],
+        "model": "gemini-flash-latest",
+        "judged_at": "2026-07-03 10:56"
+       }
       },
       {
        "key": "8",
@@ -4237,10 +4552,100 @@
        "starred": true
       }
      ],
-     "score": 83,
-     "verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
+     "score": 79,
+     "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
     },
-    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
+    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量",
+    "ai7": {
+     "grade": "T",
+     "one_line": "現有證據僅提及生物緩衝劑長線成長題材與擬建新廠，但缺乏新廠產能時程及該業務具體營收佔比等關鍵數據，無法確信未來獲利能穩健成長。",
+     "analysis": "雖然新聞指出公司受惠於生物緩衝劑長線成長題材，且精密化學部營收有所增長，並有屏東擴建新廠的計畫。然而，現有資訊並未揭露生物緩衝劑佔整體營收的具體比重，亦無新廠預計投產時間與產能貢獻等量化數據。此外，近期營收仍有波動，如25Q4營收連3季衰退及26年5月營收雙減，在缺乏具體結構性成長數據支持下，無法斷定未來獲利能穩健成長。",
+     "risks": "1. 擴廠進度延宕或產能開出後市場需求不如預期。2. 短期營收波動大，精密化學以外之部門（如造紙化學、文具）可能拖累整體成長。",
+     "sources": [
+      {
+       "title": "6509 聚和 - 聚和Q1 表現亮眼，受惠於精密化學部營收年增 17.7%，獲... - 股市爆料同學會 - CMoney",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53TFdZaHBKYUVwcmlfcTJhdF9VUm9BMEdLakFicnpnNm1VSGtfZmtmUWlPMFkxT25VOW1HcTRaSC1HR1pkRkZqS0ZVVEdYQm9XOVp5cHhtVmk?oc=5",
+       "date": "Thu, 14 May 2026",
+       "source": "CMoney"
+      },
+      {
+       "title": "【2026/05月營收公告】聚和(6509) 五月營收4.06億元，營收雙減，年減5.43%-CMoney 小編 - CMoney投資網誌",
+       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQemFVblVIM0RnMkFxYmFWN0dJV1R3ZHBOWGxSTTRwaWlMNDBvTWpGMzBqUWRuekVyajZCVTRST1lFX01RZEppLXgyWUVtemczOGY4TkxFT3lValE0VGZGdmhEdTFaOWpwU01tamRHTGVINWFXY3FsRGFrczlsS1MwTWYyRVVoU1pMNHc?oc=5",
+       "date": "Wed, 10 Jun 2026",
+       "source": "CMoney投資網誌"
+      },
+      {
+       "title": "聚和擬屏東擴建新廠 - 經濟日報",
+       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9JUWVkMkFVRVF1Z0haZHl5SmZkdXVacGFrQ0NpcV8xT1d2MUNLc0JaakxDNDlOZ3paenBTOXMzSnZCdGpjdjY5dnhVZXVaNldIRkx1MUU1S0QyUkHSAWBBVV95cUxNWjFKb3Q5cDl4NTJBYzVrZ2NNNEhTeVBjdlZYTDk4R0w4R3loaHY2QkZEYXF3THJ5bmh4Z0tENGNYWG5IRENqWVhWZlRHZHo2NWpSRFFtT2p5X0plNzlvcVQ?oc=5",
+       "date": "Fri, 28 Nov 2025",
+       "source": "經濟日報"
+      },
+      {
+       "title": "【13:23 即時新聞】聚和(6509)股價上漲逾6%，受惠生物緩衝劑長線成長題材帶動，搭配月營收穩健與評價偏低激勵買盤回補 - CMoney投資網誌",
+       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONmNidFVZME91MlhSVUhRdnM2N1EzcTFMWE9DZS1SZG5GUGRCaUo5MG9mOXZIcDlNOVFRYTB6SmlrS0JLb1BqQVE2aDh0S1lxSVZzNWtNOGVZZ0xmeWlVbXl4M3pwU3lKSnY0c0hPOEVicHBGYjFNSlhRUE56QlFZUkxuWms3Wl85MVNXQmZ3?oc=5",
+       "date": "Tue, 12 May 2026",
+       "source": "CMoney投資網誌"
+      },
+      {
+       "title": "【25Q4財報公告】聚和(6509) Q4 營收10.9304億元，連3季衰退，季減 8.33％、年衰退 2.47％ - CMoney",
+       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14djZaQXZoYnhtVjRnZDd4S00ybDFuZXBMRUZIWjQ1UjJDWEpwUWkxN1c1Y0JoMjRrcDBSM1NkQ3JhcHdfeGJxT1Q0N0pRZzQyeEhtbklqRFlJNVJZQWhKbzh1bDdQOEE?oc=5",
+       "date": "Fri, 27 Mar 2026",
+       "source": "CMoney"
+      }
+     ],
+     "all_news": [
+      {
+       "title": "6509 聚和 - 聚和Q1 表現亮眼，受惠於精密化學部營收年增 17.7%，獲... - 股市爆料同學會 - CMoney",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53TFdZaHBKYUVwcmlfcTJhdF9VUm9BMEdLakFicnpnNm1VSGtfZmtmUWlPMFkxT25VOW1HcTRaSC1HR1pkRkZqS0ZVVEdYQm9XOVp5cHhtVmk?oc=5",
+       "date": "Thu, 14 May 2026",
+       "source": "CMoney"
+      },
+      {
+       "title": "【2026/05月營收公告】聚和(6509) 五月營收4.06億元，營收雙減，年減5.43%-CMoney 小編 - CMoney投資網誌",
+       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQemFVblVIM0RnMkFxYmFWN0dJV1R3ZHBOWGxSTTRwaWlMNDBvTWpGMzBqUWRuekVyajZCVTRST1lFX01RZEppLXgyWUVtemczOGY4TkxFT3lValE0VGZGdmhEdTFaOWpwU01tamRHTGVINWFXY3FsRGFrczlsS1MwTWYyRVVoU1pMNHc?oc=5",
+       "date": "Wed, 10 Jun 2026",
+       "source": "CMoney投資網誌"
+      },
+      {
+       "title": "聚和擬屏東擴建新廠 - 經濟日報",
+       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9JUWVkMkFVRVF1Z0haZHl5SmZkdXVacGFrQ0NpcV8xT1d2MUNLc0JaakxDNDlOZ3paenBTOXMzSnZCdGpjdjY5dnhVZXVaNldIRkx1MUU1S0QyUkHSAWBBVV95cUxNWjFKb3Q5cDl4NTJBYzVrZ2NNNEhTeVBjdlZYTDk4R0w4R3loaHY2QkZEYXF3THJ5bmh4Z0tENGNYWG5IRENqWVhWZlRHZHo2NWpSRFFtT2p5X0plNzlvcVQ?oc=5",
+       "date": "Fri, 28 Nov 2025",
+       "source": "經濟日報"
+      },
+      {
+       "title": "熱門股－聚和 營收股價雙喜 - 中時新聞網",
+       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13T296eDMyNFdwZkhFc1RzbmxmeVJxYWZZcUczbVJpQzA2MXVoVl9uWE9uRV9JelBYa01CdDdteUN1cVNPUDM4ZjNzNXRORXdoU1NGcEdmbUdBS01WQk9iRVdYLThaZ1BJak1z?oc=5",
+       "date": "Thu, 12 Feb 2026",
+       "source": "中時新聞網"
+      },
+      {
+       "title": "6509 聚和- 弱勢是因為第一季獲利不好嗎?-股市爆料同學會 - CMoney",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKMWFtQmhPNzNnYlhfRkJLRURhbFJYTDVSMGVMRHEtYUFGWUdUSUJTRXBYeHhSYlBCaXllMHRlcjVXbzVnNEhkRlJUcDlydEZleVhfc3E0dEk?oc=5",
+       "date": "Wed, 29 Apr 2026",
+       "source": "CMoney"
+      },
+      {
+       "title": "【13:23 即時新聞】聚和(6509)股價上漲逾6%，受惠生物緩衝劑長線成長題材帶動，搭配月營收穩健與評價偏低激勵買盤回補 - CMoney投資網誌",
+       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONmNidFVZME91MlhSVUhRdnM2N1EzcTFMWE9DZS1SZG5GUGRCaUo5MG9mOXZIcDlNOVFRYTB6SmlrS0JLb1BqQVE2aDh0S1lxSVZzNWtNOGVZZ0xmeWlVbXl4M3pwU3lKSnY0c0hPOEVicHBGYjFNSlhRUE56QlFZUkxuWms3Wl85MVNXQmZ3?oc=5",
+       "date": "Tue, 12 May 2026",
+       "source": "CMoney投資網誌"
+      },
+      {
+       "title": "【25Q4財報公告】聚和(6509) Q4 營收10.9304億元，連3季衰退，季減 8.33％、年衰退 2.47％ - CMoney",
+       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14djZaQXZoYnhtVjRnZDd4S00ybDFuZXBMRUZIWjQ1UjJDWEpwUWkxN1c1Y0JoMjRrcDBSM1NkQ3JhcHdfeGJxT1Q0N0pRZzQyeEhtbklqRFlJNVJZQWhKbzh1bDdQOEE?oc=5",
+       "date": "Fri, 27 Mar 2026",
+       "source": "CMoney"
+      },
+      {
+       "title": "【26Q1財報公告】聚和(6509) Q1 營收13.8064億元，季增 26.31%、年成長 5.34%-CMoney 小編 - CMoney投資網誌",
+       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaUFVcnY3ZzlLVUtTVUhpNkM5QW5ORU9YR0tFd0FsQnVjaUpCeVgwYTJBcHY0WHkxQmVIeVNtR3pCQTNEcTBVYk8wVXVMQnUzRFNUcUktVUlVY0lwSVNHSDg1SnNzWWdjSDRoVDVJTk5EZVVSZFdRTURLemdqTzBvR2dobzdHRi1OZHc?oc=5",
+       "date": "Fri, 15 May 2026",
+       "source": "CMoney投資網誌"
+      }
+     ],
+     "model": "gemini-flash-latest",
+     "judged_at": "2026-07-03 10:56"
+    }
    },
    {
     "ticker": "4207.TWO",
@@ -4302,10 +4707,97 @@
       {
        "key": "7",
        "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
+       "grade": "T",
+       "symbol": "△",
+       "detail": "AI 判斷（僅供參考，請複核依據）：因缺乏泰國新廠與開發案的具體獲利貢獻數據，且歷史成長率與近期營收波動大，無法確認未來能否穩健成長。",
+       "starred": true,
+       "ai": {
+        "grade": "T",
+        "one_line": "因缺乏泰國新廠與開發案的具體獲利貢獻數據，且歷史成長率與近期營收波動大，無法確認未來能否穩健成長。",
+        "analysis": "環泰雖有泰國三廠完工及土地開發等結構性轉變，但現有證據未提供這些項目對營收與獲利的具體預估貢獻。同時，公司近9年成長年份僅占50%，近期季營收年增率亦在-11%至3%之間劇烈波動，顯示成長並不穩定。此外，新聞提及營運增長部分源於「產業景氣穩」之景氣因素，在缺乏確鑿的結構性獲利數據下，無法判定其未來能否穩健成長。",
+        "risks": [
+         "新產能與土地開發案的實際獲利貢獻進度與效益不明。",
+         "歷史成長不穩定，且營運易受產業景氣波動影響。"
+        ],
+        "sources": [
+         {
+          "title": "環泰泰國開發案 添利多 - 經濟日報",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9rODQ1UENaanhhS2N4UGstT3AwSjJHc21CVXQ2SXZ6cE45RUN2aVE2cW56YnZtTURJbldSSW9WT3Y3cy1iNXQtM21LcTVtbDJuSTlWcGg4eGtKNnPSAWBBVV95cUxPb2lwWFdfVXZ6Yjd1TmEyS2FGcXFmTDRpWWs1RldnU1lOX1hsTm5NcTRiTmo1azZDY2syMmtJWUl2VGs0UU96Z0ZaNTdMQzg2OEFEMjcxZzltbEgzZTZjRno?oc=5",
+          "date": "Tue, 25 Nov 2025",
+          "source": "經濟日報"
+         },
+         {
+          "title": "環泰：產業景氣穩H2營運續增- 日報 - 工商時報",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82Z21tNGxyVXFVbm4wcjBpMkxuSzlqWTFaNndvamVvRlJHNHBKR09jNl9iWTkzSVdhb19RX1pvSGI5UXF6aGVTSUhFSDRGdzRmd1prY0pYR19BVG9mLWE0?oc=5",
+          "date": "Mon, 18 Aug 2025",
+          "source": "工商時報"
+         },
+         {
+          "title": "環泰開發泰國土地 動了 - UDN",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8tMExUSV9pZFcyc2dHNUxPTDVBbXlUc3dIbzlNc2JraUwyTTJwOFFjc3JNdElFenpWQWcxOHoxam83N0tMQjlJaG5nZHNjWUdv0gFWQVVfeXFMTWRTSkJldDl2WTdKOU90Rnk0QzA4YWtseUtFY0hRd0plZTBhNnhCYWVjdWViSEUwYi05UzJzYXY2SmE5eUNwcUo2NUY3dDhoeExqQWw0R2c?oc=5",
+          "date": "Mon, 18 Aug 2025",
+          "source": "UDN"
+         },
+         {
+          "title": "泰國三廠明年完工，環泰續發展機能性/保健食品| MoneyDJ理財網 - LINE TODAY",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SbjdHd29xVXl5MkRYQldzWXZPTFVRclJUY2tPTGw5THVpMEFmWlJ6ZkZ3QmRQSGwxQndMLXkxS1drMVlQUlFqTDVTdWtsbHV1YWdXZEl3?oc=5",
+          "date": "Wed, 27 Nov 2024",
+          "source": "LINE TODAY"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "【2026/05月營收公告】環泰(4207) 五月營收4.78億元，年增5.63%-CMoney 小編 - CMoney投資網誌",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcl94TzMySzBxbUdyWXFvU2pKdnk2NEYxSWtqZWhPOVdfMXZXUDhxdm9wd3ZyaWhrY1VwZnN0NFZTTkg0LWtBNC1uRkJPR0swVGZ0UlBPa3pyQU93ODJyaFVpN3NlVF9URzVVSTFaZHl2S0hlUnlPQUV2QURmU1ZrZmZtQ3VXV0loYVE?oc=5",
+          "date": "Mon, 08 Jun 2026",
+          "source": "CMoney投資網誌"
+         },
+         {
+          "title": "環泰泰國開發案 添利多 - 經濟日報",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9rODQ1UENaanhhS2N4UGstT3AwSjJHc21CVXQ2SXZ6cE45RUN2aVE2cW56YnZtTURJbldSSW9WT3Y3cy1iNXQtM21LcTVtbDJuSTlWcGg4eGtKNnPSAWBBVV95cUxPb2lwWFdfVXZ6Yjd1TmEyS2FGcXFmTDRpWWs1RldnU1lOX1hsTm5NcTRiTmo1azZDY2syMmtJWUl2VGs0UU96Z0ZaNTdMQzg2OEFEMjcxZzltbEgzZTZjRno?oc=5",
+          "date": "Tue, 25 Nov 2025",
+          "source": "經濟日報"
+         },
+         {
+          "title": "《業績-食品》環泰5月營收為4.78億元，年增5.63% - 富聯網",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdXV6b3RtNHMyOC1MbnN4SWVXUnVIX0Vfc0FEejFLZG0xN2xGSE40bkRvbFhuZ3lnQXFERWI4VjlPLWZPV2hFX21jak9JQXJ6VmFITnhfb1hLeU1zWTI2Y01IVjZJaHd3NjVOTWJHSmRkaUNjeWZHMkZjVFl5S2M1aElpenQ0Mk9xazlEdmsydw?oc=5",
+          "date": "Sat, 06 Jun 2026",
+          "source": "富聯網"
+         },
+         {
+          "title": "環泰：產業景氣穩H2營運續增- 日報 - 工商時報",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82Z21tNGxyVXFVbm4wcjBpMkxuSzlqWTFaNndvamVvRlJHNHBKR09jNl9iWTkzSVdhb19RX1pvSGI5UXF6aGVTSUhFSDRGdzRmd1prY0pYR19BVG9mLWE0?oc=5",
+          "date": "Mon, 18 Aug 2025",
+          "source": "工商時報"
+         },
+         {
+          "title": "【2026/01月營收公告】環泰(4207) 一月營收4.95億元，表現亮眼、呈現雙成長，創近20個月以來新高，年增17.24% - CMoney投資網誌",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNEhUSy1xU0hoc0YtUzdSdndtblFoMTRwRWtVWlVYYnl6OTBJdzg3ZTNWcXgwTmVNbVJ6THhsQnprX256LVRCby1idU81WHd2aWgzM18zMEZiRUl5NlBlRmlLakNVb2FrN0NURFJYdGl6UGUzaExPd2k5bnNza285RDVwUGhlV0stRUE?oc=5",
+          "date": "Fri, 06 Feb 2026",
+          "source": "CMoney投資網誌"
+         },
+         {
+          "title": "環泰開發泰國土地 動了 - UDN",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8tMExUSV9pZFcyc2dHNUxPTDVBbXlUc3dIbzlNc2JraUwyTTJwOFFjc3JNdElFenpWQWcxOHoxam83N0tMQjlJaG5nZHNjWUdv0gFWQVVfeXFMTWRTSkJldDl2WTdKOU90Rnk0QzA4YWtseUtFY0hRd0plZTBhNnhCYWVjdWViSEUwYi05UzJzYXY2SmE5eUNwcUo2NUY3dDhoeExqQWw0R2c?oc=5",
+          "date": "Mon, 18 Aug 2025",
+          "source": "UDN"
+         },
+         {
+          "title": "泰國三廠明年完工，環泰續發展機能性/保健食品| MoneyDJ理財網 - LINE TODAY",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SbjdHd29xVXl5MkRYQldzWXZPTFVRclJUY2tPTGw5THVpMEFmWlJ6ZkZ3QmRQSGwxQndMLXkxS1drMVlQUlFqTDVTdWtsbHV1YWdXZEl3?oc=5",
+          "date": "Wed, 27 Nov 2024",
+          "source": "LINE TODAY"
+         },
+         {
+          "title": "環泰 11月營收4.77億元改寫下半年新高 全年營收將登頂 - Yahoo股市",
+          "link": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxObzVEalQyVGFVV29XLTNCLXA3V2gtZ0lkMWxJeTdkN2tNRkV3SzIyekF2STM4MDJsZEhyWGZpRTlpZlBjcGpUZHRTNW5jXzN3U0J2Z0FRN1A2S3BhR3UxNHNkUVB0Skk0bDlpM0k2bEFlYktlZ3dPUHZvTjkyaFBadEtXMDYwMVlKSTJ4Z19yeXcyemE1elBDbnBiMlVhSGtkTkM4NHppNlBhU0VNR2FRV0dCclVWaFEtZjNEVWxPUVlSamI5ZDdGZUpIWFJ2WGFEalJ2cjRsN3Z4dkZtQS1MRTgwc3hIRkExM01jay1KcTJOWGhONTlOV0d2a0RfZmhhNERBTy1BUDE1V2RlQ0dEMllqZ1FCdi0yN3lmeDZHSHBvX20zQTZDRW1Gb3FPTzJubEwtOVdLZXNrZy1fNnh0WXpCOFJDNnFDdTlIVUVUTDY1cko2dXVUMUNrYkN4Ql8wMXc?oc=5",
+          "date": "Wed, 06 Dec 2023",
+          "source": "Yahoo股市"
+         }
+        ],
+        "model": "gemini-flash-latest",
+        "judged_at": "2026-07-03 10:56"
+       }
       },
       {
        "key": "8",
@@ -4324,18 +4816,105 @@
        "starred": true
       }
      ],
-     "score": 79,
-     "verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
+     "score": 75,
+     "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
     },
-    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
+    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量",
+    "ai7": {
+     "grade": "T",
+     "one_line": "因缺乏泰國新廠與開發案的具體獲利貢獻數據，且歷史成長率與近期營收波動大，無法確認未來能否穩健成長。",
+     "analysis": "環泰雖有泰國三廠完工及土地開發等結構性轉變，但現有證據未提供這些項目對營收與獲利的具體預估貢獻。同時，公司近9年成長年份僅占50%，近期季營收年增率亦在-11%至3%之間劇烈波動，顯示成長並不穩定。此外，新聞提及營運增長部分源於「產業景氣穩」之景氣因素，在缺乏確鑿的結構性獲利數據下，無法判定其未來能否穩健成長。",
+     "risks": [
+      "新產能與土地開發案的實際獲利貢獻進度與效益不明。",
+      "歷史成長不穩定，且營運易受產業景氣波動影響。"
+     ],
+     "sources": [
+      {
+       "title": "環泰泰國開發案 添利多 - 經濟日報",
+       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9rODQ1UENaanhhS2N4UGstT3AwSjJHc21CVXQ2SXZ6cE45RUN2aVE2cW56YnZtTURJbldSSW9WT3Y3cy1iNXQtM21LcTVtbDJuSTlWcGg4eGtKNnPSAWBBVV95cUxPb2lwWFdfVXZ6Yjd1TmEyS2FGcXFmTDRpWWs1RldnU1lOX1hsTm5NcTRiTmo1azZDY2syMmtJWUl2VGs0UU96Z0ZaNTdMQzg2OEFEMjcxZzltbEgzZTZjRno?oc=5",
+       "date": "Tue, 25 Nov 2025",
+       "source": "經濟日報"
+      },
+      {
+       "title": "環泰：產業景氣穩H2營運續增- 日報 - 工商時報",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82Z21tNGxyVXFVbm4wcjBpMkxuSzlqWTFaNndvamVvRlJHNHBKR09jNl9iWTkzSVdhb19RX1pvSGI5UXF6aGVTSUhFSDRGdzRmd1prY0pYR19BVG9mLWE0?oc=5",
+       "date": "Mon, 18 Aug 2025",
+       "source": "工商時報"
+      },
+      {
+       "title": "環泰開發泰國土地 動了 - UDN",
+       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8tMExUSV9pZFcyc2dHNUxPTDVBbXlUc3dIbzlNc2JraUwyTTJwOFFjc3JNdElFenpWQWcxOHoxam83N0tMQjlJaG5nZHNjWUdv0gFWQVVfeXFMTWRTSkJldDl2WTdKOU90Rnk0QzA4YWtseUtFY0hRd0plZTBhNnhCYWVjdWViSEUwYi05UzJzYXY2SmE5eUNwcUo2NUY3dDhoeExqQWw0R2c?oc=5",
+       "date": "Mon, 18 Aug 2025",
+       "source": "UDN"
+      },
+      {
+       "title": "泰國三廠明年完工，環泰續發展機能性/保健食品| MoneyDJ理財網 - LINE TODAY",
+       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SbjdHd29xVXl5MkRYQldzWXZPTFVRclJUY2tPTGw5THVpMEFmWlJ6ZkZ3QmRQSGwxQndMLXkxS1drMVlQUlFqTDVTdWtsbHV1YWdXZEl3?oc=5",
+       "date": "Wed, 27 Nov 2024",
+       "source": "LINE TODAY"
+      }
+     ],
+     "all_news": [
+      {
+       "title": "【2026/05月營收公告】環泰(4207) 五月營收4.78億元，年增5.63%-CMoney 小編 - CMoney投資網誌",
+       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcl94TzMySzBxbUdyWXFvU2pKdnk2NEYxSWtqZWhPOVdfMXZXUDhxdm9wd3ZyaWhrY1VwZnN0NFZTTkg0LWtBNC1uRkJPR0swVGZ0UlBPa3pyQU93ODJyaFVpN3NlVF9URzVVSTFaZHl2S0hlUnlPQUV2QURmU1ZrZmZtQ3VXV0loYVE?oc=5",
+       "date": "Mon, 08 Jun 2026",
+       "source": "CMoney投資網誌"
+      },
+      {
+       "title": "環泰泰國開發案 添利多 - 經濟日報",
+       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9rODQ1UENaanhhS2N4UGstT3AwSjJHc21CVXQ2SXZ6cE45RUN2aVE2cW56YnZtTURJbldSSW9WT3Y3cy1iNXQtM21LcTVtbDJuSTlWcGg4eGtKNnPSAWBBVV95cUxPb2lwWFdfVXZ6Yjd1TmEyS2FGcXFmTDRpWWs1RldnU1lOX1hsTm5NcTRiTmo1azZDY2syMmtJWUl2VGs0UU96Z0ZaNTdMQzg2OEFEMjcxZzltbEgzZTZjRno?oc=5",
+       "date": "Tue, 25 Nov 2025",
+       "source": "經濟日報"
+      },
+      {
+       "title": "《業績-食品》環泰5月營收為4.78億元，年增5.63% - 富聯網",
+       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdXV6b3RtNHMyOC1MbnN4SWVXUnVIX0Vfc0FEejFLZG0xN2xGSE40bkRvbFhuZ3lnQXFERWI4VjlPLWZPV2hFX21jak9JQXJ6VmFITnhfb1hLeU1zWTI2Y01IVjZJaHd3NjVOTWJHSmRkaUNjeWZHMkZjVFl5S2M1aElpenQ0Mk9xazlEdmsydw?oc=5",
+       "date": "Sat, 06 Jun 2026",
+       "source": "富聯網"
+      },
+      {
+       "title": "環泰：產業景氣穩H2營運續增- 日報 - 工商時報",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82Z21tNGxyVXFVbm4wcjBpMkxuSzlqWTFaNndvamVvRlJHNHBKR09jNl9iWTkzSVdhb19RX1pvSGI5UXF6aGVTSUhFSDRGdzRmd1prY0pYR19BVG9mLWE0?oc=5",
+       "date": "Mon, 18 Aug 2025",
+       "source": "工商時報"
+      },
+      {
+       "title": "【2026/01月營收公告】環泰(4207) 一月營收4.95億元，表現亮眼、呈現雙成長，創近20個月以來新高，年增17.24% - CMoney投資網誌",
+       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNEhUSy1xU0hoc0YtUzdSdndtblFoMTRwRWtVWlVYYnl6OTBJdzg3ZTNWcXgwTmVNbVJ6THhsQnprX256LVRCby1idU81WHd2aWgzM18zMEZiRUl5NlBlRmlLakNVb2FrN0NURFJYdGl6UGUzaExPd2k5bnNza285RDVwUGhlV0stRUE?oc=5",
+       "date": "Fri, 06 Feb 2026",
+       "source": "CMoney投資網誌"
+      },
+      {
+       "title": "環泰開發泰國土地 動了 - UDN",
+       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8tMExUSV9pZFcyc2dHNUxPTDVBbXlUc3dIbzlNc2JraUwyTTJwOFFjc3JNdElFenpWQWcxOHoxam83N0tMQjlJaG5nZHNjWUdv0gFWQVVfeXFMTWRTSkJldDl2WTdKOU90Rnk0QzA4YWtseUtFY0hRd0plZTBhNnhCYWVjdWViSEUwYi05UzJzYXY2SmE5eUNwcUo2NUY3dDhoeExqQWw0R2c?oc=5",
+       "date": "Mon, 18 Aug 2025",
+       "source": "UDN"
+      },
+      {
+       "title": "泰國三廠明年完工，環泰續發展機能性/保健食品| MoneyDJ理財網 - LINE TODAY",
+       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SbjdHd29xVXl5MkRYQldzWXZPTFVRclJUY2tPTGw5THVpMEFmWlJ6ZkZ3QmRQSGwxQndMLXkxS1drMVlQUlFqTDVTdWtsbHV1YWdXZEl3?oc=5",
+       "date": "Wed, 27 Nov 2024",
+       "source": "LINE TODAY"
+      },
+      {
+       "title": "環泰 11月營收4.77億元改寫下半年新高 全年營收將登頂 - Yahoo股市",
+       "link": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxObzVEalQyVGFVV29XLTNCLXA3V2gtZ0lkMWxJeTdkN2tNRkV3SzIyekF2STM4MDJsZEhyWGZpRTlpZlBjcGpUZHRTNW5jXzN3U0J2Z0FRN1A2S3BhR3UxNHNkUVB0Skk0bDlpM0k2bEFlYktlZ3dPUHZvTjkyaFBadEtXMDYwMVlKSTJ4Z19yeXcyemE1elBDbnBiMlVhSGtkTkM4NHppNlBhU0VNR2FRV0dCclVWaFEtZjNEVWxPUVlSamI5ZDdGZUpIWFJ2WGFEalJ2cjRsN3Z4dkZtQS1MRTgwc3hIRkExM01jay1KcTJOWGhONTlOV0d2a0RfZmhhNERBTy1BUDE1V2RlQ0dEMllqZ1FCdi0yN3lmeDZHSHBvX20zQTZDRW1Gb3FPTzJubEwtOVdLZXNrZy1fNnh0WXpCOFJDNnFDdTlIVUVUTDY1cko2dXVUMUNrYkN4Ql8wMXc?oc=5",
+       "date": "Wed, 06 Dec 2023",
+       "source": "Yahoo股市"
+      }
+     ],
+     "model": "gemini-flash-latest",
+     "judged_at": "2026-07-03 10:56"
+    }
    },
    {
-    "ticker": "3015.TW",
-    "name": "全漢",
-    "close": 68.0,
+    "ticker": "2851.TW",
+    "name": "中再保",
+    "close": 38.45,
     "rebound": 1.0,
     "rebound_grade": "O",
-    "base_quality": 0.8399858346514173,
+    "base_quality": 0.7169855962304796,
     "scorecard": {
      "items": [
       {
@@ -4343,7 +4922,7 @@
        "name": "① 股價突破近年來高價",
        "grade": "O",
        "symbol": "○",
-       "detail": "收盤 68 創近 2 年新高",
+       "detail": "收盤 38.45 創近 2 年新高",
        "starred": true
       },
       {
@@ -4351,31 +4930,31 @@
        "name": "② 新高價位置（反彈幅度≥60%）",
        "grade": "O",
        "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 84%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 72%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
        "starred": true
       },
       {
        "key": "3",
        "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "T",
-       "symbol": "△",
-       "detail": "近9年平均年成長 46%，成長年份占 38%（成長不夠穩定）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近9年平均年成長 1319%，成長年份占 75%",
        "starred": false
       },
       {
        "key": "4",
        "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "T",
-       "symbol": "△",
-       "detail": "近四季獲利年增 15%（接近 20% 門檻）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近四季獲利年增 97%",
        "starred": false
       },
       {
        "key": "5",
        "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近3期季營收年增 12%、-1%、0%",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "近3期季營收年增 -28%、17%、25%",
        "starred": false
       },
       {
@@ -4383,23 +4962,104 @@
        "name": "⑥ 最近2~3季獲利成長≥20%",
        "grade": "O",
        "symbol": "○",
-       "detail": "近3季獲利年增 34%、40%、64%",
+       "detail": "近3季獲利年增 312%、196%、180%",
        "starred": true
       },
       {
        "key": "7",
        "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
+       "grade": "X",
+       "symbol": "×",
+       "detail": "AI 判斷（僅供參考，請複核依據）：獲利高度依賴金融市場波動的投資收益，本業缺乏結構性成長動能。",
+       "starred": true,
+       "ai": {
+        "grade": "X",
+        "one_line": "獲利高度依賴金融市場波動的投資收益，本業缺乏結構性成長動能。",
+        "analysis": "根據新聞報導，中再保去年的獲利大增有高達七成是來自於股票投資收益。公司總經理亦明確表示本業僅是追求長期穩健，獲利爆發主要是靠投資收益挹注。由於投資收益高度取決於金融市場的景氣與波動，並非來自產業趨勢或商業模式等結構性變化。依據保守分析師標準，這種依賴市場景氣的獲利增長不符合穩健成長的標準，故予以淘汰。",
+        "risks": [
+         "獲利高度受金融市場波動影響，投資收益具高度不確定性。",
+         "核心再保險業務缺乏結構性擴張，未來成長動能受限。"
+        ],
+        "sources": [
+         {
+          "title": "中再保領跑產險獲利潮，核保/投資引擎驅動營運 - 台視全球資訊網",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObTVSaUZyWmEtTl9ZX0tzNlhYa2pmaVIyUENxY1hXSGdZMV85cWZZTkVJUHNUeldhUVI2VTh6aGJTQmlwY0pNRk9wVUMtcndSaUZDSHpFYTJ4WXozTTY5YmxNeTRyVEtmVFNVTTBNVjYtSW9xT3FwVTljM1pWZTZxU2Q1dkZNbjFzdkVVMW4yMEdOUQ?oc=5",
+          "date": "Tue, 16 Jun 2026",
+          "source": "台視全球資訊網"
+         },
+         {
+          "title": "中再保股東會通過配息2.2元總座鍾志宏：投資收益挹注獲利、本業追求長期穩健- 產業 - 工商時報",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56dUR0MUdvRElEVHZBN1g5ZF8xYXJ6ZDBkcHF2NjJSQjZGQzdIYk5LN21aVXNpcW5xNU5wV2xKRmlrOHhYNHNra3pIMmJaWDJaNWF5T0x0X2VQZ1VaOUtj?oc=5",
+          "date": "Mon, 25 May 2026",
+          "source": "工商時報"
+         },
+         {
+          "title": "股票投資「錦上添花」 中再保114年大賺29.3億元、7成來自投資收益 - 自由財經",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZRW5xaWRtUjItZm1BQnlfajloUXg5NHBNc1YwOVR3dW4tQl9uNkNpS3JITGxFV0ZnQ1BQN0lDOEZQeG4tdnR4WUpsYUJjTWltSTZDOUtnSWJxTDN2UnRz0gFkQVVfeXFMT0ZfbllWTWFNZ255dHEzNWNnMmlaMFptYWhpdmJyUE1HazRaaU1JTEhQb3ZRZEZnWkpRYl83eEZ0NjQ3SzdjZkdkT2REdXRraUc3NEg2N0hSNXBlUDBXc3NzWFU0ag?oc=5",
+          "date": "Mon, 25 May 2026",
+          "source": "自由財經"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "中再保股東會》去年賺29億元！總座揭內幕：過程一度「很糾結」 - Yahoo股市",
+          "link": "https://news.google.com/rss/articles/CBMirgNBVV95cUxNX2lMWW5Cb1MzYlZ6NTlqQTJVc0hvYlBSQ1ZvMWRQOFRXOGxjM0lBaHVVRjJ2eUtXQWhsMHpOQmhDRU1FcGg2cU1KVnc0aWhvNjZhUFlTMG1EZ1lXeUJmN0N6QkJUSGlabGN4UTJHWDJ5NnIxVENya3JIQ3lmS3FYVWI5QWMySDRyWVRacmFoUUlpcEJjemFDQ3poOUVtMnNBTXN2UjU2ZW9QcW9MVXA4QVFYb2hzZC1kRG9la2pBb1Y5R3RVWHlHOVM2NzJwSS1uR1pwU0lrY2xlb2hXUFNoRUxLV3kyYVJXMGpNNmNocm8xMlVid05UQmtZbFVTa09oeEc1M0hsaTRzSE1Ya2Y2VkwyMUowd3hERGRRSmQ5NUxlWEN3ZnhIUWhicVBoSUhGaHA2aUt6dTU3RnFuNTFQZ1JlYlpsNzdpNmZLSGtONDdCeWNLVW5Kd0xJRUU3bkZYMXFQNnB6UDVwNDBpVE94OFpORU1fQl9uZkNKWGt2YjBoT0sxYk1rWE5ZYVZ5VjRESFlxN2tCWDJMWm5SMXNYUzFObmsySThsR3JDTXhn?oc=5",
+          "date": "Sun, 24 May 2026",
+          "source": "Yahoo股市"
+         },
+         {
+          "title": "2851 中再保 - 5月營收30.84054億，年增1113.15%，月減16.... - 股市爆料同學會 - CMoney",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBrTlItM0xTVWFwY2FXOWpCQkNlNExrd24za1RVYlJRQ0J2X3hPMDRFVWRQTjZncXlrNnZrVEF3SXZIeE8yY05tQk03NnBhcWdOUS1BS0ZibGc?oc=5",
+          "date": "Sat, 20 Jun 2026",
+          "source": "CMoney"
+         },
+         {
+          "title": "中再保領跑產險獲利潮，核保/投資引擎驅動營運 - 台視全球資訊網",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObTVSaUZyWmEtTl9ZX0tzNlhYa2pmaVIyUENxY1hXSGdZMV85cWZZTkVJUHNUeldhUVI2VTh6aGJTQmlwY0pNRk9wVUMtcndSaUZDSHpFYTJ4WXozTTY5YmxNeTRyVEtmVFNVTTBNVjYtSW9xT3FwVTljM1pWZTZxU2Q1dkZNbjFzdkVVMW4yMEdOUQ?oc=5",
+          "date": "Tue, 16 Jun 2026",
+          "source": "台視全球資訊網"
+         },
+         {
+          "title": "中再保股東會通過配息2.2元總座鍾志宏：投資收益挹注獲利、本業追求長期穩健- 產業 - 工商時報",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56dUR0MUdvRElEVHZBN1g5ZF8xYXJ6ZDBkcHF2NjJSQjZGQzdIYk5LN21aVXNpcW5xNU5wV2xKRmlrOHhYNHNra3pIMmJaWDJaNWF5T0x0X2VQZ1VaOUtj?oc=5",
+          "date": "Mon, 25 May 2026",
+          "source": "工商時報"
+         },
+         {
+          "title": "中再保去年獲利創高，大方配息殖利率逾7.6% - MoneyDJ",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPY05xYm5yZjVhVE1DWVZJbVZmQ2tiaWNSekN6T3FpT1JTcFRVSERtNkJFd1JoNXVOVHRzZ1VzME54T2ZULWQtS296NnhrRFhTSXlyWmNnM2YwSWtlMm0wN0hkeWxtV2tUZDM4TTluRVVFcGdVb1JlN19CT2RiZnpYcWpud2QySkZwRmNJZ3d1bE9Vdw?oc=5",
+          "date": "Wed, 11 Mar 2026",
+          "source": "MoneyDJ"
+         },
+         {
+          "title": "股票投資「錦上添花」 中再保114年大賺29.3億元、7成來自投資收益 - 自由財經",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZRW5xaWRtUjItZm1BQnlfajloUXg5NHBNc1YwOVR3dW4tQl9uNkNpS3JITGxFV0ZnQ1BQN0lDOEZQeG4tdnR4WUpsYUJjTWltSTZDOUtnSWJxTDN2UnRz0gFkQVVfeXFMT0ZfbllWTWFNZ255dHEzNWNnMmlaMFptYWhpdmJyUE1HazRaaU1JTEhQb3ZRZEZnWkpRYl83eEZ0NjQ3SzdjZkdkT2REdXRraUc3NEg2N0hSNXBlUDBXc3NzWFU0ag?oc=5",
+          "date": "Mon, 25 May 2026",
+          "source": "自由財經"
+         },
+         {
+          "title": "【13:19 即時新聞】中再保(2851)股價上漲逾4%來到39.7元，高殖利率防禦題材受資金青睞＋技術面多頭排列推升趨勢延續 - CMoney投資網誌",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeHhNYnZudDlrYi1NcFVoQ2MyUmVCZ3paOE1Kb2hQVmJZSl9xQktRWTJMZW1qRGhLNldzdm1OLTdhRUFqa210Z2U3dGlnRjhHYWtZbDJGb1BnOW82R3Q2UTRTdGpMd1l0TXF4WkZTUi14UjhrZ2k4SnJFYzRNT21JaS1xWU1iWms3QlBhbVln?oc=5",
+          "date": "Tue, 16 Jun 2026",
+          "source": "CMoney投資網誌"
+         },
+         {
+          "title": "中再保現金股息2.2元、股價漲逾7% 向30元大關靠攏 - 經濟日報",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52ZWhmVHVIZ1RZUXh4dHBiNGVYeVI5V1g1bFV1ZmlrVm5mV0NqcEpVb2Mzamx3S202X0ZueEE3dktTdmR5WlFTRXNVWTIxSjFmTndkeHpDWkllZ9IBX0FVX3lxTE9SbnBhckc4bENiZC00VmRDd2NpMzZoMFlnVFRPSHZFVGhuVHRWWUkyak5zaDk2TXB4WXZrd21uTWMzdl9UM2Voc1A2QktXZHJCSU16elhaLVI3WW94V1BF?oc=5",
+          "date": "Wed, 11 Mar 2026",
+          "source": "經濟日報"
+         }
+        ],
+        "model": "gemini-flash-latest",
+        "judged_at": "2026-07-03 10:56"
+       }
       },
       {
        "key": "8",
        "name": "⑧ 本益比未過熱（<60倍）",
        "grade": "O",
        "symbol": "○",
-       "detail": "本益比 33.5 倍",
+       "detail": "本益比 10.5 倍",
        "starred": false
       },
       {
@@ -4412,9 +5072,90 @@
       }
      ],
      "score": 75,
-     "verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
+     "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
     },
-    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
+    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量",
+    "ai7": {
+     "grade": "X",
+     "one_line": "獲利高度依賴金融市場波動的投資收益，本業缺乏結構性成長動能。",
+     "analysis": "根據新聞報導，中再保去年的獲利大增有高達七成是來自於股票投資收益。公司總經理亦明確表示本業僅是追求長期穩健，獲利爆發主要是靠投資收益挹注。由於投資收益高度取決於金融市場的景氣與波動，並非來自產業趨勢或商業模式等結構性變化。依據保守分析師標準，這種依賴市場景氣的獲利增長不符合穩健成長的標準，故予以淘汰。",
+     "risks": [
+      "獲利高度受金融市場波動影響，投資收益具高度不確定性。",
+      "核心再保險業務缺乏結構性擴張，未來成長動能受限。"
+     ],
+     "sources": [
+      {
+       "title": "中再保領跑產險獲利潮，核保/投資引擎驅動營運 - 台視全球資訊網",
+       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObTVSaUZyWmEtTl9ZX0tzNlhYa2pmaVIyUENxY1hXSGdZMV85cWZZTkVJUHNUeldhUVI2VTh6aGJTQmlwY0pNRk9wVUMtcndSaUZDSHpFYTJ4WXozTTY5YmxNeTRyVEtmVFNVTTBNVjYtSW9xT3FwVTljM1pWZTZxU2Q1dkZNbjFzdkVVMW4yMEdOUQ?oc=5",
+       "date": "Tue, 16 Jun 2026",
+       "source": "台視全球資訊網"
+      },
+      {
+       "title": "中再保股東會通過配息2.2元總座鍾志宏：投資收益挹注獲利、本業追求長期穩健- 產業 - 工商時報",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56dUR0MUdvRElEVHZBN1g5ZF8xYXJ6ZDBkcHF2NjJSQjZGQzdIYk5LN21aVXNpcW5xNU5wV2xKRmlrOHhYNHNra3pIMmJaWDJaNWF5T0x0X2VQZ1VaOUtj?oc=5",
+       "date": "Mon, 25 May 2026",
+       "source": "工商時報"
+      },
+      {
+       "title": "股票投資「錦上添花」 中再保114年大賺29.3億元、7成來自投資收益 - 自由財經",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZRW5xaWRtUjItZm1BQnlfajloUXg5NHBNc1YwOVR3dW4tQl9uNkNpS3JITGxFV0ZnQ1BQN0lDOEZQeG4tdnR4WUpsYUJjTWltSTZDOUtnSWJxTDN2UnRz0gFkQVVfeXFMT0ZfbllWTWFNZ255dHEzNWNnMmlaMFptYWhpdmJyUE1HazRaaU1JTEhQb3ZRZEZnWkpRYl83eEZ0NjQ3SzdjZkdkT2REdXRraUc3NEg2N0hSNXBlUDBXc3NzWFU0ag?oc=5",
+       "date": "Mon, 25 May 2026",
+       "source": "自由財經"
+      }
+     ],
+     "all_news": [
+      {
+       "title": "中再保股東會》去年賺29億元！總座揭內幕：過程一度「很糾結」 - Yahoo股市",
+       "link": "https://news.google.com/rss/articles/CBMirgNBVV95cUxNX2lMWW5Cb1MzYlZ6NTlqQTJVc0hvYlBSQ1ZvMWRQOFRXOGxjM0lBaHVVRjJ2eUtXQWhsMHpOQmhDRU1FcGg2cU1KVnc0aWhvNjZhUFlTMG1EZ1lXeUJmN0N6QkJUSGlabGN4UTJHWDJ5NnIxVENya3JIQ3lmS3FYVWI5QWMySDRyWVRacmFoUUlpcEJjemFDQ3poOUVtMnNBTXN2UjU2ZW9QcW9MVXA4QVFYb2hzZC1kRG9la2pBb1Y5R3RVWHlHOVM2NzJwSS1uR1pwU0lrY2xlb2hXUFNoRUxLV3kyYVJXMGpNNmNocm8xMlVid05UQmtZbFVTa09oeEc1M0hsaTRzSE1Ya2Y2VkwyMUowd3hERGRRSmQ5NUxlWEN3ZnhIUWhicVBoSUhGaHA2aUt6dTU3RnFuNTFQZ1JlYlpsNzdpNmZLSGtONDdCeWNLVW5Kd0xJRUU3bkZYMXFQNnB6UDVwNDBpVE94OFpORU1fQl9uZkNKWGt2YjBoT0sxYk1rWE5ZYVZ5VjRESFlxN2tCWDJMWm5SMXNYUzFObmsySThsR3JDTXhn?oc=5",
+       "date": "Sun, 24 May 2026",
+       "source": "Yahoo股市"
+      },
+      {
+       "title": "2851 中再保 - 5月營收30.84054億，年增1113.15%，月減16.... - 股市爆料同學會 - CMoney",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBrTlItM0xTVWFwY2FXOWpCQkNlNExrd24za1RVYlJRQ0J2X3hPMDRFVWRQTjZncXlrNnZrVEF3SXZIeE8yY05tQk03NnBhcWdOUS1BS0ZibGc?oc=5",
+       "date": "Sat, 20 Jun 2026",
+       "source": "CMoney"
+      },
+      {
+       "title": "中再保領跑產險獲利潮，核保/投資引擎驅動營運 - 台視全球資訊網",
+       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObTVSaUZyWmEtTl9ZX0tzNlhYa2pmaVIyUENxY1hXSGdZMV85cWZZTkVJUHNUeldhUVI2VTh6aGJTQmlwY0pNRk9wVUMtcndSaUZDSHpFYTJ4WXozTTY5YmxNeTRyVEtmVFNVTTBNVjYtSW9xT3FwVTljM1pWZTZxU2Q1dkZNbjFzdkVVMW4yMEdOUQ?oc=5",
+       "date": "Tue, 16 Jun 2026",
+       "source": "台視全球資訊網"
+      },
+      {
+       "title": "中再保股東會通過配息2.2元總座鍾志宏：投資收益挹注獲利、本業追求長期穩健- 產業 - 工商時報",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56dUR0MUdvRElEVHZBN1g5ZF8xYXJ6ZDBkcHF2NjJSQjZGQzdIYk5LN21aVXNpcW5xNU5wV2xKRmlrOHhYNHNra3pIMmJaWDJaNWF5T0x0X2VQZ1VaOUtj?oc=5",
+       "date": "Mon, 25 May 2026",
+       "source": "工商時報"
+      },
+      {
+       "title": "中再保去年獲利創高，大方配息殖利率逾7.6% - MoneyDJ",
+       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPY05xYm5yZjVhVE1DWVZJbVZmQ2tiaWNSekN6T3FpT1JTcFRVSERtNkJFd1JoNXVOVHRzZ1VzME54T2ZULWQtS296NnhrRFhTSXlyWmNnM2YwSWtlMm0wN0hkeWxtV2tUZDM4TTluRVVFcGdVb1JlN19CT2RiZnpYcWpud2QySkZwRmNJZ3d1bE9Vdw?oc=5",
+       "date": "Wed, 11 Mar 2026",
+       "source": "MoneyDJ"
+      },
+      {
+       "title": "股票投資「錦上添花」 中再保114年大賺29.3億元、7成來自投資收益 - 自由財經",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZRW5xaWRtUjItZm1BQnlfajloUXg5NHBNc1YwOVR3dW4tQl9uNkNpS3JITGxFV0ZnQ1BQN0lDOEZQeG4tdnR4WUpsYUJjTWltSTZDOUtnSWJxTDN2UnRz0gFkQVVfeXFMT0ZfbllWTWFNZ255dHEzNWNnMmlaMFptYWhpdmJyUE1HazRaaU1JTEhQb3ZRZEZnWkpRYl83eEZ0NjQ3SzdjZkdkT2REdXRraUc3NEg2N0hSNXBlUDBXc3NzWFU0ag?oc=5",
+       "date": "Mon, 25 May 2026",
+       "source": "自由財經"
+      },
+      {
+       "title": "【13:19 即時新聞】中再保(2851)股價上漲逾4%來到39.7元，高殖利率防禦題材受資金青睞＋技術面多頭排列推升趨勢延續 - CMoney投資網誌",
+       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeHhNYnZudDlrYi1NcFVoQ2MyUmVCZ3paOE1Kb2hQVmJZSl9xQktRWTJMZW1qRGhLNldzdm1OLTdhRUFqa210Z2U3dGlnRjhHYWtZbDJGb1BnOW82R3Q2UTRTdGpMd1l0TXF4WkZTUi14UjhrZ2k4SnJFYzRNT21JaS1xWU1iWms3QlBhbVln?oc=5",
+       "date": "Tue, 16 Jun 2026",
+       "source": "CMoney投資網誌"
+      },
+      {
+       "title": "中再保現金股息2.2元、股價漲逾7% 向30元大關靠攏 - 經濟日報",
+       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52ZWhmVHVIZ1RZUXh4dHBiNGVYeVI5V1g1bFV1ZmlrVm5mV0NqcEpVb2Mzamx3S202X0ZueEE3dktTdmR5WlFTRXNVWTIxSjFmTndkeHpDWkllZ9IBX0FVX3lxTE9SbnBhckc4bENiZC00VmRDd2NpMzZoMFlnVFRPSHZFVGhuVHRWWUkyak5zaDk2TXB4WXZrd21uTWMzdl9UM2Voc1A2QktXZHJCSU16elhaLVI3WW94V1BF?oc=5",
+       "date": "Wed, 11 Mar 2026",
+       "source": "經濟日報"
+      }
+     ],
+     "model": "gemini-flash-latest",
+     "judged_at": "2026-07-03 10:56"
+    }
    },
    {
     "ticker": "5904.TWO",
@@ -4476,10 +5217,88 @@
       {
        "key": "7",
        "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
+       "grade": "T",
+       "symbol": "△",
+       "detail": "AI 判斷（僅供參考，請複核依據）：因現有證據僅提及「高毛利3策略」與「展店逼近500店」之標題，缺乏具體策略細節與市場飽和度數據，無法判斷未來能否穩健成長。",
+       "starred": true,
+       "ai": {
+        "grade": "T",
+        "one_line": "因現有證據僅提及「高毛利3策略」與「展店逼近500店」之標題，缺乏具體策略細節與市場飽和度數據，無法判斷未來能否穩健成長。",
+        "analysis": "從財務數據來看，寶雅近9年平均成長11%，且最新一季獲利年增26%，顯示過去與近期營運良好。新聞[2]與[6]指出其成長來自於展店與高毛利策略，這屬於結構性變化。然而，僅憑新聞標題無法得知「高毛利3策略」的具體內容與可持續性，亦無從得知500家店之後的市場飽和點。因此，在缺乏具體營運細節與未來市場空間數據的情況下，現有證據不足以支持未來長期穩健成長的判斷。",
+        "risks": "1. 展店逼近500家可能面臨台灣市場飽和與單店效益下滑的風險。2. 高毛利策略具體內容與競爭優勢不明，存在被競爭對手複製或消費者不買單的風險。",
+        "sources": [
+         {
+          "title": "寶雅5月營收24億元年增近2成 展店逼近500店 - Yahoo股市",
+          "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPYURqd1hGSi1PWVVGNDY0bzZMMlRNYTVwdWx6SVpXaWM0SlYtR2M5bVhjTHNDWEdEN0xvSzRqRExtWDRPR3Y2VEhBckVzSU00UHpSbXRfNGxuSmVUNGFXekd3UWJiWUlLLWVranRTTVFoQmVMUlo5OU51ekZZYmNIcFJuQ2dkdnJ3ampQZWZ0SUJMU2VGMXpkZkk4ekd3MzRqU3dSVEg0VVlKNlJlRFo5MDFiblhFSDYtT2YtSWxEQjZsam91SnNWRE5kRVI3Q0Z0QU16YmZ6czBUcEJRRVlKT29ib2R3RUF4VXdLMTlVRGpSNmdheS16elJ1b1pzRTl0cUpCaGg0dVltczNTbGNjbUxjSmF6U0MwNnpEVXdOLVl0ZExCcEE?oc=5",
+          "date": "Wed, 10 Jun 2026",
+          "source": "Yahoo股市"
+         },
+         {
+          "title": "寶雅1個月飆28％，到底漲什麼？2月營收年增2成，今年展店500家...「高毛利」3策略奏效，現在股價還夠甜？ - 今周刊",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQckQ3R25QVE5qcG1xamQ2R3V6Y0xzb19vNWFLakxGdVlVR0hySklCOTlZR25FT1JrV1ZvWXNDLTE2QTdrWVhzQkdQSUc2dGRlYXZOTzJEczJVcEZyUHBtaGliR1RNR0dORjdIb2ViUGFRaGp4LWhtaU9aT0Z3RWUycw?oc=5",
+          "date": "Wed, 11 Mar 2026",
+          "source": "今周刊"
+         },
+         {
+          "title": "寶雅首季賺近1股本！每股賺9.3元創單季新高 獲利年增逾26% - Yahoo股市",
+          "link": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxNSjk3TmFTWlN6LTctWUh4cXlvSEhVb25LLWZoWXhraW5odzBkdDBMSi02cTIyZjk4ZndmZmdiX1FsUWZ4b2tWRHFqNzdxNTlNUTNvQkc3cWtWODY2NTlwdDZaT0IzT1c5N0xXNXBvLTZfVWR1T3RxbEVKOXVPMWo0Q05RUHZaU1Z5VVpzc2lWMGE2RElqTUNPWEU0ZTRpWkpscDRjckdFcGRWcVoyb1ZLZFM0Y0Q5TEZpUFdjY0JKV2J4a0lPeGtyd1JqRWVqM1ZQbV9nbHZ3Q3paY01wVXc5SEJWZHVZUVVMbVJZZnkyLVhldTFqQl83RmpoMW84SnlwdGs5UG5MTURBLUdoSF9rNnRkMGJPaEE2aVVPU2tKdzctMVNUZW12RXctT05xUmZJcm55S2VvWUNHWkpVM1hLY3RjWlVUQVlfVHVQYzZ4bXppNTV6cnFRaG1rZk9YZEM0NXpjdWdnNVpFbDJqZm16MDg1a0lxUEU?oc=5",
+          "date": "Mon, 27 Apr 2026",
+          "source": "Yahoo股市"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "股票一拆十寶雅新股8/10上櫃- 日報 - 工商時報",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jYk9RVV9NTVg3bmozN1Q3Ylk2VlZlUWVuMU5nbFo3Qm1yNGhQVXM3YXpuNzJfdzl1SklxN0o2aUFJclJHWVVfcU9QcC1GOWtobkV4dHZKZUVveXVhLVBz?oc=5",
+          "date": "Thu, 02 Jul 2026",
+          "source": "工商時報"
+         },
+         {
+          "title": "寶雅5月營收24億元年增近2成 展店逼近500店 - Yahoo股市",
+          "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPYURqd1hGSi1PWVVGNDY0bzZMMlRNYTVwdWx6SVpXaWM0SlYtR2M5bVhjTHNDWEdEN0xvSzRqRExtWDRPR3Y2VEhBckVzSU00UHpSbXRfNGxuSmVUNGFXekd3UWJiWUlLLWVranRTTVFoQmVMUlo5OU51ekZZYmNIcFJuQ2dkdnJ3ampQZWZ0SUJMU2VGMXpkZkk4ekd3MzRqU3dSVEg0VVlKNlJlRFo5MDFiblhFSDYtT2YtSWxEQjZsam91SnNWRE5kRVI3Q0Z0QU16YmZ6czBUcEJRRVlKT29ib2R3RUF4VXdLMTlVRGpSNmdheS16elJ1b1pzRTl0cUpCaGg0dVltczNTbGNjbUxjSmF6U0MwNnpEVXdOLVl0ZExCcEE?oc=5",
+          "date": "Wed, 10 Jun 2026",
+          "source": "Yahoo股市"
+         },
+         {
+          "title": "寶雅「1拆10」換股時程出爐！8月10日新股上櫃 - 經濟日報",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1UUGVfdzRGa0FYamVtREVzLWNRTnFfN2ZLYTBKVk8zX1VuQ1VuemtIR21naTBjd0pxU1U4eF95WVU5VzE4RWZfRlEyUHVtMVZHMUxFVnVrNzJ5Z9IBX0FVX3lxTE9vaVhkMGVvNkZqZVJ1b0RsVGMxOEt3a0t0ZVNiVTV4Nkx4amJBeld5S1NLU1NFQ1AzNHoyaWZJdWROT3FmRGl5cGNNVHNjUXVfRHppeE1JOXBPcmRROGFN?oc=5",
+          "date": "Mon, 29 Jun 2026",
+          "source": "經濟日報"
+         },
+         {
+          "title": "〈焦點股〉寶雅全年有望賺逾3個股本 股價衝上664元寫新猷 - news.cnyes.com",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5CcnRlZHRsVGtxVndFcTI3ZkhGMDBwTlFLc3FxcmdrbzV5TmU4d2Z2SGpqemRsNVB2blBOdHZhTWlXUXcyZXNsRkJqMDYtVGs?oc=5",
+          "date": "Fri, 12 Jun 2026",
+          "source": "news.cnyes.com"
+         },
+         {
+          "title": "通路股王「1拆10」...1張63.8萬變6.4萬元有找能跟嗎？法人看法曝光- 上市櫃 - 旺得富理財網",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfNlJ3MDV6ak83bVRzaTJmaWVFaVBBeWV6ZTZMS2oxYko4ZUw3bVAxcXFmanR2UFJtdDBWaHo4TFdscm15X1hTYVpxaVdFS2lMdUxRaVYwZWF1TlBGRUFCV2NoMXljRnc3Ymc?oc=5",
+          "date": "Thu, 02 Jul 2026",
+          "source": "旺得富理財網"
+         },
+         {
+          "title": "寶雅1個月飆28％，到底漲什麼？2月營收年增2成，今年展店500家...「高毛利」3策略奏效，現在股價還夠甜？ - 今周刊",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQckQ3R25QVE5qcG1xamQ2R3V6Y0xzb19vNWFLakxGdVlVR0hySklCOTlZR25FT1JrV1ZvWXNDLTE2QTdrWVhzQkdQSUc2dGRlYXZOTzJEczJVcEZyUHBtaGliR1RNR0dORjdIb2ViUGFRaGp4LWhtaU9aT0Z3RWUycw?oc=5",
+          "date": "Wed, 11 Mar 2026",
+          "source": "今周刊"
+         },
+         {
+          "title": "寶雅5月營收創新高 - UDN",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE42NlhGQTc0TTBTUHhhWExSd1lZNS1UNENkaTdrYWRTeVJVdG41X3lQR3dkNnozc0dKV1NmR3Q2d21md1BkcGVEdmN2OTl4NHVk0gFWQVVfeXFMT0NGcnhpczB4eERQaXNhYlBTYWYzMFlCU1RPUlRfemY1QllsSFRSRHdqUW9GLWlNWnVLakZDcmZCSmNTOWpreXpDbkQxMkhrbGlkX1JudVE?oc=5",
+          "date": "Thu, 11 Jun 2026",
+          "source": "UDN"
+         },
+         {
+          "title": "寶雅首季賺近1股本！每股賺9.3元創單季新高 獲利年增逾26% - Yahoo股市",
+          "link": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxNSjk3TmFTWlN6LTctWUh4cXlvSEhVb25LLWZoWXhraW5odzBkdDBMSi02cTIyZjk4ZndmZmdiX1FsUWZ4b2tWRHFqNzdxNTlNUTNvQkc3cWtWODY2NTlwdDZaT0IzT1c5N0xXNXBvLTZfVWR1T3RxbEVKOXVPMWo0Q05RUHZaU1Z5VVpzc2lWMGE2RElqTUNPWEU0ZTRpWkpscDRjckdFcGRWcVoyb1ZLZFM0Y0Q5TEZpUFdjY0JKV2J4a0lPeGtyd1JqRWVqM1ZQbV9nbHZ3Q3paY01wVXc5SEJWZHVZUVVMbVJZZnkyLVhldTFqQl83RmpoMW84SnlwdGs5UG5MTURBLUdoSF9rNnRkMGJPaEE2aVVPU2tKdzctMVNUZW12RXctT05xUmZJcm55S2VvWUNHWkpVM1hLY3RjWlVUQVlfVHVQYzZ4bXppNTV6cnFRaG1rZk9YZEM0NXpjdWdnNVpFbDJqZm16MDg1a0lxUEU?oc=5",
+          "date": "Mon, 27 Apr 2026",
+          "source": "Yahoo股市"
+         }
+        ],
+        "model": "gemini-flash-latest",
+        "judged_at": "2026-07-03 10:57"
+       }
       },
       {
        "key": "8",
@@ -4498,97 +5317,88 @@
        "starred": true
       }
      ],
-     "score": 71,
+     "score": 68,
      "verdict": "候選：部分項目待觀察，書中提醒需綜合判斷（p.237）"
     },
-    "mech_verdict": "候選：部分項目待觀察，書中提醒需綜合判斷（p.237）"
-   },
-   {
-    "ticker": "2816.TW",
-    "name": "旺旺保",
-    "close": 34.85,
-    "rebound": 0.8665734776838266,
-    "rebound_grade": "O",
-    "base_quality": 0.8175410893092732,
-    "scorecard": {
-     "items": [
+    "mech_verdict": "候選：部分項目待觀察，書中提醒需綜合判斷（p.237）",
+    "ai7": {
+     "grade": "T",
+     "one_line": "因現有證據僅提及「高毛利3策略」與「展店逼近500店」之標題，缺乏具體策略細節與市場飽和度數據，無法判斷未來能否穩健成長。",
+     "analysis": "從財務數據來看，寶雅近9年平均成長11%，且最新一季獲利年增26%，顯示過去與近期營運良好。新聞[2]與[6]指出其成長來自於展店與高毛利策略，這屬於結構性變化。然而，僅憑新聞標題無法得知「高毛利3策略」的具體內容與可持續性，亦無從得知500家店之後的市場飽和點。因此，在缺乏具體營運細節與未來市場空間數據的情況下，現有證據不足以支持未來長期穩健成長的判斷。",
+     "risks": "1. 展店逼近500家可能面臨台灣市場飽和與單店效益下滑的風險。2. 高毛利策略具體內容與競爭優勢不明，存在被競爭對手複製或消費者不買單的風險。",
+     "sources": [
       {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 34.85 創近 2 年新高",
-       "starred": true
+       "title": "寶雅5月營收24億元年增近2成 展店逼近500店 - Yahoo股市",
+       "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPYURqd1hGSi1PWVVGNDY0bzZMMlRNYTVwdWx6SVpXaWM0SlYtR2M5bVhjTHNDWEdEN0xvSzRqRExtWDRPR3Y2VEhBckVzSU00UHpSbXRfNGxuSmVUNGFXekd3UWJiWUlLLWVranRTTVFoQmVMUlo5OU51ekZZYmNIcFJuQ2dkdnJ3ampQZWZ0SUJMU2VGMXpkZkk4ekd3MzRqU3dSVEg0VVlKNlJlRFo5MDFiblhFSDYtT2YtSWxEQjZsam91SnNWRE5kRVI3Q0Z0QU16YmZ6czBUcEJRRVlKT29ib2R3RUF4VXdLMTlVRGpSNmdheS16elJ1b1pzRTl0cUpCaGg0dVltczNTbGNjbUxjSmF6U0MwNnpEVXdOLVl0ZExCcEE?oc=5",
+       "date": "Wed, 10 Jun 2026",
+       "source": "Yahoo股市"
       },
       {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 87%（目標≥60%），平穩期品質 82%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
+       "title": "寶雅1個月飆28％，到底漲什麼？2月營收年增2成，今年展店500家...「高毛利」3策略奏效，現在股價還夠甜？ - 今周刊",
+       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQckQ3R25QVE5qcG1xamQ2R3V6Y0xzb19vNWFLakxGdVlVR0hySklCOTlZR25FT1JrV1ZvWXNDLTE2QTdrWVhzQkdQSUc2dGRlYXZOTzJEczJVcEZyUHBtaGliR1RNR0dORjdIb2ViUGFRaGp4LWhtaU9aT0Z3RWUycw?oc=5",
+       "date": "Wed, 11 Mar 2026",
+       "source": "今周刊"
       },
       {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近9年平均年成長 -34%，成長年份占 57%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近四季獲利年增 51%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近3期季營收年增 -1%、12%、3%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "T",
-       "symbol": "△",
-       "detail": "近3季獲利年增 94%、15%、348%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 7.5 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "T",
-       "symbol": "△",
-       "detail": "創新高股比率 3.5%，上漲力道普通——書中建議減少單次購買量",
-       "starred": true
+       "title": "寶雅首季賺近1股本！每股賺9.3元創單季新高 獲利年增逾26% - Yahoo股市",
+       "link": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxNSjk3TmFTWlN6LTctWUh4cXlvSEhVb25LLWZoWXhraW5odzBkdDBMSi02cTIyZjk4ZndmZmdiX1FsUWZ4b2tWRHFqNzdxNTlNUTNvQkc3cWtWODY2NTlwdDZaT0IzT1c5N0xXNXBvLTZfVWR1T3RxbEVKOXVPMWo0Q05RUHZaU1Z5VVpzc2lWMGE2RElqTUNPWEU0ZTRpWkpscDRjckdFcGRWcVoyb1ZLZFM0Y0Q5TEZpUFdjY0JKV2J4a0lPeGtyd1JqRWVqM1ZQbV9nbHZ3Q3paY01wVXc5SEJWZHVZUVVMbVJZZnkyLVhldTFqQl83RmpoMW84SnlwdGs5UG5MTURBLUdoSF9rNnRkMGJPaEE2aVVPU2tKdzctMVNUZW12RXctT05xUmZJcm55S2VvWUNHWkpVM1hLY3RjWlVUQVlfVHVQYzZ4bXppNTV6cnFRaG1rZk9YZEM0NXpjdWdnNVpFbDJqZm16MDg1a0lxUEU?oc=5",
+       "date": "Mon, 27 Apr 2026",
+       "source": "Yahoo股市"
       }
      ],
-     "score": 67,
-     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-    },
-    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+     "all_news": [
+      {
+       "title": "股票一拆十寶雅新股8/10上櫃- 日報 - 工商時報",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jYk9RVV9NTVg3bmozN1Q3Ylk2VlZlUWVuMU5nbFo3Qm1yNGhQVXM3YXpuNzJfdzl1SklxN0o2aUFJclJHWVVfcU9QcC1GOWtobkV4dHZKZUVveXVhLVBz?oc=5",
+       "date": "Thu, 02 Jul 2026",
+       "source": "工商時報"
+      },
+      {
+       "title": "寶雅5月營收24億元年增近2成 展店逼近500店 - Yahoo股市",
+       "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPYURqd1hGSi1PWVVGNDY0bzZMMlRNYTVwdWx6SVpXaWM0SlYtR2M5bVhjTHNDWEdEN0xvSzRqRExtWDRPR3Y2VEhBckVzSU00UHpSbXRfNGxuSmVUNGFXekd3UWJiWUlLLWVranRTTVFoQmVMUlo5OU51ekZZYmNIcFJuQ2dkdnJ3ampQZWZ0SUJMU2VGMXpkZkk4ekd3MzRqU3dSVEg0VVlKNlJlRFo5MDFiblhFSDYtT2YtSWxEQjZsam91SnNWRE5kRVI3Q0Z0QU16YmZ6czBUcEJRRVlKT29ib2R3RUF4VXdLMTlVRGpSNmdheS16elJ1b1pzRTl0cUpCaGg0dVltczNTbGNjbUxjSmF6U0MwNnpEVXdOLVl0ZExCcEE?oc=5",
+       "date": "Wed, 10 Jun 2026",
+       "source": "Yahoo股市"
+      },
+      {
+       "title": "寶雅「1拆10」換股時程出爐！8月10日新股上櫃 - 經濟日報",
+       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1UUGVfdzRGa0FYamVtREVzLWNRTnFfN2ZLYTBKVk8zX1VuQ1VuemtIR21naTBjd0pxU1U4eF95WVU5VzE4RWZfRlEyUHVtMVZHMUxFVnVrNzJ5Z9IBX0FVX3lxTE9vaVhkMGVvNkZqZVJ1b0RsVGMxOEt3a0t0ZVNiVTV4Nkx4amJBeld5S1NLU1NFQ1AzNHoyaWZJdWROT3FmRGl5cGNNVHNjUXVfRHppeE1JOXBPcmRROGFN?oc=5",
+       "date": "Mon, 29 Jun 2026",
+       "source": "經濟日報"
+      },
+      {
+       "title": "〈焦點股〉寶雅全年有望賺逾3個股本 股價衝上664元寫新猷 - news.cnyes.com",
+       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5CcnRlZHRsVGtxVndFcTI3ZkhGMDBwTlFLc3FxcmdrbzV5TmU4d2Z2SGpqemRsNVB2blBOdHZhTWlXUXcyZXNsRkJqMDYtVGs?oc=5",
+       "date": "Fri, 12 Jun 2026",
+       "source": "news.cnyes.com"
+      },
+      {
+       "title": "通路股王「1拆10」...1張63.8萬變6.4萬元有找能跟嗎？法人看法曝光- 上市櫃 - 旺得富理財網",
+       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfNlJ3MDV6ak83bVRzaTJmaWVFaVBBeWV6ZTZMS2oxYko4ZUw3bVAxcXFmanR2UFJtdDBWaHo4TFdscm15X1hTYVpxaVdFS2lMdUxRaVYwZWF1TlBGRUFCV2NoMXljRnc3Ymc?oc=5",
+       "date": "Thu, 02 Jul 2026",
+       "source": "旺得富理財網"
+      },
+      {
+       "title": "寶雅1個月飆28％，到底漲什麼？2月營收年增2成，今年展店500家...「高毛利」3策略奏效，現在股價還夠甜？ - 今周刊",
+       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQckQ3R25QVE5qcG1xamQ2R3V6Y0xzb19vNWFLakxGdVlVR0hySklCOTlZR25FT1JrV1ZvWXNDLTE2QTdrWVhzQkdQSUc2dGRlYXZOTzJEczJVcEZyUHBtaGliR1RNR0dORjdIb2ViUGFRaGp4LWhtaU9aT0Z3RWUycw?oc=5",
+       "date": "Wed, 11 Mar 2026",
+       "source": "今周刊"
+      },
+      {
+       "title": "寶雅5月營收創新高 - UDN",
+       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE42NlhGQTc0TTBTUHhhWExSd1lZNS1UNENkaTdrYWRTeVJVdG41X3lQR3dkNnozc0dKV1NmR3Q2d21md1BkcGVEdmN2OTl4NHVk0gFWQVVfeXFMT0NGcnhpczB4eERQaXNhYlBTYWYzMFlCU1RPUlRfemY1QllsSFRSRHdqUW9GLWlNWnVLakZDcmZCSmNTOWpreXpDbkQxMkhrbGlkX1JudVE?oc=5",
+       "date": "Thu, 11 Jun 2026",
+       "source": "UDN"
+      },
+      {
+       "title": "寶雅首季賺近1股本！每股賺9.3元創單季新高 獲利年增逾26% - Yahoo股市",
+       "link": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxNSjk3TmFTWlN6LTctWUh4cXlvSEhVb25LLWZoWXhraW5odzBkdDBMSi02cTIyZjk4ZndmZmdiX1FsUWZ4b2tWRHFqNzdxNTlNUTNvQkc3cWtWODY2NTlwdDZaT0IzT1c5N0xXNXBvLTZfVWR1T3RxbEVKOXVPMWo0Q05RUHZaU1Z5VVpzc2lWMGE2RElqTUNPWEU0ZTRpWkpscDRjckdFcGRWcVoyb1ZLZFM0Y0Q5TEZpUFdjY0JKV2J4a0lPeGtyd1JqRWVqM1ZQbV9nbHZ3Q3paY01wVXc5SEJWZHVZUVVMbVJZZnkyLVhldTFqQl83RmpoMW84SnlwdGs5UG5MTURBLUdoSF9rNnRkMGJPaEE2aVVPU2tKdzctMVNUZW12RXctT05xUmZJcm55S2VvWUNHWkpVM1hLY3RjWlVUQVlfVHVQYzZ4bXppNTV6cnFRaG1rZk9YZEM0NXpjdWdnNVpFbDJqZm16MDg1a0lxUEU?oc=5",
+       "date": "Mon, 27 Apr 2026",
+       "source": "Yahoo股市"
+      }
+     ],
+     "model": "gemini-flash-latest",
+     "judged_at": "2026-07-03 10:57"
+    }
    },
    {
     "ticker": "2852.TW",
@@ -4676,6 +5486,267 @@
      "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
     },
     "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+   },
+   {
+    "ticker": "3015.TW",
+    "name": "全漢",
+    "close": 68.0,
+    "rebound": 1.0,
+    "rebound_grade": "O",
+    "base_quality": 0.8399858346514173,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 68 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 84%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "近9年平均年成長 46%，成長年份占 38%（成長不夠穩定）",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "近四季獲利年增 15%（接近 20% 門檻）",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近3期季營收年增 12%、-1%、0%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近3季獲利年增 34%、40%、64%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "AI 判斷（僅供參考，請複核依據）：因歷史成長不穩且近期營收增速已停滯，邊緣AI新動能仍停留在展望階段，無法確認未來能穩健成長。",
+       "starred": true,
+       "ai": {
+        "grade": "X",
+        "one_line": "因歷史成長不穩且近期營收增速已停滯，邊緣AI新動能仍停留在展望階段，無法確認未來能穩健成長。",
+        "analysis": "從財務數據來看，全漢近9年成長年份僅占38%，顯示歷史成長極不穩定，且近3期季營收年增率已一路下滑至12%、-1%、0%，成長動能明顯停滯。雖然新聞指出公司鎖定邊緣AI商機並預期挹注動能，但目前仍處於「拚成長」、「鎖定應用」與「本業看小幅成長」的初期展望階段，尚未轉化為實質且穩定的結構性獲利。此外，越南建廠雖屬產能擴張，但在營收增速放緩的當下，尚無法證明其能帶來穩健的獲利成長，故予以淘汰。",
+        "risks": [
+         "邊緣AI實際需求與訂單不如預期，導致新產品無法有效貢獻獲利。",
+         "越南新廠建設與後續折舊費用可能在短期內稀釋整體毛利率。"
+        ],
+        "sources": [
+         {
+          "title": "啖邊緣AI商機 全漢今年營收拚成長 - Yahoo股市",
+          "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNVWJ2ck9BVUJiaFJMUDJ4U0EtaGI4OUtScVBTOFlyOWZ2TkVHQUlCWFRjOHhlZTJSekFHRmRRdU9LOGdvdUhWeWpwYW8ydXlSY0xrMFZkNDlDX0UyM29yMjVMV1FVSE4zRndJdzIzZW16bTZjVGQtcUhiSThQSk56eDh0LWI1VlN5VkdBNXpRdUJBWkNfSDB5SENSS29VR2dFeWtua3B1RmFZcXY4NjNaZXpiX0syMFl1QW9VYmhySVQwUXFobUkxQk5hVXJqZkFXZUN6S3hDQ1ctT0xaUVNVMlkwb3NUbkRxMF9lSnNNdXdZY3p6MUJKXy1Wb2tkYnVhR1lISDcxRQ?oc=5",
+          "date": "Thu, 02 Apr 2026",
+          "source": "Yahoo股市"
+         },
+         {
+          "title": "全漢2025年營收成長12％ 2026年鎖定AI邊緣應用 - 自由財經",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FaHBZa2daNVF4Uk1LR19TQ2VJai03MzlzQW03Z2stWFlnaER0M3I5M2N0eFBRUy1BTFRpbjZPbHdtdmNoc3ozaEJjay1XM2M5YXlpZWZZSnY5OU8zTVpZ0gFkQVVfeXFMT2RaUktBaHYycWNRTE1SanQ0aVZqMDdfWS1HVzAydThwOWhiVHFXX3JlU3dsVlUxUndmczRWUFdNeUduNjcxbjZPSFF5Q2U0Z0ZkRzJUd3ZLNmd4ZGtqcDlRRnFySA?oc=5",
+          "date": "Wed, 07 Jan 2026",
+          "source": "自由財經"
+         },
+         {
+          "title": "全漢斥資10億 越南建廠 - 經濟日報",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YaDE3djBjMTBvdVRGSjRnN1ZvcDJobVhZWmRmaDVkemtkeGE3bFhiWjhTT1Q3LVcxYkhmeENZMFhmQ3BHQk5pT2JyVmlRMkZEeFNCNmsza19mZ9IBX0FVX3lxTE9lYnB0ZHNzdWFwUjJTeWtuMHNndWJIQkNDT2NvZWNNOFl3LUxZcmZpZzg0dy10ZzI0NWZLTVJHVFNhZHlldS1NVjZlN2l6cURqaFBRbTNQbzMyWldWZF93?oc=5",
+          "date": "Sun, 17 May 2026",
+          "source": "經濟日報"
+         },
+         {
+          "title": "全漢今年本業看小幅成長，Edge AI挹注動能- 新聞 - MoneyDJ",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV19HNUlPU2cxb0hja0ROY3VBSFpyQXhNZ1NhQVUtSUlwa1BueWt3N0cySXI2U0hxVllGdENOMmt3d2dJM0dJTHI3bEVjU0l2bVZaSG9panBtMklGelM4emhRSmRwN2pLMXFCZFJSZE8yUDlyazRoc1hRNWJxWERWMWVYajVWNlVlWW1iTDBXZ0lJUQ?oc=5",
+          "date": "Wed, 01 Apr 2026",
+          "source": "MoneyDJ"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "啖邊緣AI商機 全漢今年營收拚成長 - Yahoo股市",
+          "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNVWJ2ck9BVUJiaFJMUDJ4U0EtaGI4OUtScVBTOFlyOWZ2TkVHQUlCWFRjOHhlZTJSekFHRmRRdU9LOGdvdUhWeWpwYW8ydXlSY0xrMFZkNDlDX0UyM29yMjVMV1FVSE4zRndJdzIzZW16bTZjVGQtcUhiSThQSk56eDh0LWI1VlN5VkdBNXpRdUJBWkNfSDB5SENSS29VR2dFeWtua3B1RmFZcXY4NjNaZXpiX0syMFl1QW9VYmhySVQwUXFobUkxQk5hVXJqZkFXZUN6S3hDQ1ctT0xaUVNVMlkwb3NUbkRxMF9lSnNNdXdZY3p6MUJKXy1Wb2tkYnVhR1lISDcxRQ?oc=5",
+          "date": "Thu, 02 Apr 2026",
+          "source": "Yahoo股市"
+         },
+         {
+          "title": "全漢2025年營收成長12％ 2026年鎖定AI邊緣應用 - 自由財經",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FaHBZa2daNVF4Uk1LR19TQ2VJai03MzlzQW03Z2stWFlnaER0M3I5M2N0eFBRUy1BTFRpbjZPbHdtdmNoc3ozaEJjay1XM2M5YXlpZWZZSnY5OU8zTVpZ0gFkQVVfeXFMT2RaUktBaHYycWNRTE1SanQ0aVZqMDdfWS1HVzAydThwOWhiVHFXX3JlU3dsVlUxUndmczRWUFdNeUduNjcxbjZPSFF5Q2U0Z0ZkRzJUd3ZLNmd4ZGtqcDlRRnFySA?oc=5",
+          "date": "Wed, 07 Jan 2026",
+          "source": "自由財經"
+         },
+         {
+          "title": "全漢、偉訓、僑威電源供應器三雄年營收報喜- 日報 - 工商時報",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94M3pCRzZaUUdGanp2aTJucjJtakw2MmJRVkotVGJVQjNTTXBMVjl2ZmEydDBscHV3SENfVUJJWVBIbTA2dnFtRlQyUGp6V2I3WF9pWFVEa25pLWtFUEgw?oc=5",
+          "date": "Wed, 14 Jan 2026",
+          "source": "工商時報"
+         },
+         {
+          "title": "【營收快訊】全漢(3015)公告05月營收 - CMoney",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA4TmpKOWh5alAzTmVGYlJ1U241UmVjbEFSVnZlNHJ6cF8wcmRlUGZNMldkRU16ZnFsMWNsUlB5QTZoT0dyeU5wa0tMbjJvcmRhZ0VRWmtoZ3o?oc=5",
+          "date": "Sat, 06 Jun 2026",
+          "source": "CMoney"
+         },
+         {
+          "title": "全漢斥資10億 越南建廠 - 經濟日報",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YaDE3djBjMTBvdVRGSjRnN1ZvcDJobVhZWmRmaDVkemtkeGE3bFhiWjhTT1Q3LVcxYkhmeENZMFhmQ3BHQk5pT2JyVmlRMkZEeFNCNmsza19mZ9IBX0FVX3lxTE9lYnB0ZHNzdWFwUjJTeWtuMHNndWJIQkNDT2NvZWNNOFl3LUxZcmZpZzg0dy10ZzI0NWZLTVJHVFNhZHlldS1NVjZlN2l6cURqaFBRbTNQbzMyWldWZF93?oc=5",
+          "date": "Sun, 17 May 2026",
+          "source": "經濟日報"
+         },
+         {
+          "title": "【2026/05月營收公告】全漢(3015) 五月營收11.15億元，創近4個月以來新高，月增3.67%-CMoney 小編 - CMoney投資網誌",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNnVBNVpORVk3aVZRbVpKTXVjT3ZNRlE2dXZ6V2xrc0t6Y0pIQm94VllsWjZRM1pLTnZ5cUpkY3Z4Ti04VTJvNkFCUnFJUTNlcmxlZG5VZ3RhYnRhR1BZT0M3NGJyZGd2YXJ3N09xQXhJRElOMnZtZ2x0OXExRVQyTE9wRlE0RVZUTFE?oc=5",
+          "date": "Sat, 06 Jun 2026",
+          "source": "CMoney投資網誌"
+         },
+         {
+          "title": "(3015) 全漢法說會 2026/03、全漢財報展望、全漢財報投資亮點｜理柴知道:法說最速報! - 方格子 - Vocus",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvNXg0RGtWNU1tSDBQRldDeTlSUE92am40ZTJlamx1UjlnODFfSzBrdzVTVlM2V2FneGo0QzJubkRNU2htV25rckR4aTE1Vm02elVWRTVJTkZNWng3dGfSAWNBVV95cUxPYVlJc3p6YllXUTNmTjRNSDlCeDBWREJ3aWxmdUc1M1FfUEpqZVZuamlyUkMybEI3YzU2bXM2b2w5SlYzcHhSZ0cwbEtJOHB1U1k1Y1k4NFZTNkVfQjFkQ2dkdTQ?oc=5",
+          "date": "Mon, 30 Mar 2026",
+          "source": "Vocus"
+         },
+         {
+          "title": "全漢今年本業看小幅成長，Edge AI挹注動能- 新聞 - MoneyDJ",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV19HNUlPU2cxb0hja0ROY3VBSFpyQXhNZ1NhQVUtSUlwa1BueWt3N0cySXI2U0hxVllGdENOMmt3d2dJM0dJTHI3bEVjU0l2bVZaSG9panBtMklGelM4emhRSmRwN2pLMXFCZFJSZE8yUDlyazRoc1hRNWJxWERWMWVYajVWNlVlWW1iTDBXZ0lJUQ?oc=5",
+          "date": "Wed, 01 Apr 2026",
+          "source": "MoneyDJ"
+         }
+        ],
+        "model": "gemini-flash-latest",
+        "judged_at": "2026-07-03 10:57"
+       }
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 33.5 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "創新高股比率 3.5%，上漲力道普通——書中建議減少單次購買量",
+       "starred": true
+      }
+     ],
+     "score": 64,
+     "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+    },
+    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量",
+    "ai7": {
+     "grade": "X",
+     "one_line": "因歷史成長不穩且近期營收增速已停滯，邊緣AI新動能仍停留在展望階段，無法確認未來能穩健成長。",
+     "analysis": "從財務數據來看，全漢近9年成長年份僅占38%，顯示歷史成長極不穩定，且近3期季營收年增率已一路下滑至12%、-1%、0%，成長動能明顯停滯。雖然新聞指出公司鎖定邊緣AI商機並預期挹注動能，但目前仍處於「拚成長」、「鎖定應用」與「本業看小幅成長」的初期展望階段，尚未轉化為實質且穩定的結構性獲利。此外，越南建廠雖屬產能擴張，但在營收增速放緩的當下，尚無法證明其能帶來穩健的獲利成長，故予以淘汰。",
+     "risks": [
+      "邊緣AI實際需求與訂單不如預期，導致新產品無法有效貢獻獲利。",
+      "越南新廠建設與後續折舊費用可能在短期內稀釋整體毛利率。"
+     ],
+     "sources": [
+      {
+       "title": "啖邊緣AI商機 全漢今年營收拚成長 - Yahoo股市",
+       "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNVWJ2ck9BVUJiaFJMUDJ4U0EtaGI4OUtScVBTOFlyOWZ2TkVHQUlCWFRjOHhlZTJSekFHRmRRdU9LOGdvdUhWeWpwYW8ydXlSY0xrMFZkNDlDX0UyM29yMjVMV1FVSE4zRndJdzIzZW16bTZjVGQtcUhiSThQSk56eDh0LWI1VlN5VkdBNXpRdUJBWkNfSDB5SENSS29VR2dFeWtua3B1RmFZcXY4NjNaZXpiX0syMFl1QW9VYmhySVQwUXFobUkxQk5hVXJqZkFXZUN6S3hDQ1ctT0xaUVNVMlkwb3NUbkRxMF9lSnNNdXdZY3p6MUJKXy1Wb2tkYnVhR1lISDcxRQ?oc=5",
+       "date": "Thu, 02 Apr 2026",
+       "source": "Yahoo股市"
+      },
+      {
+       "title": "全漢2025年營收成長12％ 2026年鎖定AI邊緣應用 - 自由財經",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FaHBZa2daNVF4Uk1LR19TQ2VJai03MzlzQW03Z2stWFlnaER0M3I5M2N0eFBRUy1BTFRpbjZPbHdtdmNoc3ozaEJjay1XM2M5YXlpZWZZSnY5OU8zTVpZ0gFkQVVfeXFMT2RaUktBaHYycWNRTE1SanQ0aVZqMDdfWS1HVzAydThwOWhiVHFXX3JlU3dsVlUxUndmczRWUFdNeUduNjcxbjZPSFF5Q2U0Z0ZkRzJUd3ZLNmd4ZGtqcDlRRnFySA?oc=5",
+       "date": "Wed, 07 Jan 2026",
+       "source": "自由財經"
+      },
+      {
+       "title": "全漢斥資10億 越南建廠 - 經濟日報",
+       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YaDE3djBjMTBvdVRGSjRnN1ZvcDJobVhZWmRmaDVkemtkeGE3bFhiWjhTT1Q3LVcxYkhmeENZMFhmQ3BHQk5pT2JyVmlRMkZEeFNCNmsza19mZ9IBX0FVX3lxTE9lYnB0ZHNzdWFwUjJTeWtuMHNndWJIQkNDT2NvZWNNOFl3LUxZcmZpZzg0dy10ZzI0NWZLTVJHVFNhZHlldS1NVjZlN2l6cURqaFBRbTNQbzMyWldWZF93?oc=5",
+       "date": "Sun, 17 May 2026",
+       "source": "經濟日報"
+      },
+      {
+       "title": "全漢今年本業看小幅成長，Edge AI挹注動能- 新聞 - MoneyDJ",
+       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV19HNUlPU2cxb0hja0ROY3VBSFpyQXhNZ1NhQVUtSUlwa1BueWt3N0cySXI2U0hxVllGdENOMmt3d2dJM0dJTHI3bEVjU0l2bVZaSG9panBtMklGelM4emhRSmRwN2pLMXFCZFJSZE8yUDlyazRoc1hRNWJxWERWMWVYajVWNlVlWW1iTDBXZ0lJUQ?oc=5",
+       "date": "Wed, 01 Apr 2026",
+       "source": "MoneyDJ"
+      }
+     ],
+     "all_news": [
+      {
+       "title": "啖邊緣AI商機 全漢今年營收拚成長 - Yahoo股市",
+       "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNVWJ2ck9BVUJiaFJMUDJ4U0EtaGI4OUtScVBTOFlyOWZ2TkVHQUlCWFRjOHhlZTJSekFHRmRRdU9LOGdvdUhWeWpwYW8ydXlSY0xrMFZkNDlDX0UyM29yMjVMV1FVSE4zRndJdzIzZW16bTZjVGQtcUhiSThQSk56eDh0LWI1VlN5VkdBNXpRdUJBWkNfSDB5SENSS29VR2dFeWtua3B1RmFZcXY4NjNaZXpiX0syMFl1QW9VYmhySVQwUXFobUkxQk5hVXJqZkFXZUN6S3hDQ1ctT0xaUVNVMlkwb3NUbkRxMF9lSnNNdXdZY3p6MUJKXy1Wb2tkYnVhR1lISDcxRQ?oc=5",
+       "date": "Thu, 02 Apr 2026",
+       "source": "Yahoo股市"
+      },
+      {
+       "title": "全漢2025年營收成長12％ 2026年鎖定AI邊緣應用 - 自由財經",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FaHBZa2daNVF4Uk1LR19TQ2VJai03MzlzQW03Z2stWFlnaER0M3I5M2N0eFBRUy1BTFRpbjZPbHdtdmNoc3ozaEJjay1XM2M5YXlpZWZZSnY5OU8zTVpZ0gFkQVVfeXFMT2RaUktBaHYycWNRTE1SanQ0aVZqMDdfWS1HVzAydThwOWhiVHFXX3JlU3dsVlUxUndmczRWUFdNeUduNjcxbjZPSFF5Q2U0Z0ZkRzJUd3ZLNmd4ZGtqcDlRRnFySA?oc=5",
+       "date": "Wed, 07 Jan 2026",
+       "source": "自由財經"
+      },
+      {
+       "title": "全漢、偉訓、僑威電源供應器三雄年營收報喜- 日報 - 工商時報",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94M3pCRzZaUUdGanp2aTJucjJtakw2MmJRVkotVGJVQjNTTXBMVjl2ZmEydDBscHV3SENfVUJJWVBIbTA2dnFtRlQyUGp6V2I3WF9pWFVEa25pLWtFUEgw?oc=5",
+       "date": "Wed, 14 Jan 2026",
+       "source": "工商時報"
+      },
+      {
+       "title": "【營收快訊】全漢(3015)公告05月營收 - CMoney",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA4TmpKOWh5alAzTmVGYlJ1U241UmVjbEFSVnZlNHJ6cF8wcmRlUGZNMldkRU16ZnFsMWNsUlB5QTZoT0dyeU5wa0tMbjJvcmRhZ0VRWmtoZ3o?oc=5",
+       "date": "Sat, 06 Jun 2026",
+       "source": "CMoney"
+      },
+      {
+       "title": "全漢斥資10億 越南建廠 - 經濟日報",
+       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YaDE3djBjMTBvdVRGSjRnN1ZvcDJobVhZWmRmaDVkemtkeGE3bFhiWjhTT1Q3LVcxYkhmeENZMFhmQ3BHQk5pT2JyVmlRMkZEeFNCNmsza19mZ9IBX0FVX3lxTE9lYnB0ZHNzdWFwUjJTeWtuMHNndWJIQkNDT2NvZWNNOFl3LUxZcmZpZzg0dy10ZzI0NWZLTVJHVFNhZHlldS1NVjZlN2l6cURqaFBRbTNQbzMyWldWZF93?oc=5",
+       "date": "Sun, 17 May 2026",
+       "source": "經濟日報"
+      },
+      {
+       "title": "【2026/05月營收公告】全漢(3015) 五月營收11.15億元，創近4個月以來新高，月增3.67%-CMoney 小編 - CMoney投資網誌",
+       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNnVBNVpORVk3aVZRbVpKTXVjT3ZNRlE2dXZ6V2xrc0t6Y0pIQm94VllsWjZRM1pLTnZ5cUpkY3Z4Ti04VTJvNkFCUnFJUTNlcmxlZG5VZ3RhYnRhR1BZT0M3NGJyZGd2YXJ3N09xQXhJRElOMnZtZ2x0OXExRVQyTE9wRlE0RVZUTFE?oc=5",
+       "date": "Sat, 06 Jun 2026",
+       "source": "CMoney投資網誌"
+      },
+      {
+       "title": "(3015) 全漢法說會 2026/03、全漢財報展望、全漢財報投資亮點｜理柴知道:法說最速報! - 方格子 - Vocus",
+       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvNXg0RGtWNU1tSDBQRldDeTlSUE92am40ZTJlamx1UjlnODFfSzBrdzVTVlM2V2FneGo0QzJubkRNU2htV25rckR4aTE1Vm02elVWRTVJTkZNWng3dGfSAWNBVV95cUxPYVlJc3p6YllXUTNmTjRNSDlCeDBWREJ3aWxmdUc1M1FfUEpqZVZuamlyUkMybEI3YzU2bXM2b2w5SlYzcHhSZ0cwbEtJOHB1U1k1Y1k4NFZTNkVfQjFkQ2dkdTQ?oc=5",
+       "date": "Mon, 30 Mar 2026",
+       "source": "Vocus"
+      },
+      {
+       "title": "全漢今年本業看小幅成長，Edge AI挹注動能- 新聞 - MoneyDJ",
+       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV19HNUlPU2cxb0hja0ROY3VBSFpyQXhNZ1NhQVUtSUlwa1BueWt3N0cySXI2U0hxVllGdENOMmt3d2dJM0dJTHI3bEVjU0l2bVZaSG9panBtMklGelM4emhRSmRwN2pLMXFCZFJSZE8yUDlyazRoc1hRNWJxWERWMWVYajVWNlVlWW1iTDBXZ0lJUQ?oc=5",
+       "date": "Wed, 01 Apr 2026",
+       "source": "MoneyDJ"
+      }
+     ],
+     "model": "gemini-flash-latest",
+     "judged_at": "2026-07-03 10:57"
+    }
    },
    {
     "ticker": "8109.TWO",
@@ -4942,7 +6013,7 @@
     "ticker": "3023.TW",
     "name": "信邦",
     "close": 336.5,
-    "rebound": 0.9783125109810908,
+    "rebound": 0.9783123261563771,
     "rebound_grade": "O",
     "base_quality": 0.7210189841034587,
     "scorecard": {
@@ -5111,6 +6182,237 @@
      "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
     },
     "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+   },
+   {
+    "ticker": "2816.TW",
+    "name": "旺旺保",
+    "close": 34.85,
+    "rebound": 0.8665734776838266,
+    "rebound_grade": "O",
+    "base_quality": 0.8175410893092732,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 34.85 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 87%（目標≥60%），平穩期品質 82%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近9年平均年成長 -34%，成長年份占 57%",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近四季獲利年增 51%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近3期季營收年增 -1%、12%、3%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "近3季獲利年增 94%、15%、348%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "AI 判斷（僅供參考，請複核依據）：公司獲利成長主要依賴台股大漲與產險業整體景氣回升，屬於景氣發言而非結構性成長。",
+       "starred": true,
+       "ai": {
+        "grade": "X",
+        "one_line": "公司獲利成長主要依賴台股大漲與產險業整體景氣回升，屬於景氣發言而非結構性成長。",
+        "analysis": "根據新聞報導，旺旺保樂觀看待今年獲利能有雙位數成長，其主要原因為『台股飆』所帶來的投資收益增加。此外，相關報導亦指出整體產險業第一季獲利吃補、今年是好年，顯示此成長屬於行業與金融市場的景氣循環回升。由於缺乏公司在商業模式、市占率或產業趨勢上發生結構性變化的證據，依檢核表標準應判定為不合格。",
+        "risks": "金融市場波動導致投資收益大幅縮水、產險市場景氣回檔導致保費收入成長放緩。",
+        "sources": [
+         {
+          "title": "旺旺保股東會》台股飆！樂看今年「再賺破10億元」 雙位數成長 - Yahoo股市",
+          "link": "https://news.google.com/rss/articles/CBMiowNBVV95cUxQR3doM29BcHB6T05ub0JqWlNPYy10UmNuQnRpcUF5NjV2WGd1SVljYldqal93dXNDSHRWcDZlQXZiNDE5Q2F0anoySHF2ekNkMkRKMTJCZEhGakIyY0tXRk9Kd3Z5R09wRERSNEFTZVBYRDZZTm1uRUhkUDJnVHN1bEYwMFJiXzhKbTA0eFVFMlFreHVIdk1tbUVNTlg2RDlaM1ZVY1hrLVd1MHRoa3FsMHVIOWxGd1BVTUg2UkgzTmdjZXN5Q2ZsWkstV0VOSXNNeUtaalJfLWZvdHdSM3NMLXhRLVI3OUUyaTNaemxydFQ1MURrYWtSWFBZU2ZSVmxMNERsamFTQ1NSMGNieHlDQ0FGTXZEMzVfeEFwc0JVbnZGVTdvUnlLRy0xV3A4QW1Fd1VyNzh6UWlWd2xrOFFBVFo5elk5Z0FrREpZRG9RSy16YmN4TUlUUlVpX3VqckdEVnR5ZFBuOWJfSHFTc3RLLVN2Slo1cElzSnlNaWtzeDZxckJ1cmtQeVV5YzhVTEY5ZU80NWhhM3VEV3Rua0RRcHl3MA?oc=5",
+          "date": "Thu, 28 May 2026",
+          "source": "Yahoo股市"
+         },
+         {
+          "title": "《DJ在線》產險業Q1獲利吃補，今年仍是好年- 新聞 - MoneyDJ",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa1M3ejVJQno4cjFXMjc3RHl4ZkM1TDlrZEtGVGMzOVc5VlYtM09qN0kwem5yeTJsQlZVd1JJOVo5Z2hEVVE1UFNmSnE4RTE0eHRNcnlCV1k4Q2xLalNMNzVJZURzMEhDYTJUYmN1R003LWF6c1h6WnZuMXBsM2psNENYa0VJaEpjdHdpMUNkbHczUQ?oc=5",
+          "date": "Mon, 18 May 2026",
+          "source": "MoneyDJ"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "2816 旺旺保 - 6月結束了 可以估6月營收和Q2 EPS了 今天大盤收46... - 股市爆料同學會 - CMoney",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBmY1NZYXhhSVdGRnlCTlRlbmFBalFuLTBVNDlPMnc4MzhiZWJTdFZhNENWX3pKN3BTbmtHWTJFb3JWdmtRTk1YQzlVaUdlSU5vYjhKbldxZ1g?oc=5",
+          "date": "Tue, 30 Jun 2026",
+          "source": "CMoney"
+         },
+         {
+          "title": "旺旺保股東會》台股飆！樂看今年「再賺破10億元」 雙位數成長 - Yahoo股市",
+          "link": "https://news.google.com/rss/articles/CBMiowNBVV95cUxQR3doM29BcHB6T05ub0JqWlNPYy10UmNuQnRpcUF5NjV2WGd1SVljYldqal93dXNDSHRWcDZlQXZiNDE5Q2F0anoySHF2ekNkMkRKMTJCZEhGakIyY0tXRk9Kd3Z5R09wRERSNEFTZVBYRDZZTm1uRUhkUDJnVHN1bEYwMFJiXzhKbTA0eFVFMlFreHVIdk1tbUVNTlg2RDlaM1ZVY1hrLVd1MHRoa3FsMHVIOWxGd1BVTUg2UkgzTmdjZXN5Q2ZsWkstV0VOSXNNeUtaalJfLWZvdHdSM3NMLXhRLVI3OUUyaTNaemxydFQ1MURrYWtSWFBZU2ZSVmxMNERsamFTQ1NSMGNieHlDQ0FGTXZEMzVfeEFwc0JVbnZGVTdvUnlLRy0xV3A4QW1Fd1VyNzh6UWlWd2xrOFFBVFo5elk5Z0FrREpZRG9RSy16YmN4TUlUUlVpX3VqckdEVnR5ZFBuOWJfSHFTc3RLLVN2Slo1cElzSnlNaWtzeDZxckJ1cmtQeVV5YzhVTEY5ZU80NWhhM3VEV3Rua0RRcHl3MA?oc=5",
+          "date": "Thu, 28 May 2026",
+          "source": "Yahoo股市"
+         },
+         {
+          "title": "旺旺保簽單保費、營業收入雙雙創高 股東會通過現金股利1.5元 - 工商時報",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9WYkhPQWsyekZRN195OFJtd2hBWS10VDE1Sm9UNkxuZWx2YTRnQ3p2VWM2b2RqS1dESmRGUGVQakNIZGx4b2JfMUg0MEc3YmpaREpHLXZqdnBFOVNHbUx3?oc=5",
+          "date": "Fri, 29 May 2026",
+          "source": "工商時報"
+         },
+         {
+          "title": "旺旺保股東會／通過配發每股現金股息1.5元 - UDN",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBISnRuZlF3M2VPNjBsal9wX1FVQ29NYk93aGZ0cU05dVZidXc0aFlZSXNUYlBFeFp4Nk0tS3JWNGV1Yi1CcmI5MDZ3TXJYb2pt0gFWQVVfeXFMUFlWVHBmR3dxNFVIQlVnMkhVREYyVEdYcFVlbEdNSlVaUVFpdzg1NkRWOUxEbEhIZ0wzZ1ZueU81ZzV3SzR4ei1jSWxBekdBZER2U2dYNmc?oc=5",
+          "date": "Fri, 29 May 2026",
+          "source": "UDN"
+         },
+         {
+          "title": "旺旺保股東會決議每股配發1.5元 現金殖利率達4.67％ | CTWANT - LINE TODAY",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1xUGFRWndPSjYwVEd3OFJ5VFVUc1JJaV91VEE3UGtQV3lEbGFnaFlsdjZ0YmNqNjFaZEJYcGU4cUZleVZ3bVF2VEh2d04xU1h1bG5FQVhR?oc=5",
+          "date": "Thu, 28 May 2026",
+          "source": "LINE TODAY"
+         },
+         {
+          "title": "【2026/04月營收公告】旺旺保(2816) 四月營收19.21億元，表現亮眼、呈現雙成長，創歷史新高，年增78.74% - CMoney投資網誌",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbTBRUlpOMmpXTVRsb0luUkJ4d1ZFRm4tMk9nYzdYUmVFNHNMVkMxNmxPZ3BJNF81MGRxNVNuQl9rN0VycEFmN0RKRnJMTUFWbDR6OVJOZnJHU09rZ05PenBGZjlUSlcxeUhPekxLU2NGcE9RR3ZTWUxmNFNyZmNNOW9QWDQ0ZWpnYWc?oc=5",
+          "date": "Fri, 15 May 2026",
+          "source": "CMoney投資網誌"
+         },
+         {
+          "title": "旺旺保股東會通過配息1.5元 114年保費、營收雙創高- 金融 - 工商時報",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qRUYwRmYwdldTdlJZcmRfYmhuOWg2UkZfYjJfQXh1SDZTeEJTcThBUUpxcmd3YXVlaDIycFB3VGREZ3NiRkFUVUZVblprektxXzluTUdnWS1FZVE0OVB3?oc=5",
+          "date": "Fri, 29 May 2026",
+          "source": "工商時報"
+         },
+         {
+          "title": "《DJ在線》產險業Q1獲利吃補，今年仍是好年- 新聞 - MoneyDJ",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa1M3ejVJQno4cjFXMjc3RHl4ZkM1TDlrZEtGVGMzOVc5VlYtM09qN0kwem5yeTJsQlZVd1JJOVo5Z2hEVVE1UFNmSnE4RTE0eHRNcnlCV1k4Q2xLalNMNzVJZURzMEhDYTJUYmN1R003LWF6c1h6WnZuMXBsM2psNENYa0VJaEpjdHdpMUNkbHczUQ?oc=5",
+          "date": "Mon, 18 May 2026",
+          "source": "MoneyDJ"
+         }
+        ],
+        "model": "gemini-flash-latest",
+        "judged_at": "2026-07-03 10:57"
+       }
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 7.5 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "創新高股比率 3.5%，上漲力道普通——書中建議減少單次購買量",
+       "starred": true
+      }
+     ],
+     "score": 57,
+     "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+    },
+    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+    "ai7": {
+     "grade": "X",
+     "one_line": "公司獲利成長主要依賴台股大漲與產險業整體景氣回升，屬於景氣發言而非結構性成長。",
+     "analysis": "根據新聞報導，旺旺保樂觀看待今年獲利能有雙位數成長，其主要原因為『台股飆』所帶來的投資收益增加。此外，相關報導亦指出整體產險業第一季獲利吃補、今年是好年，顯示此成長屬於行業與金融市場的景氣循環回升。由於缺乏公司在商業模式、市占率或產業趨勢上發生結構性變化的證據，依檢核表標準應判定為不合格。",
+     "risks": "金融市場波動導致投資收益大幅縮水、產險市場景氣回檔導致保費收入成長放緩。",
+     "sources": [
+      {
+       "title": "旺旺保股東會》台股飆！樂看今年「再賺破10億元」 雙位數成長 - Yahoo股市",
+       "link": "https://news.google.com/rss/articles/CBMiowNBVV95cUxQR3doM29BcHB6T05ub0JqWlNPYy10UmNuQnRpcUF5NjV2WGd1SVljYldqal93dXNDSHRWcDZlQXZiNDE5Q2F0anoySHF2ekNkMkRKMTJCZEhGakIyY0tXRk9Kd3Z5R09wRERSNEFTZVBYRDZZTm1uRUhkUDJnVHN1bEYwMFJiXzhKbTA0eFVFMlFreHVIdk1tbUVNTlg2RDlaM1ZVY1hrLVd1MHRoa3FsMHVIOWxGd1BVTUg2UkgzTmdjZXN5Q2ZsWkstV0VOSXNNeUtaalJfLWZvdHdSM3NMLXhRLVI3OUUyaTNaemxydFQ1MURrYWtSWFBZU2ZSVmxMNERsamFTQ1NSMGNieHlDQ0FGTXZEMzVfeEFwc0JVbnZGVTdvUnlLRy0xV3A4QW1Fd1VyNzh6UWlWd2xrOFFBVFo5elk5Z0FrREpZRG9RSy16YmN4TUlUUlVpX3VqckdEVnR5ZFBuOWJfSHFTc3RLLVN2Slo1cElzSnlNaWtzeDZxckJ1cmtQeVV5YzhVTEY5ZU80NWhhM3VEV3Rua0RRcHl3MA?oc=5",
+       "date": "Thu, 28 May 2026",
+       "source": "Yahoo股市"
+      },
+      {
+       "title": "《DJ在線》產險業Q1獲利吃補，今年仍是好年- 新聞 - MoneyDJ",
+       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa1M3ejVJQno4cjFXMjc3RHl4ZkM1TDlrZEtGVGMzOVc5VlYtM09qN0kwem5yeTJsQlZVd1JJOVo5Z2hEVVE1UFNmSnE4RTE0eHRNcnlCV1k4Q2xLalNMNzVJZURzMEhDYTJUYmN1R003LWF6c1h6WnZuMXBsM2psNENYa0VJaEpjdHdpMUNkbHczUQ?oc=5",
+       "date": "Mon, 18 May 2026",
+       "source": "MoneyDJ"
+      }
+     ],
+     "all_news": [
+      {
+       "title": "2816 旺旺保 - 6月結束了 可以估6月營收和Q2 EPS了 今天大盤收46... - 股市爆料同學會 - CMoney",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBmY1NZYXhhSVdGRnlCTlRlbmFBalFuLTBVNDlPMnc4MzhiZWJTdFZhNENWX3pKN3BTbmtHWTJFb3JWdmtRTk1YQzlVaUdlSU5vYjhKbldxZ1g?oc=5",
+       "date": "Tue, 30 Jun 2026",
+       "source": "CMoney"
+      },
+      {
+       "title": "旺旺保股東會》台股飆！樂看今年「再賺破10億元」 雙位數成長 - Yahoo股市",
+       "link": "https://news.google.com/rss/articles/CBMiowNBVV95cUxQR3doM29BcHB6T05ub0JqWlNPYy10UmNuQnRpcUF5NjV2WGd1SVljYldqal93dXNDSHRWcDZlQXZiNDE5Q2F0anoySHF2ekNkMkRKMTJCZEhGakIyY0tXRk9Kd3Z5R09wRERSNEFTZVBYRDZZTm1uRUhkUDJnVHN1bEYwMFJiXzhKbTA0eFVFMlFreHVIdk1tbUVNTlg2RDlaM1ZVY1hrLVd1MHRoa3FsMHVIOWxGd1BVTUg2UkgzTmdjZXN5Q2ZsWkstV0VOSXNNeUtaalJfLWZvdHdSM3NMLXhRLVI3OUUyaTNaemxydFQ1MURrYWtSWFBZU2ZSVmxMNERsamFTQ1NSMGNieHlDQ0FGTXZEMzVfeEFwc0JVbnZGVTdvUnlLRy0xV3A4QW1Fd1VyNzh6UWlWd2xrOFFBVFo5elk5Z0FrREpZRG9RSy16YmN4TUlUUlVpX3VqckdEVnR5ZFBuOWJfSHFTc3RLLVN2Slo1cElzSnlNaWtzeDZxckJ1cmtQeVV5YzhVTEY5ZU80NWhhM3VEV3Rua0RRcHl3MA?oc=5",
+       "date": "Thu, 28 May 2026",
+       "source": "Yahoo股市"
+      },
+      {
+       "title": "旺旺保簽單保費、營業收入雙雙創高 股東會通過現金股利1.5元 - 工商時報",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9WYkhPQWsyekZRN195OFJtd2hBWS10VDE1Sm9UNkxuZWx2YTRnQ3p2VWM2b2RqS1dESmRGUGVQakNIZGx4b2JfMUg0MEc3YmpaREpHLXZqdnBFOVNHbUx3?oc=5",
+       "date": "Fri, 29 May 2026",
+       "source": "工商時報"
+      },
+      {
+       "title": "旺旺保股東會／通過配發每股現金股息1.5元 - UDN",
+       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBISnRuZlF3M2VPNjBsal9wX1FVQ29NYk93aGZ0cU05dVZidXc0aFlZSXNUYlBFeFp4Nk0tS3JWNGV1Yi1CcmI5MDZ3TXJYb2pt0gFWQVVfeXFMUFlWVHBmR3dxNFVIQlVnMkhVREYyVEdYcFVlbEdNSlVaUVFpdzg1NkRWOUxEbEhIZ0wzZ1ZueU81ZzV3SzR4ei1jSWxBekdBZER2U2dYNmc?oc=5",
+       "date": "Fri, 29 May 2026",
+       "source": "UDN"
+      },
+      {
+       "title": "旺旺保股東會決議每股配發1.5元 現金殖利率達4.67％ | CTWANT - LINE TODAY",
+       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1xUGFRWndPSjYwVEd3OFJ5VFVUc1JJaV91VEE3UGtQV3lEbGFnaFlsdjZ0YmNqNjFaZEJYcGU4cUZleVZ3bVF2VEh2d04xU1h1bG5FQVhR?oc=5",
+       "date": "Thu, 28 May 2026",
+       "source": "LINE TODAY"
+      },
+      {
+       "title": "【2026/04月營收公告】旺旺保(2816) 四月營收19.21億元，表現亮眼、呈現雙成長，創歷史新高，年增78.74% - CMoney投資網誌",
+       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbTBRUlpOMmpXTVRsb0luUkJ4d1ZFRm4tMk9nYzdYUmVFNHNMVkMxNmxPZ3BJNF81MGRxNVNuQl9rN0VycEFmN0RKRnJMTUFWbDR6OVJOZnJHU09rZ05PenBGZjlUSlcxeUhPekxLU2NGcE9RR3ZTWUxmNFNyZmNNOW9QWDQ0ZWpnYWc?oc=5",
+       "date": "Fri, 15 May 2026",
+       "source": "CMoney投資網誌"
+      },
+      {
+       "title": "旺旺保股東會通過配息1.5元 114年保費、營收雙創高- 金融 - 工商時報",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qRUYwRmYwdldTdlJZcmRfYmhuOWg2UkZfYjJfQXh1SDZTeEJTcThBUUpxcmd3YXVlaDIycFB3VGREZ3NiRkFUVUZVblprektxXzluTUdnWS1FZVE0OVB3?oc=5",
+       "date": "Fri, 29 May 2026",
+       "source": "工商時報"
+      },
+      {
+       "title": "《DJ在線》產險業Q1獲利吃補，今年仍是好年- 新聞 - MoneyDJ",
+       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa1M3ejVJQno4cjFXMjc3RHl4ZkM1TDlrZEtGVGMzOVc5VlYtM09qN0kwem5yeTJsQlZVd1JJOVo5Z2hEVVE1UFNmSnE4RTE0eHRNcnlCV1k4Q2xLalNMNzVJZURzMEhDYTJUYmN1R003LWF6c1h6WnZuMXBsM2psNENYa0VJaEpjdHdpMUNkbHczUQ?oc=5",
+       "date": "Mon, 18 May 2026",
+       "source": "MoneyDJ"
+      }
+     ],
+     "model": "gemini-flash-latest",
+     "judged_at": "2026-07-03 10:57"
+    }
    },
    {
     "ticker": "3479.TWO",
@@ -6072,22 +7374,90 @@
   ],
   "holdings": [],
   "paper": {
-   "start_capital": 100000,
-   "cash": 100000,
-   "equity": 100000,
+   "start_capital": 1000000,
+   "cash": 849796.95,
+   "equity": 1003761.62,
    "equity_history": [
     {
      "date": "2026-07-03",
-     "equity": 100000
+     "equity": 1003761.62
     }
    ],
-   "positions": [],
-   "trades": [],
-   "n_trades": 0,
+   "positions": [
+    {
+     "ticker": "2887.TW",
+     "name": "台新新光金",
+     "shares": 1517.4506,
+     "buy_price": 32.95000076293945,
+     "buy_date": "2026-07-03",
+     "last_price": 34.150001525878906,
+     "status": "HOLD",
+     "status_note": "",
+     "pnl_pct": 0.036418838699668665,
+     "stop_price": 30.31
+    },
+    {
+     "ticker": "2851.TW",
+     "name": "中再保",
+     "shares": 1349.4315,
+     "buy_price": 37.04999923706055,
+     "buy_date": "2026-07-03",
+     "last_price": 38.45000076293945,
+     "status": "HOLD",
+     "status_note": "",
+     "pnl_pct": 0.037786816591308,
+     "stop_price": 34.09
+    },
+    {
+     "ticker": "2415.TW",
+     "name": "錩新",
+     "shares": 1326.0709,
+     "buy_price": 37.70000076293945,
+     "buy_date": "2026-07-03",
+     "last_price": 37.900001525878906,
+     "status": "HOLD",
+     "status_note": "",
+     "pnl_pct": 0.00530505991756014,
+     "stop_price": 34.68
+    }
+   ],
+   "trades": [
+    {
+     "date": "2026-07-03",
+     "action": "BUY",
+     "ticker": "2887.TW",
+     "name": "台新新光金",
+     "price": 32.95000076293945,
+     "shares": 1517.4506,
+     "amount": 50071.25,
+     "reason": "買進訊號（黃燈基準 × 檢核100分 → 部位 5.0%）"
+    },
+    {
+     "date": "2026-07-03",
+     "action": "BUY",
+     "ticker": "2851.TW",
+     "name": "中再保",
+     "price": 37.04999923706055,
+     "shares": 1349.4315,
+     "amount": 50067.68,
+     "reason": "買進訊號（黃燈基準 × 檢核100分 → 部位 5.0%）"
+    },
+    {
+     "date": "2026-07-03",
+     "action": "BUY",
+     "ticker": "2415.TW",
+     "name": "錩新",
+     "price": 37.70000076293945,
+     "shares": 1326.0709,
+     "amount": 50064.11,
+     "reason": "買進訊號（黃燈基準 × 檢核100分 → 部位 5.0%）"
+    }
+   ],
+   "n_trades": 3,
    "pending_buys": [
-    "台新新光金",
-    "中再保",
-    "錩新"
+    "聚和",
+    "環泰",
+    "全漢"
    ],
    "pending_sells": []
   }
