@@ -72,3 +72,26 @@ def test_mark_to_market_same_day_overwrites():
     mark_to_market(pm, {}, "2026-07-07")
     mark_to_market(pm, {}, "2026-07-07")
     assert len(pm["equity_history"]) == 1
+
+
+def test_run_paper_cycle_attaches_sell_status_and_queues_sell():
+    from engine.paper import run_paper_cycle
+
+    pm = new_portfolio(100_000)
+    execute_buy(pm, "tw", "9999.TW", "測試", 100.0, "2026-07-06", "green")
+    evals = [{"ticker": "9999.TW", "action": "SELL_NOW",
+              "reasons": ["停損：現價 91 低於買價 100 達 9.0%（門檻 8%），立即賣出"]}]
+    run_paper_cycle(pm, "tw", "2026-07-07", opens={}, closes={"9999.TW": 91.0},
+                    candidates=[], holding_evals=evals, light="green")
+    pos = pm["positions"][0]
+    assert pos["status"] == "SELL_NOW"
+    assert "已排明日開盤賣出" in pos["status_note"]
+    assert pm["pending_sells"][0]["ticker"] == "9999.TW"
+
+
+def test_position_size_scaled_by_score():
+    # 部位 = 燈號基準 ×（檢核分數/100）
+    assert position_size_pct("green", 96) == pytest.approx(0.096)
+    assert position_size_pct("yellow", 78) == pytest.approx(0.039)
+    assert position_size_pct("red", 100) == 0.0
+    assert position_size_pct("green") == 0.10  # 未提供分數時視為滿分（相容舊排單）

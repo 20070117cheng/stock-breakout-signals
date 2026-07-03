@@ -106,11 +106,17 @@ def parse_llm_json(text: str) -> dict | None:
 
 # ---------- 主流程 ----------
 
+FALLBACK_MODELS = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-2.0-flash"]
+
+
 def judge_candidate(market: str, ticker: str, name: str,
                     fundamentals_text: str, cfg: dict) -> dict | None:
     """回傳 {grade, one_line, analysis, risks, sources, model, judged_at} 或 None（降級）。"""
     api_key = os.environ.get("GEMINI_API_KEY", "")
-    if not api_key or not cfg.get("ai_judge_enabled", True):
+    if not cfg.get("ai_judge_enabled", True):
+        return None
+    if not api_key:
+        print("[ai_judge] 未設 GEMINI_API_KEY，第⑦項維持人工判斷")
         return None
 
     business, industry = "", ""
@@ -124,40 +130,52 @@ def judge_candidate(market: str, ticker: str, name: str,
 
     news = fetch_news(name, market)
     prompt = build_prompt(name, market, business, industry, fundamentals_text, news)
-    model = cfg.get("gemini_model", "gemini-2.0-flash")
+    # 設定的模型優先，之後嘗試備援清單（Google 模型汰換快，避免因退役而停擺）
+    models = [cfg.get("gemini_model", "gemini-flash-latest")]
+    models += [m for m in FALLBACK_MODELS if m not in models]
 
-    for attempt in range(2):
-        try:
-            r = requests.post(
-                GEMINI_URL.format(model=model),
-                params={"key": api_key},
-                json={
-                    "contents": [{"parts": [{"text": prompt}]}],
-                    "generationConfig": {"temperature": 0.2, "response_mime_type": "application/json"},
-                },
-                timeout=60,
-            )
-            if r.status_code == 429:
-                time.sleep(20)
-                continue
-            r.raise_for_status()
-            text = r.json()["candidates"][0]["content"]["parts"][0]["text"]
-            out = parse_llm_json(text)
-            if out is None:
-                return None
-            used = out.get("sources_used") or []
-            sources = [news[i - 1] for i in used if isinstance(i, int) and 1 <= i <= len(news)]
-            return {
-                "grade": out["grade"],
-                "one_line": out["one_line"],
-                "analysis": out.get("analysis", ""),
-                "risks": out.get("risks", ""),
-                "sources": sources,
-                "all_news": news,
-                "model": model,
-                "judged_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
-            }
-        except Exception as e:
-            print(f"[ai_judge] {ticker} 第 {attempt + 1} 次呼叫失敗：{e}")
-            time.sleep(5)
+    for model in models:
+        for attempt in range(2):
+            try:
+                r = requests.post(
+                    GEMINI_URL.format(model=model),
+                    params={"key": api_key},
+                    json={
+                        "contents": [{"parts": [{"text": prompt}]}],
+                        "generationConfig": {"temperature": 0.2, "response_mime_type": "application/json"},
+                    },
+                    timeout=60,
+                )
+                if r.status_code == 404:
+                    print(f"[ai_judge] 模型 {model} 不存在（可能已退役），換下一個")
+                    break  # 換模型
+                if r.status_code == 429:
+                    print(f"[ai_judge] {model} 額度暫時用盡，20 秒後重試")
+                    time.sleep(20)
+                    continue
+                if r.status_code in (400, 401, 403):
+                    print(f"[ai_judge] 金鑰或請求問題（HTTP {r.status_code}）：{r.text[:300]}")
+                    return None  # 金鑰問題重試無益
+                r.raise_for_status()
+                text = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+                out = parse_llm_json(text)
+                if out is None:
+                    print(f"[ai_judge] {ticker} 模型輸出無法解析，跳過")
+                    return None
+                used = out.get("sources_used") or []
+                sources = [news[i - 1] for i in used if isinstance(i, int) and 1 <= i <= len(news)]
+                return {
+                    "grade": out["grade"],
+                    "one_line": out["one_line"],
+                    "analysis": out.get("analysis", ""),
+                    "risks": out.get("risks", ""),
+                    "sources": sources,
+                    "all_news": news,
+                    "model": model,
+                    "judged_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
+                }
+            except Exception as e:
+                print(f"[ai_judge] {ticker}（{model}）第 {attempt + 1} 次呼叫失敗：{e}")
+                time.sleep(5)
+    print(f"[ai_judge] {ticker} 所有模型都失敗，第⑦項退回人工")
     return None

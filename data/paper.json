@@ -1,7 +1,7 @@
 {
  "tw": {
-  "start_capital": 100000,
-  "cash": 100000,
+  "start_capital": 1000000,
+  "cash": 1000000,
   "positions": [],
   "pending_buys": [
    {
@@ -30,10 +30,26 @@
   ]
  },
  "us": {
-  "start_capital": 3000,
-  "cash": 3000,
+  "start_capital": 30000,
+  "cash": 30000,
   "positions": [],
-  "pending_buys": [],
+  "pending_buys": [
+   {
+    "ticker": "AIZ",
+    "name": "Assurant",
+    "light": "green"
+   },
+   {
+    "ticker": "VRTX",
+    "name": "Vertex Pharmaceuticals",
+    "light": "green"
+   },
+   {
+    "ticker": "TRV",
+    "name": "Travelers Companies (The)",
+    "light": "green"
+   }
+  ],
   "pending_sells": [],
   "trades": [],
   "equity_history": []
