@@ -96,7 +96,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 20999.998347813475,
+  "cash": 18611.13972593876,
   "positions": [
    {
     "ticker": "AIZ",
@@ -127,16 +127,19 @@
     "last_price": 342.30999755859375,
     "status": "HOLD",
     "status_note": ""
-   }
-  ],
-  "pending_buys": [
+   },
    {
     "ticker": "ALL",
     "name": "Allstate",
-    "light": "green",
-    "score": 79
+    "shares": 9.8145,
+    "buy_price": 243.39999389648438,
+    "buy_date": "2026-07-02",
+    "last_price": 250.3300018310547,
+    "status": "HOLD",
+    "status_note": ""
    }
   ],
+  "pending_buys": [],
   "pending_sells": [],
   "trades": [
    {
@@ -168,12 +171,22 @@
     "shares": 8.9278,
     "amount": 3000.0,
     "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%）"
+   },
+   {
+    "date": "2026-07-02",
+    "action": "BUY",
+    "ticker": "ALL",
+    "name": "Allstate",
+    "price": 243.39999389648438,
+    "shares": 9.8145,
+    "amount": 2388.86,
+    "reason": "買進訊號（綠燈基準 × 檢核79分 → 部位 7.9%）"
    }
   ],
   "equity_history": [
    {
     "date": "2026-07-02",
-    "equity": 30238.72
+    "equity": 30306.72
    }
   ]
  }
