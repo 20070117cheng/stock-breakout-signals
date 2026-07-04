@@ -179,6 +179,13 @@ def main() -> None:
     date_str = close.index.max().strftime("%Y-%m-%d")
     print(f"[main] 價格快取更新完成，最新日期 {date_str}")
 
+    # 休市保護：最新資料日期和上次處理的一樣（假日/補假），代表沒有新交易日，
+    # 直接結束——避免同一天的訊號重複寄信、虛擬操盤重複處理
+    prev_date = (report.load_state().get(market) or {}).get("date")
+    if prev_date == date_str:
+        print(f"[main] {date_str} 已處理過（今日休市，無新資料），跳過本次執行")
+        return
+
     # 2. 大盤燈號（⑨）
     ratio = mk.new_high_ratio_series(close)
     top50_hits = mk.top50_recent_new_highs(close, cfg[f"{market}_top50"])
