@@ -1,39 +1,8 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 849796.9527018379,
-  "positions": [
-   {
-    "ticker": "2887.TW",
-    "name": "台新新光金",
-    "shares": 1517.4506,
-    "buy_price": 32.95000076293945,
-    "buy_date": "2026-07-03",
-    "last_price": 34.150001525878906,
-    "status": "HOLD",
-    "status_note": ""
-   },
-   {
-    "ticker": "2851.TW",
-    "name": "中再保",
-    "shares": 1349.4315,
-    "buy_price": 37.04999923706055,
-    "buy_date": "2026-07-03",
-    "last_price": 38.45000076293945,
-    "status": "HOLD",
-    "status_note": ""
-   },
-   {
-    "ticker": "2415.TW",
-    "name": "錩新",
-    "shares": 1326.0709,
-    "buy_price": 37.70000076293945,
-    "buy_date": "2026-07-03",
-    "last_price": 37.900001525878906,
-    "status": "HOLD",
-    "status_note": ""
-   }
-  ],
+  "cash": 1000000,
+  "positions": [],
   "pending_buys": [
    {
     "ticker": "6509.TWO",
@@ -52,142 +21,62 @@
     "name": "全漢",
     "light": "yellow",
     "score": 64
+   },
+   {
+    "ticker": "2887.TW",
+    "name": "台新新光金",
+    "light": "yellow",
+    "score": 100
+   },
+   {
+    "ticker": "2851.TW",
+    "name": "中再保",
+    "light": "yellow",
+    "score": 100
+   },
+   {
+    "ticker": "2415.TW",
+    "name": "錩新",
+    "light": "yellow",
+    "score": 100
    }
   ],
   "pending_sells": [],
-  "trades": [
-   {
-    "date": "2026-07-03",
-    "action": "BUY",
-    "ticker": "2887.TW",
-    "name": "台新新光金",
-    "price": 32.95000076293945,
-    "shares": 1517.4506,
-    "amount": 50071.25,
-    "reason": "買進訊號（黃燈基準 × 檢核100分 → 部位 5.0%）"
-   },
-   {
-    "date": "2026-07-03",
-    "action": "BUY",
-    "ticker": "2851.TW",
-    "name": "中再保",
-    "price": 37.04999923706055,
-    "shares": 1349.4315,
-    "amount": 50067.68,
-    "reason": "買進訊號（黃燈基準 × 檢核100分 → 部位 5.0%）"
-   },
-   {
-    "date": "2026-07-03",
-    "action": "BUY",
-    "ticker": "2415.TW",
-    "name": "錩新",
-    "price": 37.70000076293945,
-    "shares": 1326.0709,
-    "amount": 50064.11,
-    "reason": "買進訊號（黃燈基準 × 檢核100分 → 部位 5.0%）"
-   }
-  ],
-  "equity_history": [
-   {
-    "date": "2026-07-03",
-    "equity": 1003761.62
-   }
-  ]
+  "trades": [],
+  "equity_history": []
  },
  "us": {
   "start_capital": 30000,
-  "cash": 18611.13972593876,
-  "positions": [
+  "cash": 30000,
+  "positions": [],
+  "pending_buys": [
    {
     "ticker": "AIZ",
     "name": "Assurant",
-    "shares": 10.8704,
-    "buy_price": 275.9800109863281,
-    "buy_date": "2026-07-02",
-    "last_price": 279.4800109863281,
-    "status": "HOLD",
-    "status_note": ""
+    "light": "green",
+    "score": 100
    },
    {
     "ticker": "VRTX",
     "name": "Vertex Pharmaceuticals",
-    "shares": 5.9552,
-    "buy_price": 503.760009765625,
-    "buy_date": "2026-07-02",
-    "last_price": 528.0399780273438,
-    "status": "HOLD",
-    "status_note": ""
+    "light": "green",
+    "score": 100
    },
    {
     "ticker": "TRV",
     "name": "Travelers Companies (The)",
-    "shares": 8.9278,
-    "buy_price": 336.0299987792969,
-    "buy_date": "2026-07-02",
-    "last_price": 342.30999755859375,
-    "status": "HOLD",
-    "status_note": ""
+    "light": "green",
+    "score": 100
    },
    {
     "ticker": "ALL",
     "name": "Allstate",
-    "shares": 9.8145,
-    "buy_price": 243.39999389648438,
-    "buy_date": "2026-07-02",
-    "last_price": 250.3300018310547,
-    "status": "HOLD",
-    "status_note": ""
+    "light": "green",
+    "score": 79
    }
   ],
-  "pending_buys": [],
   "pending_sells": [],
-  "trades": [
-   {
-    "date": "2026-07-02",
-    "action": "BUY",
-    "ticker": "AIZ",
-    "name": "Assurant",
-    "price": 275.9800109863281,
-    "shares": 10.8704,
-    "amount": 3000.0,
-    "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%）"
-   },
-   {
-    "date": "2026-07-02",
-    "action": "BUY",
-    "ticker": "VRTX",
-    "name": "Vertex Pharmaceuticals",
-    "price": 503.760009765625,
-    "shares": 5.9552,
-    "amount": 3000.0,
-    "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%）"
-   },
-   {
-    "date": "2026-07-02",
-    "action": "BUY",
-    "ticker": "TRV",
-    "name": "Travelers Companies (The)",
-    "price": 336.0299987792969,
-    "shares": 8.9278,
-    "amount": 3000.0,
-    "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%）"
-   },
-   {
-    "date": "2026-07-02",
-    "action": "BUY",
-    "ticker": "ALL",
-    "name": "Allstate",
-    "price": 243.39999389648438,
-    "shares": 9.8145,
-    "amount": 2388.86,
-    "reason": "買進訊號（綠燈基準 × 檢核79分 → 部位 7.9%）"
-   }
-  ],
-  "equity_history": [
-   {
-    "date": "2026-07-02",
-    "equity": 30306.72
-   }
-  ]
+  "trades": [],
+  "equity_history": []
  }
 }
