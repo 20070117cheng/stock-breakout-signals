@@ -66,8 +66,12 @@ def _equity(pm: dict, prices: dict[str, float] | None = None) -> float:
 
 
 def execute_buy(pm: dict, market: str, ticker: str, name: str,
-                open_price: float, date: str, light: str, score: int = 100) -> dict | None:
-    """以開盤價買進。回傳成交記錄；不符合條件回傳 None。"""
+                open_price: float, date: str, light: str, score: int = 100,
+                signal_date: str = "") -> dict | None:
+    """以開盤價買進。回傳成交記錄；不符合條件回傳 None。
+
+    signal_date：訊號日（檢核表存檔的日期），供日後對照 data/scorecards.json 複盤。
+    """
     if open_price is None or open_price <= 0:
         return None
     if any(p["ticker"] == ticker for p in pm["positions"]):
@@ -86,12 +90,15 @@ def execute_buy(pm: dict, market: str, ticker: str, name: str,
     pm["cash"] -= total
     pm["positions"].append(
         {"ticker": ticker, "name": name, "shares": shares,
-         "buy_price": open_price, "buy_date": date, "last_price": open_price}
+         "buy_price": open_price, "buy_date": date, "last_price": open_price,
+         "signal_date": signal_date}
     )
     light_txt = {"green": "綠", "yellow": "黃"}.get(light, light)
+    sig_txt = f"，訊號日 {signal_date}" if signal_date else ""
     trade = {"date": date, "action": "BUY", "ticker": ticker, "name": name,
              "price": open_price, "shares": shares, "amount": round(total, 2),
-             "reason": f"買進訊號（{light_txt}燈基準 × 檢核{score}分 → 部位 {pct:.1%}）"}
+             "signal_date": signal_date,
+             "reason": f"買進訊號（{light_txt}燈基準 × 檢核{score}分 → 部位 {pct:.1%}{sig_txt}）"}
     pm["trades"].append(trade)
     return trade
 
@@ -152,7 +159,8 @@ def run_paper_cycle(pm: dict, market: str, date: str,
     for order in pm["pending_buys"]:
         t = execute_buy(pm, market, order["ticker"], order["name"],
                         opens.get(order["ticker"]), date, order["light"],
-                        score=order.get("score", 100))
+                        score=order.get("score", 100),
+                        signal_date=order.get("signal_date", ""))
         if t:
             executed.append(t)
     pm["pending_buys"] = []
@@ -185,7 +193,8 @@ def run_paper_cycle(pm: dict, market: str, date: str,
                 continue
             pm["pending_buys"].append(
                 {"ticker": c["ticker"], "name": c["name"], "light": light,
-                 "score": c.get("mech_score", c["scorecard"]["score"])}
+                 "score": c.get("mech_score", c["scorecard"]["score"]),
+                 "signal_date": date}
             )
             queued += 1
 

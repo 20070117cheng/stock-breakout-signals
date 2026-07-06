@@ -95,3 +95,21 @@ def test_position_size_scaled_by_score():
     assert position_size_pct("yellow", 78) == pytest.approx(0.039)
     assert position_size_pct("red", 100) == 0.0
     assert position_size_pct("green") == 0.10  # 未提供分數時視為滿分（相容舊排單）
+
+
+def test_buy_records_signal_date():
+    from engine.paper import run_paper_cycle
+
+    pm = new_portfolio(100_000)
+    cand = {"ticker": "9999.TW", "name": "測試", "mech_verdict": "強力候選：x",
+            "scorecard": {"score": 90, "verdict": "強力候選：x"}, "mech_score": 90}
+    # 第一天：排單（記下訊號日）
+    run_paper_cycle(pm, "tw", "2026-07-06", opens={}, closes={},
+                    candidates=[cand], holding_evals=[], light="green")
+    assert pm["pending_buys"][0]["signal_date"] == "2026-07-06"
+    # 第二天：成交（訊號日寫進成交記錄與持倉）
+    run_paper_cycle(pm, "tw", "2026-07-07", opens={"9999.TW": 100.0}, closes={"9999.TW": 101.0},
+                    candidates=[], holding_evals=[], light="green")
+    assert pm["trades"][0]["signal_date"] == "2026-07-06"
+    assert pm["positions"][0]["signal_date"] == "2026-07-06"
+    assert "訊號日 2026-07-06" in pm["trades"][0]["reason"]

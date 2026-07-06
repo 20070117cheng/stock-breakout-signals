@@ -296,10 +296,12 @@ def main() -> None:
     }
     report.save_state(state)
 
+    report.archive_scorecards(date_str, market, buy_candidates)
     entries = [
         {"date": date_str, "market": MARKET_NAME[market], "type": "買進候選",
          "ticker": c["ticker"], "name": c["name"],
-         "note": f"檢核 {c['scorecard']['score']}/100，{c['scorecard']['verdict']}"}
+         "note": f"檢核 {c['scorecard']['score']}/100，{c['scorecard']['verdict']}",
+         "scorecard": c["scorecard"]}
         for c in notified
     ] + [
         {"date": date_str, "market": MARKET_NAME[market],

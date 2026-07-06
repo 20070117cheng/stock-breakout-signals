@@ -48,7 +48,7 @@ jobs:
         run: |
           git config user.name "signal-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add docs/index.html data/state.json data/signals_log.json data/paper.json
+          git add docs/index.html data/state.json data/signals_log.json data/paper.json data/scorecards.json
           git diff --cached --quiet && exit 0 || git commit -m "美股掃描 $(date +%F)"
           n=0
           until git push; do

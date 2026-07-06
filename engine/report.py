@@ -45,6 +45,36 @@ def append_log(entries: list[dict]) -> list[dict]:
     return log
 
 
+ARCHIVE_PATH = ROOT / "data" / "scorecards.json"
+
+
+def archive_scorecards(date: str, market: str, candidates: list[dict]) -> None:
+    """把當日所有候選股的完整檢核表永久存檔（滾動保留 5000 筆），供日後績效複盤。"""
+    arch = json.loads(ARCHIVE_PATH.read_text(encoding="utf-8")) if ARCHIVE_PATH.exists() else []
+    existing = {(e["date"], e["ticker"]) for e in arch}
+    for c in candidates:
+        if (date, c["ticker"]) in existing:
+            continue
+        ai = c.get("ai7")
+        arch.append(
+            {
+                "date": date,
+                "market": market,
+                "ticker": c["ticker"],
+                "name": c["name"],
+                "close": c["close"],
+                "rebound": round(c.get("rebound", 0), 3),
+                "base_quality": round(c.get("base_quality", 0), 3),
+                "scorecard": c["scorecard"],
+                "ai7": {"grade": ai["grade"], "one_line": ai["one_line"]} if ai else None,
+            }
+        )
+    arch = arch[-5000:]
+    ARCHIVE_PATH.parent.mkdir(exist_ok=True)
+    ARCHIVE_PATH.write_text(json.dumps(arch, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"[archive] 檢核表存檔共 {len(arch)} 筆")
+
+
 def _sparkline(values: list[float], color: str = "#2563eb", w: int = 240, h: int = 48) -> str:
     vals = [v for v in values if v is not None and v == v] if values else []
     if len(vals) < 2:
@@ -212,11 +242,19 @@ def _paper_card(name: str, currency: str, p: dict | None) -> str:
 def _log_section(log: list[dict]) -> str:
     if not log:
         return "<p class='empty'>尚無訊號記錄。</p>"
-    rows = [
-        f"<tr><td>{e['date']}</td><td>{e['market']}</td><td>{e['type']}</td>"
-        f"<td><b>{e['name']}（{e['ticker']}）</b></td><td class='muted'>{e['note']}</td></tr>"
-        for e in reversed(log[-60:])
-    ]
+    rows = []
+    for e in reversed(log[-60:]):
+        if e.get("scorecard"):
+            detail = (
+                f"<details><summary class='muted'>{e['note']}（點開看訊號日檢核表）</summary>"
+                f"{_scorecard_table(e['scorecard'])}</details>"
+            )
+        else:
+            detail = f"<span class='muted'>{e['note']}</span>"
+        rows.append(
+            f"<tr><td>{e['date']}</td><td>{e['market']}</td><td>{e['type']}</td>"
+            f"<td><b>{e['name']}（{e['ticker']}）</b></td><td>{detail}</td></tr>"
+        )
     return (
         "<table><thead><tr><th>日期</th><th>市場</th><th>訊號</th><th>股票</th><th>說明</th></tr></thead>"
         "<tbody>" + "".join(rows) + "</tbody></table>"
