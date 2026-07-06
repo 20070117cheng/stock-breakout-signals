@@ -185,7 +185,7 @@ def run_paper_cycle(pm: dict, market: str, date: str,
                 continue
             pm["pending_buys"].append(
                 {"ticker": c["ticker"], "name": c["name"], "light": light,
-                 "score": c["scorecard"]["score"]}
+                 "score": c.get("mech_score", c["scorecard"]["score"])}
             )
             queued += 1
 

@@ -205,6 +205,7 @@ def main() -> None:
     # 3.5 AI 第⑦項判斷（僅對較強候選執行，控制免費額度；失敗自動退回人工模式）
     for c in buy_candidates:
         c["mech_verdict"] = c["scorecard"]["verdict"]  # 純機械結論（虛擬操盤依此，不受 AI 影響）
+        c["mech_score"] = c["scorecard"]["score"]      # 純機械分數（虛擬操盤部位計算用）
     judged = 0
     for c in sorted(buy_candidates, key=lambda x: x["scorecard"]["score"], reverse=True):
         if judged >= cfg.get("max_ai_judgments_per_day", 8):
