@@ -46,6 +46,15 @@ def append_log(entries: list[dict]) -> list[dict]:
 
 
 ARCHIVE_PATH = ROOT / "data" / "scorecards.json"
+GRADE_SYMBOL = {"O": "○", "T": "△", "X": "×"}
+
+
+def _archive_index() -> dict:
+    """檢核表存檔索引：(訊號日, 代號) → 存檔項目。"""
+    if not ARCHIVE_PATH.exists():
+        return {}
+    arch = json.loads(ARCHIVE_PATH.read_text(encoding="utf-8"))
+    return {(e["date"], e["ticker"]): e for e in arch}
 
 
 def archive_scorecards(date: str, market: str, candidates: list[dict]) -> None:
@@ -211,13 +220,37 @@ def _paper_card(name: str, currency: str, p: dict | None) -> str:
 
     pos_rows = "".join(_pos_row(q) for q in p.get("positions", [])) or \
         "<tr><td colspan='7' class='muted'>目前空手（等待強力候選訊號）</td></tr>"
+    action_txt = {"BUY": "買進", "SELL": "賣出", "SKIP": "放棄追高"}
     trade_rows = "".join(
-        f"<tr><td>{t['date']}</td><td>{'買進' if t['action'] == 'BUY' else '賣出'}</td>"
+        f"<tr><td>{t['date']}</td><td>{action_txt.get(t['action'], t['action'])}</td>"
         f"<td><b>{t['name']}</b></td><td>{t['price']:g}</td>"
         f"<td>{('%+.1f%%' % (t['pnl_pct'] * 100)) if 'pnl_pct' in t else '—'}</td>"
         f"<td class='muted'>{t['reason']}</td></tr>"
         for t in reversed(p.get("trades", []))
     ) or "<tr><td colspan='6' class='muted'>尚無成交記錄</td></tr>"
+
+    # 買入理由：從檢核表存檔撈出每檔持倉「訊號日」的完整檢核表
+    idx = _archive_index()
+    reason_blocks = []
+    for q in p.get("positions", []):
+        sd = q.get("signal_date", "")
+        e = idx.get((sd, q["ticker"])) if sd else None
+        if e:
+            sc = e["scorecard"]
+            ai = e.get("ai7")
+            ai_line = (f"<p class='muted'>AI 第⑦項（參考）：{GRADE_SYMBOL.get(ai['grade'], ai['grade'])}——{ai['one_line']}</p>"
+                       if ai else "")
+            reason_blocks.append(f"""<details class="cand">
+  <summary>買入理由：<b>{q['name']}</b>｜訊號日 {sd} 檢核 <b>{sc['score']}/100</b> — {sc['verdict']}</summary>
+  <p class='muted'>為何選這檔：訊號日收盤 {e['close']:g} 突破 2 年新高（反彈幅度 {e.get('rebound', 0):.0%}），
+  基本面檢核為「強力候選」，依當日檢核分數排序入選（每日最多 3 檔），隔日開盤機械式買進。</p>
+  {_scorecard_table(sc)}{ai_line}</details>""")
+        elif sd:
+            reason_blocks.append(f"<p class='muted'>{q['name']}：訊號日 {sd} 的檢核表未在存檔中（存檔功能上線前的訊號）。</p>")
+    reasons_html = (
+        "<h4>買入理由（點開看訊號日的完整檢核表）</h4>" + "\n".join(reason_blocks)
+        if reason_blocks else ""
+    )
     pending = ""
     if p.get("pending_buys") or p.get("pending_sells"):
         pb = "、".join(p["pending_buys"]) or "無"
@@ -233,6 +266,7 @@ def _paper_card(name: str, currency: str, p: dict | None) -> str:
   <h4>持倉（賣出三條件每天自動檢查）</h4>
   <table><thead><tr><th>股票</th><th>買進日</th><th>買價</th><th>停損價</th><th>現價</th><th>損益</th><th>賣出檢查</th></tr></thead>
   <tbody>{pos_rows}</tbody></table>
+  {reasons_html}
   <h4>近期成交（賣出會顯示在這裡，含損益與原因）</h4>
   <table><thead><tr><th>日期</th><th>動作</th><th>股票</th><th>成交價</th><th>損益</th><th>原因</th></tr></thead>
   <tbody>{trade_rows}</tbody></table>
@@ -437,7 +471,10 @@ footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 <div class="help"><b>模擬規則（書中框架＋固定公式）：</b>只買「強力候選」訊號，訊號隔日開盤價成交；
 <b>部位 % ＝ 燈號基準（綠 10%／黃 5%／紅不買）×（檢核分數 ÷ 100）</b>——訊號越強壓越多、
 行情越弱壓越少，每筆成交記錄都寫明計算；賣出依三條件，同樣隔日開盤成交；
-台股計入手續費 0.1425% 與賣出證交稅 0.3%。<br>
+台股計入手續費 0.1425% 與賣出證交稅 0.3%；
+<b>追高保護</b>：開盤較訊號日收盤跳高逾 5% 就放棄該筆買單並記錄（系統選項，源自歐尼爾不追高原則）。<br>
+<b>進出場理由完整可查</b>：每檔持倉下方「買入理由」可展開訊號日的完整檢核表；
+賣出時成交記錄寫明觸發的是停損／基本面／賣壓比例哪一條。<br>
 <b>誠實提醒：</b>虛擬操盤跳過了檢核表第⑦項（人工判斷未來獲利），等於「完全不做功課」的機械執行，
 成效可視為此方法的保守下限；你實際操作時做了⑦的篩選，理論上應該比它好。
 虛擬帳戶的錢和你的真實持股完全無關。</div>

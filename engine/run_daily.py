@@ -260,7 +260,8 @@ def main() -> None:
     )
     closes_last = {t: float(v) for t, v in close.iloc[-1].dropna().items()}
     executed = pp.run_paper_cycle(
-        pm, market, date_str, opens, closes_last, notified, paper_evals, gauge["light"]
+        pm, market, date_str, opens, closes_last, notified, paper_evals, gauge["light"],
+        max_gap=cfg.get("max_gap_from_signal", 0.05),
     )
     pp.save_paper(paper)
     if executed:

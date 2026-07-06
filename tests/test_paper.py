@@ -113,3 +113,30 @@ def test_buy_records_signal_date():
     assert pm["trades"][0]["signal_date"] == "2026-07-06"
     assert pm["positions"][0]["signal_date"] == "2026-07-06"
     assert "訊號日 2026-07-06" in pm["trades"][0]["reason"]
+
+
+def test_gap_protection_skips_high_open():
+    from engine.paper import run_paper_cycle
+
+    pm = new_portfolio(100_000)
+    pm["pending_buys"] = [{"ticker": "9999.TW", "name": "測試", "light": "green",
+                           "score": 90, "signal_date": "2026-07-06", "signal_close": 100.0}]
+    # 開盤 107 較訊號日收盤 100 跳高 7% > 5% 上限 → 放棄並記錄
+    run_paper_cycle(pm, "tw", "2026-07-07", opens={"9999.TW": 107.0}, closes={},
+                    candidates=[], holding_evals=[], light="green")
+    assert pm["positions"] == []
+    assert pm["trades"][-1]["action"] == "SKIP"
+    assert "放棄追高" in pm["trades"][-1]["reason"]
+
+
+def test_gap_protection_allows_small_gap():
+    from engine.paper import run_paper_cycle
+
+    pm = new_portfolio(100_000)
+    pm["pending_buys"] = [{"ticker": "9999.TW", "name": "測試", "light": "green",
+                           "score": 90, "signal_date": "2026-07-06", "signal_close": 100.0}]
+    # 跳高 3% ≤ 5% → 正常買進
+    run_paper_cycle(pm, "tw", "2026-07-07", opens={"9999.TW": 103.0}, closes={"9999.TW": 104.0},
+                    candidates=[], holding_evals=[], light="green")
+    assert len(pm["positions"]) == 1
+    assert pm["trades"][-1]["action"] == "BUY"

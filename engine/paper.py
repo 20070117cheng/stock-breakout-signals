@@ -138,7 +138,8 @@ def run_paper_cycle(pm: dict, market: str, date: str,
                     closes: dict[str, float],
                     candidates: list[dict],
                     holding_evals: list[dict],
-                    light: str) -> list[dict]:
+                    light: str,
+                    max_gap: float = 0.05) -> list[dict]:
     """一次每日循環：執行昨日排單 → 依今日訊號排明日單 → 結算資產。
 
     opens：今日開盤價（執行昨日排單用）；closes：今日收盤價（結算用）。
@@ -155,10 +156,21 @@ def run_paper_cycle(pm: dict, market: str, date: str,
             executed.append(t)
     pm["pending_sells"] = []
 
-    # 2. 執行昨日排的買單
+    # 2. 執行昨日排的買單（含追高保護：開盤較訊號日收盤跳高逾 max_gap 就放棄，
+    #    避免進場價偏離訊號價太多、破壞停損的風險結構——系統選項，非書中規則）
     for order in pm["pending_buys"]:
+        open_price = opens.get(order["ticker"])
+        sig_close = order.get("signal_close")
+        if open_price and sig_close and open_price > sig_close * (1 + max_gap):
+            pm["trades"].append(
+                {"date": date, "action": "SKIP", "ticker": order["ticker"],
+                 "name": order["name"], "price": open_price,
+                 "reason": f"放棄追高：開盤 {open_price:g} 較訊號日收盤 {sig_close:g} "
+                           f"跳高 {(open_price / sig_close - 1):.1%}，超過上限 {max_gap:.0%}"}
+            )
+            continue
         t = execute_buy(pm, market, order["ticker"], order["name"],
-                        opens.get(order["ticker"]), date, order["light"],
+                        open_price, date, order["light"],
                         score=order.get("score", 100),
                         signal_date=order.get("signal_date", ""))
         if t:
@@ -194,7 +206,7 @@ def run_paper_cycle(pm: dict, market: str, date: str,
             pm["pending_buys"].append(
                 {"ticker": c["ticker"], "name": c["name"], "light": light,
                  "score": c.get("mech_score", c["scorecard"]["score"]),
-                 "signal_date": date}
+                 "signal_date": date, "signal_close": c.get("close")}
             )
             queued += 1
 
