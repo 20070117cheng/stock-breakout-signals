@@ -1,49 +1,173 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 1000000,
-  "positions": [],
-  "pending_buys": [
+  "cash": 749680.8762727283,
+  "positions": [
    {
     "ticker": "6509.TWO",
     "name": "聚和",
-    "light": "yellow",
-    "score": 83
+    "shares": 715.5172,
+    "buy_price": 58.0,
+    "buy_date": "2026-07-06",
+    "last_price": 57.5,
+    "signal_date": "",
+    "status": "HOLD",
+    "status_note": ""
    },
    {
     "ticker": "4207.TWO",
     "name": "環泰",
-    "light": "yellow",
-    "score": 79
+    "shares": 1969.9584,
+    "buy_price": 20.049999237060547,
+    "buy_date": "2026-07-06",
+    "last_price": 20.0,
+    "signal_date": "",
+    "status": "HOLD",
+    "status_note": ""
    },
    {
     "ticker": "3015.TW",
     "name": "全漢",
-    "light": "yellow",
-    "score": 75
+    "shares": 528.1081,
+    "buy_price": 71.0,
+    "buy_date": "2026-07-06",
+    "last_price": 74.80000305175781,
+    "signal_date": "",
+    "status": "HOLD",
+    "status_note": ""
    },
    {
     "ticker": "2887.TW",
     "name": "台新新光金",
-    "light": "yellow",
-    "score": 92
+    "shares": 1346.771,
+    "buy_price": 34.150001525878906,
+    "buy_date": "2026-07-06",
+    "last_price": 34.29999923706055,
+    "signal_date": "",
+    "status": "HOLD",
+    "status_note": ""
    },
    {
     "ticker": "2851.TW",
     "name": "中再保",
-    "light": "yellow",
-    "score": 88
+    "shares": 1142.5893,
+    "buy_price": 38.5,
+    "buy_date": "2026-07-06",
+    "last_price": 39.099998474121094,
+    "signal_date": "",
+    "status": "HOLD",
+    "status_note": ""
    },
    {
     "ticker": "2415.TW",
     "name": "錩新",
+    "shares": 1046.3473,
+    "buy_price": 39.650001525878906,
+    "buy_date": "2026-07-06",
+    "last_price": 41.650001525878906,
+    "signal_date": "",
+    "status": "HOLD",
+    "status_note": ""
+   }
+  ],
+  "pending_buys": [
+   {
+    "ticker": "2850.TW",
+    "name": "新產",
     "light": "yellow",
-    "score": 83
+    "score": 75,
+    "signal_date": "2026-07-06"
+   },
+   {
+    "ticker": "6024.TW",
+    "name": "群益期",
+    "light": "yellow",
+    "score": 75,
+    "signal_date": "2026-07-06"
+   },
+   {
+    "ticker": "1617.TW",
+    "name": "榮星",
+    "light": "yellow",
+    "score": 75,
+    "signal_date": "2026-07-06"
    }
   ],
   "pending_sells": [],
-  "trades": [],
-  "equity_history": []
+  "trades": [
+   {
+    "date": "2026-07-06",
+    "action": "BUY",
+    "ticker": "6509.TWO",
+    "name": "聚和",
+    "price": 58.0,
+    "shares": 715.5172,
+    "amount": 41559.14,
+    "signal_date": "",
+    "reason": "買進訊號（黃燈基準 × 檢核83分 → 部位 4.2%）"
+   },
+   {
+    "date": "2026-07-06",
+    "action": "BUY",
+    "ticker": "4207.TWO",
+    "name": "環泰",
+    "price": 20.049999237060547,
+    "shares": 1969.9584,
+    "amount": 39553.95,
+    "signal_date": "",
+    "reason": "買進訊號（黃燈基準 × 檢核79分 → 部位 4.0%）"
+   },
+   {
+    "date": "2026-07-06",
+    "action": "BUY",
+    "ticker": "3015.TW",
+    "name": "全漢",
+    "price": 71.0,
+    "shares": 528.1081,
+    "amount": 37549.1,
+    "signal_date": "",
+    "reason": "買進訊號（黃燈基準 × 檢核75分 → 部位 3.8%）"
+   },
+   {
+    "date": "2026-07-06",
+    "action": "BUY",
+    "ticker": "2887.TW",
+    "name": "台新新光金",
+    "price": 34.150001525878906,
+    "shares": 1346.771,
+    "amount": 46057.77,
+    "signal_date": "",
+    "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%）"
+   },
+   {
+    "date": "2026-07-06",
+    "action": "BUY",
+    "ticker": "2851.TW",
+    "name": "中再保",
+    "price": 38.5,
+    "shares": 1142.5893,
+    "amount": 44052.37,
+    "signal_date": "",
+    "reason": "買進訊號（黃燈基準 × 檢核88分 → 部位 4.4%）"
+   },
+   {
+    "date": "2026-07-06",
+    "action": "BUY",
+    "ticker": "2415.TW",
+    "name": "錩新",
+    "price": 39.650001525878906,
+    "shares": 1046.3473,
+    "amount": 41546.79,
+    "signal_date": "",
+    "reason": "買進訊號（黃燈基準 × 檢核83分 → 部位 4.2%）"
+   }
+  ],
+  "equity_history": [
+   {
+    "date": "2026-07-06",
+    "equity": 1004174.62
+   }
+  ]
  },
  "us": {
   "start_capital": 30000,
