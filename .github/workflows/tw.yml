@@ -2,8 +2,11 @@ name: 台股每日掃描
 
 on:
   schedule:
-    # UTC 08:30 = 台北 16:30（收盤後，等 FinMind 資料更新）
-    - cron: "30 8 * * 1-5"
+    # 主要：UTC 08:37 = 台北 16:37（避開整半點壅塞時段，GitHub 較不會跳過）
+    - cron: "37 8 * * 1-5"
+    # 備援：UTC 09:52 = 台北 17:52（若主要時段被 GitHub 跳過則補跑；
+    # 已處理過當日資料時會自動略過，不會重複）
+    - cron: "52 9 * * 1-5"
   workflow_dispatch: {}
 
 permissions:
