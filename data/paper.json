@@ -1,7 +1,7 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 749680.8762727283,
+  "cash": 636556.2944924817,
   "positions": [
    {
     "ticker": "6509.TWO",
@@ -68,34 +68,42 @@
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
-   }
-  ],
-  "pending_buys": [
+   },
    {
     "ticker": "2850.TW",
     "name": "新產",
-    "light": "yellow",
-    "score": 75,
+    "shares": 262.415,
+    "buy_price": 143.5,
+    "buy_date": "2026-07-07",
+    "last_price": 143.5,
     "signal_date": "2026-07-06",
-    "signal_close": 147.5
+    "status": "HOLD",
+    "status_note": ""
    },
    {
     "ticker": "6024.TW",
     "name": "群益期",
-    "light": "yellow",
-    "score": 75,
+    "shares": 606.3533,
+    "buy_price": 62.099998474121094,
+    "buy_date": "2026-07-07",
+    "last_price": 62.099998474121094,
     "signal_date": "2026-07-06",
-    "signal_close": 62.5
+    "status": "HOLD",
+    "status_note": ""
    },
    {
     "ticker": "1617.TW",
     "name": "榮星",
-    "light": "yellow",
-    "score": 75,
+    "shares": 1397.1252,
+    "buy_price": 26.950000762939453,
+    "buy_date": "2026-07-07",
+    "last_price": 26.950000762939453,
     "signal_date": "2026-07-06",
-    "signal_close": 26.7
+    "status": "HOLD",
+    "status_note": ""
    }
   ],
+  "pending_buys": [],
   "pending_sells": [],
   "trades": [
    {
@@ -163,12 +171,49 @@
     "amount": 41546.79,
     "signal_date": "",
     "reason": "買進訊號（黃燈基準 × 檢核83分 → 部位 4.2%）"
+   },
+   {
+    "date": "2026-07-07",
+    "action": "BUY",
+    "ticker": "2850.TW",
+    "name": "新產",
+    "price": 143.5,
+    "shares": 262.415,
+    "amount": 37710.21,
+    "signal_date": "2026-07-06",
+    "reason": "買進訊號（黃燈基準 × 檢核75分 → 部位 3.8%，訊號日 2026-07-06）"
+   },
+   {
+    "date": "2026-07-07",
+    "action": "BUY",
+    "ticker": "6024.TW",
+    "name": "群益期",
+    "price": 62.099998474121094,
+    "shares": 606.3533,
+    "amount": 37708.19,
+    "signal_date": "2026-07-06",
+    "reason": "買進訊號（黃燈基準 × 檢核75分 → 部位 3.8%，訊號日 2026-07-06）"
+   },
+   {
+    "date": "2026-07-07",
+    "action": "BUY",
+    "ticker": "1617.TW",
+    "name": "榮星",
+    "price": 26.950000762939453,
+    "shares": 1397.1252,
+    "amount": 37706.18,
+    "signal_date": "2026-07-06",
+    "reason": "買進訊號（黃燈基準 × 檢核75分 → 部位 3.8%，訊號日 2026-07-06）"
    }
   ],
   "equity_history": [
    {
     "date": "2026-07-06",
     "equity": 1004174.62
+   },
+   {
+    "date": "2026-07-07",
+    "equity": 1004013.66
    }
   ]
  },
