@@ -1,7 +1,7 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 749680.8762727283,
+  "cash": 636556.2944924817,
   "positions": [
    {
     "ticker": "6509.TWO",
@@ -68,34 +68,42 @@
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
-   }
-  ],
-  "pending_buys": [
+   },
    {
     "ticker": "2850.TW",
     "name": "新產",
-    "light": "yellow",
-    "score": 75,
+    "shares": 262.415,
+    "buy_price": 143.5,
+    "buy_date": "2026-07-07",
+    "last_price": 143.5,
     "signal_date": "2026-07-06",
-    "signal_close": 147.5
+    "status": "HOLD",
+    "status_note": ""
    },
    {
     "ticker": "6024.TW",
     "name": "群益期",
-    "light": "yellow",
-    "score": 75,
+    "shares": 606.3533,
+    "buy_price": 62.099998474121094,
+    "buy_date": "2026-07-07",
+    "last_price": 62.099998474121094,
     "signal_date": "2026-07-06",
-    "signal_close": 62.5
+    "status": "HOLD",
+    "status_note": ""
    },
    {
     "ticker": "1617.TW",
     "name": "榮星",
-    "light": "yellow",
-    "score": 75,
+    "shares": 1397.1252,
+    "buy_price": 26.950000762939453,
+    "buy_date": "2026-07-07",
+    "last_price": 26.950000762939453,
     "signal_date": "2026-07-06",
-    "signal_close": 26.7
+    "status": "HOLD",
+    "status_note": ""
    }
   ],
+  "pending_buys": [],
   "pending_sells": [],
   "trades": [
    {
@@ -163,18 +171,55 @@
     "amount": 41546.79,
     "signal_date": "",
     "reason": "買進訊號（黃燈基準 × 檢核83分 → 部位 4.2%）"
+   },
+   {
+    "date": "2026-07-07",
+    "action": "BUY",
+    "ticker": "2850.TW",
+    "name": "新產",
+    "price": 143.5,
+    "shares": 262.415,
+    "amount": 37710.21,
+    "signal_date": "2026-07-06",
+    "reason": "買進訊號（黃燈基準 × 檢核75分 → 部位 3.8%，訊號日 2026-07-06）"
+   },
+   {
+    "date": "2026-07-07",
+    "action": "BUY",
+    "ticker": "6024.TW",
+    "name": "群益期",
+    "price": 62.099998474121094,
+    "shares": 606.3533,
+    "amount": 37708.19,
+    "signal_date": "2026-07-06",
+    "reason": "買進訊號（黃燈基準 × 檢核75分 → 部位 3.8%，訊號日 2026-07-06）"
+   },
+   {
+    "date": "2026-07-07",
+    "action": "BUY",
+    "ticker": "1617.TW",
+    "name": "榮星",
+    "price": 26.950000762939453,
+    "shares": 1397.1252,
+    "amount": 37706.18,
+    "signal_date": "2026-07-06",
+    "reason": "買進訊號（黃燈基準 × 檢核75分 → 部位 3.8%，訊號日 2026-07-06）"
    }
   ],
   "equity_history": [
    {
     "date": "2026-07-06",
     "equity": 1004174.62
+   },
+   {
+    "date": "2026-07-07",
+    "equity": 1004013.66
    }
   ]
  },
  "us": {
   "start_capital": 30000,
-  "cash": 18870.003232329258,
+  "cash": 15873.225767421527,
   "positions": [
    {
     "ticker": "AIZ",
@@ -182,7 +227,7 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 279.2799987792969,
+    "last_price": 280.1099853515625,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -193,7 +238,7 @@
     "shares": 5.2213,
     "buy_price": 528.5999755859375,
     "buy_date": "2026-07-06",
-    "last_price": 529.5900268554688,
+    "last_price": 522.25,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -204,7 +249,7 @@
     "shares": 8.7801,
     "buy_price": 341.67999267578125,
     "buy_date": "2026-07-06",
-    "last_price": 339.1700134277344,
+    "last_price": 343.7300109863281,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -215,20 +260,39 @@
     "shares": 9.998,
     "buy_price": 249.0500030517578,
     "buy_date": "2026-07-06",
-    "last_price": 248.3699951171875,
+    "last_price": 251.4600067138672,
     "signal_date": "2026-07-02",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "BNY",
+    "name": "BNY Mellon",
+    "shares": 19.9586,
+    "buy_price": 150.14999389648438,
+    "buy_date": "2026-07-07",
+    "last_price": 152.91000366210938,
+    "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [
    {
-    "ticker": "BNY",
-    "name": "BNY Mellon",
+    "ticker": "LLY",
+    "name": "Lilly (Eli)",
     "light": "green",
     "score": 100,
-    "signal_date": "2026-07-06",
-    "signal_close": 149.96
+    "signal_date": "2026-07-07",
+    "signal_close": 1235.56
+   },
+   {
+    "ticker": "INCY",
+    "name": "Incyte",
+    "light": "green",
+    "score": 100,
+    "signal_date": "2026-07-07",
+    "signal_close": 118.05
    }
   ],
   "pending_sells": [],
@@ -276,12 +340,27 @@
     "amount": 2490.0,
     "signal_date": "2026-07-02",
     "reason": "買進訊號（綠燈基準 × 檢核83分 → 部位 8.3%，訊號日 2026-07-02）"
+   },
+   {
+    "date": "2026-07-07",
+    "action": "BUY",
+    "ticker": "BNY",
+    "name": "BNY Mellon",
+    "price": 150.14999389648438,
+    "shares": 19.9586,
+    "amount": 2996.78,
+    "signal_date": "2026-07-06",
+    "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%，訊號日 2026-07-06）"
    }
   ],
   "equity_history": [
    {
     "date": "2026-07-06",
     "equity": 29967.77
+   },
+   {
+    "date": "2026-07-07",
+    "equity": 30064.01
    }
   ]
  }
