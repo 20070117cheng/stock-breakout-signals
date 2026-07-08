@@ -219,7 +219,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 18870.003232329258,
+  "cash": 15873.225767421527,
   "positions": [
    {
     "ticker": "AIZ",
@@ -227,7 +227,7 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 279.2799987792969,
+    "last_price": 280.1099853515625,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -238,7 +238,7 @@
     "shares": 5.2213,
     "buy_price": 528.5999755859375,
     "buy_date": "2026-07-06",
-    "last_price": 529.5900268554688,
+    "last_price": 522.25,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -249,7 +249,7 @@
     "shares": 8.7801,
     "buy_price": 341.67999267578125,
     "buy_date": "2026-07-06",
-    "last_price": 339.1700134277344,
+    "last_price": 343.7300109863281,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -260,20 +260,39 @@
     "shares": 9.998,
     "buy_price": 249.0500030517578,
     "buy_date": "2026-07-06",
-    "last_price": 248.3699951171875,
+    "last_price": 251.4600067138672,
     "signal_date": "2026-07-02",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "BNY",
+    "name": "BNY Mellon",
+    "shares": 19.9586,
+    "buy_price": 150.14999389648438,
+    "buy_date": "2026-07-07",
+    "last_price": 152.91000366210938,
+    "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [
    {
-    "ticker": "BNY",
-    "name": "BNY Mellon",
+    "ticker": "LLY",
+    "name": "Lilly (Eli)",
     "light": "green",
     "score": 100,
-    "signal_date": "2026-07-06",
-    "signal_close": 149.96
+    "signal_date": "2026-07-07",
+    "signal_close": 1235.56
+   },
+   {
+    "ticker": "INCY",
+    "name": "Incyte",
+    "light": "green",
+    "score": 100,
+    "signal_date": "2026-07-07",
+    "signal_close": 118.05
    }
   ],
   "pending_sells": [],
@@ -321,12 +340,27 @@
     "amount": 2490.0,
     "signal_date": "2026-07-02",
     "reason": "買進訊號（綠燈基準 × 檢核83分 → 部位 8.3%，訊號日 2026-07-02）"
+   },
+   {
+    "date": "2026-07-07",
+    "action": "BUY",
+    "ticker": "BNY",
+    "name": "BNY Mellon",
+    "price": 150.14999389648438,
+    "shares": 19.9586,
+    "amount": 2996.78,
+    "signal_date": "2026-07-06",
+    "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%，訊號日 2026-07-06）"
    }
   ],
   "equity_history": [
    {
     "date": "2026-07-06",
     "equity": 29967.77
+   },
+   {
+    "date": "2026-07-07",
+    "equity": 30064.01
    }
   ]
  }
