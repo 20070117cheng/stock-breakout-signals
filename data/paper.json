@@ -99,12 +99,17 @@
     "buy_date": "2026-07-07",
     "last_price": 26.950000762939453,
     "signal_date": "2026-07-06",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。停損：現價 24.7 低於買價 26.95 達 8.3%（門檻 8%），立即賣出"
    }
   ],
   "pending_buys": [],
-  "pending_sells": [],
+  "pending_sells": [
+   {
+    "ticker": "1617.TW",
+    "reason": "停損：現價 24.7 低於買價 26.95 達 8.3%（門檻 8%），立即賣出"
+   }
+  ],
   "trades": [
    {
     "date": "2026-07-06",
@@ -213,6 +218,10 @@
    },
    {
     "date": "2026-07-07",
+    "equity": 1004013.66
+   },
+   {
+    "date": "2026-07-08",
     "equity": 1004013.66
    }
   ]
