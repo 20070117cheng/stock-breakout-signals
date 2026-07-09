@@ -228,7 +228,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 15873.225767421527,
+  "cash": 9860.42959597963,
   "positions": [
    {
     "ticker": "AIZ",
@@ -236,7 +236,7 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 280.1099853515625,
+    "last_price": 278.0299987792969,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -247,7 +247,7 @@
     "shares": 5.2213,
     "buy_price": 528.5999755859375,
     "buy_date": "2026-07-06",
-    "last_price": 522.25,
+    "last_price": 498.42999267578125,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -258,7 +258,7 @@
     "shares": 8.7801,
     "buy_price": 341.67999267578125,
     "buy_date": "2026-07-06",
-    "last_price": 343.7300109863281,
+    "last_price": 337.94000244140625,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -269,7 +269,7 @@
     "shares": 9.998,
     "buy_price": 249.0500030517578,
     "buy_date": "2026-07-06",
-    "last_price": 251.4600067138672,
+    "last_price": 251.1699981689453,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -280,28 +280,50 @@
     "shares": 19.9586,
     "buy_price": 150.14999389648438,
     "buy_date": "2026-07-07",
-    "last_price": 152.91000366210938,
+    "last_price": 150.13999938964844,
     "signal_date": "2026-07-06",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "LLY",
+    "name": "Lilly (Eli)",
+    "shares": 2.462,
+    "buy_price": 1221.0999755859375,
+    "buy_date": "2026-07-08",
+    "last_price": 1215.8299560546875,
+    "signal_date": "2026-07-07",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "INCY",
+    "name": "Incyte",
+    "shares": 25.465,
+    "buy_price": 118.05999755859375,
+    "buy_date": "2026-07-08",
+    "last_price": 117.26000213623047,
+    "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [
    {
-    "ticker": "LLY",
-    "name": "Lilly (Eli)",
+    "ticker": "ANET",
+    "name": "Arista Networks",
     "light": "green",
     "score": 100,
-    "signal_date": "2026-07-07",
-    "signal_close": 1235.56
+    "signal_date": "2026-07-08",
+    "signal_close": 181.05
    },
    {
-    "ticker": "INCY",
-    "name": "Incyte",
+    "ticker": "TRGP",
+    "name": "Targa Resources",
     "light": "green",
-    "score": 100,
-    "signal_date": "2026-07-07",
-    "signal_close": 118.05
+    "score": 92,
+    "signal_date": "2026-07-08",
+    "signal_close": 277.86
    }
   ],
   "pending_sells": [],
@@ -360,6 +382,28 @@
     "amount": 2996.78,
     "signal_date": "2026-07-06",
     "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%，訊號日 2026-07-06）"
+   },
+   {
+    "date": "2026-07-08",
+    "action": "BUY",
+    "ticker": "LLY",
+    "name": "Lilly (Eli)",
+    "price": 1221.0999755859375,
+    "shares": 2.462,
+    "amount": 3006.4,
+    "signal_date": "2026-07-07",
+    "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%，訊號日 2026-07-07）"
+   },
+   {
+    "date": "2026-07-08",
+    "action": "BUY",
+    "ticker": "INCY",
+    "name": "Incyte",
+    "price": 118.05999755859375,
+    "shares": 25.465,
+    "amount": 3006.4,
+    "signal_date": "2026-07-07",
+    "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%，訊號日 2026-07-07）"
    }
   ],
   "equity_history": [
@@ -370,6 +414,10 @@
    {
     "date": "2026-07-07",
     "equity": 30064.01
+   },
+   {
+    "date": "2026-07-08",
+    "equity": 29775.83
    }
   ]
  }
