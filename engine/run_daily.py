@@ -186,6 +186,15 @@ def main() -> None:
         print(f"[main] {date_str} 已處理過（今日休市，無新資料），跳過本次執行")
         return
 
+    # 資料覆蓋率保險絲：當日有效檔數過低（資料源限流）→ 讓執行失敗，
+    # 備援排程稍後會自動重試；絕不用殘缺資料產生訊號
+    valid_today = int(close.iloc[-1].notna().sum())
+    if valid_today < len(uni) * 0.3:
+        raise SystemExit(
+            f"[main] 資料異常：{date_str} 僅 {valid_today}/{len(uni)} 檔有效價格"
+            f"（可能被資料源限流），中止本次執行，等待備援排程重試"
+        )
+
     # 2. 大盤燈號（⑨）
     ratio = mk.new_high_ratio_series(close)
     top50_hits = mk.top50_recent_new_highs(close, cfg[f"{market}_top50"])

@@ -45,6 +45,17 @@ def update_close(market: str, tickers: list[str], full_years: int = 3) -> pd.Dat
         merged = merged.tail(KEEP_DAYS)
     else:
         merged = _download_close(tickers, period=f"{full_years}y").tail(KEEP_DAYS)
+
+    # 資料品質保險絲：尾端若出現「幾乎整列缺值」的日子（資料源限流/故障），
+    # 直接剔除該列——寧可當天略過等重試，不可用殘缺資料矇眼掃描
+    if len(merged) > 25:
+        baseline = merged.iloc[-25:-5].notna().sum(axis=1).median()
+        while len(merged) > 1 and merged.iloc[-1].notna().sum() < baseline * 0.4:
+            bad = merged.index[-1]
+            print(f"[datastore] {bad.date()} 僅 {merged.iloc[-1].notna().sum():.0f} 檔有效"
+                  f"（正常約 {baseline:.0f}），判定資料源異常，剔除該日")
+            merged = merged.iloc[:-1]
+
     merged.to_parquet(cache_path(market))
     return merged
 
