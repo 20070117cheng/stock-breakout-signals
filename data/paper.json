@@ -232,7 +232,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 9860.42959597963,
+  "cash": 4143.470060849538,
   "positions": [
    {
     "ticker": "AIZ",
@@ -240,7 +240,7 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 278.0299987792969,
+    "last_price": 279.20001220703125,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -251,7 +251,7 @@
     "shares": 5.2213,
     "buy_price": 528.5999755859375,
     "buy_date": "2026-07-06",
-    "last_price": 498.42999267578125,
+    "last_price": 496.5,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -262,7 +262,7 @@
     "shares": 8.7801,
     "buy_price": 341.67999267578125,
     "buy_date": "2026-07-06",
-    "last_price": 337.94000244140625,
+    "last_price": 337.4800109863281,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -273,7 +273,7 @@
     "shares": 9.998,
     "buy_price": 249.0500030517578,
     "buy_date": "2026-07-06",
-    "last_price": 251.1699981689453,
+    "last_price": 248.63999938964844,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -284,7 +284,7 @@
     "shares": 19.9586,
     "buy_price": 150.14999389648438,
     "buy_date": "2026-07-07",
-    "last_price": 150.13999938964844,
+    "last_price": 152.25999450683594,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -295,7 +295,7 @@
     "shares": 2.462,
     "buy_price": 1221.0999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 1215.8299560546875,
+    "last_price": 1216.949951171875,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -306,30 +306,35 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 117.26000213623047,
+    "last_price": 118.5199966430664,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
-   }
-  ],
-  "pending_buys": [
+   },
    {
     "ticker": "ANET",
     "name": "Arista Networks",
-    "light": "green",
-    "score": 100,
+    "shares": 15.9229,
+    "buy_price": 187.0,
+    "buy_date": "2026-07-09",
+    "last_price": 184.69000244140625,
     "signal_date": "2026-07-08",
-    "signal_close": 181.05
+    "status": "HOLD",
+    "status_note": ""
    },
    {
     "ticker": "TRGP",
     "name": "Targa Resources",
-    "light": "green",
-    "score": 92,
+    "shares": 9.8987,
+    "buy_price": 276.739990234375,
+    "buy_date": "2026-07-09",
+    "last_price": 273.0199890136719,
     "signal_date": "2026-07-08",
-    "signal_close": 277.86
+    "status": "HOLD",
+    "status_note": ""
    }
   ],
+  "pending_buys": [],
   "pending_sells": [],
   "trades": [
    {
@@ -408,6 +413,28 @@
     "amount": 3006.4,
     "signal_date": "2026-07-07",
     "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%，訊號日 2026-07-07）"
+   },
+   {
+    "date": "2026-07-09",
+    "action": "BUY",
+    "ticker": "ANET",
+    "name": "Arista Networks",
+    "price": 187.0,
+    "shares": 15.9229,
+    "amount": 2977.58,
+    "signal_date": "2026-07-08",
+    "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%，訊號日 2026-07-08）"
+   },
+   {
+    "date": "2026-07-09",
+    "action": "BUY",
+    "ticker": "TRGP",
+    "name": "Targa Resources",
+    "price": 276.739990234375,
+    "shares": 9.8987,
+    "amount": 2739.38,
+    "signal_date": "2026-07-08",
+    "reason": "買進訊號（綠燈基準 × 檢核92分 → 部位 9.2%，訊號日 2026-07-08）"
    }
   ],
   "equity_history": [
@@ -422,6 +449,10 @@
    {
     "date": "2026-07-08",
     "equity": 29775.83
+   },
+   {
+    "date": "2026-07-09",
+    "equity": 29751.99
    }
   ]
  }
