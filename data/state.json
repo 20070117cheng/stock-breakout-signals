@@ -1,14 +1,13 @@
 {
  "us": {
-  "date": "2026-07-09",
+  "date": "2026-07-10",
   "gauge": {
    "light": "green",
-   "reason": "創新高股比率 7.4%，位於近一年前 20% 強、趨勢向上",
-   "ratio_now": 0.07402980446873245,
+   "reason": "創新高股比率 6.7%，位於近一年前 34% 強、趨勢向上",
+   "ratio_now": 0.06693758114838286,
    "trend": "up"
   },
   "ratio_history": [
-   0.09222,
    0.09689,
    0.08677,
    0.08327,
@@ -127,7 +126,8 @@
    0.08266,
    0.08012,
    0.07686,
-   0.07403
+   0.07403,
+   0.06694
   ],
   "top50_hits": [
    "AAPL",
@@ -156,16 +156,16 @@
    "AMAT",
    "GS"
   ],
-  "n_new_high": 16,
-  "n_universe": 503,
+  "n_new_high": 17,
+  "n_universe": 502,
   "buy_candidates": [
    {
-    "ticker": "INCY",
-    "name": "Incyte",
-    "close": 118.52,
-    "rebound": 1.0,
+    "ticker": "D",
+    "name": "Dominion Energy",
+    "close": 70.08,
+    "rebound": 0.9353632250414529,
     "rebound_grade": "O",
-    "base_quality": 0.6069164986267384,
+    "base_quality": 0.8199202413270265,
     "scorecard": {
      "items": [
       {
@@ -173,7 +173,7 @@
        "name": "① 股價突破近年來高價",
        "grade": "O",
        "symbol": "○",
-       "detail": "收盤 118.52 創近 2 年新高",
+       "detail": "收盤 70.08 創近 2 年新高",
        "starred": true
       },
       {
@@ -181,7 +181,7 @@
        "name": "② 新高價位置（反彈幅度≥60%）",
        "grade": "O",
        "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 61%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "detail": "反彈幅度 94%（目標≥60%），平穩期品質 82%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
        "starred": true
       },
       {
@@ -189,7 +189,7 @@
        "name": "③ 過去獲利穩健成長（年均≥7%）",
        "grade": "O",
        "symbol": "○",
-       "detail": "近5年平均年成長 140%，成長年份占 67%",
+       "detail": "近5年平均年成長 259%，成長年份占 67%",
        "starred": false
       },
       {
@@ -197,7 +197,7 @@
        "name": "④ 最近1~2年獲利成長≥20%",
        "grade": "O",
        "symbol": "○",
-       "detail": "近四季獲利年增 426%",
+       "detail": "近四季獲利年增 65%",
        "starred": false
       },
       {
@@ -205,107 +205,110 @@
        "name": "⑤ 最近2~3季營收成長≥10%",
        "grade": "O",
        "symbol": "○",
-       "detail": "近1期季營收年增 21%",
+       "detail": "近1期季營收年增 23%",
        "starred": false
       },
       {
        "key": "6",
        "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1季獲利年增 47%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1季獲利年增 11%",
        "starred": true
       },
       {
        "key": "7",
        "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "T",
-       "symbol": "△",
-       "detail": "AI 判斷（僅供參考，請複核依據）：因僅有簡短新聞標題，缺乏核心藥物專利期限、新藥市場規模及具體獲利預測等關鍵數據，無法評估未來能否穩健成長。",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "AI 判斷（僅供參考，請複核依據）：藉由與NextEra Energy合併以獲取成長資金，並受惠於AI發展帶來的結構性電力需求增長。",
        "starred": true,
        "ai": {
-        "grade": "T",
-        "one_line": "因僅有簡短新聞標題，缺乏核心藥物專利期限、新藥市場規模及具體獲利預測等關鍵數據，無法評估未來能否穩健成長。",
-        "analysis": "雖然近期財務數據顯示獲利大幅成長，且新聞提及核心藥物 Jakafi 支撐展望、Opzelura 於歐盟獲准及 VWD 展望，但提供的資訊僅限於標題。我們無法從中得知 Jakafi 的專利保護剩餘年限，亦無法評估 Opzelura 在歐盟的實際市場滲透率與獲利貢獻。在缺乏具體產品銷售預測與結構性成長細節的情況下，秉持保守原則，判定目前證據不足以支持未來能穩健成長的結論。",
-        "risks": "1. 核心藥物 Jakafi 的專利到期或銷售放緩風險。2. 新藥 Opzelura 於歐盟市場的實際銷售與獲利貢獻低於預期。",
+        "grade": "O",
+        "one_line": "藉由與NextEra Energy合併以獲取成長資金，並受惠於AI發展帶來的結構性電力需求增長。",
+        "analysis": "根據新聞[3]與[4]，Dominion Energy計畫與NextEra Energy合併，此舉將創立全球最大的受管制電力公用事業，並有效解決其成長所需的資金問題。同時，新聞[2]指出公司在AI電力供應中扮演關鍵角色，顯示其成長動能來自於AI產業帶來的結構性電力需求增加，而非單純的景氣循環。此外，公司近期財務表現強勁，近四季獲利年增達65%，且持續進行區域電網升級[5]，支持其未來獲利的穩健成長。",
+        "risks": [
+         "大型合併案面臨監管機構審查延遲或反對的風險。",
+         "因應AI電力需求與電網升級所需的龐大資本支出壓力。"
+        ],
         "sources": [
          {
-          "title": "Incyte Shares Rise on EPS Growth, Lifted Guidance, Expansion - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaG9QQkNrMWZXSS1nTVdqZkNOWFhoMWt4Qk1ELTZrVEVIdXhuMDhIdnNQOWM4Z0NYWlRiblVPV2phOVNTakxmZFU4MlFORnppMUdXbHJ4NHFDcV9qN1AxckFyM2JSZ1A4X3RBVFpybVk3ZUhMVDl0QkNoVXpvUk00UWNwNmp0UDc3NjlsSEtIU1JCcTFNOE5FUXBB?oc=5",
-          "date": "Fri, 03 Jul 2026",
-          "source": "Yahoo Finance"
-         },
-         {
-          "title": "Incyte stock reflects steady biotech profile as revenue from Jakafi underpins outlook - AD HOC NEWS",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcHlvUlhGWW9LMEJVVHZxdXZ5SGJKWGlSZ1p0UnhkUWRCcWdBSXRJTUFFMmZOR2xxRld2Y3hQSnhHRUdtd0d1T2ptMnNRR3ltYXk2ZTI3UDlQNmFXa250X2dUSGpTSU0xT2Q5TkFJUjJVWWJmOUR0ZUZVS2FYNHFFLTFEOHVOV2Q3OXlqNDNhbk9MdlJHYnZtXzRINHdldmxsMzhhcjhHRjJQaWY5T2ZJemJjMGhvdHRmX2d3WUtHTjRDcWt6?oc=5",
+          "title": "Dominion Energy (D) Draws Investor Focus With AI Power Role And NextEra Merger - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNlIwSEZtWS1ZaHhfUTB0TnpmcjYtejl2SDdxX0txYjJWV0NhU3dsZkJQS3JCZFA1cnp3bHo2UEMwVjdnelgzY0NpY1hpOXJpUUg1aUtyRlZDREdsVFhyclF4X1JmX2FXSWdvUDhYR2FUTmRadE15aGZhVEVaamRZRXNLQ1N0LXdmSmQ3OUhQdjJZRnEwSVowcUVFaVZBeDFEOFlkdDhqVDBUdTE5VUlxaDN0UmJpSl9na3VuY3FYcjh5bHpKUERmVlRR0gHPAUFVX3lxTE5QcnlxaENtTmtFY1d1VWFpWkFCN2FDQVBJYUk4NzNtUkcwejR3NDNZczhwbmtNVGtSZ1hEM3EyTG83ejBuWGJidkRGakN2NFd3RzE2UElwbVpEdy1qUEd0Q3dUaTF6TUxvSTdMWklUeVZDdmhLMmZqRjMzbUl6Z19FOFZBNm9Wd0hQYVlteVh6VVpKSW1mSjB2T0xuX3A3R21KQmduNEZobS1LVk12dXpNWVE2cVVyaE54TnBiN0hqT21jSm1NMlVueDlqakxjTQ?oc=5",
           "date": "Fri, 10 Jul 2026",
-          "source": "AD HOC NEWS"
-         },
-         {
-          "title": "Truist raises Incyte stock price target to $105 on VWD outlook - Investing.com",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMkpsREJsTmJoM1czQTBmYTRkTjVHVlBlQXRGSVlfd01wSUw3QjhBWWFTTk9CengySG1hWW9KY2xaVFFUUVFOVkp3TnNOSk9uMzVCSXFTa3pnTG05M2ZVdXE4dDcxWHE1YzBFSUhHY1JieHJ4bjdBRWpQdWVRSnBRSzhHTDRzQUthZTBlbnQ0OXpESDduR3VCbUtRdkZLSGQ1UnJKcDk4WHRtdUo1UDhETVpBTVI3UnFNUzluVHRR?oc=5",
-          "date": "Mon, 22 Jun 2026",
-          "source": "Investing.com"
-         },
-         {
-          "title": "Incyte (INCY) Stock May Be 33% Overvalued After Opzelura EU Win - simplywall.st",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNndzaS1JdTM4OW1WNFI5V3ZwSVpHZWpjTjlXdEt0eUlsR01jUDJRcHk3VVRZS3VsN3JSV2daSnI1b3RpeUhFNXZhRUF3XzQ1cVhyc3hTUE5OT3N2ZHBRNjBBYjA4bVFoLW1JenhoR2VBcUpIVW9kMWdTRHNPazdtdktOcGpDT0tlTmRoYjVyZll0TTZoeDE3SzFnbVZjWF9MckNVV1dYaXBId1RFb2tZbGs2NmpZUmJzV2R2eDUxbTJpZFJhUkFieFZoeEZ3ZWJMbDU5c0lia9IB3AFBVV95cUxNUndUVjNqMmpoVTBmWmxkekVHUl9rVk5LV21DR3FjUVBOMFRVeXkxajJHOUU5MFMtOFhTRjAzb2pqTi1zNTZ4cUJGYWFDUE04ekZZQXZhZUNrUXNOZkhiTEpCNHl1LXFDRGxGYzhRc1lOZm9Pa1ZRcGJwUFRQR0x5cjBqU3ZUSjdlbnlxU3AxaWhaVGdOaFI0TmRkWUdHZFJ3OGdaZFRaZzJfNHhOdi1pb19RMVNXMmlUa0JUdWZtMVR6UXAyYWhpZzJMSWJEMlh4UmZIOHhRbW0tZFoz?oc=5",
-          "date": "Wed, 01 Jul 2026",
           "source": "simplywall.st"
+         },
+         {
+          "title": "NextEra Energy and Dominion Energy to Combine, Creating the World's Largest Regulated Electric Utility Business and North America's Premier Energy Infrastructure Platform Benefiting Customers - May 18, 2026 - NextEra Energy Newsroom",
+          "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPU1BRVm5wa1A0WFQ3Uk9hZEdLZ0dzOW9fZjFURVZKRklab1UyT0VTekhJS3djN01BaVRQUGIxUFJUMURxSE1vZ3JiZ1FHSm1seW1TdWx5MnBQX3VXWkJyY2NhUk9kQVdzR1BHOFR4VXZUalBGWDloRFJXRExXQmFUQk5QWS1EUlJna3VrWWtqajhBMVh2LUc3V2hWT0I4RnlXNDZkUUlRTWZBbTJsZ01GV1F5ZTNpT2VzOHBtaE9Id1hvb05UdE56NnhTVDRuNUNYbVhpNHQ3bTl5TFZKSzYtMHk1QnhmQ1Mza2pFZ3FYdFBPQ2YwN1dRcWgyUWU2NkFEX1NaODdPOVh6RXYzT2s2SzdvZnRCVFhVNUtjS2M0d3JEM0RTeVpiR1otT0l1WkJyNXJhdEJScEFBRzZFQk15eFlCcFRTQWd3UGQtclhDZ3NiUVVyV096bS1EZHI?oc=5",
+          "date": "Mon, 18 May 2026",
+          "source": "NextEra Energy Newsroom"
+         },
+         {
+          "title": "Dominion Energy Seeks Tie-Up With NextEra Energy To Fund Growth - Morningstar",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFpEVVV5N0l6aFV0ZDBXUVM3XzBlZWZJbnRzdTBuS0swY0pwSi1FRFdBWmljOUdFb25XajNRYTFpeHd5Z1ZJOWJmLW1ETlBya1k0NDRWbi15cm1WTlZqNFYxQ1FtS19ybXBvWHp0QnNKd0o1WU5Td3J0Y0xBYjdOSDRQN2lJVmU3TV9QcnpTZEdKVVlscmhNWFE2aG1JQVpCWHBucm9xMHBjVHFib3cwMFhIWWhkZw?oc=5",
+          "date": "Tue, 30 Jun 2026",
+          "source": "Morningstar"
+         },
+         {
+          "title": "Powering Mount Pleasant’s future: Dominion upgrades grid as growth continues - Live 5 News",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkZ1WUxkOUhIbnBIZ0NLYmFDVl9VZDFvNFJTcG5mWGVCZGtBOEpvY01PdnFDNGY3TXd4a0tydWJ6cTFMc29xX0lpS18xNUh0eFZ2NlBmZ2VnUngtdlgwbzdJRERVQ1dsMldvOWpsYUVDNG53a1NrYm1HY3ZMU3ZFanVnU3NheGY4dzZud1hGZkRHZEpPeFdTTEZTNVc3QjVDSTRXSUwyc08wQVF5d3fSAcIBQVVfeXFMTjZVRU92WGVRWnF5SUhvYUVRa2VqRjRYM2djcmpwYnIzNTJHemQxOUlUUmU5QVhrTTBwY0NtVlRBR2liLU5Bd3lVTVZIbTFBRG9EQXNRS0tfVG1sTmo0dWczb3ZqQk81bzI2Vjhmd0lxRTJ0MzJqWEtuLTN1UWQxRUhrQXBVMDc4c2RZd3pMOW05ci1zOWJjZTlqMUFfclJOLUN3MEluWkNDekExMUpIaEd0VTVBRUtITGQxMjF1UDVwbHc?oc=5",
+          "date": "Tue, 30 Jun 2026",
+          "source": "Live 5 News"
          }
         ],
         "all_news": [
          {
-          "title": "Incyte (INCY) Set to Release Q2 2026 Earnings with Positive Mark - GuruFocus",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQ2VNMVZUaDNISFUtNWItcF95M3RHQkFUSk8wbzNabzJsRVktcURSeGtLWVJBeWp0MmpfY1JZcEg4ZzlpX3kxdjNOcTlSLUcwbzVpREYtZWNkN2dyeVRRRVpXLWk4RDNfVkpKS0llaXpEUUpId1hROGtrcU05S2lrRUlnV0NnM0dDbVFvYVNEMWpKLV85cnJoTk9Cc0pOR1pYTTlGX3R3UVlINU5mVUwxNV9qOUo2cDg?oc=5",
-          "date": "Wed, 08 Jul 2026",
-          "source": "GuruFocus"
-         },
-         {
-          "title": "Incyte Shares Rise on EPS Growth, Lifted Guidance, Expansion - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaG9QQkNrMWZXSS1nTVdqZkNOWFhoMWt4Qk1ELTZrVEVIdXhuMDhIdnNQOWM4Z0NYWlRiblVPV2phOVNTakxmZFU4MlFORnppMUdXbHJ4NHFDcV9qN1AxckFyM2JSZ1A4X3RBVFpybVk3ZUhMVDl0QkNoVXpvUk00UWNwNmp0UDc3NjlsSEtIU1JCcTFNOE5FUXBB?oc=5",
-          "date": "Fri, 03 Jul 2026",
+          "title": "Dominion Energy Schedules Second-Quarter 2026 Earnings Call - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMzhpX1RBblBZSHhBbWEwUFJuakhtODdyMXdxOE1CWUxPMEVqd01FTkNUOW5LUTB3dVBJLXZJZDhMazg0X0cyU2hZWUZBMG1xUkxkQVN3Z0JjYXA2RmtIRHZWOUVlaDhCTXo5VC1zV0NzSHl6NDItQXg4aktfQ2twSlJJYUZCc0Y1ckg0aDJ5QlVacTJNYXlBWTN5M1FRQQ?oc=5",
+          "date": "Thu, 09 Jul 2026",
           "source": "Yahoo Finance"
          },
          {
-          "title": "Incyte and TG Therapeutics Deliver Notable Growth, Drawing Investment Attention to the Biotech Sector - NAI500",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNajludG1UU0NENW5JaXJrSFl2WGpRNlI4d01kRFpMSl9sNjNqeDRkLUFaVkJ6dTB0VWp5bjUyeFhjY0FpVmp6WUs3TXROY1VkazZ1b1h1UC1RaUR6a2ltLU9KR3FaVTh1eEhwR2NESFBySWlaRzFtUjNSTExUVGp6ZlBiYzdVdWlBYjIzTzhRdnJ1c0lERWVBaHEtSUYtLTVBdm9rMFVSNlVnQmJKVFNLMk00ZUVRcXJzSGVIUmIzRGJOWWxaWVpWZXMxT0FxUQ?oc=5",
-          "date": "Thu, 09 Jul 2026",
-          "source": "NAI500"
-         },
-         {
-          "title": "Incyte stock reflects steady biotech profile as revenue from Jakafi underpins outlook - AD HOC NEWS",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcHlvUlhGWW9LMEJVVHZxdXZ5SGJKWGlSZ1p0UnhkUWRCcWdBSXRJTUFFMmZOR2xxRld2Y3hQSnhHRUdtd0d1T2ptMnNRR3ltYXk2ZTI3UDlQNmFXa250X2dUSGpTSU0xT2Q5TkFJUjJVWWJmOUR0ZUZVS2FYNHFFLTFEOHVOV2Q3OXlqNDNhbk9MdlJHYnZtXzRINHdldmxsMzhhcjhHRjJQaWY5T2ZJemJjMGhvdHRmX2d3WUtHTjRDcWt6?oc=5",
+          "title": "Dominion Energy (D) Draws Investor Focus With AI Power Role And NextEra Merger - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNlIwSEZtWS1ZaHhfUTB0TnpmcjYtejl2SDdxX0txYjJWV0NhU3dsZkJQS3JCZFA1cnp3bHo2UEMwVjdnelgzY0NpY1hpOXJpUUg1aUtyRlZDREdsVFhyclF4X1JmX2FXSWdvUDhYR2FUTmRadE15aGZhVEVaamRZRXNLQ1N0LXdmSmQ3OUhQdjJZRnEwSVowcUVFaVZBeDFEOFlkdDhqVDBUdTE5VUlxaDN0UmJpSl9na3VuY3FYcjh5bHpKUERmVlRR0gHPAUFVX3lxTE5QcnlxaENtTmtFY1d1VWFpWkFCN2FDQVBJYUk4NzNtUkcwejR3NDNZczhwbmtNVGtSZ1hEM3EyTG83ejBuWGJidkRGakN2NFd3RzE2UElwbVpEdy1qUEd0Q3dUaTF6TUxvSTdMWklUeVZDdmhLMmZqRjMzbUl6Z19FOFZBNm9Wd0hQYVlteVh6VVpKSW1mSjB2T0xuX3A3R21KQmduNEZobS1LVk12dXpNWVE2cVVyaE54TnBiN0hqT21jSm1NMlVueDlqakxjTQ?oc=5",
           "date": "Fri, 10 Jul 2026",
-          "source": "AD HOC NEWS"
+          "source": "simplywall.st"
          },
          {
-          "title": "We Ran A Stock Scan For Earnings Growth And Incyte (NASDAQ:INCY) Passed With Ease - Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPc3RDbjRwWGR0TzU3QVFyNkxraHZFdjMta2NTbU9MX3ZuemtzLTFMQ0RRSG9NUmN4bVhkRFVDT0lGcFpucU91M09VQ040U3I1cTRYV0NDSC1YcjRtOHYtRmpzLTN1VGxOVkhMY1A2WnZlbjM1NTVhaGFKSURGT1lyYUtJSjdDR1RaRmx4Q2l2NGJZUTNJd2gw?oc=5",
-          "date": "Thu, 02 Jul 2026",
-          "source": "Moomoo"
+          "title": "NextEra Energy and Dominion Energy to Combine, Creating the World's Largest Regulated Electric Utility Business and North America's Premier Energy Infrastructure Platform Benefiting Customers - May 18, 2026 - NextEra Energy Newsroom",
+          "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPU1BRVm5wa1A0WFQ3Uk9hZEdLZ0dzOW9fZjFURVZKRklab1UyT0VTekhJS3djN01BaVRQUGIxUFJUMURxSE1vZ3JiZ1FHSm1seW1TdWx5MnBQX3VXWkJyY2NhUk9kQVdzR1BHOFR4VXZUalBGWDloRFJXRExXQmFUQk5QWS1EUlJna3VrWWtqajhBMVh2LUc3V2hWT0I4RnlXNDZkUUlRTWZBbTJsZ01GV1F5ZTNpT2VzOHBtaE9Id1hvb05UdE56NnhTVDRuNUNYbVhpNHQ3bTl5TFZKSzYtMHk1QnhmQ1Mza2pFZ3FYdFBPQ2YwN1dRcWgyUWU2NkFEX1NaODdPOVh6RXYzT2s2SzdvZnRCVFhVNUtjS2M0d3JEM0RTeVpiR1otT0l1WkJyNXJhdEJScEFBRzZFQk15eFlCcFRTQWd3UGQtclhDZ3NiUVVyV096bS1EZHI?oc=5",
+          "date": "Mon, 18 May 2026",
+          "source": "NextEra Energy Newsroom"
          },
          {
-          "title": "Truist raises Incyte stock price target to $105 on VWD outlook - Investing.com",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMkpsREJsTmJoM1czQTBmYTRkTjVHVlBlQXRGSVlfd01wSUw3QjhBWWFTTk9CengySG1hWW9KY2xaVFFUUVFOVkp3TnNOSk9uMzVCSXFTa3pnTG05M2ZVdXE4dDcxWHE1YzBFSUhHY1JieHJ4bjdBRWpQdWVRSnBRSzhHTDRzQUthZTBlbnQ0OXpESDduR3VCbUtRdkZLSGQ1UnJKcDk4WHRtdUo1UDhETVpBTVI3UnFNUzluVHRR?oc=5",
-          "date": "Mon, 22 Jun 2026",
-          "source": "Investing.com"
+          "title": "Dominion Energy Seeks Tie-Up With NextEra Energy To Fund Growth - Morningstar",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFpEVVV5N0l6aFV0ZDBXUVM3XzBlZWZJbnRzdTBuS0swY0pwSi1FRFdBWmljOUdFb25XajNRYTFpeHd5Z1ZJOWJmLW1ETlBya1k0NDRWbi15cm1WTlZqNFYxQ1FtS19ybXBvWHp0QnNKd0o1WU5Td3J0Y0xBYjdOSDRQN2lJVmU3TV9QcnpTZEdKVVlscmhNWFE2aG1JQVpCWHBucm9xMHBjVHFib3cwMFhIWWhkZw?oc=5",
+          "date": "Tue, 30 Jun 2026",
+          "source": "Morningstar"
          },
          {
-          "title": "Incyte (NASDAQ:INCY) Exceeds Q1 CY2026 Expectations - StockStory",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUkhOcjNRbHNBU1dLRG9STUc0Y0ZYdmliVERpWXc5QzhRVExGXzdsT2twTm0wUTRpN3c2T2o3eEFiU3I1YjcyRDczSDVMa1R5bmNjVXdXc1lHSEdDcmxBWmFiT0NYVHpfbG9acTE5WlQ1bDdER3B6V3FQYXFDbWpDdHRWTnE2NG5kSmdzMExoUEdLbGVzd2E1c2JqZ2o1TzF5eFRzdXFVVTQtbG8?oc=5",
+          "title": "Powering Mount Pleasant’s future: Dominion upgrades grid as growth continues - Live 5 News",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkZ1WUxkOUhIbnBIZ0NLYmFDVl9VZDFvNFJTcG5mWGVCZGtBOEpvY01PdnFDNGY3TXd4a0tydWJ6cTFMc29xX0lpS18xNUh0eFZ2NlBmZ2VnUngtdlgwbzdJRERVQ1dsMldvOWpsYUVDNG53a1NrYm1HY3ZMU3ZFanVnU3NheGY4dzZud1hGZkRHZEpPeFdTTEZTNVc3QjVDSTRXSUwyc08wQVF5d3fSAcIBQVVfeXFMTjZVRU92WGVRWnF5SUhvYUVRa2VqRjRYM2djcmpwYnIzNTJHemQxOUlUUmU5QVhrTTBwY0NtVlRBR2liLU5Bd3lVTVZIbTFBRG9EQXNRS0tfVG1sTmo0dWczb3ZqQk81bzI2Vjhmd0lxRTJ0MzJqWEtuLTN1UWQxRUhrQXBVMDc4c2RZd3pMOW05ci1zOWJjZTlqMUFfclJOLUN3MEluWkNDekExMUpIaEd0VTVBRUtITGQxMjF1UDVwbHc?oc=5",
+          "date": "Tue, 30 Jun 2026",
+          "source": "Live 5 News"
+         },
+         {
+          "title": "Dominion Energy to Report Q1 Earnings: What to Expect From the Stock? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLVBqdEgwUUNpN0dzOXJMXzlaNmdJeTNINE56eTE4VDJ1TldzYnppV19SNDFTdlpzOFVaX2c1ZjdqVzB1NnFBeDBKRklOSzVrNVhQcXoxQzBBYXl5NkhDYzFEYXdPY082V3ZZSEstdmFnQnNKY3Y1YVVrbXVJMzVxYXBza2thUUtzU0VLUkVuWUMtYUx3SVhiallibGhjdmp4?oc=5",
           "date": "Tue, 28 Apr 2026",
-          "source": "StockStory"
+          "source": "Yahoo Finance"
          },
          {
-          "title": "Incyte (INCY) Stock May Be 33% Overvalued After Opzelura EU Win - simplywall.st",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNndzaS1JdTM4OW1WNFI5V3ZwSVpHZWpjTjlXdEt0eUlsR01jUDJRcHk3VVRZS3VsN3JSV2daSnI1b3RpeUhFNXZhRUF3XzQ1cVhyc3hTUE5OT3N2ZHBRNjBBYjA4bVFoLW1JenhoR2VBcUpIVW9kMWdTRHNPazdtdktOcGpDT0tlTmRoYjVyZll0TTZoeDE3SzFnbVZjWF9MckNVV1dYaXBId1RFb2tZbGs2NmpZUmJzV2R2eDUxbTJpZFJhUkFieFZoeEZ3ZWJMbDU5c0lia9IB3AFBVV95cUxNUndUVjNqMmpoVTBmWmxkekVHUl9rVk5LV21DR3FjUVBOMFRVeXkxajJHOUU5MFMtOFhTRjAzb2pqTi1zNTZ4cUJGYWFDUE04ekZZQXZhZUNrUXNOZkhiTEpCNHl1LXFDRGxGYzhRc1lOZm9Pa1ZRcGJwUFRQR0x5cjBqU3ZUSjdlbnlxU3AxaWhaVGdOaFI0TmRkWUdHZFJ3OGdaZFRaZzJfNHhOdi1pb19RMVNXMmlUa0JUdWZtMVR6UXAyYWhpZzJMSWJEMlh4UmZIOHhRbW0tZFoz?oc=5",
-          "date": "Wed, 01 Jul 2026",
-          "source": "simplywall.st"
+          "title": "Dominion Energy (D) Beats Q1 Earnings and Revenue Estimates - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSHFVWDJRaUl0bWd5TjBmUEtRM1ZqVHRVT182SXRnSHk5b1RKRE9xaXY4NFcxdU9OTkxMM3hnOTBpMmdmZEVHV29DelYwdTFSMDk4cXUzLVhiYUVYWkFzRE5uTWZBcWVodkdtMk9mbkk3TkcycFJZR21Ub1pkS01pR19lQVdLWHhXZFg0akFZZzhIbHFfMFE?oc=5",
+          "date": "Fri, 01 May 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "Dominion Energy (D) Stock Trades At A Discount Following Its 48% Run - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaDZrQV85eDA3dWhmNmV3NGpmT256SnVueEdUVFlJQXlvQkV4RWRKajdjbFkxTVByblZmRzE3VkFZbDY1YUxZa1VSN255YzBmd25TaHVsM2tBbXcydU42ZEpOM0RJcnhXUHpOY3k5Qi11bDlpSjZWZy1Wd2hvenpMUnp0ZElGX1NROWZTOHEwUTR2ckxVQ3IzT1JDMA?oc=5",
+          "date": "Thu, 02 Jul 2026",
+          "source": "Yahoo Finance"
          }
         ],
         "model": "gemini-flash-latest",
-        "judged_at": "2026-07-10 10:42"
+        "judged_at": "2026-07-11 06:30"
        }
       },
       {
@@ -313,7 +316,7 @@
        "name": "⑧ 本益比未過熱（<60倍）",
        "grade": "O",
        "symbol": "○",
-       "detail": "本益比 16.6 倍",
+       "detail": "本益比 20.5 倍",
        "starred": false
       },
       {
@@ -321,1173 +324,110 @@
        "name": "⑨ 大盤上漲力道",
        "grade": "O",
        "symbol": "○",
-       "detail": "創新高股比率 7.4%，位於近一年前 20% 強、趨勢向上",
+       "detail": "創新高股比率 6.7%，位於近一年前 34% 強、趨勢向上",
        "starred": true
       }
      ],
-     "score": 93,
-     "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+     "score": 86,
+     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
     },
-    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量",
-    "mech_score": 100,
+    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+    "mech_score": 83,
     "ai7": {
-     "grade": "T",
-     "one_line": "因僅有簡短新聞標題，缺乏核心藥物專利期限、新藥市場規模及具體獲利預測等關鍵數據，無法評估未來能否穩健成長。",
-     "analysis": "雖然近期財務數據顯示獲利大幅成長，且新聞提及核心藥物 Jakafi 支撐展望、Opzelura 於歐盟獲准及 VWD 展望，但提供的資訊僅限於標題。我們無法從中得知 Jakafi 的專利保護剩餘年限，亦無法評估 Opzelura 在歐盟的實際市場滲透率與獲利貢獻。在缺乏具體產品銷售預測與結構性成長細節的情況下，秉持保守原則，判定目前證據不足以支持未來能穩健成長的結論。",
-     "risks": "1. 核心藥物 Jakafi 的專利到期或銷售放緩風險。2. 新藥 Opzelura 於歐盟市場的實際銷售與獲利貢獻低於預期。",
+     "grade": "O",
+     "one_line": "藉由與NextEra Energy合併以獲取成長資金，並受惠於AI發展帶來的結構性電力需求增長。",
+     "analysis": "根據新聞[3]與[4]，Dominion Energy計畫與NextEra Energy合併，此舉將創立全球最大的受管制電力公用事業，並有效解決其成長所需的資金問題。同時，新聞[2]指出公司在AI電力供應中扮演關鍵角色，顯示其成長動能來自於AI產業帶來的結構性電力需求增加，而非單純的景氣循環。此外，公司近期財務表現強勁，近四季獲利年增達65%，且持續進行區域電網升級[5]，支持其未來獲利的穩健成長。",
+     "risks": [
+      "大型合併案面臨監管機構審查延遲或反對的風險。",
+      "因應AI電力需求與電網升級所需的龐大資本支出壓力。"
+     ],
      "sources": [
       {
-       "title": "Incyte Shares Rise on EPS Growth, Lifted Guidance, Expansion - Yahoo Finance",
-       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaG9QQkNrMWZXSS1nTVdqZkNOWFhoMWt4Qk1ELTZrVEVIdXhuMDhIdnNQOWM4Z0NYWlRiblVPV2phOVNTakxmZFU4MlFORnppMUdXbHJ4NHFDcV9qN1AxckFyM2JSZ1A4X3RBVFpybVk3ZUhMVDl0QkNoVXpvUk00UWNwNmp0UDc3NjlsSEtIU1JCcTFNOE5FUXBB?oc=5",
-       "date": "Fri, 03 Jul 2026",
-       "source": "Yahoo Finance"
-      },
-      {
-       "title": "Incyte stock reflects steady biotech profile as revenue from Jakafi underpins outlook - AD HOC NEWS",
-       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcHlvUlhGWW9LMEJVVHZxdXZ5SGJKWGlSZ1p0UnhkUWRCcWdBSXRJTUFFMmZOR2xxRld2Y3hQSnhHRUdtd0d1T2ptMnNRR3ltYXk2ZTI3UDlQNmFXa250X2dUSGpTSU0xT2Q5TkFJUjJVWWJmOUR0ZUZVS2FYNHFFLTFEOHVOV2Q3OXlqNDNhbk9MdlJHYnZtXzRINHdldmxsMzhhcjhHRjJQaWY5T2ZJemJjMGhvdHRmX2d3WUtHTjRDcWt6?oc=5",
+       "title": "Dominion Energy (D) Draws Investor Focus With AI Power Role And NextEra Merger - simplywall.st",
+       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNlIwSEZtWS1ZaHhfUTB0TnpmcjYtejl2SDdxX0txYjJWV0NhU3dsZkJQS3JCZFA1cnp3bHo2UEMwVjdnelgzY0NpY1hpOXJpUUg1aUtyRlZDREdsVFhyclF4X1JmX2FXSWdvUDhYR2FUTmRadE15aGZhVEVaamRZRXNLQ1N0LXdmSmQ3OUhQdjJZRnEwSVowcUVFaVZBeDFEOFlkdDhqVDBUdTE5VUlxaDN0UmJpSl9na3VuY3FYcjh5bHpKUERmVlRR0gHPAUFVX3lxTE5QcnlxaENtTmtFY1d1VWFpWkFCN2FDQVBJYUk4NzNtUkcwejR3NDNZczhwbmtNVGtSZ1hEM3EyTG83ejBuWGJidkRGakN2NFd3RzE2UElwbVpEdy1qUEd0Q3dUaTF6TUxvSTdMWklUeVZDdmhLMmZqRjMzbUl6Z19FOFZBNm9Wd0hQYVlteVh6VVpKSW1mSjB2T0xuX3A3R21KQmduNEZobS1LVk12dXpNWVE2cVVyaE54TnBiN0hqT21jSm1NMlVueDlqakxjTQ?oc=5",
        "date": "Fri, 10 Jul 2026",
-       "source": "AD HOC NEWS"
-      },
-      {
-       "title": "Truist raises Incyte stock price target to $105 on VWD outlook - Investing.com",
-       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMkpsREJsTmJoM1czQTBmYTRkTjVHVlBlQXRGSVlfd01wSUw3QjhBWWFTTk9CengySG1hWW9KY2xaVFFUUVFOVkp3TnNOSk9uMzVCSXFTa3pnTG05M2ZVdXE4dDcxWHE1YzBFSUhHY1JieHJ4bjdBRWpQdWVRSnBRSzhHTDRzQUthZTBlbnQ0OXpESDduR3VCbUtRdkZLSGQ1UnJKcDk4WHRtdUo1UDhETVpBTVI3UnFNUzluVHRR?oc=5",
-       "date": "Mon, 22 Jun 2026",
-       "source": "Investing.com"
-      },
-      {
-       "title": "Incyte (INCY) Stock May Be 33% Overvalued After Opzelura EU Win - simplywall.st",
-       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNndzaS1JdTM4OW1WNFI5V3ZwSVpHZWpjTjlXdEt0eUlsR01jUDJRcHk3VVRZS3VsN3JSV2daSnI1b3RpeUhFNXZhRUF3XzQ1cVhyc3hTUE5OT3N2ZHBRNjBBYjA4bVFoLW1JenhoR2VBcUpIVW9kMWdTRHNPazdtdktOcGpDT0tlTmRoYjVyZll0TTZoeDE3SzFnbVZjWF9MckNVV1dYaXBId1RFb2tZbGs2NmpZUmJzV2R2eDUxbTJpZFJhUkFieFZoeEZ3ZWJMbDU5c0lia9IB3AFBVV95cUxNUndUVjNqMmpoVTBmWmxkekVHUl9rVk5LV21DR3FjUVBOMFRVeXkxajJHOUU5MFMtOFhTRjAzb2pqTi1zNTZ4cUJGYWFDUE04ekZZQXZhZUNrUXNOZkhiTEpCNHl1LXFDRGxGYzhRc1lOZm9Pa1ZRcGJwUFRQR0x5cjBqU3ZUSjdlbnlxU3AxaWhaVGdOaFI0TmRkWUdHZFJ3OGdaZFRaZzJfNHhOdi1pb19RMVNXMmlUa0JUdWZtMVR6UXAyYWhpZzJMSWJEMlh4UmZIOHhRbW0tZFoz?oc=5",
-       "date": "Wed, 01 Jul 2026",
        "source": "simplywall.st"
+      },
+      {
+       "title": "NextEra Energy and Dominion Energy to Combine, Creating the World's Largest Regulated Electric Utility Business and North America's Premier Energy Infrastructure Platform Benefiting Customers - May 18, 2026 - NextEra Energy Newsroom",
+       "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPU1BRVm5wa1A0WFQ3Uk9hZEdLZ0dzOW9fZjFURVZKRklab1UyT0VTekhJS3djN01BaVRQUGIxUFJUMURxSE1vZ3JiZ1FHSm1seW1TdWx5MnBQX3VXWkJyY2NhUk9kQVdzR1BHOFR4VXZUalBGWDloRFJXRExXQmFUQk5QWS1EUlJna3VrWWtqajhBMVh2LUc3V2hWT0I4RnlXNDZkUUlRTWZBbTJsZ01GV1F5ZTNpT2VzOHBtaE9Id1hvb05UdE56NnhTVDRuNUNYbVhpNHQ3bTl5TFZKSzYtMHk1QnhmQ1Mza2pFZ3FYdFBPQ2YwN1dRcWgyUWU2NkFEX1NaODdPOVh6RXYzT2s2SzdvZnRCVFhVNUtjS2M0d3JEM0RTeVpiR1otT0l1WkJyNXJhdEJScEFBRzZFQk15eFlCcFRTQWd3UGQtclhDZ3NiUVVyV096bS1EZHI?oc=5",
+       "date": "Mon, 18 May 2026",
+       "source": "NextEra Energy Newsroom"
+      },
+      {
+       "title": "Dominion Energy Seeks Tie-Up With NextEra Energy To Fund Growth - Morningstar",
+       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFpEVVV5N0l6aFV0ZDBXUVM3XzBlZWZJbnRzdTBuS0swY0pwSi1FRFdBWmljOUdFb25XajNRYTFpeHd5Z1ZJOWJmLW1ETlBya1k0NDRWbi15cm1WTlZqNFYxQ1FtS19ybXBvWHp0QnNKd0o1WU5Td3J0Y0xBYjdOSDRQN2lJVmU3TV9QcnpTZEdKVVlscmhNWFE2aG1JQVpCWHBucm9xMHBjVHFib3cwMFhIWWhkZw?oc=5",
+       "date": "Tue, 30 Jun 2026",
+       "source": "Morningstar"
+      },
+      {
+       "title": "Powering Mount Pleasant’s future: Dominion upgrades grid as growth continues - Live 5 News",
+       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkZ1WUxkOUhIbnBIZ0NLYmFDVl9VZDFvNFJTcG5mWGVCZGtBOEpvY01PdnFDNGY3TXd4a0tydWJ6cTFMc29xX0lpS18xNUh0eFZ2NlBmZ2VnUngtdlgwbzdJRERVQ1dsMldvOWpsYUVDNG53a1NrYm1HY3ZMU3ZFanVnU3NheGY4dzZud1hGZkRHZEpPeFdTTEZTNVc3QjVDSTRXSUwyc08wQVF5d3fSAcIBQVVfeXFMTjZVRU92WGVRWnF5SUhvYUVRa2VqRjRYM2djcmpwYnIzNTJHemQxOUlUUmU5QVhrTTBwY0NtVlRBR2liLU5Bd3lVTVZIbTFBRG9EQXNRS0tfVG1sTmo0dWczb3ZqQk81bzI2Vjhmd0lxRTJ0MzJqWEtuLTN1UWQxRUhrQXBVMDc4c2RZd3pMOW05ci1zOWJjZTlqMUFfclJOLUN3MEluWkNDekExMUpIaEd0VTVBRUtITGQxMjF1UDVwbHc?oc=5",
+       "date": "Tue, 30 Jun 2026",
+       "source": "Live 5 News"
       }
      ],
      "all_news": [
       {
-       "title": "Incyte (INCY) Set to Release Q2 2026 Earnings with Positive Mark - GuruFocus",
-       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQ2VNMVZUaDNISFUtNWItcF95M3RHQkFUSk8wbzNabzJsRVktcURSeGtLWVJBeWp0MmpfY1JZcEg4ZzlpX3kxdjNOcTlSLUcwbzVpREYtZWNkN2dyeVRRRVpXLWk4RDNfVkpKS0llaXpEUUpId1hROGtrcU05S2lrRUlnV0NnM0dDbVFvYVNEMWpKLV85cnJoTk9Cc0pOR1pYTTlGX3R3UVlINU5mVUwxNV9qOUo2cDg?oc=5",
-       "date": "Wed, 08 Jul 2026",
-       "source": "GuruFocus"
-      },
-      {
-       "title": "Incyte Shares Rise on EPS Growth, Lifted Guidance, Expansion - Yahoo Finance",
-       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaG9QQkNrMWZXSS1nTVdqZkNOWFhoMWt4Qk1ELTZrVEVIdXhuMDhIdnNQOWM4Z0NYWlRiblVPV2phOVNTakxmZFU4MlFORnppMUdXbHJ4NHFDcV9qN1AxckFyM2JSZ1A4X3RBVFpybVk3ZUhMVDl0QkNoVXpvUk00UWNwNmp0UDc3NjlsSEtIU1JCcTFNOE5FUXBB?oc=5",
-       "date": "Fri, 03 Jul 2026",
+       "title": "Dominion Energy Schedules Second-Quarter 2026 Earnings Call - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMzhpX1RBblBZSHhBbWEwUFJuakhtODdyMXdxOE1CWUxPMEVqd01FTkNUOW5LUTB3dVBJLXZJZDhMazg0X0cyU2hZWUZBMG1xUkxkQVN3Z0JjYXA2RmtIRHZWOUVlaDhCTXo5VC1zV0NzSHl6NDItQXg4aktfQ2twSlJJYUZCc0Y1ckg0aDJ5QlVacTJNYXlBWTN5M1FRQQ?oc=5",
+       "date": "Thu, 09 Jul 2026",
        "source": "Yahoo Finance"
       },
       {
-       "title": "Incyte and TG Therapeutics Deliver Notable Growth, Drawing Investment Attention to the Biotech Sector - NAI500",
-       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNajludG1UU0NENW5JaXJrSFl2WGpRNlI4d01kRFpMSl9sNjNqeDRkLUFaVkJ6dTB0VWp5bjUyeFhjY0FpVmp6WUs3TXROY1VkazZ1b1h1UC1RaUR6a2ltLU9KR3FaVTh1eEhwR2NESFBySWlaRzFtUjNSTExUVGp6ZlBiYzdVdWlBYjIzTzhRdnJ1c0lERWVBaHEtSUYtLTVBdm9rMFVSNlVnQmJKVFNLMk00ZUVRcXJzSGVIUmIzRGJOWWxaWVpWZXMxT0FxUQ?oc=5",
-       "date": "Thu, 09 Jul 2026",
-       "source": "NAI500"
-      },
-      {
-       "title": "Incyte stock reflects steady biotech profile as revenue from Jakafi underpins outlook - AD HOC NEWS",
-       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcHlvUlhGWW9LMEJVVHZxdXZ5SGJKWGlSZ1p0UnhkUWRCcWdBSXRJTUFFMmZOR2xxRld2Y3hQSnhHRUdtd0d1T2ptMnNRR3ltYXk2ZTI3UDlQNmFXa250X2dUSGpTSU0xT2Q5TkFJUjJVWWJmOUR0ZUZVS2FYNHFFLTFEOHVOV2Q3OXlqNDNhbk9MdlJHYnZtXzRINHdldmxsMzhhcjhHRjJQaWY5T2ZJemJjMGhvdHRmX2d3WUtHTjRDcWt6?oc=5",
+       "title": "Dominion Energy (D) Draws Investor Focus With AI Power Role And NextEra Merger - simplywall.st",
+       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNlIwSEZtWS1ZaHhfUTB0TnpmcjYtejl2SDdxX0txYjJWV0NhU3dsZkJQS3JCZFA1cnp3bHo2UEMwVjdnelgzY0NpY1hpOXJpUUg1aUtyRlZDREdsVFhyclF4X1JmX2FXSWdvUDhYR2FUTmRadE15aGZhVEVaamRZRXNLQ1N0LXdmSmQ3OUhQdjJZRnEwSVowcUVFaVZBeDFEOFlkdDhqVDBUdTE5VUlxaDN0UmJpSl9na3VuY3FYcjh5bHpKUERmVlRR0gHPAUFVX3lxTE5QcnlxaENtTmtFY1d1VWFpWkFCN2FDQVBJYUk4NzNtUkcwejR3NDNZczhwbmtNVGtSZ1hEM3EyTG83ejBuWGJidkRGakN2NFd3RzE2UElwbVpEdy1qUEd0Q3dUaTF6TUxvSTdMWklUeVZDdmhLMmZqRjMzbUl6Z19FOFZBNm9Wd0hQYVlteVh6VVpKSW1mSjB2T0xuX3A3R21KQmduNEZobS1LVk12dXpNWVE2cVVyaE54TnBiN0hqT21jSm1NMlVueDlqakxjTQ?oc=5",
        "date": "Fri, 10 Jul 2026",
-       "source": "AD HOC NEWS"
+       "source": "simplywall.st"
       },
       {
-       "title": "We Ran A Stock Scan For Earnings Growth And Incyte (NASDAQ:INCY) Passed With Ease - Moomoo",
-       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPc3RDbjRwWGR0TzU3QVFyNkxraHZFdjMta2NTbU9MX3ZuemtzLTFMQ0RRSG9NUmN4bVhkRFVDT0lGcFpucU91M09VQ040U3I1cTRYV0NDSC1YcjRtOHYtRmpzLTN1VGxOVkhMY1A2WnZlbjM1NTVhaGFKSURGT1lyYUtJSjdDR1RaRmx4Q2l2NGJZUTNJd2gw?oc=5",
-       "date": "Thu, 02 Jul 2026",
-       "source": "Moomoo"
+       "title": "NextEra Energy and Dominion Energy to Combine, Creating the World's Largest Regulated Electric Utility Business and North America's Premier Energy Infrastructure Platform Benefiting Customers - May 18, 2026 - NextEra Energy Newsroom",
+       "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPU1BRVm5wa1A0WFQ3Uk9hZEdLZ0dzOW9fZjFURVZKRklab1UyT0VTekhJS3djN01BaVRQUGIxUFJUMURxSE1vZ3JiZ1FHSm1seW1TdWx5MnBQX3VXWkJyY2NhUk9kQVdzR1BHOFR4VXZUalBGWDloRFJXRExXQmFUQk5QWS1EUlJna3VrWWtqajhBMVh2LUc3V2hWT0I4RnlXNDZkUUlRTWZBbTJsZ01GV1F5ZTNpT2VzOHBtaE9Id1hvb05UdE56NnhTVDRuNUNYbVhpNHQ3bTl5TFZKSzYtMHk1QnhmQ1Mza2pFZ3FYdFBPQ2YwN1dRcWgyUWU2NkFEX1NaODdPOVh6RXYzT2s2SzdvZnRCVFhVNUtjS2M0d3JEM0RTeVpiR1otT0l1WkJyNXJhdEJScEFBRzZFQk15eFlCcFRTQWd3UGQtclhDZ3NiUVVyV096bS1EZHI?oc=5",
+       "date": "Mon, 18 May 2026",
+       "source": "NextEra Energy Newsroom"
       },
       {
-       "title": "Truist raises Incyte stock price target to $105 on VWD outlook - Investing.com",
-       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMkpsREJsTmJoM1czQTBmYTRkTjVHVlBlQXRGSVlfd01wSUw3QjhBWWFTTk9CengySG1hWW9KY2xaVFFUUVFOVkp3TnNOSk9uMzVCSXFTa3pnTG05M2ZVdXE4dDcxWHE1YzBFSUhHY1JieHJ4bjdBRWpQdWVRSnBRSzhHTDRzQUthZTBlbnQ0OXpESDduR3VCbUtRdkZLSGQ1UnJKcDk4WHRtdUo1UDhETVpBTVI3UnFNUzluVHRR?oc=5",
-       "date": "Mon, 22 Jun 2026",
-       "source": "Investing.com"
+       "title": "Dominion Energy Seeks Tie-Up With NextEra Energy To Fund Growth - Morningstar",
+       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFpEVVV5N0l6aFV0ZDBXUVM3XzBlZWZJbnRzdTBuS0swY0pwSi1FRFdBWmljOUdFb25XajNRYTFpeHd5Z1ZJOWJmLW1ETlBya1k0NDRWbi15cm1WTlZqNFYxQ1FtS19ybXBvWHp0QnNKd0o1WU5Td3J0Y0xBYjdOSDRQN2lJVmU3TV9QcnpTZEdKVVlscmhNWFE2aG1JQVpCWHBucm9xMHBjVHFib3cwMFhIWWhkZw?oc=5",
+       "date": "Tue, 30 Jun 2026",
+       "source": "Morningstar"
       },
       {
-       "title": "Incyte (NASDAQ:INCY) Exceeds Q1 CY2026 Expectations - StockStory",
-       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUkhOcjNRbHNBU1dLRG9STUc0Y0ZYdmliVERpWXc5QzhRVExGXzdsT2twTm0wUTRpN3c2T2o3eEFiU3I1YjcyRDczSDVMa1R5bmNjVXdXc1lHSEdDcmxBWmFiT0NYVHpfbG9acTE5WlQ1bDdER3B6V3FQYXFDbWpDdHRWTnE2NG5kSmdzMExoUEdLbGVzd2E1c2JqZ2o1TzF5eFRzdXFVVTQtbG8?oc=5",
+       "title": "Powering Mount Pleasant’s future: Dominion upgrades grid as growth continues - Live 5 News",
+       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkZ1WUxkOUhIbnBIZ0NLYmFDVl9VZDFvNFJTcG5mWGVCZGtBOEpvY01PdnFDNGY3TXd4a0tydWJ6cTFMc29xX0lpS18xNUh0eFZ2NlBmZ2VnUngtdlgwbzdJRERVQ1dsMldvOWpsYUVDNG53a1NrYm1HY3ZMU3ZFanVnU3NheGY4dzZud1hGZkRHZEpPeFdTTEZTNVc3QjVDSTRXSUwyc08wQVF5d3fSAcIBQVVfeXFMTjZVRU92WGVRWnF5SUhvYUVRa2VqRjRYM2djcmpwYnIzNTJHemQxOUlUUmU5QVhrTTBwY0NtVlRBR2liLU5Bd3lVTVZIbTFBRG9EQXNRS0tfVG1sTmo0dWczb3ZqQk81bzI2Vjhmd0lxRTJ0MzJqWEtuLTN1UWQxRUhrQXBVMDc4c2RZd3pMOW05ci1zOWJjZTlqMUFfclJOLUN3MEluWkNDekExMUpIaEd0VTVBRUtITGQxMjF1UDVwbHc?oc=5",
+       "date": "Tue, 30 Jun 2026",
+       "source": "Live 5 News"
+      },
+      {
+       "title": "Dominion Energy to Report Q1 Earnings: What to Expect From the Stock? - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLVBqdEgwUUNpN0dzOXJMXzlaNmdJeTNINE56eTE4VDJ1TldzYnppV19SNDFTdlpzOFVaX2c1ZjdqVzB1NnFBeDBKRklOSzVrNVhQcXoxQzBBYXl5NkhDYzFEYXdPY082V3ZZSEstdmFnQnNKY3Y1YVVrbXVJMzVxYXBza2thUUtzU0VLUkVuWUMtYUx3SVhiallibGhjdmp4?oc=5",
        "date": "Tue, 28 Apr 2026",
-       "source": "StockStory"
-      },
-      {
-       "title": "Incyte (INCY) Stock May Be 33% Overvalued After Opzelura EU Win - simplywall.st",
-       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNndzaS1JdTM4OW1WNFI5V3ZwSVpHZWpjTjlXdEt0eUlsR01jUDJRcHk3VVRZS3VsN3JSV2daSnI1b3RpeUhFNXZhRUF3XzQ1cVhyc3hTUE5OT3N2ZHBRNjBBYjA4bVFoLW1JenhoR2VBcUpIVW9kMWdTRHNPazdtdktOcGpDT0tlTmRoYjVyZll0TTZoeDE3SzFnbVZjWF9MckNVV1dYaXBId1RFb2tZbGs2NmpZUmJzV2R2eDUxbTJpZFJhUkFieFZoeEZ3ZWJMbDU5c0lia9IB3AFBVV95cUxNUndUVjNqMmpoVTBmWmxkekVHUl9rVk5LV21DR3FjUVBOMFRVeXkxajJHOUU5MFMtOFhTRjAzb2pqTi1zNTZ4cUJGYWFDUE04ekZZQXZhZUNrUXNOZkhiTEpCNHl1LXFDRGxGYzhRc1lOZm9Pa1ZRcGJwUFRQR0x5cjBqU3ZUSjdlbnlxU3AxaWhaVGdOaFI0TmRkWUdHZFJ3OGdaZFRaZzJfNHhOdi1pb19RMVNXMmlUa0JUdWZtMVR6UXAyYWhpZzJMSWJEMlh4UmZIOHhRbW0tZFoz?oc=5",
-       "date": "Wed, 01 Jul 2026",
-       "source": "simplywall.st"
-      }
-     ],
-     "model": "gemini-flash-latest",
-     "judged_at": "2026-07-10 10:42"
-    }
-   },
-   {
-    "ticker": "ANET",
-    "name": "Arista Networks",
-    "close": 184.69,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.5420514574490718,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 184.69 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 54%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近5年平均年成長 39%，成長年份占 100%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近四季獲利年增 30%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1期季營收年增 35%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1季獲利年增 33%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "本益比 62.2 倍（≥60 倍，過熱）",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 7.4%，位於近一年前 20% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 92,
-     "verdict": "淘汰：關鍵項目不合格"
-    },
-    "mech_verdict": "淘汰：關鍵項目不合格",
-    "mech_score": 92
-   },
-   {
-    "ticker": "AAPL",
-    "name": "Apple Inc.",
-    "close": 316.22,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.7564151026685417,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 316.22 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 76%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近5年平均年成長 4%，成長年份占 67%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近四季獲利年增 7%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1期季營收年增 17%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1季獲利年增 22%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 38.3 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 7.4%，位於近一年前 20% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 83,
-     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-    },
-    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
-    "mech_score": 83
-   },
-   {
-    "ticker": "FTNT",
-    "name": "Fortinet",
-    "close": 163.73,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.5963050753962094,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 163.73 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 60%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近5年平均年成長 35%，成長年份占 100%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近四季獲利年增 11%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1期季營收年增 20%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1季獲利年增 26%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "本益比 60.6 倍（≥60 倍，過熱）",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 7.4%，位於近一年前 20% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 83,
-     "verdict": "淘汰：關鍵項目不合格"
-    },
-    "mech_verdict": "淘汰：關鍵項目不合格",
-    "mech_score": 83
-   },
-   {
-    "ticker": "NTRS",
-    "name": "Northern Trust",
-    "close": 182.86,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.5624420715391734,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 182.86 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 56%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "T",
-       "symbol": "△",
-       "detail": "近5年平均年成長 17%，成長年份占 33%（成長不夠穩定）",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近四季獲利年增 -12%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1期季營收年增 14%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1季獲利年增 34%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "T",
-       "symbol": "△",
-       "detail": "AI 判斷（僅供參考，請複核依據）：現有資訊僅提及業務剝離與單一合作案，缺乏具體數據證明其能扭轉歷史上不穩定的獲利結構。",
-       "starred": true,
-       "ai": {
-        "grade": "T",
-        "one_line": "現有資訊僅提及業務剝離與單一合作案，缺乏具體數據證明其能扭轉歷史上不穩定的獲利結構。",
-        "analysis": "財務數據顯示該公司近5年成長年份僅占33%，歷史獲利成長並不穩定。雖然新聞[3]與[6]指出公司有與Invesco的新合作案及退出監護業務的策略轉型，但僅憑新聞標題無法評估這些結構性調整對未來獲利的具體貢獻。在缺乏更詳盡的營運展望與轉型財務預估數據下，無法判斷其未來能否穩健成長。",
-        "risks": [
-         "歷史獲利成長波動劇烈且不夠穩定",
-         "退出監護業務等策略轉型的實際成效與過渡期風險不明"
-        ],
-        "sources": [
-         {
-          "title": "Will Invesco’s New Irish Synthetic Index Mandate Redefine Northern Trust’s (NTRS) Fund Servicing Narrative? - simplywall.st",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZnNOWFA2MGZOakU0V29ha2VfRWFiZHJOVGFyS2lEMEhhajFPRHdZVF8tSkZNOTR1Xzc0ODZzenJRbEFVUTEtZDN6TTNhUkNRckF6ZzhKNm1CZjJLSW9GNXJBTE14NVplcHoyNnA0elhiVFU4SG0wT2wxU3FFVm1FYm85WVZLbUVucDhMcVZnMlIzQ0FuMmxNSHNldmVxVFBCb1p1dmRUeEljUzdQZGkxVW13c0JFVHhRajA0bWRDR3U2VllxNjZDWGZxbXJIeHRVcjZjZGdmMy1IeGhOa2NnX9IB5gFBVV95cUxOZDNSdDIyeml4WERGNWt5VlhoMmloZ0lTc0MxdWVhTUE0R1NfdjBHNGU5bWluNGg0bzRBcEhyUllrR29xZXdBcWdjamxSYjNFc19VNDNyZ1dpeG9MN1FQZlF0U3dhOGdfZy04Mnh6N2FWTnJBWU5NcDBSVUZlVHp3MG5WSEk1RlJ2M1pDTHdaTDBaTDVCSmhUTGxuWkxPSW90ZHJOLUNLT3hwQzBBNzJCUGNIMldiQlFUdWQ1TVhVTW41VEl3SHZuN2ExQ1pPSmN3c0dLeGt4bm1qWUVGWUhzT1dSVzRyQQ?oc=5",
-          "date": "Wed, 08 Jul 2026",
-          "source": "simplywall.st"
-         },
-         {
-          "title": "NTRS to Exit Guardianship Business With WTFC Deal in Strategic Pivot - TradingView",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZlV3aEpFTFNVUHVDMkdXM05rVDlBTWtDWVVzUkR1c0tIOWhzZFk1TTlSU05heXhiYUhCTVI5WGxFQm1SaHpnSE52QVl0RHR6bC1QM3FXNkZiQ21ERHJ6cjktc3J4Vnh2UjBvdkt1WWFYX0kyQW1pRjlWcjE0ZjRRVmRTaTRjcjlPVVVaQUtPcEJESWZqY2U3MWpwMWF2QVVaYW1PTHk5d2ViOWt0R2lsTE43ZzlPeG1uaDVOQktHNzJWZw?oc=5",
-          "date": "Tue, 07 Jul 2026",
-          "source": "TradingView"
-         }
-        ],
-        "all_news": [
-         {
-          "title": "Will Northern Trust (NTRS) Beat Estimates Again in Its Next Earnings Report? - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1Rjbl9qT0JFSGIzeTFsaGJnTWVDU0ZyeUhKZzNLNEJRUGR6OE5YZ3BYN2I0Uzdwa3A2N1YzTjl0WjhEQVdMQjlDQ3NOcmtQM3c4ekJsemI0QzdJX3h4Y09jUV9STkhTUE9GbEd1Vnpod0ItX2x6TUJ1d1hSUDRTTTNNYmN2ZHRzU0JGcHFFYlFHZ2dYSk9pUGNUbVJ1R1BJ?oc=5",
-          "date": "Fri, 03 Jul 2026",
-          "source": "Yahoo Finance"
-         },
-         {
-          "title": "Northern Trust posts strong Q1 growth, rated BU... - Pluang",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV2ZpZlJlZnM5Ykc0UDNjZnpQb1FTeVU0X0lyeF9ZTmdQWThNc20xam11dExnM0l2SWp6b2RISGhpTmM3RGZyR1FqOG9RWndMSUE3bTR1b0VQa1ZiaEczV0Y0TkwwNENFaFJqVzZUcjdWQjV1Z0V6TlQtb3VQSW5RMDBRc0F6ZnR1WWZSZTdsNWNrMW44ZF9mTlEyYjd1b2dxcmc?oc=5",
-          "date": "Thu, 09 Jul 2026",
-          "source": "Pluang"
-         },
-         {
-          "title": "Will Invesco’s New Irish Synthetic Index Mandate Redefine Northern Trust’s (NTRS) Fund Servicing Narrative? - simplywall.st",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZnNOWFA2MGZOakU0V29ha2VfRWFiZHJOVGFyS2lEMEhhajFPRHdZVF8tSkZNOTR1Xzc0ODZzenJRbEFVUTEtZDN6TTNhUkNRckF6ZzhKNm1CZjJLSW9GNXJBTE14NVplcHoyNnA0elhiVFU4SG0wT2wxU3FFVm1FYm85WVZLbUVucDhMcVZnMlIzQ0FuMmxNSHNldmVxVFBCb1p1dmRUeEljUzdQZGkxVW13c0JFVHhRajA0bWRDR3U2VllxNjZDWGZxbXJIeHRVcjZjZGdmMy1IeGhOa2NnX9IB5gFBVV95cUxOZDNSdDIyeml4WERGNWt5VlhoMmloZ0lTc0MxdWVhTUE0R1NfdjBHNGU5bWluNGg0bzRBcEhyUllrR29xZXdBcWdjamxSYjNFc19VNDNyZ1dpeG9MN1FQZlF0U3dhOGdfZy04Mnh6N2FWTnJBWU5NcDBSVUZlVHp3MG5WSEk1RlJ2M1pDTHdaTDBaTDVCSmhUTGxuWkxPSW90ZHJOLUNLT3hwQzBBNzJCUGNIMldiQlFUdWQ1TVhVTW41VEl3SHZuN2ExQ1pPSmN3c0dLeGt4bm1qWUVGWUhzT1dSVzRyQQ?oc=5",
-          "date": "Wed, 08 Jul 2026",
-          "source": "simplywall.st"
-         },
-         {
-          "title": "Northern Trust (NASDAQ:NTRS) Surprises With Strong Q1 CY2026 - StockStory",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZlZtam5IakRvX19pY3h2Tnp4bU5VeG96eFF0eUMyRVBQSmVDbWhGVGdCQjJfaDYxRDNzcUdWWk1vYUplOTVCWnBXRTFHbGMxYVAtMl9DM2k2NHpPRUIzcTkyWldWa2pqeFhXb0IyaFNqT000VWVkTFVkbXdCZmNjTm1UMTJmREJIOTIzZU5qN3dCdW9ITFh6MUJXOE5pSnJKeUNHR1JPTTNZTUFrdlhaaGVjZzFMTWM?oc=5",
-          "date": "Tue, 21 Apr 2026",
-          "source": "StockStory"
-         },
-         {
-          "title": "Northern Trust (NTRS) Q1 2026 Earnings Transcript - The Motley Fool",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcDFtWFV6dE1ISEUxWkdpYjAzNHBhdmhWVUZRNFNzRUg4Ty1OSVZ6VUd3TTRkbTBxUktWZjVyR0NPWkRfWGs4V21VWFRxU2cwQ0ZYY0FTVDkyYWxmOFFYY0lFSE41VS1vczdSM3NqajFBSmJJazVCV2pVRm1OLThsVndIbTBZQWZTN3pQZGNjOHFNd1VvZjcwZnY3T1JGZjRzYklqNmx3UEZCdw?oc=5",
-          "date": "Tue, 21 Apr 2026",
-          "source": "The Motley Fool"
-         },
-         {
-          "title": "NTRS to Exit Guardianship Business With WTFC Deal in Strategic Pivot - TradingView",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZlV3aEpFTFNVUHVDMkdXM05rVDlBTWtDWVVzUkR1c0tIOWhzZFk1TTlSU05heXhiYUhCTVI5WGxFQm1SaHpnSE52QVl0RHR6bC1QM3FXNkZiQ21ERHJ6cjktc3J4Vnh2UjBvdkt1WWFYX0kyQW1pRjlWcjE0ZjRRVmRTaTRjcjlPVVVaQUtPcEJESWZqY2U3MWpwMWF2QVVaYW1PTHk5d2ViOWt0R2lsTE43ZzlPeG1uaDVOQktHNzJWZw?oc=5",
-          "date": "Tue, 07 Jul 2026",
-          "source": "TradingView"
-         },
-         {
-          "title": "Northern Trust Customer Story - Palo Alto Networks",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5MUxNdV9IbW1zNkIxQXpKR2lzRVVpWFRUWTlmNVl2elZSM0taZ1RrZVhLMThJcWozczdFMnMzT2JhUkNrVUVtTzVINHNaZC0zQ1FlU1l1SXlkSU1xTmxqbVZMdXZpbndW?oc=5",
-          "date": "Tue, 12 May 2026",
-          "source": "Palo Alto Networks"
-         },
-         {
-          "title": "What to Expect From Northern Trust's Q2 2026 Earnings Report - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUUJRZzFJR1QyUzhPNllLckNzSTRsaUJJZFNXbUhLMnpCTFNJcDYzZjJmVFBDRHpzdlRLRmxVRHRFTlllMk5KY041Q1paZG5weTAyOUF0NFAwMEpMbG1kQ042UWFqLVJhZWU4emxNdEVfWUdrcXRRd1VFbzJxdTdqYl9XOC15cXBZaF9jZldJX0NHV3ZqYWdQMmdfVQ?oc=5",
-          "date": "Mon, 29 Jun 2026",
-          "source": "Yahoo Finance"
-         }
-        ],
-        "model": "gemini-flash-latest",
-        "judged_at": "2026-07-10 10:42"
-       }
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 18.8 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 7.4%，位於近一年前 20% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 82,
-     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-    },
-    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
-    "mech_score": 88,
-    "ai7": {
-     "grade": "T",
-     "one_line": "現有資訊僅提及業務剝離與單一合作案，缺乏具體數據證明其能扭轉歷史上不穩定的獲利結構。",
-     "analysis": "財務數據顯示該公司近5年成長年份僅占33%，歷史獲利成長並不穩定。雖然新聞[3]與[6]指出公司有與Invesco的新合作案及退出監護業務的策略轉型，但僅憑新聞標題無法評估這些結構性調整對未來獲利的具體貢獻。在缺乏更詳盡的營運展望與轉型財務預估數據下，無法判斷其未來能否穩健成長。",
-     "risks": [
-      "歷史獲利成長波動劇烈且不夠穩定",
-      "退出監護業務等策略轉型的實際成效與過渡期風險不明"
-     ],
-     "sources": [
-      {
-       "title": "Will Invesco’s New Irish Synthetic Index Mandate Redefine Northern Trust’s (NTRS) Fund Servicing Narrative? - simplywall.st",
-       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZnNOWFA2MGZOakU0V29ha2VfRWFiZHJOVGFyS2lEMEhhajFPRHdZVF8tSkZNOTR1Xzc0ODZzenJRbEFVUTEtZDN6TTNhUkNRckF6ZzhKNm1CZjJLSW9GNXJBTE14NVplcHoyNnA0elhiVFU4SG0wT2wxU3FFVm1FYm85WVZLbUVucDhMcVZnMlIzQ0FuMmxNSHNldmVxVFBCb1p1dmRUeEljUzdQZGkxVW13c0JFVHhRajA0bWRDR3U2VllxNjZDWGZxbXJIeHRVcjZjZGdmMy1IeGhOa2NnX9IB5gFBVV95cUxOZDNSdDIyeml4WERGNWt5VlhoMmloZ0lTc0MxdWVhTUE0R1NfdjBHNGU5bWluNGg0bzRBcEhyUllrR29xZXdBcWdjamxSYjNFc19VNDNyZ1dpeG9MN1FQZlF0U3dhOGdfZy04Mnh6N2FWTnJBWU5NcDBSVUZlVHp3MG5WSEk1RlJ2M1pDTHdaTDBaTDVCSmhUTGxuWkxPSW90ZHJOLUNLT3hwQzBBNzJCUGNIMldiQlFUdWQ1TVhVTW41VEl3SHZuN2ExQ1pPSmN3c0dLeGt4bm1qWUVGWUhzT1dSVzRyQQ?oc=5",
-       "date": "Wed, 08 Jul 2026",
-       "source": "simplywall.st"
-      },
-      {
-       "title": "NTRS to Exit Guardianship Business With WTFC Deal in Strategic Pivot - TradingView",
-       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZlV3aEpFTFNVUHVDMkdXM05rVDlBTWtDWVVzUkR1c0tIOWhzZFk1TTlSU05heXhiYUhCTVI5WGxFQm1SaHpnSE52QVl0RHR6bC1QM3FXNkZiQ21ERHJ6cjktc3J4Vnh2UjBvdkt1WWFYX0kyQW1pRjlWcjE0ZjRRVmRTaTRjcjlPVVVaQUtPcEJESWZqY2U3MWpwMWF2QVVaYW1PTHk5d2ViOWt0R2lsTE43ZzlPeG1uaDVOQktHNzJWZw?oc=5",
-       "date": "Tue, 07 Jul 2026",
-       "source": "TradingView"
-      }
-     ],
-     "all_news": [
-      {
-       "title": "Will Northern Trust (NTRS) Beat Estimates Again in Its Next Earnings Report? - Yahoo Finance",
-       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1Rjbl9qT0JFSGIzeTFsaGJnTWVDU0ZyeUhKZzNLNEJRUGR6OE5YZ3BYN2I0Uzdwa3A2N1YzTjl0WjhEQVdMQjlDQ3NOcmtQM3c4ekJsemI0QzdJX3h4Y09jUV9STkhTUE9GbEd1Vnpod0ItX2x6TUJ1d1hSUDRTTTNNYmN2ZHRzU0JGcHFFYlFHZ2dYSk9pUGNUbVJ1R1BJ?oc=5",
-       "date": "Fri, 03 Jul 2026",
        "source": "Yahoo Finance"
       },
       {
-       "title": "Northern Trust posts strong Q1 growth, rated BU... - Pluang",
-       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV2ZpZlJlZnM5Ykc0UDNjZnpQb1FTeVU0X0lyeF9ZTmdQWThNc20xam11dExnM0l2SWp6b2RISGhpTmM3RGZyR1FqOG9RWndMSUE3bTR1b0VQa1ZiaEczV0Y0TkwwNENFaFJqVzZUcjdWQjV1Z0V6TlQtb3VQSW5RMDBRc0F6ZnR1WWZSZTdsNWNrMW44ZF9mTlEyYjd1b2dxcmc?oc=5",
-       "date": "Thu, 09 Jul 2026",
-       "source": "Pluang"
+       "title": "Dominion Energy (D) Beats Q1 Earnings and Revenue Estimates - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSHFVWDJRaUl0bWd5TjBmUEtRM1ZqVHRVT182SXRnSHk5b1RKRE9xaXY4NFcxdU9OTkxMM3hnOTBpMmdmZEVHV29DelYwdTFSMDk4cXUzLVhiYUVYWkFzRE5uTWZBcWVodkdtMk9mbkk3TkcycFJZR21Ub1pkS01pR19lQVdLWHhXZFg0akFZZzhIbHFfMFE?oc=5",
+       "date": "Fri, 01 May 2026",
+       "source": "Yahoo Finance"
       },
       {
-       "title": "Will Invesco’s New Irish Synthetic Index Mandate Redefine Northern Trust’s (NTRS) Fund Servicing Narrative? - simplywall.st",
-       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZnNOWFA2MGZOakU0V29ha2VfRWFiZHJOVGFyS2lEMEhhajFPRHdZVF8tSkZNOTR1Xzc0ODZzenJRbEFVUTEtZDN6TTNhUkNRckF6ZzhKNm1CZjJLSW9GNXJBTE14NVplcHoyNnA0elhiVFU4SG0wT2wxU3FFVm1FYm85WVZLbUVucDhMcVZnMlIzQ0FuMmxNSHNldmVxVFBCb1p1dmRUeEljUzdQZGkxVW13c0JFVHhRajA0bWRDR3U2VllxNjZDWGZxbXJIeHRVcjZjZGdmMy1IeGhOa2NnX9IB5gFBVV95cUxOZDNSdDIyeml4WERGNWt5VlhoMmloZ0lTc0MxdWVhTUE0R1NfdjBHNGU5bWluNGg0bzRBcEhyUllrR29xZXdBcWdjamxSYjNFc19VNDNyZ1dpeG9MN1FQZlF0U3dhOGdfZy04Mnh6N2FWTnJBWU5NcDBSVUZlVHp3MG5WSEk1RlJ2M1pDTHdaTDBaTDVCSmhUTGxuWkxPSW90ZHJOLUNLT3hwQzBBNzJCUGNIMldiQlFUdWQ1TVhVTW41VEl3SHZuN2ExQ1pPSmN3c0dLeGt4bm1qWUVGWUhzT1dSVzRyQQ?oc=5",
-       "date": "Wed, 08 Jul 2026",
-       "source": "simplywall.st"
-      },
-      {
-       "title": "Northern Trust (NASDAQ:NTRS) Surprises With Strong Q1 CY2026 - StockStory",
-       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZlZtam5IakRvX19pY3h2Tnp4bU5VeG96eFF0eUMyRVBQSmVDbWhGVGdCQjJfaDYxRDNzcUdWWk1vYUplOTVCWnBXRTFHbGMxYVAtMl9DM2k2NHpPRUIzcTkyWldWa2pqeFhXb0IyaFNqT000VWVkTFVkbXdCZmNjTm1UMTJmREJIOTIzZU5qN3dCdW9ITFh6MUJXOE5pSnJKeUNHR1JPTTNZTUFrdlhaaGVjZzFMTWM?oc=5",
-       "date": "Tue, 21 Apr 2026",
-       "source": "StockStory"
-      },
-      {
-       "title": "Northern Trust (NTRS) Q1 2026 Earnings Transcript - The Motley Fool",
-       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcDFtWFV6dE1ISEUxWkdpYjAzNHBhdmhWVUZRNFNzRUg4Ty1OSVZ6VUd3TTRkbTBxUktWZjVyR0NPWkRfWGs4V21VWFRxU2cwQ0ZYY0FTVDkyYWxmOFFYY0lFSE41VS1vczdSM3NqajFBSmJJazVCV2pVRm1OLThsVndIbTBZQWZTN3pQZGNjOHFNd1VvZjcwZnY3T1JGZjRzYklqNmx3UEZCdw?oc=5",
-       "date": "Tue, 21 Apr 2026",
-       "source": "The Motley Fool"
-      },
-      {
-       "title": "NTRS to Exit Guardianship Business With WTFC Deal in Strategic Pivot - TradingView",
-       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZlV3aEpFTFNVUHVDMkdXM05rVDlBTWtDWVVzUkR1c0tIOWhzZFk1TTlSU05heXhiYUhCTVI5WGxFQm1SaHpnSE52QVl0RHR6bC1QM3FXNkZiQ21ERHJ6cjktc3J4Vnh2UjBvdkt1WWFYX0kyQW1pRjlWcjE0ZjRRVmRTaTRjcjlPVVVaQUtPcEJESWZqY2U3MWpwMWF2QVVaYW1PTHk5d2ViOWt0R2lsTE43ZzlPeG1uaDVOQktHNzJWZw?oc=5",
-       "date": "Tue, 07 Jul 2026",
-       "source": "TradingView"
-      },
-      {
-       "title": "Northern Trust Customer Story - Palo Alto Networks",
-       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5MUxNdV9IbW1zNkIxQXpKR2lzRVVpWFRUWTlmNVl2elZSM0taZ1RrZVhLMThJcWozczdFMnMzT2JhUkNrVUVtTzVINHNaZC0zQ1FlU1l1SXlkSU1xTmxqbVZMdXZpbndW?oc=5",
-       "date": "Tue, 12 May 2026",
-       "source": "Palo Alto Networks"
-      },
-      {
-       "title": "What to Expect From Northern Trust's Q2 2026 Earnings Report - Yahoo Finance",
-       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUUJRZzFJR1QyUzhPNllLckNzSTRsaUJJZFNXbUhLMnpCTFNJcDYzZjJmVFBDRHpzdlRLRmxVRHRFTlllMk5KY041Q1paZG5weTAyOUF0NFAwMEpMbG1kQ042UWFqLVJhZWU4emxNdEVfWUdrcXRRd1VFbzJxdTdqYl9XOC15cXBZaF9jZldJX0NHV3ZqYWdQMmdfVQ?oc=5",
-       "date": "Mon, 29 Jun 2026",
+       "title": "Dominion Energy (D) Stock Trades At A Discount Following Its 48% Run - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaDZrQV85eDA3dWhmNmV3NGpmT256SnVueEdUVFlJQXlvQkV4RWRKajdjbFkxTVByblZmRzE3VkFZbDY1YUxZa1VSN255YzBmd25TaHVsM2tBbXcydU42ZEpOM0RJcnhXUHpOY3k5Qi11bDlpSjZWZy1Wd2hvenpMUnp0ZElGX1NROWZTOHEwUTR2ckxVQ3IzT1JDMA?oc=5",
+       "date": "Thu, 02 Jul 2026",
        "source": "Yahoo Finance"
       }
      ],
      "model": "gemini-flash-latest",
-     "judged_at": "2026-07-10 10:42"
+     "judged_at": "2026-07-11 06:30"
     }
-   },
-   {
-    "ticker": "AFL",
-    "name": "Aflac",
-    "close": 121.99,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.8943344693207255,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 121.99 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 89%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近4年平均年成長 0%，成長年份占 67%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近四季獲利年增 -29%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1期季營收年增 28%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1季獲利年增 745%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "T",
-       "symbol": "△",
-       "detail": "AI 判斷（僅供參考，請複核依據）：因僅有新聞標題與基本數據，缺乏說明未來獲利能穩健成長之具體結構性因素的詳細證據。",
-       "starred": true,
-       "ai": {
-        "grade": "T",
-        "one_line": "因僅有新聞標題與基本數據，缺乏說明未來獲利能穩健成長之具體結構性因素的詳細證據。",
-        "analysis": "雖然近期單季營收與獲利出現顯著增長，且新聞標題提及補充險與浮存金引擎，但提供之資訊僅限於標題，缺乏具體營運報告或產業趨勢分析。我們無法從現有證據中確認此成長是來自結構性變化（如市占率提升或商業模式變革），亦或僅是短期波動。身為保守的分析師，在缺乏足夠質性與量化細節佐證的情況下，無法判定其未來能穩健成長。",
-        "risks": [
-         "資訊不足風險：缺乏詳細財務報告與法說會內容以評估其實際成長動能。",
-         "短期波動風險：近四年平均年成長率為0%，顯示長期成長動能可能不夠穩定。"
-        ],
-        "sources": [
-         {
-          "title": "Aflac Incorporated Announces First Quarter 2026 Results - PR Newswire",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc1dxVElVZVBYdGtMT3FKVVljUXp3Y25MTFBNSnhzNlJISVptZ1o2WXdkc282d2FUUURLRURnQWR2SEZ3dVBYY3pERzNuNDROVlJIb3h0NEVodGV4T0V2YjhNSHhsakl5WWhLbFp5MTVZdWkxVDdZVEtBazFVLTVuVUF2Q3dpUkRsSlI2dDBhWG5qTlRsUEJIQXM1SnFJdkk1LVVmS25YSElZdjlxWWFLbg?oc=5",
-          "date": "Wed, 29 Apr 2026",
-          "source": "PR Newswire"
-         },
-         {
-          "title": "Aflac (AFL) Has a Supplemental-Insurance and Float Engine Bigger Than a Japan Rate Trade - AlphaStreet",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT3U1RXdhQ1lsX2hLSDFsU2N5cUJYcFJmVkhNX0tTR3prenJ5djJYQkhBbGJZaEYwV085eFEwSkZoLXZaZzVVUGNoSEpGOXIxWVZwYUNvM2NQemxqZ0RYdWU2ZFQ1MU1zMWEtdGNsVXpKNFRKQ2JhRDg3MHZMOENpWlNZNTZQZ09Ybm11MVFZSU9ueHlwQ01IY0NnYzBELTFRb3UyOG1DaWprNHN6dVg0XzM5OUxiN09fQ2NuWdIBvAFBVV95cUxOT3U1RXdhQ1lsX2hLSDFsU2N5cUJYcFJmVkhNX0tTR3prenJ5djJYQkhBbGJZaEYwV085eFEwSkZoLXZaZzVVUGNoSEpGOXIxWVZwYUNvM2NQemxqZ0RYdWU2ZFQ1MU1zMWEtdGNsVXpKNFRKQ2JhRDg3MHZMOENpWlNZNTZQZ09Ybm11MVFZSU9ueHlwQ01IY0NnYzBELTFRb3UyOG1DaWprNHN6dVg0XzM5OUxiN09fQ2NuWQ?oc=5",
-          "date": "Wed, 08 Jul 2026",
-          "source": "AlphaStreet"
-         },
-         {
-          "title": "What Aflac (AFL)'s Earnings Surge and Dividend Hike Mean For Shareholders - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT3c5elBLeWpNSUpaaXRLTFdHWmZWdmI2ZFlwaDFyQTc2LUF0Qkk4a0E4QVBFdzBKNmpZSTBzQ3ZldVV0SS00WW9FNG9QLUhGSnRod3V4NjhGdUI1RmR3VklIbmJrMldNdEhNN1N1cGRRU2RqOGdwQzVpQllzSDVCMmI3enNZZzEtRGxIRmpCd0w2amRwMnlLYTBuOWZYcEU?oc=5",
-          "date": "Thu, 30 Apr 2026",
-          "source": "Yahoo Finance"
-         }
-        ],
-        "all_news": [
-         {
-          "title": "What Aflac (AFL)'s Post‑Breach Omnibus Shelf Registration Means For Shareholders - simplywall.st",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOckJab1VLV2RFYWl6SzF1MUlTWHJlcjQ0X3lodTJDaXJzbldMS0ZUVWUxNTVsbjJ6WFRBYVEwdDJOSWFhejBZM2daaFRfal9FM1lDc0JzcTk5U2VEb25KeXZ6Z1J2N0UxWElJaXRLajA3TEhZc2FlLUJUblZ3Q0ZYN2prZEpLRzZhbjVJQ0JzbmdiLWw4UTlWT0M2VnZvMzByWjlkVEcyYjE4emhWRVRyRl9wSmFpX3JtNHNlS0Nn0gHDAUFVX3lxTE03U3ktZHZGS2lOVjFsVmJLbnpWdnpFM18xdERCNjJId2lCLTRBbGpjQ2ZmZTZ1dVlmRHpqUmRLNmotQVhLU0VmemYtZVNqdVBVZFlVazlURFZ5Z3M3MVFfWWRyQkFJLUQ5T2RZNVBtS0pkLWJJMVVZUVZjWXhVYkREaXp4WWxLY1M5dFNncGcxTW43U3A4Mlo3MHVCQ2UxZ25uS1VOMmpfQmFtdGtFWUdTb1ZrS2d1S2tDRlNSUnB4aFZuUQ?oc=5",
-          "date": "Tue, 07 Jul 2026",
-          "source": "simplywall.st"
-         },
-         {
-          "title": "Aflac Incorporated Announces First Quarter 2026 Results - PR Newswire",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc1dxVElVZVBYdGtMT3FKVVljUXp3Y25MTFBNSnhzNlJISVptZ1o2WXdkc282d2FUUURLRURnQWR2SEZ3dVBYY3pERzNuNDROVlJIb3h0NEVodGV4T0V2YjhNSHhsakl5WWhLbFp5MTVZdWkxVDdZVEtBazFVLTVuVUF2Q3dpUkRsSlI2dDBhWG5qTlRsUEJIQXM1SnFJdkk1LVVmS25YSElZdjlxWWFLbg?oc=5",
-          "date": "Wed, 29 Apr 2026",
-          "source": "PR Newswire"
-         },
-         {
-          "title": "Aflac (AFL) Has a Supplemental-Insurance and Float Engine Bigger Than a Japan Rate Trade - AlphaStreet",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT3U1RXdhQ1lsX2hLSDFsU2N5cUJYcFJmVkhNX0tTR3prenJ5djJYQkhBbGJZaEYwV085eFEwSkZoLXZaZzVVUGNoSEpGOXIxWVZwYUNvM2NQemxqZ0RYdWU2ZFQ1MU1zMWEtdGNsVXpKNFRKQ2JhRDg3MHZMOENpWlNZNTZQZ09Ybm11MVFZSU9ueHlwQ01IY0NnYzBELTFRb3UyOG1DaWprNHN6dVg0XzM5OUxiN09fQ2NuWdIBvAFBVV95cUxOT3U1RXdhQ1lsX2hLSDFsU2N5cUJYcFJmVkhNX0tTR3prenJ5djJYQkhBbGJZaEYwV085eFEwSkZoLXZaZzVVUGNoSEpGOXIxWVZwYUNvM2NQemxqZ0RYdWU2ZFQ1MU1zMWEtdGNsVXpKNFRKQ2JhRDg3MHZMOENpWlNZNTZQZ09Ybm11MVFZSU9ueHlwQ01IY0NnYzBELTFRb3UyOG1DaWprNHN6dVg0XzM5OUxiN09fQ2NuWQ?oc=5",
-          "date": "Wed, 08 Jul 2026",
-          "source": "AlphaStreet"
-         },
-         {
-          "title": "What Aflac (AFL)'s Earnings Surge and Dividend Hike Mean For Shareholders - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT3c5elBLeWpNSUpaaXRLTFdHWmZWdmI2ZFlwaDFyQTc2LUF0Qkk4a0E4QVBFdzBKNmpZSTBzQ3ZldVV0SS00WW9FNG9QLUhGSnRod3V4NjhGdUI1RmR3VklIbmJrMldNdEhNN1N1cGRRU2RqOGdwQzVpQllzSDVCMmI3enNZZzEtRGxIRmpCd0w2amRwMnlLYTBuOWZYcEU?oc=5",
-          "date": "Thu, 30 Apr 2026",
-          "source": "Yahoo Finance"
-         },
-         {
-          "title": "Aflac Incorporated to Release Third Quarter Results and CFO Video Update on November 4, 2025 and Host Webcast on November 5, 2025 - Aflac",
-          "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQYlM5OGNIUDdyRkFuQ1JTQi1xS2ZydFRCYmplLV9oaEExd2xCMm5BRDN2SVhxTjk2TGRxelBNaUNuMmJpSjhWbm1EWHQyOXpDSmc0MmxnU3liV2VOLWN0djZxeXlySC12WktjWkM2MlF5eXo5TmhSMWp4UlNFQnZGd00tRExpRkZuRlAwbXNpTkpfeFFxSUFnS3NwMU5KREZEYUZNTE1XODZIY080cE1nM25haEZZc3o1NnBidUxCTzlKYlhQYmZPSjFVYkJHMDRzVkhMbng0NXVGTTlpdmFkdVA4RWRFZlgzeXlkOUU2aDgwVkJiOWV5ek00TUhtTDVKSnpYQ3JWVHdQaEV0Y3lWVzQxN21Vbmc1dlFubVFMRnBaSGFPa1A1YS1WNjhPODZOYnJiMA?oc=5",
-          "date": "Thu, 02 Oct 2025",
-          "source": "Aflac"
-         },
-         {
-          "title": "5 Must-Read Analyst Questions From Aflac’s Q1 Earnings Call - StockStory",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSnA5a1BnVmZCRDNZT0M0bjgwMUdmbEVNUU94cGQ1eTlPazlqWThDNy0yRzlESFk2ZngyajA2dGRQOXVOR3lDT3VsVzlrWVBXU3lPcU1WU1NtTThSbXBCQnR0XzZSY3drRnpwZjdUM2UxTF9maFNvdlEzcG1GNUZXZlpfM09XWTV2RjAyNWpKN1VaTmdLdlphU3FTSFo2dmxHWjB4Y3JFbWZQcFJ1dkpBeHh6MElfLWlCUnVn?oc=5",
-          "date": "Tue, 05 May 2026",
-          "source": "StockStory"
-         },
-         {
-          "title": "Aflac Incorporated to Release Second Quarter Results and CFO Video Update on August 6, 2026 and Host Webcast on August 7, 2026 - TradingView",
-          "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNNHRGbldkRnJDdGNQd2xfdUxrbTFEYXEwOWh1TzQ0QTFzMWp4c2FPNFJDU3FzU1VaNzF6SEJycDYzUWdhTlZPQVRaNjN6cXJhRUYwbjdEQ2VpVHdqQTVvRXhDbmhUdXlqLWpIa0MzNHN0VWNjcTRDZE5ZakJHUDN5ZWFFaDZxSzJaV3VPalM5UkF4d2VxRmNxSjlOQXJaRkMtV1FfeE83aDFROGh1bUhaQVpKbHdYdS12azJCcE5iYnhkRE53Ym1lQU4xYVFYZzNnSmxIWWRsSFRPNU15Q1pTU1RLcFpMYmhkNG9iU0J4ZnFkcG9IYUNybVBsMkRjYnVvRGVBMjRvbUhaUE1SWWljNF9mZw?oc=5",
-          "date": "Tue, 30 Jun 2026",
-          "source": "TradingView"
-         },
-         {
-          "title": "Aflac schedules Aug. 6 earnings release, Aug. 7 webcast - Stock Titan",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbVFRQUxoQ0VFbkEyYmFnVXJrUUNkbVEzRVdDZU00RjZWa0J6WTFGWFdlMDNMQmpIdkVCV05NbmhTai1RdVYxOFZxbnY5VW5RaVVCcDN6NVYwZERFNXhwYU1MTHprZTJzSXp1N1hwUzB6Zk04a1ZjX0h3OGJDazlUZ1hnOHIwWHpQUi13ZmZBbnF6OVhERmd2RUxDMjRtUFdKM254Z1pITFNsM1U2Z3k0TzltdWJrY3FSUHN4cg?oc=5",
-          "date": "Tue, 30 Jun 2026",
-          "source": "Stock Titan"
-         }
-        ],
-        "model": "gemini-flash-latest",
-        "judged_at": "2026-07-10 10:43"
-       }
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 13.9 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 7.4%，位於近一年前 20% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 79,
-     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-    },
-    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
-    "mech_score": 83,
-    "ai7": {
-     "grade": "T",
-     "one_line": "因僅有新聞標題與基本數據，缺乏說明未來獲利能穩健成長之具體結構性因素的詳細證據。",
-     "analysis": "雖然近期單季營收與獲利出現顯著增長，且新聞標題提及補充險與浮存金引擎，但提供之資訊僅限於標題，缺乏具體營運報告或產業趨勢分析。我們無法從現有證據中確認此成長是來自結構性變化（如市占率提升或商業模式變革），亦或僅是短期波動。身為保守的分析師，在缺乏足夠質性與量化細節佐證的情況下，無法判定其未來能穩健成長。",
-     "risks": [
-      "資訊不足風險：缺乏詳細財務報告與法說會內容以評估其實際成長動能。",
-      "短期波動風險：近四年平均年成長率為0%，顯示長期成長動能可能不夠穩定。"
-     ],
-     "sources": [
-      {
-       "title": "Aflac Incorporated Announces First Quarter 2026 Results - PR Newswire",
-       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc1dxVElVZVBYdGtMT3FKVVljUXp3Y25MTFBNSnhzNlJISVptZ1o2WXdkc282d2FUUURLRURnQWR2SEZ3dVBYY3pERzNuNDROVlJIb3h0NEVodGV4T0V2YjhNSHhsakl5WWhLbFp5MTVZdWkxVDdZVEtBazFVLTVuVUF2Q3dpUkRsSlI2dDBhWG5qTlRsUEJIQXM1SnFJdkk1LVVmS25YSElZdjlxWWFLbg?oc=5",
-       "date": "Wed, 29 Apr 2026",
-       "source": "PR Newswire"
-      },
-      {
-       "title": "Aflac (AFL) Has a Supplemental-Insurance and Float Engine Bigger Than a Japan Rate Trade - AlphaStreet",
-       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT3U1RXdhQ1lsX2hLSDFsU2N5cUJYcFJmVkhNX0tTR3prenJ5djJYQkhBbGJZaEYwV085eFEwSkZoLXZaZzVVUGNoSEpGOXIxWVZwYUNvM2NQemxqZ0RYdWU2ZFQ1MU1zMWEtdGNsVXpKNFRKQ2JhRDg3MHZMOENpWlNZNTZQZ09Ybm11MVFZSU9ueHlwQ01IY0NnYzBELTFRb3UyOG1DaWprNHN6dVg0XzM5OUxiN09fQ2NuWdIBvAFBVV95cUxOT3U1RXdhQ1lsX2hLSDFsU2N5cUJYcFJmVkhNX0tTR3prenJ5djJYQkhBbGJZaEYwV085eFEwSkZoLXZaZzVVUGNoSEpGOXIxWVZwYUNvM2NQemxqZ0RYdWU2ZFQ1MU1zMWEtdGNsVXpKNFRKQ2JhRDg3MHZMOENpWlNZNTZQZ09Ybm11MVFZSU9ueHlwQ01IY0NnYzBELTFRb3UyOG1DaWprNHN6dVg0XzM5OUxiN09fQ2NuWQ?oc=5",
-       "date": "Wed, 08 Jul 2026",
-       "source": "AlphaStreet"
-      },
-      {
-       "title": "What Aflac (AFL)'s Earnings Surge and Dividend Hike Mean For Shareholders - Yahoo Finance",
-       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT3c5elBLeWpNSUpaaXRLTFdHWmZWdmI2ZFlwaDFyQTc2LUF0Qkk4a0E4QVBFdzBKNmpZSTBzQ3ZldVV0SS00WW9FNG9QLUhGSnRod3V4NjhGdUI1RmR3VklIbmJrMldNdEhNN1N1cGRRU2RqOGdwQzVpQllzSDVCMmI3enNZZzEtRGxIRmpCd0w2amRwMnlLYTBuOWZYcEU?oc=5",
-       "date": "Thu, 30 Apr 2026",
-       "source": "Yahoo Finance"
-      }
-     ],
-     "all_news": [
-      {
-       "title": "What Aflac (AFL)'s Post‑Breach Omnibus Shelf Registration Means For Shareholders - simplywall.st",
-       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOckJab1VLV2RFYWl6SzF1MUlTWHJlcjQ0X3lodTJDaXJzbldMS0ZUVWUxNTVsbjJ6WFRBYVEwdDJOSWFhejBZM2daaFRfal9FM1lDc0JzcTk5U2VEb25KeXZ6Z1J2N0UxWElJaXRLajA3TEhZc2FlLUJUblZ3Q0ZYN2prZEpLRzZhbjVJQ0JzbmdiLWw4UTlWT0M2VnZvMzByWjlkVEcyYjE4emhWRVRyRl9wSmFpX3JtNHNlS0Nn0gHDAUFVX3lxTE03U3ktZHZGS2lOVjFsVmJLbnpWdnpFM18xdERCNjJId2lCLTRBbGpjQ2ZmZTZ1dVlmRHpqUmRLNmotQVhLU0VmemYtZVNqdVBVZFlVazlURFZ5Z3M3MVFfWWRyQkFJLUQ5T2RZNVBtS0pkLWJJMVVZUVZjWXhVYkREaXp4WWxLY1M5dFNncGcxTW43U3A4Mlo3MHVCQ2UxZ25uS1VOMmpfQmFtdGtFWUdTb1ZrS2d1S2tDRlNSUnB4aFZuUQ?oc=5",
-       "date": "Tue, 07 Jul 2026",
-       "source": "simplywall.st"
-      },
-      {
-       "title": "Aflac Incorporated Announces First Quarter 2026 Results - PR Newswire",
-       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc1dxVElVZVBYdGtMT3FKVVljUXp3Y25MTFBNSnhzNlJISVptZ1o2WXdkc282d2FUUURLRURnQWR2SEZ3dVBYY3pERzNuNDROVlJIb3h0NEVodGV4T0V2YjhNSHhsakl5WWhLbFp5MTVZdWkxVDdZVEtBazFVLTVuVUF2Q3dpUkRsSlI2dDBhWG5qTlRsUEJIQXM1SnFJdkk1LVVmS25YSElZdjlxWWFLbg?oc=5",
-       "date": "Wed, 29 Apr 2026",
-       "source": "PR Newswire"
-      },
-      {
-       "title": "Aflac (AFL) Has a Supplemental-Insurance and Float Engine Bigger Than a Japan Rate Trade - AlphaStreet",
-       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT3U1RXdhQ1lsX2hLSDFsU2N5cUJYcFJmVkhNX0tTR3prenJ5djJYQkhBbGJZaEYwV085eFEwSkZoLXZaZzVVUGNoSEpGOXIxWVZwYUNvM2NQemxqZ0RYdWU2ZFQ1MU1zMWEtdGNsVXpKNFRKQ2JhRDg3MHZMOENpWlNZNTZQZ09Ybm11MVFZSU9ueHlwQ01IY0NnYzBELTFRb3UyOG1DaWprNHN6dVg0XzM5OUxiN09fQ2NuWdIBvAFBVV95cUxOT3U1RXdhQ1lsX2hLSDFsU2N5cUJYcFJmVkhNX0tTR3prenJ5djJYQkhBbGJZaEYwV085eFEwSkZoLXZaZzVVUGNoSEpGOXIxWVZwYUNvM2NQemxqZ0RYdWU2ZFQ1MU1zMWEtdGNsVXpKNFRKQ2JhRDg3MHZMOENpWlNZNTZQZ09Ybm11MVFZSU9ueHlwQ01IY0NnYzBELTFRb3UyOG1DaWprNHN6dVg0XzM5OUxiN09fQ2NuWQ?oc=5",
-       "date": "Wed, 08 Jul 2026",
-       "source": "AlphaStreet"
-      },
-      {
-       "title": "What Aflac (AFL)'s Earnings Surge and Dividend Hike Mean For Shareholders - Yahoo Finance",
-       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT3c5elBLeWpNSUpaaXRLTFdHWmZWdmI2ZFlwaDFyQTc2LUF0Qkk4a0E4QVBFdzBKNmpZSTBzQ3ZldVV0SS00WW9FNG9QLUhGSnRod3V4NjhGdUI1RmR3VklIbmJrMldNdEhNN1N1cGRRU2RqOGdwQzVpQllzSDVCMmI3enNZZzEtRGxIRmpCd0w2amRwMnlLYTBuOWZYcEU?oc=5",
-       "date": "Thu, 30 Apr 2026",
-       "source": "Yahoo Finance"
-      },
-      {
-       "title": "Aflac Incorporated to Release Third Quarter Results and CFO Video Update on November 4, 2025 and Host Webcast on November 5, 2025 - Aflac",
-       "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQYlM5OGNIUDdyRkFuQ1JTQi1xS2ZydFRCYmplLV9oaEExd2xCMm5BRDN2SVhxTjk2TGRxelBNaUNuMmJpSjhWbm1EWHQyOXpDSmc0MmxnU3liV2VOLWN0djZxeXlySC12WktjWkM2MlF5eXo5TmhSMWp4UlNFQnZGd00tRExpRkZuRlAwbXNpTkpfeFFxSUFnS3NwMU5KREZEYUZNTE1XODZIY080cE1nM25haEZZc3o1NnBidUxCTzlKYlhQYmZPSjFVYkJHMDRzVkhMbng0NXVGTTlpdmFkdVA4RWRFZlgzeXlkOUU2aDgwVkJiOWV5ek00TUhtTDVKSnpYQ3JWVHdQaEV0Y3lWVzQxN21Vbmc1dlFubVFMRnBaSGFPa1A1YS1WNjhPODZOYnJiMA?oc=5",
-       "date": "Thu, 02 Oct 2025",
-       "source": "Aflac"
-      },
-      {
-       "title": "5 Must-Read Analyst Questions From Aflac’s Q1 Earnings Call - StockStory",
-       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSnA5a1BnVmZCRDNZT0M0bjgwMUdmbEVNUU94cGQ1eTlPazlqWThDNy0yRzlESFk2ZngyajA2dGRQOXVOR3lDT3VsVzlrWVBXU3lPcU1WU1NtTThSbXBCQnR0XzZSY3drRnpwZjdUM2UxTF9maFNvdlEzcG1GNUZXZlpfM09XWTV2RjAyNWpKN1VaTmdLdlphU3FTSFo2dmxHWjB4Y3JFbWZQcFJ1dkpBeHh6MElfLWlCUnVn?oc=5",
-       "date": "Tue, 05 May 2026",
-       "source": "StockStory"
-      },
-      {
-       "title": "Aflac Incorporated to Release Second Quarter Results and CFO Video Update on August 6, 2026 and Host Webcast on August 7, 2026 - TradingView",
-       "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNNHRGbldkRnJDdGNQd2xfdUxrbTFEYXEwOWh1TzQ0QTFzMWp4c2FPNFJDU3FzU1VaNzF6SEJycDYzUWdhTlZPQVRaNjN6cXJhRUYwbjdEQ2VpVHdqQTVvRXhDbmhUdXlqLWpIa0MzNHN0VWNjcTRDZE5ZakJHUDN5ZWFFaDZxSzJaV3VPalM5UkF4d2VxRmNxSjlOQXJaRkMtV1FfeE83aDFROGh1bUhaQVpKbHdYdS12azJCcE5iYnhkRE53Ym1lQU4xYVFYZzNnSmxIWWRsSFRPNU15Q1pTU1RLcFpMYmhkNG9iU0J4ZnFkcG9IYUNybVBsMkRjYnVvRGVBMjRvbUhaUE1SWWljNF9mZw?oc=5",
-       "date": "Tue, 30 Jun 2026",
-       "source": "TradingView"
-      },
-      {
-       "title": "Aflac schedules Aug. 6 earnings release, Aug. 7 webcast - Stock Titan",
-       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbVFRQUxoQ0VFbkEyYmFnVXJrUUNkbVEzRVdDZU00RjZWa0J6WTFGWFdlMDNMQmpIdkVCV05NbmhTai1RdVYxOFZxbnY5VW5RaVVCcDN6NVYwZERFNXhwYU1MTHprZTJzSXp1N1hwUzB6Zk04a1ZjX0h3OGJDazlUZ1hnOHIwWHpQUi13ZmZBbnF6OVhERmd2RUxDMjRtUFdKM254Z1pITFNsM1U2Z3k0TzltdWJrY3FSUHN4cg?oc=5",
-       "date": "Tue, 30 Jun 2026",
-       "source": "Stock Titan"
-      }
-     ],
-     "model": "gemini-flash-latest",
-     "judged_at": "2026-07-10 10:43"
-    }
-   },
-   {
-    "ticker": "EA",
-    "name": "Electronic Arts",
-    "close": 206.56,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.6727770975023285,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 206.56 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 67%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近4年平均年成長 -2%，成長年份占 67%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近四季獲利年增 -26%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1期季營收年增 12%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1季獲利年增 42%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "T",
-       "symbol": "△",
-       "detail": "AI 判斷（僅供參考，請複核依據）：現有證據僅顯示單一遊戲發行帶動短期業績，缺乏能證明長期結構性成長的具體證據。",
-       "starred": true,
-       "ai": {
-        "grade": "T",
-        "one_line": "現有證據僅顯示單一遊戲發行帶動短期業績，缺乏能證明長期結構性成長的具體證據。",
-        "analysis": "從財務數據來看，公司近四年平均年成長為 -2%，且近四季獲利衰退 26%，顯示長期成長動能並不穩健。雖然最新一季因《戰地風雲 6》（Battlefield 6）的推出而創下單季營收與獲利成長，但這屬於單一產品週期的短期波動，而非商業模式或產業趨勢的結構性改變。新聞報導中僅提及季度財報預測與指數納入，並未提供任何關於訂閱制、市占率提升或新技術轉型等長期穩健成長的實質證據，因此無法判斷未來能否穩健成長。",
-        "risks": [
-         "過度依賴單一熱門遊戲 IP 的發行週期，導致業績波動劇烈",
-         "長期獲利成長率不穩定，近四年平均年成長與近四季獲利皆呈現衰退"
-        ],
-        "sources": [
-         {
-          "title": "‘Battlefield 6’ Launch Drives Record Sales for Electronic Arts in Latest Quarterly Earnings - Variety",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY0QtTkM3ZDA1UGlZNVJpbkEwRUk0MDJXaW11dGtld21sUGE3Z2haMHRuUHY4b1RadDQxR2JkaEZESXN2bzJ2ODNaVXFCUzA3YkFoT29tcUlGaE03MVFkaHdYYWVKVklYcFd1YlhyZkFmU0R0QWhfYjR1MVM1cTdEMzRVMkF6cWtZYmxoX3NqNG4zb000WlhnZw?oc=5",
-          "date": "Tue, 03 Feb 2026",
-          "source": "Variety"
-         }
-        ],
-        "all_news": [
-         {
-          "title": "Q1 Rundown: Electronic Arts (NASDAQ:EA) Vs Other Consumer Internet Stocks - StockStory",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQUdnTTFsRHJtUHFka08wcktoYml0WmVmSDZJc0U3LTdrODIycjRQUDJlSUpZd2dNSERMbm1VSkY5ekgwVVEta2taRHpkYVp0MHoxMExQbm1YaU9iZlp1TlJ6UGlwWVBfYVkwMlRrTXFfa3Q3SU5odkZ2Z0xweW11dXFQYTZxSHNNLVpsbFNwUmZieVpZLWZpaWdaTFJUNE1wNy1jeXJka1ZfLUo3M1BOcjY1a3l6ay1fcmRyOXo0SEVKS1Ix?oc=5",
-          "date": "Thu, 09 Jul 2026",
-          "source": "StockStory"
-         },
-         {
-          "title": "Electronic Arts (EA) Joins Russell Growth Indexes, Does It Look Fully Valued? - simplywall.st",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSW81QXRsVlFhSlg5WE96R2FkZVN1ZS1LX21rcXZqT25TR0lWV3F5blE1SXFZZUl1T1hpU3NrdHdONkdHblA5Z3libjh0S3ZMV1RaWmhMaC1KV2VHT3ZhaWVQQkFBN05CZWRaUm5Qb0RZZnhzUDNucVA2ZVpkWVpPaklTTnlpeU9hWVBKOWNrbjlDM010NUJNQWY2ek00bmxfTThkWGVEcXN4dTc4MXJNZ204OHBsQ2NHMVdSSTVqekZlWmV4X0pEadIBzgFBVV95cUxOcEZIcVJidTdMc3hvWE9zRy1rV0RXYkdtcFBuenh0UGp2dUh6WGZaNS1XelkzVl9DQTVTcks5OXJpY3E3Sl9VWHctZ2tIdnhXcEpYQUJWaFBoRWg0VHUyMW8yNjF1TXd0NHBkYXEtTWl3QUlnSklwWmhjNDc4MnFfbDZkRHhJbDlwS0s0YWVCUjFIYTVkeDdxbzVkZFVRZDYxd3Q3eC1pRGFGMWZ4YjF5V0V1Mm9OdFNROUlIM1NZeHloakVsMGlGLW5mVzFCUQ?oc=5",
-          "date": "Thu, 09 Jul 2026",
-          "source": "simplywall.st"
-         },
-         {
-          "title": "‘Battlefield 6’ Launch Drives Record Sales for Electronic Arts in Latest Quarterly Earnings - Variety",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY0QtTkM3ZDA1UGlZNVJpbkEwRUk0MDJXaW11dGtld21sUGE3Z2haMHRuUHY4b1RadDQxR2JkaEZESXN2bzJ2ODNaVXFCUzA3YkFoT29tcUlGaE03MVFkaHdYYWVKVklYcFd1YlhyZkFmU0R0QWhfYjR1MVM1cTdEMzRVMkF6cWtZYmxoX3NqNG4zb000WlhnZw?oc=5",
-          "date": "Tue, 03 Feb 2026",
-          "source": "Variety"
-         },
-         {
-          "title": "Electronic Arts (EA) Looks 1% Pricey If Its Growth Narrative Holds - Sahm",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZDNmdE5yd1Ytbk01M3dEUTJJREFmeWpUX3lOUjRsSGpaNVdxZHBsUUZJNE1tdWI4cnhWcUIwQXl0c0ZuLTE3V25LQUpkQlhmZkpJcnozVmVpN25BNjFNVEp2SnN2VFNOTkFwOV9UYi1pZ3g0TDJjUC0yQTlZbmNfeWw5dDFjNFRzUVFya0Fyaml3cEF1UnFPc1dhMjU0U24ybE1wSUQweTE5UWtIYXp3TF9tQW1CUQ?oc=5",
-          "date": "Sun, 28 Jun 2026",
-          "source": "Sahm"
-         },
-         {
-          "title": "Electronic Arts (EA) Q1 Earnings: What To Expect - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOGFucXlVMVlVZXVTbnFqRVkySlFSdU5oNzVwa1ZtU3FDclFWcVF0aUQxZW1yTkI4R080M2hxcGhsdjJ2UEhfSzhPUEFoaW5OMVp0aGRXU2hNN3dLRFhBWEdRRVdzWk5keWJNQnpycjFUZUotNnRlcUNhSjhYTVBzOU0zMks1clQ4NUh6ZWpDVlRZQXhJWHNQakU2MA?oc=5",
-          "date": "Mon, 04 May 2026",
-          "source": "Yahoo Finance"
-         },
-         {
-          "title": "Electronic Arts (EA) Up 0.9% Since Last Earnings Report: Can It Continue? - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZld3VGYyVXJDbVVfOHExaGMxOE1MZ21uZGpGcGFOQzJ4YVVCMVE1Q3ZVOXJDUzlrUUpiblY2MFd2dDdELUNGTXZybHpkR3Njc3ZCRFg0by1NdDFhQXpkbG9aVXV6Q2x6YkhhWS1uem04THJBOUJ0V3k3N0ZwMkJoZ08wdjVlYktvYVhpaUp1dXI?oc=5",
-          "date": "Thu, 04 Jun 2026",
-          "source": "Yahoo Finance"
-         },
-         {
-          "title": "Electronic Arts to Post Q4 Earnings: What's in Store for the Stock? - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSUljR2JqeVVCanh4ck9TdEQ2R18xeFlaeFJnTjJxcHh1R3ZqbFBNWGZtX0NwYm1RdlJHWG5GYnFCZC12N2lrSHl5eWw2MkFGZ3d2eUtZOUh5WS1LZmRlU0xUd28wcWpkX1hZZzd2XzFPSTA5RDNCNTlLSVNhdHZjVk1Xdkx1ZDd1cl9xN0VoQmdySWVwRGVtVmJMbDVKdw?oc=5",
-          "date": "Wed, 29 Apr 2026",
-          "source": "Yahoo Finance"
-         },
-         {
-          "title": "Electronic Arts (EA) Q4 Earnings: Taking a Look at Key Metrics Versus Estimates - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeXd6Rlgwcl9yUkVOUWMtakNtQUdfQU5FZTVpVnlUS2NXZ2Vyb21wQktkN2FZSkloU0RsNTJBTTRtaF9UNUo4dUNvWTBSeXB2TFdnZzZkQTZ2YWE5Ni1KSEs4aDhkaEFqM2x5V0VkWll2VGR0aGZXcW5RVEl1Xzh4QjNndmhFN0NrY3dJTXhWZXljd3FQWmFXdVVHbw?oc=5",
-          "date": "Tue, 05 May 2026",
-          "source": "Yahoo Finance"
-         }
-        ],
-        "model": "gemini-flash-latest",
-        "judged_at": "2026-07-10 10:44"
-       }
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 58.5 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 7.4%，位於近一年前 20% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 79,
-     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-    },
-    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
-    "mech_score": 83,
-    "ai7": {
-     "grade": "T",
-     "one_line": "現有證據僅顯示單一遊戲發行帶動短期業績，缺乏能證明長期結構性成長的具體證據。",
-     "analysis": "從財務數據來看，公司近四年平均年成長為 -2%，且近四季獲利衰退 26%，顯示長期成長動能並不穩健。雖然最新一季因《戰地風雲 6》（Battlefield 6）的推出而創下單季營收與獲利成長，但這屬於單一產品週期的短期波動，而非商業模式或產業趨勢的結構性改變。新聞報導中僅提及季度財報預測與指數納入，並未提供任何關於訂閱制、市占率提升或新技術轉型等長期穩健成長的實質證據，因此無法判斷未來能否穩健成長。",
-     "risks": [
-      "過度依賴單一熱門遊戲 IP 的發行週期，導致業績波動劇烈",
-      "長期獲利成長率不穩定，近四年平均年成長與近四季獲利皆呈現衰退"
-     ],
-     "sources": [
-      {
-       "title": "‘Battlefield 6’ Launch Drives Record Sales for Electronic Arts in Latest Quarterly Earnings - Variety",
-       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY0QtTkM3ZDA1UGlZNVJpbkEwRUk0MDJXaW11dGtld21sUGE3Z2haMHRuUHY4b1RadDQxR2JkaEZESXN2bzJ2ODNaVXFCUzA3YkFoT29tcUlGaE03MVFkaHdYYWVKVklYcFd1YlhyZkFmU0R0QWhfYjR1MVM1cTdEMzRVMkF6cWtZYmxoX3NqNG4zb000WlhnZw?oc=5",
-       "date": "Tue, 03 Feb 2026",
-       "source": "Variety"
-      }
-     ],
-     "all_news": [
-      {
-       "title": "Q1 Rundown: Electronic Arts (NASDAQ:EA) Vs Other Consumer Internet Stocks - StockStory",
-       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQUdnTTFsRHJtUHFka08wcktoYml0WmVmSDZJc0U3LTdrODIycjRQUDJlSUpZd2dNSERMbm1VSkY5ekgwVVEta2taRHpkYVp0MHoxMExQbm1YaU9iZlp1TlJ6UGlwWVBfYVkwMlRrTXFfa3Q3SU5odkZ2Z0xweW11dXFQYTZxSHNNLVpsbFNwUmZieVpZLWZpaWdaTFJUNE1wNy1jeXJka1ZfLUo3M1BOcjY1a3l6ay1fcmRyOXo0SEVKS1Ix?oc=5",
-       "date": "Thu, 09 Jul 2026",
-       "source": "StockStory"
-      },
-      {
-       "title": "Electronic Arts (EA) Joins Russell Growth Indexes, Does It Look Fully Valued? - simplywall.st",
-       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSW81QXRsVlFhSlg5WE96R2FkZVN1ZS1LX21rcXZqT25TR0lWV3F5blE1SXFZZUl1T1hpU3NrdHdONkdHblA5Z3libjh0S3ZMV1RaWmhMaC1KV2VHT3ZhaWVQQkFBN05CZWRaUm5Qb0RZZnhzUDNucVA2ZVpkWVpPaklTTnlpeU9hWVBKOWNrbjlDM010NUJNQWY2ek00bmxfTThkWGVEcXN4dTc4MXJNZ204OHBsQ2NHMVdSSTVqekZlWmV4X0pEadIBzgFBVV95cUxOcEZIcVJidTdMc3hvWE9zRy1rV0RXYkdtcFBuenh0UGp2dUh6WGZaNS1XelkzVl9DQTVTcks5OXJpY3E3Sl9VWHctZ2tIdnhXcEpYQUJWaFBoRWg0VHUyMW8yNjF1TXd0NHBkYXEtTWl3QUlnSklwWmhjNDc4MnFfbDZkRHhJbDlwS0s0YWVCUjFIYTVkeDdxbzVkZFVRZDYxd3Q3eC1pRGFGMWZ4YjF5V0V1Mm9OdFNROUlIM1NZeHloakVsMGlGLW5mVzFCUQ?oc=5",
-       "date": "Thu, 09 Jul 2026",
-       "source": "simplywall.st"
-      },
-      {
-       "title": "‘Battlefield 6’ Launch Drives Record Sales for Electronic Arts in Latest Quarterly Earnings - Variety",
-       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY0QtTkM3ZDA1UGlZNVJpbkEwRUk0MDJXaW11dGtld21sUGE3Z2haMHRuUHY4b1RadDQxR2JkaEZESXN2bzJ2ODNaVXFCUzA3YkFoT29tcUlGaE03MVFkaHdYYWVKVklYcFd1YlhyZkFmU0R0QWhfYjR1MVM1cTdEMzRVMkF6cWtZYmxoX3NqNG4zb000WlhnZw?oc=5",
-       "date": "Tue, 03 Feb 2026",
-       "source": "Variety"
-      },
-      {
-       "title": "Electronic Arts (EA) Looks 1% Pricey If Its Growth Narrative Holds - Sahm",
-       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZDNmdE5yd1Ytbk01M3dEUTJJREFmeWpUX3lOUjRsSGpaNVdxZHBsUUZJNE1tdWI4cnhWcUIwQXl0c0ZuLTE3V25LQUpkQlhmZkpJcnozVmVpN25BNjFNVEp2SnN2VFNOTkFwOV9UYi1pZ3g0TDJjUC0yQTlZbmNfeWw5dDFjNFRzUVFya0Fyaml3cEF1UnFPc1dhMjU0U24ybE1wSUQweTE5UWtIYXp3TF9tQW1CUQ?oc=5",
-       "date": "Sun, 28 Jun 2026",
-       "source": "Sahm"
-      },
-      {
-       "title": "Electronic Arts (EA) Q1 Earnings: What To Expect - Yahoo Finance",
-       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOGFucXlVMVlVZXVTbnFqRVkySlFSdU5oNzVwa1ZtU3FDclFWcVF0aUQxZW1yTkI4R080M2hxcGhsdjJ2UEhfSzhPUEFoaW5OMVp0aGRXU2hNN3dLRFhBWEdRRVdzWk5keWJNQnpycjFUZUotNnRlcUNhSjhYTVBzOU0zMks1clQ4NUh6ZWpDVlRZQXhJWHNQakU2MA?oc=5",
-       "date": "Mon, 04 May 2026",
-       "source": "Yahoo Finance"
-      },
-      {
-       "title": "Electronic Arts (EA) Up 0.9% Since Last Earnings Report: Can It Continue? - Yahoo Finance",
-       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZld3VGYyVXJDbVVfOHExaGMxOE1MZ21uZGpGcGFOQzJ4YVVCMVE1Q3ZVOXJDUzlrUUpiblY2MFd2dDdELUNGTXZybHpkR3Njc3ZCRFg0by1NdDFhQXpkbG9aVXV6Q2x6YkhhWS1uem04THJBOUJ0V3k3N0ZwMkJoZ08wdjVlYktvYVhpaUp1dXI?oc=5",
-       "date": "Thu, 04 Jun 2026",
-       "source": "Yahoo Finance"
-      },
-      {
-       "title": "Electronic Arts to Post Q4 Earnings: What's in Store for the Stock? - Yahoo Finance",
-       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSUljR2JqeVVCanh4ck9TdEQ2R18xeFlaeFJnTjJxcHh1R3ZqbFBNWGZtX0NwYm1RdlJHWG5GYnFCZC12N2lrSHl5eWw2MkFGZ3d2eUtZOUh5WS1LZmRlU0xUd28wcWpkX1hZZzd2XzFPSTA5RDNCNTlLSVNhdHZjVk1Xdkx1ZDd1cl9xN0VoQmdySWVwRGVtVmJMbDVKdw?oc=5",
-       "date": "Wed, 29 Apr 2026",
-       "source": "Yahoo Finance"
-      },
-      {
-       "title": "Electronic Arts (EA) Q4 Earnings: Taking a Look at Key Metrics Versus Estimates - Yahoo Finance",
-       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeXd6Rlgwcl9yUkVOUWMtakNtQUdfQU5FZTVpVnlUS2NXZ2Vyb21wQktkN2FZSkloU0RsNTJBTTRtaF9UNUo4dUNvWTBSeXB2TFdnZzZkQTZ2YWE5Ni1KSEs4aDhkaEFqM2x5V0VkWll2VGR0aGZXcW5RVEl1Xzh4QjNndmhFN0NrY3dJTXhWZXljd3FQWmFXdVVHbw?oc=5",
-       "date": "Tue, 05 May 2026",
-       "source": "Yahoo Finance"
-      }
-     ],
-     "model": "gemini-flash-latest",
-     "judged_at": "2026-07-10 10:44"
-    }
-   },
-   {
-    "ticker": "CSX",
-    "name": "CSX Corporation",
-    "close": 49.35,
-    "rebound": 1.0,
-    "rebound_grade": "O",
-    "base_quality": 0.7130670535919039,
-    "scorecard": {
-     "items": [
-      {
-       "key": "1",
-       "name": "① 股價突破近年來高價",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "收盤 49.35 創近 2 年新高",
-       "starred": true
-      },
-      {
-       "key": "2",
-       "name": "② 新高價位置（反彈幅度≥60%）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 71%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-       "starred": true
-      },
-      {
-       "key": "3",
-       "name": "③ 過去獲利穩健成長（年均≥7%）",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近5年平均年成長 -11%，成長年份占 0%",
-       "starred": false
-      },
-      {
-       "key": "4",
-       "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近四季獲利年增 -17%",
-       "starred": false
-      },
-      {
-       "key": "5",
-       "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近1期季營收年增 2%",
-       "starred": false
-      },
-      {
-       "key": "6",
-       "name": "⑥ 最近2~3季獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近1季獲利年增 24%",
-       "starred": true
-      },
-      {
-       "key": "7",
-       "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
-      },
-      {
-       "key": "8",
-       "name": "⑧ 本益比未過熱（<60倍）",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "本益比 29.9 倍",
-       "starred": false
-      },
-      {
-       "key": "9",
-       "name": "⑨ 大盤上漲力道",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "創新高股比率 7.4%，位於近一年前 20% 強、趨勢向上",
-       "starred": true
-      }
-     ],
-     "score": 75,
-     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-    },
-    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
-    "mech_score": 75
    },
    {
     "ticker": "FFIV",
     "name": "F5, Inc.",
-    "close": 430.32,
+    "close": 430.39,
     "rebound": 1.0,
     "rebound_grade": "O",
-    "base_quality": 0.6472323805612588,
+    "base_quality": 0.6463431110576463,
     "scorecard": {
      "items": [
       {
@@ -1495,7 +435,7 @@
        "name": "① 股價突破近年來高價",
        "grade": "O",
        "symbol": "○",
-       "detail": "收盤 430.32 創近 2 年新高",
+       "detail": "收盤 430.39 創近 2 年新高",
        "starred": true
       },
       {
@@ -1541,19 +481,22 @@
       {
        "key": "7",
        "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "T",
-       "symbol": "△",
-       "detail": "AI 判斷（僅供參考，請複核依據）：因僅有新聞標題與基本財務數據，缺乏具體產業趨勢或商業模式轉變等結構性成長的實質證據。",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "AI 判斷（僅供參考，請複核依據）：公司受惠於企業對多雲應用安全與交付解決方案的結構性需求增長。",
        "starred": true,
        "ai": {
-        "grade": "T",
-        "one_line": "因僅有新聞標題與基本財務數據，缺乏具體產業趨勢或商業模式轉變等結構性成長的實質證據。",
-        "analysis": "雖然公司歷史財務表現良好且近期財報超越預期並調升指引，但提供的資訊僅限於新聞標題，無法得知其獲利成長的具體驅動因素。業務簡介僅說明其提供多雲應用安全與交付解決方案，並未提供任何關於市場需求擴張、市占率提升或商業模式變革的結構性變化證據。在缺乏詳細法說會內容或產業分析報告的情況下，無法判斷其未來成長是否來自結構性變化而非短期景氣波動，故判定為證據不足。",
-        "risks": [
-         "缺乏詳細產業與公司營運資訊，難以評估競爭對手競爭力及技術替代風險。",
-         "僅依賴歷史財務數據與標題，可能忽視短期景氣循環帶來的虛假繁榮。"
-        ],
+        "grade": "O",
+        "one_line": "公司受惠於企業對多雲應用安全與交付解決方案的結構性需求增長。",
+        "analysis": "F5, Inc. 的業務核心為多雲應用安全與交付，符合企業數位轉型與雲端化的結構性趨勢。公司過去四年平均年成長率達28%，且所有年份均實現成長，顯示其在市場中具備持續擴張的能力。近期財報表現優於預期，且管理層上調了財測，明確指出對未來獲利成長的信心。其成長動能來自於產業結構性變化，而非短期景氣循環，符合穩健成長的判斷標準。",
+        "risks": "市場競爭激烈可能影響其市佔率及獲利能力；技術快速迭代要求公司持續投入研發以維持產品領先地位。",
         "sources": [
+         {
+          "title": "Results: F5, Inc. Beat Earnings Expectations And Analysts Now Have New Forecasts - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQWQ2US12T3hfZUVuMTNhNWtkNjlic3R0cXFBeHp3SjRUbVJmemszVzZvWXJ4bjVWSUVSNlU0UmRRYUZaTFJoNm4wTmNhYmxJWUxoQU5XN2dncHJsZWc4T1JPSGFVcEMzMlR3aGU4aHE2TktITjNsakVxNzd2NGRubjR4X1R3NHc3dktrOVBQOWRmWlp6N3ZOcA?oc=5",
+          "date": "Fri, 01 May 2026",
+          "source": "Yahoo Finance"
+         },
          {
           "title": "F5 INC (NASDAQ:FFIV) Surges 4% After Strong Earnings Beat and Raised Guidance - ChartMill",
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORy1wanVFYjk1N0NWNFFZaW9wUHdpeGhJQk5rM0htakhVTmloVEtVa09QMmtsMnJoZTk4THhnZl9rUWVya2JXRGZaZlYtYUY2bjRIUDEtWHR0SVk0Mjd6bzNudDNBcnd1OTBtUEs5dTR5VE1aRzZCd21lWDA4N2tyWjRxYnBnQUt2VzdjSVBjN3Y5M2N3bUV5WlJYRTZaT0w1NTNKclMwdERHQTcwUGJ1VHhJRHFJUWxkckZHNGl5VC1iUlU?oc=5",
@@ -1617,8 +560,8 @@
           "source": "Yahoo Finance"
          }
         ],
-        "model": "gemini-flash-latest",
-        "judged_at": "2026-07-10 10:44"
+        "model": "gemini-2.5-flash",
+        "judged_at": "2026-07-11 06:31"
        }
       },
       {
@@ -1626,7 +569,7 @@
        "name": "⑧ 本益比未過熱（<60倍）",
        "grade": "O",
        "symbol": "○",
-       "detail": "本益比 34.4 倍",
+       "detail": "本益比 35.3 倍",
        "starred": false
       },
       {
@@ -1634,24 +577,27 @@
        "name": "⑨ 大盤上漲力道",
        "grade": "O",
        "symbol": "○",
-       "detail": "創新高股比率 7.4%，位於近一年前 20% 強、趨勢向上",
+       "detail": "創新高股比率 6.7%，位於近一年前 34% 強、趨勢向上",
        "starred": true
       }
      ],
-     "score": 75,
+     "score": 82,
      "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
     },
     "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
     "mech_score": 79,
     "ai7": {
-     "grade": "T",
-     "one_line": "因僅有新聞標題與基本財務數據，缺乏具體產業趨勢或商業模式轉變等結構性成長的實質證據。",
-     "analysis": "雖然公司歷史財務表現良好且近期財報超越預期並調升指引，但提供的資訊僅限於新聞標題，無法得知其獲利成長的具體驅動因素。業務簡介僅說明其提供多雲應用安全與交付解決方案，並未提供任何關於市場需求擴張、市占率提升或商業模式變革的結構性變化證據。在缺乏詳細法說會內容或產業分析報告的情況下，無法判斷其未來成長是否來自結構性變化而非短期景氣波動，故判定為證據不足。",
-     "risks": [
-      "缺乏詳細產業與公司營運資訊，難以評估競爭對手競爭力及技術替代風險。",
-      "僅依賴歷史財務數據與標題，可能忽視短期景氣循環帶來的虛假繁榮。"
-     ],
+     "grade": "O",
+     "one_line": "公司受惠於企業對多雲應用安全與交付解決方案的結構性需求增長。",
+     "analysis": "F5, Inc. 的業務核心為多雲應用安全與交付，符合企業數位轉型與雲端化的結構性趨勢。公司過去四年平均年成長率達28%，且所有年份均實現成長，顯示其在市場中具備持續擴張的能力。近期財報表現優於預期，且管理層上調了財測，明確指出對未來獲利成長的信心。其成長動能來自於產業結構性變化，而非短期景氣循環，符合穩健成長的判斷標準。",
+     "risks": "市場競爭激烈可能影響其市佔率及獲利能力；技術快速迭代要求公司持續投入研發以維持產品領先地位。",
      "sources": [
+      {
+       "title": "Results: F5, Inc. Beat Earnings Expectations And Analysts Now Have New Forecasts - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQWQ2US12T3hfZUVuMTNhNWtkNjlic3R0cXFBeHp3SjRUbVJmemszVzZvWXJ4bjVWSUVSNlU0UmRRYUZaTFJoNm4wTmNhYmxJWUxoQU5XN2dncHJsZWc4T1JPSGFVcEMzMlR3aGU4aHE2TktITjNsakVxNzd2NGRubjR4X1R3NHc3dktrOVBQOWRmWlp6N3ZOcA?oc=5",
+       "date": "Fri, 01 May 2026",
+       "source": "Yahoo Finance"
+      },
       {
        "title": "F5 INC (NASDAQ:FFIV) Surges 4% After Strong Earnings Beat and Raised Guidance - ChartMill",
        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORy1wanVFYjk1N0NWNFFZaW9wUHdpeGhJQk5rM0htakhVTmloVEtVa09QMmtsMnJoZTk4THhnZl9rUWVya2JXRGZaZlYtYUY2bjRIUDEtWHR0SVk0Mjd6bzNudDNBcnd1OTBtUEs5dTR5VE1aRzZCd21lWDA4N2tyWjRxYnBnQUt2VzdjSVBjN3Y5M2N3bUV5WlJYRTZaT0w1NTNKclMwdERHQTcwUGJ1VHhJRHFJUWxkckZHNGl5VC1iUlU?oc=5",
@@ -1715,17 +661,17 @@
        "source": "Yahoo Finance"
       }
      ],
-     "model": "gemini-flash-latest",
-     "judged_at": "2026-07-10 10:44"
+     "model": "gemini-2.5-flash",
+     "judged_at": "2026-07-11 06:31"
     }
    },
    {
-    "ticker": "STT",
-    "name": "State Street Corporation",
-    "close": 180.16,
+    "ticker": "NTRS",
+    "name": "Northern Trust",
+    "close": 183.55,
     "rebound": 1.0,
     "rebound_grade": "O",
-    "base_quality": 0.5496285419215379,
+    "base_quality": 0.5615581790836703,
     "scorecard": {
      "items": [
       {
@@ -1733,7 +679,727 @@
        "name": "① 股價突破近年來高價",
        "grade": "O",
        "symbol": "○",
-       "detail": "收盤 180.16 創近 2 年新高",
+       "detail": "收盤 183.55 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 56%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "近5年平均年成長 17%，成長年份占 33%（成長不夠穩定）",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近四季獲利年增 -12%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近1期季營收年增 14%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近1季獲利年增 34%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "AI 判斷（僅供參考，請複核依據）：現有新聞僅提供戰略轉型與新業務授權的標題，缺乏具體內文與數據以證實其未來獲利能實現結構性穩健成長。",
+       "starred": true,
+       "ai": {
+        "grade": "T",
+        "one_line": "現有新聞僅提供戰略轉型與新業務授權的標題，缺乏具體內文與數據以證實其未來獲利能實現結構性穩健成長。",
+        "analysis": "雖然營運數字顯示最新一季獲利成長 34%，但近 5 年成長年份僅占 33%，顯示歷史成長極不穩定。新聞標題雖提及與 WTFC 交易以退出監護業務進行戰略轉型，以及獲得 Invesco 的新業務授權。然而，由於僅有標題且缺乏詳細的內文資訊，無法評估這些變革能否帶來結構性的獲利增長。在缺乏具體轉型成效與未來獲利預測的證據下，無法做出穩健成長的判斷。",
+        "risks": [
+         "歷史獲利波動幅度大且成長不夠穩定",
+         "戰略轉型（如退出監護業務）的成效與過渡期損失具有不確定性"
+        ],
+        "sources": [
+         {
+          "title": "Will Invesco’s New Irish Synthetic Index Mandate Redefine Northern Trust’s (NTRS) Fund Servicing Narrative? - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZnNOWFA2MGZOakU0V29ha2VfRWFiZHJOVGFyS2lEMEhhajFPRHdZVF8tSkZNOTR1Xzc0ODZzenJRbEFVUTEtZDN6TTNhUkNRckF6ZzhKNm1CZjJLSW9GNXJBTE14NVplcHoyNnA0elhiVFU4SG0wT2wxU3FFVm1FYm85WVZLbUVucDhMcVZnMlIzQ0FuMmxNSHNldmVxVFBCb1p1dmRUeEljUzdQZGkxVW13c0JFVHhRajA0bWRDR3U2VllxNjZDWGZxbXJIeHRVcjZjZGdmMy1IeGhOa2NnX9IB5gFBVV95cUxOZDNSdDIyeml4WERGNWt5VlhoMmloZ0lTc0MxdWVhTUE0R1NfdjBHNGU5bWluNGg0bzRBcEhyUllrR29xZXdBcWdjamxSYjNFc19VNDNyZ1dpeG9MN1FQZlF0U3dhOGdfZy04Mnh6N2FWTnJBWU5NcDBSVUZlVHp3MG5WSEk1RlJ2M1pDTHdaTDBaTDVCSmhUTGxuWkxPSW90ZHJOLUNLT3hwQzBBNzJCUGNIMldiQlFUdWQ1TVhVTW41VEl3SHZuN2ExQ1pPSmN3c0dLeGt4bm1qWUVGWUhzT1dSVzRyQQ?oc=5",
+          "date": "Wed, 08 Jul 2026",
+          "source": "simplywall.st"
+         },
+         {
+          "title": "NTRS to Exit Guardianship Business With WTFC Deal in Strategic Pivot - TradingView",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZlV3aEpFTFNVUHVDMkdXM05rVDlBTWtDWVVzUkR1c0tIOWhzZFk1TTlSU05heXhiYUhCTVI5WGxFQm1SaHpnSE52QVl0RHR6bC1QM3FXNkZiQ21ERHJ6cjktc3J4Vnh2UjBvdkt1WWFYX0kyQW1pRjlWcjE0ZjRRVmRTaTRjcjlPVVVaQUtPcEJESWZqY2U3MWpwMWF2QVVaYW1PTHk5d2ViOWt0R2lsTE43ZzlPeG1uaDVOQktHNzJWZw?oc=5",
+          "date": "Tue, 07 Jul 2026",
+          "source": "TradingView"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "Northern Trust Stock Hits All-Time High: Is Now the Right Time to Buy? - Yahoo Finance UK",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQS2hhXzhkZm1WZm4wV2NDamU3dU5hcC1aeTdjX29FUlNHZWFFeTMtdjBHVXFEaVpwcW1yVFhmY0dXNjZTYjNsX0hGSEoxVjhvQkIyd3AtU05GY1owaktsU0FNTnptQXZkUHRRVmRLQnUyMWRJSkxlSi1rZmRpeEFEUDhneF95dw?oc=5",
+          "date": "Fri, 10 Jul 2026",
+          "source": "Yahoo Finance UK"
+         },
+         {
+          "title": "Will Invesco’s New Irish Synthetic Index Mandate Redefine Northern Trust’s (NTRS) Fund Servicing Narrative? - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZnNOWFA2MGZOakU0V29ha2VfRWFiZHJOVGFyS2lEMEhhajFPRHdZVF8tSkZNOTR1Xzc0ODZzenJRbEFVUTEtZDN6TTNhUkNRckF6ZzhKNm1CZjJLSW9GNXJBTE14NVplcHoyNnA0elhiVFU4SG0wT2wxU3FFVm1FYm85WVZLbUVucDhMcVZnMlIzQ0FuMmxNSHNldmVxVFBCb1p1dmRUeEljUzdQZGkxVW13c0JFVHhRajA0bWRDR3U2VllxNjZDWGZxbXJIeHRVcjZjZGdmMy1IeGhOa2NnX9IB5gFBVV95cUxOZDNSdDIyeml4WERGNWt5VlhoMmloZ0lTc0MxdWVhTUE0R1NfdjBHNGU5bWluNGg0bzRBcEhyUllrR29xZXdBcWdjamxSYjNFc19VNDNyZ1dpeG9MN1FQZlF0U3dhOGdfZy04Mnh6N2FWTnJBWU5NcDBSVUZlVHp3MG5WSEk1RlJ2M1pDTHdaTDBaTDVCSmhUTGxuWkxPSW90ZHJOLUNLT3hwQzBBNzJCUGNIMldiQlFUdWQ1TVhVTW41VEl3SHZuN2ExQ1pPSmN3c0dLeGt4bm1qWUVGWUhzT1dSVzRyQQ?oc=5",
+          "date": "Wed, 08 Jul 2026",
+          "source": "simplywall.st"
+         },
+         {
+          "title": "Northern Trust (NASDAQ:NTRS) Surprises With Strong Q1 CY2026 - StockStory",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZlZtam5IakRvX19pY3h2Tnp4bU5VeG96eFF0eUMyRVBQSmVDbWhGVGdCQjJfaDYxRDNzcUdWWk1vYUplOTVCWnBXRTFHbGMxYVAtMl9DM2k2NHpPRUIzcTkyWldWa2pqeFhXb0IyaFNqT000VWVkTFVkbXdCZmNjTm1UMTJmREJIOTIzZU5qN3dCdW9ITFh6MUJXOE5pSnJKeUNHR1JPTTNZTUFrdlhaaGVjZzFMTWM?oc=5",
+          "date": "Tue, 21 Apr 2026",
+          "source": "StockStory"
+         },
+         {
+          "title": "Northern Trust (NTRS) Q1 2026 Earnings Transcript - The Motley Fool",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcDFtWFV6dE1ISEUxWkdpYjAzNHBhdmhWVUZRNFNzRUg4Ty1OSVZ6VUd3TTRkbTBxUktWZjVyR0NPWkRfWGs4V21VWFRxU2cwQ0ZYY0FTVDkyYWxmOFFYY0lFSE41VS1vczdSM3NqajFBSmJJazVCV2pVRm1OLThsVndIbTBZQWZTN3pQZGNjOHFNd1VvZjcwZnY3T1JGZjRzYklqNmx3UEZCdw?oc=5",
+          "date": "Tue, 21 Apr 2026",
+          "source": "The Motley Fool"
+         },
+         {
+          "title": "Northern Trust posts strong Q1 growth, rated BU... - Pluang",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV2ZpZlJlZnM5Ykc0UDNjZnpQb1FTeVU0X0lyeF9ZTmdQWThNc20xam11dExnM0l2SWp6b2RISGhpTmM3RGZyR1FqOG9RWndMSUE3bTR1b0VQa1ZiaEczV0Y0TkwwNENFaFJqVzZUcjdWQjV1Z0V6TlQtb3VQSW5RMDBRc0F6ZnR1WWZSZTdsNWNrMW44ZF9mTlEyYjd1b2dxcmc?oc=5",
+          "date": "Thu, 09 Jul 2026",
+          "source": "Pluang"
+         },
+         {
+          "title": "Northern Trust Customer Story - Palo Alto Networks",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5MUxNdV9IbW1zNkIxQXpKR2lzRVVpWFRUWTlmNVl2elZSM0taZ1RrZVhLMThJcWozczdFMnMzT2JhUkNrVUVtTzVINHNaZC0zQ1FlU1l1SXlkSU1xTmxqbVZMdXZpbndW?oc=5",
+          "date": "Tue, 12 May 2026",
+          "source": "Palo Alto Networks"
+         },
+         {
+          "title": "Will Northern Trust (NTRS) Beat Estimates Again in Its Next Earnings Report? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1Rjbl9qT0JFSGIzeTFsaGJnTWVDU0ZyeUhKZzNLNEJRUGR6OE5YZ3BYN2I0Uzdwa3A2N1YzTjl0WjhEQVdMQjlDQ3NOcmtQM3c4ekJsemI0QzdJX3h4Y09jUV9STkhTUE9GbEd1Vnpod0ItX2x6TUJ1d1hSUDRTTTNNYmN2ZHRzU0JGcHFFYlFHZ2dYSk9pUGNUbVJ1R1BJ?oc=5",
+          "date": "Fri, 03 Jul 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "NTRS to Exit Guardianship Business With WTFC Deal in Strategic Pivot - TradingView",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZlV3aEpFTFNVUHVDMkdXM05rVDlBTWtDWVVzUkR1c0tIOWhzZFk1TTlSU05heXhiYUhCTVI5WGxFQm1SaHpnSE52QVl0RHR6bC1QM3FXNkZiQ21ERHJ6cjktc3J4Vnh2UjBvdkt1WWFYX0kyQW1pRjlWcjE0ZjRRVmRTaTRjcjlPVVVaQUtPcEJESWZqY2U3MWpwMWF2QVVaYW1PTHk5d2ViOWt0R2lsTE43ZzlPeG1uaDVOQktHNzJWZw?oc=5",
+          "date": "Tue, 07 Jul 2026",
+          "source": "TradingView"
+         }
+        ],
+        "model": "gemini-flash-latest",
+        "judged_at": "2026-07-11 06:30"
+       }
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 19.1 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 6.7%，位於近一年前 34% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 82,
+     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+    },
+    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+    "mech_score": 88,
+    "ai7": {
+     "grade": "T",
+     "one_line": "現有新聞僅提供戰略轉型與新業務授權的標題，缺乏具體內文與數據以證實其未來獲利能實現結構性穩健成長。",
+     "analysis": "雖然營運數字顯示最新一季獲利成長 34%，但近 5 年成長年份僅占 33%，顯示歷史成長極不穩定。新聞標題雖提及與 WTFC 交易以退出監護業務進行戰略轉型，以及獲得 Invesco 的新業務授權。然而，由於僅有標題且缺乏詳細的內文資訊，無法評估這些變革能否帶來結構性的獲利增長。在缺乏具體轉型成效與未來獲利預測的證據下，無法做出穩健成長的判斷。",
+     "risks": [
+      "歷史獲利波動幅度大且成長不夠穩定",
+      "戰略轉型（如退出監護業務）的成效與過渡期損失具有不確定性"
+     ],
+     "sources": [
+      {
+       "title": "Will Invesco’s New Irish Synthetic Index Mandate Redefine Northern Trust’s (NTRS) Fund Servicing Narrative? - simplywall.st",
+       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZnNOWFA2MGZOakU0V29ha2VfRWFiZHJOVGFyS2lEMEhhajFPRHdZVF8tSkZNOTR1Xzc0ODZzenJRbEFVUTEtZDN6TTNhUkNRckF6ZzhKNm1CZjJLSW9GNXJBTE14NVplcHoyNnA0elhiVFU4SG0wT2wxU3FFVm1FYm85WVZLbUVucDhMcVZnMlIzQ0FuMmxNSHNldmVxVFBCb1p1dmRUeEljUzdQZGkxVW13c0JFVHhRajA0bWRDR3U2VllxNjZDWGZxbXJIeHRVcjZjZGdmMy1IeGhOa2NnX9IB5gFBVV95cUxOZDNSdDIyeml4WERGNWt5VlhoMmloZ0lTc0MxdWVhTUE0R1NfdjBHNGU5bWluNGg0bzRBcEhyUllrR29xZXdBcWdjamxSYjNFc19VNDNyZ1dpeG9MN1FQZlF0U3dhOGdfZy04Mnh6N2FWTnJBWU5NcDBSVUZlVHp3MG5WSEk1RlJ2M1pDTHdaTDBaTDVCSmhUTGxuWkxPSW90ZHJOLUNLT3hwQzBBNzJCUGNIMldiQlFUdWQ1TVhVTW41VEl3SHZuN2ExQ1pPSmN3c0dLeGt4bm1qWUVGWUhzT1dSVzRyQQ?oc=5",
+       "date": "Wed, 08 Jul 2026",
+       "source": "simplywall.st"
+      },
+      {
+       "title": "NTRS to Exit Guardianship Business With WTFC Deal in Strategic Pivot - TradingView",
+       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZlV3aEpFTFNVUHVDMkdXM05rVDlBTWtDWVVzUkR1c0tIOWhzZFk1TTlSU05heXhiYUhCTVI5WGxFQm1SaHpnSE52QVl0RHR6bC1QM3FXNkZiQ21ERHJ6cjktc3J4Vnh2UjBvdkt1WWFYX0kyQW1pRjlWcjE0ZjRRVmRTaTRjcjlPVVVaQUtPcEJESWZqY2U3MWpwMWF2QVVaYW1PTHk5d2ViOWt0R2lsTE43ZzlPeG1uaDVOQktHNzJWZw?oc=5",
+       "date": "Tue, 07 Jul 2026",
+       "source": "TradingView"
+      }
+     ],
+     "all_news": [
+      {
+       "title": "Northern Trust Stock Hits All-Time High: Is Now the Right Time to Buy? - Yahoo Finance UK",
+       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQS2hhXzhkZm1WZm4wV2NDamU3dU5hcC1aeTdjX29FUlNHZWFFeTMtdjBHVXFEaVpwcW1yVFhmY0dXNjZTYjNsX0hGSEoxVjhvQkIyd3AtU05GY1owaktsU0FNTnptQXZkUHRRVmRLQnUyMWRJSkxlSi1rZmRpeEFEUDhneF95dw?oc=5",
+       "date": "Fri, 10 Jul 2026",
+       "source": "Yahoo Finance UK"
+      },
+      {
+       "title": "Will Invesco’s New Irish Synthetic Index Mandate Redefine Northern Trust’s (NTRS) Fund Servicing Narrative? - simplywall.st",
+       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZnNOWFA2MGZOakU0V29ha2VfRWFiZHJOVGFyS2lEMEhhajFPRHdZVF8tSkZNOTR1Xzc0ODZzenJRbEFVUTEtZDN6TTNhUkNRckF6ZzhKNm1CZjJLSW9GNXJBTE14NVplcHoyNnA0elhiVFU4SG0wT2wxU3FFVm1FYm85WVZLbUVucDhMcVZnMlIzQ0FuMmxNSHNldmVxVFBCb1p1dmRUeEljUzdQZGkxVW13c0JFVHhRajA0bWRDR3U2VllxNjZDWGZxbXJIeHRVcjZjZGdmMy1IeGhOa2NnX9IB5gFBVV95cUxOZDNSdDIyeml4WERGNWt5VlhoMmloZ0lTc0MxdWVhTUE0R1NfdjBHNGU5bWluNGg0bzRBcEhyUllrR29xZXdBcWdjamxSYjNFc19VNDNyZ1dpeG9MN1FQZlF0U3dhOGdfZy04Mnh6N2FWTnJBWU5NcDBSVUZlVHp3MG5WSEk1RlJ2M1pDTHdaTDBaTDVCSmhUTGxuWkxPSW90ZHJOLUNLT3hwQzBBNzJCUGNIMldiQlFUdWQ1TVhVTW41VEl3SHZuN2ExQ1pPSmN3c0dLeGt4bm1qWUVGWUhzT1dSVzRyQQ?oc=5",
+       "date": "Wed, 08 Jul 2026",
+       "source": "simplywall.st"
+      },
+      {
+       "title": "Northern Trust (NASDAQ:NTRS) Surprises With Strong Q1 CY2026 - StockStory",
+       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZlZtam5IakRvX19pY3h2Tnp4bU5VeG96eFF0eUMyRVBQSmVDbWhGVGdCQjJfaDYxRDNzcUdWWk1vYUplOTVCWnBXRTFHbGMxYVAtMl9DM2k2NHpPRUIzcTkyWldWa2pqeFhXb0IyaFNqT000VWVkTFVkbXdCZmNjTm1UMTJmREJIOTIzZU5qN3dCdW9ITFh6MUJXOE5pSnJKeUNHR1JPTTNZTUFrdlhaaGVjZzFMTWM?oc=5",
+       "date": "Tue, 21 Apr 2026",
+       "source": "StockStory"
+      },
+      {
+       "title": "Northern Trust (NTRS) Q1 2026 Earnings Transcript - The Motley Fool",
+       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcDFtWFV6dE1ISEUxWkdpYjAzNHBhdmhWVUZRNFNzRUg4Ty1OSVZ6VUd3TTRkbTBxUktWZjVyR0NPWkRfWGs4V21VWFRxU2cwQ0ZYY0FTVDkyYWxmOFFYY0lFSE41VS1vczdSM3NqajFBSmJJazVCV2pVRm1OLThsVndIbTBZQWZTN3pQZGNjOHFNd1VvZjcwZnY3T1JGZjRzYklqNmx3UEZCdw?oc=5",
+       "date": "Tue, 21 Apr 2026",
+       "source": "The Motley Fool"
+      },
+      {
+       "title": "Northern Trust posts strong Q1 growth, rated BU... - Pluang",
+       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV2ZpZlJlZnM5Ykc0UDNjZnpQb1FTeVU0X0lyeF9ZTmdQWThNc20xam11dExnM0l2SWp6b2RISGhpTmM3RGZyR1FqOG9RWndMSUE3bTR1b0VQa1ZiaEczV0Y0TkwwNENFaFJqVzZUcjdWQjV1Z0V6TlQtb3VQSW5RMDBRc0F6ZnR1WWZSZTdsNWNrMW44ZF9mTlEyYjd1b2dxcmc?oc=5",
+       "date": "Thu, 09 Jul 2026",
+       "source": "Pluang"
+      },
+      {
+       "title": "Northern Trust Customer Story - Palo Alto Networks",
+       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5MUxNdV9IbW1zNkIxQXpKR2lzRVVpWFRUWTlmNVl2elZSM0taZ1RrZVhLMThJcWozczdFMnMzT2JhUkNrVUVtTzVINHNaZC0zQ1FlU1l1SXlkSU1xTmxqbVZMdXZpbndW?oc=5",
+       "date": "Tue, 12 May 2026",
+       "source": "Palo Alto Networks"
+      },
+      {
+       "title": "Will Northern Trust (NTRS) Beat Estimates Again in Its Next Earnings Report? - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1Rjbl9qT0JFSGIzeTFsaGJnTWVDU0ZyeUhKZzNLNEJRUGR6OE5YZ3BYN2I0Uzdwa3A2N1YzTjl0WjhEQVdMQjlDQ3NOcmtQM3c4ekJsemI0QzdJX3h4Y09jUV9STkhTUE9GbEd1Vnpod0ItX2x6TUJ1d1hSUDRTTTNNYmN2ZHRzU0JGcHFFYlFHZ2dYSk9pUGNUbVJ1R1BJ?oc=5",
+       "date": "Fri, 03 Jul 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "NTRS to Exit Guardianship Business With WTFC Deal in Strategic Pivot - TradingView",
+       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZlV3aEpFTFNVUHVDMkdXM05rVDlBTWtDWVVzUkR1c0tIOWhzZFk1TTlSU05heXhiYUhCTVI5WGxFQm1SaHpnSE52QVl0RHR6bC1QM3FXNkZiQ21ERHJ6cjktc3J4Vnh2UjBvdkt1WWFYX0kyQW1pRjlWcjE0ZjRRVmRTaTRjcjlPVVVaQUtPcEJESWZqY2U3MWpwMWF2QVVaYW1PTHk5d2ViOWt0R2lsTE43ZzlPeG1uaDVOQktHNzJWZw?oc=5",
+       "date": "Tue, 07 Jul 2026",
+       "source": "TradingView"
+      }
+     ],
+     "model": "gemini-flash-latest",
+     "judged_at": "2026-07-11 06:30"
+    }
+   },
+   {
+    "ticker": "ALL",
+    "name": "Allstate",
+    "close": 251.61,
+    "rebound": 1.0,
+    "rebound_grade": "O",
+    "base_quality": 0.8552705127186899,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 251.61 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 86%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "N",
+       "symbol": "—",
+       "detail": "有效年成長樣本不足",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近四季獲利年增 128%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1期季營收年增 3%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近1季獲利年增 332%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "AI 判斷（僅供參考，請複核依據）：僅憑新聞標題與簡要數據，無法證實其獲利成長是來自結構性變化而非短期循環或災損減少。",
+       "starred": true,
+       "ai": {
+        "grade": "T",
+        "one_line": "僅憑新聞標題與簡要數據，無法證實其獲利成長是來自結構性變化而非短期循環或災損減少。",
+        "analysis": "雖然近期獲利年增率顯著，且新聞標題提及定價與投資收益引擎大於天災影響，但現有資訊僅為標題，缺乏具體營運細節。標題中提到的「較低天災損失」屬於不可控的短期氣候因素，而非公司自身的結構性變革。在無法取得具體商業模式轉變或市占提升證據的情況下，保守分析師應判定資訊不足。",
+        "risks": "天災損失回升風險、潛在的法律與訴訟風險。",
+        "sources": [
+         {
+          "title": "Allstate (ALL) Stock Looks Undervalued On Earnings But Legal Risks Linger - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWWlMM1llRTRWc3BINC1lcGV3OUpzVDVoX2NrQ2JJUlVzUFlERF8yRmNSTjFHcG9TczRuZjhXR0dEVVNCSmxLdjdGMGZNcTNhZ2U2Z3BJaTlwb21oZVpKT3FlOTZGVGU3V2lrVk5qanlneDl0ZGVZWE81VnhzaDJZOEcydlRGV0xYSDFkSjB3aU5iZFhvSnRadWVQTlduQ0NRWDJ6SC1zNmtqUQ?oc=5",
+          "date": "Thu, 09 Jul 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "What Allstate (ALL)'s Lower Cat Losses and Steady Dividend Signal Means For Shareholders - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVEhUVVJEZWd2YmxTaUdRREk1RzhsY0xrSXVBbDZXQTJHRW03eHBqQzZKZUlYUUJ1ZWYwTWFXdFQ0cGlsbWxNSnRnSHNqVmtka2RwWDBIYWdBVHhtdUpMczdSTlMtLVlHeHR5SW54a1cyYzFDanlMWlZIWnR6djRvRS04cG9sdy1hSFNhYUlwdmdoZ1pwTF8yTVhVOVQ4SzZtZ09NZDl2TzNUNXRiVHV1MnBRR2xqME50ZGJRQVVRZk05OXPSAcgBQVVfeXFMTkcwN3JOZlM2eHM1S2h0NXV2RlBBTW1Ia3JxVTZhWU1jYk95RUNZRDRNUzRqSlY1bWpFTEp0RDVfdnh0bGJnQ1ZvQjRYRXdhaFZ0UTl5ZklWSS1aeDdJTncwb2FtYzdlVllxbnZ5Qi1yLXVwSHI4V1lxcEJLTWlGTTZ4VGZ1dVhLZThHdVNHZUdKa1BoWVBaeG9vLUFJN3VxenRNeW91V2tua1F2c2F0d3pxTEsycWlsOU5Rc3F5b3QycUl5WEpEbm0?oc=5",
+          "date": "Thu, 09 Jul 2026",
+          "source": "simplywall.st"
+         },
+         {
+          "title": "Allstate (ALL) Has a Pricing-and-Investment-Income Engine Bigger Than Catastrophe Noise - AlphaStreet",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX0JoaTBBU2pTaV9zeE14RGd3WXVnaF9xN24zeG4xRnlmN3ZVWk1yMlhrcXpmdXpjZGUyRWt0MGNpejg1SkQ2eDNIZUVVRDRoZmxHdVNSUFc0M2E0S0JIeThSWl9CU1NGS0JycEJ6X09yQkZHcHBLYkN6Mk9kTDY3d1o3R3BnR2RjdGpJbVJwRWdyVFMxTkJldmsxVnNiZTJ4b2RLZEFjbmJZM3dPaHlSYThhMGFZUdIBtgFBVV95cUxNX0JoaTBBU2pTaV9zeE14RGd3WXVnaF9xN24zeG4xRnlmN3ZVWk1yMlhrcXpmdXpjZGUyRWt0MGNpejg1SkQ2eDNIZUVVRDRoZmxHdVNSUFc0M2E0S0JIeThSWl9CU1NGS0JycEJ6X09yQkZHcHBLYkN6Mk9kTDY3d1o3R3BnR2RjdGpJbVJwRWdyVFMxTkJldmsxVnNiZTJ4b2RLZEFjbmJZM3dPaHlSYThhMGFZUQ?oc=5",
+          "date": "Tue, 07 Jul 2026",
+          "source": "AlphaStreet"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "Allstate (ALL) Stock Looks Undervalued On Earnings But Legal Risks Linger - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWWlMM1llRTRWc3BINC1lcGV3OUpzVDVoX2NrQ2JJUlVzUFlERF8yRmNSTjFHcG9TczRuZjhXR0dEVVNCSmxLdjdGMGZNcTNhZ2U2Z3BJaTlwb21oZVpKT3FlOTZGVGU3V2lrVk5qanlneDl0ZGVZWE81VnhzaDJZOEcydlRGV0xYSDFkSjB3aU5iZFhvSnRadWVQTlduQ0NRWDJ6SC1zNmtqUQ?oc=5",
+          "date": "Thu, 09 Jul 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "Allstate (ALL) Q1 2026 Earnings Call Transcript - Fortune",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9BN24wMkJSMkRkdjJReWs4SndfbFRuOU1ORUhQSWdQVjdiVEQ3MVhfSUJINTZCb1htZW5YcVdrLVp4TlpOZVYyWVMydkJPbVd6UVRjOTVWUTBXU0ZtLTFjbGRxUlo?oc=5",
+          "date": "Thu, 09 Jul 2026",
+          "source": "Fortune"
+         },
+         {
+          "title": "Allstate Reports Strong Earnings and Increased Growth - PR Newswire",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcW9ZNHpmY2cwVFZpdW9yUzJYcjRzNnJMcmpZSWxDVXNoNHJzYnp6cXo5c1FXaGcyeDEza2p1X1VwakRocFBhMDdjVGw4N19jZjJaTW9Fam1fblExV0xYMTRjUDlpbjlBUTd6RGhtWlZQekV3Z2dyQzBXY2JRa01XbTkxZXc1QVF6MC05SVRwR01VN1E0N2NQOUtlbnk1UWpMeEpoNzRmbkpxaXNmVlE?oc=5",
+          "date": "Wed, 29 Apr 2026",
+          "source": "PR Newswire"
+         },
+         {
+          "title": "Allstate Vs. Progressive: Buy Allstate’s Deep-Value Multiple Not Progressive’s Premium Run - 24/7 Wall St.",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNG1iUzUtUE80VFhBU0RiVzdVVUdqT3R2bWlqZDhXR2V6Y012OUZmaWpCNzVtNWxqdGVWTjZqRjBqcFdCelJ6Ymw3dm4wYlZEWExmdVpSelJKVlFTLUd5UVFkbEFIb0RzZTVLUVlSVV81aFJTZTltWGM3bzdadkY1WWdmbUp1dkU3TkF5SGV4cmdCSHBPeTdEOGRpTVJGY1ZSMS1uSXR5dmU4TlFUZGlQR01SaU5obGZJV0xDZ05jbVFSMUxLdXk5ekFn?oc=5",
+          "date": "Thu, 09 Jul 2026",
+          "source": "24/7 Wall St."
+         },
+         {
+          "title": "Allstate to hold Q2 2026 earnings call Aug. 6, 2026 – Company Announcement - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ3d0YU54Vm5qWHVYTDRhRDc4cHdiVEFOQTJ5MnRBRmdQSnBQYnVLeExJQ2g4c0ViT3dLUF9WcEN0ZkVQWnVJLUc4dHpzLUpMRUR5Szg3TjNBZVI2S3JEZ2xXOTZpZTVhaFp5MUh1YnBjMVhybDEtV2Q5YjFpdTBkdC1RWkpYSkZXMVB2cnp4dHEtT1E5Skgtbg?oc=5",
+          "date": "Mon, 06 Jul 2026",
+          "source": "Financial Times"
+         },
+         {
+          "title": "Allstate lines up Aug. 6 call for Q2 results after Aug. 5 release - Stock Titan",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRHE4azhEVFZGVHdxVnBNUWFXd2J6QWVZR1Q4R3BMYjZsaGlSUFBJTmtoX2htc2U1WTlOaHJIVzhkRndnMTZZejhIQ2h2TXE2TmtnOXFWb2t0enpBUXBuQ1JvQWxWUWRnVkxfZHh4ckdmN0RhX1lHZTN5a0VLVG4wUmE3YVJWUnFXdVVDZDNmaDBtOGQ0Y1Q0VjdfZTVTUnM?oc=5",
+          "date": "Mon, 06 Jul 2026",
+          "source": "Stock Titan"
+         },
+         {
+          "title": "What Allstate (ALL)'s Lower Cat Losses and Steady Dividend Signal Means For Shareholders - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVEhUVVJEZWd2YmxTaUdRREk1RzhsY0xrSXVBbDZXQTJHRW03eHBqQzZKZUlYUUJ1ZWYwTWFXdFQ0cGlsbWxNSnRnSHNqVmtka2RwWDBIYWdBVHhtdUpMczdSTlMtLVlHeHR5SW54a1cyYzFDanlMWlZIWnR6djRvRS04cG9sdy1hSFNhYUlwdmdoZ1pwTF8yTVhVOVQ4SzZtZ09NZDl2TzNUNXRiVHV1MnBRR2xqME50ZGJRQVVRZk05OXPSAcgBQVVfeXFMTkcwN3JOZlM2eHM1S2h0NXV2RlBBTW1Ia3JxVTZhWU1jYk95RUNZRDRNUzRqSlY1bWpFTEp0RDVfdnh0bGJnQ1ZvQjRYRXdhaFZ0UTl5ZklWSS1aeDdJTncwb2FtYzdlVllxbnZ5Qi1yLXVwSHI4V1lxcEJLTWlGTTZ4VGZ1dVhLZThHdVNHZUdKa1BoWVBaeG9vLUFJN3VxenRNeW91V2tua1F2c2F0d3pxTEsycWlsOU5Rc3F5b3QycUl5WEpEbm0?oc=5",
+          "date": "Thu, 09 Jul 2026",
+          "source": "simplywall.st"
+         },
+         {
+          "title": "Allstate (ALL) Has a Pricing-and-Investment-Income Engine Bigger Than Catastrophe Noise - AlphaStreet",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX0JoaTBBU2pTaV9zeE14RGd3WXVnaF9xN24zeG4xRnlmN3ZVWk1yMlhrcXpmdXpjZGUyRWt0MGNpejg1SkQ2eDNIZUVVRDRoZmxHdVNSUFc0M2E0S0JIeThSWl9CU1NGS0JycEJ6X09yQkZHcHBLYkN6Mk9kTDY3d1o3R3BnR2RjdGpJbVJwRWdyVFMxTkJldmsxVnNiZTJ4b2RLZEFjbmJZM3dPaHlSYThhMGFZUdIBtgFBVV95cUxNX0JoaTBBU2pTaV9zeE14RGd3WXVnaF9xN24zeG4xRnlmN3ZVWk1yMlhrcXpmdXpjZGUyRWt0MGNpejg1SkQ2eDNIZUVVRDRoZmxHdVNSUFc0M2E0S0JIeThSWl9CU1NGS0JycEJ6X09yQkZHcHBLYkN6Mk9kTDY3d1o3R3BnR2RjdGpJbVJwRWdyVFMxTkJldmsxVnNiZTJ4b2RLZEFjbmJZM3dPaHlSYThhMGFZUQ?oc=5",
+          "date": "Tue, 07 Jul 2026",
+          "source": "AlphaStreet"
+         }
+        ],
+        "model": "gemini-flash-latest",
+        "judged_at": "2026-07-11 06:30"
+       }
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 5.4 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 6.7%，位於近一年前 34% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 79,
+     "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+    },
+    "mech_verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量",
+    "mech_score": 83,
+    "ai7": {
+     "grade": "T",
+     "one_line": "僅憑新聞標題與簡要數據，無法證實其獲利成長是來自結構性變化而非短期循環或災損減少。",
+     "analysis": "雖然近期獲利年增率顯著，且新聞標題提及定價與投資收益引擎大於天災影響，但現有資訊僅為標題，缺乏具體營運細節。標題中提到的「較低天災損失」屬於不可控的短期氣候因素，而非公司自身的結構性變革。在無法取得具體商業模式轉變或市占提升證據的情況下，保守分析師應判定資訊不足。",
+     "risks": "天災損失回升風險、潛在的法律與訴訟風險。",
+     "sources": [
+      {
+       "title": "Allstate (ALL) Stock Looks Undervalued On Earnings But Legal Risks Linger - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWWlMM1llRTRWc3BINC1lcGV3OUpzVDVoX2NrQ2JJUlVzUFlERF8yRmNSTjFHcG9TczRuZjhXR0dEVVNCSmxLdjdGMGZNcTNhZ2U2Z3BJaTlwb21oZVpKT3FlOTZGVGU3V2lrVk5qanlneDl0ZGVZWE81VnhzaDJZOEcydlRGV0xYSDFkSjB3aU5iZFhvSnRadWVQTlduQ0NRWDJ6SC1zNmtqUQ?oc=5",
+       "date": "Thu, 09 Jul 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "What Allstate (ALL)'s Lower Cat Losses and Steady Dividend Signal Means For Shareholders - simplywall.st",
+       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVEhUVVJEZWd2YmxTaUdRREk1RzhsY0xrSXVBbDZXQTJHRW03eHBqQzZKZUlYUUJ1ZWYwTWFXdFQ0cGlsbWxNSnRnSHNqVmtka2RwWDBIYWdBVHhtdUpMczdSTlMtLVlHeHR5SW54a1cyYzFDanlMWlZIWnR6djRvRS04cG9sdy1hSFNhYUlwdmdoZ1pwTF8yTVhVOVQ4SzZtZ09NZDl2TzNUNXRiVHV1MnBRR2xqME50ZGJRQVVRZk05OXPSAcgBQVVfeXFMTkcwN3JOZlM2eHM1S2h0NXV2RlBBTW1Ia3JxVTZhWU1jYk95RUNZRDRNUzRqSlY1bWpFTEp0RDVfdnh0bGJnQ1ZvQjRYRXdhaFZ0UTl5ZklWSS1aeDdJTncwb2FtYzdlVllxbnZ5Qi1yLXVwSHI4V1lxcEJLTWlGTTZ4VGZ1dVhLZThHdVNHZUdKa1BoWVBaeG9vLUFJN3VxenRNeW91V2tua1F2c2F0d3pxTEsycWlsOU5Rc3F5b3QycUl5WEpEbm0?oc=5",
+       "date": "Thu, 09 Jul 2026",
+       "source": "simplywall.st"
+      },
+      {
+       "title": "Allstate (ALL) Has a Pricing-and-Investment-Income Engine Bigger Than Catastrophe Noise - AlphaStreet",
+       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX0JoaTBBU2pTaV9zeE14RGd3WXVnaF9xN24zeG4xRnlmN3ZVWk1yMlhrcXpmdXpjZGUyRWt0MGNpejg1SkQ2eDNIZUVVRDRoZmxHdVNSUFc0M2E0S0JIeThSWl9CU1NGS0JycEJ6X09yQkZHcHBLYkN6Mk9kTDY3d1o3R3BnR2RjdGpJbVJwRWdyVFMxTkJldmsxVnNiZTJ4b2RLZEFjbmJZM3dPaHlSYThhMGFZUdIBtgFBVV95cUxNX0JoaTBBU2pTaV9zeE14RGd3WXVnaF9xN24zeG4xRnlmN3ZVWk1yMlhrcXpmdXpjZGUyRWt0MGNpejg1SkQ2eDNIZUVVRDRoZmxHdVNSUFc0M2E0S0JIeThSWl9CU1NGS0JycEJ6X09yQkZHcHBLYkN6Mk9kTDY3d1o3R3BnR2RjdGpJbVJwRWdyVFMxTkJldmsxVnNiZTJ4b2RLZEFjbmJZM3dPaHlSYThhMGFZUQ?oc=5",
+       "date": "Tue, 07 Jul 2026",
+       "source": "AlphaStreet"
+      }
+     ],
+     "all_news": [
+      {
+       "title": "Allstate (ALL) Stock Looks Undervalued On Earnings But Legal Risks Linger - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWWlMM1llRTRWc3BINC1lcGV3OUpzVDVoX2NrQ2JJUlVzUFlERF8yRmNSTjFHcG9TczRuZjhXR0dEVVNCSmxLdjdGMGZNcTNhZ2U2Z3BJaTlwb21oZVpKT3FlOTZGVGU3V2lrVk5qanlneDl0ZGVZWE81VnhzaDJZOEcydlRGV0xYSDFkSjB3aU5iZFhvSnRadWVQTlduQ0NRWDJ6SC1zNmtqUQ?oc=5",
+       "date": "Thu, 09 Jul 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "Allstate (ALL) Q1 2026 Earnings Call Transcript - Fortune",
+       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9BN24wMkJSMkRkdjJReWs4SndfbFRuOU1ORUhQSWdQVjdiVEQ3MVhfSUJINTZCb1htZW5YcVdrLVp4TlpOZVYyWVMydkJPbVd6UVRjOTVWUTBXU0ZtLTFjbGRxUlo?oc=5",
+       "date": "Thu, 09 Jul 2026",
+       "source": "Fortune"
+      },
+      {
+       "title": "Allstate Reports Strong Earnings and Increased Growth - PR Newswire",
+       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcW9ZNHpmY2cwVFZpdW9yUzJYcjRzNnJMcmpZSWxDVXNoNHJzYnp6cXo5c1FXaGcyeDEza2p1X1VwakRocFBhMDdjVGw4N19jZjJaTW9Fam1fblExV0xYMTRjUDlpbjlBUTd6RGhtWlZQekV3Z2dyQzBXY2JRa01XbTkxZXc1QVF6MC05SVRwR01VN1E0N2NQOUtlbnk1UWpMeEpoNzRmbkpxaXNmVlE?oc=5",
+       "date": "Wed, 29 Apr 2026",
+       "source": "PR Newswire"
+      },
+      {
+       "title": "Allstate Vs. Progressive: Buy Allstate’s Deep-Value Multiple Not Progressive’s Premium Run - 24/7 Wall St.",
+       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNG1iUzUtUE80VFhBU0RiVzdVVUdqT3R2bWlqZDhXR2V6Y012OUZmaWpCNzVtNWxqdGVWTjZqRjBqcFdCelJ6Ymw3dm4wYlZEWExmdVpSelJKVlFTLUd5UVFkbEFIb0RzZTVLUVlSVV81aFJTZTltWGM3bzdadkY1WWdmbUp1dkU3TkF5SGV4cmdCSHBPeTdEOGRpTVJGY1ZSMS1uSXR5dmU4TlFUZGlQR01SaU5obGZJV0xDZ05jbVFSMUxLdXk5ekFn?oc=5",
+       "date": "Thu, 09 Jul 2026",
+       "source": "24/7 Wall St."
+      },
+      {
+       "title": "Allstate to hold Q2 2026 earnings call Aug. 6, 2026 – Company Announcement - Financial Times",
+       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ3d0YU54Vm5qWHVYTDRhRDc4cHdiVEFOQTJ5MnRBRmdQSnBQYnVLeExJQ2g4c0ViT3dLUF9WcEN0ZkVQWnVJLUc4dHpzLUpMRUR5Szg3TjNBZVI2S3JEZ2xXOTZpZTVhaFp5MUh1YnBjMVhybDEtV2Q5YjFpdTBkdC1RWkpYSkZXMVB2cnp4dHEtT1E5Skgtbg?oc=5",
+       "date": "Mon, 06 Jul 2026",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Allstate lines up Aug. 6 call for Q2 results after Aug. 5 release - Stock Titan",
+       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRHE4azhEVFZGVHdxVnBNUWFXd2J6QWVZR1Q4R3BMYjZsaGlSUFBJTmtoX2htc2U1WTlOaHJIVzhkRndnMTZZejhIQ2h2TXE2TmtnOXFWb2t0enpBUXBuQ1JvQWxWUWRnVkxfZHh4ckdmN0RhX1lHZTN5a0VLVG4wUmE3YVJWUnFXdVVDZDNmaDBtOGQ0Y1Q0VjdfZTVTUnM?oc=5",
+       "date": "Mon, 06 Jul 2026",
+       "source": "Stock Titan"
+      },
+      {
+       "title": "What Allstate (ALL)'s Lower Cat Losses and Steady Dividend Signal Means For Shareholders - simplywall.st",
+       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVEhUVVJEZWd2YmxTaUdRREk1RzhsY0xrSXVBbDZXQTJHRW03eHBqQzZKZUlYUUJ1ZWYwTWFXdFQ0cGlsbWxNSnRnSHNqVmtka2RwWDBIYWdBVHhtdUpMczdSTlMtLVlHeHR5SW54a1cyYzFDanlMWlZIWnR6djRvRS04cG9sdy1hSFNhYUlwdmdoZ1pwTF8yTVhVOVQ4SzZtZ09NZDl2TzNUNXRiVHV1MnBRR2xqME50ZGJRQVVRZk05OXPSAcgBQVVfeXFMTkcwN3JOZlM2eHM1S2h0NXV2RlBBTW1Ia3JxVTZhWU1jYk95RUNZRDRNUzRqSlY1bWpFTEp0RDVfdnh0bGJnQ1ZvQjRYRXdhaFZ0UTl5ZklWSS1aeDdJTncwb2FtYzdlVllxbnZ5Qi1yLXVwSHI4V1lxcEJLTWlGTTZ4VGZ1dVhLZThHdVNHZUdKa1BoWVBaeG9vLUFJN3VxenRNeW91V2tua1F2c2F0d3pxTEsycWlsOU5Rc3F5b3QycUl5WEpEbm0?oc=5",
+       "date": "Thu, 09 Jul 2026",
+       "source": "simplywall.st"
+      },
+      {
+       "title": "Allstate (ALL) Has a Pricing-and-Investment-Income Engine Bigger Than Catastrophe Noise - AlphaStreet",
+       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX0JoaTBBU2pTaV9zeE14RGd3WXVnaF9xN24zeG4xRnlmN3ZVWk1yMlhrcXpmdXpjZGUyRWt0MGNpejg1SkQ2eDNIZUVVRDRoZmxHdVNSUFc0M2E0S0JIeThSWl9CU1NGS0JycEJ6X09yQkZHcHBLYkN6Mk9kTDY3d1o3R3BnR2RjdGpJbVJwRWdyVFMxTkJldmsxVnNiZTJ4b2RLZEFjbmJZM3dPaHlSYThhMGFZUdIBtgFBVV95cUxNX0JoaTBBU2pTaV9zeE14RGd3WXVnaF9xN24zeG4xRnlmN3ZVWk1yMlhrcXpmdXpjZGUyRWt0MGNpejg1SkQ2eDNIZUVVRDRoZmxHdVNSUFc0M2E0S0JIeThSWl9CU1NGS0JycEJ6X09yQkZHcHBLYkN6Mk9kTDY3d1o3R3BnR2RjdGpJbVJwRWdyVFMxTkJldmsxVnNiZTJ4b2RLZEFjbmJZM3dPaHlSYThhMGFZUQ?oc=5",
+       "date": "Tue, 07 Jul 2026",
+       "source": "AlphaStreet"
+      }
+     ],
+     "model": "gemini-flash-latest",
+     "judged_at": "2026-07-11 06:30"
+    }
+   },
+   {
+    "ticker": "CSX",
+    "name": "CSX Corporation",
+    "close": 49.41,
+    "rebound": 1.0,
+    "rebound_grade": "O",
+    "base_quality": 0.7111896030177892,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 49.41 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 71%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近5年平均年成長 -11%，成長年份占 0%",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近四季獲利年增 -17%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1期季營收年增 2%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近1季獲利年增 24%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "AI 判斷（僅供參考，請複核依據）：證據不足以判斷未來獲利能否穩健成長，因缺乏明確的結構性成長動力說明。",
+       "starred": true,
+       "ai": {
+        "grade": "T",
+        "one_line": "證據不足以判斷未來獲利能否穩健成長，因缺乏明確的結構性成長動力說明。",
+        "analysis": "公司過去五年平均年成長率為負值，且無成長年份，顯示長期獲利表現不佳。儘管近期單季獲利年增24%，但此成長是否來自產業趨勢、商業模式或市占提升等結構性變化，證據中並未說明。新聞標題[7]雖暗示未來獲利可能擴張，但未提供支持此論點的具體結構性成長理由。在缺乏明確結構性成長動力的情況下，無法判斷其未來獲利能否穩健成長。",
+        "risks": [
+         "近期獲利成長可能僅為短期景氣回升，而非長期結構性改善。",
+         "公司長期營運表現不佳，若無新成長動能，未來獲利穩定性仍有疑慮。"
+        ],
+        "sources": [
+         {
+          "title": "CSX Corporation (CSX) Stock Rises on Q1 2026 Earnings - Quiver Quantitative",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVDNNNDVid1F4LXNUR1I4UXBacUhvOThMRkVVOEtGeE05TnRwX1BOOHZja0NIWEhTQzFVZG9VVHZzTkVrbExiOFZpNVF4QkMxd2hHeThQZnJRMkZYUUdidEhaQU4wbDRDWkRXZXNaUTdBVzRIYkt3ejRzTTl5S0wzVkhPZ1ZXa19oSFhlU3ZOVQ?oc=5",
+          "date": "Wed, 22 Apr 2026",
+          "source": "Quiver Quantitative"
+         },
+         {
+          "title": "CSX Corporation: The Setup For A Multi-Year Earnings Expansion Story (NASDAQ:CSX) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOEJXM2ZMUFl1MGt2VFBzaThpMWhIeW5zSnpYQ3FneE9LM0NyZTRyYWM0RWJtekxHOXpoM0R3Skw0dm90eTVMcDE5dGluZEJnMjJIWjIzb1VFeTV4OEgzNkM5UjlGMXNzdTh5eF9UREVtYTFpTldwRXhSYXh1Q2VzX1lJQXdtSnJKSVE2MnVvcDM5aV83WDNiLUZxcXo?oc=5",
+          "date": "Thu, 23 Apr 2026",
+          "source": "Seeking Alpha"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "symbol__ Stock Quote Price and Forecast - CNN",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9TMlRHWUxpOG92RzQwWlhnamNZd3M2cGl2bGxHWGgtSWZTLThtV1Bsak1zNkt5ZUh0Z2pqV1RPSVRkbHJSWF9iblNoS3p6bEE?oc=5",
+          "date": "Thu, 09 Jul 2026",
+          "source": "CNN"
+         },
+         {
+          "title": "What You Need To Know Ahead of CSX Corporation's Earnings Release - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMmZkdjJ5ZTRJV0JfQmFsN0pVRVFpV3FoZzNTeTg4RFNMdGltNnEycEZ6ekVwRUhXRGNmaTF4Mm9WR1E2WkhsZ2xwTndqTGFHblNqV1cyeGo3VjR4dmJ5aDMtZl9nQ2RPUEtIVWZVaURDUUtVbENyTkt6MWtrdkdiVVg3ZmUtV2VwdXhCR0dySmlsdDNOQnBpd3FuQlM5TFFTSnU4?oc=5",
+          "date": "Mon, 29 Jun 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "CSX Corp. Announces Date for Second Quarter Earnings Release and Earnings Call - GlobeNewswire",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeU1MNTlsWm8yOHU1eVJ0WlJ2WHFlNGZBaV9fNTkteldSNFQ3YUNyZHE0akt0Sm9qOGV1VURoSXlza3pKblMwUzNwUDRsWkNpOUJtUzZaV1cyRzloNHZ5M0xWVnYtd0NvaW1xYl8tdW4xWmFaSk83Q0E4Mk0wQTl4WGxWUEx5eDFFSUFGLXItRlRJR2J4SkFGYlMyS3JBcWtweG9XMFNZeXRmcHhZZWRadEtlWF9SV0o4WEdmTUVYdXpLQTItODRybXdwYTFyaFNYdXlmbFRVZ1lUVlJFYXRzc19CUQ?oc=5",
+          "date": "Mon, 22 Jun 2026",
+          "source": "GlobeNewswire"
+         },
+         {
+          "title": "J.B. Hunt to Report Q2 Earnings: Is a Beat in Store for the Stock? - TradingView",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQU0hyeXZpLXlBQWRmb0kwRlVuTFI0STVFeWUwczBPcHh4Z1lIa0ZXdDBid0NnWnVUcUluaXN0MzYtM1V6ZWE3TlB0bUI4eEZNOU5BSkZGZERnaE5HSGNNRldFWFVJVW1VZU44Z2lXTW1MOFJaUWtiLVdfNHFKWGU1RDFDYmJ5aEJRb2ZDZWtKbkZsc0toUTFVWHBBMmJOb00waGtfSkFOZW1CenlUSGIxcWVOTXBhdThHZlpj?oc=5",
+          "date": "Thu, 09 Jul 2026",
+          "source": "TradingView"
+         },
+         {
+          "title": "CSX Corporation (CSX) Stock Rises on Q1 2026 Earnings - Quiver Quantitative",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVDNNNDVid1F4LXNUR1I4UXBacUhvOThMRkVVOEtGeE05TnRwX1BOOHZja0NIWEhTQzFVZG9VVHZzTkVrbExiOFZpNVF4QkMxd2hHeThQZnJRMkZYUUdidEhaQU4wbDRDWkRXZXNaUTdBVzRIYkt3ejRzTTl5S0wzVkhPZ1ZXa19oSFhlU3ZOVQ?oc=5",
+          "date": "Wed, 22 Apr 2026",
+          "source": "Quiver Quantitative"
+         },
+         {
+          "title": "CSX News | CSX CORP (NASDAQ:CSX) - ChartMill",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kLTlicWNYbDZGaEFhcTl4SjFWTTFSU0pQREdJTERpX0Jnc2w5bmplOGJmQ0lVb1B3d2F3Tm5KazJOOE5RZkVKMThlSU1reGtXM1h1dDZURGdzUQ?oc=5",
+          "date": "Fri, 03 Jul 2026",
+          "source": "ChartMill"
+         },
+         {
+          "title": "CSX Corporation: The Setup For A Multi-Year Earnings Expansion Story (NASDAQ:CSX) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOEJXM2ZMUFl1MGt2VFBzaThpMWhIeW5zSnpYQ3FneE9LM0NyZTRyYWM0RWJtekxHOXpoM0R3Skw0dm90eTVMcDE5dGluZEJnMjJIWjIzb1VFeTV4OEgzNkM5UjlGMXNzdTh5eF9UREVtYTFpTldwRXhSYXh1Q2VzX1lJQXdtSnJKSVE2MnVvcDM5aV83WDNiLUZxcXo?oc=5",
+          "date": "Thu, 23 Apr 2026",
+          "source": "Seeking Alpha"
+         },
+         {
+          "title": "What to Expect From CSX Corporation’s Next Quarterly Earnings Report - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUkR1Q0htMWdwa2lVNmlXMGp5eUJubG11Sm1FSHRiNGVVVVJPaGJoX3lKRkd1LWlSWHFpaWRVWHI5emFtZ2w2bU5jMXJQWk9TUXhQNkJrQzJMOVVpTHZtSmFYZzE4RGRZOWJSV3BWMjdFTGpQQjNabzdram9JM3JQTmxlVkVPYVVDckptcFNYQWtXS1A2YWRLVXNqeHFxYVQyemtQcw?oc=5",
+          "date": "Thu, 26 Mar 2026",
+          "source": "Yahoo Finance"
+         }
+        ],
+        "model": "gemini-2.5-flash",
+        "judged_at": "2026-07-11 06:33"
+       }
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 30.3 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 6.7%，位於近一年前 34% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 71,
+     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+    },
+    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+    "mech_score": 75,
+    "ai7": {
+     "grade": "T",
+     "one_line": "證據不足以判斷未來獲利能否穩健成長，因缺乏明確的結構性成長動力說明。",
+     "analysis": "公司過去五年平均年成長率為負值，且無成長年份，顯示長期獲利表現不佳。儘管近期單季獲利年增24%，但此成長是否來自產業趨勢、商業模式或市占提升等結構性變化，證據中並未說明。新聞標題[7]雖暗示未來獲利可能擴張，但未提供支持此論點的具體結構性成長理由。在缺乏明確結構性成長動力的情況下，無法判斷其未來獲利能否穩健成長。",
+     "risks": [
+      "近期獲利成長可能僅為短期景氣回升，而非長期結構性改善。",
+      "公司長期營運表現不佳，若無新成長動能，未來獲利穩定性仍有疑慮。"
+     ],
+     "sources": [
+      {
+       "title": "CSX Corporation (CSX) Stock Rises on Q1 2026 Earnings - Quiver Quantitative",
+       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVDNNNDVid1F4LXNUR1I4UXBacUhvOThMRkVVOEtGeE05TnRwX1BOOHZja0NIWEhTQzFVZG9VVHZzTkVrbExiOFZpNVF4QkMxd2hHeThQZnJRMkZYUUdidEhaQU4wbDRDWkRXZXNaUTdBVzRIYkt3ejRzTTl5S0wzVkhPZ1ZXa19oSFhlU3ZOVQ?oc=5",
+       "date": "Wed, 22 Apr 2026",
+       "source": "Quiver Quantitative"
+      },
+      {
+       "title": "CSX Corporation: The Setup For A Multi-Year Earnings Expansion Story (NASDAQ:CSX) - Seeking Alpha",
+       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOEJXM2ZMUFl1MGt2VFBzaThpMWhIeW5zSnpYQ3FneE9LM0NyZTRyYWM0RWJtekxHOXpoM0R3Skw0dm90eTVMcDE5dGluZEJnMjJIWjIzb1VFeTV4OEgzNkM5UjlGMXNzdTh5eF9UREVtYTFpTldwRXhSYXh1Q2VzX1lJQXdtSnJKSVE2MnVvcDM5aV83WDNiLUZxcXo?oc=5",
+       "date": "Thu, 23 Apr 2026",
+       "source": "Seeking Alpha"
+      }
+     ],
+     "all_news": [
+      {
+       "title": "symbol__ Stock Quote Price and Forecast - CNN",
+       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9TMlRHWUxpOG92RzQwWlhnamNZd3M2cGl2bGxHWGgtSWZTLThtV1Bsak1zNkt5ZUh0Z2pqV1RPSVRkbHJSWF9iblNoS3p6bEE?oc=5",
+       "date": "Thu, 09 Jul 2026",
+       "source": "CNN"
+      },
+      {
+       "title": "What You Need To Know Ahead of CSX Corporation's Earnings Release - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMmZkdjJ5ZTRJV0JfQmFsN0pVRVFpV3FoZzNTeTg4RFNMdGltNnEycEZ6ekVwRUhXRGNmaTF4Mm9WR1E2WkhsZ2xwTndqTGFHblNqV1cyeGo3VjR4dmJ5aDMtZl9nQ2RPUEtIVWZVaURDUUtVbENyTkt6MWtrdkdiVVg3ZmUtV2VwdXhCR0dySmlsdDNOQnBpd3FuQlM5TFFTSnU4?oc=5",
+       "date": "Mon, 29 Jun 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "CSX Corp. Announces Date for Second Quarter Earnings Release and Earnings Call - GlobeNewswire",
+       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeU1MNTlsWm8yOHU1eVJ0WlJ2WHFlNGZBaV9fNTkteldSNFQ3YUNyZHE0akt0Sm9qOGV1VURoSXlza3pKblMwUzNwUDRsWkNpOUJtUzZaV1cyRzloNHZ5M0xWVnYtd0NvaW1xYl8tdW4xWmFaSk83Q0E4Mk0wQTl4WGxWUEx5eDFFSUFGLXItRlRJR2J4SkFGYlMyS3JBcWtweG9XMFNZeXRmcHhZZWRadEtlWF9SV0o4WEdmTUVYdXpLQTItODRybXdwYTFyaFNYdXlmbFRVZ1lUVlJFYXRzc19CUQ?oc=5",
+       "date": "Mon, 22 Jun 2026",
+       "source": "GlobeNewswire"
+      },
+      {
+       "title": "J.B. Hunt to Report Q2 Earnings: Is a Beat in Store for the Stock? - TradingView",
+       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQU0hyeXZpLXlBQWRmb0kwRlVuTFI0STVFeWUwczBPcHh4Z1lIa0ZXdDBid0NnWnVUcUluaXN0MzYtM1V6ZWE3TlB0bUI4eEZNOU5BSkZGZERnaE5HSGNNRldFWFVJVW1VZU44Z2lXTW1MOFJaUWtiLVdfNHFKWGU1RDFDYmJ5aEJRb2ZDZWtKbkZsc0toUTFVWHBBMmJOb00waGtfSkFOZW1CenlUSGIxcWVOTXBhdThHZlpj?oc=5",
+       "date": "Thu, 09 Jul 2026",
+       "source": "TradingView"
+      },
+      {
+       "title": "CSX Corporation (CSX) Stock Rises on Q1 2026 Earnings - Quiver Quantitative",
+       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVDNNNDVid1F4LXNUR1I4UXBacUhvOThMRkVVOEtGeE05TnRwX1BOOHZja0NIWEhTQzFVZG9VVHZzTkVrbExiOFZpNVF4QkMxd2hHeThQZnJRMkZYUUdidEhaQU4wbDRDWkRXZXNaUTdBVzRIYkt3ejRzTTl5S0wzVkhPZ1ZXa19oSFhlU3ZOVQ?oc=5",
+       "date": "Wed, 22 Apr 2026",
+       "source": "Quiver Quantitative"
+      },
+      {
+       "title": "CSX News | CSX CORP (NASDAQ:CSX) - ChartMill",
+       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kLTlicWNYbDZGaEFhcTl4SjFWTTFSU0pQREdJTERpX0Jnc2w5bmplOGJmQ0lVb1B3d2F3Tm5KazJOOE5RZkVKMThlSU1reGtXM1h1dDZURGdzUQ?oc=5",
+       "date": "Fri, 03 Jul 2026",
+       "source": "ChartMill"
+      },
+      {
+       "title": "CSX Corporation: The Setup For A Multi-Year Earnings Expansion Story (NASDAQ:CSX) - Seeking Alpha",
+       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOEJXM2ZMUFl1MGt2VFBzaThpMWhIeW5zSnpYQ3FneE9LM0NyZTRyYWM0RWJtekxHOXpoM0R3Skw0dm90eTVMcDE5dGluZEJnMjJIWjIzb1VFeTV4OEgzNkM5UjlGMXNzdTh5eF9UREVtYTFpTldwRXhSYXh1Q2VzX1lJQXdtSnJKSVE2MnVvcDM5aV83WDNiLUZxcXo?oc=5",
+       "date": "Thu, 23 Apr 2026",
+       "source": "Seeking Alpha"
+      },
+      {
+       "title": "What to Expect From CSX Corporation’s Next Quarterly Earnings Report - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUkR1Q0htMWdwa2lVNmlXMGp5eUJubG11Sm1FSHRiNGVVVVJPaGJoX3lKRkd1LWlSWHFpaWRVWHI5emFtZ2w2bU5jMXJQWk9TUXhQNkJrQzJMOVVpTHZtSmFYZzE4RGRZOWJSV3BWMjdFTGpQQjNabzdram9JM3JQTmxlVkVPYVVDckptcFNYQWtXS1A2YWRLVXNqeHFxYVQyemtQcw?oc=5",
+       "date": "Thu, 26 Mar 2026",
+       "source": "Yahoo Finance"
+      }
+     ],
+     "model": "gemini-2.5-flash",
+     "judged_at": "2026-07-11 06:33"
+    }
+   },
+   {
+    "ticker": "STT",
+    "name": "State Street Corporation",
+    "close": 180.22,
+    "rebound": 1.0,
+    "rebound_grade": "O",
+    "base_quality": 0.5472808419088111,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 180.22 創近 2 年新高",
        "starred": true
       },
       {
@@ -1779,10 +1445,118 @@
       {
        "key": "7",
        "name": "⑦ 未來獲利能否穩健成長",
-       "grade": "M",
-       "symbol": "人工",
-       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-       "starred": true
+       "grade": "T",
+       "symbol": "△",
+       "detail": "AI 判斷（僅供參考，請複核依據）：證據不足，無法判斷其未來獲利能否穩健成長的結構性理由。",
+       "starred": true,
+       "ai": {
+        "grade": "T",
+        "one_line": "證據不足，無法判斷其未來獲利能否穩健成長的結構性理由。",
+        "analysis": "State Street Corporation的業務性質與資產管理行業的整體表現高度相關，但提供的證據未能揭示其未來獲利穩健成長的結構性驅動力。儘管近期營運數字顯示獲利與營收有不錯的年增長，這些數據僅反映過去表現，並未說明成長是否來自產業趨勢、商業模式創新或市占提升。提供的近期新聞標題主要圍繞財報預期與發布，以及機構投資者的持股變動，未能提供關於結構性成長的具體證據，因此無法判斷其成長是否穩健且非僅受景氣循環影響。",
+        "risks": "資產管理行業易受市場波動影響，若全球市場表現不佳，可能導致其託管資產價值下降，進而影響服務費收入；缺乏明確的結構性成長動能，未來獲利成長可能主要依賴景氣循環，而非公司本身的競爭優勢或產業趨勢。",
+        "sources": [
+         {
+          "title": "State Street Corporation (STT) Earnings Expected to Grow: Should You Buy? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYW5kZ1BDWXpxakdWczU2X19rd2ZLNXFiMHZHLU9PVTNMaHB2YTBsSWdoOWVYc0NjbmU0UG9qMjJycl9temVPaWg3TmNUU1N6M3BNVG9jempyMXZNNEpNZGZEaGJYRGNyUnkzY0tyUTdiS2t1MUtfV29iU19wRW0zandkaEkzbDE3TW1mV1dXTHd5bTF5eC1iNDB1RndRSHIyeVM1Ng?oc=5",
+          "date": "Thu, 09 Jul 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "State Street (STT) Q1 2026 Earnings Call Transcript - Fortune",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44dmJldWNHWHBsMnc4UGNHSmtuWkE3M2QxQ1ljZmNFZE10X2p4WDBXc0RmSkxlbklqZGlKWWxiMzlmYk1aZU51V0VoMGE2c1NfZllUeGU4OW5OSTJBaFFJVHpqbjJxNnhWb3p0c2hLTkk?oc=5",
+          "date": "Thu, 09 Jul 2026",
+          "source": "Fortune"
+         },
+         {
+          "title": "Top Wall Street Forecasters Revamp State Street Expectations Ahead Of Q2 Earnings - Benzinga",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNbE05ZnZnM0daMkh5TXlCaWh5ek1CM1JHa1ZHb0RmVTg3QXoxR1J4M3l1eFI0S2xXOUlGYVMwTGdRME8tbU1DYlZZdVgtcGpqOXQ5SnVfMjJtTGx0TWFaMzhMZEdjVDNOSU4wUF9xYkhDYl9yUlFyQTM1blJvWHRUVUJFQk9FLXFEbzNIOE9iZ2xpQWViOWhSZGppS3BSa0lQek9ndU1VRDNGcFF0YW94VmZJRnkwcEZMMmh5UENodHNyTlNGeVJLYW1CVmlaRXBKQ25BRnZEVV9GcEdHOWNvRUlkU0tFU19lWFdyeg?oc=5",
+          "date": "Fri, 10 Jul 2026",
+          "source": "Benzinga"
+         },
+         {
+          "title": "World Investment Advisors Buys 14,731 Shares of State Street Corporation $STT - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTnY3eWhUY0Zkc1lyVXRJQ3hYOWk0RDVJVGg3MTN4dXBCSFZhQlpuX3NydkkzZDdPa0ktc1I2T0Fqb0VGRHVNdE04MTIzNndycmpydmNBWU9iXzVfamU3blNnV3RhRkxmR1J0MEYxejA5bWlzZ2s1M1FHb3dMMjV3cDJOWTl2Qk1KYjdQZzNGTHRaNmNqb0lZME5DSWdRLU1EaUJLZmNfaUtwOVpjenZFa0x0LUlyZWNlRVZLNU9TY2k4RHlqZWFIRHVlRzJUTExMVFE?oc=5",
+          "date": "Tue, 07 Jul 2026",
+          "source": "MarketBeat"
+         },
+         {
+          "title": "State Street Corporation (NYSE: STT) Reports First-Quarter 2026 Financial Results - Business Wire",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZUVUMlRqNUZMN0VNbkdQcTF3dmxPVkdfN19UZ3ZDbTlVZXNIamZtcVhjZ3cyQXV2dXhEMmRNakRxcUk2MVRoUWdXOFFtR3dpbGpwamlFWFJoc21uVi1kQVB1cVppanZ0LVNLcUltVFFiUXFveXpscmJfQnF2LWRpdjVHaWtERW9TMkFiN3VWeWZaVjlId3A1aVdpRnhFNi1oenktVkdPMXJsYkpnc2RGczA2NHdHeC1LT29aYUxBTWExaERXeldDWVNobnU3dGst?oc=5",
+          "date": "Fri, 17 Apr 2026",
+          "source": "Business Wire"
+         },
+         {
+          "title": "State Street (STT) Q1 2026 Earnings Transcript - The Motley Fool",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObmNBbVhTSTliZF83Q0ZfdXlRRVYwaEk2b0p5R0xLOE5OV0hwSTVsM1pSdzAwTjM3b3luYVl4cXduMkZwX1E0dHJyQ1g1WWtEck10M3FkbTR5OWNreVl4Q0RGZHR3Y2RudmQ1UFpjZ19od3RjZmxickdhc2NNb3FRRU1LNFJrRUJhdXNoNThIOV9sTFRuSnUtWGVJY3BUNHVmSnhhcHhR?oc=5",
+          "date": "Fri, 17 Apr 2026",
+          "source": "The Motley Fool"
+         },
+         {
+          "title": "Hsbc Holdings PLC Trims Stock Position in State Street Corporation $STT - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWU1UNmRMOHR6c2c5R3YwRlhjaTdPb21YQ3dwdFBsUFk4aUFzUXVMTTctenZadUJ0WXZvZDV6ZXp2TFcxRmhTT1RsTXpQeW1jdUdGNHZsdFlDWjhGODF4VHQ5NFNXY0ZhT3NvQWNUVDVrNkZ1Q19VODdlaUkwU3M3bzRILXduR0d6TnRSQUN2dlNnenBlOW9OdmZBV0huNXdTNXZoRlJ1YTc2djNXYTF3ZHJnUVNfQmJTNkZzYmFnOG1GYjNTUnRLbEFBRQ?oc=5",
+          "date": "Sun, 05 Jul 2026",
+          "source": "MarketBeat"
+         },
+         {
+          "title": "State Street Corporation's Q2 2026 Earnings: What to Expect - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMlJnMmNZTmd6c0xSdnlpYmRFYU1WcWptYlRZd0NvT2R0aHowSEpLejZjb1lzUTI4ZnVOV3RFN01BYXlNOVc2Q2lkR2NmNjVfU2JmMkM4R3hlMk9uM1NidVdMTzhyTWozMTJCaV9jeDlLYUtCWXhIdzREQ3kwak55cGRMcWRTcFAwMUlmUVBYYWd3Q1ZjS3lRQkc4c3hGa1U?oc=5",
+          "date": "Thu, 25 Jun 2026",
+          "source": "Yahoo Finance"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "State Street Corporation (STT) Earnings Expected to Grow: Should You Buy? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYW5kZ1BDWXpxakdWczU2X19rd2ZLNXFiMHZHLU9PVTNMaHB2YTBsSWdoOWVYc0NjbmU0UG9qMjJycl9temVPaWg3TmNUU1N6M3BNVG9jempyMXZNNEpNZGZEaGJYRGNyUnkzY0tyUTdiS2t1MUtfV29iU19wRW0zandkaEkzbDE3TW1mV1dXTHd5bTF5eC1iNDB1RndRSHIyeVM1Ng?oc=5",
+          "date": "Thu, 09 Jul 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "State Street (STT) Q1 2026 Earnings Call Transcript - Fortune",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44dmJldWNHWHBsMnc4UGNHSmtuWkE3M2QxQ1ljZmNFZE10X2p4WDBXc0RmSkxlbklqZGlKWWxiMzlmYk1aZU51V0VoMGE2c1NfZllUeGU4OW5OSTJBaFFJVHpqbjJxNnhWb3p0c2hLTkk?oc=5",
+          "date": "Thu, 09 Jul 2026",
+          "source": "Fortune"
+         },
+         {
+          "title": "Top Wall Street Forecasters Revamp State Street Expectations Ahead Of Q2 Earnings - Benzinga",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNbE05ZnZnM0daMkh5TXlCaWh5ek1CM1JHa1ZHb0RmVTg3QXoxR1J4M3l1eFI0S2xXOUlGYVMwTGdRME8tbU1DYlZZdVgtcGpqOXQ5SnVfMjJtTGx0TWFaMzhMZEdjVDNOSU4wUF9xYkhDYl9yUlFyQTM1blJvWHRUVUJFQk9FLXFEbzNIOE9iZ2xpQWViOWhSZGppS3BSa0lQek9ndU1VRDNGcFF0YW94VmZJRnkwcEZMMmh5UENodHNyTlNGeVJLYW1CVmlaRXBKQ25BRnZEVV9GcEdHOWNvRUlkU0tFU19lWFdyeg?oc=5",
+          "date": "Fri, 10 Jul 2026",
+          "source": "Benzinga"
+         },
+         {
+          "title": "World Investment Advisors Buys 14,731 Shares of State Street Corporation $STT - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTnY3eWhUY0Zkc1lyVXRJQ3hYOWk0RDVJVGg3MTN4dXBCSFZhQlpuX3NydkkzZDdPa0ktc1I2T0Fqb0VGRHVNdE04MTIzNndycmpydmNBWU9iXzVfamU3blNnV3RhRkxmR1J0MEYxejA5bWlzZ2s1M1FHb3dMMjV3cDJOWTl2Qk1KYjdQZzNGTHRaNmNqb0lZME5DSWdRLU1EaUJLZmNfaUtwOVpjenZFa0x0LUlyZWNlRVZLNU9TY2k4RHlqZWFIRHVlRzJUTExMVFE?oc=5",
+          "date": "Tue, 07 Jul 2026",
+          "source": "MarketBeat"
+         },
+         {
+          "title": "State Street Corporation (NYSE: STT) Reports First-Quarter 2026 Financial Results - Business Wire",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZUVUMlRqNUZMN0VNbkdQcTF3dmxPVkdfN19UZ3ZDbTlVZXNIamZtcVhjZ3cyQXV2dXhEMmRNakRxcUk2MVRoUWdXOFFtR3dpbGpwamlFWFJoc21uVi1kQVB1cVppanZ0LVNLcUltVFFiUXFveXpscmJfQnF2LWRpdjVHaWtERW9TMkFiN3VWeWZaVjlId3A1aVdpRnhFNi1oenktVkdPMXJsYkpnc2RGczA2NHdHeC1LT29aYUxBTWExaERXeldDWVNobnU3dGst?oc=5",
+          "date": "Fri, 17 Apr 2026",
+          "source": "Business Wire"
+         },
+         {
+          "title": "State Street (STT) Q1 2026 Earnings Transcript - The Motley Fool",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObmNBbVhTSTliZF83Q0ZfdXlRRVYwaEk2b0p5R0xLOE5OV0hwSTVsM1pSdzAwTjM3b3luYVl4cXduMkZwX1E0dHJyQ1g1WWtEck10M3FkbTR5OWNreVl4Q0RGZHR3Y2RudmQ1UFpjZ19od3RjZmxickdhc2NNb3FRRU1LNFJrRUJhdXNoNThIOV9sTFRuSnUtWGVJY3BUNHVmSnhhcHhR?oc=5",
+          "date": "Fri, 17 Apr 2026",
+          "source": "The Motley Fool"
+         },
+         {
+          "title": "Hsbc Holdings PLC Trims Stock Position in State Street Corporation $STT - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWU1UNmRMOHR6c2c5R3YwRlhjaTdPb21YQ3dwdFBsUFk4aUFzUXVMTTctenZadUJ0WXZvZDV6ZXp2TFcxRmhTT1RsTXpQeW1jdUdGNHZsdFlDWjhGODF4VHQ5NFNXY0ZhT3NvQWNUVDVrNkZ1Q19VODdlaUkwU3M3bzRILXduR0d6TnRSQUN2dlNnenBlOW9OdmZBV0huNXdTNXZoRlJ1YTc2djNXYTF3ZHJnUVNfQmJTNkZzYmFnOG1GYjNTUnRLbEFBRQ?oc=5",
+          "date": "Sun, 05 Jul 2026",
+          "source": "MarketBeat"
+         },
+         {
+          "title": "State Street Corporation's Q2 2026 Earnings: What to Expect - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMlJnMmNZTmd6c0xSdnlpYmRFYU1WcWptYlRZd0NvT2R0aHowSEpLejZjb1lzUTI4ZnVOV3RFN01BYXlNOVc2Q2lkR2NmNjVfU2JmMkM4R3hlMk9uM1NidVdMTzhyTWozMTJCaV9jeDlLYUtCWXhIdzREQ3kwak55cGRMcWRTcFAwMUlmUVBYYWd3Q1ZjS3lRQkc4c3hGa1U?oc=5",
+          "date": "Thu, 25 Jun 2026",
+          "source": "Yahoo Finance"
+         }
+        ],
+        "model": "gemini-2.5-flash",
+        "judged_at": "2026-07-11 06:34"
+       }
       },
       {
        "key": "8",
@@ -1797,23 +1571,131 @@
        "name": "⑨ 大盤上漲力道",
        "grade": "O",
        "symbol": "○",
-       "detail": "創新高股比率 7.4%，位於近一年前 20% 強、趨勢向上",
+       "detail": "創新高股比率 6.7%，位於近一年前 34% 強、趨勢向上",
        "starred": true
       }
      ],
-     "score": 75,
+     "score": 71,
      "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
     },
     "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
-    "mech_score": 75
+    "mech_score": 75,
+    "ai7": {
+     "grade": "T",
+     "one_line": "證據不足，無法判斷其未來獲利能否穩健成長的結構性理由。",
+     "analysis": "State Street Corporation的業務性質與資產管理行業的整體表現高度相關，但提供的證據未能揭示其未來獲利穩健成長的結構性驅動力。儘管近期營運數字顯示獲利與營收有不錯的年增長，這些數據僅反映過去表現，並未說明成長是否來自產業趨勢、商業模式創新或市占提升。提供的近期新聞標題主要圍繞財報預期與發布，以及機構投資者的持股變動，未能提供關於結構性成長的具體證據，因此無法判斷其成長是否穩健且非僅受景氣循環影響。",
+     "risks": "資產管理行業易受市場波動影響，若全球市場表現不佳，可能導致其託管資產價值下降，進而影響服務費收入；缺乏明確的結構性成長動能，未來獲利成長可能主要依賴景氣循環，而非公司本身的競爭優勢或產業趨勢。",
+     "sources": [
+      {
+       "title": "State Street Corporation (STT) Earnings Expected to Grow: Should You Buy? - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYW5kZ1BDWXpxakdWczU2X19rd2ZLNXFiMHZHLU9PVTNMaHB2YTBsSWdoOWVYc0NjbmU0UG9qMjJycl9temVPaWg3TmNUU1N6M3BNVG9jempyMXZNNEpNZGZEaGJYRGNyUnkzY0tyUTdiS2t1MUtfV29iU19wRW0zandkaEkzbDE3TW1mV1dXTHd5bTF5eC1iNDB1RndRSHIyeVM1Ng?oc=5",
+       "date": "Thu, 09 Jul 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "State Street (STT) Q1 2026 Earnings Call Transcript - Fortune",
+       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44dmJldWNHWHBsMnc4UGNHSmtuWkE3M2QxQ1ljZmNFZE10X2p4WDBXc0RmSkxlbklqZGlKWWxiMzlmYk1aZU51V0VoMGE2c1NfZllUeGU4OW5OSTJBaFFJVHpqbjJxNnhWb3p0c2hLTkk?oc=5",
+       "date": "Thu, 09 Jul 2026",
+       "source": "Fortune"
+      },
+      {
+       "title": "Top Wall Street Forecasters Revamp State Street Expectations Ahead Of Q2 Earnings - Benzinga",
+       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNbE05ZnZnM0daMkh5TXlCaWh5ek1CM1JHa1ZHb0RmVTg3QXoxR1J4M3l1eFI0S2xXOUlGYVMwTGdRME8tbU1DYlZZdVgtcGpqOXQ5SnVfMjJtTGx0TWFaMzhMZEdjVDNOSU4wUF9xYkhDYl9yUlFyQTM1blJvWHRUVUJFQk9FLXFEbzNIOE9iZ2xpQWViOWhSZGppS3BSa0lQek9ndU1VRDNGcFF0YW94VmZJRnkwcEZMMmh5UENodHNyTlNGeVJLYW1CVmlaRXBKQ25BRnZEVV9GcEdHOWNvRUlkU0tFU19lWFdyeg?oc=5",
+       "date": "Fri, 10 Jul 2026",
+       "source": "Benzinga"
+      },
+      {
+       "title": "World Investment Advisors Buys 14,731 Shares of State Street Corporation $STT - MarketBeat",
+       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTnY3eWhUY0Zkc1lyVXRJQ3hYOWk0RDVJVGg3MTN4dXBCSFZhQlpuX3NydkkzZDdPa0ktc1I2T0Fqb0VGRHVNdE04MTIzNndycmpydmNBWU9iXzVfamU3blNnV3RhRkxmR1J0MEYxejA5bWlzZ2s1M1FHb3dMMjV3cDJOWTl2Qk1KYjdQZzNGTHRaNmNqb0lZME5DSWdRLU1EaUJLZmNfaUtwOVpjenZFa0x0LUlyZWNlRVZLNU9TY2k4RHlqZWFIRHVlRzJUTExMVFE?oc=5",
+       "date": "Tue, 07 Jul 2026",
+       "source": "MarketBeat"
+      },
+      {
+       "title": "State Street Corporation (NYSE: STT) Reports First-Quarter 2026 Financial Results - Business Wire",
+       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZUVUMlRqNUZMN0VNbkdQcTF3dmxPVkdfN19UZ3ZDbTlVZXNIamZtcVhjZ3cyQXV2dXhEMmRNakRxcUk2MVRoUWdXOFFtR3dpbGpwamlFWFJoc21uVi1kQVB1cVppanZ0LVNLcUltVFFiUXFveXpscmJfQnF2LWRpdjVHaWtERW9TMkFiN3VWeWZaVjlId3A1aVdpRnhFNi1oenktVkdPMXJsYkpnc2RGczA2NHdHeC1LT29aYUxBTWExaERXeldDWVNobnU3dGst?oc=5",
+       "date": "Fri, 17 Apr 2026",
+       "source": "Business Wire"
+      },
+      {
+       "title": "State Street (STT) Q1 2026 Earnings Transcript - The Motley Fool",
+       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObmNBbVhTSTliZF83Q0ZfdXlRRVYwaEk2b0p5R0xLOE5OV0hwSTVsM1pSdzAwTjM3b3luYVl4cXduMkZwX1E0dHJyQ1g1WWtEck10M3FkbTR5OWNreVl4Q0RGZHR3Y2RudmQ1UFpjZ19od3RjZmxickdhc2NNb3FRRU1LNFJrRUJhdXNoNThIOV9sTFRuSnUtWGVJY3BUNHVmSnhhcHhR?oc=5",
+       "date": "Fri, 17 Apr 2026",
+       "source": "The Motley Fool"
+      },
+      {
+       "title": "Hsbc Holdings PLC Trims Stock Position in State Street Corporation $STT - MarketBeat",
+       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWU1UNmRMOHR6c2c5R3YwRlhjaTdPb21YQ3dwdFBsUFk4aUFzUXVMTTctenZadUJ0WXZvZDV6ZXp2TFcxRmhTT1RsTXpQeW1jdUdGNHZsdFlDWjhGODF4VHQ5NFNXY0ZhT3NvQWNUVDVrNkZ1Q19VODdlaUkwU3M3bzRILXduR0d6TnRSQUN2dlNnenBlOW9OdmZBV0huNXdTNXZoRlJ1YTc2djNXYTF3ZHJnUVNfQmJTNkZzYmFnOG1GYjNTUnRLbEFBRQ?oc=5",
+       "date": "Sun, 05 Jul 2026",
+       "source": "MarketBeat"
+      },
+      {
+       "title": "State Street Corporation's Q2 2026 Earnings: What to Expect - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMlJnMmNZTmd6c0xSdnlpYmRFYU1WcWptYlRZd0NvT2R0aHowSEpLejZjb1lzUTI4ZnVOV3RFN01BYXlNOVc2Q2lkR2NmNjVfU2JmMkM4R3hlMk9uM1NidVdMTzhyTWozMTJCaV9jeDlLYUtCWXhIdzREQ3kwak55cGRMcWRTcFAwMUlmUVBYYWd3Q1ZjS3lRQkc4c3hGa1U?oc=5",
+       "date": "Thu, 25 Jun 2026",
+       "source": "Yahoo Finance"
+      }
+     ],
+     "all_news": [
+      {
+       "title": "State Street Corporation (STT) Earnings Expected to Grow: Should You Buy? - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYW5kZ1BDWXpxakdWczU2X19rd2ZLNXFiMHZHLU9PVTNMaHB2YTBsSWdoOWVYc0NjbmU0UG9qMjJycl9temVPaWg3TmNUU1N6M3BNVG9jempyMXZNNEpNZGZEaGJYRGNyUnkzY0tyUTdiS2t1MUtfV29iU19wRW0zandkaEkzbDE3TW1mV1dXTHd5bTF5eC1iNDB1RndRSHIyeVM1Ng?oc=5",
+       "date": "Thu, 09 Jul 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "State Street (STT) Q1 2026 Earnings Call Transcript - Fortune",
+       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44dmJldWNHWHBsMnc4UGNHSmtuWkE3M2QxQ1ljZmNFZE10X2p4WDBXc0RmSkxlbklqZGlKWWxiMzlmYk1aZU51V0VoMGE2c1NfZllUeGU4OW5OSTJBaFFJVHpqbjJxNnhWb3p0c2hLTkk?oc=5",
+       "date": "Thu, 09 Jul 2026",
+       "source": "Fortune"
+      },
+      {
+       "title": "Top Wall Street Forecasters Revamp State Street Expectations Ahead Of Q2 Earnings - Benzinga",
+       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNbE05ZnZnM0daMkh5TXlCaWh5ek1CM1JHa1ZHb0RmVTg3QXoxR1J4M3l1eFI0S2xXOUlGYVMwTGdRME8tbU1DYlZZdVgtcGpqOXQ5SnVfMjJtTGx0TWFaMzhMZEdjVDNOSU4wUF9xYkhDYl9yUlFyQTM1blJvWHRUVUJFQk9FLXFEbzNIOE9iZ2xpQWViOWhSZGppS3BSa0lQek9ndU1VRDNGcFF0YW94VmZJRnkwcEZMMmh5UENodHNyTlNGeVJLYW1CVmlaRXBKQ25BRnZEVV9GcEdHOWNvRUlkU0tFU19lWFdyeg?oc=5",
+       "date": "Fri, 10 Jul 2026",
+       "source": "Benzinga"
+      },
+      {
+       "title": "World Investment Advisors Buys 14,731 Shares of State Street Corporation $STT - MarketBeat",
+       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTnY3eWhUY0Zkc1lyVXRJQ3hYOWk0RDVJVGg3MTN4dXBCSFZhQlpuX3NydkkzZDdPa0ktc1I2T0Fqb0VGRHVNdE04MTIzNndycmpydmNBWU9iXzVfamU3blNnV3RhRkxmR1J0MEYxejA5bWlzZ2s1M1FHb3dMMjV3cDJOWTl2Qk1KYjdQZzNGTHRaNmNqb0lZME5DSWdRLU1EaUJLZmNfaUtwOVpjenZFa0x0LUlyZWNlRVZLNU9TY2k4RHlqZWFIRHVlRzJUTExMVFE?oc=5",
+       "date": "Tue, 07 Jul 2026",
+       "source": "MarketBeat"
+      },
+      {
+       "title": "State Street Corporation (NYSE: STT) Reports First-Quarter 2026 Financial Results - Business Wire",
+       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZUVUMlRqNUZMN0VNbkdQcTF3dmxPVkdfN19UZ3ZDbTlVZXNIamZtcVhjZ3cyQXV2dXhEMmRNakRxcUk2MVRoUWdXOFFtR3dpbGpwamlFWFJoc21uVi1kQVB1cVppanZ0LVNLcUltVFFiUXFveXpscmJfQnF2LWRpdjVHaWtERW9TMkFiN3VWeWZaVjlId3A1aVdpRnhFNi1oenktVkdPMXJsYkpnc2RGczA2NHdHeC1LT29aYUxBTWExaERXeldDWVNobnU3dGst?oc=5",
+       "date": "Fri, 17 Apr 2026",
+       "source": "Business Wire"
+      },
+      {
+       "title": "State Street (STT) Q1 2026 Earnings Transcript - The Motley Fool",
+       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObmNBbVhTSTliZF83Q0ZfdXlRRVYwaEk2b0p5R0xLOE5OV0hwSTVsM1pSdzAwTjM3b3luYVl4cXduMkZwX1E0dHJyQ1g1WWtEck10M3FkbTR5OWNreVl4Q0RGZHR3Y2RudmQ1UFpjZ19od3RjZmxickdhc2NNb3FRRU1LNFJrRUJhdXNoNThIOV9sTFRuSnUtWGVJY3BUNHVmSnhhcHhR?oc=5",
+       "date": "Fri, 17 Apr 2026",
+       "source": "The Motley Fool"
+      },
+      {
+       "title": "Hsbc Holdings PLC Trims Stock Position in State Street Corporation $STT - MarketBeat",
+       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWU1UNmRMOHR6c2c5R3YwRlhjaTdPb21YQ3dwdFBsUFk4aUFzUXVMTTctenZadUJ0WXZvZDV6ZXp2TFcxRmhTT1RsTXpQeW1jdUdGNHZsdFlDWjhGODF4VHQ5NFNXY0ZhT3NvQWNUVDVrNkZ1Q19VODdlaUkwU3M3bzRILXduR0d6TnRSQUN2dlNnenBlOW9OdmZBV0huNXdTNXZoRlJ1YTc2djNXYTF3ZHJnUVNfQmJTNkZzYmFnOG1GYjNTUnRLbEFBRQ?oc=5",
+       "date": "Sun, 05 Jul 2026",
+       "source": "MarketBeat"
+      },
+      {
+       "title": "State Street Corporation's Q2 2026 Earnings: What to Expect - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMlJnMmNZTmd6c0xSdnlpYmRFYU1WcWptYlRZd0NvT2R0aHowSEpLejZjb1lzUTI4ZnVOV3RFN01BYXlNOVc2Q2lkR2NmNjVfU2JmMkM4R3hlMk9uM1NidVdMTzhyTWozMTJCaV9jeDlLYUtCWXhIdzREQ3kwak55cGRMcWRTcFAwMUlmUVBYYWd3Q1ZjS3lRQkc4c3hGa1U?oc=5",
+       "date": "Thu, 25 Jun 2026",
+       "source": "Yahoo Finance"
+      }
+     ],
+     "model": "gemini-2.5-flash",
+     "judged_at": "2026-07-11 06:34"
+    }
    },
    {
     "ticker": "MPC",
     "name": "Marathon Petroleum",
-    "close": 283.3,
+    "close": 283.74,
     "rebound": 1.0,
     "rebound_grade": "O",
-    "base_quality": 0.589331726685759,
+    "base_quality": 0.5864181433698352,
     "scorecard": {
      "items": [
       {
@@ -1821,7 +1703,7 @@
        "name": "① 股價突破近年來高價",
        "grade": "O",
        "symbol": "○",
-       "detail": "收盤 283.3 創近 2 年新高",
+       "detail": "收盤 283.74 創近 2 年新高",
        "starred": true
       },
       {
@@ -1869,14 +1751,23 @@
        "name": "⑦ 未來獲利能否穩健成長",
        "grade": "X",
        "symbol": "×",
-       "detail": "AI 判斷（僅供參考，請複核依據）：近期獲利成長主要來自煉油裂解價差擴大，屬於景氣循環因素，而非結構性成長。",
+       "detail": "AI 判斷（僅供參考，請複核依據）：獲利成長主要來自於煉油裂解價差擴大，屬於景氣循環因素，不具結構性。",
        "starred": true,
        "ai": {
         "grade": "X",
-        "one_line": "近期獲利成長主要來自煉油裂解價差擴大，屬於景氣循環因素，而非結構性成長。",
-        "analysis": "該公司近五年平均年成長為負值，且成長年份僅占33%，顯示獲利缺乏穩健性。儘管近期獲利有顯著增長（近四季年增18%，近一季年增170%），但新聞標題[5]明確指出此「爆炸性漲勢」與「裂解價差」相關。裂解價差是煉油產業的景氣循環因素，不符合判斷標準中要求成長來自結構性變化的條件。因此，無法判斷其未來獲利能穩健成長，且成長理由不具結構性。",
-        "risks": "煉油產業獲利高度受原油價格與產品需求波動影響，具有顯著的景氣循環特性，難以預期穩健成長。公司歷史獲利表現不佳，顯示其難以維持持續性成長。",
+        "one_line": "獲利成長主要來自於煉油裂解價差擴大，屬於景氣循環因素，不具結構性。",
+        "analysis": "公司過去五年平均獲利成長為負，且成長年份佔比低，顯示獲利不穩定。近期獲利雖有顯著增長，但新聞明確指出其「爆炸性漲勢」與「裂解價差」相關。裂解價差是煉油產業的典型景氣循環因素，其波動性強，不屬於結構性變化。儘管公司有再生柴油業務，但證據不足以證明其為近期獲利增長的主要驅動力或未來穩健成長的結構性基礎。因此，其獲利成長理由不符合「來自結構性變化」的標準。",
+        "risks": [
+         "原油價格與產品需求波動導致的煉油利潤不穩定",
+         "裂解價差收窄可能迅速侵蝕獲利"
+        ],
         "sources": [
+         {
+          "title": "UBS raises Marathon Petroleum stock price target on margin strength - Investing.com UK",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZDhQVkx4TTdaTEFTRnZCNUdOdnozd24wZkFMQlNFQWhGSl9qSXFkUjFmQ0R3UVRUcjRCenRaME8tczNaWGk0UHYwYm9raTNJOG5EeW9CTlR2XzhMTFpiLVlYWUJQYnJUSW5CZHF3SVZLVURFNDVaZUlEWXNpUktNWkJaTjlvcU1NZzhXWTlpeWN4Q1BYNUNYOXJDa0FhMXRpOEdwLUtUdlRaZEM5aUYwd25kVTg2N2ZMSTFISXJnU0lEOVd5LXVwaC04eExmLVNjT2V5UGE0dw?oc=5",
+          "date": "Fri, 10 Jul 2026",
+          "source": "Investing.com UK"
+         },
          {
           "title": "Crack Spreads And Marathon Petroleum's Explosive Rally (Rating Downgrade) (NYSE:MPC) - Seeking Alpha",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdW9Sakh3aVRGQy1GVjFmQThxSktlS3hmZ0dPQno3bkJhbFpfSFdTSUYwUTdiMVlSbkZDTjM2cnVLTGdwZ0lGVlRkelQ2ZUhPcTVoblNsRkw3VWVjOEFFZFFXQnh3NW0tYUJTMWR0YzBub2pFcW5KaUhRQW12N3JHejROSWtoSkh0cEpZdWdaMGRLbjNMUmV1OGsyb1dqLWhKTkY2NTlKajhscUxHejBZ?oc=5",
@@ -1904,10 +1795,22 @@
           "source": "TradingKey"
          },
          {
+          "title": "Marathon Oil Company - Encyclopedia Britannica",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1wWjlzeVNXajdRU1ZHN0JCQmlmT1UtNElxdk1sOVMzUlhWSlJ1dy1pU1QzT3BaUV9DVnB1T1RNcFFRdEU3UG1CQV92YUF4SURaeUxoM2N4c0hFRUYwZlBBRkpNWQ?oc=5",
+          "date": "Wed, 08 Jul 2026",
+          "source": "Encyclopedia Britannica"
+         },
+         {
           "title": "Marathon Petroleum Rallies 52% in 6 Months: How to Play the Stock? - The Globe and Mail",
           "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaXVJMnZYSUFYd2VVR0U1VDctYXRkVXFIQ0wzME1YSHJ2eU1yMktIVkNEQUtEN2pyM3owYy1DdVVlU1BEY3lFNXZleGxNSXM2SS1pZHU2cFF5RThDQWo1VVlQeldkZmY4MWUyQzNLSnFIUmFjOUoxTlNMd0hpQm1PQmRTemJ4U3hCTkZYSVRSNmJ4UHBRd0JCYklrbUQ2Q3pTcDNYM044VDFZR1FDa3NabXQ1blljOVNSTVVza25Ib1BFR0pVdnJuODVZbDZGdHd0c1RudVAtY0N2dk92WnBoUg?oc=5",
           "date": "Mon, 06 Jul 2026",
           "source": "The Globe and Mail"
+         },
+         {
+          "title": "UBS raises Marathon Petroleum stock price target on margin strength - Investing.com UK",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZDhQVkx4TTdaTEFTRnZCNUdOdnozd24wZkFMQlNFQWhGSl9qSXFkUjFmQ0R3UVRUcjRCenRaME8tczNaWGk0UHYwYm9raTNJOG5EeW9CTlR2XzhMTFpiLVlYWUJQYnJUSW5CZHF3SVZLVURFNDVaZUlEWXNpUktNWkJaTjlvcU1NZzhXWTlpeWN4Q1BYNUNYOXJDa0FhMXRpOEdwLUtUdlRaZEM5aUYwd25kVTg2N2ZMSTFISXJnU0lEOVd5LXVwaC04eExmLVNjT2V5UGE0dw?oc=5",
+          "date": "Fri, 10 Jul 2026",
+          "source": "Investing.com UK"
          },
          {
           "title": "Crack Spreads And Marathon Petroleum's Explosive Rally (Rating Downgrade) (NYSE:MPC) - Seeking Alpha",
@@ -1920,22 +1823,10 @@
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTHczVE9ja2RlazhaalZwZ014OVZkUGhhQWJRSk1Gd0cwNlczQVktQy0yWDhtdDNhZ214eW4wZ1NNMUJXR1pRaW9FbFpjS1R4UmZFbDZ1ZV9pTW95R2dSSV9vSVhYY2RCemFJbHJtZllUSXduOEhMaTNvX3pTcE01VnIzeEU2QUZwbU9vWnNOdmxNZ0ptVGhnSV9YZFpaa0l1bktN?oc=5",
           "date": "Thu, 09 Jul 2026",
           "source": "Yahoo Finance"
-         },
-         {
-          "title": "Is Marathon Petroleum Stock at $247 a Buy in 2026? Here’s What Investors Need to Know - TIKR.com",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYWZRVmVIMDNtMmd2N2ZMNHNILVVieWNfSy1ORGFfeTR6SXQyMDRZSlJQVF9ETlBTZFNhcjB4Y2VtUGdlMXFYbmhCa1paN2N6M3NMdTJ1bnJsa3NMVkY0YUFhZDZ5X3VrLUx5cTZjdk1weUdaQmdjdExoYnZpcTVPamRUbkNwVDRxeTVScXV6UmVsT04ySHhia053ZWRUaGFqQ2lCUDlyOG5wSmY1?oc=5",
-          "date": "Thu, 25 Jun 2026",
-          "source": "TIKR.com"
-         },
-         {
-          "title": "Marathon Petroleum (NYSE:MPC) Faces Value Test - Kalkine Media",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObl9YSjRIY2VEak45aHBhTW5UUWZpWHFkS09nWWpsLUhJWlY0N19tYkFjWW80bXU5NDV5XzRqZ1pqcGJXX1piQ0tCMHZrLWtwYk1mLWZTYVZfdmZmekM1VFBfWGNQWGNjUE5rQng4WndWazluMzVVQ0lnVkNyS1Zid0NRZWs4YlpWTHk2UUpn?oc=5",
-          "date": "Thu, 09 Jul 2026",
-          "source": "Kalkine Media"
          }
         ],
         "model": "gemini-2.5-flash",
-        "judged_at": "2026-07-10 10:45"
+        "judged_at": "2026-07-11 06:32"
        }
       },
       {
@@ -1951,7 +1842,7 @@
        "name": "⑨ 大盤上漲力道",
        "grade": "O",
        "symbol": "○",
-       "detail": "創新高股比率 7.4%，位於近一年前 20% 強、趨勢向上",
+       "detail": "創新高股比率 6.7%，位於近一年前 34% 強、趨勢向上",
        "starred": true
       }
      ],
@@ -1962,10 +1853,19 @@
     "mech_score": 79,
     "ai7": {
      "grade": "X",
-     "one_line": "近期獲利成長主要來自煉油裂解價差擴大，屬於景氣循環因素，而非結構性成長。",
-     "analysis": "該公司近五年平均年成長為負值，且成長年份僅占33%，顯示獲利缺乏穩健性。儘管近期獲利有顯著增長（近四季年增18%，近一季年增170%），但新聞標題[5]明確指出此「爆炸性漲勢」與「裂解價差」相關。裂解價差是煉油產業的景氣循環因素，不符合判斷標準中要求成長來自結構性變化的條件。因此，無法判斷其未來獲利能穩健成長，且成長理由不具結構性。",
-     "risks": "煉油產業獲利高度受原油價格與產品需求波動影響，具有顯著的景氣循環特性，難以預期穩健成長。公司歷史獲利表現不佳，顯示其難以維持持續性成長。",
+     "one_line": "獲利成長主要來自於煉油裂解價差擴大，屬於景氣循環因素，不具結構性。",
+     "analysis": "公司過去五年平均獲利成長為負，且成長年份佔比低，顯示獲利不穩定。近期獲利雖有顯著增長，但新聞明確指出其「爆炸性漲勢」與「裂解價差」相關。裂解價差是煉油產業的典型景氣循環因素，其波動性強，不屬於結構性變化。儘管公司有再生柴油業務，但證據不足以證明其為近期獲利增長的主要驅動力或未來穩健成長的結構性基礎。因此，其獲利成長理由不符合「來自結構性變化」的標準。",
+     "risks": [
+      "原油價格與產品需求波動導致的煉油利潤不穩定",
+      "裂解價差收窄可能迅速侵蝕獲利"
+     ],
      "sources": [
+      {
+       "title": "UBS raises Marathon Petroleum stock price target on margin strength - Investing.com UK",
+       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZDhQVkx4TTdaTEFTRnZCNUdOdnozd24wZkFMQlNFQWhGSl9qSXFkUjFmQ0R3UVRUcjRCenRaME8tczNaWGk0UHYwYm9raTNJOG5EeW9CTlR2XzhMTFpiLVlYWUJQYnJUSW5CZHF3SVZLVURFNDVaZUlEWXNpUktNWkJaTjlvcU1NZzhXWTlpeWN4Q1BYNUNYOXJDa0FhMXRpOEdwLUtUdlRaZEM5aUYwd25kVTg2N2ZMSTFISXJnU0lEOVd5LXVwaC04eExmLVNjT2V5UGE0dw?oc=5",
+       "date": "Fri, 10 Jul 2026",
+       "source": "Investing.com UK"
+      },
       {
        "title": "Crack Spreads And Marathon Petroleum's Explosive Rally (Rating Downgrade) (NYSE:MPC) - Seeking Alpha",
        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdW9Sakh3aVRGQy1GVjFmQThxSktlS3hmZ0dPQno3bkJhbFpfSFdTSUYwUTdiMVlSbkZDTjM2cnVLTGdwZ0lGVlRkelQ2ZUhPcTVoblNsRkw3VWVjOEFFZFFXQnh3NW0tYUJTMWR0YzBub2pFcW5KaUhRQW12N3JHejROSWtoSkh0cEpZdWdaMGRLbjNMUmV1OGsyb1dqLWhKTkY2NTlKajhscUxHejBZ?oc=5",
@@ -1993,10 +1893,22 @@
        "source": "TradingKey"
       },
       {
+       "title": "Marathon Oil Company - Encyclopedia Britannica",
+       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1wWjlzeVNXajdRU1ZHN0JCQmlmT1UtNElxdk1sOVMzUlhWSlJ1dy1pU1QzT3BaUV9DVnB1T1RNcFFRdEU3UG1CQV92YUF4SURaeUxoM2N4c0hFRUYwZlBBRkpNWQ?oc=5",
+       "date": "Wed, 08 Jul 2026",
+       "source": "Encyclopedia Britannica"
+      },
+      {
        "title": "Marathon Petroleum Rallies 52% in 6 Months: How to Play the Stock? - The Globe and Mail",
        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaXVJMnZYSUFYd2VVR0U1VDctYXRkVXFIQ0wzME1YSHJ2eU1yMktIVkNEQUtEN2pyM3owYy1DdVVlU1BEY3lFNXZleGxNSXM2SS1pZHU2cFF5RThDQWo1VVlQeldkZmY4MWUyQzNLSnFIUmFjOUoxTlNMd0hpQm1PQmRTemJ4U3hCTkZYSVRSNmJ4UHBRd0JCYklrbUQ2Q3pTcDNYM044VDFZR1FDa3NabXQ1blljOVNSTVVza25Ib1BFR0pVdnJuODVZbDZGdHd0c1RudVAtY0N2dk92WnBoUg?oc=5",
        "date": "Mon, 06 Jul 2026",
        "source": "The Globe and Mail"
+      },
+      {
+       "title": "UBS raises Marathon Petroleum stock price target on margin strength - Investing.com UK",
+       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZDhQVkx4TTdaTEFTRnZCNUdOdnozd24wZkFMQlNFQWhGSl9qSXFkUjFmQ0R3UVRUcjRCenRaME8tczNaWGk0UHYwYm9raTNJOG5EeW9CTlR2XzhMTFpiLVlYWUJQYnJUSW5CZHF3SVZLVURFNDVaZUlEWXNpUktNWkJaTjlvcU1NZzhXWTlpeWN4Q1BYNUNYOXJDa0FhMXRpOEdwLUtUdlRaZEM5aUYwd25kVTg2N2ZMSTFISXJnU0lEOVd5LXVwaC04eExmLVNjT2V5UGE0dw?oc=5",
+       "date": "Fri, 10 Jul 2026",
+       "source": "Investing.com UK"
       },
       {
        "title": "Crack Spreads And Marathon Petroleum's Explosive Rally (Rating Downgrade) (NYSE:MPC) - Seeking Alpha",
@@ -2009,31 +1921,19 @@
        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTHczVE9ja2RlazhaalZwZ014OVZkUGhhQWJRSk1Gd0cwNlczQVktQy0yWDhtdDNhZ214eW4wZ1NNMUJXR1pRaW9FbFpjS1R4UmZFbDZ1ZV9pTW95R2dSSV9vSVhYY2RCemFJbHJtZllUSXduOEhMaTNvX3pTcE01VnIzeEU2QUZwbU9vWnNOdmxNZ0ptVGhnSV9YZFpaa0l1bktN?oc=5",
        "date": "Thu, 09 Jul 2026",
        "source": "Yahoo Finance"
-      },
-      {
-       "title": "Is Marathon Petroleum Stock at $247 a Buy in 2026? Here’s What Investors Need to Know - TIKR.com",
-       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYWZRVmVIMDNtMmd2N2ZMNHNILVVieWNfSy1ORGFfeTR6SXQyMDRZSlJQVF9ETlBTZFNhcjB4Y2VtUGdlMXFYbmhCa1paN2N6M3NMdTJ1bnJsa3NMVkY0YUFhZDZ5X3VrLUx5cTZjdk1weUdaQmdjdExoYnZpcTVPamRUbkNwVDRxeTVScXV6UmVsT04ySHhia053ZWRUaGFqQ2lCUDlyOG5wSmY1?oc=5",
-       "date": "Thu, 25 Jun 2026",
-       "source": "TIKR.com"
-      },
-      {
-       "title": "Marathon Petroleum (NYSE:MPC) Faces Value Test - Kalkine Media",
-       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObl9YSjRIY2VEak45aHBhTW5UUWZpWHFkS09nWWpsLUhJWlY0N19tYkFjWW80bXU5NDV5XzRqZ1pqcGJXX1piQ0tCMHZrLWtwYk1mLWZTYVZfdmZmekM1VFBfWGNQWGNjUE5rQng4WndWazluMzVVQ0lnVkNyS1Zid0NRZWs4YlpWTHk2UUpn?oc=5",
-       "date": "Thu, 09 Jul 2026",
-       "source": "Kalkine Media"
       }
      ],
      "model": "gemini-2.5-flash",
-     "judged_at": "2026-07-10 10:45"
+     "judged_at": "2026-07-11 06:32"
     }
    },
    {
-    "ticker": "PSX",
-    "name": "Phillips 66",
-    "close": 189.82,
+    "ticker": "GWW",
+    "name": "W. W. Grainger",
+    "close": 1375.76,
     "rebound": 1.0,
     "rebound_grade": "O",
-    "base_quality": 0.6678228956436363,
+    "base_quality": 0.8054900369140816,
     "scorecard": {
      "items": [
       {
@@ -2041,7 +1941,7 @@
        "name": "① 股價突破近年來高價",
        "grade": "O",
        "symbol": "○",
-       "detail": "收盤 189.82 創近 2 年新高",
+       "detail": "收盤 1375.76 創近 2 年新高",
        "starred": true
       },
       {
@@ -2049,7 +1949,7 @@
        "name": "② 新高價位置（反彈幅度≥60%）",
        "grade": "O",
        "symbol": "○",
-       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 67%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 81%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
        "starred": true
       },
       {
@@ -2057,23 +1957,23 @@
        "name": "③ 過去獲利穩健成長（年均≥7%）",
        "grade": "X",
        "symbol": "×",
-       "detail": "近5年平均年成長 -1%，成長年份占 33%",
+       "detail": "近4年平均年成長 5%，成長年份占 67%",
        "starred": false
       },
       {
        "key": "4",
        "name": "④ 最近1~2年獲利成長≥20%",
-       "grade": "O",
-       "symbol": "○",
-       "detail": "近四季獲利年增 103%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近四季獲利年增 -6%",
        "starred": false
       },
       {
        "key": "5",
        "name": "⑤ 最近2~3季營收成長≥10%",
-       "grade": "X",
-       "symbol": "×",
-       "detail": "近1期季營收年增 7%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近1期季營收年增 10%",
        "starred": false
       },
       {
@@ -2081,7 +1981,7 @@
        "name": "⑥ 最近2~3季獲利成長≥20%",
        "grade": "X",
        "symbol": "×",
-       "detail": "近1季獲利年增 -60%",
+       "detail": "近1季獲利年增 18%",
        "starred": true
       },
       {
@@ -2097,7 +1997,7 @@
        "name": "⑧ 本益比未過熱（<60倍）",
        "grade": "O",
        "symbol": "○",
-       "detail": "本益比 18.6 倍",
+       "detail": "本益比 36.5 倍",
        "starred": false
       },
       {
@@ -2105,7 +2005,7 @@
        "name": "⑨ 大盤上漲力道",
        "grade": "O",
        "symbol": "○",
-       "detail": "創新高股比率 7.4%，位於近一年前 20% 強、趨勢向上",
+       "detail": "創新高股比率 6.7%，位於近一年前 34% 強、趨勢向上",
        "starred": true
       }
      ],
@@ -2116,12 +2016,12 @@
     "mech_score": 67
    },
    {
-    "ticker": "UNP",
-    "name": "Union Pacific Corporation",
-    "close": 285.04,
+    "ticker": "MTB",
+    "name": "M&T Bank",
+    "close": 242.34,
     "rebound": 1.0,
     "rebound_grade": "O",
-    "base_quality": 0.8585097878713771,
+    "base_quality": 0.7827630382925339,
     "scorecard": {
      "items": [
       {
@@ -2129,7 +2029,183 @@
        "name": "① 股價突破近年來高價",
        "grade": "O",
        "symbol": "○",
-       "detail": "收盤 285.04 創近 2 年新高",
+       "detail": "收盤 242.34 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 78%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近5年平均年成長 14%，成長年份占 67%",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近四季獲利年增 12%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1期季營收年增 4%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1季獲利年增 13%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "M",
+       "symbol": "人工",
+       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+       "starred": true
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 13.2 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 6.7%，位於近一年前 34% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 67,
+     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+    },
+    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+    "mech_score": 67
+   },
+   {
+    "ticker": "RF",
+    "name": "Regions Financial Corporation",
+    "close": 31.02,
+    "rebound": 1.0,
+    "rebound_grade": "O",
+    "base_quality": 0.7469552365634682,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 31.02 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 75%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近5年平均年成長 -1%，成長年份占 33%",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "T",
+       "symbol": "△",
+       "detail": "近四季獲利年增 17%（接近 20% 門檻）",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1期季營收年增 5%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1季獲利年增 15%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "M",
+       "symbol": "人工",
+       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+       "starred": true
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 12.6 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 6.7%，位於近一年前 34% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 62,
+     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+    },
+    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+    "mech_score": 62
+   },
+   {
+    "ticker": "UNP",
+    "name": "Union Pacific Corporation",
+    "close": 286.96,
+    "rebound": 1.0,
+    "rebound_grade": "O",
+    "base_quality": 0.8571837319771384,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 286.96 創近 2 年新高",
        "starred": true
       },
       {
@@ -2193,7 +2269,95 @@
        "name": "⑨ 大盤上漲力道",
        "grade": "O",
        "symbol": "○",
-       "detail": "創新高股比率 7.4%，位於近一年前 20% 強、趨勢向上",
+       "detail": "創新高股比率 6.7%，位於近一年前 34% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 58,
+     "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+    },
+    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+    "mech_score": 58
+   },
+   {
+    "ticker": "NSC",
+    "name": "Norfolk Southern",
+    "close": 327.47,
+    "rebound": 1.0,
+    "rebound_grade": "O",
+    "base_quality": 0.7715857857029806,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 327.47 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 77%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近5年平均年成長 3%，成長年份占 67%",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近四季獲利年增 10%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1期季營收年增 0%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1季獲利年增 -27%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "M",
+       "symbol": "人工",
+       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+       "starred": true
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 26.9 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 6.7%，位於近一年前 34% 強、趨勢向上",
        "starred": true
       }
      ],
@@ -2206,10 +2370,10 @@
    {
     "ticker": "EXPD",
     "name": "Expeditors International",
-    "close": 170.62,
+    "close": 172.02,
     "rebound": 1.0,
     "rebound_grade": "O",
-    "base_quality": 0.7173269690425916,
+    "base_quality": 0.7159787913799149,
     "scorecard": {
      "items": [
       {
@@ -2217,7 +2381,7 @@
        "name": "① 股價突破近年來高價",
        "grade": "O",
        "symbol": "○",
-       "detail": "收盤 170.62 創近 2 年新高",
+       "detail": "收盤 172.02 創近 2 年新高",
        "starred": true
       },
       {
@@ -2273,7 +2437,7 @@
        "name": "⑧ 本益比未過熱（<60倍）",
        "grade": "O",
        "symbol": "○",
-       "detail": "本益比 26.5 倍",
+       "detail": "本益比 27.5 倍",
        "starred": false
       },
       {
@@ -2281,7 +2445,7 @@
        "name": "⑨ 大盤上漲力道",
        "grade": "O",
        "symbol": "○",
-       "detail": "創新高股比率 7.4%，位於近一年前 20% 強、趨勢向上",
+       "detail": "創新高股比率 6.7%，位於近一年前 34% 強、趨勢向上",
        "starred": true
       }
      ],
@@ -2290,13 +2454,345 @@
     },
     "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
     "mech_score": 58
+   },
+   {
+    "ticker": "ES",
+    "name": "Eversource Energy",
+    "close": 74.82,
+    "rebound": 0.866207117310493,
+    "rebound_grade": "O",
+    "base_quality": 0.8169598234961629,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 74.82 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 87%（目標≥60%），平穩期品質 82%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近5年平均年成長 -33%，成長年份占 50%",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "近四季獲利年增 48%",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1期季營收年增 9%",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "近1季獲利年增 13%",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "AI 判斷（僅供參考，請複核依據）：公司過去五年獲利大幅衰退，且缺乏明確且足夠強大的結構性成長動能以確保未來獲利穩健成長。",
+       "starred": true,
+       "ai": {
+        "grade": "X",
+        "one_line": "公司過去五年獲利大幅衰退，且缺乏明確且足夠強大的結構性成長動能以確保未來獲利穩健成長。",
+        "analysis": "公司過去五年平均年成長為-33%，顯示獲利表現長期不穩健，與「穩健成長」標準不符。儘管近期季度獲利有所增長，但缺乏明確且足夠強大的結構性因素來支撐未來獲利持續穩健成長。公司雖投資能源儲存設施，但其執行長公開表示抵制資料中心，此結構性決策限制了潛在的電力需求增長。出售水務資產雖有助於財務穩定，但並非直接的獲利成長驅動力。綜合來看，現有證據未能證明公司具備未來獲利穩健成長的條件。",
+        "risks": "1. 長期獲利能力持續低迷，無法有效轉型以應對產業變化。2. 抵制高成長的電力需求來源（如資料中心）可能限制未來營收擴張與獲利潛力。",
+        "sources": [
+         {
+          "title": "Moody's upgrades Eversource outlook to stable after $2.4B water utility sale - The Business Journals",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQajNoZDN6RnpHOXVjM2pnTHQ4Qlg0S3VsVHpTMlVnNGxBcUlGMTdoMFB4WUt3bm9vckdvZTVka0dyandFM1pjN2tWWG1qSV9iZm1vM1ltUTRYSmVXelBRTjVsMWJlRzhLZjhJU25GRlR2NWh3UEVuc2V1cHZkdkg2b2FnYVlJVGZTZnR5clFBUk15RnQ5R0ZGSEYyc1ViT2hVWW5saEctRHpadw?oc=5",
+          "date": "Fri, 10 Jul 2026",
+          "source": "The Business Journals"
+         },
+         {
+          "title": "Eversource Energy (ES) Could Be 2% Overvalued Following Its 1 GW Storage Deal - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOEdabzJ3cTNoeVZGdVYwbTVfM2lnNkxBMkRIa0dleGFKVXlFS0J2VTRtcXQ5VnBFYWI5Q0hKYzNfVDVjdWN3Wm5kaU12X1VQRVlwSTJpUkFvVWJtVDZGSUZDbkxEUjlyZVVBUy04WmE0MTJSYWJLeXJBN3BFUVV6WFV3alFkaGJjNmVwZ1RpV1dtZ0lFUGwxWjZncE9CSG1GMTRmcUZtX1htcEhwNjBZR0otVVhDUWNla0FxQ3VNaHBkSTktQ1RRSG9FbE9pZ9IB0wFBVV95cUxOTk41SWF5d3U1SmRLcXNPS3FXTHJNR0VRV0QzWWZJbE1TdUJkSlc0S1pFWExTS2xRZkNZSG5paHU5OTRWWUtkTVpKMi1tLUlMLUtuVUlOdVpibDFYeXBfbnFyb3p1bE4wMGt6bWNJT1VxdjRWdFFzU3BqWVFHYzQ3eDItb21YbURvallrSi1wVUd2MUJUblUzZlVtdG5uZUl0NmtOTnhtQ3lRbXd5ajREdFp2ajMzS2E5d3Z1c011dmUyTWxTMFBqQ01BbHRTXzJaT2RF?oc=5",
+          "date": "Thu, 09 Jul 2026",
+          "source": "simplywall.st"
+         },
+         {
+          "title": "Eversource CEO: ‘We are resisting data centers’ - Utility Dive",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQT0ViVXliZzRyY3FkLVFtWHdtd0FOZ2lPbTNwdzg2WnU3RGlERDlCY21tVXE4ZDlvellCU2pQbHlBREJwa2VEbjJ5b0ZaeGRpX210MDdZOWxOTG9nRlg4RURkT0w1akd3bTdqbVloeTVGQkYteURFMy1DZGxrcUJ3M2R6TDdNaGxsdXdLTUVkUQ?oc=5",
+          "date": "Fri, 08 May 2026",
+          "source": "Utility Dive"
+         }
+        ],
+        "all_news": [
+         {
+          "title": "Eversource Energy's Quarterly Earnings Preview: What You Need to Know - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeGlndzZtSFFZODFvdFk4dDdacWUwR3hzdHZLTFY4LVNCLS1jWXRvRmFLaEhSajdEVURTU3hSM0VJVFl5SklmSUpHMjNvSVZmR0lLd1YwRmdGNmtDOUtwMXVJS0k5ZG8wVVI3cjdyY2ZMWEl5UmtFTGl3VHBib25iSW1BMEJ4UVV6T2xCQW5zMG9aREl6YWdFRXUwVW5hTXFrelZqcDhVTzFBejBfSzBz?oc=5",
+          "date": "Thu, 09 Jul 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "Moody's upgrades Eversource outlook to stable after $2.4B water utility sale - The Business Journals",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQajNoZDN6RnpHOXVjM2pnTHQ4Qlg0S3VsVHpTMlVnNGxBcUlGMTdoMFB4WUt3bm9vckdvZTVka0dyandFM1pjN2tWWG1qSV9iZm1vM1ltUTRYSmVXelBRTjVsMWJlRzhLZjhJU25GRlR2NWh3UEVuc2V1cHZkdkg2b2FnYVlJVGZTZnR5clFBUk15RnQ5R0ZGSEYyc1ViT2hVWW5saEctRHpadw?oc=5",
+          "date": "Fri, 10 Jul 2026",
+          "source": "The Business Journals"
+         },
+         {
+          "title": "Eversource Energy (ES) Could Be 2% Overvalued Following Its 1 GW Storage Deal - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOEdabzJ3cTNoeVZGdVYwbTVfM2lnNkxBMkRIa0dleGFKVXlFS0J2VTRtcXQ5VnBFYWI5Q0hKYzNfVDVjdWN3Wm5kaU12X1VQRVlwSTJpUkFvVWJtVDZGSUZDbkxEUjlyZVVBUy04WmE0MTJSYWJLeXJBN3BFUVV6WFV3alFkaGJjNmVwZ1RpV1dtZ0lFUGwxWjZncE9CSG1GMTRmcUZtX1htcEhwNjBZR0otVVhDUWNla0FxQ3VNaHBkSTktQ1RRSG9FbE9pZ9IB0wFBVV95cUxOTk41SWF5d3U1SmRLcXNPS3FXTHJNR0VRV0QzWWZJbE1TdUJkSlc0S1pFWExTS2xRZkNZSG5paHU5OTRWWUtkTVpKMi1tLUlMLUtuVUlOdVpibDFYeXBfbnFyb3p1bE4wMGt6bWNJT1VxdjRWdFFzU3BqWVFHYzQ3eDItb21YbURvallrSi1wVUd2MUJUblUzZlVtdG5uZUl0NmtOTnhtQ3lRbXd5ajREdFp2ajMzS2E5d3Z1c011dmUyTWxTMFBqQ01BbHRTXzJaT2RF?oc=5",
+          "date": "Thu, 09 Jul 2026",
+          "source": "simplywall.st"
+         },
+         {
+          "title": "Eversource Energy Schedules Second Quarter Earnings Call - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVEdVY2JsNGFLQm5ZZVF1SUllcmR5ZHF0VjVXR1RSaHZEd3RIMkNsUjhnY19VMWJ4eVJDWkh6TjFERlNkaHlQM092MmN6Nk5sWTF3ZUhMQ3c4ckQyMFVickg0RlFnQ3hoODFnRUdDQWticEEyMFY0emlyZTY2S1RMM2lvTFJqa0lpTnZkNV9iTU4yU2hRRzQ4RDhMc0F3NS1w?oc=5",
+          "date": "Thu, 09 Jul 2026",
+          "source": "Yahoo Finance"
+         },
+         {
+          "title": "Eversource CEO: ‘We are resisting data centers’ - Utility Dive",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQT0ViVXliZzRyY3FkLVFtWHdtd0FOZ2lPbTNwdzg2WnU3RGlERDlCY21tVXE4ZDlvellCU2pQbHlBREJwa2VEbjJ5b0ZaeGRpX210MDdZOWxOTG9nRlg4RURkT0w1akd3bTdqbVloeTVGQkYteURFMy1DZGxrcUJ3M2R6TDdNaGxsdXdLTUVkUQ?oc=5",
+          "date": "Fri, 08 May 2026",
+          "source": "Utility Dive"
+         },
+         {
+          "title": "Eversource Energy Reports First Quarter 2026 Results - Business Wire",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNelc0RlUwLWhwaXpGUUFDT3JZZVhyT2Zlam1jczlLblJtS3ZaMERfTjZKYlZSU2k0N3FiRlhlQ1FwWnJZbFhSZVFTLTg5dWRzazNJZnBsUU5XUVh4eGRQSG5JTTkzYl9XVjBTU3NHZWJkRHIyUkM2T0pSaGJKVHZ1OE4zYTNpOTJrQWJHMVc5SHZ2WEJfd0tQcTVQNGJyLXpXX0RuU1pqLURvdC01RFE?oc=5",
+          "date": "Wed, 06 May 2026",
+          "source": "Business Wire"
+         },
+         {
+          "title": "What Makes Eversource Energy (NYSE:ES) a S&P 500 Stock to Watch? - Kalkine Media",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdGVzakZDNmhzbzJEbm1FN3dheGhyZVZ2aldKR2NHSk9PeHVkanB3SUhMWGl6ZE02cTltc2ZqVDRXSVVRaWJaaW5sWDNtX1l5SFYxMkJJb1FoeVdSQjdUM3VVLU5ZN2hJTktidmRxOWZhazQ3U3pkdlF6S0QtdzNCSzVuVmh4R2hNeW9sTkF3Wnk2Mm1MUXBvYm82aTVmOEdQRVhMbA?oc=5",
+          "date": "Fri, 10 Jul 2026",
+          "source": "Kalkine Media"
+         },
+         {
+          "title": "Earnings call transcript: Eversource Energy Q1 2026 beats revenue expectations - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQb0UwcF9nMXVmelhqMHRfX2diUW5vMjV4WVpKY2JDeENPVTN1T2RtUEhQMmdGdTVFM296Rkxvcy16aXp2T3VNSDFucWNCU05vclRRYXlFNWdYV1ltM3YxOUxYRDJuX2VkLXF2UjVLVDJYSTdCX0lpenJ3ZWM2Q3ZGWGo1SE44bFZCcjZjaEFnQjRTTVotcGRCSWdFQ0lLRVJMdFoycVJVWFVtREdySU1rQ1N3U1JRZkVIMElpak1URFp3VmRlS01iN29YTEF6dw?oc=5",
+          "date": "Thu, 07 May 2026",
+          "source": "Investing.com"
+         }
+        ],
+        "model": "gemini-2.5-flash",
+        "judged_at": "2026-07-11 06:35"
+       }
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "本益比 16.0 倍",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 6.7%，位於近一年前 34% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 57,
+     "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+    },
+    "mech_verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+    "mech_score": 67,
+    "ai7": {
+     "grade": "X",
+     "one_line": "公司過去五年獲利大幅衰退，且缺乏明確且足夠強大的結構性成長動能以確保未來獲利穩健成長。",
+     "analysis": "公司過去五年平均年成長為-33%，顯示獲利表現長期不穩健，與「穩健成長」標準不符。儘管近期季度獲利有所增長，但缺乏明確且足夠強大的結構性因素來支撐未來獲利持續穩健成長。公司雖投資能源儲存設施，但其執行長公開表示抵制資料中心，此結構性決策限制了潛在的電力需求增長。出售水務資產雖有助於財務穩定，但並非直接的獲利成長驅動力。綜合來看，現有證據未能證明公司具備未來獲利穩健成長的條件。",
+     "risks": "1. 長期獲利能力持續低迷，無法有效轉型以應對產業變化。2. 抵制高成長的電力需求來源（如資料中心）可能限制未來營收擴張與獲利潛力。",
+     "sources": [
+      {
+       "title": "Moody's upgrades Eversource outlook to stable after $2.4B water utility sale - The Business Journals",
+       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQajNoZDN6RnpHOXVjM2pnTHQ4Qlg0S3VsVHpTMlVnNGxBcUlGMTdoMFB4WUt3bm9vckdvZTVka0dyandFM1pjN2tWWG1qSV9iZm1vM1ltUTRYSmVXelBRTjVsMWJlRzhLZjhJU25GRlR2NWh3UEVuc2V1cHZkdkg2b2FnYVlJVGZTZnR5clFBUk15RnQ5R0ZGSEYyc1ViT2hVWW5saEctRHpadw?oc=5",
+       "date": "Fri, 10 Jul 2026",
+       "source": "The Business Journals"
+      },
+      {
+       "title": "Eversource Energy (ES) Could Be 2% Overvalued Following Its 1 GW Storage Deal - simplywall.st",
+       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOEdabzJ3cTNoeVZGdVYwbTVfM2lnNkxBMkRIa0dleGFKVXlFS0J2VTRtcXQ5VnBFYWI5Q0hKYzNfVDVjdWN3Wm5kaU12X1VQRVlwSTJpUkFvVWJtVDZGSUZDbkxEUjlyZVVBUy04WmE0MTJSYWJLeXJBN3BFUVV6WFV3alFkaGJjNmVwZ1RpV1dtZ0lFUGwxWjZncE9CSG1GMTRmcUZtX1htcEhwNjBZR0otVVhDUWNla0FxQ3VNaHBkSTktQ1RRSG9FbE9pZ9IB0wFBVV95cUxOTk41SWF5d3U1SmRLcXNPS3FXTHJNR0VRV0QzWWZJbE1TdUJkSlc0S1pFWExTS2xRZkNZSG5paHU5OTRWWUtkTVpKMi1tLUlMLUtuVUlOdVpibDFYeXBfbnFyb3p1bE4wMGt6bWNJT1VxdjRWdFFzU3BqWVFHYzQ3eDItb21YbURvallrSi1wVUd2MUJUblUzZlVtdG5uZUl0NmtOTnhtQ3lRbXd5ajREdFp2ajMzS2E5d3Z1c011dmUyTWxTMFBqQ01BbHRTXzJaT2RF?oc=5",
+       "date": "Thu, 09 Jul 2026",
+       "source": "simplywall.st"
+      },
+      {
+       "title": "Eversource CEO: ‘We are resisting data centers’ - Utility Dive",
+       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQT0ViVXliZzRyY3FkLVFtWHdtd0FOZ2lPbTNwdzg2WnU3RGlERDlCY21tVXE4ZDlvellCU2pQbHlBREJwa2VEbjJ5b0ZaeGRpX210MDdZOWxOTG9nRlg4RURkT0w1akd3bTdqbVloeTVGQkYteURFMy1DZGxrcUJ3M2R6TDdNaGxsdXdLTUVkUQ?oc=5",
+       "date": "Fri, 08 May 2026",
+       "source": "Utility Dive"
+      }
+     ],
+     "all_news": [
+      {
+       "title": "Eversource Energy's Quarterly Earnings Preview: What You Need to Know - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeGlndzZtSFFZODFvdFk4dDdacWUwR3hzdHZLTFY4LVNCLS1jWXRvRmFLaEhSajdEVURTU3hSM0VJVFl5SklmSUpHMjNvSVZmR0lLd1YwRmdGNmtDOUtwMXVJS0k5ZG8wVVI3cjdyY2ZMWEl5UmtFTGl3VHBib25iSW1BMEJ4UVV6T2xCQW5zMG9aREl6YWdFRXUwVW5hTXFrelZqcDhVTzFBejBfSzBz?oc=5",
+       "date": "Thu, 09 Jul 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "Moody's upgrades Eversource outlook to stable after $2.4B water utility sale - The Business Journals",
+       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQajNoZDN6RnpHOXVjM2pnTHQ4Qlg0S3VsVHpTMlVnNGxBcUlGMTdoMFB4WUt3bm9vckdvZTVka0dyandFM1pjN2tWWG1qSV9iZm1vM1ltUTRYSmVXelBRTjVsMWJlRzhLZjhJU25GRlR2NWh3UEVuc2V1cHZkdkg2b2FnYVlJVGZTZnR5clFBUk15RnQ5R0ZGSEYyc1ViT2hVWW5saEctRHpadw?oc=5",
+       "date": "Fri, 10 Jul 2026",
+       "source": "The Business Journals"
+      },
+      {
+       "title": "Eversource Energy (ES) Could Be 2% Overvalued Following Its 1 GW Storage Deal - simplywall.st",
+       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOEdabzJ3cTNoeVZGdVYwbTVfM2lnNkxBMkRIa0dleGFKVXlFS0J2VTRtcXQ5VnBFYWI5Q0hKYzNfVDVjdWN3Wm5kaU12X1VQRVlwSTJpUkFvVWJtVDZGSUZDbkxEUjlyZVVBUy04WmE0MTJSYWJLeXJBN3BFUVV6WFV3alFkaGJjNmVwZ1RpV1dtZ0lFUGwxWjZncE9CSG1GMTRmcUZtX1htcEhwNjBZR0otVVhDUWNla0FxQ3VNaHBkSTktQ1RRSG9FbE9pZ9IB0wFBVV95cUxOTk41SWF5d3U1SmRLcXNPS3FXTHJNR0VRV0QzWWZJbE1TdUJkSlc0S1pFWExTS2xRZkNZSG5paHU5OTRWWUtkTVpKMi1tLUlMLUtuVUlOdVpibDFYeXBfbnFyb3p1bE4wMGt6bWNJT1VxdjRWdFFzU3BqWVFHYzQ3eDItb21YbURvallrSi1wVUd2MUJUblUzZlVtdG5uZUl0NmtOTnhtQ3lRbXd5ajREdFp2ajMzS2E5d3Z1c011dmUyTWxTMFBqQ01BbHRTXzJaT2RF?oc=5",
+       "date": "Thu, 09 Jul 2026",
+       "source": "simplywall.st"
+      },
+      {
+       "title": "Eversource Energy Schedules Second Quarter Earnings Call - Yahoo Finance",
+       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVEdVY2JsNGFLQm5ZZVF1SUllcmR5ZHF0VjVXR1RSaHZEd3RIMkNsUjhnY19VMWJ4eVJDWkh6TjFERlNkaHlQM092MmN6Nk5sWTF3ZUhMQ3c4ckQyMFVickg0RlFnQ3hoODFnRUdDQWticEEyMFY0emlyZTY2S1RMM2lvTFJqa0lpTnZkNV9iTU4yU2hRRzQ4RDhMc0F3NS1w?oc=5",
+       "date": "Thu, 09 Jul 2026",
+       "source": "Yahoo Finance"
+      },
+      {
+       "title": "Eversource CEO: ‘We are resisting data centers’ - Utility Dive",
+       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQT0ViVXliZzRyY3FkLVFtWHdtd0FOZ2lPbTNwdzg2WnU3RGlERDlCY21tVXE4ZDlvellCU2pQbHlBREJwa2VEbjJ5b0ZaeGRpX210MDdZOWxOTG9nRlg4RURkT0w1akd3bTdqbVloeTVGQkYteURFMy1DZGxrcUJ3M2R6TDdNaGxsdXdLTUVkUQ?oc=5",
+       "date": "Fri, 08 May 2026",
+       "source": "Utility Dive"
+      },
+      {
+       "title": "Eversource Energy Reports First Quarter 2026 Results - Business Wire",
+       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNelc0RlUwLWhwaXpGUUFDT3JZZVhyT2Zlam1jczlLblJtS3ZaMERfTjZKYlZSU2k0N3FiRlhlQ1FwWnJZbFhSZVFTLTg5dWRzazNJZnBsUU5XUVh4eGRQSG5JTTkzYl9XVjBTU3NHZWJkRHIyUkM2T0pSaGJKVHZ1OE4zYTNpOTJrQWJHMVc5SHZ2WEJfd0tQcTVQNGJyLXpXX0RuU1pqLURvdC01RFE?oc=5",
+       "date": "Wed, 06 May 2026",
+       "source": "Business Wire"
+      },
+      {
+       "title": "What Makes Eversource Energy (NYSE:ES) a S&P 500 Stock to Watch? - Kalkine Media",
+       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdGVzakZDNmhzbzJEbm1FN3dheGhyZVZ2aldKR2NHSk9PeHVkanB3SUhMWGl6ZE02cTltc2ZqVDRXSVVRaWJaaW5sWDNtX1l5SFYxMkJJb1FoeVdSQjdUM3VVLU5ZN2hJTktidmRxOWZhazQ3U3pkdlF6S0QtdzNCSzVuVmh4R2hNeW9sTkF3Wnk2Mm1MUXBvYm82aTVmOEdQRVhMbA?oc=5",
+       "date": "Fri, 10 Jul 2026",
+       "source": "Kalkine Media"
+      },
+      {
+       "title": "Earnings call transcript: Eversource Energy Q1 2026 beats revenue expectations - Investing.com",
+       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQb0UwcF9nMXVmelhqMHRfX2diUW5vMjV4WVpKY2JDeENPVTN1T2RtUEhQMmdGdTVFM296Rkxvcy16aXp2T3VNSDFucWNCU05vclRRYXlFNWdYV1ltM3YxOUxYRDJuX2VkLXF2UjVLVDJYSTdCX0lpenJ3ZWM2Q3ZGWGo1SE44bFZCcjZjaEFnQjRTTVotcGRCSWdFQ0lLRVJMdFoycVJVWFVtREdySU1rQ1N3U1JRZkVIMElpak1URFp3VmRlS01iN29YTEF6dw?oc=5",
+       "date": "Thu, 07 May 2026",
+       "source": "Investing.com"
+      }
+     ],
+     "model": "gemini-2.5-flash",
+     "judged_at": "2026-07-11 06:35"
+    }
+   },
+   {
+    "ticker": "ANET",
+    "name": "Arista Networks",
+    "close": 186.96,
+    "rebound": 1.0,
+    "rebound_grade": "O",
+    "base_quality": 0.5409451888648285,
+    "scorecard": {
+     "items": [
+      {
+       "key": "1",
+       "name": "① 股價突破近年來高價",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "收盤 186.96 創近 2 年新高",
+       "starred": true
+      },
+      {
+       "key": "2",
+       "name": "② 新高價位置（反彈幅度≥60%）",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "反彈幅度 100%（目標≥60%），平穩期品質 54%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+       "starred": true
+      },
+      {
+       "key": "3",
+       "name": "③ 過去獲利穩健成長（年均≥7%）",
+       "grade": "N",
+       "symbol": "—",
+       "detail": "年度獲利資料不足",
+       "starred": false
+      },
+      {
+       "key": "4",
+       "name": "④ 最近1~2年獲利成長≥20%",
+       "grade": "N",
+       "symbol": "—",
+       "detail": "資料不足",
+       "starred": false
+      },
+      {
+       "key": "5",
+       "name": "⑤ 最近2~3季營收成長≥10%",
+       "grade": "N",
+       "symbol": "—",
+       "detail": "營收資料不足",
+       "starred": false
+      },
+      {
+       "key": "6",
+       "name": "⑥ 最近2~3季獲利成長≥20%",
+       "grade": "N",
+       "symbol": "—",
+       "detail": "季獲利資料不足",
+       "starred": true
+      },
+      {
+       "key": "7",
+       "name": "⑦ 未來獲利能否穩健成長",
+       "grade": "M",
+       "symbol": "人工",
+       "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+       "starred": true
+      },
+      {
+       "key": "8",
+       "name": "⑧ 本益比未過熱（<60倍）",
+       "grade": "X",
+       "symbol": "×",
+       "detail": "本益比 62.6 倍（≥60 倍，過熱）",
+       "starred": false
+      },
+      {
+       "key": "9",
+       "name": "⑨ 大盤上漲力道",
+       "grade": "O",
+       "symbol": "○",
+       "detail": "創新高股比率 6.7%，位於近一年前 34% 強、趨勢向上",
+       "starred": true
+      }
+     ],
+     "score": 50,
+     "verdict": "淘汰：關鍵項目不合格"
+    },
+    "mech_verdict": "淘汰：關鍵項目不合格",
+    "mech_score": 50
    }
   ],
   "holdings": [],
   "paper": {
    "start_capital": 30000,
    "cash": 4143.47,
-   "equity": 29751.99,
+   "equity": 29649.82,
    "equity_history": [
     {
      "date": "2026-07-06",
@@ -2313,6 +2809,10 @@
     {
      "date": "2026-07-09",
      "equity": 29751.99
+    },
+    {
+     "date": "2026-07-10",
+     "equity": 29649.82
     }
    ],
    "positions": [
@@ -2322,11 +2822,11 @@
      "shares": 10.2817,
      "buy_price": 280.1099853515625,
      "buy_date": "2026-07-06",
-     "last_price": 279.20001220703125,
+     "last_price": 278.8900146484375,
      "signal_date": "2026-07-02",
      "status": "HOLD",
      "status_note": "",
-     "pnl_pct": -0.0032486280108477983,
+     "pnl_pct": -0.004355327431807998,
      "stop_price": 257.7
     },
     {
@@ -2335,11 +2835,11 @@
      "shares": 5.2213,
      "buy_price": 528.5999755859375,
      "buy_date": "2026-07-06",
-     "last_price": 496.5,
+     "last_price": 485.3900146484375,
      "signal_date": "2026-07-02",
-     "status": "HOLD",
-     "status_note": "",
-     "pnl_pct": -0.060726403837525034,
+     "status": "SELL_NOW",
+     "status_note": "已排明日開盤賣出。停損：現價 485.39 低於買價 528.6 達 8.2%（門檻 8%），立即賣出",
+     "pnl_pct": -0.08174415991904471,
      "stop_price": 486.31
     },
     {
@@ -2348,11 +2848,11 @@
      "shares": 8.7801,
      "buy_price": 341.67999267578125,
      "buy_date": "2026-07-06",
-     "last_price": 337.4800109863281,
+     "last_price": 338.9200134277344,
      "signal_date": "2026-07-02",
      "status": "HOLD",
      "status_note": "",
-     "pnl_pct": -0.012292149904833516,
+     "pnl_pct": -0.008077672989959983,
      "stop_price": 314.35
     },
     {
@@ -2361,11 +2861,11 @@
      "shares": 9.998,
      "buy_price": 249.0500030517578,
      "buy_date": "2026-07-06",
-     "last_price": 248.63999938964844,
+     "last_price": 251.61000061035156,
      "signal_date": "2026-07-02",
      "status": "HOLD",
      "status_note": "",
-     "pnl_pct": -0.0016462704560744612,
+     "pnl_pct": 0.010279050500801246,
      "stop_price": 229.13
     },
     {
@@ -2374,11 +2874,11 @@
      "shares": 19.9586,
      "buy_price": 150.14999389648438,
      "buy_date": "2026-07-07",
-     "last_price": 152.25999450683594,
+     "last_price": 151.9199981689453,
      "signal_date": "2026-07-06",
      "status": "HOLD",
      "status_note": "",
-     "pnl_pct": 0.014052618688790819,
+     "pnl_pct": 0.011788240722015564,
      "stop_price": 138.14
     },
     {
@@ -2387,11 +2887,11 @@
      "shares": 2.462,
      "buy_price": 1221.0999755859375,
      "buy_date": "2026-07-08",
-     "last_price": 1216.949951171875,
+     "last_price": 1188.5799560546875,
      "signal_date": "2026-07-07",
      "status": "HOLD",
      "status_note": "",
-     "pnl_pct": -0.0033985951167275763,
+     "pnl_pct": -0.02663174202066909,
      "stop_price": 1123.41
     },
     {
@@ -2400,11 +2900,11 @@
      "shares": 25.465,
      "buy_price": 118.05999755859375,
      "buy_date": "2026-07-08",
-     "last_price": 118.5199966430664,
+     "last_price": 116.70999908447266,
      "signal_date": "2026-07-07",
      "status": "HOLD",
      "status_note": "",
-     "pnl_pct": 0.0038963162289102904,
+     "pnl_pct": -0.011434850940523544,
      "stop_price": 108.62
     },
     {
@@ -2413,11 +2913,11 @@
      "shares": 15.9229,
      "buy_price": 187.0,
      "buy_date": "2026-07-09",
-     "last_price": 184.69000244140625,
+     "last_price": 186.9600067138672,
      "signal_date": "2026-07-08",
      "status": "HOLD",
      "status_note": "",
-     "pnl_pct": -0.012352928120822226,
+     "pnl_pct": -0.00021386784028243344,
      "stop_price": 172.04
     },
     {
@@ -2426,11 +2926,11 @@
      "shares": 9.8987,
      "buy_price": 276.739990234375,
      "buy_date": "2026-07-09",
-     "last_price": 273.0199890136719,
+     "last_price": 273.3500061035156,
      "signal_date": "2026-07-08",
      "status": "HOLD",
      "status_note": "",
-     "pnl_pct": -0.013442225019783427,
+     "pnl_pct": -0.012249708211626187,
      "stop_price": 254.6
     }
    ],
@@ -2537,7 +3037,9 @@
    ],
    "n_trades": 9,
    "pending_buys": [],
-   "pending_sells": []
+   "pending_sells": [
+    "VRTX"
+   ]
   }
  },
  "tw": {
