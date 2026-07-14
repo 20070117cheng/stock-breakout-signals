@@ -15,6 +15,7 @@ import yaml
 import yfinance as yf
 
 from engine import ai_judge as aij, datastore, notify, paper as pp, report, universe
+from engine.box import scan as boxscan
 from engine.scoring import build_scorecard
 from engine.signals import fundamentals as fu
 from engine.signals import market as mk
@@ -245,6 +246,16 @@ def main() -> None:
     # 淘汰硬性不合格者不寄信，但保留在儀表板供學習
     notified = [c for c in buy_candidates if not c["scorecard"]["verdict"].startswith("淘汰") and c["scorecard"]["score"] >= cfg["min_score_to_notify"]]
 
+    # 3.8 箱型策略掃描（自 stock-box-system 移植，僅台股；參數與原系統相同）
+    box_candidates: list[dict] = []
+    if market == "tw" and cfg.get("box_enabled", True):
+        try:
+            box_candidates = boxscan.scan_box(
+                close, names, lambda tk: datastore.fetch_ohlcv(tk, period="1y"), cfg
+            )
+        except Exception:
+            print(f"[box] 掃描失敗（不影響主策略）：\n{traceback.format_exc()}")
+
     # 4. 持股監控
     holdings = monitor_holdings(market, load_holdings(market), cfg)
     sell_alerts = [h for h in holdings if h["action"] != "HOLD"]
@@ -286,6 +297,7 @@ def main() -> None:
         "n_new_high": n_new_high,
         "n_universe": int(close.iloc[-1].notna().sum()),
         "buy_candidates": buy_candidates,
+        "box_candidates": box_candidates,
         "holdings": holdings,
         "paper": {
             "start_capital": pm["start_capital"],
@@ -318,6 +330,11 @@ def main() -> None:
          "type": "立即賣出" if h["action"] == "SELL_NOW" else "賣出訊號",
          "ticker": h["ticker"], "name": h["name"], "note": "；".join(h["reasons"])}
         for h in sell_alerts
+    ] + [
+        {"date": date_str, "market": MARKET_NAME[market], "type": "箱型訊號",
+         "ticker": c["ticker"], "name": c["name"],
+         "note": f"{c['kd_state']}，距3年收盤高 {c['pct_of_high']}%（K {c['k']}／D {c['d']}）"}
+        for c in box_candidates
     ]
     log = report.append_log(entries)
     report.render(state, log)

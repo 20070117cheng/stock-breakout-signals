@@ -175,6 +175,26 @@ def _candidates_section(state: dict) -> str:
     return "\n".join(cards)
 
 
+def _box_section(state: dict) -> str:
+    m = state.get("tw") or {}
+    cands = m.get("box_candidates", [])
+    if not cands:
+        return ("<p class='empty'>今日沒有箱型訊號（貼近 3 年高點且 KD 剛金叉／將金叉的股票）。"
+                "沒訊號空手等待即可。</p>")
+    rows = "".join(
+        f"<tr><td><b>{c['name']}</b><br class='m'>{c['ticker']}</td>"
+        f"<td>{c['close']:g}</td><td>{c['high_close_3y']:g}</td>"
+        f"<td>{c['pct_of_high']:.1f}%</td><td>{c['k']:g} / {c['d']:g}</td>"
+        f"<td><b>{c['kd_state']}</b></td></tr>"
+        for c in cands
+    )
+    return (
+        "<table><thead><tr><th>股票</th><th>現價</th><th>3年收盤高</th>"
+        "<th>距高點</th><th>K / D</th><th>KD 狀態</th></tr></thead><tbody>"
+        + rows + "</tbody></table>"
+    )
+
+
 def _holdings_section(state: dict) -> str:
     rows = []
     for mkt_key, mkt_name in [("tw", "台股"), ("us", "美股")]:
@@ -358,6 +378,7 @@ footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 <nav class="tabs">
   <button data-tab="market" class="active">大盤燈號</button>
   <button data-tab="buy">買進候選</button>
+  <button data-tab="box">箱型訊號</button>
   <button data-tab="hold">持股監控</button>
   <button data-tab="paper">虛擬操盤</button>
   <button data-tab="log">訊號記錄</button>
@@ -427,6 +448,18 @@ footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 行有餘力再看公司法說會（書 p.131-146：成長理由要能一句話說清楚，聽到景氣發言就淘汰）。<br>
 <b>為什麼只列「今日」的訊號？</b>訊號的定義是「收盤價」創 2 年新高，收盤後才能確認；買進時機就是隔天開盤（機械式操作）。
 過幾天才追買，進場價偏離訊號價，8% 停損的風險設計就失效了。錯過的訊號請放掉，去「訊號記錄」分頁複盤即可。</div>
+</section>
+
+<section id="tab-box" class="tab">
+<h2>箱型訊號（KD 金叉＋貼近 3 年高，僅台股）</h2>
+{_box_section(state)}
+<div class="help"><b>這是你原本「箱型系統」的訊號引擎</b>，已原封移植到這裡（判斷邏輯逐行相同）：
+現價 ≥ 3 年收盤高點的 95%，且 KD(9) 剛黃金交叉（昨 K&lt;D、今 K≥D）或準備交叉（D−K ≤ 2）。<br>
+出場規則沿用你的設定：<b>移動停利 10%／固定停損 3%</b>（下一階段會連同專屬虛擬帳戶一起接上，
+與大漲訊號策略同台比較成效）。<br>
+<b>與「買進候選」的差別</b>：箱型看的是「貼近高點＋KD 翻多」的短波段節奏，不檢查基本面；
+大漲訊號看的是「突破新高＋獲利加速」的長波段。兩者訊號重疊時，代表技術面共振，值得優先研究。<br>
+箱型訊號預設不寄 Email（你先前的偏好），要開啟改 config 的 <code>box_email</code>。</div>
 </section>
 
 <section id="tab-hold" class="tab">
