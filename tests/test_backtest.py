@@ -62,24 +62,17 @@ def test_datastore_drops_broken_tail_rows():
     # 資料品質保險絲：尾端幾乎全缺值的日子要被剔除
     import numpy as np
     import pandas as pd
-    from engine import datastore
+    from engine.datastore import drop_broken_tail
 
     idx = pd.bdate_range("2026-01-01", periods=40)
     data = pd.DataFrame(np.ones((40, 100)), index=idx)
     data.iloc[-1, 5:] = np.nan  # 最後一天只有 5 檔有效（正常 100）
 
-    orig = datastore.cache_path
-    import tempfile, pathlib
-    tmp = pathlib.Path(tempfile.mkdtemp())
-    datastore.cache_path = lambda m: tmp / f"close_{m}.parquet"
-    try:
-        data.to_parquet(datastore.cache_path("test"))
-        # 模擬 update：直接套用保險絲段落——用內部邏輯驗證
-        merged = data
-        baseline = merged.iloc[-25:-5].notna().sum(axis=1).median()
-        while len(merged) > 1 and merged.iloc[-1].notna().sum() < baseline * 0.4:
-            merged = merged.iloc[:-1]
-        assert len(merged) == 39  # 壞的最後一天被剔除
-        assert merged.iloc[-1].notna().sum() == 100
-    finally:
-        datastore.cache_path = orig
+    cleaned, dropped = drop_broken_tail(data)
+    assert dropped == 1
+    assert len(cleaned) == 39
+    assert cleaned.iloc[-1].notna().sum() == 100
+
+    # 正常資料不動
+    ok, dropped2 = drop_broken_tail(cleaned)
+    assert dropped2 == 0 and len(ok) == 39

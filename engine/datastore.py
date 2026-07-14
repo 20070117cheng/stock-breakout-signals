@@ -28,16 +28,45 @@ def load_close(market: str) -> pd.DataFrame | None:
     return None
 
 
+def drop_broken_tail(df: pd.DataFrame) -> tuple[pd.DataFrame, int]:
+    """資料品質保險絲：剔除尾端「幾乎整列缺值」的日子（資料源限流/故障）。
+
+    回傳（清理後的表, 剔除列數）。寧可當天略過等重試，不可用殘缺資料矇眼掃描。
+    """
+    dropped = 0
+    if len(df) > 25:
+        baseline = df.iloc[-25:-5].notna().sum(axis=1).median()
+        while len(df) > 1 and df.iloc[-1].notna().sum() < baseline * 0.4:
+            bad = df.index[-1]
+            print(f"[datastore] {bad.date()} 僅 {df.iloc[-1].notna().sum():.0f} 檔有效"
+                  f"（正常約 {baseline:.0f}），判定資料源異常，剔除該日")
+            df = df.iloc[:-1]
+            dropped += 1
+    return df, dropped
+
+
 def update_close(market: str, tickers: list[str], full_years: int = 3) -> pd.DataFrame:
-    """增量更新收盤價寬表；無快取時做完整回補。"""
+    """增量更新收盤價寬表；無快取時做完整回補。
+
+    被資料源限流（當日資料幾乎全缺）時，在執行中等待數分鐘重試，
+    最多三次——凌晨時段雲端主機常被限流，等待常常就解了。
+    """
     DATA_DIR.mkdir(exist_ok=True)
     cached = load_close(market)
     if cached is not None and len(cached) > 0:
         known = [t for t in tickers if t in cached.columns]
         new = [t for t in tickers if t not in cached.columns]
         start = (cached.index.max() - pd.Timedelta(days=7)).strftime("%Y-%m-%d")
-        fresh = _download_close(known, start=start)
-        merged = pd.concat([cached[~cached.index.isin(fresh.index)], fresh]).sort_index()
+        merged = cached
+        for attempt in range(3):
+            fresh = _download_close(known, start=start)
+            candidate = pd.concat([cached[~cached.index.isin(fresh.index)], fresh]).sort_index()
+            candidate, n_bad = drop_broken_tail(candidate)
+            merged = candidate
+            if n_bad == 0 or attempt == 2:
+                break
+            print(f"[datastore] 疑似被資料源限流，等 240 秒後重抓（第 {attempt + 2}/3 次）")
+            time.sleep(240)
         if new:  # 名單新增的股票：補完整歷史
             print(f"[datastore] 新增 {len(new)} 檔，回補完整歷史")
             hist = _download_close(new, period=f"{full_years}y")
@@ -45,16 +74,7 @@ def update_close(market: str, tickers: list[str], full_years: int = 3) -> pd.Dat
         merged = merged.tail(KEEP_DAYS)
     else:
         merged = _download_close(tickers, period=f"{full_years}y").tail(KEEP_DAYS)
-
-    # 資料品質保險絲：尾端若出現「幾乎整列缺值」的日子（資料源限流/故障），
-    # 直接剔除該列——寧可當天略過等重試，不可用殘缺資料矇眼掃描
-    if len(merged) > 25:
-        baseline = merged.iloc[-25:-5].notna().sum(axis=1).median()
-        while len(merged) > 1 and merged.iloc[-1].notna().sum() < baseline * 0.4:
-            bad = merged.index[-1]
-            print(f"[datastore] {bad.date()} 僅 {merged.iloc[-1].notna().sum():.0f} 檔有效"
-                  f"（正常約 {baseline:.0f}），判定資料源異常，剔除該日")
-            merged = merged.iloc[:-1]
+        merged, _ = drop_broken_tail(merged)
 
     merged.to_parquet(cache_path(market))
     return merged
