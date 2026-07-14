@@ -14,7 +14,7 @@ import pandas as pd
 import yaml
 import yfinance as yf
 
-from engine import ai_judge as aij, datastore, notify, paper as pp, report, universe
+from engine import ai_judge as aij, datastore, extras, notify, paper as pp, report, universe
 from engine.box import scan as boxscan
 from engine.scoring import build_scorecard
 from engine.signals import fundamentals as fu
@@ -256,6 +256,13 @@ def main() -> None:
         except Exception:
             print(f"[box] 掃描失敗（不影響主策略）：\n{traceback.format_exc()}")
 
+    # 3.9 附加資訊：候選股走勢縮圖、產業聚集、行事曆
+    for c in buy_candidates + box_candidates:
+        if c["ticker"] in close.columns:
+            c["spark"] = extras.downsample(close[c["ticker"]].tail(500))
+    industry_of = dict(zip(uni["ticker"], uni.get("industry", pd.Series(dtype=str)).fillna("未分類")))
+    industries = extras.industry_summary(close, industry_of, names)
+
     # 4. 持股監控
     holdings = monitor_holdings(market, load_holdings(market), cfg)
     sell_alerts = [h for h in holdings if h["action"] != "HOLD"]
@@ -287,6 +294,15 @@ def main() -> None:
     if executed:
         print(f"[paper] 今日虛擬成交 {len(executed)} 筆")
 
+    # 4.6 行事曆：持股＋虛擬持倉的財報/除權息事件（只查持有的，控制 API 用量）
+    watch = {(h["ticker"], h["name"]) for h in holdings}
+    watch |= {(p["ticker"], p["name"]) for p in pm["positions"]}
+    try:
+        calendar = extras.build_calendar(market, sorted(watch))
+    except Exception:
+        print(f"[calendar] 建立失敗：\n{traceback.format_exc()}")
+        calendar = []
+
     # 5. 狀態、記錄、儀表板
     state = report.load_state()
     state[market] = {
@@ -298,6 +314,8 @@ def main() -> None:
         "n_universe": int(close.iloc[-1].notna().sum()),
         "buy_candidates": buy_candidates,
         "box_candidates": box_candidates,
+        "industries": industries,
+        "calendar": calendar,
         "holdings": holdings,
         "paper": {
             "start_capital": pm["start_capital"],

@@ -25,6 +25,7 @@ def tw_universe() -> pd.DataFrame:
             "ticker": df["stock_id"] + suffix,
             "stock_id": df["stock_id"],
             "name": df["stock_name"],
+            "industry": df.get("industry_category", pd.Series("", index=df.index)).fillna("未分類"),
         }
     ).reset_index(drop=True)
 
@@ -35,7 +36,12 @@ def us_universe() -> pd.DataFrame:
     sp = _read_wiki("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies")
     for t in sp:
         if {"Symbol", "Security"}.issubset(t.columns):
-            frames.append(t[["Symbol", "Security"]].rename(columns={"Symbol": "ticker", "Security": "name"}))
+            cols = {"Symbol": "ticker", "Security": "name"}
+            keep = ["Symbol", "Security"]
+            if "GICS Sector" in t.columns:
+                cols["GICS Sector"] = "industry"
+                keep.append("GICS Sector")
+            frames.append(t[keep].rename(columns=cols))
             break
     ndx = _read_wiki("https://en.wikipedia.org/wiki/Nasdaq-100")
     for t in ndx:
@@ -47,6 +53,9 @@ def us_universe() -> pd.DataFrame:
             break
     df = pd.concat(frames, ignore_index=True).drop_duplicates(subset="ticker")
     df["ticker"] = df["ticker"].str.replace(".", "-", regex=False)  # BRK.B → BRK-B
+    if "industry" not in df.columns:
+        df["industry"] = "未分類"
+    df["industry"] = df["industry"].fillna("未分類")
     return df.reset_index(drop=True)
 
 

@@ -163,9 +163,14 @@ def _candidates_section(state: dict) -> str:
     cards = []
     for score, mkt_name, date, c in entries:
         sc = c["scorecard"]
+        chart = ""
+        if c.get("spark"):
+            chart = (f"<p class='muted' style='margin:6px 0 0'>近 2 年收盤走勢"
+                     f"（看平穩期與突破位置，書 p.72）：</p>{_sparkline(c['spark'], '#2563eb', 340, 80)}")
         cards.append(f"""<details class="card cand">
   <summary><b>{sc['score']}/100</b>｜{mkt_name}｜<b>{c['name']}（{c['ticker']}）</b>
     收盤 {c['close']:g} — {sc['verdict']}</summary>
+  {chart}
   {_scorecard_table(sc)}
   {_ai_block(c.get('ai7'))}
   <p class="muted">反彈幅度 {c.get('rebound', 0):.0%}｜平穩期品質 {c.get('base_quality', 0):.0%}｜訊號日 {date}</p>
@@ -180,18 +185,19 @@ def _box_section(state: dict) -> str:
     for mkt_key, mkt_name in [("tw", "台股"), ("us", "美股")]:
         m = state.get(mkt_key) or {}
         for c in m.get("box_candidates", []):
+            chart = _sparkline(c["spark"], "#0d9488", 150, 40) if c.get("spark") else ""
             rows.append(
                 f"<tr><td>{mkt_name}</td><td><b>{c['name']}</b><br class='m'>{c['ticker']}</td>"
                 f"<td>{c['close']:g}</td><td>{c['high_close_3y']:g}</td>"
                 f"<td>{c['pct_of_high']:.1f}%</td><td>{c['k']:g} / {c['d']:g}</td>"
-                f"<td><b>{c['kd_state']}</b></td></tr>"
+                f"<td><b>{c['kd_state']}</b></td><td>{chart}</td></tr>"
             )
     if not rows:
         return ("<p class='empty'>今日沒有箱型訊號（貼近 3 年高點且 KD 剛金叉／將金叉的股票）。"
                 "沒訊號空手等待即可。</p>")
     return (
         "<table><thead><tr><th>市場</th><th>股票</th><th>現價</th><th>3年收盤高</th>"
-        "<th>距高點</th><th>K / D</th><th>KD 狀態</th></tr></thead><tbody>"
+        "<th>距高點</th><th>K / D</th><th>KD 狀態</th><th>近2年走勢</th></tr></thead><tbody>"
         + "".join(rows) + "</tbody></table>"
     )
 
@@ -294,6 +300,47 @@ def _paper_card(name: str, currency: str, p: dict | None) -> str:
 </div>"""
 
 
+def _industry_section(state: dict) -> str:
+    blocks = []
+    for mkt_key, mkt_name in [("tw", "台股"), ("us", "美股")]:
+        m = state.get(mkt_key) or {}
+        inds = m.get("industries", [])
+        if not inds:
+            blocks.append(f"<div class='card'><h3>{mkt_name}</h3>"
+                          f"<p class='muted'>今日沒有產業出現創新高股（或尚未掃描）。</p></div>")
+            continue
+        max_n = max(g["n_high"] for g in inds)
+        rows = "".join(
+            f"<tr><td><b>{g['industry']}</b></td>"
+            f"<td>{g['n_high']} / {g['total']}</td>"
+            f"<td><div style='background:#2563eb;height:10px;border-radius:5px;"
+            f"width:{max(6, int(g['n_high'] / max_n * 100))}%'></div></td>"
+            f"<td class='muted'>{'、'.join(g['names'])}</td></tr>"
+            for g in inds
+        )
+        blocks.append(f"""<div class='card'><h3>{mkt_name}（{m.get('date', '')}）</h3>
+<table><thead><tr><th>產業</th><th>創高/成分</th><th></th><th>今日創一年新高的股票</th></tr></thead>
+<tbody>{rows}</tbody></table></div>""")
+    return "\n".join(blocks)
+
+
+def _calendar_section(state: dict) -> str:
+    events = []
+    for mkt_key in ("tw", "us"):
+        events += (state.get(mkt_key) or {}).get("calendar", [])
+    events.sort(key=lambda e: e["date"])
+    if not events:
+        return "<p class='empty'>目前沒有即將到來的事件（持股與虛擬持倉的財報日、除權息會顯示在這裡）。</p>"
+    rows = "".join(
+        f"<tr><td><b>{e['date']}</b></td><td>{e['market']}</td>"
+        f"<td>{e['name']}{'（' + e['ticker'] + '）' if e['ticker'] != '—' else ''}</td>"
+        f"<td>{e['event']}</td></tr>"
+        for e in events
+    )
+    return ("<table><thead><tr><th>日期</th><th>市場</th><th>股票</th><th>事件</th></tr></thead>"
+            f"<tbody>{rows}</tbody></table>")
+
+
 def _log_section(log: list[dict]) -> str:
     if not log:
         return "<p class='empty'>尚無訊號記錄。</p>"
@@ -380,8 +427,10 @@ footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
   <button data-tab="market" class="active">大盤燈號</button>
   <button data-tab="buy">買進候選</button>
   <button data-tab="box">箱型訊號</button>
+  <button data-tab="industry">產業聚集</button>
   <button data-tab="hold">持股監控</button>
   <button data-tab="paper">虛擬操盤</button>
+  <button data-tab="cal">行事曆</button>
   <button data-tab="log">訊號記錄</button>
   <button data-tab="learn">方法教學</button>
 </nav>
@@ -461,6 +510,24 @@ footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 <b>與「買進候選」的差別</b>：箱型看的是「貼近高點＋KD 翻多」的短波段節奏，不檢查基本面；
 大漲訊號看的是「突破新高＋獲利加速」的長波段。兩者訊號重疊時，代表技術面共振，值得優先研究。<br>
 箱型訊號會寫進每日 Email（同一封信的「箱型訊號」段），不想收改 config 的 <code>box_email</code>。</div>
+</section>
+
+<section id="tab-industry" class="tab">
+<h2>產業聚集（今日創一年新高的股票，按產業分組）</h2>
+{_industry_section(state)}
+<div class="help"><b>怎麼用</b>：書中反覆強調「不斷創新高的領導股，大都是當時的明星產業」（推薦序 p.8、第二章）。
+當你的買進候選落在創高家數最多的產業裡，代表它有族群力量撐腰，可信度加分；
+反之，孤零零一檔創高、產業裡沒有同伴的，要多一分警戒。<br>
+這個表每天重算，也是觀察「市場資金正在往哪裡去」的快速方法。</div>
+</section>
+
+<section id="tab-cal" class="tab">
+<h2>行事曆（持股的財報日與除權息）</h2>
+{_calendar_section(state)}
+<div class="help"><b>為什麼要看</b>：財報公布日前後股價常有劇烈波動——買進前先查「這檔幾號公布財報」，
+財報前夕進場等於賭盅（書的方法是看已公布的數字，不是賭未公布的）。<br>
+持股接近財報日時，這裡會提前顯示；台股的法定公告時點（季報截止、月營收）也列在這裡。
+只追蹤你實際持有＋虛擬持倉的股票，清單才不會爆炸。</div>
 </section>
 
 <section id="tab-hold" class="tab">
