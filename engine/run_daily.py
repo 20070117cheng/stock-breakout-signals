@@ -246,9 +246,9 @@ def main() -> None:
     # 淘汰硬性不合格者不寄信，但保留在儀表板供學習
     notified = [c for c in buy_candidates if not c["scorecard"]["verdict"].startswith("淘汰") and c["scorecard"]["score"] >= cfg["min_score_to_notify"]]
 
-    # 3.8 箱型策略掃描（自 stock-box-system 移植，僅台股；參數與原系統相同）
+    # 3.8 箱型策略掃描（自 stock-box-system 移植，台股＋美股；參數與原系統相同）
     box_candidates: list[dict] = []
-    if market == "tw" and cfg.get("box_enabled", True):
+    if cfg.get("box_enabled", True):
         try:
             box_candidates = boxscan.scan_box(
                 close, names, lambda tk: datastore.fetch_ohlcv(tk, period="1y"), cfg
@@ -340,7 +340,8 @@ def main() -> None:
     report.render(state, log)
 
     # 6. Email
-    if (notified or sell_alerts) and not args.no_email:
+    box_for_email = box_candidates if cfg.get("box_email", True) else []
+    if (notified or sell_alerts or box_for_email) and not args.no_email:
         light = gauge["light"]
         hint = {
             "green": f"大盤綠燈：可依計畫買進，單檔上限＝總資產（{cfg['total_capital']:,}）的 10% ＝ {cfg['total_capital'] * 0.1:,.0f}",
@@ -349,7 +350,7 @@ def main() -> None:
         }[light]
         subject, body = notify.format_signal_email(
             MARKET_NAME[market], date_str, notified, sell_alerts, gauge,
-            cfg["dashboard_url"], hint,
+            cfg["dashboard_url"], hint, box_candidates=box_for_email,
         )
         notify.send_email(subject, body)
     else:

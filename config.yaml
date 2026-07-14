@@ -35,7 +35,7 @@ box_enabled: true
 box_high_threshold_pct: 95      # 現價 ≥ 3年收盤高點的 95%
 box_kd_period: 9                # KD 期數
 box_near_cross_gap: 2.0         # 「準備交叉」的 D-K 最大差距
-box_email: false                # 箱型訊號是否寫進 Email（預設不寄，維持你原本在箱型系統的偏好）
+box_email: true                 # 箱型訊號寫進 Email（2026-07-14 依使用者要求開啟）
 
 # --- 系統 ---
 max_candidates_per_day: 25      # 每日最多細查幾檔候選（控制執行時間與 API 用量）

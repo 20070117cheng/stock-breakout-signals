@@ -176,22 +176,23 @@ def _candidates_section(state: dict) -> str:
 
 
 def _box_section(state: dict) -> str:
-    m = state.get("tw") or {}
-    cands = m.get("box_candidates", [])
-    if not cands:
+    rows = []
+    for mkt_key, mkt_name in [("tw", "台股"), ("us", "美股")]:
+        m = state.get(mkt_key) or {}
+        for c in m.get("box_candidates", []):
+            rows.append(
+                f"<tr><td>{mkt_name}</td><td><b>{c['name']}</b><br class='m'>{c['ticker']}</td>"
+                f"<td>{c['close']:g}</td><td>{c['high_close_3y']:g}</td>"
+                f"<td>{c['pct_of_high']:.1f}%</td><td>{c['k']:g} / {c['d']:g}</td>"
+                f"<td><b>{c['kd_state']}</b></td></tr>"
+            )
+    if not rows:
         return ("<p class='empty'>今日沒有箱型訊號（貼近 3 年高點且 KD 剛金叉／將金叉的股票）。"
                 "沒訊號空手等待即可。</p>")
-    rows = "".join(
-        f"<tr><td><b>{c['name']}</b><br class='m'>{c['ticker']}</td>"
-        f"<td>{c['close']:g}</td><td>{c['high_close_3y']:g}</td>"
-        f"<td>{c['pct_of_high']:.1f}%</td><td>{c['k']:g} / {c['d']:g}</td>"
-        f"<td><b>{c['kd_state']}</b></td></tr>"
-        for c in cands
-    )
     return (
-        "<table><thead><tr><th>股票</th><th>現價</th><th>3年收盤高</th>"
+        "<table><thead><tr><th>市場</th><th>股票</th><th>現價</th><th>3年收盤高</th>"
         "<th>距高點</th><th>K / D</th><th>KD 狀態</th></tr></thead><tbody>"
-        + rows + "</tbody></table>"
+        + "".join(rows) + "</tbody></table>"
     )
 
 
@@ -451,7 +452,7 @@ footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 </section>
 
 <section id="tab-box" class="tab">
-<h2>箱型訊號（KD 金叉＋貼近 3 年高，僅台股）</h2>
+<h2>箱型訊號（KD 金叉＋貼近 3 年高，台股＋美股）</h2>
 {_box_section(state)}
 <div class="help"><b>這是你原本「箱型系統」的訊號引擎</b>，已原封移植到這裡（判斷邏輯逐行相同）：
 現價 ≥ 3 年收盤高點的 95%，且 KD(9) 剛黃金交叉（昨 K&lt;D、今 K≥D）或準備交叉（D−K ≤ 2）。<br>
@@ -459,7 +460,7 @@ footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 與大漲訊號策略同台比較成效）。<br>
 <b>與「買進候選」的差別</b>：箱型看的是「貼近高點＋KD 翻多」的短波段節奏，不檢查基本面；
 大漲訊號看的是「突破新高＋獲利加速」的長波段。兩者訊號重疊時，代表技術面共振，值得優先研究。<br>
-箱型訊號預設不寄 Email（你先前的偏好），要開啟改 config 的 <code>box_email</code>。</div>
+箱型訊號會寫進每日 Email（同一封信的「箱型訊號」段），不想收改 config 的 <code>box_email</code>。</div>
 </section>
 
 <section id="tab-hold" class="tab">

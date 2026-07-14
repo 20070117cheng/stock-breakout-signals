@@ -32,8 +32,10 @@ def send_email(subject: str, html_body: str) -> bool:
 
 def format_signal_email(market_name: str, date_str: str, buy_candidates: list[dict],
                         sell_alerts: list[dict], market_gauge: dict,
-                        dashboard_url: str, position_hint: str) -> tuple[str, str]:
+                        dashboard_url: str, position_hint: str,
+                        box_candidates: list[dict] | None = None) -> tuple[str, str]:
     """組出主旨與 HTML 內文。"""
+    box_candidates = box_candidates or []
     n_buy, n_sell = len(buy_candidates), len(sell_alerts)
     urgent = any(a["action"] == "SELL_NOW" for a in sell_alerts)
     subject = f"【大漲訊號】{date_str} {market_name}："
@@ -42,6 +44,8 @@ def format_signal_email(market_name: str, date_str: str, buy_candidates: list[di
         parts.append(f"{n_sell} 檔持股警報" + ("（含緊急停損）" if urgent else ""))
     if n_buy:
         parts.append(f"{n_buy} 檔買進候選")
+    if box_candidates:
+        parts.append(f"{len(box_candidates)} 檔箱型訊號")
     subject += "、".join(parts) if parts else "無新訊號"
 
     light_emoji = {"green": "🟢", "yellow": "🟡", "red": "🔴"}.get(market_gauge.get("light"), "🟡")
@@ -69,6 +73,15 @@ def format_signal_email(market_name: str, date_str: str, buy_candidates: list[di
             )
         html.append("</ul>")
         html.append("<p>⚠️ 買進前請完成檢核表第⑦項人工確認（看法說會），細節見儀表板。</p>")
+
+    if box_candidates:
+        html.append("<h3>📦 箱型訊號（KD 金叉＋貼近 3 年高）</h3><ul>")
+        for c in box_candidates:
+            html.append(
+                f"<li><b>{c['name']}（{c['ticker']}）</b> 現價 {c['close']:g}，"
+                f"{c['kd_state']}，距 3 年收盤高 {c['pct_of_high']}%（K {c['k']}／D {c['d']}）</li>"
+            )
+        html.append("</ul><p>箱型策略出場規則：移動停利 10%／固定停損 3%。</p>")
 
     html.append(f'<p><a href="{dashboard_url}">👉 開啟完整儀表板</a></p>')
     html.append("<hr><p style='color:#888;font-size:12px'>本系統依《大漲的訊號》規則自動產生，僅供參考，不構成投資建議。投資有風險。</p>")
