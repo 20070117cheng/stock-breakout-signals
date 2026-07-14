@@ -240,7 +240,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 4143.470060849538,
+  "cash": 6681.961656607595,
   "positions": [
    {
     "ticker": "AIZ",
@@ -248,21 +248,10 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 278.8900146484375,
+    "last_price": 279.8800048828125,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "VRTX",
-    "name": "Vertex Pharmaceuticals",
-    "shares": 5.2213,
-    "buy_price": 528.5999755859375,
-    "buy_date": "2026-07-06",
-    "last_price": 485.3900146484375,
-    "signal_date": "2026-07-02",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。停損：現價 485.39 低於買價 528.6 達 8.2%（門檻 8%），立即賣出"
    },
    {
     "ticker": "TRV",
@@ -270,7 +259,7 @@
     "shares": 8.7801,
     "buy_price": 341.67999267578125,
     "buy_date": "2026-07-06",
-    "last_price": 338.9200134277344,
+    "last_price": 341.510009765625,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -281,7 +270,7 @@
     "shares": 9.998,
     "buy_price": 249.0500030517578,
     "buy_date": "2026-07-06",
-    "last_price": 251.61000061035156,
+    "last_price": 256.45001220703125,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -292,7 +281,7 @@
     "shares": 19.9586,
     "buy_price": 150.14999389648438,
     "buy_date": "2026-07-07",
-    "last_price": 151.9199981689453,
+    "last_price": 151.27000427246094,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -303,7 +292,7 @@
     "shares": 2.462,
     "buy_price": 1221.0999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 1188.5799560546875,
+    "last_price": 1181.8699951171875,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -314,7 +303,7 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 116.70999908447266,
+    "last_price": 114.2300033569336,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -325,7 +314,7 @@
     "shares": 15.9229,
     "buy_price": 187.0,
     "buy_date": "2026-07-09",
-    "last_price": 186.9600067138672,
+    "last_price": 181.14999389648438,
     "signal_date": "2026-07-08",
     "status": "HOLD",
     "status_note": ""
@@ -336,7 +325,7 @@
     "shares": 9.8987,
     "buy_price": 276.739990234375,
     "buy_date": "2026-07-09",
-    "last_price": 273.3500061035156,
+    "last_price": 279.3999938964844,
     "signal_date": "2026-07-08",
     "status": "HOLD",
     "status_note": ""
@@ -346,7 +335,7 @@
   "pending_sells": [
    {
     "ticker": "VRTX",
-    "reason": "停損：現價 485.39 低於買價 528.6 達 8.2%（門檻 8%），立即賣出"
+    "reason": "停損：現價 480.25 低於買價 528.6 達 9.1%（門檻 8%），立即賣出"
    }
   ],
   "trades": [
@@ -448,6 +437,17 @@
     "amount": 2739.38,
     "signal_date": "2026-07-08",
     "reason": "買進訊號（綠燈基準 × 檢核92分 → 部位 9.2%，訊號日 2026-07-08）"
+   },
+   {
+    "date": "2026-07-13",
+    "action": "SELL",
+    "ticker": "VRTX",
+    "name": "Vertex Pharmaceuticals",
+    "price": 486.17999267578125,
+    "shares": 5.2213,
+    "amount": 2538.49,
+    "pnl_pct": -0.08024968760759954,
+    "reason": "停損：現價 485.39 低於買價 528.6 達 8.2%（門檻 8%），立即賣出"
    }
   ],
   "equity_history": [
@@ -470,6 +470,10 @@
    {
     "date": "2026-07-10",
     "equity": 29649.82
+   },
+   {
+    "date": "2026-07-13",
+    "equity": 29609.98
    }
   ]
  }
