@@ -1,7 +1,7 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 735330.0847890215,
+  "cash": 615586.0001655403,
   "positions": [
    {
     "ticker": "4207.TWO",
@@ -9,7 +9,7 @@
     "shares": 1969.9584,
     "buy_price": 20.049999237060547,
     "buy_date": "2026-07-06",
-    "last_price": 19.950000762939453,
+    "last_price": 20.049999237060547,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -20,7 +20,7 @@
     "shares": 1346.771,
     "buy_price": 34.150001525878906,
     "buy_date": "2026-07-06",
-    "last_price": 35.75,
+    "last_price": 36.150001525878906,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -31,7 +31,7 @@
     "shares": 1142.5893,
     "buy_price": 38.5,
     "buy_date": "2026-07-06",
-    "last_price": 38.04999923706055,
+    "last_price": 38.5,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -42,7 +42,7 @@
     "shares": 262.415,
     "buy_price": 143.5,
     "buy_date": "2026-07-07",
-    "last_price": 145.0,
+    "last_price": 148.5,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -53,7 +53,7 @@
     "shares": 606.3533,
     "buy_price": 62.099998474121094,
     "buy_date": "2026-07-07",
-    "last_price": 63.79999923706055,
+    "last_price": 64.80000305175781,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -64,44 +64,56 @@
     "shares": 283.0009,
     "buy_price": 160.5,
     "buy_date": "2026-07-13",
-    "last_price": 160.0,
+    "last_price": 161.0,
     "signal_date": "2026-07-14",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "5515.TW",
+    "name": "建國",
+    "shares": 1055.4329,
+    "buy_price": 41.20000076293945,
+    "buy_date": "2026-07-15",
+    "last_price": 41.95000076293945,
+    "signal_date": "2026-07-13",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "2645.TW",
+    "name": "長榮航太",
+    "shares": 160.9657,
+    "buy_price": 242.5,
+    "buy_date": "2026-07-15",
+    "last_price": 242.0,
+    "signal_date": "2026-07-13",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "5434.TW",
+    "name": "崇越",
+    "shares": 67.374,
+    "buy_price": 550.0,
+    "buy_date": "2026-07-15",
+    "last_price": 556.0,
+    "signal_date": "2026-07-13",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [
    {
-    "ticker": "5515.TW",
-    "name": "建國",
+    "ticker": "8415.TWO",
+    "name": "大國鋼",
     "light": "yellow",
-    "score": 88,
-    "signal_date": "2026-07-13",
-    "signal_close": 41.75
-   },
-   {
-    "ticker": "2645.TW",
-    "name": "長榮航太",
-    "light": "yellow",
-    "score": 79,
-    "signal_date": "2026-07-13",
-    "signal_close": 251.5
-   },
-   {
-    "ticker": "5434.TW",
-    "name": "崇越",
-    "light": "yellow",
-    "score": 75,
-    "signal_date": "2026-07-13",
-    "signal_close": 559.0
+    "score": 83,
+    "signal_date": "2026-07-15",
+    "signal_close": 36.6
    }
   ],
-  "pending_sells": [
-   {
-    "ticker": "2415.TW",
-    "reason": "停損：現價 36.2 低於買價 39.65 達 8.7%（門檻 8%），立即賣出"
-   }
-  ],
+  "pending_sells": [],
   "trades": [
    {
     "date": "2026-07-06",
@@ -256,6 +268,39 @@
     "amount": 45486.37,
     "signal_date": "2026-07-14",
     "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%，訊號日 2026-07-14）"
+   },
+   {
+    "date": "2026-07-15",
+    "action": "BUY",
+    "ticker": "5515.TW",
+    "name": "建國",
+    "price": 41.20000076293945,
+    "shares": 1055.4329,
+    "amount": 43545.8,
+    "signal_date": "2026-07-13",
+    "reason": "買進訊號（黃燈基準 × 檢核88分 → 部位 4.4%，訊號日 2026-07-13）"
+   },
+   {
+    "date": "2026-07-15",
+    "action": "BUY",
+    "ticker": "2645.TW",
+    "name": "長榮航太",
+    "price": 242.5,
+    "shares": 160.9657,
+    "amount": 39089.8,
+    "signal_date": "2026-07-13",
+    "reason": "買進訊號（黃燈基準 × 檢核79分 → 部位 4.0%，訊號日 2026-07-13）"
+   },
+   {
+    "date": "2026-07-15",
+    "action": "BUY",
+    "ticker": "5434.TW",
+    "name": "崇越",
+    "price": 550.0,
+    "shares": 67.374,
+    "amount": 37108.48,
+    "signal_date": "2026-07-13",
+    "reason": "買進訊號（黃燈基準 × 檢核75分 → 部位 3.8%，訊號日 2026-07-13）"
    }
   ],
   "equity_history": [
@@ -286,6 +331,10 @@
    {
     "date": "2026-07-13",
     "equity": 988269.0
+   },
+   {
+    "date": "2026-07-15",
+    "equity": 992271.65
    }
   ]
  },
