@@ -33,15 +33,19 @@ def send_email(subject: str, html_body: str) -> bool:
 def format_signal_email(market_name: str, date_str: str, buy_candidates: list[dict],
                         sell_alerts: list[dict], market_gauge: dict,
                         dashboard_url: str, position_hint: str,
-                        box_candidates: list[dict] | None = None) -> tuple[str, str]:
+                        box_candidates: list[dict] | None = None,
+                        combo_candidates: list[dict] | None = None) -> tuple[str, str]:
     """組出主旨與 HTML 內文。"""
     box_candidates = box_candidates or []
+    combo_candidates = combo_candidates or []
     n_buy, n_sell = len(buy_candidates), len(sell_alerts)
     urgent = any(a["action"] == "SELL_NOW" for a in sell_alerts)
     subject = f"【大漲訊號】{date_str} {market_name}："
     parts = []
     if n_sell:
         parts.append(f"{n_sell} 檔持股警報" + ("（含緊急停損）" if urgent else ""))
+    if combo_candidates:
+        parts.append(f"{len(combo_candidates)} 檔綜合訊號")
     if n_buy:
         parts.append(f"{n_buy} 檔買進候選")
     if box_candidates:
@@ -53,6 +57,16 @@ def format_signal_email(market_name: str, date_str: str, buy_candidates: list[di
         f"<h2>{market_name}｜{date_str}</h2>",
         f"<p><b>大盤燈號 {light_emoji}</b>：{market_gauge.get('reason', '')}</p>",
     ]
+
+    if combo_candidates:
+        html.append("<h3>⭐ 綜合訊號（大漲＋箱型雙檢核通過，最強共振）</h3><ul>")
+        for e in combo_candidates:
+            score_txt = f"檢核 {e['score']}/100｜" if e.get("score") is not None else ""
+            html.append(
+                f"<li><b>{e['name']}（{e['ticker']}）</b> 收盤 {e['close']:g}｜{score_txt}"
+                f"{e['kd_state']}，距3年高 {e['pct_of_high']}%</li>"
+            )
+        html.append("</ul><p>兩套策略同日給出訊號，技術面共振；仍請完成人工確認再決定。</p>")
 
     if sell_alerts:
         html.append("<h3>🚨 持股警報（依書中規則，出現訊號就要果斷行動）</h3><ul>")

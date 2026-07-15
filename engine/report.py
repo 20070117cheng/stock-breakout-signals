@@ -153,6 +153,42 @@ def _ai_block(ai7: dict | None) -> str:
 </div>"""
 
 
+def _combo_section(state: dict) -> str:
+    rows = []
+    for mkt_key, mkt_name in [("tw", "台股"), ("us", "美股")]:
+        m = state.get(mkt_key) or {}
+        for e in m.get("combo_candidates", []):
+            score = f"<b>{e['score']}/100</b>" if e.get("score") is not None else "—"
+            src = "＋".join(
+                {"breakout": "大漲", "box": "箱型"}.get(s, s) for s in e.get("sources", [])
+            )
+            fund = e.get("fund_summary") or "（見大漲評分卡）"
+            rows.append(
+                f"<tr><td>{mkt_name}</td><td><b>{e['name']}</b><br class='m'>{e['ticker']}</td>"
+                f"<td>{e['close']:g}</td><td>{score}</td>"
+                f"<td><b>{e['kd_state']}</b></td><td>{e['pct_of_high']:.1f}%</td>"
+                f"<td class='muted'>{fund}</td><td>{src}</td></tr>"
+            )
+    if not rows:
+        return ("<p class='empty'>今日沒有雙檢核都通過的股票。綜合訊號＝大漲與箱型兩套檢核同時成立，"
+                "本來就少見；出現時代表長短波段技術面共振，值得優先研究。</p>")
+    return (
+        "<table><thead><tr><th>市場</th><th>股票</th><th>現價</th><th>檢核分數</th>"
+        "<th>KD 狀態</th><th>距3年高</th><th>基本面③④⑤⑥⑧</th><th>訊號來源</th></tr></thead><tbody>"
+        + "".join(rows) + "</tbody></table>"
+    )
+
+
+def _box_check_note(c: dict) -> str:
+    bc = c.get("box_check")
+    if not bc:
+        return ""
+    if bc.get("pass"):
+        return (f"<p class='muted'>箱型檢核：<b style='color:#0f766e'>通過</b>"
+                f"（{bc.get('kd_state', '')}，距3年高 {bc.get('pct_of_high', 0):.1f}%）→ 列入綜合訊號</p>")
+    return f"<p class='muted'>箱型檢核：未過——{bc.get('reason', '')}</p>"
+
+
 def _candidates_section(state: dict) -> str:
     entries = []
     for mkt_key, mkt_name in [("tw", "台股"), ("us", "美股")]:
@@ -167,12 +203,15 @@ def _candidates_section(state: dict) -> str:
         if c.get("spark"):
             chart = (f"<p class='muted' style='margin:6px 0 0'>近 2 年收盤走勢"
                      f"（看平穩期與突破位置，書 p.72）：</p>{_sparkline(c['spark'], '#2563eb', 340, 80)}")
+        combo_tag = ('<span class="tag tag-combo">箱型✓ 綜合訊號</span> '
+                     if (c.get("box_check") or {}).get("pass") else "")
         cards.append(f"""<details class="card cand">
   <summary><b>{sc['score']}/100</b>｜{mkt_name}｜<b>{c['name']}（{c['ticker']}）</b>
-    收盤 {c['close']:g} — {sc['verdict']}</summary>
+    收盤 {c['close']:g} — {combo_tag}{sc['verdict']}</summary>
   {chart}
   {_scorecard_table(sc)}
   {_ai_block(c.get('ai7'))}
+  {_box_check_note(c)}
   <p class="muted">反彈幅度 {c.get('rebound', 0):.0%}｜平穩期品質 {c.get('base_quality', 0):.0%}｜訊號日 {date}</p>
 </details>""")
     if not cards:
@@ -186,18 +225,25 @@ def _box_section(state: dict) -> str:
         m = state.get(mkt_key) or {}
         for c in m.get("box_candidates", []):
             chart = _sparkline(c["spark"], "#0d9488", 150, 40) if c.get("spark") else ""
+            fc = c.get("fund_check")
+            if fc is None:
+                fund = "<span class='muted'>—</span>"
+            elif fc.get("pass"):
+                fund = f"<b style='color:#0f766e'>通過</b><br class='m'><span class='muted'>{fc.get('summary', '')}</span>"
+            else:
+                fund = f"<span class='muted'>{fc.get('summary', '未過')}</span>"
             rows.append(
                 f"<tr><td>{mkt_name}</td><td><b>{c['name']}</b><br class='m'>{c['ticker']}</td>"
                 f"<td>{c['close']:g}</td><td>{c['high_close_3y']:g}</td>"
                 f"<td>{c['pct_of_high']:.1f}%</td><td>{c['k']:g} / {c['d']:g}</td>"
-                f"<td><b>{c['kd_state']}</b></td><td>{chart}</td></tr>"
+                f"<td><b>{c['kd_state']}</b></td><td>{fund}</td><td>{chart}</td></tr>"
             )
     if not rows:
         return ("<p class='empty'>今日沒有箱型訊號（貼近 3 年高點且 KD 剛金叉／將金叉的股票）。"
                 "沒訊號空手等待即可。</p>")
     return (
         "<table><thead><tr><th>市場</th><th>股票</th><th>現價</th><th>3年收盤高</th>"
-        "<th>距高點</th><th>K / D</th><th>KD 狀態</th><th>近2年走勢</th></tr></thead><tbody>"
+        "<th>距高點</th><th>K / D</th><th>KD 狀態</th><th>書中檢核</th><th>近2年走勢</th></tr></thead><tbody>"
         + "".join(rows) + "</tbody></table>"
     )
 
@@ -407,6 +453,7 @@ details.cand summary {{ cursor: pointer; font-size: 15px; line-height: 1.6; }}
 .tag-book {{ background: #dcfce7; color: #15803d; }}
 .tag-sys {{ background: #fef9c3; color: #a16207; }}
 .tag-ai {{ background: #ede9fe; color: #6d28d9; }}
+.tag-combo {{ background: #ccfbf1; color: #0f766e; }}
 footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 .tabs {{ position: sticky; top: 0; z-index: 10; display: flex; gap: 4px; background: #0f172a;
   padding: 8px 12px; overflow-x: auto; -webkit-overflow-scrolling: touch; }}
@@ -425,8 +472,7 @@ footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 </header>
 <nav class="tabs">
   <button data-tab="market" class="active">大盤燈號</button>
-  <button data-tab="buy">買進候選</button>
-  <button data-tab="box">箱型訊號</button>
+  <button data-tab="buy">今日選股</button>
   <button data-tab="industry">產業聚集</button>
   <button data-tab="hold">持股監控</button>
   <button data-tab="paper">虛擬操盤</button>
@@ -490,7 +536,14 @@ footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 </section>
 
 <section id="tab-buy" class="tab">
-<h2>買進候選（今日突破 2 年新高＋基本面檢核）</h2>
+<h2>綜合訊號（大漲＋箱型雙檢核通過，放最上）</h2>
+{_combo_section(state)}
+<div class="help"><b>綜合訊號＝同一檔股票兩套檢核都通過</b>：
+大漲側＝突破 2 年新高＋檢核表結論達「候選」以上；箱型側＝現價 ≥ 3 年收盤高 95% 且 KD(9) 剛金叉或準備交叉（原箱型判斷式，參數不動）。<br>
+做法：大漲候選自動加驗箱型條件；箱型候選自動加驗書中基本面（檢核表③④⑤⑥⑧，無 × 即通過——①②是突破專屬條件、⑦AI 有每日額度，不納入交叉檢核）。<br>
+兩套策略一長一短，同日共振本來就少見；出現時值得優先研究，但仍請完成人工確認再決定。</div>
+
+<h2>大漲訊號（今日突破 2 年新高＋基本面檢核）</h2>
 {_candidates_section(state)}
 <div class="help">每張評分卡對應書中附錄一的 9 項檢核表（★＝書中標示的重要項目）。
 <b>第⑦項未來獲利判斷</b>：設定 AI 金鑰後，系統會自動蒐集新聞與營運數字請 AI 判斷，
@@ -498,17 +551,17 @@ footer {{ text-align: center; color: #94a3b8; font-size: 12px; padding: 24px; }}
 行有餘力再看公司法說會（書 p.131-146：成長理由要能一句話說清楚，聽到景氣發言就淘汰）。<br>
 <b>為什麼只列「今日」的訊號？</b>訊號的定義是「收盤價」創 2 年新高，收盤後才能確認；買進時機就是隔天開盤（機械式操作）。
 過幾天才追買，進場價偏離訊號價，8% 停損的風險設計就失效了。錯過的訊號請放掉，去「訊號記錄」分頁複盤即可。</div>
-</section>
 
-<section id="tab-box" class="tab">
 <h2>箱型訊號（KD 金叉＋貼近 3 年高，台股＋美股）</h2>
 {_box_section(state)}
 <div class="help"><b>這是你原本「箱型系統」的訊號引擎</b>，已原封移植到這裡（判斷邏輯逐行相同）：
 現價 ≥ 3 年收盤高點的 95%，且 KD(9) 剛黃金交叉（昨 K&lt;D、今 K≥D）或準備交叉（D−K ≤ 2）。<br>
 出場規則沿用你的設定：<b>移動停利 10%／固定停損 3%</b>（下一階段會連同專屬虛擬帳戶一起接上，
 與大漲訊號策略同台比較成效）。<br>
-<b>與「買進候選」的差別</b>：箱型看的是「貼近高點＋KD 翻多」的短波段節奏，不檢查基本面；
-大漲訊號看的是「突破新高＋獲利加速」的長波段。兩者訊號重疊時，代表技術面共振，值得優先研究。<br>
+<b>與上方「大漲訊號」的差別</b>：箱型看的是「貼近高點＋KD 翻多」的短波段節奏，本身不檢查基本面；
+大漲訊號看的是「突破新高＋獲利加速」的長波段。<br>
+<b>「書中檢核」欄</b>＝系統自動幫每檔箱型訊號加驗書中基本面（③長期獲利④近年加速⑤營收⑥獲利動能⑧本益比）；
+「通過」（無 ×）的會升級到最上方的綜合訊號區塊（每日檢核檔數有上限，超出的隔日再驗）。<br>
 箱型訊號會寫進每日 Email（同一封信的「箱型訊號」段），不想收改 config 的 <code>box_email</code>。</div>
 </section>
 

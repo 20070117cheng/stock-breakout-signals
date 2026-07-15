@@ -14,7 +14,7 @@ import pandas as pd
 import yaml
 import yfinance as yf
 
-from engine import ai_judge as aij, datastore, extras, notify, paper as pp, report, universe
+from engine import ai_judge as aij, cross, datastore, extras, notify, paper as pp, report, universe
 from engine.box import scan as boxscan
 from engine.scoring import build_scorecard
 from engine.signals import fundamentals as fu
@@ -91,18 +91,28 @@ def screen_breakouts(close: pd.DataFrame, names: dict[str, str], cfg: dict) -> l
     return candidates[: cfg["max_candidates_per_day"]]
 
 
-def enrich_fundamentals(market: str, cand: dict, cfg: dict, gauge: dict) -> dict:
-    """③~⑨ 檢核，組成評分卡。"""
+def fundamental_items(market: str, ticker: str, close_price: float, cfg: dict) -> dict:
+    """檢核表③④⑤⑥⑧（財報＋本益比）——大漲候選與箱型交叉檢核共用。"""
     if market == "tw":
-        stock_id = cand["ticker"].split(".")[0]
+        stock_id = ticker.split(".")[0]
         f = fu.tw_fundamentals(stock_id)
         pe = None
         if f.get("eps_ttm") and f["eps_ttm"] > 0:
-            pe = cand["close"] / f["eps_ttm"]
+            pe = close_price / f["eps_ttm"]
     else:
-        f = fu.us_fundamentals(cand["ticker"])
+        f = fu.us_fundamentals(ticker)
         pe = f.get("pe")
+    return {
+        "3": fu.grade_long_term_growth(f["annual_pretax"], cfg["long_term_growth"]),
+        "4": fu.grade_recent_annual_growth(f["annual_pretax"], f["quarterly"], cfg["recent_growth"]),
+        "5": fu.grade_quarterly_revenue(f["quarterly"], f["monthly_rev_yoy"], cfg["quarterly_revenue_growth"]),
+        "6": fu.grade_quarterly_profit(f["quarterly"], cfg["quarterly_profit_growth"]),
+        "8": fu.grade_pe(pe, cfg["pe_limit"]),
+    }
 
+
+def enrich_fundamentals(market: str, cand: dict, cfg: dict, gauge: dict) -> dict:
+    """③~⑨ 檢核，組成評分卡。"""
     items = {
         "1": ("O", f"收盤 {cand['close']:g} 創近 2 年新高"),
         "2": (
@@ -110,11 +120,7 @@ def enrich_fundamentals(market: str, cand: dict, cfg: dict, gauge: dict) -> dict
             f"反彈幅度 {cand['rebound']:.0%}（目標≥60%），平穩期品質 {cand['base_quality']:.0%}"
             + "——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
         ),
-        "3": fu.grade_long_term_growth(f["annual_pretax"], cfg["long_term_growth"]),
-        "4": fu.grade_recent_annual_growth(f["annual_pretax"], f["quarterly"], cfg["recent_growth"]),
-        "5": fu.grade_quarterly_revenue(f["quarterly"], f["monthly_rev_yoy"], cfg["quarterly_revenue_growth"]),
-        "6": fu.grade_quarterly_profit(f["quarterly"], cfg["quarterly_profit_growth"]),
-        "8": fu.grade_pe(pe, cfg["pe_limit"]),
+        **fundamental_items(market, cand["ticker"], cand["close"], cfg),
         "9": (
             {"green": "O", "yellow": "T", "red": "X"}.get(gauge["light"], "T"),
             gauge["reason"],
@@ -256,6 +262,40 @@ def main() -> None:
         except Exception:
             print(f"[box] 掃描失敗（不影響主策略）：\n{traceback.format_exc()}")
 
+    # 3.85 交叉檢核：大漲候選跑箱型檢核、箱型候選跑書中基本面檢核 → 綜合訊號
+    high_3y = close.max()
+    for c in buy_candidates:
+        h3 = high_3y.get(c["ticker"])
+        if h3 is None or pd.isna(h3):
+            c["box_check"] = {"pass": False, "reason": "無 3 年高價資料"}
+            continue
+        try:
+            ohlcv = datastore.fetch_ohlcv(c["ticker"], period="1y")
+            c["box_check"] = cross.box_status(ohlcv, float(h3), cfg)
+        except Exception:
+            print(f"[cross] {c['ticker']} 箱型檢核失敗：\n{traceback.format_exc()}")
+            c["box_check"] = {"pass": False, "reason": "資料抓取失敗"}
+        time.sleep(0.3)
+    fund_checked = 0
+    max_fund = int(cfg.get("box_fundamental_max", 20))
+    for b in box_candidates:
+        if fund_checked >= max_fund:
+            # 箱型清單依距高點排序，超出上限的當日不檢核（控制 API 用量）
+            b["fund_check"] = {"pass": False, "summary": "未檢核（超出當日上限）", "skipped": True}
+            continue
+        try:
+            b["fund_check"] = cross.fund_check_result(
+                fundamental_items(market, b["ticker"], b["close"], cfg)
+            )
+            fund_checked += 1
+            time.sleep(cfg["fundamental_pause_sec"])
+        except Exception:
+            print(f"[cross] {b['ticker']} 基本面檢核失敗：\n{traceback.format_exc()}")
+            b["fund_check"] = {"pass": False, "summary": "檢核失敗（資料源異常）"}
+    combo_candidates = cross.combine(buy_candidates, box_candidates)
+    if combo_candidates:
+        print(f"[cross] 綜合訊號（雙檢核通過）：{len(combo_candidates)} 檔")
+
     # 3.9 附加資訊：候選股走勢縮圖、產業聚集、行事曆
     for c in buy_candidates + box_candidates:
         if c["ticker"] in close.columns:
@@ -314,6 +354,7 @@ def main() -> None:
         "n_universe": int(close.iloc[-1].notna().sum()),
         "buy_candidates": buy_candidates,
         "box_candidates": box_candidates,
+        "combo_candidates": combo_candidates,
         "industries": industries,
         "calendar": calendar,
         "holdings": holdings,
@@ -353,13 +394,20 @@ def main() -> None:
          "ticker": c["ticker"], "name": c["name"],
          "note": f"{c['kd_state']}，距3年收盤高 {c['pct_of_high']}%（K {c['k']}／D {c['d']}）"}
         for c in box_candidates
+    ] + [
+        {"date": date_str, "market": MARKET_NAME[market], "type": "綜合訊號",
+         "ticker": e["ticker"], "name": e["name"],
+         "note": "雙策略檢核通過："
+                 + (f"檢核 {e['score']}/100，" if e.get("score") is not None else "")
+                 + f"{e['kd_state']}，距3年高 {e['pct_of_high']}%"}
+        for e in combo_candidates
     ]
     log = report.append_log(entries)
     report.render(state, log)
 
     # 6. Email
     box_for_email = box_candidates if cfg.get("box_email", True) else []
-    if (notified or sell_alerts or box_for_email) and not args.no_email:
+    if (notified or sell_alerts or box_for_email or combo_candidates) and not args.no_email:
         light = gauge["light"]
         hint = {
             "green": f"大盤綠燈：可依計畫買進，單檔上限＝總資產（{cfg['total_capital']:,}）的 10% ＝ {cfg['total_capital'] * 0.1:,.0f}",
@@ -369,6 +417,7 @@ def main() -> None:
         subject, body = notify.format_signal_email(
             MARKET_NAME[market], date_str, notified, sell_alerts, gauge,
             cfg["dashboard_url"], hint, box_candidates=box_for_email,
+            combo_candidates=combo_candidates,
         )
         notify.send_email(subject, body)
     else:
