@@ -1,7 +1,7 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 615586.0001655403,
+  "cash": 574348.0462761971,
   "positions": [
    {
     "ticker": "4207.TWO",
@@ -9,7 +9,7 @@
     "shares": 1969.9584,
     "buy_price": 20.049999237060547,
     "buy_date": "2026-07-06",
-    "last_price": 20.049999237060547,
+    "last_price": 19.850000381469727,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -20,7 +20,7 @@
     "shares": 1346.771,
     "buy_price": 34.150001525878906,
     "buy_date": "2026-07-06",
-    "last_price": 36.150001525878906,
+    "last_price": 35.45000076293945,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -31,7 +31,7 @@
     "shares": 1142.5893,
     "buy_price": 38.5,
     "buy_date": "2026-07-06",
-    "last_price": 38.5,
+    "last_price": 37.650001525878906,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -42,7 +42,7 @@
     "shares": 262.415,
     "buy_price": 143.5,
     "buy_date": "2026-07-07",
-    "last_price": 148.5,
+    "last_price": 145.5,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -53,7 +53,7 @@
     "shares": 606.3533,
     "buy_price": 62.099998474121094,
     "buy_date": "2026-07-07",
-    "last_price": 64.80000305175781,
+    "last_price": 63.599998474121094,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -64,7 +64,7 @@
     "shares": 283.0009,
     "buy_price": 160.5,
     "buy_date": "2026-07-13",
-    "last_price": 161.0,
+    "last_price": 167.0,
     "signal_date": "2026-07-14",
     "status": "HOLD",
     "status_note": ""
@@ -75,7 +75,7 @@
     "shares": 1055.4329,
     "buy_price": 41.20000076293945,
     "buy_date": "2026-07-15",
-    "last_price": 41.95000076293945,
+    "last_price": 41.099998474121094,
     "signal_date": "2026-07-13",
     "status": "HOLD",
     "status_note": ""
@@ -86,7 +86,7 @@
     "shares": 160.9657,
     "buy_price": 242.5,
     "buy_date": "2026-07-15",
-    "last_price": 242.0,
+    "last_price": 241.0,
     "signal_date": "2026-07-13",
     "status": "HOLD",
     "status_note": ""
@@ -97,22 +97,24 @@
     "shares": 67.374,
     "buy_price": 550.0,
     "buy_date": "2026-07-15",
-    "last_price": 556.0,
+    "last_price": 550.0,
     "signal_date": "2026-07-13",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "8415.TWO",
+    "name": "大國鋼",
+    "shares": 1179.9218,
+    "buy_price": 34.900001525878906,
+    "buy_date": "2026-07-14",
+    "last_price": 35.79999923706055,
+    "signal_date": "2026-07-15",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [
-   {
-    "ticker": "8415.TWO",
-    "name": "大國鋼",
-    "light": "yellow",
-    "score": 83,
-    "signal_date": "2026-07-15",
-    "signal_close": 36.6
-   }
-  ],
+  "pending_buys": [],
   "pending_sells": [],
   "trades": [
    {
@@ -301,6 +303,17 @@
     "amount": 37108.48,
     "signal_date": "2026-07-13",
     "reason": "買進訊號（黃燈基準 × 檢核75分 → 部位 3.8%，訊號日 2026-07-13）"
+   },
+   {
+    "date": "2026-07-14",
+    "action": "BUY",
+    "ticker": "8415.TWO",
+    "name": "大國鋼",
+    "price": 34.900001525878906,
+    "shares": 1179.9218,
+    "amount": 41237.95,
+    "signal_date": "2026-07-15",
+    "reason": "買進訊號（黃燈基準 × 檢核83分 → 部位 4.2%，訊號日 2026-07-15）"
    }
   ],
   "equity_history": [
@@ -335,6 +348,10 @@
    {
     "date": "2026-07-15",
     "equity": 992271.65
+   },
+   {
+    "date": "2026-07-14",
+    "equity": 989687.77
    }
   ]
  },
