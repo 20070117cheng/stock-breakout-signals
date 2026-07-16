@@ -1,7 +1,7 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 574348.0462761971,
+  "cash": 575747.7602151722,
   "positions": [
    {
     "ticker": "4207.TWO",
@@ -9,7 +9,7 @@
     "shares": 1969.9584,
     "buy_price": 20.049999237060547,
     "buy_date": "2026-07-06",
-    "last_price": 19.950000762939453,
+    "last_price": 20.049999237060547,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -26,23 +26,12 @@
     "status_note": ""
    },
    {
-    "ticker": "2851.TW",
-    "name": "中再保",
-    "shares": 1142.5893,
-    "buy_price": 38.5,
-    "buy_date": "2026-07-06",
-    "last_price": 36.900001525878906,
-    "signal_date": "2026-07-03",
-    "status": "SELL_SIGNAL",
-    "status_note": "已排明日開盤賣出。技術面：賣壓比例 133% ≥ 117%，股價可能已達中長期高點"
-   },
-   {
     "ticker": "2850.TW",
     "name": "新產",
     "shares": 262.415,
     "buy_price": 143.5,
     "buy_date": "2026-07-07",
-    "last_price": 147.5,
+    "last_price": 148.5,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -53,7 +42,7 @@
     "shares": 606.3533,
     "buy_price": 62.099998474121094,
     "buy_date": "2026-07-07",
-    "last_price": 65.19999694824219,
+    "last_price": 64.80000305175781,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -64,7 +53,7 @@
     "shares": 283.0009,
     "buy_price": 160.5,
     "buy_date": "2026-07-13",
-    "last_price": 160.0,
+    "last_price": 161.0,
     "signal_date": "2026-07-14",
     "status": "HOLD",
     "status_note": ""
@@ -75,7 +64,7 @@
     "shares": 1055.4329,
     "buy_price": 41.20000076293945,
     "buy_date": "2026-07-15",
-    "last_price": 41.900001525878906,
+    "last_price": 41.95000076293945,
     "signal_date": "2026-07-13",
     "status": "HOLD",
     "status_note": ""
@@ -86,7 +75,7 @@
     "shares": 160.9657,
     "buy_price": 242.5,
     "buy_date": "2026-07-15",
-    "last_price": 231.5,
+    "last_price": 242.0,
     "signal_date": "2026-07-13",
     "status": "HOLD",
     "status_note": ""
@@ -97,7 +86,7 @@
     "shares": 67.374,
     "buy_price": 550.0,
     "buy_date": "2026-07-15",
-    "last_price": 596.0,
+    "last_price": 542.5819091796875,
     "signal_date": "2026-07-13",
     "status": "HOLD",
     "status_note": ""
@@ -108,28 +97,25 @@
     "shares": 1179.9218,
     "buy_price": 34.900001525878906,
     "buy_date": "2026-07-14",
-    "last_price": 36.099998474121094,
+    "last_price": 36.599998474121094,
     "signal_date": "2026-07-15",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "6870.TWO",
+    "name": "騰雲",
+    "shares": 137.5595,
+    "buy_price": 299.5,
+    "buy_date": "2026-07-15",
+    "last_price": 304.5,
+    "signal_date": "2026-07-16",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [
-   {
-    "ticker": "6870.TWO",
-    "name": "騰雲",
-    "light": "yellow",
-    "score": 83,
-    "signal_date": "2026-07-16",
-    "signal_close": 330.0
-   }
-  ],
-  "pending_sells": [
-   {
-    "ticker": "2851.TW",
-    "reason": "技術面：賣壓比例 133% ≥ 117%，股價可能已達中長期高點"
-   }
-  ],
+  "pending_buys": [],
+  "pending_sells": [],
   "trades": [
    {
     "date": "2026-07-06",
@@ -328,6 +314,28 @@
     "amount": 41237.95,
     "signal_date": "2026-07-15",
     "reason": "買進訊號（黃燈基準 × 檢核83分 → 部位 4.2%，訊號日 2026-07-15）"
+   },
+   {
+    "date": "2026-07-15",
+    "action": "SELL",
+    "ticker": "2851.TW",
+    "name": "中再保",
+    "price": 37.5,
+    "shares": 1142.5893,
+    "amount": 42657.5,
+    "pnl_pct": -0.025974025974025983,
+    "reason": "技術面：賣壓比例 133% ≥ 117%，股價可能已達中長期高點"
+   },
+   {
+    "date": "2026-07-15",
+    "action": "BUY",
+    "ticker": "6870.TWO",
+    "name": "騰雲",
+    "price": 299.5,
+    "shares": 137.5595,
+    "amount": 41257.79,
+    "signal_date": "2026-07-16",
+    "reason": "買進訊號（黃燈基準 × 檢核83分 → 部位 4.2%，訊號日 2026-07-16）"
    }
   ],
   "equity_history": [
@@ -370,6 +378,10 @@
    {
     "date": "2026-07-16",
     "equity": 992252.91
+   },
+   {
+    "date": "2026-07-15",
+    "equity": 992611.69
    }
   ]
  },
