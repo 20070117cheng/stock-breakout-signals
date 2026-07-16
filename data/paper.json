@@ -9,7 +9,7 @@
     "shares": 1969.9584,
     "buy_price": 20.049999237060547,
     "buy_date": "2026-07-06",
-    "last_price": 19.850000381469727,
+    "last_price": 19.950000762939453,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -20,7 +20,7 @@
     "shares": 1346.771,
     "buy_price": 34.150001525878906,
     "buy_date": "2026-07-06",
-    "last_price": 35.45000076293945,
+    "last_price": 36.150001525878906,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -31,10 +31,10 @@
     "shares": 1142.5893,
     "buy_price": 38.5,
     "buy_date": "2026-07-06",
-    "last_price": 37.650001525878906,
+    "last_price": 36.900001525878906,
     "signal_date": "2026-07-03",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_SIGNAL",
+    "status_note": "已排明日開盤賣出。技術面：賣壓比例 133% ≥ 117%，股價可能已達中長期高點"
    },
    {
     "ticker": "2850.TW",
@@ -42,7 +42,7 @@
     "shares": 262.415,
     "buy_price": 143.5,
     "buy_date": "2026-07-07",
-    "last_price": 145.5,
+    "last_price": 147.5,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -53,7 +53,7 @@
     "shares": 606.3533,
     "buy_price": 62.099998474121094,
     "buy_date": "2026-07-07",
-    "last_price": 63.599998474121094,
+    "last_price": 65.19999694824219,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -64,7 +64,7 @@
     "shares": 283.0009,
     "buy_price": 160.5,
     "buy_date": "2026-07-13",
-    "last_price": 167.0,
+    "last_price": 160.0,
     "signal_date": "2026-07-14",
     "status": "HOLD",
     "status_note": ""
@@ -75,7 +75,7 @@
     "shares": 1055.4329,
     "buy_price": 41.20000076293945,
     "buy_date": "2026-07-15",
-    "last_price": 41.099998474121094,
+    "last_price": 41.900001525878906,
     "signal_date": "2026-07-13",
     "status": "HOLD",
     "status_note": ""
@@ -86,7 +86,7 @@
     "shares": 160.9657,
     "buy_price": 242.5,
     "buy_date": "2026-07-15",
-    "last_price": 241.0,
+    "last_price": 231.5,
     "signal_date": "2026-07-13",
     "status": "HOLD",
     "status_note": ""
@@ -97,7 +97,7 @@
     "shares": 67.374,
     "buy_price": 550.0,
     "buy_date": "2026-07-15",
-    "last_price": 550.0,
+    "last_price": 596.0,
     "signal_date": "2026-07-13",
     "status": "HOLD",
     "status_note": ""
@@ -108,14 +108,28 @@
     "shares": 1179.9218,
     "buy_price": 34.900001525878906,
     "buy_date": "2026-07-14",
-    "last_price": 35.79999923706055,
+    "last_price": 36.099998474121094,
     "signal_date": "2026-07-15",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [],
-  "pending_sells": [],
+  "pending_buys": [
+   {
+    "ticker": "6870.TWO",
+    "name": "騰雲",
+    "light": "yellow",
+    "score": 83,
+    "signal_date": "2026-07-16",
+    "signal_close": 330.0
+   }
+  ],
+  "pending_sells": [
+   {
+    "ticker": "2851.TW",
+    "reason": "技術面：賣壓比例 133% ≥ 117%，股價可能已達中長期高點"
+   }
+  ],
   "trades": [
    {
     "date": "2026-07-06",
@@ -352,6 +366,10 @@
    {
     "date": "2026-07-14",
     "equity": 989687.77
+   },
+   {
+    "date": "2026-07-16",
+    "equity": 992252.91
    }
   ]
  },
