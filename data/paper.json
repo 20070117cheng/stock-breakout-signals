@@ -365,7 +365,7 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 279.8800048828125,
+    "last_price": 273.9200134277344,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -376,7 +376,7 @@
     "shares": 8.7801,
     "buy_price": 341.67999267578125,
     "buy_date": "2026-07-06",
-    "last_price": 341.510009765625,
+    "last_price": 329.19000244140625,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -387,7 +387,7 @@
     "shares": 9.998,
     "buy_price": 249.0500030517578,
     "buy_date": "2026-07-06",
-    "last_price": 256.45001220703125,
+    "last_price": 239.47999572753906,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -398,7 +398,7 @@
     "shares": 19.9586,
     "buy_price": 150.14999389648438,
     "buy_date": "2026-07-07",
-    "last_price": 151.27000427246094,
+    "last_price": 162.35000610351562,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -409,7 +409,7 @@
     "shares": 2.462,
     "buy_price": 1221.0999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 1181.8699951171875,
+    "last_price": 1156.6300048828125,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -420,7 +420,7 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 114.2300033569336,
+    "last_price": 115.08999633789062,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -431,10 +431,10 @@
     "shares": 15.9229,
     "buy_price": 187.0,
     "buy_date": "2026-07-09",
-    "last_price": 181.14999389648438,
+    "last_price": 171.9199981689453,
     "signal_date": "2026-07-08",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。停損：現價 171.92 低於買價 187 達 8.1%（門檻 8%），立即賣出"
    },
    {
     "ticker": "TRGP",
@@ -442,17 +442,34 @@
     "shares": 9.8987,
     "buy_price": 276.739990234375,
     "buy_date": "2026-07-09",
-    "last_price": 279.3999938964844,
+    "last_price": 278.1600036621094,
     "signal_date": "2026-07-08",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [],
+  "pending_buys": [
+   {
+    "ticker": "IBKR",
+    "name": "Interactive Brokers",
+    "light": "yellow",
+    "score": 92,
+    "signal_date": "2026-07-15",
+    "signal_close": 97.41
+   },
+   {
+    "ticker": "MS",
+    "name": "Morgan Stanley",
+    "light": "yellow",
+    "score": 92,
+    "signal_date": "2026-07-15",
+    "signal_close": 228.55
+   }
+  ],
   "pending_sells": [
    {
-    "ticker": "VRTX",
-    "reason": "停損：現價 480.25 低於買價 528.6 達 9.1%（門檻 8%），立即賣出"
+    "ticker": "ANET",
+    "reason": "停損：現價 171.92 低於買價 187 達 8.1%（門檻 8%），立即賣出"
    }
   ],
   "trades": [
@@ -591,6 +608,10 @@
    {
     "date": "2026-07-13",
     "equity": 29609.98
+   },
+   {
+    "date": "2026-07-15",
+    "equity": 29292.52
    }
   ]
  }
