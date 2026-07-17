@@ -387,7 +387,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 6681.961656607595,
+  "cash": 6685.3333623208955,
   "positions": [
    {
     "ticker": "AIZ",
@@ -395,7 +395,7 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 273.9200134277344,
+    "last_price": 275.44000244140625,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -406,7 +406,7 @@
     "shares": 8.7801,
     "buy_price": 341.67999267578125,
     "buy_date": "2026-07-06",
-    "last_price": 329.19000244140625,
+    "last_price": 337.82000732421875,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -417,7 +417,7 @@
     "shares": 9.998,
     "buy_price": 249.0500030517578,
     "buy_date": "2026-07-06",
-    "last_price": 239.47999572753906,
+    "last_price": 241.86000061035156,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -428,7 +428,7 @@
     "shares": 19.9586,
     "buy_price": 150.14999389648438,
     "buy_date": "2026-07-07",
-    "last_price": 162.35000610351562,
+    "last_price": 160.86000061035156,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -439,7 +439,7 @@
     "shares": 2.462,
     "buy_price": 1221.0999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 1156.6300048828125,
+    "last_price": 1169.1700439453125,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -450,21 +450,10 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 115.08999633789062,
+    "last_price": 116.6500015258789,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "ANET",
-    "name": "Arista Networks",
-    "shares": 15.9229,
-    "buy_price": 187.0,
-    "buy_date": "2026-07-09",
-    "last_price": 171.9199981689453,
-    "signal_date": "2026-07-08",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。停損：現價 171.92 低於買價 187 達 8.1%（門檻 8%），立即賣出"
    },
    {
     "ticker": "TRGP",
@@ -472,34 +461,56 @@
     "shares": 9.8987,
     "buy_price": 276.739990234375,
     "buy_date": "2026-07-09",
-    "last_price": 278.1600036621094,
+    "last_price": 280.2699890136719,
     "signal_date": "2026-07-08",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "IBKR",
+    "name": "Interactive Brokers",
+    "shares": 13.9862,
+    "buy_price": 96.19999694824219,
+    "buy_date": "2026-07-16",
+    "last_price": 92.20999908447266,
+    "signal_date": "2026-07-15",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "MS",
+    "name": "Morgan Stanley",
+    "shares": 5.8952,
+    "buy_price": 228.22999572753906,
+    "buy_date": "2026-07-16",
+    "last_price": 218.3699951171875,
+    "signal_date": "2026-07-15",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [
    {
-    "ticker": "IBKR",
-    "name": "Interactive Brokers",
+    "ticker": "FRT",
+    "name": "Federal Realty Investment Trust",
     "light": "yellow",
     "score": 92,
-    "signal_date": "2026-07-15",
-    "signal_close": 97.41
+    "signal_date": "2026-07-16",
+    "signal_close": 125.36
    },
    {
-    "ticker": "MS",
-    "name": "Morgan Stanley",
+    "ticker": "KIM",
+    "name": "Kimco Realty",
     "light": "yellow",
-    "score": 92,
-    "signal_date": "2026-07-15",
-    "signal_close": 228.55
+    "score": 83,
+    "signal_date": "2026-07-16",
+    "signal_close": 26.03
    }
   ],
   "pending_sells": [
    {
     "ticker": "ANET",
-    "reason": "停損：現價 171.92 低於買價 187 達 8.1%（門檻 8%），立即賣出"
+    "reason": "停損：現價 168.56 低於買價 187 達 9.9%（門檻 8%），立即賣出"
    }
   ],
   "trades": [
@@ -612,6 +623,39 @@
     "amount": 2538.49,
     "pnl_pct": -0.08024968760759954,
     "reason": "停損：現價 485.39 低於買價 528.6 達 8.2%（門檻 8%），立即賣出"
+   },
+   {
+    "date": "2026-07-16",
+    "action": "SELL",
+    "ticker": "ANET",
+    "name": "Arista Networks",
+    "price": 169.2100067138672,
+    "shares": 15.9229,
+    "amount": 2694.31,
+    "pnl_pct": -0.09513365393653905,
+    "reason": "停損：現價 171.92 低於買價 187 達 8.1%（門檻 8%），立即賣出"
+   },
+   {
+    "date": "2026-07-16",
+    "action": "BUY",
+    "ticker": "IBKR",
+    "name": "Interactive Brokers",
+    "price": 96.19999694824219,
+    "shares": 13.9862,
+    "amount": 1345.47,
+    "signal_date": "2026-07-15",
+    "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%，訊號日 2026-07-15）"
+   },
+   {
+    "date": "2026-07-16",
+    "action": "BUY",
+    "ticker": "MS",
+    "name": "Morgan Stanley",
+    "price": 228.22999572753906,
+    "shares": 5.8952,
+    "amount": 1345.47,
+    "signal_date": "2026-07-15",
+    "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%，訊號日 2026-07-15）"
    }
   ],
   "equity_history": [
@@ -642,6 +686,10 @@
    {
     "date": "2026-07-15",
     "equity": 29292.52
+   },
+   {
+    "date": "2026-07-16",
+    "equity": 29312.37
    }
   ]
  }
