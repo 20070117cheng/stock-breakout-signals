@@ -429,7 +429,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 4120.500627095535,
+  "cash": 5391.034156282546,
   "positions": [
    {
     "ticker": "AIZ",
@@ -437,7 +437,7 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 276.8399963378906,
+    "last_price": 275.4700012207031,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -448,7 +448,7 @@
     "shares": 8.7801,
     "buy_price": 341.67999267578125,
     "buy_date": "2026-07-06",
-    "last_price": 368.9800109863281,
+    "last_price": 368.5,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -459,7 +459,7 @@
     "shares": 9.998,
     "buy_price": 249.0500030517578,
     "buy_date": "2026-07-06",
-    "last_price": 249.89999389648438,
+    "last_price": 253.72999572753906,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -470,7 +470,7 @@
     "shares": 19.9586,
     "buy_price": 150.14999389648438,
     "buy_date": "2026-07-07",
-    "last_price": 157.1300048828125,
+    "last_price": 156.92999267578125,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -481,7 +481,7 @@
     "shares": 2.462,
     "buy_price": 1221.0999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 1179.1099853515625,
+    "last_price": 1146.9000244140625,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -492,7 +492,7 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 117.25,
+    "last_price": 115.6500015258789,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -503,7 +503,7 @@
     "shares": 9.8987,
     "buy_price": 276.739990234375,
     "buy_date": "2026-07-09",
-    "last_price": 282.9100036621094,
+    "last_price": 282.3500061035156,
     "signal_date": "2026-07-08",
     "status": "HOLD",
     "status_note": ""
@@ -514,21 +514,10 @@
     "shares": 13.9862,
     "buy_price": 96.19999694824219,
     "buy_date": "2026-07-16",
-    "last_price": 90.52999877929688,
+    "last_price": 91.68000030517578,
     "signal_date": "2026-07-15",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "MS",
-    "name": "Morgan Stanley",
-    "shares": 5.8952,
-    "buy_price": 228.22999572753906,
-    "buy_date": "2026-07-16",
-    "last_price": 215.5,
-    "signal_date": "2026-07-15",
-    "status": "SELL_SIGNAL",
-    "status_note": "已排明日開盤賣出。技術面：賣壓比例 118% ≥ 117%，股價可能已達中長期高點"
    },
    {
     "ticker": "FRT",
@@ -536,7 +525,7 @@
     "shares": 10.7414,
     "buy_price": 125.52999877929688,
     "buy_date": "2026-07-17",
-    "last_price": 126.0199966430664,
+    "last_price": 125.58999633789062,
     "signal_date": "2026-07-16",
     "status": "HOLD",
     "status_note": ""
@@ -547,7 +536,7 @@
     "shares": 46.6078,
     "buy_price": 26.100000381469727,
     "buy_date": "2026-07-17",
-    "last_price": 26.1200008392334,
+    "last_price": 26.030000686645508,
     "signal_date": "2026-07-16",
     "status": "HOLD",
     "status_note": ""
@@ -557,7 +546,7 @@
   "pending_sells": [
    {
     "ticker": "MS",
-    "reason": "技術面：賣壓比例 118% ≥ 117%，股價可能已達中長期高點"
+    "reason": "技術面：賣壓比例 119% ≥ 117%，股價可能已達中長期高點"
    }
   ],
   "trades": [
@@ -725,6 +714,17 @@
     "amount": 1216.46,
     "signal_date": "2026-07-16",
     "reason": "買進訊號（黃燈基準 × 檢核83分 → 部位 4.2%，訊號日 2026-07-16）"
+   },
+   {
+    "date": "2026-07-20",
+    "action": "SELL",
+    "ticker": "MS",
+    "name": "Morgan Stanley",
+    "price": 215.52000427246094,
+    "shares": 5.8952,
+    "amount": 1270.53,
+    "pnl_pct": -0.05568939969771247,
+    "reason": "技術面：賣壓比例 118% ≥ 117%，股價可能已達中長期高點"
    }
   ],
   "equity_history": [
@@ -763,6 +763,10 @@
    {
     "date": "2026-07-17",
     "equity": 29637.96
+   },
+   {
+    "date": "2026-07-20",
+    "equity": 29535.76
    }
   ]
  }
