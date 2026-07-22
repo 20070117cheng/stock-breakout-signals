@@ -1,7 +1,7 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 575348.6650014042,
+  "cash": 610271.1188005917,
   "positions": [
    {
     "ticker": "4207.TWO",
@@ -9,7 +9,7 @@
     "shares": 1969.9584,
     "buy_price": 20.049999237060547,
     "buy_date": "2026-07-06",
-    "last_price": 20.0,
+    "last_price": 19.950000762939453,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -20,7 +20,7 @@
     "shares": 1346.771,
     "buy_price": 34.150001525878906,
     "buy_date": "2026-07-06",
-    "last_price": 34.70000076293945,
+    "last_price": 34.599998474121094,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -31,7 +31,7 @@
     "shares": 262.415,
     "buy_price": 143.5,
     "buy_date": "2026-07-07",
-    "last_price": 147.5,
+    "last_price": 147.0,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -42,7 +42,7 @@
     "shares": 606.3533,
     "buy_price": 62.099998474121094,
     "buy_date": "2026-07-07",
-    "last_price": 64.4000015258789,
+    "last_price": 64.5,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -53,7 +53,7 @@
     "shares": 283.0009,
     "buy_price": 160.5,
     "buy_date": "2026-07-13",
-    "last_price": 157.0,
+    "last_price": 156.0,
     "signal_date": "2026-07-14",
     "status": "HOLD",
     "status_note": ""
@@ -64,7 +64,7 @@
     "shares": 1055.4329,
     "buy_price": 41.20000076293945,
     "buy_date": "2026-07-15",
-    "last_price": 44.25,
+    "last_price": 41.900001525878906,
     "signal_date": "2026-07-13",
     "status": "HOLD",
     "status_note": ""
@@ -75,7 +75,7 @@
     "shares": 67.374,
     "buy_price": 550.0,
     "buy_date": "2026-07-15",
-    "last_price": 547.0,
+    "last_price": 565.0,
     "signal_date": "2026-07-13",
     "status": "HOLD",
     "status_note": ""
@@ -86,21 +86,10 @@
     "shares": 1179.9218,
     "buy_price": 34.900001525878906,
     "buy_date": "2026-07-14",
-    "last_price": 36.650001525878906,
+    "last_price": 37.400001525878906,
     "signal_date": "2026-07-15",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "6870.TWO",
-    "name": "騰雲",
-    "shares": 137.5595,
-    "buy_price": 299.5,
-    "buy_date": "2026-07-15",
-    "last_price": 264.0,
-    "signal_date": "2026-07-16",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。停損：現價 264 低於買價 299.5 達 11.9%（門檻 8%），立即賣出"
    },
    {
     "ticker": "2880.TW",
@@ -108,7 +97,7 @@
     "shares": 1007.0701,
     "buy_price": 38.849998474121094,
     "buy_date": "2026-07-16",
-    "last_price": 40.79999923706055,
+    "last_price": 41.25,
     "signal_date": "2026-07-17",
     "status": "HOLD",
     "status_note": ""
@@ -118,7 +107,7 @@
   "pending_sells": [
    {
     "ticker": "6870.TWO",
-    "reason": "停損：現價 264 低於買價 299.5 達 11.9%（門檻 8%），立即賣出"
+    "reason": "停損：現價 271.5 低於買價 299.5 達 9.3%（門檻 8%），立即賣出"
    }
   ],
   "trades": [
@@ -363,6 +352,17 @@
     "amount": 39180.42,
     "signal_date": "2026-07-17",
     "reason": "買進訊號（黃燈基準 × 檢核79分 → 部位 4.0%，訊號日 2026-07-17）"
+   },
+   {
+    "date": "2026-07-22",
+    "action": "SELL",
+    "ticker": "6870.TWO",
+    "name": "騰雲",
+    "price": 255.0,
+    "shares": 137.5595,
+    "amount": 34922.45,
+    "pnl_pct": -0.1485809682804674,
+    "reason": "停損：現價 264 低於買價 299.5 達 11.9%（門檻 8%），立即賣出"
    }
   ],
   "equity_history": [
@@ -433,6 +433,10 @@
    {
     "date": "2026-07-21",
     "equity": 987872.08
+   },
+   {
+    "date": "2026-07-22",
+    "equity": 985962.67
    }
   ]
  },
