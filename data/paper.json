@@ -9,7 +9,7 @@
     "shares": 1969.9584,
     "buy_price": 20.049999237060547,
     "buy_date": "2026-07-06",
-    "last_price": 19.950000762939453,
+    "last_price": 19.899999618530273,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -20,7 +20,7 @@
     "shares": 1346.771,
     "buy_price": 34.150001525878906,
     "buy_date": "2026-07-06",
-    "last_price": 34.599998474121094,
+    "last_price": 34.5,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -42,7 +42,7 @@
     "shares": 606.3533,
     "buy_price": 62.099998474121094,
     "buy_date": "2026-07-07",
-    "last_price": 64.5,
+    "last_price": 64.30000305175781,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -53,7 +53,7 @@
     "shares": 283.0009,
     "buy_price": 160.5,
     "buy_date": "2026-07-13",
-    "last_price": 156.0,
+    "last_price": 154.5,
     "signal_date": "2026-07-14",
     "status": "HOLD",
     "status_note": ""
@@ -64,7 +64,7 @@
     "shares": 1055.4329,
     "buy_price": 41.20000076293945,
     "buy_date": "2026-07-15",
-    "last_price": 41.900001525878906,
+    "last_price": 43.150001525878906,
     "signal_date": "2026-07-13",
     "status": "HOLD",
     "status_note": ""
@@ -75,7 +75,7 @@
     "shares": 67.374,
     "buy_price": 550.0,
     "buy_date": "2026-07-15",
-    "last_price": 565.0,
+    "last_price": 559.0,
     "signal_date": "2026-07-13",
     "status": "HOLD",
     "status_note": ""
@@ -86,7 +86,7 @@
     "shares": 1179.9218,
     "buy_price": 34.900001525878906,
     "buy_date": "2026-07-14",
-    "last_price": 37.400001525878906,
+    "last_price": 37.75,
     "signal_date": "2026-07-15",
     "status": "HOLD",
     "status_note": ""
@@ -103,13 +103,17 @@
     "status_note": ""
    }
   ],
-  "pending_buys": [],
-  "pending_sells": [
+  "pending_buys": [
    {
-    "ticker": "6870.TWO",
-    "reason": "停損：現價 271.5 低於買價 299.5 達 9.3%（門檻 8%），立即賣出"
+    "ticker": "6166.TW",
+    "name": "凌華",
+    "light": "yellow",
+    "score": 75,
+    "signal_date": "2026-07-23",
+    "signal_close": 159.5
    }
   ],
+  "pending_sells": [],
   "trades": [
    {
     "date": "2026-07-06",
@@ -437,6 +441,10 @@
    {
     "date": "2026-07-22",
     "equity": 985962.67
+   },
+   {
+    "date": "2026-07-23",
+    "equity": 986511.74
    }
   ]
  },
