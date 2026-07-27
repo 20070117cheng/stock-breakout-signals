@@ -1,7 +1,7 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 573224.211843755,
+  "cash": 527733.3160432033,
   "positions": [
    {
     "ticker": "4207.TWO",
@@ -9,7 +9,7 @@
     "shares": 1969.9584,
     "buy_price": 20.049999237060547,
     "buy_date": "2026-07-06",
-    "last_price": 19.799999237060547,
+    "last_price": 19.700000762939453,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -20,7 +20,7 @@
     "shares": 1346.771,
     "buy_price": 34.150001525878906,
     "buy_date": "2026-07-06",
-    "last_price": 34.150001525878906,
+    "last_price": 34.95000076293945,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -31,7 +31,7 @@
     "shares": 262.415,
     "buy_price": 143.5,
     "buy_date": "2026-07-07",
-    "last_price": 147.5,
+    "last_price": 158.0,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -42,7 +42,7 @@
     "shares": 606.3533,
     "buy_price": 62.099998474121094,
     "buy_date": "2026-07-07",
-    "last_price": 64.9000015258789,
+    "last_price": 64.69999694824219,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -53,7 +53,7 @@
     "shares": 283.0009,
     "buy_price": 160.5,
     "buy_date": "2026-07-13",
-    "last_price": 155.5,
+    "last_price": 158.5,
     "signal_date": "2026-07-14",
     "status": "HOLD",
     "status_note": ""
@@ -64,7 +64,7 @@
     "shares": 1055.4329,
     "buy_price": 41.20000076293945,
     "buy_date": "2026-07-15",
-    "last_price": 43.54999923706055,
+    "last_price": 43.599998474121094,
     "signal_date": "2026-07-13",
     "status": "HOLD",
     "status_note": ""
@@ -75,7 +75,7 @@
     "shares": 67.374,
     "buy_price": 550.0,
     "buy_date": "2026-07-15",
-    "last_price": 552.0,
+    "last_price": 543.0,
     "signal_date": "2026-07-13",
     "status": "HOLD",
     "status_note": ""
@@ -86,7 +86,7 @@
     "shares": 1179.9218,
     "buy_price": 34.900001525878906,
     "buy_date": "2026-07-14",
-    "last_price": 37.900001525878906,
+    "last_price": 38.20000076293945,
     "signal_date": "2026-07-15",
     "status": "HOLD",
     "status_note": ""
@@ -97,7 +97,7 @@
     "shares": 1007.0701,
     "buy_price": 38.849998474121094,
     "buy_date": "2026-07-16",
-    "last_price": 40.70000076293945,
+    "last_price": 41.400001525878906,
     "signal_date": "2026-07-17",
     "status": "HOLD",
     "status_note": ""
@@ -108,22 +108,24 @@
     "shares": 230.4934,
     "buy_price": 160.5,
     "buy_date": "2026-07-24",
-    "last_price": 166.5,
+    "last_price": 150.0,
     "signal_date": "2026-07-23",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "6669.TW",
+    "name": "緯穎",
+    "shares": 7.9695,
+    "buy_price": 5700.0,
+    "buy_date": "2026-07-27",
+    "last_price": 5745.0,
+    "signal_date": "2026-07-24",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [
-   {
-    "ticker": "6669.TW",
-    "name": "緯穎",
-    "light": "yellow",
-    "score": 92,
-    "signal_date": "2026-07-24",
-    "signal_close": 5730.0
-   }
-  ],
+  "pending_buys": [],
   "pending_sells": [],
   "trades": [
    {
@@ -389,6 +391,17 @@
     "amount": 37046.91,
     "signal_date": "2026-07-23",
     "reason": "買進訊號（黃燈基準 × 檢核75分 → 部位 3.8%，訊號日 2026-07-23）"
+   },
+   {
+    "date": "2026-07-27",
+    "action": "BUY",
+    "ticker": "6669.TW",
+    "name": "緯穎",
+    "price": 5700.0,
+    "shares": 7.9695,
+    "amount": 45490.9,
+    "signal_date": "2026-07-24",
+    "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%，訊號日 2026-07-24）"
    }
   ],
   "equity_history": [
@@ -471,6 +484,10 @@
    {
     "date": "2026-07-24",
     "equity": 987525.29
+   },
+   {
+    "date": "2026-07-27",
+    "equity": 988884.87
    }
   ]
  },
