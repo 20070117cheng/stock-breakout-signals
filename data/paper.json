@@ -510,7 +510,7 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 276.8699951171875,
+    "last_price": 283.0799865722656,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -521,7 +521,7 @@
     "shares": 8.7801,
     "buy_price": 341.67999267578125,
     "buy_date": "2026-07-06",
-    "last_price": 390.3500061035156,
+    "last_price": 397.2200012207031,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -532,7 +532,7 @@
     "shares": 9.998,
     "buy_price": 249.0500030517578,
     "buy_date": "2026-07-06",
-    "last_price": 261.2699890136719,
+    "last_price": 272.4200134277344,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -543,7 +543,7 @@
     "shares": 19.9586,
     "buy_price": 150.14999389648438,
     "buy_date": "2026-07-07",
-    "last_price": 157.77000427246094,
+    "last_price": 156.49000549316406,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -554,7 +554,7 @@
     "shares": 2.462,
     "buy_price": 1221.0999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 1197.530029296875,
+    "last_price": 1220.6600341796875,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -565,7 +565,7 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 118.87000274658203,
+    "last_price": 129.92999267578125,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -576,7 +576,7 @@
     "shares": 9.8987,
     "buy_price": 276.739990234375,
     "buy_date": "2026-07-09",
-    "last_price": 267.6400146484375,
+    "last_price": 261.6499938964844,
     "signal_date": "2026-07-08",
     "status": "HOLD",
     "status_note": ""
@@ -587,7 +587,7 @@
     "shares": 13.9862,
     "buy_price": 96.19999694824219,
     "buy_date": "2026-07-16",
-    "last_price": 92.2699966430664,
+    "last_price": 90.91000366210938,
     "signal_date": "2026-07-15",
     "status": "HOLD",
     "status_note": ""
@@ -598,7 +598,7 @@
     "shares": 10.7414,
     "buy_price": 125.52999877929688,
     "buy_date": "2026-07-17",
-    "last_price": 127.12999725341797,
+    "last_price": 126.12000274658203,
     "signal_date": "2026-07-16",
     "status": "HOLD",
     "status_note": ""
@@ -609,13 +609,22 @@
     "shares": 46.6078,
     "buy_price": 26.100000381469727,
     "buy_date": "2026-07-17",
-    "last_price": 26.3799991607666,
+    "last_price": 26.239999771118164,
     "signal_date": "2026-07-16",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [],
+  "pending_buys": [
+   {
+    "ticker": "EG",
+    "name": "Everest Group",
+    "light": "yellow",
+    "score": 83,
+    "signal_date": "2026-07-28",
+    "signal_close": 398.7
+   }
+  ],
   "pending_sells": [],
   "trades": [
    {
@@ -863,6 +872,10 @@
    {
     "date": "2026-07-27",
     "equity": 29936.29
+   },
+   {
+    "date": "2026-07-28",
+    "equity": 30389.29
    }
   ]
  }
