@@ -1,7 +1,7 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 527733.3160432033,
+  "cash": 559285.9177151409,
   "positions": [
    {
     "ticker": "4207.TWO",
@@ -9,7 +9,7 @@
     "shares": 1969.9584,
     "buy_price": 20.049999237060547,
     "buy_date": "2026-07-06",
-    "last_price": 19.700000762939453,
+    "last_price": 19.600000381469727,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -20,7 +20,7 @@
     "shares": 1346.771,
     "buy_price": 34.150001525878906,
     "buy_date": "2026-07-06",
-    "last_price": 33.95000076293945,
+    "last_price": 32.599998474121094,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -31,7 +31,7 @@
     "shares": 262.415,
     "buy_price": 143.5,
     "buy_date": "2026-07-07",
-    "last_price": 155.0,
+    "last_price": 155.5,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -42,7 +42,7 @@
     "shares": 606.3533,
     "buy_price": 62.099998474121094,
     "buy_date": "2026-07-07",
-    "last_price": 63.79999923706055,
+    "last_price": 63.099998474121094,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -53,7 +53,7 @@
     "shares": 283.0009,
     "buy_price": 160.5,
     "buy_date": "2026-07-13",
-    "last_price": 160.0,
+    "last_price": 164.0,
     "signal_date": "2026-07-14",
     "status": "HOLD",
     "status_note": ""
@@ -64,7 +64,7 @@
     "shares": 1055.4329,
     "buy_price": 41.20000076293945,
     "buy_date": "2026-07-15",
-    "last_price": 42.45000076293945,
+    "last_price": 42.349998474121094,
     "signal_date": "2026-07-13",
     "status": "HOLD",
     "status_note": ""
@@ -75,10 +75,10 @@
     "shares": 67.374,
     "buy_price": 550.0,
     "buy_date": "2026-07-15",
-    "last_price": 517.0,
+    "last_price": 491.5,
     "signal_date": "2026-07-13",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。停損：現價 491.5 低於買價 550 達 10.6%（門檻 8%），立即賣出"
    },
    {
     "ticker": "8415.TWO",
@@ -86,7 +86,7 @@
     "shares": 1179.9218,
     "buy_price": 34.900001525878906,
     "buy_date": "2026-07-14",
-    "last_price": 38.20000076293945,
+    "last_price": 38.29999923706055,
     "signal_date": "2026-07-15",
     "status": "HOLD",
     "status_note": ""
@@ -97,21 +97,10 @@
     "shares": 1007.0701,
     "buy_price": 38.849998474121094,
     "buy_date": "2026-07-16",
-    "last_price": 41.400001525878906,
+    "last_price": 41.79999923706055,
     "signal_date": "2026-07-17",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "6166.TW",
-    "name": "凌華",
-    "shares": 230.4934,
-    "buy_price": 160.5,
-    "buy_date": "2026-07-24",
-    "last_price": 137.0,
-    "signal_date": "2026-07-23",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。停損：現價 137 低於買價 160.5 達 14.6%（門檻 8%），立即賣出"
    },
    {
     "ticker": "6669.TW",
@@ -119,17 +108,25 @@
     "shares": 7.9695,
     "buy_price": 5700.0,
     "buy_date": "2026-07-27",
-    "last_price": 5315.0,
+    "last_price": 5135.0,
     "signal_date": "2026-07-24",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。停損：現價 5135 低於買價 5700 達 9.9%（門檻 8%），立即賣出"
    }
   ],
   "pending_buys": [],
   "pending_sells": [
    {
+    "ticker": "5434.TW",
+    "reason": "停損：現價 491.5 低於買價 550 達 10.6%（門檻 8%），立即賣出"
+   },
+   {
     "ticker": "6166.TW",
-    "reason": "停損：現價 137 低於買價 160.5 達 14.6%（門檻 8%），立即賣出"
+    "reason": "停損：現價 139 低於買價 160.5 達 13.4%（門檻 8%），立即賣出"
+   },
+   {
+    "ticker": "6669.TW",
+    "reason": "停損：現價 5135 低於買價 5700 達 9.9%（門檻 8%），立即賣出"
    }
   ],
   "trades": [
@@ -407,6 +404,17 @@
     "amount": 45490.9,
     "signal_date": "2026-07-24",
     "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%，訊號日 2026-07-24）"
+   },
+   {
+    "date": "2026-07-29",
+    "action": "SELL",
+    "ticker": "6166.TW",
+    "name": "凌華",
+    "price": 137.5,
+    "shares": 230.4934,
+    "amount": 31552.6,
+    "pnl_pct": -0.14330218068535827,
+    "reason": "停損：現價 137 低於買價 160.5 達 14.6%（門檻 8%），立即賣出"
    }
   ],
   "equity_history": [
@@ -497,6 +505,10 @@
    {
     "date": "2026-07-28",
     "equity": 977240.87
+   },
+   {
+    "date": "2026-07-29",
+    "equity": 973302.23
    }
   ]
  },
