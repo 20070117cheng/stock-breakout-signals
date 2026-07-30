@@ -523,7 +523,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 4129.878525039788,
+  "cash": 4037.1098706466623,
   "positions": [
    {
     "ticker": "AIZ",
@@ -531,7 +531,7 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 281.0,
+    "last_price": 282.4599914550781,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -542,7 +542,7 @@
     "shares": 8.7801,
     "buy_price": 341.67999267578125,
     "buy_date": "2026-07-06",
-    "last_price": 389.010009765625,
+    "last_price": 375.989990234375,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -553,7 +553,7 @@
     "shares": 9.998,
     "buy_price": 249.0500030517578,
     "buy_date": "2026-07-06",
-    "last_price": 274.3900146484375,
+    "last_price": 265.3800048828125,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -564,7 +564,7 @@
     "shares": 19.9586,
     "buy_price": 150.14999389648438,
     "buy_date": "2026-07-07",
-    "last_price": 152.5,
+    "last_price": 156.0800018310547,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -575,7 +575,7 @@
     "shares": 2.462,
     "buy_price": 1221.0999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 1210.02001953125,
+    "last_price": 1154.969970703125,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -586,7 +586,7 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 127.0999984741211,
+    "last_price": 122.98999786376953,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -597,21 +597,10 @@
     "shares": 9.8987,
     "buy_price": 276.739990234375,
     "buy_date": "2026-07-09",
-    "last_price": 264.6700134277344,
+    "last_price": 268.3399963378906,
     "signal_date": "2026-07-08",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "IBKR",
-    "name": "Interactive Brokers",
-    "shares": 13.9862,
-    "buy_price": 96.19999694824219,
-    "buy_date": "2026-07-16",
-    "last_price": 86.26000213623047,
-    "signal_date": "2026-07-15",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。停損：現價 86.26 低於買價 96.2 達 10.3%（門檻 8%），立即賣出"
    },
    {
     "ticker": "FRT",
@@ -619,7 +608,7 @@
     "shares": 10.7414,
     "buy_price": 125.52999877929688,
     "buy_date": "2026-07-17",
-    "last_price": 125.77999877929688,
+    "last_price": 124.08999633789062,
     "signal_date": "2026-07-16",
     "status": "HOLD",
     "status_note": ""
@@ -630,7 +619,7 @@
     "shares": 46.6078,
     "buy_price": 26.100000381469727,
     "buy_date": "2026-07-17",
-    "last_price": 26.010000228881836,
+    "last_price": 25.510000228881836,
     "signal_date": "2026-07-16",
     "status": "HOLD",
     "status_note": ""
@@ -641,28 +630,25 @@
     "shares": 3.2757,
     "buy_price": 385.0,
     "buy_date": "2026-07-27",
-    "last_price": 393.8900146484375,
+    "last_price": 375.3599853515625,
     "signal_date": "2026-07-28",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "GRMN",
+    "name": "Garmin",
+    "shares": 4.5274,
+    "buy_price": 292.9599914550781,
+    "buy_date": "2026-07-30",
+    "last_price": 297.54998779296875,
+    "signal_date": "2026-07-29",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [
-   {
-    "ticker": "GRMN",
-    "name": "Garmin",
-    "light": "yellow",
-    "score": 88,
-    "signal_date": "2026-07-29",
-    "signal_close": 294.83
-   }
-  ],
-  "pending_sells": [
-   {
-    "ticker": "IBKR",
-    "reason": "停損：現價 86.26 低於買價 96.2 達 10.3%（門檻 8%），立即賣出"
-   }
-  ],
+  "pending_buys": [],
+  "pending_sells": [],
   "trades": [
    {
     "date": "2026-07-06",
@@ -850,6 +836,28 @@
     "amount": 1261.16,
     "signal_date": "2026-07-28",
     "reason": "買進訊號（黃燈基準 × 檢核83分 → 部位 4.2%，訊號日 2026-07-28）"
+   },
+   {
+    "date": "2026-07-30",
+    "action": "SELL",
+    "ticker": "IBKR",
+    "name": "Interactive Brokers",
+    "price": 88.19999694824219,
+    "shares": 13.9862,
+    "amount": 1233.58,
+    "pnl_pct": -0.08316008579817502,
+    "reason": "停損：現價 86.26 低於買價 96.2 達 10.3%（門檻 8%），立即賣出"
+   },
+   {
+    "date": "2026-07-30",
+    "action": "BUY",
+    "ticker": "GRMN",
+    "name": "Garmin",
+    "price": 292.9599914550781,
+    "shares": 4.5274,
+    "amount": 1326.35,
+    "signal_date": "2026-07-29",
+    "reason": "買進訊號（黃燈基準 × 檢核88分 → 部位 4.4%，訊號日 2026-07-29）"
    }
   ],
   "equity_history": [
@@ -932,6 +940,10 @@
    {
     "date": "2026-07-29",
     "equity": 30117.22
+   },
+   {
+    "date": "2026-07-30",
+    "equity": 29741.17
    }
   ]
  }
