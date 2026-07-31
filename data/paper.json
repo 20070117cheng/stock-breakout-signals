@@ -548,7 +548,7 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 282.4599914550781,
+    "last_price": 279.19000244140625,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -559,7 +559,7 @@
     "shares": 8.7801,
     "buy_price": 341.67999267578125,
     "buy_date": "2026-07-06",
-    "last_price": 375.989990234375,
+    "last_price": 374.3599853515625,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -570,7 +570,7 @@
     "shares": 9.998,
     "buy_price": 249.0500030517578,
     "buy_date": "2026-07-06",
-    "last_price": 265.3800048828125,
+    "last_price": 264.0799865722656,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -581,7 +581,7 @@
     "shares": 19.9586,
     "buy_price": 150.14999389648438,
     "buy_date": "2026-07-07",
-    "last_price": 156.0800018310547,
+    "last_price": 156.3300018310547,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -592,7 +592,7 @@
     "shares": 2.462,
     "buy_price": 1221.0999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 1154.969970703125,
+    "last_price": 1148.8399658203125,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -603,7 +603,7 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 122.98999786376953,
+    "last_price": 119.5199966430664,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -614,7 +614,7 @@
     "shares": 9.8987,
     "buy_price": 276.739990234375,
     "buy_date": "2026-07-09",
-    "last_price": 268.3399963378906,
+    "last_price": 270.3699951171875,
     "signal_date": "2026-07-08",
     "status": "HOLD",
     "status_note": ""
@@ -627,8 +627,8 @@
     "buy_date": "2026-07-17",
     "last_price": 124.08999633789062,
     "signal_date": "2026-07-16",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。基本面惡化：最新一季獲利年增 -45% < 20%，賣出"
    },
    {
     "ticker": "KIM",
@@ -636,7 +636,7 @@
     "shares": 46.6078,
     "buy_price": 26.100000381469727,
     "buy_date": "2026-07-17",
-    "last_price": 25.510000228881836,
+    "last_price": 25.479999542236328,
     "signal_date": "2026-07-16",
     "status": "HOLD",
     "status_note": ""
@@ -647,7 +647,7 @@
     "shares": 3.2757,
     "buy_price": 385.0,
     "buy_date": "2026-07-27",
-    "last_price": 375.3599853515625,
+    "last_price": 374.1499938964844,
     "signal_date": "2026-07-28",
     "status": "HOLD",
     "status_note": ""
@@ -658,14 +658,19 @@
     "shares": 4.5274,
     "buy_price": 292.9599914550781,
     "buy_date": "2026-07-30",
-    "last_price": 297.54998779296875,
+    "last_price": 293.7799987792969,
     "signal_date": "2026-07-29",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [],
-  "pending_sells": [],
+  "pending_sells": [
+   {
+    "ticker": "FRT",
+    "reason": "基本面惡化：最新一季獲利年增 -45% < 20%，賣出"
+   }
+  ],
   "trades": [
    {
     "date": "2026-07-06",
@@ -961,6 +966,10 @@
    {
     "date": "2026-07-30",
     "equity": 29741.17
+   },
+   {
+    "date": "2026-07-31",
+    "equity": 29579.44
    }
   ]
  }
