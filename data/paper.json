@@ -1,7 +1,7 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 632126.5000349784,
+  "cash": 591542.227712407,
   "positions": [
    {
     "ticker": "4207.TWO",
@@ -9,7 +9,7 @@
     "shares": 1969.9584,
     "buy_price": 20.049999237060547,
     "buy_date": "2026-07-06",
-    "last_price": 19.399999618530273,
+    "last_price": 19.649999618530273,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -20,7 +20,7 @@
     "shares": 1346.771,
     "buy_price": 34.150001525878906,
     "buy_date": "2026-07-06",
-    "last_price": 33.150001525878906,
+    "last_price": 35.95000076293945,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -31,7 +31,7 @@
     "shares": 262.415,
     "buy_price": 143.5,
     "buy_date": "2026-07-07",
-    "last_price": 157.0,
+    "last_price": 161.0,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -42,7 +42,7 @@
     "shares": 606.3533,
     "buy_price": 62.099998474121094,
     "buy_date": "2026-07-07",
-    "last_price": 62.900001525878906,
+    "last_price": 58.29999923706055,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -53,7 +53,7 @@
     "shares": 283.0009,
     "buy_price": 160.5,
     "buy_date": "2026-07-13",
-    "last_price": 172.0,
+    "last_price": 168.5,
     "signal_date": "2026-07-14",
     "status": "HOLD",
     "status_note": ""
@@ -75,7 +75,7 @@
     "shares": 1179.9218,
     "buy_price": 34.900001525878906,
     "buy_date": "2026-07-14",
-    "last_price": 38.400001525878906,
+    "last_price": 37.0,
     "signal_date": "2026-07-15",
     "status": "HOLD",
     "status_note": ""
@@ -86,32 +86,34 @@
     "shares": 1007.0701,
     "buy_price": 38.849998474121094,
     "buy_date": "2026-07-16",
-    "last_price": 42.650001525878906,
+    "last_price": 43.70000076293945,
     "signal_date": "2026-07-17",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "2832.TW",
+    "name": "台產",
+    "shares": 706.037,
+    "buy_price": 57.400001525878906,
+    "buy_date": "2026-07-31",
+    "last_price": 59.400001525878906,
+    "signal_date": "2026-07-30",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [
    {
-    "ticker": "2832.TW",
-    "name": "台產",
+    "ticker": "6214.TW",
+    "name": "精誠",
     "light": "yellow",
     "score": 83,
-    "signal_date": "2026-07-30",
-    "signal_close": 57.4
+    "signal_date": "2026-07-31",
+    "signal_close": 154.0
    }
   ],
-  "pending_sells": [
-   {
-    "ticker": "5434.TW",
-    "reason": "停損：現價 475.5 低於買價 550 達 13.5%（門檻 8%），立即賣出"
-   },
-   {
-    "ticker": "6669.TW",
-    "reason": "停損：現價 4900 低於買價 5700 達 14.0%（門檻 8%），立即賣出"
-   }
-  ],
+  "pending_sells": [],
   "trades": [
    {
     "date": "2026-07-06",
@@ -420,6 +422,17 @@
     "amount": 40107.56,
     "pnl_pct": -0.11315789473684212,
     "reason": "停損：現價 5135 低於買價 5700 達 9.9%（門檻 8%），立即賣出"
+   },
+   {
+    "date": "2026-07-31",
+    "action": "BUY",
+    "ticker": "2832.TW",
+    "name": "台產",
+    "price": 57.400001525878906,
+    "shares": 706.037,
+    "amount": 40584.27,
+    "signal_date": "2026-07-30",
+    "reason": "買進訊號（黃燈基準 × 檢核83分 → 部位 4.2%，訊號日 2026-07-30）"
    }
   ],
   "equity_history": [
@@ -518,6 +531,10 @@
    {
     "date": "2026-07-30",
     "equity": 976542.7
+   },
+   {
+    "date": "2026-07-31",
+    "equity": 978835.93
    }
   ]
  },
