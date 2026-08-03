@@ -566,7 +566,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 4037.1098706466623,
+  "cash": 5379.408882310481,
   "positions": [
    {
     "ticker": "AIZ",
@@ -574,7 +574,7 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 279.19000244140625,
+    "last_price": 282.3900146484375,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -585,7 +585,7 @@
     "shares": 8.7801,
     "buy_price": 341.67999267578125,
     "buy_date": "2026-07-06",
-    "last_price": 374.3599853515625,
+    "last_price": 373.82000732421875,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -596,7 +596,7 @@
     "shares": 9.998,
     "buy_price": 249.0500030517578,
     "buy_date": "2026-07-06",
-    "last_price": 264.0799865722656,
+    "last_price": 262.67999267578125,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -607,7 +607,7 @@
     "shares": 19.9586,
     "buy_price": 150.14999389648438,
     "buy_date": "2026-07-07",
-    "last_price": 156.3300018310547,
+    "last_price": 156.1999969482422,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -618,10 +618,10 @@
     "shares": 2.462,
     "buy_price": 1221.0999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 1148.8399658203125,
+    "last_price": 1121.3599853515625,
     "signal_date": "2026-07-07",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。停損：現價 1121.36 低於買價 1221.1 達 8.2%（門檻 8%），立即賣出；技術面：賣壓比例 117% ≥ 117%，股價可能已達中長期高點"
    },
    {
     "ticker": "INCY",
@@ -629,7 +629,7 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 119.5199966430664,
+    "last_price": 118.43000030517578,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -640,21 +640,10 @@
     "shares": 9.8987,
     "buy_price": 276.739990234375,
     "buy_date": "2026-07-09",
-    "last_price": 270.3699951171875,
+    "last_price": 264.6000061035156,
     "signal_date": "2026-07-08",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "FRT",
-    "name": "Federal Realty Investment Trust",
-    "shares": 10.7414,
-    "buy_price": 125.52999877929688,
-    "buy_date": "2026-07-17",
-    "last_price": 124.08999633789062,
-    "signal_date": "2026-07-16",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。基本面惡化：最新一季獲利年增 -45% < 20%，賣出"
    },
    {
     "ticker": "KIM",
@@ -662,7 +651,7 @@
     "shares": 46.6078,
     "buy_price": 26.100000381469727,
     "buy_date": "2026-07-17",
-    "last_price": 25.479999542236328,
+    "last_price": 25.40999984741211,
     "signal_date": "2026-07-16",
     "status": "HOLD",
     "status_note": ""
@@ -673,7 +662,7 @@
     "shares": 3.2757,
     "buy_price": 385.0,
     "buy_date": "2026-07-27",
-    "last_price": 374.1499938964844,
+    "last_price": 372.04998779296875,
     "signal_date": "2026-07-28",
     "status": "HOLD",
     "status_note": ""
@@ -684,14 +673,35 @@
     "shares": 4.5274,
     "buy_price": 292.9599914550781,
     "buy_date": "2026-07-30",
-    "last_price": 293.7799987792969,
+    "last_price": 304.760009765625,
     "signal_date": "2026-07-29",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [],
+  "pending_buys": [
+   {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "light": "yellow",
+    "score": 92,
+    "signal_date": "2026-08-03",
+    "signal_close": 284.02
+   },
+   {
+    "ticker": "NTAP",
+    "name": "NetApp",
+    "light": "yellow",
+    "score": 88,
+    "signal_date": "2026-08-03",
+    "signal_close": 182.92
+   }
+  ],
   "pending_sells": [
+   {
+    "ticker": "LLY",
+    "reason": "停損：現價 1121.36 低於買價 1221.1 達 8.2%（門檻 8%），立即賣出"
+   },
    {
     "ticker": "FRT",
     "reason": "基本面惡化：最新一季獲利年增 -45% < 20%，賣出"
@@ -906,6 +916,17 @@
     "amount": 1326.35,
     "signal_date": "2026-07-29",
     "reason": "買進訊號（黃燈基準 × 檢核88分 → 部位 4.4%，訊號日 2026-07-29）"
+   },
+   {
+    "date": "2026-08-03",
+    "action": "SELL",
+    "ticker": "FRT",
+    "name": "Federal Realty Investment Trust",
+    "price": 124.96499633789062,
+    "shares": 10.7414,
+    "amount": 1342.3,
+    "pnl_pct": -0.00450093560822562,
+    "reason": "基本面惡化：最新一季獲利年增 -45% < 20%，賣出"
    }
   ],
   "equity_history": [
@@ -996,6 +1017,10 @@
    {
     "date": "2026-07-31",
     "equity": 29579.44
+   },
+   {
+    "date": "2026-08-03",
+    "equity": 29487.45
    }
   ]
  }
