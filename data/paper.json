@@ -608,7 +608,7 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 279.19000244140625,
+    "last_price": 281.30999755859375,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -619,7 +619,7 @@
     "shares": 8.7801,
     "buy_price": 341.67999267578125,
     "buy_date": "2026-07-06",
-    "last_price": 374.3599853515625,
+    "last_price": 377.1499938964844,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -630,7 +630,7 @@
     "shares": 9.998,
     "buy_price": 249.0500030517578,
     "buy_date": "2026-07-06",
-    "last_price": 264.0799865722656,
+    "last_price": 262.55999755859375,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -641,7 +641,7 @@
     "shares": 19.9586,
     "buy_price": 150.14999389648438,
     "buy_date": "2026-07-07",
-    "last_price": 156.3300018310547,
+    "last_price": 156.82000732421875,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -652,7 +652,7 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 119.5199966430664,
+    "last_price": 120.5999984741211,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -663,7 +663,7 @@
     "shares": 9.8987,
     "buy_price": 276.739990234375,
     "buy_date": "2026-07-09",
-    "last_price": 270.3699951171875,
+    "last_price": 262.9800109863281,
     "signal_date": "2026-07-08",
     "status": "HOLD",
     "status_note": ""
@@ -674,7 +674,7 @@
     "shares": 46.6078,
     "buy_price": 26.100000381469727,
     "buy_date": "2026-07-17",
-    "last_price": 25.479999542236328,
+    "last_price": 25.010000228881836,
     "signal_date": "2026-07-16",
     "status": "HOLD",
     "status_note": ""
@@ -685,7 +685,7 @@
     "shares": 3.2757,
     "buy_price": 385.0,
     "buy_date": "2026-07-27",
-    "last_price": 374.1499938964844,
+    "last_price": 369.2099914550781,
     "signal_date": "2026-07-28",
     "status": "HOLD",
     "status_note": ""
@@ -696,7 +696,7 @@
     "shares": 4.5274,
     "buy_price": 292.9599914550781,
     "buy_date": "2026-07-30",
-    "last_price": 293.7799987792969,
+    "last_price": 307.3599853515625,
     "signal_date": "2026-07-29",
     "status": "HOLD",
     "status_note": ""
@@ -707,7 +707,7 @@
     "shares": 5.1302,
     "buy_price": 265.0,
     "buy_date": "2026-07-31",
-    "last_price": 271.5799865722656,
+    "last_price": 277.4200134277344,
     "signal_date": "2026-08-03",
     "status": "HOLD",
     "status_note": ""
@@ -718,13 +718,22 @@
     "shares": 7.2538,
     "buy_price": 179.27000427246094,
     "buy_date": "2026-07-31",
-    "last_price": 178.5,
+    "last_price": 190.4600067138672,
     "signal_date": "2026-08-03",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [],
+  "pending_buys": [
+   {
+    "ticker": "JCI",
+    "name": "Johnson Controls",
+    "light": "yellow",
+    "score": 83,
+    "signal_date": "2026-08-04",
+    "signal_close": 153.62
+   }
+  ],
   "pending_sells": [],
   "trades": [
    {
@@ -1077,6 +1086,10 @@
    {
     "date": "2026-07-31",
     "equity": 29616.2
+   },
+   {
+    "date": "2026-08-04",
+    "equity": 29751.54
    }
   ]
  }
