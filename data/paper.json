@@ -648,7 +648,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 5547.154207714611,
+  "cash": 4312.465358900762,
   "positions": [
    {
     "ticker": "AIZ",
@@ -656,7 +656,7 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 281.30999755859375,
+    "last_price": 301.57000732421875,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -667,7 +667,7 @@
     "shares": 8.7801,
     "buy_price": 341.67999267578125,
     "buy_date": "2026-07-06",
-    "last_price": 377.1499938964844,
+    "last_price": 382.45001220703125,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -678,7 +678,7 @@
     "shares": 9.998,
     "buy_price": 249.0500030517578,
     "buy_date": "2026-07-06",
-    "last_price": 262.55999755859375,
+    "last_price": 264.5899963378906,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -689,7 +689,7 @@
     "shares": 19.9586,
     "buy_price": 150.14999389648438,
     "buy_date": "2026-07-07",
-    "last_price": 156.82000732421875,
+    "last_price": 158.74000549316406,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -700,7 +700,7 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 120.5999984741211,
+    "last_price": 119.80000305175781,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -711,7 +711,7 @@
     "shares": 9.8987,
     "buy_price": 276.739990234375,
     "buy_date": "2026-07-09",
-    "last_price": 262.9800109863281,
+    "last_price": 260.1099853515625,
     "signal_date": "2026-07-08",
     "status": "HOLD",
     "status_note": ""
@@ -722,10 +722,10 @@
     "shares": 46.6078,
     "buy_price": 26.100000381469727,
     "buy_date": "2026-07-17",
-    "last_price": 25.010000228881836,
+    "last_price": 24.8700008392334,
     "signal_date": "2026-07-16",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。基本面惡化：最新一季獲利年增 -13% < 20%，賣出"
    },
    {
     "ticker": "EG",
@@ -733,10 +733,10 @@
     "shares": 3.2757,
     "buy_price": 385.0,
     "buy_date": "2026-07-27",
-    "last_price": 369.2099914550781,
+    "last_price": 373.2799987792969,
     "signal_date": "2026-07-28",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。基本面惡化：最新一季獲利年增 -16% < 20%，賣出"
    },
    {
     "ticker": "GRMN",
@@ -744,7 +744,7 @@
     "shares": 4.5274,
     "buy_price": 292.9599914550781,
     "buy_date": "2026-07-30",
-    "last_price": 307.3599853515625,
+    "last_price": 302.54998779296875,
     "signal_date": "2026-07-29",
     "status": "HOLD",
     "status_note": ""
@@ -755,7 +755,7 @@
     "shares": 5.1302,
     "buy_price": 265.0,
     "buy_date": "2026-07-31",
-    "last_price": 277.4200134277344,
+    "last_price": 272.6499938964844,
     "signal_date": "2026-08-03",
     "status": "HOLD",
     "status_note": ""
@@ -766,23 +766,59 @@
     "shares": 7.2538,
     "buy_price": 179.27000427246094,
     "buy_date": "2026-07-31",
-    "last_price": 190.4600067138672,
+    "last_price": 186.60000610351562,
     "signal_date": "2026-08-03",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "JCI",
+    "name": "Johnson Controls",
+    "shares": 8.1107,
+    "buy_price": 152.22999572753906,
+    "buy_date": "2026-08-05",
+    "last_price": 153.64999389648438,
+    "signal_date": "2026-08-04",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [
    {
-    "ticker": "JCI",
-    "name": "Johnson Controls",
+    "ticker": "RTX",
+    "name": "RTX Corporation",
+    "light": "yellow",
+    "score": 92,
+    "signal_date": "2026-08-05",
+    "signal_close": 222.31
+   },
+   {
+    "ticker": "EMR",
+    "name": "Emerson Electric",
     "light": "yellow",
     "score": 83,
-    "signal_date": "2026-08-04",
-    "signal_close": 153.62
+    "signal_date": "2026-08-05",
+    "signal_close": 162.47
+   },
+   {
+    "ticker": "SCHW",
+    "name": "Charles Schwab Corporation",
+    "light": "yellow",
+    "score": 92,
+    "signal_date": "2026-08-05",
+    "signal_close": 108.02
    }
   ],
-  "pending_sells": [],
+  "pending_sells": [
+   {
+    "ticker": "KIM",
+    "reason": "基本面惡化：最新一季獲利年增 -13% < 20%，賣出"
+   },
+   {
+    "ticker": "EG",
+    "reason": "基本面惡化：最新一季獲利年增 -16% < 20%，賣出"
+   }
+  ],
   "trades": [
    {
     "date": "2026-07-06",
@@ -1036,6 +1072,17 @@
     "amount": 1300.39,
     "signal_date": "2026-08-03",
     "reason": "買進訊號（黃燈基準 × 檢核88分 → 部位 4.4%，訊號日 2026-08-03）"
+   },
+   {
+    "date": "2026-08-05",
+    "action": "BUY",
+    "ticker": "JCI",
+    "name": "Johnson Controls",
+    "price": 152.22999572753906,
+    "shares": 8.1107,
+    "amount": 1234.69,
+    "signal_date": "2026-08-04",
+    "reason": "買進訊號（黃燈基準 × 檢核83分 → 部位 4.2%，訊號日 2026-08-04）"
    }
   ],
   "equity_history": [
@@ -1138,6 +1185,10 @@
    {
     "date": "2026-08-04",
     "equity": 29751.54
+   },
+   {
+    "date": "2026-08-05",
+    "equity": 29960.3
    }
   ]
  }
