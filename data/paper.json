@@ -1,7 +1,7 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 505827.89815014484,
+  "cash": 420231.29176540364,
   "positions": [
    {
     "ticker": "4207.TWO",
@@ -9,7 +9,7 @@
     "shares": 1969.9584,
     "buy_price": 20.049999237060547,
     "buy_date": "2026-07-06",
-    "last_price": 19.950000762939453,
+    "last_price": 19.850000381469727,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -20,7 +20,7 @@
     "shares": 1346.771,
     "buy_price": 34.150001525878906,
     "buy_date": "2026-07-06",
-    "last_price": 35.54999923706055,
+    "last_price": 35.70000076293945,
     "signal_date": "2026-07-03",
     "status": "HOLD",
     "status_note": ""
@@ -31,7 +31,7 @@
     "shares": 262.415,
     "buy_price": 143.5,
     "buy_date": "2026-07-07",
-    "last_price": 159.0,
+    "last_price": 157.5,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -42,7 +42,7 @@
     "shares": 606.3533,
     "buy_price": 62.099998474121094,
     "buy_date": "2026-07-07",
-    "last_price": 58.20000076293945,
+    "last_price": 59.70000076293945,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -53,7 +53,7 @@
     "shares": 283.0009,
     "buy_price": 160.5,
     "buy_date": "2026-07-13",
-    "last_price": 164.0,
+    "last_price": 166.5,
     "signal_date": "2026-07-14",
     "status": "HOLD",
     "status_note": ""
@@ -64,7 +64,7 @@
     "shares": 1055.4329,
     "buy_price": 41.20000076293945,
     "buy_date": "2026-07-15",
-    "last_price": 42.25,
+    "last_price": 41.95000076293945,
     "signal_date": "2026-07-13",
     "status": "HOLD",
     "status_note": ""
@@ -75,7 +75,7 @@
     "shares": 1179.9218,
     "buy_price": 34.900001525878906,
     "buy_date": "2026-07-14",
-    "last_price": 36.79999923706055,
+    "last_price": 37.099998474121094,
     "signal_date": "2026-07-15",
     "status": "HOLD",
     "status_note": ""
@@ -86,7 +86,7 @@
     "shares": 1007.0701,
     "buy_price": 38.849998474121094,
     "buy_date": "2026-07-16",
-    "last_price": 43.25,
+    "last_price": 43.79999923706055,
     "signal_date": "2026-07-17",
     "status": "HOLD",
     "status_note": ""
@@ -97,7 +97,7 @@
     "shares": 706.037,
     "buy_price": 57.400001525878906,
     "buy_date": "2026-07-31",
-    "last_price": 58.79999923706055,
+    "last_price": 58.599998474121094,
     "signal_date": "2026-07-30",
     "status": "HOLD",
     "status_note": ""
@@ -108,7 +108,7 @@
     "shares": 269.0178,
     "buy_price": 151.0,
     "buy_date": "2026-08-03",
-    "last_price": 150.0,
+    "last_price": 153.0,
     "signal_date": "2026-07-31",
     "status": "HOLD",
     "status_note": ""
@@ -119,28 +119,50 @@
     "shares": 7.5772,
     "buy_price": 5935.0,
     "buy_date": "2026-08-04",
-    "last_price": 6205.0,
+    "last_price": 6175.0,
     "signal_date": "2026-08-03",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "3231.TW",
+    "name": "緯創",
+    "shares": 226.9531,
+    "buy_price": 198.0,
+    "buy_date": "2026-08-05",
+    "last_price": 193.0,
+    "signal_date": "2026-08-04",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "2301.TW",
+    "name": "光寶科",
+    "shares": 155.9157,
+    "buy_price": 260.0,
+    "buy_date": "2026-08-05",
+    "last_price": 249.0,
+    "signal_date": "2026-08-04",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [
    {
-    "ticker": "3231.TW",
-    "name": "緯創",
+    "ticker": "2395.TW",
+    "name": "研華",
     "light": "yellow",
-    "score": 92,
-    "signal_date": "2026-08-04",
-    "signal_close": 195.0
+    "score": 79,
+    "signal_date": "2026-08-05",
+    "signal_close": 633.0
    },
    {
-    "ticker": "2301.TW",
-    "name": "光寶科",
+    "ticker": "3702.TW",
+    "name": "大聯大",
     "light": "yellow",
     "score": 83,
-    "signal_date": "2026-08-04",
-    "signal_close": 252.0
+    "signal_date": "2026-08-05",
+    "signal_close": 129.0
    }
   ],
   "pending_sells": [],
@@ -485,6 +507,28 @@
     "amount": 45034.75,
     "signal_date": "2026-08-03",
     "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%，訊號日 2026-08-03）"
+   },
+   {
+    "date": "2026-08-05",
+    "action": "BUY",
+    "ticker": "3231.TW",
+    "name": "緯創",
+    "price": 198.0,
+    "shares": 226.9531,
+    "amount": 45000.76,
+    "signal_date": "2026-08-04",
+    "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%，訊號日 2026-08-04）"
+   },
+   {
+    "date": "2026-08-05",
+    "action": "BUY",
+    "ticker": "2301.TW",
+    "name": "光寶科",
+    "price": 260.0,
+    "shares": 155.9157,
+    "amount": 40595.85,
+    "signal_date": "2026-08-04",
+    "reason": "買進訊號（黃燈基準 × 檢核83分 → 部位 4.2%，訊號日 2026-08-04）"
    }
   ],
   "equity_history": [
@@ -595,6 +639,10 @@
    {
     "date": "2026-08-04",
     "equity": 976885.29
+   },
+   {
+    "date": "2026-08-05",
+    "equity": 976171.83
    }
   ]
  },
