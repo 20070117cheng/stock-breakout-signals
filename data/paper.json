@@ -708,7 +708,7 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 296.3999938964844,
+    "last_price": 289.54998779296875,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -719,7 +719,7 @@
     "shares": 8.7801,
     "buy_price": 341.67999267578125,
     "buy_date": "2026-07-06",
-    "last_price": 386.0,
+    "last_price": 384.30999755859375,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -730,7 +730,7 @@
     "shares": 9.998,
     "buy_price": 249.0500030517578,
     "buy_date": "2026-07-06",
-    "last_price": 275.1099853515625,
+    "last_price": 267.0,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -741,7 +741,7 @@
     "shares": 19.9586,
     "buy_price": 150.14999389648438,
     "buy_date": "2026-07-07",
-    "last_price": 158.82000732421875,
+    "last_price": 157.61000061035156,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -752,7 +752,7 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 118.37999725341797,
+    "last_price": 120.55999755859375,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -763,10 +763,10 @@
     "shares": 9.8987,
     "buy_price": 276.739990234375,
     "buy_date": "2026-07-09",
-    "last_price": 268.2300109863281,
+    "last_price": 256.8699951171875,
     "signal_date": "2026-07-08",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_SIGNAL",
+    "status_note": "已排明日開盤賣出。接近停損：跌幅 7.2% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
    },
    {
     "ticker": "GRMN",
@@ -774,7 +774,7 @@
     "shares": 4.5274,
     "buy_price": 292.9599914550781,
     "buy_date": "2026-07-30",
-    "last_price": 301.8699951171875,
+    "last_price": 310.8900146484375,
     "signal_date": "2026-07-29",
     "status": "HOLD",
     "status_note": ""
@@ -785,7 +785,7 @@
     "shares": 5.1302,
     "buy_price": 265.0,
     "buy_date": "2026-07-31",
-    "last_price": 272.260009765625,
+    "last_price": 274.4800109863281,
     "signal_date": "2026-08-03",
     "status": "HOLD",
     "status_note": ""
@@ -796,7 +796,7 @@
     "shares": 7.2538,
     "buy_price": 179.27000427246094,
     "buy_date": "2026-07-31",
-    "last_price": 191.47999572753906,
+    "last_price": 189.52000427246094,
     "signal_date": "2026-08-03",
     "status": "HOLD",
     "status_note": ""
@@ -807,7 +807,7 @@
     "shares": 8.1107,
     "buy_price": 152.22999572753906,
     "buy_date": "2026-08-05",
-    "last_price": 154.5500030517578,
+    "last_price": 152.2100067138672,
     "signal_date": "2026-08-04",
     "status": "HOLD",
     "status_note": ""
@@ -818,7 +818,7 @@
     "shares": 6.1497,
     "buy_price": 224.2050018310547,
     "buy_date": "2026-08-06",
-    "last_price": 223.25,
+    "last_price": 223.02999877929688,
     "signal_date": "2026-08-05",
     "status": "HOLD",
     "status_note": ""
@@ -829,7 +829,7 @@
     "shares": 7.5701,
     "buy_price": 164.32000732421875,
     "buy_date": "2026-08-06",
-    "last_price": 156.91000366210938,
+    "last_price": 158.25999450683594,
     "signal_date": "2026-08-05",
     "status": "HOLD",
     "status_note": ""
@@ -840,7 +840,7 @@
     "shares": 12.6962,
     "buy_price": 108.5999984741211,
     "buy_date": "2026-08-06",
-    "last_price": 107.66000366210938,
+    "last_price": 107.5999984741211,
     "signal_date": "2026-08-05",
     "status": "HOLD",
     "status_note": ""
@@ -849,12 +849,8 @@
   "pending_buys": [],
   "pending_sells": [
    {
-    "ticker": "KIM",
-    "reason": "基本面惡化：最新一季獲利年增 -13% < 20%，賣出"
-   },
-   {
-    "ticker": "EG",
-    "reason": "基本面惡化：最新一季獲利年增 -16% < 20%，賣出"
+    "ticker": "TRGP",
+    "reason": "接近停損：跌幅 7.2% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
    }
   ],
   "trades": [
@@ -1286,6 +1282,10 @@
    {
     "date": "2026-08-06",
     "equity": 30066.69
+   },
+   {
+    "date": "2026-08-07",
+    "equity": 29846.39
    }
   ]
  }
