@@ -734,7 +734,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 2706.5107592755076,
+  "cash": 5267.601519025873,
   "positions": [
    {
     "ticker": "AIZ",
@@ -742,7 +742,7 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 289.54998779296875,
+    "last_price": 287.2200012207031,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -753,7 +753,7 @@
     "shares": 8.7801,
     "buy_price": 341.67999267578125,
     "buy_date": "2026-07-06",
-    "last_price": 384.30999755859375,
+    "last_price": 375.6199951171875,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -764,7 +764,7 @@
     "shares": 9.998,
     "buy_price": 249.0500030517578,
     "buy_date": "2026-07-06",
-    "last_price": 267.0,
+    "last_price": 269.6700134277344,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -775,7 +775,7 @@
     "shares": 19.9586,
     "buy_price": 150.14999389648438,
     "buy_date": "2026-07-07",
-    "last_price": 157.61000061035156,
+    "last_price": 159.42999267578125,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -786,21 +786,10 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 120.55999755859375,
+    "last_price": 121.55000305175781,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "TRGP",
-    "name": "Targa Resources",
-    "shares": 9.8987,
-    "buy_price": 276.739990234375,
-    "buy_date": "2026-07-09",
-    "last_price": 256.8699951171875,
-    "signal_date": "2026-07-08",
-    "status": "SELL_SIGNAL",
-    "status_note": "已排明日開盤賣出。接近停損：跌幅 7.2% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
    },
    {
     "ticker": "GRMN",
@@ -808,7 +797,7 @@
     "shares": 4.5274,
     "buy_price": 292.9599914550781,
     "buy_date": "2026-07-30",
-    "last_price": 310.8900146484375,
+    "last_price": 313.1600036621094,
     "signal_date": "2026-07-29",
     "status": "HOLD",
     "status_note": ""
@@ -819,7 +808,7 @@
     "shares": 5.1302,
     "buy_price": 265.0,
     "buy_date": "2026-07-31",
-    "last_price": 274.4800109863281,
+    "last_price": 278.0899963378906,
     "signal_date": "2026-08-03",
     "status": "HOLD",
     "status_note": ""
@@ -830,7 +819,7 @@
     "shares": 7.2538,
     "buy_price": 179.27000427246094,
     "buy_date": "2026-07-31",
-    "last_price": 189.52000427246094,
+    "last_price": 198.72000122070312,
     "signal_date": "2026-08-03",
     "status": "HOLD",
     "status_note": ""
@@ -841,7 +830,7 @@
     "shares": 8.1107,
     "buy_price": 152.22999572753906,
     "buy_date": "2026-08-05",
-    "last_price": 152.2100067138672,
+    "last_price": 150.6999969482422,
     "signal_date": "2026-08-04",
     "status": "HOLD",
     "status_note": ""
@@ -852,7 +841,7 @@
     "shares": 6.1497,
     "buy_price": 224.2050018310547,
     "buy_date": "2026-08-06",
-    "last_price": 223.02999877929688,
+    "last_price": 224.1199951171875,
     "signal_date": "2026-08-05",
     "status": "HOLD",
     "status_note": ""
@@ -863,7 +852,7 @@
     "shares": 7.5701,
     "buy_price": 164.32000732421875,
     "buy_date": "2026-08-06",
-    "last_price": 158.25999450683594,
+    "last_price": 158.7100067138672,
     "signal_date": "2026-08-05",
     "status": "HOLD",
     "status_note": ""
@@ -874,19 +863,31 @@
     "shares": 12.6962,
     "buy_price": 108.5999984741211,
     "buy_date": "2026-08-06",
-    "last_price": 107.5999984741211,
+    "last_price": 107.98999786376953,
     "signal_date": "2026-08-05",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [],
-  "pending_sells": [
+  "pending_buys": [
    {
-    "ticker": "TRGP",
-    "reason": "接近停損：跌幅 7.2% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
+    "ticker": "AMGN",
+    "name": "Amgen",
+    "light": "yellow",
+    "score": 83,
+    "signal_date": "2026-08-10",
+    "signal_close": 417.2
+   },
+   {
+    "ticker": "LH",
+    "name": "Labcorp",
+    "light": "yellow",
+    "score": 79,
+    "signal_date": "2026-08-10",
+    "signal_close": 321.31
    }
   ],
+  "pending_sells": [],
   "trades": [
    {
     "date": "2026-07-06",
@@ -1206,6 +1207,17 @@
     "amount": 1378.8,
     "signal_date": "2026-08-05",
     "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%，訊號日 2026-08-05）"
+   },
+   {
+    "date": "2026-08-10",
+    "action": "SELL",
+    "ticker": "TRGP",
+    "name": "Targa Resources",
+    "price": 258.7300109863281,
+    "shares": 9.8987,
+    "amount": 2561.09,
+    "pnl_pct": -0.06507906296012356,
+    "reason": "接近停損：跌幅 7.2% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
    }
   ],
   "equity_history": [
@@ -1320,6 +1332,10 @@
    {
     "date": "2026-08-07",
     "equity": 29846.39
+   },
+   {
+    "date": "2026-08-10",
+    "equity": 29951.12
    }
   ]
  }
