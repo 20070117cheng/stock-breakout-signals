@@ -777,7 +777,7 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 281.4100036621094,
+    "last_price": 281.1199951171875,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -788,7 +788,7 @@
     "shares": 8.7801,
     "buy_price": 341.67999267578125,
     "buy_date": "2026-07-06",
-    "last_price": 375.6099853515625,
+    "last_price": 370.1600036621094,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -799,7 +799,7 @@
     "shares": 9.998,
     "buy_price": 249.0500030517578,
     "buy_date": "2026-07-06",
-    "last_price": 262.2300109863281,
+    "last_price": 255.83999633789062,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -810,7 +810,7 @@
     "shares": 19.9586,
     "buy_price": 150.14999389648438,
     "buy_date": "2026-07-07",
-    "last_price": 160.32000732421875,
+    "last_price": 162.92999267578125,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -821,7 +821,7 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 121.06999969482422,
+    "last_price": 120.7699966430664,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -832,7 +832,7 @@
     "shares": 4.5274,
     "buy_price": 292.9599914550781,
     "buy_date": "2026-07-30",
-    "last_price": 309.6499938964844,
+    "last_price": 309.9800109863281,
     "signal_date": "2026-07-29",
     "status": "HOLD",
     "status_note": ""
@@ -843,7 +843,7 @@
     "shares": 5.1302,
     "buy_price": 265.0,
     "buy_date": "2026-07-31",
-    "last_price": 272.2699890136719,
+    "last_price": 267.2799987792969,
     "signal_date": "2026-08-03",
     "status": "HOLD",
     "status_note": ""
@@ -854,7 +854,7 @@
     "shares": 7.2538,
     "buy_price": 179.27000427246094,
     "buy_date": "2026-07-31",
-    "last_price": 198.47000122070312,
+    "last_price": 202.0500030517578,
     "signal_date": "2026-08-03",
     "status": "HOLD",
     "status_note": ""
@@ -865,7 +865,7 @@
     "shares": 8.1107,
     "buy_price": 152.22999572753906,
     "buy_date": "2026-08-05",
-    "last_price": 154.75999450683594,
+    "last_price": 152.7899932861328,
     "signal_date": "2026-08-04",
     "status": "HOLD",
     "status_note": ""
@@ -876,7 +876,7 @@
     "shares": 6.1497,
     "buy_price": 224.2050018310547,
     "buy_date": "2026-08-06",
-    "last_price": 223.86000061035156,
+    "last_price": 222.75999450683594,
     "signal_date": "2026-08-05",
     "status": "HOLD",
     "status_note": ""
@@ -887,7 +887,7 @@
     "shares": 7.5701,
     "buy_price": 164.32000732421875,
     "buy_date": "2026-08-06",
-    "last_price": 164.3800048828125,
+    "last_price": 163.8000030517578,
     "signal_date": "2026-08-05",
     "status": "HOLD",
     "status_note": ""
@@ -898,7 +898,7 @@
     "shares": 12.6962,
     "buy_price": 108.5999984741211,
     "buy_date": "2026-08-06",
-    "last_price": 107.69999694824219,
+    "last_price": 109.33999633789062,
     "signal_date": "2026-08-05",
     "status": "HOLD",
     "status_note": ""
@@ -909,7 +909,7 @@
     "shares": 2.9911,
     "buy_price": 415.54998779296875,
     "buy_date": "2026-08-11",
-    "last_price": 414.29998779296875,
+    "last_price": 416.17999267578125,
     "signal_date": "2026-08-10",
     "status": "HOLD",
     "status_note": ""
@@ -920,13 +920,22 @@
     "shares": 3.6928,
     "buy_price": 320.3699951171875,
     "buy_date": "2026-08-11",
-    "last_price": 322.4200134277344,
+    "last_price": 323.4800109863281,
     "signal_date": "2026-08-10",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [],
+  "pending_buys": [
+   {
+    "ticker": "DRI",
+    "name": "Darden Restaurants",
+    "light": "yellow",
+    "score": 88,
+    "signal_date": "2026-08-12",
+    "signal_close": 227.68
+   }
+  ],
   "pending_sells": [],
   "trades": [
    {
@@ -1402,6 +1411,10 @@
    {
     "date": "2026-08-11",
     "equity": 29849.27
+   },
+   {
+    "date": "2026-08-12",
+    "equity": 29784.09
    }
   ]
  }
