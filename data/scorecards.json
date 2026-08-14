@@ -111810,5 +111810,2082 @@
    "verdict": "偏弱：獲利成長檢核不合格，觀望為宜"
   },
   "ai7": null
+ },
+ {
+  "date": "2026-08-14",
+  "market": "us",
+  "ticker": "PRU",
+  "name": "Prudential Financial",
+  "close": 125.13,
+  "rebound": 1.0,
+  "base_quality": 0.857,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 125.13 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 86%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近4年平均年成長 25%，成長年份占 100%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 45%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 14%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 59%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "AI 判斷（僅供參考，請複核依據）：提供的證據僅包含短期財報數據與股利、庫藏股等資本配置資訊，缺乏支持未來獲利結構性成長的具體業務與產業動能證據。",
+     "starred": true,
+     "ai": {
+      "grade": "T",
+      "one_line": "提供的證據僅包含短期財報數據與股利、庫藏股等資本配置資訊，缺乏支持未來獲利結構性成長的具體業務與產業動能證據。",
+      "analysis": "檢視提供的營運數據，公司近期營收與獲利成長強勁，並持續執行庫藏股買回與股利發放。然而，各項新聞標題僅提及財報發布、回購及配息概況，未提供有關 PGIM 資產管理、退休策略或國際業務市占擴張等結構性成長的實質內容。由於缺乏足夠證據證明其成長並非僅受金融市場循環或總體經濟影響，依保守原則無法確認長期成長邏輯。",
+      "risks": "金融市場波動影響投資收益與資產管理規模、利率環境變動影響壽險利差與產品需求。",
+      "sources": [
+       {
+        "title": "How Investors May Respond To Prudential Financial (PRU) Earnings Beat And Nearly $500 Million Buyback - Yahoo Finance UK",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc2k1NXprX1YzbDltWWJLaWo5Wk9Sbzh3ck9xLWVpZFluWmRrTnJpMnB6T1hmMm56N3dMa0Y4ZndpOE5WUXNJbm9pV1ItbThzcmt2b3BiX2JmZ2hzVXlLblNfZ3Z4VjFIaUtuYjZKdmdDajZkZXNuVUNGaHYxZjI5eDhVWFJjbTlBVlFEX1NQWjE0YzlBakE?oc=5",
+        "date": "Sun, 09 Aug 2026",
+        "source": "Yahoo Finance UK"
+       },
+       {
+        "title": "Prudential Financial Q2 Earnings Call Highlights - MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNlV1cEhad3FYRVhrU3dvOTF1VFg4TTZTb1lUVlR0UXlKR3F3eXItQlhFYUhyX3VTNzBPUnZYdjNRUGdTTFNSZDRoX0xnQUhxT2NtRXFDRHotMEV2S3h2NlBTd0Z4MVYzT0VMaVF2eWFENVYtakZOeGpmc3dOMzVMWC1udnN4N3VhaGd2M1YyVDdFT0VtYnk3MVcyRVktRC1tVFluWg?oc=5",
+        "date": "Sun, 09 Aug 2026",
+        "source": "MarketBeat"
+       },
+       {
+        "title": "How Prudential’s Dividend, Buybacks and Debt Issuance Will Impact Prudential Financial (PRU) Investors - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdzJlU0k0Q053R2xCSVgzZzZvQ1FObnU4MW14dHFmOTZjZHF4RXNvNmE3b1ktcXFHakJZYlREai1qUklZNzBCcnVmOHI5ZVBhOWI5bTNUOTYzY1lOczJFYVE1X2ZrRGpqUmd6WTJhcGZTMnBkMmktZUpKTGU4eENfV2llT0h0SmJBY2NWeGExVGsyOTZhWW45cE1GM2ZhTW5xUXYtWjJ4Ri1KcDU0R0E4UlFLaFhBNkJ3RDNnX1gxNVV1Nk9NTjZ2bGJEeWI0elY5amN30gHYAUFVX3lxTE9UakNib01yV09kUkdJd1RmTUM2U3I3Q0xuWDRQUTMycWZKLUdWLUtYLXhPbTI0bDB0dFl1Y3ExTk83eTgzOXhrSnF3UGZjQzNCZHV0Y0RrSTRKb2VpNWVvbEd0LTFyRUg5VU52Ri1obl9VNUxoTy1GSlEyNjBpSTctMHlRZ2MxOUE5OWtoMEFVNU1FcGhqSms4aXRCZWFIWnVzdkNIQzZITWYzMnhRa2xtY3NJblJ0TUM3V0d1S3NqU0R5ZFRPUU5WNDVGbnVYNzVwSC1GWU1sTQ?oc=5",
+        "date": "Thu, 13 Aug 2026",
+        "source": "simplywall.st"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Prudential Financial (PRU) Q1 2026 Earnings Call Transcript - Fortune",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kczVsUEFHTHlSdW1EWXZSWjdCUzc2R2poRlViLVpEQlBlNUFmckRtYXRPQnJmZWl5SVB6OWlfcmFkLV90eWdLY0dIMWFOdllsbFpQSFdEVWdlUUdFUHBXbzhJMi1fTnR0M1ZKMlE2VU1DNG9x?oc=5",
+        "date": "Thu, 13 Aug 2026",
+        "source": "Fortune"
+       },
+       {
+        "title": "How Investors May Respond To Prudential Financial (PRU) Earnings Beat And Nearly $500 Million Buyback - Yahoo Finance UK",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc2k1NXprX1YzbDltWWJLaWo5Wk9Sbzh3ck9xLWVpZFluWmRrTnJpMnB6T1hmMm56N3dMa0Y4ZndpOE5WUXNJbm9pV1ItbThzcmt2b3BiX2JmZ2hzVXlLblNfZ3Z4VjFIaUtuYjZKdmdDajZkZXNuVUNGaHYxZjI5eDhVWFJjbTlBVlFEX1NQWjE0YzlBakE?oc=5",
+        "date": "Sun, 09 Aug 2026",
+        "source": "Yahoo Finance UK"
+       },
+       {
+        "title": "Prudential Financial Q2 Earnings Call Highlights - MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNlV1cEhad3FYRVhrU3dvOTF1VFg4TTZTb1lUVlR0UXlKR3F3eXItQlhFYUhyX3VTNzBPUnZYdjNRUGdTTFNSZDRoX0xnQUhxT2NtRXFDRHotMEV2S3h2NlBTd0Z4MVYzT0VMaVF2eWFENVYtakZOeGpmc3dOMzVMWC1udnN4N3VhaGd2M1YyVDdFT0VtYnk3MVcyRVktRC1tVFluWg?oc=5",
+        "date": "Sun, 09 Aug 2026",
+        "source": "MarketBeat"
+       },
+       {
+        "title": "Prudential Financial Declares Quarterly Dividend on Common Stock - Business Wire",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOWNjQUZwalI2eHpOa2dhZlR3VVVRd3N3TEEyRG5nZkFUY0pvNmpUZGxsWnNtQVBXYjZVODBXa0c0c1FyMkFaWXVpMGFQRkt5SU4yVU0wR1pXOGRpbEJoaGdJV1pPdFU1djlrSkZhRjF5b3hyYjRod1FQeEVwam5XSVBhczAxMGhTQ2l4NEkzY2Rpa1AteVJyZ0FscGZyOWEzUkI4eFFoeWFyZlJPYjkxQTlEVU5KWEpUQ1JJYmh3?oc=5",
+        "date": "Tue, 11 Aug 2026",
+        "source": "Business Wire"
+       },
+       {
+        "title": "How Prudential’s Dividend, Buybacks and Debt Issuance Will Impact Prudential Financial (PRU) Investors - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdzJlU0k0Q053R2xCSVgzZzZvQ1FObnU4MW14dHFmOTZjZHF4RXNvNmE3b1ktcXFHakJZYlREai1qUklZNzBCcnVmOHI5ZVBhOWI5bTNUOTYzY1lOczJFYVE1X2ZrRGpqUmd6WTJhcGZTMnBkMmktZUpKTGU4eENfV2llT0h0SmJBY2NWeGExVGsyOTZhWW45cE1GM2ZhTW5xUXYtWjJ4Ri1KcDU0R0E4UlFLaFhBNkJ3RDNnX1gxNVV1Nk9NTjZ2bGJEeWI0elY5amN30gHYAUFVX3lxTE9UakNib01yV09kUkdJd1RmTUM2U3I3Q0xuWDRQUTMycWZKLUdWLUtYLXhPbTI0bDB0dFl1Y3ExTk83eTgzOXhrSnF3UGZjQzNCZHV0Y0RrSTRKb2VpNWVvbEd0LTFyRUg5VU52Ri1obl9VNUxoTy1GSlEyNjBpSTctMHlRZ2MxOUE5OWtoMEFVNU1FcGhqSms4aXRCZWFIWnVzdkNIQzZITWYzMnhRa2xtY3NJblJ0TUM3V0d1S3NqU0R5ZFRPUU5WNDVGbnVYNzVwSC1GWU1sTQ?oc=5",
+        "date": "Thu, 13 Aug 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "PRUDENTIAL FINANCIAL ($PRU) Releases Q2 2026 Earnings - quiverquant.com",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOenBmcGVDMU1VQ1UwQmt4VUZ0SGxSMUdINGVFcnVGWmpUcEpDRFhCenB4M0tPSFBNcFd1QndvdUdCY3FQLUhURmRtMG9mcEhfUjhGU0FBU3JJQ19MZ3dYeHdubkN5dkxOS21KMzRkXzVBTjc5ZEFrNWg0b0l5dHQ1OVFaMnZydkxHNWlxT3IyZ2JlOU94TVZr?oc=5",
+        "date": "Tue, 04 Aug 2026",
+        "source": "quiverquant.com"
+       },
+       {
+        "title": "Prudential Earnings: What To Look For From PRU - StockStory",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeF9oV2V3RzdWdjNwVkNfazNnWjlKeHlZSTFYT09FZFA3UXlXTGd4dWw0Yks4TGlmNVYteVA4UXJ0alZwMExvdnJRRWZUQzh4STgxSXE2cTZ6czNOV191ZDdlQ3NJSFZaYkJ4R0pKN2ZJTU94VHJxdzRsSTNlclkxZ2wtM3BEZ0Y2a0hPU1ZzZUxVTTBSMW9NbDNMNDlyYlVZdDg0?oc=5",
+        "date": "Mon, 03 Aug 2026",
+        "source": "StockStory"
+       },
+       {
+        "title": "Will Prudential Financial Pull Off a Surprise This Earnings Season? - Zacks Investment Research",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOTMzVE9PNEMyY0hzSTdNaTJXeGJtZWJwWXBsTXpVVTF2TFhaNXNOYTYtTW9GOXpxc25rcVhJNnU3ejYxYy1pV2JKdXhwMjdWQ2VVLXBiSzc0VER5VFFzb1BJRmF1UHhaVXFUMjRQY0ZKSEd0blZrXzhHMmZJTEZvaUlmRmFQd3phaHU4LXVHZkpXaFZfdGVBRHFZYnRDcWpScTZnMHhZTEhUTHc?oc=5",
+        "date": "Fri, 31 Jul 2026",
+        "source": "Zacks Investment Research"
+       }
+      ],
+      "model": "gemini-flash-latest",
+      "judged_at": "2026-08-14 22:36"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 11.3 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 5.1%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 86,
+   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+  },
+  "ai7": {
+   "grade": "T",
+   "one_line": "提供的證據僅包含短期財報數據與股利、庫藏股等資本配置資訊，缺乏支持未來獲利結構性成長的具體業務與產業動能證據。"
+  }
+ },
+ {
+  "date": "2026-08-14",
+  "market": "us",
+  "ticker": "SCHW",
+  "name": "Charles Schwab Corporation",
+  "close": 111.09,
+  "rebound": 1.0,
+  "base_quality": 0.74,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 111.09 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 74%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 13%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 49%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 21%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 31%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "AI 判斷（僅供參考，請複核依據）：現有證據僅呈現近期獲利與股價創高，缺乏證明其具備長期結構性成長動能的具體業務細節。",
+     "starred": true,
+     "ai": {
+      "grade": "T",
+      "one_line": "現有證據僅呈現近期獲利與股價創高，缺乏證明其具備長期結構性成長動能的具體業務細節。",
+      "analysis": "提供的營運數據顯示近四季獲利成長49%，且最新季度營收與獲利皆創下歷史新高。然而，新聞資訊僅提及財報優於預期及股價創新高，並未提供驅動獲利成長的具體結構性因素（例如客戶資產淨流入增長、市占率提升或新業務模式）。在缺乏相關業務驅動細節下，無法排除成長受資本市場景氣循環影響的可能性，因此現有證據不足以做出確定性判斷。",
+      "risks": "金融市場波動影響經紀交易手續費與資產管理規模、利率環境變動影響淨利息收入。",
+      "sources": [
+       {
+        "title": "Schwab Reports Record Quarterly Revenue and Earnings - Business Wire",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMThORW9ORC11YjJQMGJGc3h3MnBsX2xHVU9IZnhJZ0ZKOUxuemhfX3FmVExUZHZQa1cyRk1TQmJYaVQzeWNMNFBzbEpld2ZhR3F2ejhPdU5XclJUZ3NUbktoZ1VXYTdfd1VQMG9WU3FHRjh1NGs1Tks3SDJxUEl2MXRxb1kzRTE5V2lrUlc0UE52RzJJRFdmWWhWaEtZblc4Q3NrcG41aEQ0Q3QxcUE?oc=5",
+        "date": "Tue, 21 Jul 2026",
+        "source": "Business Wire"
+       },
+       {
+        "title": "The Charles Schwab Corporation (SCHW) Tops Q2 Earnings and Revenue Estimates - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZHBMLUZRZ3NtWnNwODRBaEF4a2dybzNFbFF3SUM3LUVDbDFjbXJpNHR2bF9PVjF6a1RTZlRLdldrZlAwbFk1ZHE4TVA2djRqak1uajJpVlJTQ2ZjQWZpQVdLa29ySEVqVVpTWmxJczFvWlNLbWw0X1A3Um1yRkJBdFg0NktsU1FLX1hjTHk1dlZBb2JDY3pxMk91U3lPZ0VvRFhF?oc=5",
+        "date": "Tue, 21 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Charles Schwab stock reaches all-time high at 109.33 USD By Investing.com - Investing.com South Africa",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQc2g0SXFRVHhHdVhDRi10LVc2enZoVElOQzFVMG9wR0V3dGtaRWJyWUFwX0NlR0tFVHZHQ0Raa0pVUkNZOXluQ2w5TDI0dk9sTnZpT05hZ0gxd0VpMzZqSVFDdHNZWjZTVk1wek9BZ0VLTmU5bG4tdFdDMmdwS0cxaDN6VVRvLVhlX09rVUxoaWl6UFhfcDdldHc5dElfNmd1ZklDbFlLc0FFbDRDdF9BblBKbnVqQjktanQ2TkNHMlAzVERWdmc?oc=5",
+        "date": "Wed, 12 Aug 2026",
+        "source": "Investing.com South Africa"
+       },
+       {
+        "title": "The Charles Schwab Corporation 2026 Q2 - Results - Earnings Call Presentation (NYSE:SCHW) 2026-07-21 - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVzJVenJyUzdYTFJrbm8tYmk5R1dBU2pWcHlhT3pXUkkzV2pDa0luSVA0SS1vOXFwRWxxanRHNDJpZ2RSSkQ5czFxMUw5OHp2M24zcHc1WFVYVFhIX0VRUFRnUlpwejVucndYLU92T0dEOHRfdTlEV0QwU2Zzc0h0R1BmNVBSV1l1NGgzLXpsaWhzOEZ2eVc2UTdPbWt5M0JTUWJESWF6V0VIcEU0bHFJc1J6OEo?oc=5",
+        "date": "Tue, 21 Jul 2026",
+        "source": "Seeking Alpha"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Schwab Reports Record Quarterly Revenue and Earnings - Business Wire",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMThORW9ORC11YjJQMGJGc3h3MnBsX2xHVU9IZnhJZ0ZKOUxuemhfX3FmVExUZHZQa1cyRk1TQmJYaVQzeWNMNFBzbEpld2ZhR3F2ejhPdU5XclJUZ3NUbktoZ1VXYTdfd1VQMG9WU3FHRjh1NGs1Tks3SDJxUEl2MXRxb1kzRTE5V2lrUlc0UE52RzJJRFdmWWhWaEtZblc4Q3NrcG41aEQ0Q3QxcUE?oc=5",
+        "date": "Tue, 21 Jul 2026",
+        "source": "Business Wire"
+       },
+       {
+        "title": "The Charles Schwab Corporation (SCHW) Tops Q2 Earnings and Revenue Estimates - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZHBMLUZRZ3NtWnNwODRBaEF4a2dybzNFbFF3SUM3LUVDbDFjbXJpNHR2bF9PVjF6a1RTZlRLdldrZlAwbFk1ZHE4TVA2djRqak1uajJpVlJTQ2ZjQWZpQVdLa29ySEVqVVpTWmxJczFvWlNLbWw0X1A3Um1yRkJBdFg0NktsU1FLX1hjTHk1dlZBb2JDY3pxMk91U3lPZ0VvRFhF?oc=5",
+        "date": "Tue, 21 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Should I Buy SCHW (The Charles Schwab Corporation) | AI Analysis, Technical & News Insights - Kavout | AI",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZaDRTT3RWcHU2ZWF6QUZPeS1lNUZqQVMwV1F3UTNfUVk5MWx0N0VGY04tREg2NVpBREROWVNLb2tYaWdrSWVjR2ptWm5ybmdmT1JoaF93Nmk4QUY0LWN6aDNSSnJVbWR1TXRN?oc=5",
+        "date": "Tue, 11 Aug 2026",
+        "source": "Kavout | AI"
+       },
+       {
+        "title": "17,601 Shares in The Charles Schwab Corporation $SCHW Acquired by Lederer & Associates Investment Counsel CA - MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQOVMxcW1mYlNlYUZwT1Q0MlBNV2pVeXZIVWkxam5sS1lra2lqcXVMTUEtUUc0ZkVvbVFNV1JNSTN6LUpjVTM5YXpkZkkxMWRxcXcwbU82dkZJOVEwcW9jZU9FckJiTXA4NkZnU2tZREZMLV9HTUFBQXQxWXN0UTh4dTIzaWZGWU5CUkVPQUozczBiVEJzZXlwYkxQZjh4eWk1Mkptb0ZpRzVfNnl1cXRSUzdRYnRBUUNfZ3BpbXRSRk5NbTZpQVZ4anQwbk11MGhJVUVoS1JrSXc4WkxiWjNyb3k4UnQ0NWxKNnlZTW1WYXB1R2I3Ql9aag?oc=5",
+        "date": "Wed, 12 Aug 2026",
+        "source": "MarketBeat"
+       },
+       {
+        "title": "Charles Schwab stock reaches all-time high at 109.33 USD By Investing.com - Investing.com South Africa",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQc2g0SXFRVHhHdVhDRi10LVc2enZoVElOQzFVMG9wR0V3dGtaRWJyWUFwX0NlR0tFVHZHQ0Raa0pVUkNZOXluQ2w5TDI0dk9sTnZpT05hZ0gxd0VpMzZqSVFDdHNZWjZTVk1wek9BZ0VLTmU5bG4tdFdDMmdwS0cxaDN6VVRvLVhlX09rVUxoaWl6UFhfcDdldHc5dElfNmd1ZklDbFlLc0FFbDRDdF9BblBKbnVqQjktanQ2TkNHMlAzVERWdmc?oc=5",
+        "date": "Wed, 12 Aug 2026",
+        "source": "Investing.com South Africa"
+       },
+       {
+        "title": "The Charles Schwab Corporation 2026 Q2 - Results - Earnings Call Presentation (NYSE:SCHW) 2026-07-21 - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVzJVenJyUzdYTFJrbm8tYmk5R1dBU2pWcHlhT3pXUkkzV2pDa0luSVA0SS1vOXFwRWxxanRHNDJpZ2RSSkQ5czFxMUw5OHp2M24zcHc1WFVYVFhIX0VRUFRnUlpwejVucndYLU92T0dEOHRfdTlEV0QwU2Zzc0h0R1BmNVBSV1l1NGgzLXpsaWhzOEZ2eVc2UTdPbWt5M0JTUWJESWF6V0VIcEU0bHFJc1J6OEo?oc=5",
+        "date": "Tue, 21 Jul 2026",
+        "source": "Seeking Alpha"
+       },
+       {
+        "title": "Is The Charles Schwab Corporation (SCHW) Trading at a Discount? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbzJWYkEwNExUTXpZMUNoZ3BFNzZFRW5sdjFwQ216anB4b1FUUDJSUTBXQ0E5eVl4ZkszVEZMblE0OW9TM0tmd2p1cG8tM1Rtb1BiY0MxNldzaVNIbUFYN1N5VnluSmFKVXc0UjVXNGpGLUhEcS1fMHR3cGpUY0xYTzF3TW9oRFNjSF9IQTlyUnNvLVdzdUl6ZU45cE1McHdBM2ZTaHdXZw?oc=5",
+        "date": "Tue, 21 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "The Charles Schwab Corporation $SCHW Stock Holdings Lowered by Diversified Management Inc. - MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOa1Nkc3JpRGNvSW9aQkZPdXNJT2dlV0VNaVVGTEc1bHlfLWgzeUZmLWw3SHYzaTVkZmpjVW9oWHV2Vm4wc19TQkZWWFg0a01VZFZrLTVGMkdwRnktRGMyNWc3aEg3WGtWeGo5UDl6V2lHOTJNcHNqRmJGV0VCV2NkcXJmZHlLSEs3ckQ1aHZvVFBuTG9lYWVRenVOekJLUUtXTUNaemp0aXdNOTlqZ2hXbWR1dFJGY3lzSE51T0drMUNyUEM2bndkZWRtRkZmN05uVkRyWU15cjhzVEpBLURkYlZfaw?oc=5",
+        "date": "Wed, 12 Aug 2026",
+        "source": "MarketBeat"
+       }
+      ],
+      "model": "gemini-flash-latest",
+      "judged_at": "2026-08-14 22:37"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 20.2 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 5.1%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 86,
+   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+  },
+  "ai7": {
+   "grade": "T",
+   "one_line": "現有證據僅呈現近期獲利與股價創高，缺乏證明其具備長期結構性成長動能的具體業務細節。"
+  }
+ },
+ {
+  "date": "2026-08-14",
+  "market": "us",
+  "ticker": "EXPE",
+  "name": "Expedia Group",
+  "close": 332.69,
+  "rebound": 1.0,
+  "base_quality": 0.568,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 332.69 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 57%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 48%，成長年份占 100%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 3%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 14%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 143%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：Expedia Group 透過 B2B 業務擴張及 AI 技術整合，推動未來獲利穩健成長。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "Expedia Group 透過 B2B 業務擴張及 AI 技術整合，推動未來獲利穩健成長。",
+      "analysis": "Expedia Group 的未來獲利成長預期來自其 B2B 業務的持續擴張以及對 AI 平台的策略性收購，這些均屬於結構性變化 [7]。公司近期上調了 2026 年營收展望並發布了優於預期的財報，顯示其成長動能強勁 [1, 6]。儘管旅遊產業整體動能有助益，但 Expedia 透過強化其商業模式和技術能力，展現了超越景氣循環的成長潛力 [2, 7]。",
+      "risks": "線上旅遊市場競爭激烈，可能影響市佔率及獲利能力；AI 平台整合的執行風險，以及全球旅遊需求波動仍可能影響其營運表現。",
+      "sources": [
+       {
+        "title": "What Expedia Group (EXPE)'s Upgraded 2026 Revenue Outlook Means For Shareholders - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdVh5bk9ndGtXbU5rYnAxWm1KMXB5TVlEaE9oNjJUaVlPMzJmb2JDTHlycWNsNzU0RGZyb1BTeWpTY0UydnFSWlBTRzlFTk5yR1Z2SVVJVEh4dldoQzJfdFJoR0p4c3A0LUtJaF9XaXNnVmx5c1ZSVndUQkpZMVhrcUFTUGpiWnFNTV80VVlvSXpjOC1teW1iV1J2SEZZNW91SVNCWXE3a3Z3dlBHYUtBYUJCSTR3ZVJ6dUQzM0tsYjEwSTV2MXZ0X1FrUDkza2lNSDFjaGpLN0vSAd4BQVVfeXFMTzh0V3R3QTNtWUViT2lLNDN5enFZNzdCd1Z0UHE4dm9ya3ZJTEZVS0NYRkpTV19vWEdvNHdnX2FWaFpLV3lNM0dZQ1pDWXRjeUxXTlZsM2pnUGxXbWdvTWF3dHUxVkNLZ0V5RW9LbGJmdEpNVktVaWROOTJOb3lnZWgyQm52TGZTbE5rMUtkNzN0TmhtQXpsNTk3MVpZVjczNzdDZ285T3hYak5XV3hRci02UllwdkVPbmxoNDdIWWVCNTlLT2ZCcnNKVHpiY0pUb3N2OUtFS09nZkhIbkdB?oc=5",
+        "date": "Wed, 12 Aug 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Expedia Group rises as investors appear to revisit recent earnings and travel-sector momentum - quiverquant.com",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTVpBOEdMTk1JZnRDejFVX2NuV0tET3FtVGRSOTh4cWlqdTdCSW85d0g5T2JDSlJBVXBtbWo3YndlLVh2WV9PMnZrRUQwTnpCZ0o2UnZEV053STBKSjkyb2tOWWc5Y0ZqdnBJUk5yekpPOFc4M0c4ZnNMdFk3b3pOZDl1QVhkQUo1LWdkSnExSDFZeDMyU2RvNEhYbDR4TXB1a2lJbEt6U2lMSHFzcWJqWTRLd0pBb2FiN1hkUElvZHJYZkhB?oc=5",
+        "date": "Tue, 11 Aug 2026",
+        "source": "quiverquant.com"
+       },
+       {
+        "title": "Is Expedia Group (EXPE) Undervalued Following Its Earnings Beat And Raised Guidance? - Sahm",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWUFMTUlqR2dFcFN3R3N4dkw3a3dOVkszb1dHbXZzQWJiajlKV0pIWXNQQVhXZGlsMy1hemQzaE83YXE1WjgyS2hncVpEQUlzZGt4LWxHYm5wa1otXy1iSGhJd1lXX2wxZWs3My1SWHF1X3BEZGJLNHp0QUJYdGRWdEZJcW9BaWRHOXpzQjF5SjZEcW1zeTBiejJvODZtalpWc2VQZm4zN2NObVFiN1N6aWY2aDRGYlYteDdKNDFWOWZmc3lBUFkxSUQwWTlXQQ?oc=5",
+        "date": "Sun, 09 Aug 2026",
+        "source": "Sahm"
+       },
+       {
+        "title": "News | Expedia Group continues B2B growth, acquires AI platforms - CoStar",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNU2hhcmpxNVBUWi1COW1nUEd4TVlWbUIxRTlwVlZ0aVYzZEdLOGdGbVkxUXl2ZE4tb1daMzRidVQ0dWRuT25XX0FCSHpJbkJ2bDNVLVI0WXdDcEFVaGVvMG42aFhtaTBxbGVBMGVVSWhteDRyUGk1OVcySUhGcDNaUGx6bUdWWEFycUc1N3Q3TVVlTVM5cXZuYkdKTlg4Zw?oc=5",
+        "date": "Thu, 06 Aug 2026",
+        "source": "CoStar"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "What Expedia Group (EXPE)'s Upgraded 2026 Revenue Outlook Means For Shareholders - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdVh5bk9ndGtXbU5rYnAxWm1KMXB5TVlEaE9oNjJUaVlPMzJmb2JDTHlycWNsNzU0RGZyb1BTeWpTY0UydnFSWlBTRzlFTk5yR1Z2SVVJVEh4dldoQzJfdFJoR0p4c3A0LUtJaF9XaXNnVmx5c1ZSVndUQkpZMVhrcUFTUGpiWnFNTV80VVlvSXpjOC1teW1iV1J2SEZZNW91SVNCWXE3a3Z3dlBHYUtBYUJCSTR3ZVJ6dUQzM0tsYjEwSTV2MXZ0X1FrUDkza2lNSDFjaGpLN0vSAd4BQVVfeXFMTzh0V3R3QTNtWUViT2lLNDN5enFZNzdCd1Z0UHE4dm9ya3ZJTEZVS0NYRkpTV19vWEdvNHdnX2FWaFpLV3lNM0dZQ1pDWXRjeUxXTlZsM2pnUGxXbWdvTWF3dHUxVkNLZ0V5RW9LbGJmdEpNVktVaWROOTJOb3lnZWgyQm52TGZTbE5rMUtkNzN0TmhtQXpsNTk3MVpZVjczNzdDZ285T3hYak5XV3hRci02UllwdkVPbmxoNDdIWWVCNTlLT2ZCcnNKVHpiY0pUb3N2OUtFS09nZkhIbkdB?oc=5",
+        "date": "Wed, 12 Aug 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Expedia Group rises as investors appear to revisit recent earnings and travel-sector momentum - quiverquant.com",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTVpBOEdMTk1JZnRDejFVX2NuV0tET3FtVGRSOTh4cWlqdTdCSW85d0g5T2JDSlJBVXBtbWo3YndlLVh2WV9PMnZrRUQwTnpCZ0o2UnZEV053STBKSjkyb2tOWWc5Y0ZqdnBJUk5yekpPOFc4M0c4ZnNMdFk3b3pOZDl1QVhkQUo1LWdkSnExSDFZeDMyU2RvNEhYbDR4TXB1a2lJbEt6U2lMSHFzcWJqWTRLd0pBb2FiN1hkUElvZHJYZkhB?oc=5",
+        "date": "Tue, 11 Aug 2026",
+        "source": "quiverquant.com"
+       },
+       {
+        "title": "EXPEDIA GROUP INC (EXPE.MX) Q1 FY2026 earnings call transcript - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLWFrbjlEd0ZwUXdFcXN0c3FxWm9oMXJaU083WDJSUE51NkFBd0hWM3VwZE9QalR3QUlhR0VsTFg1UU4wUVlxMm5WQVN3UFprT2lRUV9WZzU4NEVqMmhzdVIwYUViY1NyTjluMF94U1pPT05Tb3R4M0NiYkFJT2dRT01PTnVPa3JEU2FDSTVqUl9hRlh1?oc=5",
+        "date": "Wed, 12 Aug 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Expedia Group Reports Second Quarter 2026 Results - Business Wire",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTVBRY1ZjMElVNTJERlQyb2x0WmRadEZUVWN6aHNJV0pLb1I0b2JTLTVkRVRwNjJvdXFhNV9YUzRvV3Z2ZEpNUnoxcUp6MFhxWjF5dk1QUXcwMXFtX3B4Snl4alExd284ZDRteld3Y1JjcTkwYkUwSlhwUWtMLXh6am5fSExQbHRkQzJpTWx0WmxkSVNUMGR6SGtrbExmeFVwSFNsNDVzVWgxZw?oc=5",
+        "date": "Wed, 05 Aug 2026",
+        "source": "Business Wire"
+       },
+       {
+        "title": "Expedia Group (NASDAQ:EXPE) Looks Like a Decent Value Stock, Not a Value Trap - ChartMill",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQVlES0dGZGVnZlhfYWxvaWdlZDJKaTN3UWtmSEhpLW9xZVVaSkZxVjBmN2ZqUXpGbWNhU3N6c19IRVBEdlFjZFBwaFN1d0hRSmpGSmxLYlIzYVNEdmxlLU84enIwZ3lONFlfbDFGUW5ocXA0NWktbWdDT3hOcF8ydGRTaFd6bldFUExHYWtVc1luS2x3UzlVUUJYQXFPbFdQU1VYTjNfZzlRTUJyS2J3TG5JcmVqQnF6Q25vLXBIMHBLMTA?oc=5",
+        "date": "Sat, 08 Aug 2026",
+        "source": "ChartMill"
+       },
+       {
+        "title": "Is Expedia Group (EXPE) Undervalued Following Its Earnings Beat And Raised Guidance? - Sahm",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWUFMTUlqR2dFcFN3R3N4dkw3a3dOVkszb1dHbXZzQWJiajlKV0pIWXNQQVhXZGlsMy1hemQzaE83YXE1WjgyS2hncVpEQUlzZGt4LWxHYm5wa1otXy1iSGhJd1lXX2wxZWs3My1SWHF1X3BEZGJLNHp0QUJYdGRWdEZJcW9BaWRHOXpzQjF5SjZEcW1zeTBiejJvODZtalpWc2VQZm4zN2NObVFiN1N6aWY2aDRGYlYteDdKNDFWOWZmc3lBUFkxSUQwWTlXQQ?oc=5",
+        "date": "Sun, 09 Aug 2026",
+        "source": "Sahm"
+       },
+       {
+        "title": "News | Expedia Group continues B2B growth, acquires AI platforms - CoStar",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNU2hhcmpxNVBUWi1COW1nUEd4TVlWbUIxRTlwVlZ0aVYzZEdLOGdGbVkxUXl2ZE4tb1daMzRidVQ0dWRuT25XX0FCSHpJbkJ2bDNVLVI0WXdDcEFVaGVvMG42aFhtaTBxbGVBMGVVSWhteDRyUGk1OVcySUhGcDNaUGx6bUdWWEFycUc1N3Q3TVVlTVM5cXZuYkdKTlg4Zw?oc=5",
+        "date": "Thu, 06 Aug 2026",
+        "source": "CoStar"
+       },
+       {
+        "title": "Expedia Group Q2 Earnings Call Highlights - MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX0tUU0hyVVlnY3RzY2ZDX2NXTWhKT1VFeERMWjFGU3ZDM19TaUJSS044aVdxQlBZVlJSSlV4LVN4dmV3cnBqZWx4UWZKY0dFRjlIX001YnBEVTdQV1RIendwNkdVS21SZGRFNWJxbzRKRHFNWEViQm5wWHA2TUxqRE8zejlsOGNtekxNV0JLaWVGdkJJOXhEb0ZlZw?oc=5",
+        "date": "Wed, 05 Aug 2026",
+        "source": "MarketBeat"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-08-14 22:38"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 20.9 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 5.1%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 86,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": {
+   "grade": "O",
+   "one_line": "Expedia Group 透過 B2B 業務擴張及 AI 技術整合，推動未來獲利穩健成長。"
+  }
+ },
+ {
+  "date": "2026-08-14",
+  "market": "us",
+  "ticker": "NTAP",
+  "name": "NetApp",
+  "close": 207.08,
+  "rebound": 1.0,
+  "base_quality": 0.61,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 207.08 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 61%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 16%，成長年份占 100%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近四季獲利年增 19%（接近 20% 門檻）",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 12%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 46%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "AI 判斷（僅供參考，請複核依據）：現有證據多聚焦於短期股價走勢與估值，缺乏足夠具體的結構性成長機制佐證。",
+     "starred": true,
+     "ai": {
+      "grade": "T",
+      "one_line": "現有證據多聚焦於短期股價走勢與估值，缺乏足夠具體的結構性成長機制佐證。",
+      "analysis": "從營運數據可見 NetApp 近期獲利年增達 46%，且具備穩健的歷史成長紀錄。然而，提供的近期新聞多為股價漲跌與估值評估的報導（如 [1]、[3]、[6]），雖然提及 JetStream 交易與 AI 相關題材（[2]、[5]），但未有充足內容詳述其混合雲與資料管理架構帶來長期結構性成長的具體因果關係。在嚴格遵守僅依現有證據判斷的保守原則下，目前資訊不足以確認未來獲利穩健成長之定論。",
+      "risks": "混合雲與儲存軟體市場競爭加劇；高估值下若未來獲利成長未達市場預期恐引發股價回檔。",
+      "sources": [
+       {
+        "title": "NetApp (NTAP) Stock Looks Near Fair Value While Earnings Trade At A Premium - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbmllNVlUMGh4Y09SclJKd3dSZ0xPcE1rd2V1OGVGOUxnSDVYWVd1T1VCUDFRcmFjdTIwQUVBX19ieVFtRk1UNzNFU21JX0Q0bUhONUlpN0tvNkxhSXlIVzhqbElXcEFRVlZXQTJ1N3Q0RVM1R256MXJmVmVMTU9MQTh1aVV3dl9VdUx5M0YzU1BzX3FiM002Tg?oc=5",
+        "date": "Wed, 12 Aug 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Is NetApp (NTAP) Expensive On JetStream Deal And Earnings Hopes? - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOalM2MWNNdFEtSmJCLVpCUUlBT0dINzRZdlVuRFk1Y2g2SHBhYUhTRU8wLXoxOFREbEdSeWllVnhYOXoyTC16REZkQS1sYzVnaWdhdy1HOUs3WVk5UlBlcGplT0Fhbk5uRFlWMzVsWERxeTl2RU5neFlxVlJXeTB6VnRWa0p4TUpPYl9qUEFDbzhHS28yTno3cFQ4ZHhVbGVtT0VBNGJRcUI2UUFoWWJNY1ZCM0I1UGFydnJIczNn0gHDAUFVX3lxTE9IaEtDbS1BU2pQbW1fNnAtdjYzQXpqdWJnaFdKR1g1M3dZcVhKeTQwSnNmX0VvMm91cERkaXczZXdDRUVtVzk2MXBibVJva1BGVlNNZi1zaWdSM0pHRUhDT3IxeHk0QUdSM2FoNFFtLWRwWkJfdVB5Z2pBZWZPdDVPWll1ZTFTd043R3dYRTJrQWJ3QjdQMk9SdDFqV2Y0T3pTVkEtM2tnT2V1eW9hcVQ0TDk5QnBGMkNfRUZSQ1FGMWN3UQ?oc=5",
+        "date": "Wed, 12 Aug 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "GE Aerospace, AI Play Lead Five Stocks Near Buy Points - Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVGtRYmFLY2QwTWw4RDZIQVVmSnRaY0VEa2VEZjBZZ19BR3JDczNxcWVnQ1VfUjlTSGFwaHBfOC1laTYyV25DS19weVRocDYxWUl6ZndReThvZURjZ3JQT2Rmb2xnWG1XWTQ2YXl0UTV3R0U5OTRtd3R0a0pxNzFVUXEwS3VsMFNpVlluMjRrUFVGNGs?oc=5",
+        "date": "Sat, 01 Aug 2026",
+        "source": "Investor's Business Daily"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "NetApp (NTAP) Stock Looks Near Fair Value While Earnings Trade At A Premium - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbmllNVlUMGh4Y09SclJKd3dSZ0xPcE1rd2V1OGVGOUxnSDVYWVd1T1VCUDFRcmFjdTIwQUVBX19ieVFtRk1UNzNFU21JX0Q0bUhONUlpN0tvNkxhSXlIVzhqbElXcEFRVlZXQTJ1N3Q0RVM1R256MXJmVmVMTU9MQTh1aVV3dl9VdUx5M0YzU1BzX3FiM002Tg?oc=5",
+        "date": "Wed, 12 Aug 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Is NetApp (NTAP) Expensive On JetStream Deal And Earnings Hopes? - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOalM2MWNNdFEtSmJCLVpCUUlBT0dINzRZdlVuRFk1Y2g2SHBhYUhTRU8wLXoxOFREbEdSeWllVnhYOXoyTC16REZkQS1sYzVnaWdhdy1HOUs3WVk5UlBlcGplT0Fhbk5uRFlWMzVsWERxeTl2RU5neFlxVlJXeTB6VnRWa0p4TUpPYl9qUEFDbzhHS28yTno3cFQ4ZHhVbGVtT0VBNGJRcUI2UUFoWWJNY1ZCM0I1UGFydnJIczNn0gHDAUFVX3lxTE9IaEtDbS1BU2pQbW1fNnAtdjYzQXpqdWJnaFdKR1g1M3dZcVhKeTQwSnNmX0VvMm91cERkaXczZXdDRUVtVzk2MXBibVJva1BGVlNNZi1zaWdSM0pHRUhDT3IxeHk0QUdSM2FoNFFtLWRwWkJfdVB5Z2pBZWZPdDVPWll1ZTFTd043R3dYRTJrQWJ3QjdQMk9SdDFqV2Y0T3pTVkEtM2tnT2V1eW9hcVQ0TDk5QnBGMkNfRUZSQ1FGMWN3UQ?oc=5",
+        "date": "Wed, 12 Aug 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Why NetApp (NTAP) Stock Is Up Today - quiverquant.com",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9VcncxNjdFMEFzdE02aVpFMmZodW9GT3JaVjkzNUhkRDBqcVJNdTlhT2xLU0JzVE5TcE5id01tNFBUUTNUeTE1aFdWbFVyUVRvWTFZdFlqWlRwSF80dlRKLXRILVNLM2xEYjJZM1lPbHBJd1pxclF2SHVicU0?oc=5",
+        "date": "Mon, 10 Aug 2026",
+        "source": "quiverquant.com"
+       },
+       {
+        "title": "Empowering distribution partners to drive growth & innovation | NetApp Blog - NetApp",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBubTJOUnNVZi03SkJTc0tacXhYRWdOOE9YTGJGTzZsRTdzY2ZCOUVzZlZINzV4U1hfXzE1T3FmY1JleDhSWEh4RmtLZ09QTllYUW93RmJROHhidHROek1jVDhQa0Jtb2JzU0xQTXB0NA?oc=5",
+        "date": "Fri, 07 Aug 2026",
+        "source": "NetApp"
+       },
+       {
+        "title": "GE Aerospace, AI Play Lead Five Stocks Near Buy Points - Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVGtRYmFLY2QwTWw4RDZIQVVmSnRaY0VEa2VEZjBZZ19BR3JDczNxcWVnQ1VfUjlTSGFwaHBfOC1laTYyV25DS19weVRocDYxWUl6ZndReThvZURjZ3JQT2Rmb2xnWG1XWTQ2YXl0UTV3R0U5OTRtd3R0a0pxNzFVUXEwS3VsMFNpVlluMjRrUFVGNGs?oc=5",
+        "date": "Sat, 01 Aug 2026",
+        "source": "Investor's Business Daily"
+       },
+       {
+        "title": "Why NetApp (NTAP) Outpaced the Stock Market Today - Yahoo Finance Singapore",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUVZYdDhVdGROVzhpM0JKdmtfWlBYWDFXTWVINXhWci00YmdJODZaU2kzTE4zLWVBZFFfZ0ZqWjRUdlJ4NlRuVDBSazFPU0ZIOGlxbzlJdGtEb2Q4Rjd6dDM4eEduRG1OaDRrRzRzTXZTWnE5VDNNOVpHZGtqWE53N3I5N2gxdw?oc=5",
+        "date": "Wed, 12 Aug 2026",
+        "source": "Yahoo Finance Singapore"
+       },
+       {
+        "title": "NetApp’s (NASDAQ:NTAP) Q1 CY2026: Strong Sales, Stock Soars - StockStory",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRWp2TksybUZrRUVPTlVsc1VUME5mQVlrY3NvMzF2S0Y3UGhWdmloUjZCVVZDMUczYm5fWUlGQ3JzLVF5a1hJXzZtaVZ4ZHdvSnlwNU96X3gzZWNoX25ZcFIyYlpFZTd5OHVyeEE4MHRQYlhKZU5ZVTBVN29EalJFSEpzUjlvVVE5YlJTb21ZbVJzdG15Z1BlOWJid3RrcGx2N3FuNW1ib1hTamZxZWdEamJB?oc=5",
+        "date": "Thu, 28 May 2026",
+        "source": "StockStory"
+       },
+       {
+        "title": "NetApp Reports Third Quarter of Fiscal Year 2026 Results - NetApp",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQX0xMSXVfUlNpRndTNEpsRnlCa0FXRmxsaUM5WFgyelVPX2c5emhYdVIxdWRMWmtKbG9hcXBZVlNueGZka3c5TGp5Y0RzbDZtWW5kcHhqVW8wSG1uMm9NaHhiandLZUI1bWs5ZWZ6T04xa2N6Z3M2S1A4RW5aeDdrSjhoRlJ5VWc?oc=5",
+        "date": "Thu, 26 Feb 2026",
+        "source": "NetApp"
+       }
+      ],
+      "model": "gemini-flash-latest",
+      "judged_at": "2026-08-14 22:37"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 32.6 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 5.1%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 82,
+   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+  },
+  "ai7": {
+   "grade": "T",
+   "one_line": "現有證據多聚焦於短期股價走勢與估值，缺乏足夠具體的結構性成長機制佐證。"
+  }
+ },
+ {
+  "date": "2026-08-14",
+  "market": "us",
+  "ticker": "PNC",
+  "name": "PNC Financial Services",
+  "close": 256.97,
+  "rebound": 1.0,
+  "base_quality": 0.742,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 256.97 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 74%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近4年平均年成長 5%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近四季獲利年增 17%（接近 20% 門檻）",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 14%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 28%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 14.1 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 5.1%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 79,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-08-14",
+  "market": "us",
+  "ticker": "CFG",
+  "name": "Citizens Financial Group",
+  "close": 74.73,
+  "rebound": 1.0,
+  "base_quality": 0.572,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 74.73 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 57%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -2%，成長年份占 33%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 23%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 12%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 36%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "AI 判斷（僅供參考，請複核依據）：資料僅呈現單季獲利回升與財報優於預期，缺乏支持結構性成長的具體商業動能證據。",
+     "starred": true,
+     "ai": {
+      "grade": "T",
+      "one_line": "資料僅呈現單季獲利回升與財報優於預期，缺乏支持結構性成長的具體商業動能證據。",
+      "analysis": "公司過去5年平均年成長為-2%且僅有33%的年份呈現正成長，顯示歷史成長並不穩定。近期數據與新聞顯示第二季獲利反彈且營運優於預期，但提供的資訊多屬短期季報結果與法人持股調整，並未提及任何商業模式變革、市場份額擴大或產業結構性趨勢等具體驅動因素。依保守原則且受限於現有資料，證據不足以確認未來獲利能具備可持續的結構性成長。",
+      "risks": "區域銀行業務易受利率與信貸景氣循環波動影響；缺乏明確的結構性成長護城河。",
+      "sources": [
+       {
+        "title": "Citizens Financial Group Q2 Earnings Call Highlights - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdm5CSTBvT2RIM2dqYi1FWnhJWjlER3VrclNlNGhGd2tEd1hZakNwci11Smt5MzV0bUJDZmJKNEptUVl2VV9UQWtHaTZPU1hHWV9TMDhZWTUxRXpmZkV0d3ZVbTZYeTJNVnRWQU9FWG5HbEV5TzlqeE5rUlRvaGlKVEE5Rll6WEQyNFJ5WlBvOFBkUmxvc3N4THdESUxFMGdhcjFj?oc=5",
+        "date": "Thu, 16 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Citizens Financial Group (CFG) Stock Faces Valuation Friction After Strong Q2 - webull.com",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBkRnBvSHFadXFlNlBfdUlCdFRhSlZ0WWVzMTBEeERfUEhsekRud1pMRGJlTmZFMjBrWmlCdmE5OFJLV05oc0NJV2NfdUNhUlRaYUM2SlJwRDc?oc=5",
+        "date": "Wed, 05 Aug 2026",
+        "source": "webull.com"
+       },
+       {
+        "title": "Citizens Financial Group (CFG) Beat Q2 Earnings And Reaffirmed Guidance, Is It Fully Valued? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcnFpY2ZXblJsSVNYOFpMcG5UT1pvalV1Y1dJUHpza1VUdjZMX3piTjQxZVZLeVBvTUZHY3hSbnllUU5wclBXeWlCN2JkQ2RKUk8zTjF2UkcwU1dRNHBTbkVaenJ4X2d3UTdXdWRKUE5Fb1RuTF92UHpOcmoyRFpCa2wyd2RybkpRNi1iZ1E5UlJGaEtsQ2VaNlg2TjNmUnM?oc=5",
+        "date": "Fri, 17 Jul 2026",
+        "source": "Yahoo Finance"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "DA Davidson reiterates Citizens Financial stock rating on growth outlook - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUmtDeWlPTzlLVm8tZk1uaW1lS3piS3pvQzVmX0FLR2UxcnczY1VNWFA3TF8wWlZTSXRvM2E3Rk5xd2lPak1nM0RtcER4eVdadmFGNnFteVZ0UUVMVlp5cnVRdGU0alAtcmZhc09fLUIySkxuR0tKS0YzU2RKMnY0T2QwYlVtWmRFZm9kSGY2d2Zma2NpQVpIWjJqRkV5c3JoMlhtMXgyZWRVcUZWX0lRMTJFRGRBLU5Cb0xaV2ZaSDRmbnEtMFhUMi1qdVR5VjFudUdfTHdMYw?oc=5",
+        "date": "Fri, 14 Aug 2026",
+        "source": "Investing.com"
+       },
+       {
+        "title": "Citizens Financial Group Q2 Earnings Call Highlights - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdm5CSTBvT2RIM2dqYi1FWnhJWjlER3VrclNlNGhGd2tEd1hZakNwci11Smt5MzV0bUJDZmJKNEptUVl2VV9UQWtHaTZPU1hHWV9TMDhZWTUxRXpmZkV0d3ZVbTZYeTJNVnRWQU9FWG5HbEV5TzlqeE5rUlRvaGlKVEE5Rll6WEQyNFJ5WlBvOFBkUmxvc3N4THdESUxFMGdhcjFj?oc=5",
+        "date": "Thu, 16 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Citizens Financial Group (NYSE:CFG) Flashes Strong Breakout Setup With Top-Tier Technical Ratings - ChartMill",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZDZlRVh2NmJkclNjQUhVcUNnSUk5dS0yaUV2N2F2VVgxNkN1SE1UcGZwLVZRaVpKVDZUSjRwazlEakwwVXE2bkdxaU8ya0lnMFp4WEVmaDNidTlCVW1nbVpCWG8yaFRTLTBZc0xqdEw4NjQxbE12d2F4YUhIMC1DbTRXZVdsQzFqUS04RGJzUGtkajlyQk1JRFdNSVdoY1Y2NUZjemhXWXp0VVJYejJDc3pCbFlZczQzT08xeTZqa2E1LVRsU1lLTFR0d1l5eUM3cUp3SFJHLUF0SVowb1E?oc=5",
+        "date": "Thu, 13 Aug 2026",
+        "source": "ChartMill"
+       },
+       {
+        "title": "NewEdge Advisors LLC Increases Stock Holdings in Citizens Financial Group, Inc. $CFG - MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPczdBVEpPMVJOOHZRcTYxbFZQX2xFT1dDbmZzQ0dESjZjQ0l2d2o2SFRaeTJ0LXY0ei1kVWttUjM3Qm1BbEpLODhDb1dESGsxaXU1N0liVnBDZVlDRnUteHlrc2tGQ2ZQUFFHeHk5NHhtN0R0QWx3WjB3U1ZxRlE2TU8zRUxkVFZjSmtpSDNwZ0FmOTloYndXczBaellHUGdjakVVSkxLTkxwNjFycXRBYXo1VE8wZXJJRzZuV0o2bXBWUWU3Sl9kX0dvUTA4MjRvbm92WHRWUlFJQQ?oc=5",
+        "date": "Tue, 11 Aug 2026",
+        "source": "MarketBeat"
+       },
+       {
+        "title": "Citizens Financial Group, Inc. Actuals & Estimates (HAM:1C5) - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSlZ0OFhibjg1U1VMRFdfcWx4Y3lqeGlJTDd4NmhEaHNYWmxLMU5EN19CVVpHZUpMeExRR2hzN0xPc3lQQWlfOFFtZ2VKbVpwdXhQTkJpV05rR3RtSnVwaFMwc19PRHZ4WFUwcW91Nk5XNHlOTzc4UThDUmRBbmlvbA?oc=5",
+        "date": "Mon, 10 Aug 2026",
+        "source": "TradingView"
+       },
+       {
+        "title": "Citizens Financial Group (CFG) Stock Faces Valuation Friction After Strong Q2 - webull.com",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBkRnBvSHFadXFlNlBfdUlCdFRhSlZ0WWVzMTBEeERfUEhsekRud1pMRGJlTmZFMjBrWmlCdmE5OFJLV05oc0NJV2NfdUNhUlRaYUM2SlJwRDc?oc=5",
+        "date": "Wed, 05 Aug 2026",
+        "source": "webull.com"
+       },
+       {
+        "title": "Citizens Financial Group (CFG) Beat Q2 Earnings And Reaffirmed Guidance, Is It Fully Valued? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcnFpY2ZXblJsSVNYOFpMcG5UT1pvalV1Y1dJUHpza1VUdjZMX3piTjQxZVZLeVBvTUZHY3hSbnllUU5wclBXeWlCN2JkQ2RKUk8zTjF2UkcwU1dRNHBTbkVaenJ4X2d3UTdXdWRKUE5Fb1RuTF92UHpOcmoyRFpCa2wyd2RybkpRNi1iZ1E5UlJGaEtsQ2VaNlg2TjNmUnM?oc=5",
+        "date": "Fri, 17 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Pacer Advisors Inc. Trims Stake in Citizens Financial Group, Inc. $CFG - MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQ0JYeG5pSGNXaWFZalJ2N2FLVklPc2VsWkdjcURQVmI4TmIyOWtfb0gtWmtqSXlqY0JhdWk5bW5hdVc0N2Jha2ZueGlnN0dNakh2WU1ibndpd3dEZXI5Tzl6MlljZHJQNGFod3dkZmQyWHVRWkFOQmc3MFp0bU80MkRIWVRudkJ5TWNuemd2NkJkclRBMjdFVjJBR2NFMDVQREVVMm5FQ0xXOS1xdnlDLTRNZkl3MlhmcUw0NTBvMFczR1Z3RkE?oc=5",
+        "date": "Mon, 10 Aug 2026",
+        "source": "MarketBeat"
+       }
+      ],
+      "model": "gemini-flash-latest",
+      "judged_at": "2026-08-14 22:38"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 16.3 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 5.1%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 79,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": {
+   "grade": "T",
+   "one_line": "資料僅呈現單季獲利回升與財報優於預期，缺乏支持結構性成長的具體商業動能證據。"
+  }
+ },
+ {
+  "date": "2026-08-14",
+  "market": "us",
+  "ticker": "NTRS",
+  "name": "Northern Trust",
+  "close": 191.41,
+  "rebound": 1.0,
+  "base_quality": 0.548,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 191.41 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 55%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近5年平均年成長 17%，成長年份占 33%（成長不夠穩定）",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -12%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 35%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 89%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 16.4 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 5.1%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 79,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-08-14",
+  "market": "us",
+  "ticker": "BNY",
+  "name": "BNY Mellon",
+  "close": 163.24,
+  "rebound": 1.0,
+  "base_quality": 0.506,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 163.24 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 51%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 27%，成長年份占 100%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 21%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 14%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 32%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "AI 判斷（僅供參考，請複核依據）：公司的獲利成長主要來自費用收入和利息收入增加，但證據未能明確指出其背後的結構性成長動能，且利息收入受景氣循環影響。",
+     "starred": true,
+     "ai": {
+      "grade": "X",
+      "one_line": "公司的獲利成長主要來自費用收入和利息收入增加，但證據未能明確指出其背後的結構性成長動能，且利息收入受景氣循環影響。",
+      "analysis": "BNY Mellon 近期營運數字顯示獲利和營收表現強勁，且公司上調了營收預期，顯示短期營運樂觀。新聞報導明確指出獲利成長主要來自「強勁的費用收入」和「利息收入成長」。然而，利息收入成長與利率週期高度相關，屬於典型的景氣循環因素，不符合結構性成長的標準。儘管費用收入可能具有結構性，但提供的證據並未說明其成長是來自產業趨勢、商業模式創新或市占提升等結構性變化，僅指出其為結果。因此，無法根據提供的證據判斷其未來獲利能否穩健地來自結構性成長，故判為不合格。",
+      "risks": [
+       "利息收入高度依賴利率環境，若利率下降將直接影響獲利穩定性。",
+       "費用收入的成長動能缺乏明確的結構性解釋，可能受市場波動或競爭加劇影響。"
+      ],
+      "sources": [
+       {
+        "title": "BNY Lifts Revenue Forecast After Profit Climbs - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaXpJQXlVdTFLOGFaam9TZnk5WXMtUFgtVE9PX2V3a2xrMTd2emY1Q016ZENDUThiNkJGY1dCTFlHZ2RRTTFMWDdaajY3QVFlUzZXZnNHalhqbm9xbng1cGU3d2ZRV3hrRTk5TUR2Q3dFWmM5QTRNbzE3VWZ3bzlMa25SR2hLU1pBZEY0Q1ZJU2RxVVE1bTdKOXc4RFZFejRJek5jVUFnMmNKM05YaTl0OERwM2dIZ25ZNjBKTmhB?oc=5",
+        "date": "Wed, 15 Jul 2026",
+        "source": "WSJ"
+       },
+       {
+        "title": "BNY's profit rises on strong fees, interest income growth​ - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM2tOTlZSSkJReHdMUkJJbExJamlvSUpYeTNVYkdzSV9waGRMZElmM2tQQnBJQmxIVThZS2c1bHloeWRxVFhWNzAzdEhDdUV6X3BGalpPTXhEUDlybC1hRWRGc05UTzhtOU51eVk3LUJHemtublBpamlNSUVPajdPc3huRnMxNGI4ME5aVER4V2RGRjZEOEFTMGpvZjRuVzg2TnFrWWdXNms?oc=5",
+        "date": "Thu, 16 Apr 2026",
+        "source": "Reuters"
+       },
+       {
+        "title": "BNY Mellon Profit Beats Estimates on Fee Gains, Interest Income - Bloomberg",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQV0owVk8wc1pnZ3RLZnJWOWQxMmo2RWg5TkxQdFpaUmdicy1BNHZjeDRVdWoybGl3Rk1NS1RpcWNxU1J2LTB4U2JhUzh2TVdieUN5VVVYOXdOUnJMdzVxYlJKc3JiYkd1bWhvMDRVb0N2bU43QnhRTDhDZkkwVDVzYjhBaHMwdFh1MkpJZmw0U1otVks4YzFLZmRoZl9aZWZQdGYtcWpzcjB4Q2F3QlFkY19tdw?oc=5",
+        "date": "Tue, 13 Jan 2026",
+        "source": "Bloomberg"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "BNY Mellon Announces Major Expansion in Orlando’s Lake Mary - Orlando Economic Partnership",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPa3FxblZNd0daU0xGUmVXcDNoYjduN01PZm9sYVlRZDVaeXhwNmtRclA0Y09XR1NSX3huRXFNRUJHTVJsWk1DVHM3OEhYcmJBdnlwMVJpdlN1WExJREJ2QzhhcUhFNjdTUXZOOXEyZUU5SkFlQk5CVDF5a19fQ2NZVmk2dV9UQkVWRnJiSW9hZW1NZw?oc=5",
+        "date": "Wed, 12 Aug 2026",
+        "source": "Orlando Economic Partnership"
+       },
+       {
+        "title": "BNY Lifts Revenue Forecast After Profit Climbs - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaXpJQXlVdTFLOGFaam9TZnk5WXMtUFgtVE9PX2V3a2xrMTd2emY1Q016ZENDUThiNkJGY1dCTFlHZ2RRTTFMWDdaajY3QVFlUzZXZnNHalhqbm9xbng1cGU3d2ZRV3hrRTk5TUR2Q3dFWmM5QTRNbzE3VWZ3bzlMa25SR2hLU1pBZEY0Q1ZJU2RxVVE1bTdKOXc4RFZFejRJek5jVUFnMmNKM05YaTl0OERwM2dIZ25ZNjBKTmhB?oc=5",
+        "date": "Wed, 15 Jul 2026",
+        "source": "WSJ"
+       },
+       {
+        "title": "BNY's profit rises on strong fees, interest income growth​ - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM2tOTlZSSkJReHdMUkJJbExJamlvSUpYeTNVYkdzSV9waGRMZElmM2tQQnBJQmxIVThZS2c1bHloeWRxVFhWNzAzdEhDdUV6X3BGalpPTXhEUDlybC1hRWRGc05UTzhtOU51eVk3LUJHemtublBpamlNSUVPajdPc3huRnMxNGI4ME5aVER4V2RGRjZEOEFTMGpvZjRuVzg2TnFrWWdXNms?oc=5",
+        "date": "Thu, 16 Apr 2026",
+        "source": "Reuters"
+       },
+       {
+        "title": "BNY Mellon Worldwide Growth Fund Q2 2026 Commentary - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYVpKdTUzZmY1R3o5ZHdxZTZhdmJtSGxTRzhmMTZoS0t0dFR2MkplbTh3cmI1UTgzQVBQWFVtSFlYS2Y0WFhhYUQxNmRlUWt6Qjg2V3JxOWQ3d2JIRTdxWWVVMzFsNmFNc0N4Q0paanpUSWVRNC1wS3ZpVU9QRHRwXzl0bWVNb2RIUzdRd2xYcDFRVzNGX09J?oc=5",
+        "date": "Thu, 06 Aug 2026",
+        "source": "Seeking Alpha"
+       },
+       {
+        "title": "Earnings call transcript: BNY Mellon surpasses Q1 2026 forecasts with strong EPS - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQ0JpbmZmR1IxUFJXYTJrX1cwYmozTVZxQTBaNVFIMFFGdThPSVQwY3ZMbkZMQW5XdmkzYlhZRnp1Q1RDOS15dndTa3llQlhvdVctX3lOc21MNkFKT29UdFh6Vy1mVWpCcFdEUS1PUlFkamg2VVB4YVh3cG8xc2syZDluQTdXcmVUOUlCVm9HSkRZMXR1VlV1Nm9JVlNRYndFb2xINUxpcHc0djhTd1U1bUJsX1hPT1dFdWI2dXRjelFNMktNcTZrYlgwODF3X3NJ?oc=5",
+        "date": "Thu, 16 Apr 2026",
+        "source": "Investing.com"
+       },
+       {
+        "title": "BNY Mellon Profit Beats Estimates on Fee Gains, Interest Income - Bloomberg",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQV0owVk8wc1pnZ3RLZnJWOWQxMmo2RWg5TkxQdFpaUmdicy1BNHZjeDRVdWoybGl3Rk1NS1RpcWNxU1J2LTB4U2JhUzh2TVdieUN5VVVYOXdOUnJMdzVxYlJKc3JiYkd1bWhvMDRVb0N2bU43QnhRTDhDZkkwVDVzYjhBaHMwdFh1MkpJZmw0U1otVks4YzFLZmRoZl9aZWZQdGYtcWpzcjB4Q2F3QlFkY19tdw?oc=5",
+        "date": "Tue, 13 Jan 2026",
+        "source": "Bloomberg"
+       },
+       {
+        "title": "BNY Mellon (BK) Set to Announce Earnings with Consensus Estimates - GuruFocus",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUV9uR0Fwa0VyMTV1WnV5X1RoaWRQclphOVdValVFVldyZDNsUGY2bDI2RF9uRVdZVWN5c1ZyX011dzNsY2QyUmVLeXBMUHJtclFNaVVxU1ZjQlBKVGkyWENabEItdmdVbVl1X0d5ZFdrckFsWVlDeFBtTWZ0TWkyekY2aXpLYi16VDRpby1DbGJTM2RsMkVHQktkYVBEYnl6ZlF0dHZpUDF4ekdrMFFlTk9FNzY?oc=5",
+        "date": "Wed, 15 Apr 2026",
+        "source": "GuruFocus"
+       },
+       {
+        "title": "Bank of New York Mellon Stock Rises After Earnings Beat. What Wall Street Is Saying. - Barron's",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5qYVY2dktVU1NSZ2dMQ3FSZmNpZW9HMS1zWHg4NHR3TWpVOE5JYVVzOHBtbmRZSDQwY0kwWnlESWRxeXFQR2NJRHZTY091V3djWVJDUlpVR01saXJRbHhSVkRvMGJ0NXUxbTZEd3ROdXZmdDNYUE9tSjJPMGFkUQ?oc=5",
+        "date": "Tue, 13 Jan 2026",
+        "source": "Barron's"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-08-14 22:37"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 19.0 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 5.1%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 79,
+   "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+  },
+  "ai7": {
+   "grade": "X",
+   "one_line": "公司的獲利成長主要來自費用收入和利息收入增加，但證據未能明確指出其背後的結構性成長動能，且利息收入受景氣循環影響。"
+  }
+ },
+ {
+  "date": "2026-08-14",
+  "market": "us",
+  "ticker": "STT",
+  "name": "State Street Corporation",
+  "close": 191.74,
+  "rebound": 1.0,
+  "base_quality": 0.5,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 191.74 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 50%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 9%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 10%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 17%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 56%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "AI 判斷（僅供參考，請複核依據）：現有證據未能提供公司未來獲利穩健成長的結構性理由。",
+     "starred": true,
+     "ai": {
+      "grade": "T",
+      "one_line": "現有證據未能提供公司未來獲利穩健成長的結構性理由。",
+      "analysis": "公司近期營運數字顯示獲利與營收表現強勁，特別是最新一季獲利年增達56%。然而，所有新聞標題僅提及財報公布、獲利預期或機構投資人持股變動，並未闡述這些成長背後的結構性原因。缺乏關於產業趨勢、商業模式創新或市占提升等結構性變化的資訊，無法判斷獲利成長是否穩健且可持續。依據判斷標準，若成長理由僅為景氣發言或缺乏結構性證據，則不符合穩健成長的定義。",
+      "risks": "缺乏結構性成長動能可能導致獲利波動性較高；資產管理行業易受市場波動和利率環境影響，若無明確結構性優勢，成長穩定性存疑。",
+      "sources": [
+       {
+        "title": "State Street (STT) Q1 2026 Earnings Call Transcript - Fortune",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44dmJldWNHWHBsMnc4UGNHSmtuWkE3M2QxQ1ljZmNFZE10X2p4WDBXc0RmSkxlbklqZGlKWWxiMzlmYk1aZU51V0VoMGE2c1NfZllUeGU4OW5OSTJBaFFJVHpqbjJxNnhWb3p0c2hLTkk?oc=5",
+        "date": "Thu, 13 Aug 2026",
+        "source": "Fortune"
+       },
+       {
+        "title": "State Street Corporation (STT) Earnings Expected to Grow: Should You Buy? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYW5kZ1BDWXpxakdWczU2X19rd2ZLNXFiMHZHLU9PVTNMaHB2YTBsSWdoOWVYc0NjbmU0UG9qMjJycl9temVPaWg3TmNUU1N6M3BNVG9jempyMXZNNEpNZGZEaGJYRGNyUnkzY0tyUTdiS2t1MUtfV29iU19wRW0zandkaEkzbDE3TW1mV1dXTHd5bTF5eC1iNDB1RndRSHIyeVM1Ng?oc=5",
+        "date": "Thu, 09 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "State Street Corporation (NYSE: STT) Reports Second-Quarter 2026 Financial Results - Business Wire",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON1RiNmJ1U2JVTnBndi1oWXN0cEc1NUhMNFZFR1BScl85YXVESTZOa1czZ1dEcXhxMUI5cVhSUGN2NFFYVW1OSEYwX29rTmtsS0dRU2g3UFpKdXBUeXVvc1BPendGQnQtN0dRTVFYcHdlclBhajRJX0d5SmdoSTZYcWhfNHI1ZmdDVkxxc3NMb3pzME1Eb3dqVUw4VVdWMnEzTE1iNEZMWmIxQXNWd2t6QWZ0Szc4QkxKQUl6anJSbFF6N2dnNlBVV3RDcjRqbmROZWc?oc=5",
+        "date": "Thu, 16 Jul 2026",
+        "source": "Business Wire"
+       },
+       {
+        "title": "Does Strong Q2 Earnings and Higher Payouts Change The Bull Case For State Street (STT)? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSEtxNklzRl9vQk1UZ3BSSXBmb19QdG9zUl8zLUxjNThmVmVjQzlNRzg5elkxRFpCb0JnbU04UG0wNjVYVEpnMWgwUjdUN1kzc09IMFRYWTltdjZlOWxRMG92cHl3REowZUNqUjV5M2tqSEM2aWs1U0o4djA1MHZkckpjUGtFYlFSbFpfZWVjTnY3U3RTdkhqd2RxYw?oc=5",
+        "date": "Fri, 24 Jul 2026",
+        "source": "Yahoo Finance"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "State Street (STT) Q1 2026 Earnings Call Transcript - Fortune",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44dmJldWNHWHBsMnc4UGNHSmtuWkE3M2QxQ1ljZmNFZE10X2p4WDBXc0RmSkxlbklqZGlKWWxiMzlmYk1aZU51V0VoMGE2c1NfZllUeGU4OW5OSTJBaFFJVHpqbjJxNnhWb3p0c2hLTkk?oc=5",
+        "date": "Thu, 13 Aug 2026",
+        "source": "Fortune"
+       },
+       {
+        "title": "State Street Corporation (STT) Earnings Expected to Grow: Should You Buy? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYW5kZ1BDWXpxakdWczU2X19rd2ZLNXFiMHZHLU9PVTNMaHB2YTBsSWdoOWVYc0NjbmU0UG9qMjJycl9temVPaWg3TmNUU1N6M3BNVG9jempyMXZNNEpNZGZEaGJYRGNyUnkzY0tyUTdiS2t1MUtfV29iU19wRW0zandkaEkzbDE3TW1mV1dXTHd5bTF5eC1iNDB1RndRSHIyeVM1Ng?oc=5",
+        "date": "Thu, 09 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "State Street Corporation (NYSE: STT) Reports Second-Quarter 2026 Financial Results - Business Wire",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON1RiNmJ1U2JVTnBndi1oWXN0cEc1NUhMNFZFR1BScl85YXVESTZOa1czZ1dEcXhxMUI5cVhSUGN2NFFYVW1OSEYwX29rTmtsS0dRU2g3UFpKdXBUeXVvc1BPendGQnQtN0dRTVFYcHdlclBhajRJX0d5SmdoSTZYcWhfNHI1ZmdDVkxxc3NMb3pzME1Eb3dqVUw4VVdWMnEzTE1iNEZMWmIxQXNWd2t6QWZ0Szc4QkxKQUl6anJSbFF6N2dnNlBVV3RDcjRqbmROZWc?oc=5",
+        "date": "Thu, 16 Jul 2026",
+        "source": "Business Wire"
+       },
+       {
+        "title": "State Street Corporation's Q2 2026 Earnings: What to Expect - Barchart.com",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY3h1SDBHTUhqUlVPa0RJOGR5QUtyYnltMXZJOEU0a2JZVjdXVlNjSmxJdHc5RkozdU9xaGdUYkVXYWRGcnU0LTBtNllLbG1WaG9wUEJ5dkx5WVRhaWswLWpRc2t4RllnaDAzejhhWERaaE1SaU5oLWZHeFZuNm12ZmpwQS1ha1RQNGJYcmUxQ1JmSGI0NTlTbEZFUGg3VVFURE13QQ?oc=5",
+        "date": "Thu, 25 Jun 2026",
+        "source": "Barchart.com"
+       },
+       {
+        "title": "State Street Discloses 6.4% Stake in Archer Aviation Ahead of Q2 Earnings - finance.biggo.com",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9OdG83T2c0T3pVUm9YcHVxMzBUQWJlU3JBUE9Td2JqUThhQ01fUXlLdk5GMjBRcjQwakNLRW0tUmk2SFBPekk3ZXZwRGlobmlJblcwMk9qLXliNzV6VnVwaUhRaWFqcThsbi0tQWZydDkzLWJKQ0E?oc=5",
+        "date": "Mon, 10 Aug 2026",
+        "source": "finance.biggo.com"
+       },
+       {
+        "title": "CCM Investment Advisers LLC Boosts Holdings in State Street Corporation $STT - MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNjBoZk1DZGx4eTVIZXF3VGlGbGdCaldWU1pkZ2VCOTFycjQ2d3RRU211c2ZSRzlNbEdmbUluY004MnlRaUd2NURYWTJUbWNCYTFoX1VteTJDcG5WVXI2ckt6ZkR6RTF0Tlo1NnQ5SHhWZmp5T1JHazh4V1VVb21rVmVmcHFCbTlNdkZON1ZrbmxYTlRRcXVZTEhmY3FPQzlHQVkxQzdpSm5WUS14NWQtSmZvdkthaHVRMDc1OGpRTk5TVm1aNnlVT2U1b2VCcWFJemc?oc=5",
+        "date": "Fri, 31 Jul 2026",
+        "source": "MarketBeat"
+       },
+       {
+        "title": "Does Strong Q2 Earnings and Higher Payouts Change The Bull Case For State Street (STT)? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSEtxNklzRl9vQk1UZ3BSSXBmb19QdG9zUl8zLUxjNThmVmVjQzlNRzg5elkxRFpCb0JnbU04UG0wNjVYVEpnMWgwUjdUN1kzc09IMFRYWTltdjZlOWxRMG92cHl3REowZUNqUjV5M2tqSEM2aWs1U0o4djA1MHZkckpjUGtFYlFSbFpfZWVjTnY3U3RTdkhqd2RxYw?oc=5",
+        "date": "Fri, 24 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Quantinno Capital Management LP Purchases 143,357 Shares of State Street Corporation $STT - MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOMHVHa1NXMjUtS0hQT21KTS1GWnhKTHl4M3VrZUR3QTNnTzlUZDlBTzR2OUM1aktiZUlDa1lEek1kZE9OTFRWWVQxUU5UN1JJdUxpdk1TWE5sWU5iYTNUd0p5T0hVZVVDZ2syRXVzc3h2Qm5oYlo1cmVQajVmd3Y5Z1AzZTJPbUJpMXM0TkpiWU1abkNKRUg1V1J1SGljeGZrc0w3R2lCSDhQVWhCTnpFaW9seV9QQlhMVmF4X0FTMkF3UWUxZ1d3bjJVTzEyMFRObnA1Yk80Tno1R3ItTEVOUnVn?oc=5",
+        "date": "Wed, 29 Jul 2026",
+        "source": "MarketBeat"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-08-14 22:39"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 16.9 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 5.1%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 79,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": {
+   "grade": "T",
+   "one_line": "現有證據未能提供公司未來獲利穩健成長的結構性理由。"
+  }
+ },
+ {
+  "date": "2026-08-14",
+  "market": "us",
+  "ticker": "LYV",
+  "name": "Live Nation Entertainment",
+  "close": 188.46,
+  "rebound": 1.0,
+  "base_quality": 0.731,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 188.46 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 73%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 36%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 39%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 9%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 23%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "N",
+     "symbol": "—",
+     "detail": "本益比無資料（可能虧損或無盈餘）",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 5.1%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 75,
+   "verdict": "強力候選：多數項目合格，請完成⑦人工確認後依⑨燈號決定買進量"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-08-14",
+  "market": "us",
+  "ticker": "USB",
+  "name": "U.S. Bancorp",
+  "close": 65.42,
+  "rebound": 1.0,
+  "base_quality": 0.719,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 65.42 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 72%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近4年平均年成長 10%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 20%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 10%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 19%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 13.1 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 5.1%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 75,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-08-14",
+  "market": "us",
+  "ticker": "PSX",
+  "name": "Phillips 66",
+  "close": 233.61,
+  "rebound": 1.0,
+  "base_quality": 0.597,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 233.61 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 60%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -1%，成長年份占 33%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 103%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 53%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 344%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "AI 判斷（僅供參考，請複核依據）：獲利爆發純屬煉油產業景氣循環高峰，缺乏結構性成長動能且長期波動劇烈。",
+     "starred": true,
+     "ai": {
+      "grade": "X",
+      "one_line": "獲利爆發純屬煉油產業景氣循環高峰，缺乏結構性成長動能且長期波動劇烈。",
+      "analysis": "Phillips 66 屬於典型的石油下游煉油產業，近五年平均成長率為 -1% 且僅有 33% 的年份呈現成長，顯示其獲利具高度週期性。雖然近期獲利因煉油利差擴大而呈現數倍增長並創下 2022 年以來最佳表現，但這純粹反映了能源景氣循環的回升而非商業模式或市占率的結構性提升。依據準則，仰賴景氣循環帶動的獲利無法保證未來穩健成長，故直接判定不合格。",
+      "risks": "煉油利差（Crack Spread）隨景氣反轉下滑導致獲利暴跌；全球能源轉型對傳統煉油與石化產品的長期需求壓抑。",
+      "sources": [
+       {
+        "title": "Phillips 66's (NYSE:PSX) Earnings Are Of Questionable Quality - Moomoo",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMGFnRHR6dUFfNnRRc0ZyajNLTUZJcDZtR1h0dnpKRTFaQndCV2x2YW83SG92Wk9uX2EzZ3lwbm5DM2l5dnRTZXRaY0VWV3lhbldnYlotU2JpVDdpbHp3WnRpWXNxblJoX0FEamN6V3VWcGZ1SkkwYTNoZC05d2E5Mk5sWUlKeVNnWmRxekEwV1lOZmZzWlY4SzJXeTEtWURYaHFr?oc=5",
+        "date": "Wed, 12 Aug 2026",
+        "source": "Moomoo"
+       },
+       {
+        "title": "Phillips 66 reports nearly 20 times-higher quarter-over-quarter earnings - ogj.com",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNejJXR0pYNjU1WjZLUm5MbU9yRWtfSjYtc2hJYkRmaEI1NWh4TE1BYTF6dG55R2tQMFRnRHlCN2VIZFZnMGJXd1Y3SnpWcEEweF9kdXNaR2M2Zzg1bWl5djV4S3o0UlJfUkQwYUNWS1Z1VVRaNTNpQXRXU3VYbUhJNUg0M2w0QmhYN1FZQ2t3VVAzYkVvZTFVOVpRdE1kSmZZdG9ZZTdjLWFSMUJsc3pQM2NpSFdvYkNOR0NzdEVjWlNCZlFwMG1pc3NhZm1iQQ?oc=5",
+        "date": "Wed, 05 Aug 2026",
+        "source": "ogj.com"
+       },
+       {
+        "title": "Phillips 66 Shares Approach All-Time High After Refiners Post Biggest Profit Since 2022, Surpassing Analyst Estimates - TechStock²",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMEFuMEM2ZG8tTWVadWV0QWtSclEyOGlLUG9jTkFhVmtPZnhYSVQ3QmFxWEI0ZG1SVWVQU1lVQURqVU1TeHF5cDZ5MEV2T1pWaHBTbjZza3lYYXpZemx6cjNoTGsyYXBTQXdxTUxuTVlWYVJzd3FfWkVPQXEyU2otVF9idlJWOFQzOW1zY1ZQYkNSWDFrRVZtVFlhbjlPLU0?oc=5",
+        "date": "Fri, 14 Aug 2026",
+        "source": "TechStock²"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Phillips 66 Stock Outlook: Is Wall Street Bullish or Bearish? - Barchart.com",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONlFMN0VhQm5udmhaWWZzcy1SWmRiVnFmWTVLVTAzeWg4d2ZvSEJpTUFXZk1HX1ZBVjZpUXR2djAxTlUyNHZIcWFtUU13YXZsRlRvNjhiNVhxNjlUUmdOYWVBbHI2R29TRW1JTks4Um1DMlliM1hPREpUVW55NmdtOXZZMWNZREVFYTBxN0RVbTdMaENpUHdKMlQxWFdyNG01RXlEcVB3?oc=5",
+        "date": "Fri, 14 Aug 2026",
+        "source": "Barchart.com"
+       },
+       {
+        "title": "Phillips 66 (PSX) Q1 2026 Earnings Call Transcript - Fortune",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpdy1lTVhMcFpqZXYxN3dmS1YxcnE2SW5rZzJCR2I0Z3Y5aTZZdl9zT01sS2drQWltVE9oZUZtLU1iMThYdjVrdm9DaUQ2UTQxRk9Wcm1UY2tlRG54blFNMDJZelg?oc=5",
+        "date": "Thu, 13 Aug 2026",
+        "source": "Fortune"
+       },
+       {
+        "title": "Phillips 66's (NYSE:PSX) Earnings Are Of Questionable Quality - Moomoo",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMGFnRHR6dUFfNnRRc0ZyajNLTUZJcDZtR1h0dnpKRTFaQndCV2x2YW83SG92Wk9uX2EzZ3lwbm5DM2l5dnRTZXRaY0VWV3lhbldnYlotU2JpVDdpbHp3WnRpWXNxblJoX0FEamN6V3VWcGZ1SkkwYTNoZC05d2E5Mk5sWUlKeVNnWmRxekEwV1lOZmZzWlY4SzJXeTEtWURYaHFr?oc=5",
+        "date": "Wed, 12 Aug 2026",
+        "source": "Moomoo"
+       },
+       {
+        "title": "Phillips 66 Hits Record High, Leads Lucky 13 Stocks Onto Best Stock Lists - Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNDRvY2pMZXFPZ1ZYWXI1OGJUYjFyTDJPZ2tCSmlOSHBzcC01bEJzazJoaS1GcDlYRERVZjJ1NDRyamNkaXEwbG9nakRwTjlHVklGbTBQSDI5bjJvUWZvMVJXRGF6b1VwRzN1eWFZR0dxVU5fREpOVjRnQXJ5TDJfYVdTczF0NlRPMmFmV0lJV1ZZS0xfVEdKeQ?oc=5",
+        "date": "Thu, 13 Aug 2026",
+        "source": "Investor's Business Daily"
+       },
+       {
+        "title": "Phillips 66 (NYSE:PSX) EVP Sells 3,300 Shares of Stock - MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUnNpUVh1dWJEejcyWUt5cGRXYnh4MjNaamY4TzdBY0lDYW15WHZJMlM4TlgxZUdiNTlGWkVRLTlORTBEYnBrTUJqb2dha2dCYTdOUURNb2ZjdzM4VmRxdk9Jb25YYmxiQldSWlVKVE1FNzJHa1hGSGw1WXJ3S3JJZGNnZW5Gc3ItTUpWemdPbFl5WTZJeGIxSEduWlc5WlhYTGJpTzRVOA?oc=5",
+        "date": "Wed, 12 Aug 2026",
+        "source": "MarketBeat"
+       },
+       {
+        "title": "Why You Might Be Interested In Phillips 66 (NYSE:PSX) For Its Upcoming Dividend - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRC1qQ04zT1dIZGw3Mkg4dW1ISFJOcXM4YXlQbjJpTmhMakpQMFBNak1ESExaY2k0VHlCVUVCeEI4NlRpWlp0bktTdVM1VE9mdmh6T0QzMjRRU2UyV2lObzVxUTZDalZoSWczS1JSX083bnUzZVdNRG5ERHJPTDNWSzFteEd4V0d0QnVWeU5PNExJUllxTG1BWW1oeXdtSVFXV2xPSDB6TS1ydjVCLUtVa1Q1bHhjVk5UQVF2c19VS21Eek9fNmfSAcsBQVVfeXFMTThtVEFObGVWUGxzZjU0cVpPZ0lOWU8xVUVIUXlUTk42RXM5QV9TZTlGNF9sdE5ad2dlZm5wMUQ1U1BVQnlGUjNITVFZLXZBRjhxd3NzODFPb3hkdDh2cXBZTXFkcFc4eDJXNEIzLURJN0dlakdHQ3VMcEFkQmZlVm5zVUtkNWpWMHFoWVlSM3BFMXJLY1hZQUFXYk5NdDA1MmtPZE5pbmVtSHhrTUxyaWhKanFPUnFFUXoxekdZazdzR3BiTnJMb0dBLWs?oc=5",
+        "date": "Thu, 13 Aug 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Phillips 66 reports nearly 20 times-higher quarter-over-quarter earnings - ogj.com",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNejJXR0pYNjU1WjZLUm5MbU9yRWtfSjYtc2hJYkRmaEI1NWh4TE1BYTF6dG55R2tQMFRnRHlCN2VIZFZnMGJXd1Y3SnpWcEEweF9kdXNaR2M2Zzg1bWl5djV4S3o0UlJfUkQwYUNWS1Z1VVRaNTNpQXRXU3VYbUhJNUg0M2w0QmhYN1FZQ2t3VVAzYkVvZTFVOVpRdE1kSmZZdG9ZZTdjLWFSMUJsc3pQM2NpSFdvYkNOR0NzdEVjWlNCZlFwMG1pc3NhZm1iQQ?oc=5",
+        "date": "Wed, 05 Aug 2026",
+        "source": "ogj.com"
+       },
+       {
+        "title": "Phillips 66 Shares Approach All-Time High After Refiners Post Biggest Profit Since 2022, Surpassing Analyst Estimates - TechStock²",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMEFuMEM2ZG8tTWVadWV0QWtSclEyOGlLUG9jTkFhVmtPZnhYSVQ3QmFxWEI0ZG1SVWVQU1lVQURqVU1TeHF5cDZ5MEV2T1pWaHBTbjZza3lYYXpZemx6cjNoTGsyYXBTQXdxTUxuTVlWYVJzd3FfWkVPQXEyU2otVF9idlJWOFQzOW1zY1ZQYkNSWDFrRVZtVFlhbjlPLU0?oc=5",
+        "date": "Fri, 14 Aug 2026",
+        "source": "TechStock²"
+       }
+      ],
+      "model": "gemini-flash-latest",
+      "judged_at": "2026-08-14 22:38"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 13.3 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 5.1%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 71,
+   "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+  },
+  "ai7": {
+   "grade": "X",
+   "one_line": "獲利爆發純屬煉油產業景氣循環高峰，缺乏結構性成長動能且長期波動劇烈。"
+  }
+ },
+ {
+  "date": "2026-08-14",
+  "market": "us",
+  "ticker": "IVZ",
+  "name": "Invesco",
+  "close": 32.55,
+  "rebound": 1.0,
+  "base_quality": 0.492,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 32.55 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 49%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -128%，成長年份占 0%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -138%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 20%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 66%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "N",
+     "symbol": "—",
+     "detail": "本益比無資料（可能虧損或無盈餘）",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 5.1%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 67,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-08-14",
+  "market": "us",
+  "ticker": "SOLV",
+  "name": "Solventum",
+  "close": 88.59,
+  "rebound": 1.0,
+  "base_quality": 0.857,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 88.59 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 86%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近5年平均年成長 39%，成長年份占 33%（成長不夠穩定）",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 183%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 2%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 5%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 10.8 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 5.1%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 62,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-08-14",
+  "market": "us",
+  "ticker": "MTB",
+  "name": "M&T Bank",
+  "close": 254.09,
+  "rebound": 1.0,
+  "base_quality": 0.766,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 254.09 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 77%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 14%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 12%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 4%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 14%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 13.5 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 5.1%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 58,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-08-14",
+  "market": "us",
+  "ticker": "MRK",
+  "name": "Merck & Co.",
+  "close": 135.84,
+  "rebound": 1.0,
+  "base_quality": 0.659,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 135.84 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 66%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 291%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 6%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 5%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 -114%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "本益比 108.7 倍（≥60 倍，過熱）",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 5.1%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 50,
+   "verdict": "淘汰：關鍵項目不合格"
+  },
+  "ai7": null
  }
 ]
