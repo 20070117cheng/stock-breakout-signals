@@ -156685,5 +156685,277 @@
    "verdict": "淘汰：關鍵項目不合格"
   },
   "ai7": null
+ },
+ {
+  "date": "2026-08-27",
+  "market": "us",
+  "ticker": "NWS",
+  "name": "News Corp (Class B)",
+  "close": 35.32,
+  "rebound": 1.0,
+  "base_quality": 0.86,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 35.32 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 86%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 42%，成長年份占 100%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 13%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 11%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 111%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "AI 判斷（僅供參考，請複核依據）：無法從證據中辨識出公司獲利穩健成長的明確結構性驅動因素。",
+     "starred": true,
+     "ai": {
+      "grade": "T",
+      "one_line": "無法從證據中辨識出公司獲利穩健成長的明確結構性驅動因素。",
+      "analysis": "公司近期營運數字顯示強勁的獲利成長，且新聞標題多次提及「財報優於預期」及「上調財測」，顯示短期表現良好。然而，這些資訊主要反映短期業績成果及市場反應，並未提供獲利成長背後具體的結構性原因，例如特定產業趨勢、商業模式創新或市占率提升。新聞中提及的庫藏股計畫雖有助於提升每股盈餘，但並非公司整體獲利能力的結構性成長動因。因此，在缺乏證據支持其成長來自結構性變化的情況下，無法判斷未來獲利能否穩健成長。",
+      "risks": [
+       "獲利成長可能主要受短期景氣循環或一次性因素影響，缺乏長期可持續性。",
+       "公司部分業務（如新聞媒體、圖書出版）可能面臨結構性挑戰，若無明確轉型策略，恐影響整體成長動能。"
+      ],
+      "sources": [
+       {
+        "title": "News Corp stock benefits from buyback momentum and fresh earnings beat - Ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPX01faUdqSVg5Zkt6ZVpMUVNSc1ZqT2JZcGdoSDhKaGFQOTIxRHJsZUlIeXlhVFpMQVBaQTBkVks3VmNpUjg3enFheko4UDF2MXZvbnAweFRvLW9oWmlkSURxLTFfWXZDWThBRGVycnpaRGh4Yzh1NnBkUGVyRnk4M2QyNEFPMjlST3h3eVZiejNvRFV6UllGbnFyRlBfeEkyaDJvR2h1MjNxUjljbjNPTHdCY09PRUxlU2E4VHF3VWlmUDZGMk9EYjZNbWxGdw?oc=5",
+        "date": "Fri, 28 Aug 2026",
+        "source": "Ad-hoc-news.de"
+       },
+       {
+        "title": "Resilient News Corp stock hits 52-week high as buybacks and earnings lift outlook - Ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZllVM1otXzVXeF9XbVBSLXpSN0RwV292Ml9oMXJZdzNSTmhRWURQcUNVcHhnUTdPdWJELTRCTUVoN3JJeVo2dkNlcXNqMkhoUUdZeEFvbm5NZjNaMjg5aXROUDRxVHpLT1VSZi0wNEY1V3BQanJqZ1RrZ2k1YjFMdDBHQjkwR21sRDlSN0JZSk92bkU4NGFla05lOThTcTZFcFJLZHdDMXNtTmxsUzlGcUdNcUtOalJXT2MxaHE3X1hCTF8tYXhqWUJCMlktbGNqRUE?oc=5",
+        "date": "Thu, 27 Aug 2026",
+        "source": "Ad-hoc-news.de"
+       },
+       {
+        "title": "News Corp stock advances as buyback program reaches $441.3 million - Ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYzRjdjNJMG9WckJpcDNXd3ZQaTFxQVZTQ3pxSG5mZU1FVjFQSnhqT3hUbkFCLV9VWjNRaWxSdHdUZkU4TjdIN0pxYXYxd2NkQlFKc0VJeVVodnBmeDROYmxFaDdiTzdxVlF3LVZLUUc4SUt3RVFuNU45M2duYzkxX0plaDhWSW5LWnRyN1ZoYXBiN2luTDlMUVdsVEx3bzVqaVVMaUgtSFY2c29wdldqV0ltQWVLMEJpaW54R05hSlZyLVJYRzZF?oc=5",
+        "date": "Tue, 25 Aug 2026",
+        "source": "Ad-hoc-news.de"
+       },
+       {
+        "title": "News Corp stock holds firm as earnings beat lifts the outlook - Ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeWdMRVlaQlVJMlRsdGs4alpKMkprQXNFLTJ2TVVjcWYzdDdZd3UwdnZFcXJMVUVqMWl5M1I1akx2ODNva2lPS1FPWWVLYkVYWTFzb2V5Y0M3Tm81c1JPZDdBZXVJOXREYlo4ZFpycEtRMmRLMWpWVWU2NHFrd2VNZUFObWUwNENXZUlxbmNxeXQtRkRQbU1DdFBaMlRuai1PaEVTaDR3LVJONGYxc0pBWEl4M0h4SDNiWlFkcFR3a2lTUQ?oc=5",
+        "date": "Mon, 24 Aug 2026",
+        "source": "Ad-hoc-news.de"
+       },
+       {
+        "title": "News Corp stock reacts to strong Q4 2026 earnings beat and guidance lift - Ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNb0xMOFUtZ1JYc1lkSmRvRXQwRGtyZnJaR0tRWk8yZEtWVHU4VXhuMWlyRXBCVDN5Z2lqellkbExPT2hLLWk3N1lwZGtKMmlETU5penU5NmNZbEFnbVRMb3VZdFFoYkgxZnRTTW1WQzB1aVRqWXMtN0htR2QtYUxfMFI0cURvOWVnczdhN1luTGY4aGdybUlPNXdyTmZPRHV6SjVFY1NKZ3BCd1VraXlRbG8yVHJmcmpfbk5UUEk5Nnd1R3pvS3VWODJYd3FkMWJk?oc=5",
+        "date": "Wed, 26 Aug 2026",
+        "source": "Ad-hoc-news.de"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "News Corp stock benefits from buyback momentum and fresh earnings beat - Ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPX01faUdqSVg5Zkt6ZVpMUVNSc1ZqT2JZcGdoSDhKaGFQOTIxRHJsZUlIeXlhVFpMQVBaQTBkVks3VmNpUjg3enFheko4UDF2MXZvbnAweFRvLW9oWmlkSURxLTFfWXZDWThBRGVycnpaRGh4Yzh1NnBkUGVyRnk4M2QyNEFPMjlST3h3eVZiejNvRFV6UllGbnFyRlBfeEkyaDJvR2h1MjNxUjljbjNPTHdCY09PRUxlU2E4VHF3VWlmUDZGMk9EYjZNbWxGdw?oc=5",
+        "date": "Fri, 28 Aug 2026",
+        "source": "Ad-hoc-news.de"
+       },
+       {
+        "title": "Resilient News Corp stock hits 52-week high as buybacks and earnings lift outlook - Ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZllVM1otXzVXeF9XbVBSLXpSN0RwV292Ml9oMXJZdzNSTmhRWURQcUNVcHhnUTdPdWJELTRCTUVoN3JJeVo2dkNlcXNqMkhoUUdZeEFvbm5NZjNaMjg5aXROUDRxVHpLT1VSZi0wNEY1V3BQanJqZ1RrZ2k1YjFMdDBHQjkwR21sRDlSN0JZSk92bkU4NGFla05lOThTcTZFcFJLZHdDMXNtTmxsUzlGcUdNcUtOalJXT2MxaHE3X1hCTF8tYXhqWUJCMlktbGNqRUE?oc=5",
+        "date": "Thu, 27 Aug 2026",
+        "source": "Ad-hoc-news.de"
+       },
+       {
+        "title": "News Corp stock advances as buyback program reaches $441.3 million - Ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYzRjdjNJMG9WckJpcDNXd3ZQaTFxQVZTQ3pxSG5mZU1FVjFQSnhqT3hUbkFCLV9VWjNRaWxSdHdUZkU4TjdIN0pxYXYxd2NkQlFKc0VJeVVodnBmeDROYmxFaDdiTzdxVlF3LVZLUUc4SUt3RVFuNU45M2duYzkxX0plaDhWSW5LWnRyN1ZoYXBiN2luTDlMUVdsVEx3bzVqaVVMaUgtSFY2c29wdldqV0ltQWVLMEJpaW54R05hSlZyLVJYRzZF?oc=5",
+        "date": "Tue, 25 Aug 2026",
+        "source": "Ad-hoc-news.de"
+       },
+       {
+        "title": "News Corp Navigates Complex Valuation - Sharecafe",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNamhfM2pWSTVYMFFxeXFxQzlpR0V0ZWlDMjZzaV9lV3dKVXZnVUpiMFpJeTZoX3FZc1VFWVpGYklLeWhLcTRFaTRraVd6TnRrX2t6ampyNlY5OG5yQnZxUG94MlItNnBQb3MyUHN3T1ozZGxFNkJ3SDZTemdaaGlSWDFqcU8?oc=5",
+        "date": "Mon, 22 Jun 2026",
+        "source": "Sharecafe"
+       },
+       {
+        "title": "News Corp stock holds firm as earnings beat lifts the outlook - Ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeWdMRVlaQlVJMlRsdGs4alpKMkprQXNFLTJ2TVVjcWYzdDdZd3UwdnZFcXJMVUVqMWl5M1I1akx2ODNva2lPS1FPWWVLYkVYWTFzb2V5Y0M3Tm81c1JPZDdBZXVJOXREYlo4ZFpycEtRMmRLMWpWVWU2NHFrd2VNZUFObWUwNENXZUlxbmNxeXQtRkRQbU1DdFBaMlRuai1PaEVTaDR3LVJONGYxc0pBWEl4M0h4SDNiWlFkcFR3a2lTUQ?oc=5",
+        "date": "Mon, 24 Aug 2026",
+        "source": "Ad-hoc-news.de"
+       },
+       {
+        "title": "Wall Street is quietly buying into the Murdoch succession plan - AFR",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSFhWMGE4ZUxrTGxobWZWY2daUzZPdWNvQ2w2T2dtdEJ0V1BSbHNMYy0xa2hZbXZCSzdLOTRVa010Y0V6NTUzM2x1SnBNR3c2ZTZuVU9ualBOVTJpWnlORmlpOEVfUFJQN1MyMG80X1cxNzZfQWRfekZlTTVTbXE5b1AwUll5NjhTd1hhTlVqazBieTJpRVFPbWJlMGV3NUtPeWVsc2FJQUdRZEt1NnNMREI0Vi1qTHcyd0NOWHJ3?oc=5",
+        "date": "Sun, 21 Jun 2026",
+        "source": "AFR"
+       },
+       {
+        "title": "News Corp stock reacts to strong Q4 2026 earnings beat and guidance lift - Ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNb0xMOFUtZ1JYc1lkSmRvRXQwRGtyZnJaR0tRWk8yZEtWVHU4VXhuMWlyRXBCVDN5Z2lqellkbExPT2hLLWk3N1lwZGtKMmlETU5penU5NmNZbEFnbVRMb3VZdFFoYkgxZnRTTW1WQzB1aVRqWXMtN0htR2QtYUxfMFI0cURvOWVnczdhN1luTGY4aGdybUlPNXdyTmZPRHV6SjVFY1NKZ3BCd1VraXlRbG8yVHJmcmpfbk5UUEk5Nnd1R3pvS3VWODJYd3FkMWJk?oc=5",
+        "date": "Wed, 26 Aug 2026",
+        "source": "Ad-hoc-news.de"
+       },
+       {
+        "title": "Analysts’ forecast returns, recommendations and yields for all stocks in the S&P 500 - The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdHpWY3p3cGFpSnRpMU1RTE10VzBDM1RGMU9NODBFTm50Z1NSbTRPSDZjTnI1akh4YVVrZUhBdy15SWkzYWlEa2o2dFZHZ3EyY09FQXRGZEctazJNQXFjRVVmZFNPLVdvRVUtaE4ydHZZRG01NWtpQ252a2tZVEE5dUVGeDZ3NUFNd0YxeV9uaUpzX010Q0FHUjNsVFZmMTVCTDN6bUViOTk3ZzNPc2pXUDFTV0cwUWIwaDlmMzJMY2wxSDk4RzFYMmV1RlFJMlh4cWlIWTk3X3EybVlpVkplaGRUWG8?oc=5",
+        "date": "Tue, 05 May 2026",
+        "source": "The Globe and Mail"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-08-29 04:24"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 33.8 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 3.17%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 23 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 79,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": {
+   "grade": "T",
+   "one_line": "無法從證據中辨識出公司獲利穩健成長的明確結構性驅動因素。"
+  }
+ },
+ {
+  "date": "2026-08-27",
+  "market": "us",
+  "ticker": "CRWD",
+  "name": "CrowdStrike",
+  "close": 227.96,
+  "rebound": 1.0,
+  "base_quality": 0.425,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 227.96 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 43%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近4年平均年成長 -181%，成長年份占 0%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -317%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 26%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "N",
+     "symbol": "—",
+     "detail": "季獲利資料不足",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "本益比 4368.0 倍（≥60 倍，過熱）",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 3.17%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 23 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 50,
+   "verdict": "淘汰：關鍵項目不合格"
+  },
+  "ai7": null
  }
 ]
