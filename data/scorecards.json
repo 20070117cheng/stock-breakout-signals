@@ -159865,5 +159865,691 @@
    "verdict": "偏弱：獲利成長檢核不合格，觀望為宜"
   },
   "ai7": null
+ },
+ {
+  "date": "2026-08-31",
+  "market": "us",
+  "ticker": "PSX",
+  "name": "Phillips 66",
+  "close": 246.58,
+  "rebound": 1.0,
+  "base_quality": 0.546,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 246.58 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 55%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -1%，成長年份占 33%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 103%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 53%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 344%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "AI 判斷（僅供參考，請複核依據）：近期獲利成長主要來自伊朗戰爭推升煉油利潤，此為非結構性且不可持續的景氣因素。",
+     "starred": true,
+     "ai": {
+      "grade": "X",
+      "one_line": "近期獲利成長主要來自伊朗戰爭推升煉油利潤，此為非結構性且不可持續的景氣因素。",
+      "analysis": "Phillips 66 近期獲利表現雖強勁，近四季及近一季獲利年增率分別達 103% 和 344%，但新聞明確指出這些成長是由「伊朗戰爭推升美國煉油利潤」所致。這種因地緣政治事件導致的利潤提升屬於短期、非結構性的景氣循環因素，不符合穩健成長的判斷標準。此外，公司過去五年的平均年成長率為 -1%，且成長年份僅占 33%，顯示其獲利成長缺乏穩健性。因此，無法判斷其未來獲利能穩健成長。",
+      "risks": [
+       "煉油利潤高度受原油價格、地緣政治事件及供需關係影響，波動性大，難以預測。",
+       "公司歷史獲利成長不穩定，顯示其易受外部環境衝擊，缺乏長期成長動能。"
+      ],
+      "sources": [
+       {
+        "title": "Phillips 66 reports nearly 20 times-higher quarter-over-quarter earnings - Oil & Gas Journal",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNejJXR0pYNjU1WjZLUm5MbU9yRWtfSjYtc2hJYkRmaEI1NWh4TE1BYTF6dG55R2tQMFRnRHlCN2VIZFZnMGJXd1Y3SnpWcEEweF9kdXNaR2M2Zzg1bWl5djV4S3o0UlJfUkQwYUNWS1Z1VVRaNTNpQXRXU3VYbUhJNUg0M2w0QmhYN1FZQ2t3VVAzYkVvZTFVOVpRdE1kSmZZdG9ZZTdjLWFSMUJsc3pQM2NpSFdvYkNOR0NzdEVjWlNCZlFwMG1pc3NhZm1iQQ?oc=5",
+        "date": "Wed, 05 Aug 2026",
+        "source": "Oil & Gas Journal"
+       },
+       {
+        "title": "Phillips 66 stock holds close to 52-week highs as revenue grows double digits - AD HOC NEWS",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMnFObklqX0RqcjlzT192b3gydGwtSkhOaFRweEpVX0lTOVo3R1hwbGNWaE5ZQmczOGZVSjVXd1Z6b29VV2hsOV9EWlN2RzBUTzI4Rl9yWnBRNktYcUd2RE90ZVpfaElYYVBpd1U1RmpZMlBsdUxhM05pVWRhN0ViNHBFd3dsZFIyM1p3VkEtUHVFYm4xbGl1ajczSzdMWTZGS294VXpiM1A2d3FlT3ZQWF82bm9iLXJORE5rUlZVemxHa2NHQnkyUldsWG13UQ?oc=5",
+        "date": "Mon, 31 Aug 2026",
+        "source": "AD HOC NEWS"
+       },
+       {
+        "title": "Phillips 66 beats quarterly estimates as Iran war boosts US refining margins - reuters.com",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdFdjb1Q5RzUtcnRaUmV5U2FuN0dBcUZwT3RMa2pqVVVocG8zZmRPV2E1NjhlRTR6TXBsN1NHQ21EUTJvQ0JvV2NtbXhWbHVjMUN3NHFvTzlVR0IxUmxHaTFUbEpNX0xJSFFncjE4UllwaTJ2bm9UVTdHd00xOVBuTmZJVXRCekZPclluTDhFQUF2S3MwcG5rR3VrOE5TdFBHd3piYTRjTW9yVldvZGFVV3lfa1pLNlIzTXloYQ?oc=5",
+        "date": "Wed, 05 Aug 2026",
+        "source": "reuters.com"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Phillips 66 reports nearly 20 times-higher quarter-over-quarter earnings - Oil & Gas Journal",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNejJXR0pYNjU1WjZLUm5MbU9yRWtfSjYtc2hJYkRmaEI1NWh4TE1BYTF6dG55R2tQMFRnRHlCN2VIZFZnMGJXd1Y3SnpWcEEweF9kdXNaR2M2Zzg1bWl5djV4S3o0UlJfUkQwYUNWS1Z1VVRaNTNpQXRXU3VYbUhJNUg0M2w0QmhYN1FZQ2t3VVAzYkVvZTFVOVpRdE1kSmZZdG9ZZTdjLWFSMUJsc3pQM2NpSFdvYkNOR0NzdEVjWlNCZlFwMG1pc3NhZm1iQQ?oc=5",
+        "date": "Wed, 05 Aug 2026",
+        "source": "Oil & Gas Journal"
+       },
+       {
+        "title": "Phillips 66 (NYSE:PSX) Pairs High Growth Momentum With a Breakout Setup - ChartMill",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObUpPbnc0WGdfb3V1YlpGeDVnOFU1bGVncFhULWkxZXNvVkVlWXNpNGp2b0RfNzRtYjBhSWZpLXBiRG50anJXTmJrelVOc1l1NUxSVk9NWEdlU0dKTGo3bVRPSktxODNtVHNBVW16WnVhRjVsQjZuMjAyNmgtcG9XcEZjVWNUVlc2U1hnR2pXSGxJRUU1N2NMa0NGNzhldzhvN1ZPRmt2ZHNXdzdIbzNFdGlEd21RT01ZdVI4?oc=5",
+        "date": "Tue, 25 Aug 2026",
+        "source": "ChartMill"
+       },
+       {
+        "title": "Phillips 66's Q2 Earnings on Deck: Should You Bet on the Stock? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNM1d6Z0dNWWVvcVpqZ3VmUkpxQ09CLTd1RHcxQkFOVmNUTGZQdTB4aWV0VmlGeWU0NzhDU2Q1c1FxUHpTcGRvdElKU050dmdZZWRfSkpVVUMxRGZIdTh0a2FoS3NXV3BfaXV4V0dlNjZFLUVsWV9yRHplWXZqamxoc3FZSVMyUnFPbFNkUC1XWWFKd1ZINzFHMmt3?oc=5",
+        "date": "Thu, 30 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Phillips 66 stock holds close to 52-week highs as revenue grows double digits - AD HOC NEWS",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMnFObklqX0RqcjlzT192b3gydGwtSkhOaFRweEpVX0lTOVo3R1hwbGNWaE5ZQmczOGZVSjVXd1Z6b29VV2hsOV9EWlN2RzBUTzI4Rl9yWnBRNktYcUd2RE90ZVpfaElYYVBpd1U1RmpZMlBsdUxhM05pVWRhN0ViNHBFd3dsZFIyM1p3VkEtUHVFYm4xbGl1ajczSzdMWTZGS294VXpiM1A2d3FlT3ZQWF82bm9iLXJORE5rUlZVemxHa2NHQnkyUldsWG13UQ?oc=5",
+        "date": "Mon, 31 Aug 2026",
+        "source": "AD HOC NEWS"
+       },
+       {
+        "title": "Did Record Margins and a US$10 Billion Buyback Expansion Just Shift Phillips 66's (PSX) Investment Narrative? - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNmxrTDNuSk5mdGZjcFZkOE5KTzhjTnhaX1gzbU1XS3YwMEZXeTZEMGRZSURrVUpYdGJEclR5OUVGeUJKbExDZzBpYWFZTmpJUVZNclRkelRqdzNPSXRaNHBTUnpMZmdMY3o2T2ptVmFrNzltVWc3SFRMNi1GWDhuYUJvYlZfMkN2XzRkX18ybk1mUmlOdUFoc1VETG5EVDZqa2RzMlJ6emI0M0o2aG0wSFRidTRYOFlpenhMYmtPbGR2U2fSAcgBQVVfeXFMT29jbGJVM2dLQUtoVEVFOWZ2TXAySEg1WkJqODl0QXBuNk03bmV3cHdQeHNOSkdHcVpzRXI4X2N5NnpfbXZsQ0VROUlpdVZGNENrYjB5M09POWZVWnd4NWViR2lBdURhajUyWm1NTjJjcjBkOXlocDFQS1Rvc3hUTEJHUDR5QVNsOEZSckliTXV5bUJTTGR2dHlWSDN3MnY2bzhqNkx4MHZfWW94QjRXc3U4eXdnR0xQODc1MEFTRzJMQVlIU1NCejk?oc=5",
+        "date": "Fri, 28 Aug 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Earnings call transcript: Phillips 66 beats Q2 2026 profit forecast as stock slips - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUm44SFlOekFtVG1jLTBpaVhKYndLRmdOcEhWdU5QMFpiMF9oNUFiemJoYUxQdzdFd1k1OFBhOU10UGhJMURmemMxZmJpSXhmaENZX3A5LUlHeWs5WUVRV1BkVWZBNlFtRGdJREZZZlVabjYtRmVHWk41ZUpEemw3elpjb1M0d2RCcHZ0bG11aEFDdWNVa3lqRVI3ZnBtQi1hU2NmeUpob010a2RpTXhoVzNzQk43Vm9UN2xEaVhsUUZOdjRXTThULV9ER0ppZ08tOWpn?oc=5",
+        "date": "Wed, 05 Aug 2026",
+        "source": "Investing.com"
+       },
+       {
+        "title": "Phillips 66 beats quarterly estimates as Iran war boosts US refining margins - reuters.com",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdFdjb1Q5RzUtcnRaUmV5U2FuN0dBcUZwT3RMa2pqVVVocG8zZmRPV2E1NjhlRTR6TXBsN1NHQ21EUTJvQ0JvV2NtbXhWbHVjMUN3NHFvTzlVR0IxUmxHaTFUbEpNX0xJSFFncjE4UllwaTJ2bm9UVTdHd00xOVBuTmZJVXRCekZPclluTDhFQUF2S3MwcG5rR3VrOE5TdFBHd3piYTRjTW9yVldvZGFVV3lfa1pLNlIzTXloYQ?oc=5",
+        "date": "Wed, 05 Aug 2026",
+        "source": "reuters.com"
+       },
+       {
+        "title": "Phillips 66’s Quarterly Earnings Preview: What You Need to Know - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQjI2X3hHSmpfTkQzVm9WdG1QMFQ0Q256RTFObFc3cmgtY096azRmMjcxRXVLMmV4a3ZhblNOaExxbWJtWVFRdVhPNUZIUHp1aGFlLWd2OWViUjhaX1lCbWFfZTNoZndSczhuX3VLOXg2eGlhZVRzRUxyT1FUWjNWZVlqZ3ZjdEN5R3R4allmSHJjeEZNTUtseVV6Ry1hQ0YwdU1zSERR?oc=5",
+        "date": "Sat, 04 Jul 2026",
+        "source": "Yahoo Finance"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-08-31 23:51"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 14.1 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 2.82%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 22 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 71,
+   "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+  },
+  "ai7": {
+   "grade": "X",
+   "one_line": "近期獲利成長主要來自伊朗戰爭推升煉油利潤，此為非結構性且不可持續的景氣因素。"
+  }
+ },
+ {
+  "date": "2026-08-31",
+  "market": "us",
+  "ticker": "MPC",
+  "name": "Marathon Petroleum",
+  "close": 373.32,
+  "rebound": 1.0,
+  "base_quality": 0.431,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 373.32 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 43%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -24%，成長年份占 33%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近四季獲利年增 18%（接近 20% 門檻）",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 54%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 272%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "AI 判斷（僅供參考，請複核依據）：未來獲利成長主要來自煉油利潤率的週期性波動，而非結構性變化。",
+     "starred": true,
+     "ai": {
+      "grade": "X",
+      "one_line": "未來獲利成長主要來自煉油利潤率的週期性波動，而非結構性變化。",
+      "analysis": "Marathon Petroleum 近期的強勁獲利成長（近一季獲利年增 272%）明確歸因於「煉油利潤率飆升」（新聞 6, 8）。煉油利潤率的波動屬於產業的週期性因素，而非公司內部商業模式、市占率提升或長期產業趨勢等結構性變化。公司過去五年的平均年成長為負 24%，且成長年份僅占 33%，顯示其獲利穩定性不足。根據判斷標準，若成長理由僅為景氣或循環回升，則應直接判為不合格。",
+      "risks": "煉油利潤率的週期性波動可能導致獲利不穩定；公司獲利高度依賴外部原油供應及市場需求變化。",
+      "sources": [
+       {
+        "title": "Marathon Petroleum Stock And 2 Refiners Tied To Venezuelan Crude Changes - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSV9ja0p0dVZkVzBlZWJJbHp2MGllYlRGd2NHSFdLc3dNU19rQ3hyTVhxZU9ZQ2FoRGFpdC14c09aMFkzVVh4TFd2M1E1YlUzcDl1WjQwcE45R2ozQUdVelYxc0p4YnR5RlZNSE1nRXlvanotN3MtMDBVQy1BNDE0b0dQRmNBM0dva0NnVmJudEc4ekprcGJ2dVBxbVBuQXpnS0V4MlBpRWVSQ1VkNDBEa1h2VUpyVjFQODFWY1FuMEpHUndUb2IySzVNTFPSAdIBQVVfeXFMTWdfTkFoaDhiREtpVFpHTkRQZXVjMzhkcnNibW1YbTN0SWN2eHBaZ1A2ZVN5dURfaFZtYWdGRFV5Z2VaU3o0TGtNSnQwSF9LdGFGYWJETi1MVkZZMXJVRG55cnQ3TDhIRkxqSkszRTVlQ0ktcS1qSEZmQkViUS1jbFkyLUVobkcyeVpIY3BXQzZsa3lhbWs5d1FSdmI5Sk9wX1RpTHlsbV9yYXNlQ25SMmdscjNacVZQQU5PQ01POGxYanhDLXl6TjNjMVpIbzhnWjFn?oc=5",
+        "date": "Sat, 29 Aug 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Marathon Petroleum Q2 2026 earnings beat on refining margin surge - qz.com",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE53cnpPWkVic1poSWFoai1qbzFEUHB3cmpDYmswYzBaZzJIVXhZWnBlMkRJcEU2TzNTRmJtbTJSMzlhdzhLTXBnMkhnY2o2SFRfdlNMYVVDUUk0d2tYX1Nia2dKSGZqcnFJWGdlUHRpTGJzRGlPZG1MdGFSMmxBdw?oc=5",
+        "date": "Tue, 04 Aug 2026",
+        "source": "qz.com"
+       },
+       {
+        "title": "Earnings call transcript: Marathon Petroleum tops Q2 2026 estimates on strong refining - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRHUzd0lkejZzT3VjcjN5czd0dFNrNGFEZmptcnRwTHAxb2JNd0xmUWZyWHNJZUUtRjNjcTBGZE1ZNUwwSWNBYjNXUVBFNjhZMG11eVRTMHVKMVN4ek1ON2pKY1pyRWpVUjNxYS04eUJNWUxyemdzR0Mya1dVRGM1X21ydkZWLWg3X2dpQkpYcVczQ19wcGluSXJXZEJoVXhJVk9hV3g0czNQX0J0YUtkeHBtM2VMTG8wNVpSaVlWR2tnLUc5N0h3aE1JODdpMEpSMGRkTERGbE8?oc=5",
+        "date": "Tue, 04 Aug 2026",
+        "source": "Investing.com"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Marathon Petroleum (NYSE:MPC) Combines High Growth Momentum With a Breakout Setup - ChartMill",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS1FVcW9MNHV6UlZ6MmJjdmo3c2luRGpNVjhZRjg3Um02VWFteWtvQTU1VzVIX1loLXhUTThaSURtb2lYd0ZJZ2JGN3oxQVFoSEMteDROMFNWYjJmZFN4MV9HdkFOUkItNENWNFVCRWpJSFhRNGo1UGVsNkJWbTRpUTBzaHRGbXAwWktsSTQ3MzYxN0ZsbW5vN19ZbjBKdUZtQ0dmQVN0OC1DNzJBa2gzbWZXZlhoZDhOMWFEMmhsdjF2RllZZ3hPWQ?oc=5",
+        "date": "Sat, 29 Aug 2026",
+        "source": "ChartMill"
+       },
+       {
+        "title": "Marathon Petroleum (MPC) Could Be 12% Overvalued As Buybacks Drive The Bull Case - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZlBTWDBvckN1QmtxNllVb1ZrZVdZRVY4Rnh3WFFnaWVDNG0yV3drWWJ4bDk2NFlxa3hTX2ppaWoxdDF5MEVTaUNiXzBvQXNucVpILXMyWHk3bzRBQ2V0MU1DSlRDa0RYVWFULXQ0QkZnRi1hbmNsQmhKeEVMTjB3ZXY1UGttUjlXZUZXU1cxV1pxSDRoaXNnM25zdmk?oc=5",
+        "date": "Thu, 27 Aug 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Marathon Petroleum (MPC) Q1 2025 Earnings: Results, Market Reaction & History - 24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qXzc2ZkdHSHZXSndRbjJ4TE5PX1RDV1Y0aW5OMWVCMHNYU2FPMkZaMWhBdjVhV1pNMXJPUDE4a2Z0UDVHVGotMmg2Mmk4dldsS1hodnNzR0VOZXRGdEt4WmVxUQ?oc=5",
+        "date": "Thu, 27 Aug 2026",
+        "source": "24/7 Wall St."
+       },
+       {
+        "title": "Marathon Petroleum Stock And 2 Refiners Tied To Venezuelan Crude Changes - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSV9ja0p0dVZkVzBlZWJJbHp2MGllYlRGd2NHSFdLc3dNU19rQ3hyTVhxZU9ZQ2FoRGFpdC14c09aMFkzVVh4TFd2M1E1YlUzcDl1WjQwcE45R2ozQUdVelYxc0p4YnR5RlZNSE1nRXlvanotN3MtMDBVQy1BNDE0b0dQRmNBM0dva0NnVmJudEc4ekprcGJ2dVBxbVBuQXpnS0V4MlBpRWVSQ1VkNDBEa1h2VUpyVjFQODFWY1FuMEpHUndUb2IySzVNTFPSAdIBQVVfeXFMTWdfTkFoaDhiREtpVFpHTkRQZXVjMzhkcnNibW1YbTN0SWN2eHBaZ1A2ZVN5dURfaFZtYWdGRFV5Z2VaU3o0TGtNSnQwSF9LdGFGYWJETi1MVkZZMXJVRG55cnQ3TDhIRkxqSkszRTVlQ0ktcS1qSEZmQkViUS1jbFkyLUVobkcyeVpIY3BXQzZsa3lhbWs5d1FSdmI5Sk9wX1RpTHlsbV9yYXNlQ25SMmdscjNacVZQQU5PQ01POGxYanhDLXl6TjNjMVpIbzhnWjFn?oc=5",
+        "date": "Sat, 29 Aug 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Should I Buy MPC (Marathon Petroleum Corporation) | AI Analysis, Technical & News Insights - Kavout | AI",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PWk42N05ybGlpMGZUSjZJQThoTGlVOU1xV3hFaHp3STdoWU4zZlczOUFvSzJNRllab1g3YUxCSl9maDFoS20yU1lhTnZ2cTlwM1phdVdqVS1ISzl1dDdjaFZUZHgzcElfcV9nbzdKUlRKUzNSelgwQg?oc=5",
+        "date": "Fri, 28 Aug 2026",
+        "source": "Kavout | AI"
+       },
+       {
+        "title": "Marathon Petroleum Q2 2026 earnings beat on refining margin surge - qz.com",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE53cnpPWkVic1poSWFoai1qbzFEUHB3cmpDYmswYzBaZzJIVXhZWnBlMkRJcEU2TzNTRmJtbTJSMzlhdzhLTXBnMkhnY2o2SFRfdlNMYVVDUUk0d2tYX1Nia2dKSGZqcnFJWGdlUHRpTGJzRGlPZG1MdGFSMmxBdw?oc=5",
+        "date": "Tue, 04 Aug 2026",
+        "source": "qz.com"
+       },
+       {
+        "title": "Marathon Petroleum stock hits a fresh all-time high as Q2 2026 earnings crush expectations - AD HOC NEWS",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYVVoazYxTXJ1SjJzUkRad1d2MnlsTUI4cVRtOTZwYmlFZFhQNFZRdi1fYWdBMEpKSl9ZMUFOZC03STZTZXhBaGZGdFlNd3FOUlBkdkZGS1ZKLW5fdGoxdjhJeHhBLUVCcWtpN2lKdGYwMVd6aHlQNHFHTEF6cTBfSjZfVUNiVlZOUXJ0UHl6Z3lENnVPaVBhWE1uRm9pX2FjUUFRWDVZbFdnUGlBR0RyeUZlRVBWLWpwM3A4MHE0YU1pUGY4cTlmdklDZS1KV1U?oc=5",
+        "date": "Sat, 29 Aug 2026",
+        "source": "AD HOC NEWS"
+       },
+       {
+        "title": "Earnings call transcript: Marathon Petroleum tops Q2 2026 estimates on strong refining - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRHUzd0lkejZzT3VjcjN5czd0dFNrNGFEZmptcnRwTHAxb2JNd0xmUWZyWHNJZUUtRjNjcTBGZE1ZNUwwSWNBYjNXUVBFNjhZMG11eVRTMHVKMVN4ek1ON2pKY1pyRWpVUjNxYS04eUJNWUxyemdzR0Mya1dVRGM1X21ydkZWLWg3X2dpQkpYcVczQ19wcGluSXJXZEJoVXhJVk9hV3g0czNQX0J0YUtkeHBtM2VMTG8wNVpSaVlWR2tnLUc5N0h3aE1JODdpMEpSMGRkTERGbE8?oc=5",
+        "date": "Tue, 04 Aug 2026",
+        "source": "Investing.com"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-08-31 23:52"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 12.9 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 2.82%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 22 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 68,
+   "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+  },
+  "ai7": {
+   "grade": "X",
+   "one_line": "未來獲利成長主要來自煉油利潤率的週期性波動，而非結構性變化。"
+  }
+ },
+ {
+  "date": "2026-08-31",
+  "market": "us",
+  "ticker": "VLO",
+  "name": "Valero Energy",
+  "close": 358.92,
+  "rebound": 1.0,
+  "base_quality": 0.309,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 358.92 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 31%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -37%，成長年份占 0%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -19%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 49%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 449%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "AI 判斷（僅供參考，請複核依據）：該公司近期獲利成長主要來自煉油市場的景氣循環與油價波動，不符合結構性成長的標準。",
+     "starred": true,
+     "ai": {
+      "grade": "X",
+      "one_line": "該公司近期獲利成長主要來自煉油市場的景氣循環與油價波動，不符合結構性成長的標準。",
+      "analysis": "Valero Energy過去五年的獲利表現為負成長，且成長年份為零，顯示其獲利缺乏穩定性。儘管近期單季獲利大幅成長449%，但新聞標題明確指出成長動能來自「煉油順風」和「煉油市場緊俏」以及「油價飆升」。這些因素屬於景氣循環或商品價格波動，而非產業趨勢、商業模式或市占提升等結構性變化。根據檢核表規定，若成長理由僅為景氣發言，則不符合未來獲利穩健成長的要求。",
+      "risks": "煉油利潤率受原油價格與成品油價格波動影響，導致獲利不穩定；全球能源轉型可能對傳統煉油業務造成長期結構性壓力。",
+      "sources": [
+       {
+        "title": "Did Strong Q2 2026 Earnings and Refining Tailwinds Just Shift Valero Energy's (VLO) Investment Narrative? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNS25udFc1T0g4YU1JSHVJVkF5VDY1cGlSNVVFbndwWl9aUEE0SzlWNGNxbVV1ZUtYX1JMcXJNUDZkMVZ3a0dZQ1RFS2Y2aTFmZXcxY084VGVTdnlBX2RfdmR0TWcteHNfdFY0eFp3U3NGdkxPS2tyeTA2eVFsZ1Q4ZzVhUDg0akVxb2Frdw?oc=5",
+        "date": "Sat, 29 Aug 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Valero Energy stock climbs on oil spike as earnings outlook strengthens - AD HOC NEWS",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS0tWMHNqQlI0QUJnZGZZV3dDNUtxb24xVDR3QmdGbDUweVl1dXFiSlVaN0IyVHY2MzBCMU55cXFvNkVNczJ5ZUVNaVk3cXYtTWpvY0RUdzd5OWFyUElYSkFzbTlWckQ0bVd0aXA0RDc4RFZEUF93dG96ZzJpYUJYSWMwTjhhY1BUeTNjLUpycDFRWmNlY2YyT3h6UHNOSl9sbEpackhFN2tHNFAwcFgxdFlQcEd5MFdGTW5Oa0ppZ0E2MF8zbFMtNUh3YnkwWEU?oc=5",
+        "date": "Mon, 31 Aug 2026",
+        "source": "AD HOC NEWS"
+       },
+       {
+        "title": "Is Valero Energy Poised to Benefit From a Tight Refining Market? - qz.com",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ0E0ZDNldHhXMnZGRVRobGlHdFNKMDVwTXBSV2dMLWw4Qk1zcG8tRHVoVXhGc0xNdUduNEhEWHFmajYxbGFTbndTTjVtMEdwQjlBSUpvdzhlT2FkcjBxLXhpVDFwS1BwZVhvcDFqdHZ6MVlrblRyMU1PcHZXSjVqR2liRi0?oc=5",
+        "date": "Thu, 27 Aug 2026",
+        "source": "qz.com"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Did Strong Q2 2026 Earnings and Refining Tailwinds Just Shift Valero Energy's (VLO) Investment Narrative? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNS25udFc1T0g4YU1JSHVJVkF5VDY1cGlSNVVFbndwWl9aUEE0SzlWNGNxbVV1ZUtYX1JMcXJNUDZkMVZ3a0dZQ1RFS2Y2aTFmZXcxY084VGVTdnlBX2RfdmR0TWcteHNfdFY0eFp3U3NGdkxPS2tyeTA2eVFsZ1Q4ZzVhUDg0akVxb2Frdw?oc=5",
+        "date": "Sat, 29 Aug 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "FY2026 EPS Estimate for Valero Energy Boosted by Analyst - MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQ1k2MmJEek0zdy12NTY5c3Q2WEZKNkgxWTJMM1prRlNzUlR0MW1mXzVYR084RFg5YW1LcE10VWJXeHhKVHNBRjlDbUdsS0lXT0psMGVUZmtUcTVCQ3pHR3pOTWl2eDdiMkM5NXFMaHNPdkx1NlZSNkVfXzF4TGh1dGdkRWVsbWRtRFhmbWVzSzVvSTllN2RIUFNxYkNJVy1OOHl6X2k2UGZQdEZaVG95NWUxeWtkREduZExfaw?oc=5",
+        "date": "Mon, 31 Aug 2026",
+        "source": "MarketBeat"
+       },
+       {
+        "title": "Valero Energy stock climbs on oil spike as earnings outlook strengthens - AD HOC NEWS",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS0tWMHNqQlI0QUJnZGZZV3dDNUtxb24xVDR3QmdGbDUweVl1dXFiSlVaN0IyVHY2MzBCMU55cXFvNkVNczJ5ZUVNaVk3cXYtTWpvY0RUdzd5OWFyUElYSkFzbTlWckQ0bVd0aXA0RDc4RFZEUF93dG96ZzJpYUJYSWMwTjhhY1BUeTNjLUpycDFRWmNlY2YyT3h6UHNOSl9sbEpackhFN2tHNFAwcFgxdFlQcEd5MFdGTW5Oa0ppZ0E2MF8zbFMtNUh3YnkwWEU?oc=5",
+        "date": "Mon, 31 Aug 2026",
+        "source": "AD HOC NEWS"
+       },
+       {
+        "title": "Valero Energy (VLO) Earnings Beat Raises The Question Of Whether The Stock Is Already Priced In - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNX3NzNVE2eU16bnBTQ2hMRmtUMUdJYlp4WjVqSTl2ODFYb1lFYUpkdXRoYXRiRVZCWW5rSlExUk9rdW9BRlIwOW9YRjI2bEpmWlV3Zk42aWJGVjB4WU9ncUh5TFBBVUQzb1hqaFg4LTY3Z3VTNXBYSlhwZ0NQaldha0haeTM3ei1kZjJyS1lPSkNXcTdfVGdPM3J4bEdUYWlFdDExNlRGemE3aEZxVGQ1UUFKRTJTeWZOMWJ5RTY4cXc5VnRtckHSAcsBQVVfeXFMTnJhT01oaXRkTUQwR09CQmRXYUVNWVZNM083YXYxeEJpeENtMUpLMThHSXF0QTVqRXp2VUxvNzRxQ0lmcDRycGk1a1JXbFl4MFRuSW1PblJ5ZGF5bkRCU3RIaTVhYVJsUERVZFNGeUVCcFlHTnVYQmJ4a1I5NHFySlJCRl94Rk9OUzBuc1hjeGFEdndPU3hpbWl3MjI0QkNqTFN4RFhFWUg3VVhlQXJoRE9JeHFwZ3hRZElSQ2EyZUVHQWstSkZCdDA0TVU?oc=5",
+        "date": "Fri, 28 Aug 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Is Analyst Upgrades and Earnings Optimism Altering The Investment Case For Valero Energy (VLO)? - webull.com",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFByN1cyaV9BRXpSc0psV3JKYzFSSm9GZWh5WVRDbGNaLWVmTUFtaml5N3lLb1lYc3FIT2Y0Wlh4M3hPNW1neXFxS2ZocWZEWGVmLWhhMFN4OHE?oc=5",
+        "date": "Fri, 28 Aug 2026",
+        "source": "webull.com"
+       },
+       {
+        "title": "Is Valero Energy Poised to Benefit From a Tight Refining Market? - qz.com",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ0E0ZDNldHhXMnZGRVRobGlHdFNKMDVwTXBSV2dMLWw4Qk1zcG8tRHVoVXhGc0xNdUduNEhEWHFmajYxbGFTbndTTjVtMEdwQjlBSUpvdzhlT2FkcjBxLXhpVDFwS1BwZVhvcDFqdHZ6MVlrblRyMU1PcHZXSjVqR2liRi0?oc=5",
+        "date": "Thu, 27 Aug 2026",
+        "source": "qz.com"
+       },
+       {
+        "title": "Valero (VLO) Stock Looks Fully Priced Despite Its 7x Five Year Run - Sahm",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSjgxYjlPUVhCQU9YVlRxd2FMWWdoRzB1RFdWWTlXbkZILWxXZ1VtU0xpeHhkcGdvdWVIMDVqRFJRTnR3bFRiUEhrQWw4OEFmcnpYQU5vTGllOXFaRVdUNXRCbG5BWjRfeEZNLW5zaHdVdmoxZmtUVlBkQ3VJTnZsSW0yZnE1d29XOVlkVlFKX3dXc3VXaXQ4ZVh5UHptMGJiNWFLbTJnejFhUkFoX3p3RjM5UGl5R2s?oc=5",
+        "date": "Wed, 26 Aug 2026",
+        "source": "Sahm"
+       },
+       {
+        "title": "Valero Energy's Earnings Quadruple. Oil Stock Rises In A Buy Zone. - Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLVpYVF9TckN6MWFJSlQ4NTJtbDZBcklYUkVOTUNFX0xrQ2VzNTVlZ2FSeWJ4cGx0OHVYZ19JdlVtcTRJMm04R3ZwQWxfZ3pGZmN1WE9uWDdZdG9iQThrbVRRVjVRYXJyZE1tdHZVSy05OXJvSDlLRXp6aU1GZWU4Yk5BMnVhQjRGdXNqTTJ2YzI?oc=5",
+        "date": "Thu, 30 Apr 2026",
+        "source": "Investor's Business Daily"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-08-31 23:53"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 15.0 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 2.82%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 22 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 64,
+   "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+  },
+  "ai7": {
+   "grade": "X",
+   "one_line": "該公司近期獲利成長主要來自煉油市場的景氣循環與油價波動，不符合結構性成長的標準。"
+  }
+ },
+ {
+  "date": "2026-08-31",
+  "market": "us",
+  "ticker": "SLB",
+  "name": "Schlumberger",
+  "close": 60.1,
+  "rebound": 1.0,
+  "base_quality": 0.639,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 60.1 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 64%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 2%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -24%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 5%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 -21%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 29.3 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 2.82%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 22 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 50,
+   "verdict": "偏弱：獲利成長檢核不合格，觀望為宜"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-08-31",
+  "market": "us",
+  "ticker": "CRWD",
+  "name": "CrowdStrike",
+  "close": 231.0,
+  "rebound": 1.0,
+  "base_quality": 0.42,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 231 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 42%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近4年平均年成長 -181%，成長年份占 0%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -317%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 26%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "N",
+     "symbol": "—",
+     "detail": "季獲利資料不足",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "本益比 5775.0 倍（≥60 倍，過熱）",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 2.82%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 22 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 50,
+   "verdict": "淘汰：關鍵項目不合格"
+  },
+  "ai7": null
  }
 ]
