@@ -1143,7 +1143,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 11963.406989336007,
+  "cash": 13279.511528136818,
   "positions": [
    {
     "ticker": "AIZ",
@@ -1151,7 +1151,7 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 284.07000732421875,
+    "last_price": 280.7799987792969,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -1162,7 +1162,7 @@
     "shares": 19.9586,
     "buy_price": 150.14999389648438,
     "buy_date": "2026-07-07",
-    "last_price": 162.0399932861328,
+    "last_price": 160.50999450683594,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -1173,7 +1173,7 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 128.8300018310547,
+    "last_price": 125.01000213623047,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -1184,7 +1184,7 @@
     "shares": 7.2538,
     "buy_price": 179.27000427246094,
     "buy_date": "2026-07-31",
-    "last_price": 180.77000427246094,
+    "last_price": 183.16000366210938,
     "signal_date": "2026-08-03",
     "status": "HOLD",
     "status_note": ""
@@ -1195,7 +1195,7 @@
     "shares": 12.6962,
     "buy_price": 108.5999984741211,
     "buy_date": "2026-08-06",
-    "last_price": 108.23999786376953,
+    "last_price": 108.27999877929688,
     "signal_date": "2026-08-05",
     "status": "HOLD",
     "status_note": ""
@@ -1206,7 +1206,7 @@
     "shares": 2.9911,
     "buy_price": 415.54998779296875,
     "buy_date": "2026-08-11",
-    "last_price": 442.8399963378906,
+    "last_price": 438.1199951171875,
     "signal_date": "2026-08-10",
     "status": "HOLD",
     "status_note": ""
@@ -1217,7 +1217,7 @@
     "shares": 3.6928,
     "buy_price": 320.3699951171875,
     "buy_date": "2026-08-11",
-    "last_price": 331.6600036621094,
+    "last_price": 327.6099853515625,
     "signal_date": "2026-08-10",
     "status": "HOLD",
     "status_note": ""
@@ -1228,30 +1228,14 @@
     "shares": 5.743,
     "buy_price": 228.19000244140625,
     "buy_date": "2026-08-13",
-    "last_price": 220.02999877929688,
+    "last_price": 215.55999755859375,
     "signal_date": "2026-08-12",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "IBKR",
-    "name": "Interactive Brokers",
-    "shares": 13.9079,
-    "buy_price": 97.77999877929688,
-    "buy_date": "2026-08-26",
-    "last_price": 89.12000274658203,
-    "signal_date": "2026-08-25",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。停損：現價 89.12 低於買價 97.78 達 8.9%（門檻 8%），立即賣出"
    }
   ],
   "pending_buys": [],
-  "pending_sells": [
-   {
-    "ticker": "IBKR",
-    "reason": "停損：現價 89.12 低於買價 97.78 達 8.9%（門檻 8%），立即賣出"
-   }
-  ],
+  "pending_sells": [],
   "trades": [
    {
     "date": "2026-07-06",
@@ -1747,6 +1731,17 @@
     "amount": 1146.68,
     "pnl_pct": -0.07817064659301487,
     "reason": "接近停損：跌幅 7.2% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
+   },
+   {
+    "date": "2026-09-01",
+    "action": "SELL",
+    "ticker": "IBKR",
+    "name": "Interactive Brokers",
+    "price": 94.62999725341797,
+    "shares": 13.9079,
+    "amount": 1316.1,
+    "pnl_pct": -0.032215192935202475,
+    "reason": "停損：現價 89.12 低於買價 97.78 達 8.9%（門檻 8%），立即賣出"
    }
   ],
   "equity_history": [
@@ -1941,6 +1936,10 @@
    {
     "date": "2026-09-02",
     "equity": 29136.82
+   },
+   {
+    "date": "2026-09-01",
+    "equity": 29014.91
    }
   ]
  }
