@@ -1154,7 +1154,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 13279.511528136818,
+  "cash": 11930.429677361119,
   "positions": [
    {
     "ticker": "AIZ",
@@ -1162,7 +1162,7 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 287.7099914550781,
+    "last_price": 284.07000732421875,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -1173,7 +1173,7 @@
     "shares": 19.9586,
     "buy_price": 150.14999389648438,
     "buy_date": "2026-07-07",
-    "last_price": 164.3300018310547,
+    "last_price": 162.0399932861328,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -1184,7 +1184,7 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 128.0,
+    "last_price": 128.8300018310547,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -1195,7 +1195,7 @@
     "shares": 7.2538,
     "buy_price": 179.27000427246094,
     "buy_date": "2026-07-31",
-    "last_price": 185.3800048828125,
+    "last_price": 180.77000427246094,
     "signal_date": "2026-08-03",
     "status": "HOLD",
     "status_note": ""
@@ -1206,7 +1206,7 @@
     "shares": 12.6962,
     "buy_price": 108.5999984741211,
     "buy_date": "2026-08-06",
-    "last_price": 110.37999725341797,
+    "last_price": 108.23999786376953,
     "signal_date": "2026-08-05",
     "status": "HOLD",
     "status_note": ""
@@ -1217,7 +1217,7 @@
     "shares": 2.9911,
     "buy_price": 415.54998779296875,
     "buy_date": "2026-08-11",
-    "last_price": 444.1199951171875,
+    "last_price": 442.8399963378906,
     "signal_date": "2026-08-10",
     "status": "HOLD",
     "status_note": ""
@@ -1228,7 +1228,7 @@
     "shares": 3.6928,
     "buy_price": 320.3699951171875,
     "buy_date": "2026-08-11",
-    "last_price": 331.5,
+    "last_price": 331.6600036621094,
     "signal_date": "2026-08-10",
     "status": "HOLD",
     "status_note": ""
@@ -1239,22 +1239,24 @@
     "shares": 5.743,
     "buy_price": 228.19000244140625,
     "buy_date": "2026-08-13",
-    "last_price": 218.0399932861328,
+    "last_price": 220.02999877929688,
     "signal_date": "2026-08-12",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "DELL",
+    "name": "Dell Technologies",
+    "shares": 2.9198,
+    "buy_price": 462.04998779296875,
+    "buy_date": "2026-09-02",
+    "last_price": 492.20001220703125,
+    "signal_date": "2026-09-03",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [
-   {
-    "ticker": "DELL",
-    "name": "Dell Technologies",
-    "light": "yellow",
-    "score": 92,
-    "signal_date": "2026-09-03",
-    "signal_close": 516.39
-   }
-  ],
+  "pending_buys": [],
   "pending_sells": [],
   "trades": [
    {
@@ -1762,6 +1764,17 @@
     "amount": 1316.1,
     "pnl_pct": -0.032215192935202475,
     "reason": "停損：現價 89.12 低於買價 97.78 達 8.9%（門檻 8%），立即賣出"
+   },
+   {
+    "date": "2026-09-02",
+    "action": "BUY",
+    "ticker": "DELL",
+    "name": "Dell Technologies",
+    "price": 462.04998779296875,
+    "shares": 2.9198,
+    "amount": 1349.08,
+    "signal_date": "2026-09-03",
+    "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%，訊號日 2026-09-03）"
    }
   ],
   "equity_history": [
@@ -1968,6 +1981,10 @@
    {
     "date": "2026-09-03",
     "equity": 29327.87
+   },
+   {
+    "date": "2026-09-02",
+    "equity": 29301.5
    }
   ]
  }
