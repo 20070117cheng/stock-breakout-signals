@@ -2,118 +2,6 @@
  {
   "date": "2026-09-04",
   "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "2221.TWO",
-  "name": "大甲",
-  "note": "準備交叉向上，距3年收盤高 98.2%（K 91.24／D 91.36）"
- },
- {
-  "date": "2026-09-04",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "2395.TW",
-  "name": "研華",
-  "note": "剛黃金交叉，距3年收盤高 97.89%（K 61.28／D 59.29）"
- },
- {
-  "date": "2026-09-04",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "7711.TW",
-  "name": "永擎",
-  "note": "準備交叉向上，距3年收盤高 97.7%（K 81.36／D 81.87）"
- },
- {
-  "date": "2026-09-04",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "3045.TW",
-  "name": "台灣大",
-  "note": "準備交叉向上，距3年收盤高 97.51%（K 93.87／D 94.05）"
- },
- {
-  "date": "2026-09-04",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "6024.TW",
-  "name": "群益期",
-  "note": "準備交叉向上，距3年收盤高 96.93%（K 68.19／D 68.37）"
- },
- {
-  "date": "2026-09-04",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "8103.TW",
-  "name": "瀚荃",
-  "note": "準備交叉向上，距3年收盤高 96.48%（K 87.69／D 88.32）"
- },
- {
-  "date": "2026-09-04",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "5880.TW",
-  "name": "合庫金",
-  "note": "準備交叉向上，距3年收盤高 95.65%（K 87.15／D 87.63）"
- },
- {
-  "date": "2026-09-04",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "1558.TW",
-  "name": "伸興",
-  "note": "準備交叉向上，距3年收盤高 95.33%（K 76.49／D 78.45）"
- },
- {
-  "date": "2026-09-04",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "3010.TW",
-  "name": "華立",
-  "note": "剛黃金交叉，距3年收盤高 95.03%（K 60.26／D 58.16）"
- },
- {
-  "date": "2026-09-04",
-  "market": "台股",
-  "type": "綜合訊號",
-  "ticker": "6214.TW",
-  "name": "精誠",
-  "note": "雙策略檢核通過：檢核 83/100，準備交叉向上，距3年高 99.73%"
- },
- {
-  "date": "2026-09-04",
-  "market": "台股",
-  "type": "綜合訊號",
-  "ticker": "2816.TW",
-  "name": "旺旺保",
-  "note": "雙策略檢核通過：檢核 67/100，準備交叉向上，距3年高 100.0%"
- },
- {
-  "date": "2026-09-04",
-  "market": "台股",
-  "type": "綜合訊號",
-  "ticker": "2221.TWO",
-  "name": "大甲",
-  "note": "雙策略檢核通過：檢核 57/100，準備交叉向上，距3年高 98.3%"
- },
- {
-  "date": "2026-09-04",
-  "market": "台股",
-  "type": "綜合訊號",
-  "ticker": "2357.TW",
-  "name": "華碩",
-  "note": "雙策略檢核通過：剛黃金交叉，距3年高 100.0%"
- },
- {
-  "date": "2026-09-04",
-  "market": "台股",
-  "type": "綜合訊號",
-  "ticker": "2637.TW",
-  "name": "慧洋-KY",
-  "note": "雙策略檢核通過：剛黃金交叉，距3年高 99.51%"
- },
- {
-  "date": "2026-09-04",
-  "market": "台股",
   "type": "綜合訊號",
   "ticker": "2395.TW",
   "name": "研華",
@@ -12702,5 +12590,915 @@
   "ticker": "MPC",
   "name": "Marathon Petroleum",
   "note": "雙策略檢核通過：檢核 68/100，剛黃金交叉，距3年高 100.0%"
+ },
+ {
+  "date": "2026-09-04",
+  "market": "美股",
+  "type": "買進候選",
+  "ticker": "BNY",
+  "name": "BNY Mellon",
+  "note": "檢核 93/100，強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 164.84 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 50%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 27%，成長年份占 100%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 21%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 14%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 32%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：BNY Mellon的未來獲利將穩健成長，主要受惠於全球金融資產的結構性增長以及市場複雜度的提升，持續推動其手續費型證券服務的需求。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "BNY Mellon的未來獲利將穩健成長，主要受惠於全球金融資產的結構性增長以及市場複雜度的提升，持續推動其手續費型證券服務的需求。",
+      "analysis": "BNY Mellon展現了強勁的歷史和近期獲利成長，持續超越預期並上調財測。其核心業務，包括多元化的證券服務和投資管理，受益於全球金融資產的結構性擴張和金融市場日益增加的複雜性。這導致對其手續費型服務的持續需求，如「手續費收益」對獲利超預期的貢獻所示。公司策略性的擴張行動進一步支持其捕捉這種結構性增長的能力，為未來獲利奠定穩固基礎。",
+      "risks": [
+       "全球金融市場若出現顯著下滑，可能導致託管/管理資產減少，進而影響手續費收入。",
+       "利率若出現不利變動，可能對公司的利息收入產生負面影響。"
+      ],
+      "sources": [
+       {
+        "title": "BNY Mellon stock gains as institutional investors build positions and earnings stay solid - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdUtpM3NFcG5GZjNwbnZyVjcxYzNhZnRodVhrUDJNdTBWbG5ZTzFVMDBsZGMtQkxZT2JBY3BUYVNnb2MyenpqaDBkektybGw0UkdmTTRhc3RjVElaMmpfczIzNG1JeGN6UGRmXzVvVW13MGJJcjhzNXpSVGZ1WW1CZmllYWRtS3QxX3VzWXplTkZVUHJ3Z1ZhR3VWZE0xMWdPZkZ5X1VTemtsblZKd0VyaWZLU3BKQTFWc1ZTQ1IzdUNfZmp4Z0VpaXprTlc?oc=5",
+        "date": "Tue, 08 Sep 2026",
+        "source": "ad-hoc-news.de"
+       },
+       {
+        "title": "BNY Mellon Announces Major Expansion in Orlando’s Lake Mary - Orlando Economic Partnership",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPa3FxblZNd0daU0xGUmVXcDNoYjduN01PZm9sYVlRZDVaeXhwNmtRclA0Y09XR1NSX3huRXFNRUJHTVJsWk1DVHM3OEhYcmJBdnlwMVJpdlN1WExJREJ2QzhhcUhFNjdTUXZOOXEyZUU5SkFlQk5CVDF5a19fQ2NZVmk2dV9UQkVWRnJiSW9hZW1NZw?oc=5",
+        "date": "Wed, 26 Aug 2026",
+        "source": "Orlando Economic Partnership"
+       },
+       {
+        "title": "Earnings call transcript: BNY Mellon posts record Q2 2026 revenue, lifts outlook - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOei1Za1RnNkNqRFVXc2NOUjUyb3hjTElwU3VoR1Itdks0Tk9nNWRkRDdqbWZfVTJwal9mMXRnY19XU01mZnA4SUJjdXR3eThtaW9tb1daM3g4dDlBbDE3T29qQlZ3dTJUNkw1dE1yc2c3bElXQkR4WGxVWXZ6a0VqbExFVjl4SzJZYndDd09MSUQ0cWNXcmIwRXpKZjBTYjZNVU1zbE5mN1lzMWdPSUVELXVQLVljaVEwaW5Dc201LUY3YmVmcnVSX0wwc0tYV1E?oc=5",
+        "date": "Wed, 15 Jul 2026",
+        "source": "Investing.com"
+       },
+       {
+        "title": "BNY lifts 2026 revenue forecast above estimates after quarterly beat - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRlNhTUMzdEN4cTlnbnBhdVdESUZFTFNPRDd6aVlidkNRdzdvY1RsQXJRUzBFR1Zxb1ZOZ2QtVHFxMDdsejdKNThTQnVpYm1pTll2LUhpbDlNanF3eDNUUzZhN2k3YVUzcVhZa1BtSnNBalk5RHZQeUNodV9kd3VSTVJCaXZIWHRTa3VpNGRFNFdWWVI1eG5PZjZXaTkwRVpTckozbVFHdVk0S01UbkxrSTh5RUFkeTFJRWNha3NsUDMtTlVtY2JZ?oc=5",
+        "date": "Wed, 15 Jul 2026",
+        "source": "Reuters"
+       },
+       {
+        "title": "BNY Mellon Profit Beats Estimates on Fee Gains, Interest Income - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQV0owVk8wc1pnZ3RLZnJWOWQxMmo2RWg5TkxQdFpaUmdicy1BNHZjeDRVdWoybGl3Rk1NS1RpcWNxU1J2LTB4U2JhUzh2TVdieUN5VVVYOXdOUnJMdzVxYlJKc3JiYkd1bWhvMDRVb0N2bU43QnhRTDhDZkkwVDVzYjhBaHMwdFh1MkpJZmw0U1otVks4YzFLZmRoZl9aZWZQdGYtcWpzcjB4Q2F3QlFkY19tdw?oc=5",
+        "date": "Tue, 13 Jan 2026",
+        "source": "Bloomberg.com"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "symbol__ Stock Quote Price and Forecast - CNN",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBnWVdqMEMzZ0Y5QlNEeTNtVS1qbWpwdUhhTmcyUWEyUXFRZkhJZVlHM0FlQkVrY2haUUZRMFJjcFUzb3dlZFRRek15alNudFU?oc=5",
+        "date": "Mon, 07 Sep 2026",
+        "source": "CNN"
+       },
+       {
+        "title": "BNY Mellon stock gains as institutional investors build positions and earnings stay solid - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdUtpM3NFcG5GZjNwbnZyVjcxYzNhZnRodVhrUDJNdTBWbG5ZTzFVMDBsZGMtQkxZT2JBY3BUYVNnb2MyenpqaDBkektybGw0UkdmTTRhc3RjVElaMmpfczIzNG1JeGN6UGRmXzVvVW13MGJJcjhzNXpSVGZ1WW1CZmllYWRtS3QxX3VzWXplTkZVUHJ3Z1ZhR3VWZE0xMWdPZkZ5X1VTemtsblZKd0VyaWZLU3BKQTFWc1ZTQ1IzdUNfZmp4Z0VpaXprTlc?oc=5",
+        "date": "Tue, 08 Sep 2026",
+        "source": "ad-hoc-news.de"
+       },
+       {
+        "title": "BNY Mellon Announces Major Expansion in Orlando’s Lake Mary - Orlando Economic Partnership",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPa3FxblZNd0daU0xGUmVXcDNoYjduN01PZm9sYVlRZDVaeXhwNmtRclA0Y09XR1NSX3huRXFNRUJHTVJsWk1DVHM3OEhYcmJBdnlwMVJpdlN1WExJREJ2QzhhcUhFNjdTUXZOOXEyZUU5SkFlQk5CVDF5a19fQ2NZVmk2dV9UQkVWRnJiSW9hZW1NZw?oc=5",
+        "date": "Wed, 26 Aug 2026",
+        "source": "Orlando Economic Partnership"
+       },
+       {
+        "title": "What You Need to Know Ahead of Bank of New York Mellon's Earnings Release - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWTVrZWgxZUc2N2xxeTcyaVluSmNvMm5zZ2pwNGE0SGpndzhMVTZHWDRFWGZ4c0w1dWxCWGhRMklJcGhQR2pqbHVjWDJVcU10bkVNRWlGTmN5Sm5IbVoxbTg1ZENJNXNBc3ljdDlaZlNxTEl0Rkp6d3JZb0o2OE5hWjkycEVXYmhFMENKSzhQUXI2MlpGOHBBcQ?oc=5",
+        "date": "Thu, 25 Jun 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Earnings call transcript: BNY Mellon posts record Q2 2026 revenue, lifts outlook - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOei1Za1RnNkNqRFVXc2NOUjUyb3hjTElwU3VoR1Itdks0Tk9nNWRkRDdqbWZfVTJwal9mMXRnY19XU01mZnA4SUJjdXR3eThtaW9tb1daM3g4dDlBbDE3T29qQlZ3dTJUNkw1dE1yc2c3bElXQkR4WGxVWXZ6a0VqbExFVjl4SzJZYndDd09MSUQ0cWNXcmIwRXpKZjBTYjZNVU1zbE5mN1lzMWdPSUVELXVQLVljaVEwaW5Dc201LUY3YmVmcnVSX0wwc0tYV1E?oc=5",
+        "date": "Wed, 15 Jul 2026",
+        "source": "Investing.com"
+       },
+       {
+        "title": "BNY lifts 2026 revenue forecast above estimates after quarterly beat - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRlNhTUMzdEN4cTlnbnBhdVdESUZFTFNPRDd6aVlidkNRdzdvY1RsQXJRUzBFR1Zxb1ZOZ2QtVHFxMDdsejdKNThTQnVpYm1pTll2LUhpbDlNanF3eDNUUzZhN2k3YVUzcVhZa1BtSnNBalk5RHZQeUNodV9kd3VSTVJCaXZIWHRTa3VpNGRFNFdWWVI1eG5PZjZXaTkwRVpTckozbVFHdVk0S01UbkxrSTh5RUFkeTFJRWNha3NsUDMtTlVtY2JZ?oc=5",
+        "date": "Wed, 15 Jul 2026",
+        "source": "Reuters"
+       },
+       {
+        "title": "BNY Mellon Small/Mid Cap Growth Fund Q2 2026 Commentary (DBMAX) - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON24waWo5dFlpd1hKY2xsRDEyZXlsZ3o1NWxVWGFsVnlSTlZVbUZTRmZEc0VtVF9JX1d4MzZ1MUtqMHZoTE5ManJuVDdLQkY2UHlrN1hLelJ3YnNnYi1ZbEVFUmF5NnV5SnlVVlQwdEgtRlk0VklLR0hGdmpuSjZMUzduR2cwRlo2eExaS1hnT3dIMXN2T1VtMVExOA?oc=5",
+        "date": "Wed, 26 Aug 2026",
+        "source": "Seeking Alpha"
+       },
+       {
+        "title": "BNY Mellon Profit Beats Estimates on Fee Gains, Interest Income - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQV0owVk8wc1pnZ3RLZnJWOWQxMmo2RWg5TkxQdFpaUmdicy1BNHZjeDRVdWoybGl3Rk1NS1RpcWNxU1J2LTB4U2JhUzh2TVdieUN5VVVYOXdOUnJMdzVxYlJKc3JiYkd1bWhvMDRVb0N2bU43QnhRTDhDZkkwVDVzYjhBaHMwdFh1MkpJZmw0U1otVks4YzFLZmRoZl9aZWZQdGYtcWpzcjB4Q2F3QlFkY19tdw?oc=5",
+        "date": "Tue, 13 Jan 2026",
+        "source": "Bloomberg.com"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-09-09 00:18"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 19.0 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 2.44%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 20 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 93,
+   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+  }
+ },
+ {
+  "date": "2026-09-04",
+  "market": "美股",
+  "type": "買進候選",
+  "ticker": "DELL",
+  "name": "Dell Technologies",
+  "note": "檢核 93/100，強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 524.14 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 0%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 31%，成長年份占 100%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 44%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 88%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 265%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：Dell Technologies 的未來獲利將受惠於 AI 伺服器和本地端 AI 基礎設施的結構性需求成長。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "Dell Technologies 的未來獲利將受惠於 AI 伺服器和本地端 AI 基礎設施的結構性需求成長。",
+      "analysis": "Dell Technologies 近期營收與獲利表現強勁，特別是近一季獲利年增 265%。多則新聞明確指出，公司業績飆升和財測上調主要歸因於 AI 伺服器銷售的激增及本地端 AI 基礎設施的結構性需求。這顯示其成長動力來自 AI 產業的長期趨勢，而非短期景氣循環。因此，未來獲利具備穩健成長的潛力。",
+      "risks": "AI 伺服器市場競爭激烈，可能影響其市佔率與利潤。此外，AI 技術快速演進，若未能持續創新可能面臨挑戰。",
+      "sources": [
+       {
+        "title": "Dell Technologies Boosts Fiscal Year Outlook by $25 Billion as Server Revenue Surges - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMjhMMTN2ZXlVcVNLOGE4MTlpWFlLd2JWaFRPNU1waFRuWUJfbnpibzIyM25wT2xhOWtad1M4WVVoQVRIRF9PU2R4SnFLTUtaSG1MeVZiYlpvRkdaTnBVd0NWaXg2VW5RT0NkSnZhWG9wMmpXOFM4RUZuYkRKVjFmRUFYT3pGMHJyaWoyNjhzMmhhWFhWa2FlX0lNaV93UW1VRzNnZWFvSW1DRjUzb2REREFpNHoxbG9WRi1zVXhTaHh6WTBFWEZpUzRB?oc=5",
+        "date": "Tue, 01 Sep 2026",
+        "source": "WSJ"
+       },
+       {
+        "title": "Dell’s latest reinvention is here — and it reveals the AI boom happening ‘on-premise.’ The markets missed it - fortune.com",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVjBPWUhCNExzVDN5bGFSMXpwYzNWUFpROWw4aFhjX08ybG5YOHFGS2YyV0cxc2dsT0E0VmRaX3hadEFVeXFyVmUxQkwxSXYtM0dLUzc5TkJ1akpfdTFzVU1EdWV3WWtseXJSSjB1dXdHV3AySWdlNGxXMlp5RGpZQQ?oc=5",
+        "date": "Tue, 08 Sep 2026",
+        "source": "fortune.com"
+       },
+       {
+        "title": "Dell Raises Annual Revenue Outlook on Strong AI Server Sales - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZC1DdHI5dGhCZk5RWWtPMXkwSVRlVG9RTjhEaGhSVldjSFRpZDZlVXZPMlhzSHFPY0JLd01Wd2ZVblBnS0lVaW1tQV9mUXh2Mjl4N2VndGRJOGJ1b0dfS05vQk5RdU9uaEk1ZmVkaXo4ZFlRdjhDYVliM0s4cUVGUTVmb2tJclpmQTU5ZmVCRGFhQlg3cDBianllNm5EOHRuRnZHVDR2ZjNlYlROaGY3N2hkQkk?oc=5",
+        "date": "Wed, 02 Sep 2026",
+        "source": "Bloomberg.com"
+       },
+       {
+        "title": "Dell Technologies (DELL) Is Up 14.9% After Record Q2, Higher Guidance And AI-Server Backlog - Has The Bull Case Changed? - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQXJMZDhuY00wQmVhWEhLNHp4b1dBSWxEVmtnb3VtY3NPbEMyS0pVVWx2c0tvSE9qSW1uMjh6dDZqWUE2QW9CUERtaE1zcDZqMlhPNEZiNU1mck04eFduMHV4bFRWZTluX2d5SW16Ml93R095TThFcmtQSjREY2g5Y3BvcDZoWW1ETVhXSzl1YlNOdXFKbWN0b3FVWEY0SGNjdG81QmpoOXZvczlNanppQnVqcE03eExrVFlqcWN1cUNqbFJQTW15S0NR0gHPAUFVX3lxTE9RWTVLUDZYa3FyVUFCQ21QZmVoa0planBmQnpTUzlrZVBhYlZUVHJ6RVcyNF9LSWk2Q2J4c3hHVVQ3TGlkYlN6cGgzd1I1VExuTHhLRkU2QXpZRTcyc3lTTnZObmFaczFuT0xNZF9qcmJZUzltWmVFQnFCdDY2Y0RQZHZmRUtMUnJ6ME5UZFp1c1pnX3UyNmF5OERZNEFEMXhubGx3djRwbEI2bDZydmpTX1dwYnpMU3VabFcwRnBfTHFVNmxVOS1YTUJLaW5lOA?oc=5",
+        "date": "Mon, 07 Sep 2026",
+        "source": "simplywall.st"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Dell Technologies Boosts Fiscal Year Outlook by $25 Billion as Server Revenue Surges - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMjhMMTN2ZXlVcVNLOGE4MTlpWFlLd2JWaFRPNU1waFRuWUJfbnpibzIyM25wT2xhOWtad1M4WVVoQVRIRF9PU2R4SnFLTUtaSG1MeVZiYlpvRkdaTnBVd0NWaXg2VW5RT0NkSnZhWG9wMmpXOFM4RUZuYkRKVjFmRUFYT3pGMHJyaWoyNjhzMmhhWFhWa2FlX0lNaV93UW1VRzNnZWFvSW1DRjUzb2REREFpNHoxbG9WRi1zVXhTaHh6WTBFWEZpUzRB?oc=5",
+        "date": "Tue, 01 Sep 2026",
+        "source": "WSJ"
+       },
+       {
+        "title": "Dell’s latest reinvention is here — and it reveals the AI boom happening ‘on-premise.’ The markets missed it - fortune.com",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVjBPWUhCNExzVDN5bGFSMXpwYzNWUFpROWw4aFhjX08ybG5YOHFGS2YyV0cxc2dsT0E0VmRaX3hadEFVeXFyVmUxQkwxSXYtM0dLUzc5TkJ1akpfdTFzVU1EdWV3WWtseXJSSjB1dXdHV3AySWdlNGxXMlp5RGpZQQ?oc=5",
+        "date": "Tue, 08 Sep 2026",
+        "source": "fortune.com"
+       },
+       {
+        "title": "Investors Heavily Search Dell Technologies Inc. (DELL): Here is What You Need to Know - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNkljLUh2VURQUXQxNjJiNHVETWs5SUtVbFZWSEdNY0pOc2RRMFhndWp6TTRKbUc5RURRMmJaaUx0SDkwZlhaNGs1YXY5LWI4SXVmRk1hczROV3BjVVQ3QlpJaU5LOFJ6Z3hHZ2hMclpsMHRMRlg2T2d5UFh4cWRiVFRQS1JhanZjdy14eWdqMzB1dGNLM2tVTGF0TXJxM2NuSGN2bVhnWVJpUUE?oc=5",
+        "date": "Mon, 07 Sep 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Blowout jobs report and Dell earnings dominate Wall Street's week - Detroit Free Press - Breaking news, sports, business, entertainment",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQd0sySG1fRnRiajAwQzJHTjU4ZTJIZHp6S1NCS1RYd2RJd19ZaUZPM2ZTRGk3M0w3X0JwTGtWQktFWlpGWEtBZ1FDalo0N3RoNnNHRXRwRzZMa0xTeHpSWmhVYzdxWFZYb0NnVUMxU2lWNWZranhGNHk5N1Q1LU85Wnh2U2NCajVxcHBBZEpmbGo5YVY0Uk9XWGMtTFBDUXNQNE16WFRnWWg1a1ZVWk9QTDBlWnMtWTlsZjRTZ0QtRUxHQ0p2U3VXd25rVQ?oc=5",
+        "date": "Sat, 05 Sep 2026",
+        "source": "Detroit Free Press - Breaking news, sports, business, entertainment"
+       },
+       {
+        "title": "Dell Raises Annual Revenue Outlook on Strong AI Server Sales - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZC1DdHI5dGhCZk5RWWtPMXkwSVRlVG9RTjhEaGhSVldjSFRpZDZlVXZPMlhzSHFPY0JLd01Wd2ZVblBnS0lVaW1tQV9mUXh2Mjl4N2VndGRJOGJ1b0dfS05vQk5RdU9uaEk1ZmVkaXo4ZFlRdjhDYVliM0s4cUVGUTVmb2tJclpmQTU5ZmVCRGFhQlg3cDBianllNm5EOHRuRnZHVDR2ZjNlYlROaGY3N2hkQkk?oc=5",
+        "date": "Wed, 02 Sep 2026",
+        "source": "Bloomberg.com"
+       },
+       {
+        "title": "Dell Technologies soars 16% on record results, raised outlook (DELL:NYSE) - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTW9Kb0sxbEFleVd1c1F2WDFwazJqalBJWk9RNngtN3hxM0lYMW9qYUNyeWduTVFGZWctc0t1NGxfaEFUajdLamNBTEJwMDhsNXFNTThremVYU1h5Z2s1bEpocWpVY0Exek43WVU5bFdkVVBGWDVLcjV2bTFjR1NCQW5fRlBYSU85RUFzdlZjZ1pJZ2lDcUxkZmloeTJfQQ?oc=5",
+        "date": "Wed, 02 Sep 2026",
+        "source": "Seeking Alpha"
+       },
+       {
+        "title": "Dell Technologies (DELL) Is Up 14.9% After Record Q2, Higher Guidance And AI-Server Backlog - Has The Bull Case Changed? - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQXJMZDhuY00wQmVhWEhLNHp4b1dBSWxEVmtnb3VtY3NPbEMyS0pVVWx2c0tvSE9qSW1uMjh6dDZqWUE2QW9CUERtaE1zcDZqMlhPNEZiNU1mck04eFduMHV4bFRWZTluX2d5SW16Ml93R095TThFcmtQSjREY2g5Y3BvcDZoWW1ETVhXSzl1YlNOdXFKbWN0b3FVWEY0SGNjdG81QmpoOXZvczlNanppQnVqcE03eExrVFlqcWN1cUNqbFJQTW15S0NR0gHPAUFVX3lxTE9RWTVLUDZYa3FyVUFCQ21QZmVoa0planBmQnpTUzlrZVBhYlZUVHJ6RVcyNF9LSWk2Q2J4c3hHVVQ3TGlkYlN6cGgzd1I1VExuTHhLRkU2QXpZRTcyc3lTTnZObmFaczFuT0xNZF9qcmJZUzltWmVFQnFCdDY2Y0RQZHZmRUtMUnJ6ME5UZFp1c1pnX3UyNmF5OERZNEFEMXhubGx3djRwbEI2bDZydmpTX1dwYnpMU3VabFcwRnBfTHFVNmxVOS1YTUJLaW5lOA?oc=5",
+        "date": "Mon, 07 Sep 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Dell Is Up 5% Today. Here’s Where the Stock Could Go in 2026 - TIKR.com",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMDdtVzlkRF9vcHA0WmFhbV9WdEVBclVyaTZ6TTJ4QUJad0lUeTN6Ry05ekxsMXFfaVRraWh6Q0lPT25zSWZkdFdCbW5GcjR1cjZQVXVJSzdsTHR3MGhyb3Q2ZVdMczlEVWxXMFBBVU5IZWRiR0syLVBYbnh2RnBVYVRjb3haVDUxU0lJ?oc=5",
+        "date": "Fri, 04 Sep 2026",
+        "source": "TIKR.com"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-09-09 00:19"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 31.1 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 2.44%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 20 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 93,
+   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+  }
+ },
+ {
+  "date": "2026-09-04",
+  "market": "美股",
+  "type": "買進候選",
+  "ticker": "STT",
+  "name": "State Street Corporation",
+  "note": "檢核 71/100，候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 194.26 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 48%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 9%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 10%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 17%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 56%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "AI 判斷（僅供參考，請複核依據）：證據未能指出明確的結構性成長驅動力，無法判斷未來獲利能否穩健成長。",
+     "starred": true,
+     "ai": {
+      "grade": "X",
+      "one_line": "證據未能指出明確的結構性成長驅動力，無法判斷未來獲利能否穩健成長。",
+      "analysis": "公司近期營運數字顯示獲利和營收有顯著成長，尤其最近一季表現亮眼，且新聞標題也證實了強勁的季度獲利表現。然而，提供的業務簡介、營運數字及新聞標題均未指出其成長是來自於產業趨勢、商業模式創新或市占提升等結構性變化。根據檢核標準，若成長理由僅為景氣發言，則應直接淘汰。由於缺乏明確的結構性成長驅動力，無法判斷其未來獲利能否穩健且持續成長，因此不符合穩健成長的標準。",
+      "risks": [
+       "獲利成長可能高度依賴整體金融市場表現及資產管理規模的波動，缺乏內生性成長動能。",
+       "若市場環境惡化或競爭加劇，其獲利穩定性將面臨挑戰。"
+      ],
+      "sources": [
+       {
+        "title": "State Street Corporation (STT) Earnings Expected to Grow: Should You Buy? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYW5kZ1BDWXpxakdWczU2X19rd2ZLNXFiMHZHLU9PVTNMaHB2YTBsSWdoOWVYc0NjbmU0UG9qMjJycl9temVPaWg3TmNUU1N6M3BNVG9jempyMXZNNEpNZGZEaGJYRGNyUnkzY0tyUTdiS2t1MUtfV29iU19wRW0zandkaEkzbDE3TW1mV1dXTHd5bTF5eC1iNDB1RndRSHIyeVM1Ng?oc=5",
+        "date": "Thu, 09 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "State Street Corporation (NYSE: STT) Reports Second-Quarter 2026 Financial Results - Business Wire",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON1RiNmJ1U2JVTnBndi1oWXN0cEc1NUhMNFZFR1BScl85YXVESTZOa1czZ1dEcXhxMUI5cVhSUGN2NFFYVW1OSEYwX29rTmtsS0dRU2g3UFpKdXBUeXVvc1BPendGQnQtN0dRTVFYcHdlclBhajRJX0d5SmdoSTZYcWhfNHI1ZmdDVkxxc3NMb3pzME1Eb3dqVUw4VVdWMnEzTE1iNEZMWmIxQXNWd2t6QWZ0Szc4QkxKQUl6anJSbFF6N2dnNlBVV3RDcjRqbmROZWc?oc=5",
+        "date": "Thu, 16 Jul 2026",
+        "source": "Business Wire"
+       },
+       {
+        "title": "State Street Corporation (STT) Surpasses Q2 Earnings and Revenue Estimates - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNR0RLaHVnZjg3aG5nRHBUdzVYeENrWENBMVJmMkp3TlpiS1g0bHZUU0xWb19QYTAxWnB3bmlPRDJjeDdGU2ppVVVoUndDSWo0bFNsaFdwYTZMM2NYV2ItTFBJSDBJM2JtbXpfbmFGbElsLVFOM3hKa09WbEEwVi1pZldfR2FEd3ZnXzF6T29zQ2s2N2s3QlhvaUFFYWlRa3czREMxbEZR?oc=5",
+        "date": "Thu, 16 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Does Strong Q2 Earnings and Higher Payouts Change The Bull Case For State Street (STT)? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSEtxNklzRl9vQk1UZ3BSSXBmb19QdG9zUl8zLUxjNThmVmVjQzlNRzg5elkxRFpCb0JnbU04UG0wNjVYVEpnMWgwUjdUN1kzc09IMFRYWTltdjZlOWxRMG92cHl3REowZUNqUjV5M2tqSEM2aWs1U0o4djA1MHZkckpjUGtFYlFSbFpfZWVjTnY3U3RTdkhqd2RxYw?oc=5",
+        "date": "Fri, 24 Jul 2026",
+        "source": "Yahoo Finance"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "State Street (STT) Q1 2026 Earnings Call Transcript - fortune.com",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44dmJldWNHWHBsMnc4UGNHSmtuWkE3M2QxQ1ljZmNFZE10X2p4WDBXc0RmSkxlbklqZGlKWWxiMzlmYk1aZU51V0VoMGE2c1NfZllUeGU4OW5OSTJBaFFJVHpqbjJxNnhWb3p0c2hLTkk?oc=5",
+        "date": "Sat, 05 Sep 2026",
+        "source": "fortune.com"
+       },
+       {
+        "title": "State Street Corporation (STT) Earnings Expected to Grow: Should You Buy? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYW5kZ1BDWXpxakdWczU2X19rd2ZLNXFiMHZHLU9PVTNMaHB2YTBsSWdoOWVYc0NjbmU0UG9qMjJycl9temVPaWg3TmNUU1N6M3BNVG9jempyMXZNNEpNZGZEaGJYRGNyUnkzY0tyUTdiS2t1MUtfV29iU19wRW0zandkaEkzbDE3TW1mV1dXTHd5bTF5eC1iNDB1RndRSHIyeVM1Ng?oc=5",
+        "date": "Thu, 09 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "State Street Corporation (NYSE: STT) Reports Second-Quarter 2026 Financial Results - Business Wire",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON1RiNmJ1U2JVTnBndi1oWXN0cEc1NUhMNFZFR1BScl85YXVESTZOa1czZ1dEcXhxMUI5cVhSUGN2NFFYVW1OSEYwX29rTmtsS0dRU2g3UFpKdXBUeXVvc1BPendGQnQtN0dRTVFYcHdlclBhajRJX0d5SmdoSTZYcWhfNHI1ZmdDVkxxc3NMb3pzME1Eb3dqVUw4VVdWMnEzTE1iNEZMWmIxQXNWd2t6QWZ0Szc4QkxKQUl6anJSbFF6N2dnNlBVV3RDcjRqbmROZWc?oc=5",
+        "date": "Thu, 16 Jul 2026",
+        "source": "Business Wire"
+       },
+       {
+        "title": "State Street (STT) Q2 2026 Earnings Call Transcript - fortune.com",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8wZmtRc0V0TTd3cXNQellvcW9WQk91Z2N5SUFtUWFndTRLMWFlaDd6WFgzbE40b1kyc1pwQmFMTXd5dHNZMUVYci1NU0Zta0pTaHEwQVZNNWlTOVJVYVJDNnExay1wcUU0dEVhSDl6Szg?oc=5",
+        "date": "Thu, 03 Sep 2026",
+        "source": "fortune.com"
+       },
+       {
+        "title": "State Street Corporation (STT) Surpasses Q2 Earnings and Revenue Estimates - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNR0RLaHVnZjg3aG5nRHBUdzVYeENrWENBMVJmMkp3TlpiS1g0bHZUU0xWb19QYTAxWnB3bmlPRDJjeDdGU2ppVVVoUndDSWo0bFNsaFdwYTZMM2NYV2ItTFBJSDBJM2JtbXpfbmFGbElsLVFOM3hKa09WbEEwVi1pZldfR2FEd3ZnXzF6T29zQ2s2N2s3QlhvaUFFYWlRa3czREMxbEZR?oc=5",
+        "date": "Thu, 16 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "State Street Corporation (NYSE: STT) Reports First-Quarter 2026 Financial Results - Business Wire",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZUVUMlRqNUZMN0VNbkdQcTF3dmxPVkdfN19UZ3ZDbTlVZXNIamZtcVhjZ3cyQXV2dXhEMmRNakRxcUk2MVRoUWdXOFFtR3dpbGpwamlFWFJoc21uVi1kQVB1cVppanZ0LVNLcUltVFFiUXFveXpscmJfQnF2LWRpdjVHaWtERW9TMkFiN3VWeWZaVjlId3A1aVdpRnhFNi1oenktVkdPMXJsYkpnc2RGczA2NHdHeC1LT29aYUxBTWExaERXeldDWVNobnU3dGst?oc=5",
+        "date": "Fri, 17 Apr 2026",
+        "source": "Business Wire"
+       },
+       {
+        "title": "Does Strong Q2 Earnings and Higher Payouts Change The Bull Case For State Street (STT)? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSEtxNklzRl9vQk1UZ3BSSXBmb19QdG9zUl8zLUxjNThmVmVjQzlNRzg5elkxRFpCb0JnbU04UG0wNjVYVEpnMWgwUjdUN1kzc09IMFRYWTltdjZlOWxRMG92cHl3REowZUNqUjV5M2tqSEM2aWs1U0o4djA1MHZkckpjUGtFYlFSbFpfZWVjTnY3U3RTdkhqd2RxYw?oc=5",
+        "date": "Fri, 24 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "State Street Corporation's Q2 2026 Earnings: What to Expect - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMlJnMmNZTmd6c0xSdnlpYmRFYU1WcWptYlRZd0NvT2R0aHowSEpLejZjb1lzUTI4ZnVOV3RFN01BYXlNOVc2Q2lkR2NmNjVfU2JmMkM4R3hlMk9uM1NidVdMTzhyTWozMTJCaV9jeDlLYUtCWXhIdzREQ3kwak55cGRMcWRTcFAwMUlmUVBYYWd3Q1ZjS3lRQkc4c3hGa1U?oc=5",
+        "date": "Thu, 25 Jun 2026",
+        "source": "Yahoo Finance"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-09-09 00:20"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 16.9 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 2.44%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 20 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 71,
+   "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+  }
+ },
+ {
+  "date": "2026-09-04",
+  "market": "美股",
+  "type": "買進候選",
+  "ticker": "MPC",
+  "name": "Marathon Petroleum",
+  "note": "檢核 68/100，候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 388.9 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 41%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -24%，成長年份占 33%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近四季獲利年增 18%（接近 20% 門檻）",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 54%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 272%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "AI 判斷（僅供參考，請複核依據）：成長理由來自於煉油利潤的景氣循環回升，而非結構性變化。",
+     "starred": true,
+     "ai": {
+      "grade": "X",
+      "one_line": "成長理由來自於煉油利潤的景氣循環回升，而非結構性變化。",
+      "analysis": "公司過去五年平均獲利成長為負，且成長年份佔比低，顯示獲利不穩定。儘管近期獲利有顯著增長，但新聞明確指出是受「煉油利潤」提升所致。煉油利潤屬於高度景氣循環因素，並非結構性變化，不符合穩健成長的判斷標準。根據檢核表，成長理由若為景氣發言，則應直接淘汰。",
+      "risks": "煉油利潤波動性高，未來獲利易受原油價格與成品油需求影響，導致獲利不穩定。公司缺乏明確的結構性成長動能，長期獲利穩定性存疑。",
+      "sources": [
+       {
+        "title": "UBS raises Marathon Petroleum stock price target on refining margins - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObGVkVDJPSzlWMWZnTFNFbzZLS1pkQ0JQSlg3UjFjaF9YVzA3TTZMdjRqOWVhb2ljU0RBS3R4RHVIWGNvOUQ3R1diZnZNWDlTU1k3c1dPNzA4TVc1NzJVb3V4SFVnRWs1Y09Rd3ZDMnNKT2VLeXFoTWxQXzVFZkMtQm15X1JtTklINmVNcnlWbUt5NlRLaVQ5Q3FTY1NpQnk0MnpFU05KblVyOVdQU1hZOVpMYzB1Zm5rQklESmp1dFpiZzhQR1Fr?oc=5",
+        "date": "Tue, 08 Sep 2026",
+        "source": "Investing.com"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Learn Why The Bull Case For Marathon Petroleum Stock Could Change Following Earnings Beat - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVGRPR1hVSUo3Vy02eXRIVTRzMzJLWnRsY081a2lVdTFpdldndU84LUdPZm1sV0FINlZzbFVtV0dnZjItMWxVNm12bEZvd29BN2ZOeWNmTWNQZVB4elFVWXdSSVNUbVprd3l0Qy1yRTZ0YVBrTlU3Zm4zRTNNMEJSdVZEdF9lbE5kMU9rbDFob2RqWGtPWU5yeEZYcUFOdTFmZzZVbEgwRVBfSGhUcnY1SXpJeERFTjlsU21JU0RrYWRSOE81MHFwVzNsdDNHUEhsa3fSAdIBQVVfeXFMT1RkT0dYVUlKN1ctNnl0SFU0czMyS1p0bGNPNWtpVXUxaXZXZ3VPOC1HT2ZtbFdBSDZWc2xVbVdHZ2YyLTFsVTZtdmxGb3dvQTdmTnljZk1jUGVQeHpRVVl3UklTVG1aa3d5dEMtckU2dGFQa05VN2ZuM0UzTTBCUnVWRHRfZWxOZDFPa2wxaG9kalhrT1lOcnhGWHFBTnUxZmc2VWxIMEVQX0hoVHJ2NUl6SXhERU45bFNtSVNEa2FkUjhPNTBxcFczbHQzR1BIbGt3?oc=5",
+        "date": "Tue, 08 Sep 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Bull of the Day: Marathon Petroleum (MPC) - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaFF5cDJuUF9mQ0xxQ0tTblpWNkhGc2VIM2xCdUUzdGh5VzRnNXRQc204elZqUGkxU0x6QmtPLVhZaUZVWUdpXzlzN292WjZ3a2U2S0R4NVdoZjYwdHlzd3lxSGptVWpJcUtlaExwcWJ2OVBmZXdKRDlIbkxRX2I0dEF4c3d6alpaMFJEVFlJc0dVcUMwOEQ3aENYYjY?oc=5",
+        "date": "Tue, 08 Sep 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Bull of the Day: Marathon Petroleum (MPC) - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRTlQZHk3blpJV2UzcWZyWUNGOG85NlpQSlVCb3FUSS1pcUx4Njg1NFlDTWhjbEwyQklXX3drUHp1cy1zVWdTaGZvYXhENW5jNG80Yk1PVTZxSDZVSm9EdEozbWpKMjdLa2llcDdtRW4tTTN5aGpPaHVUcVo3a1JKWk5oZkNoRUhIRkxicXZNSnpMUFNTTjlTU1JB?oc=5",
+        "date": "Tue, 08 Sep 2026",
+        "source": "TradingView"
+       },
+       {
+        "title": "UBS raises Marathon Petroleum stock price target on refining margins - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObGVkVDJPSzlWMWZnTFNFbzZLS1pkQ0JQSlg3UjFjaF9YVzA3TTZMdjRqOWVhb2ljU0RBS3R4RHVIWGNvOUQ3R1diZnZNWDlTU1k3c1dPNzA4TVc1NzJVb3V4SFVnRWs1Y09Rd3ZDMnNKT2VLeXFoTWxQXzVFZkMtQm15X1JtTklINmVNcnlWbUt5NlRLaVQ5Q3FTY1NpQnk0MnpFU05KblVyOVdQU1hZOVpMYzB1Zm5rQklESmp1dFpiZzhQR1Fr?oc=5",
+        "date": "Tue, 08 Sep 2026",
+        "source": "Investing.com"
+       },
+       {
+        "title": "Marathon Petroleum (NYSE:MPC): A Value Play with Margin of Safety - ChartMill",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOODEyMDdVSTFJVkRGaGxNOGUwXzVScnQzNDlfQnp3MS1lWWU2cWlpTFB0Qkxxdkx5SlhObjh6S3RsN0QtWVZXenlvOHktd3FLUGxTYURMcUhxQkhYd0RVaFM2SDJpaEJiN0tJbmZEY3RYMkVXTkhuQ20tbjMwZnJld2lRSzM0V0dBd2VoRGZPblVvRkxMRUtJU2JPSi1zQ1RJV2RNYkUyczJsLW9zd0dqb1Bn?oc=5",
+        "date": "Mon, 07 Sep 2026",
+        "source": "ChartMill"
+       },
+       {
+        "title": "Marathon Petroleum stock gains as Wells Fargo lifts target and Q2 2026 profits surge - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPV2MzMVEyR3NEZ1R2amZlOEp4b1lYZmZHMmcxQlNScUY3WldJOHBiVlk4d2h6anRyY3U2NDhoUEwtd3UzRFhlalktNjhJYkNQUjVCc1pEcVdOMUxxZmowN2dDc0xVX3RNYkRhRlpsV3Q0bm9NV3VxZUMzUFNoQmJSaEIyNV84d2kzOEpmczBmNFpzVWJqbk9WaFFmc0FmcnpCN0FObnpBOVZkaGh2Y0dBWjBhZHBLZWhEbEl5R0xHYl9iV2ZsWktWRkVGTE55Zw?oc=5",
+        "date": "Tue, 08 Sep 2026",
+        "source": "ad-hoc-news.de"
+       },
+       {
+        "title": "Marathon Petroleum Stock Climbs 9.1% On A 6-Day Winning Streak - Trefis",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZkFHNG1IcWZodFBXb05CN0VCV0J4d19mUVVDd3NaSUhjNEJvYVJUTFRLQWZhUnNPX0tCZ3g2U2gtUWYtUFhxcTY2XzEwb3ZIbjZ4VHZ0YzRUV19CQ0RBNDh4bFhDUUFTVG9BeEluQnhUb3pscmVWZmZKaV80ZFpabXdCcFUyVFVoaHRHWjdoSW5OcWJiQ2k0ejhoRzQ4N3RYMGdXVlVIaXlfN3NHV0dNQ29zNmk0R2pMcVAxTE9n?oc=5",
+        "date": "Thu, 03 Sep 2026",
+        "source": "Trefis"
+       },
+       {
+        "title": "Marathon Petroleum and Campbell's have been highlighted as Zacks Bull and Bear of the Day - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZE9GcEZ3SXhsUTJaMzczYkVpaXMzZW9CRTd0M0p6STRab1VrOGtRcHNlR3ZZcWo2V01WMzQ4WkM3QnQzSmtfQUIyM0dmN2Vrb3hLR3R5OEVRZXJVVTZNTmdjSnNTZ2M5MXdiZFRzTEpkU3l3ZzN3UDNaN05NUGk3bkZUR185VG1TSmNOeFl1WHdFSHF2TkFrc0VFbF94WUFpNDQwaTJJSlZIdEtMMEpLSQ?oc=5",
+        "date": "Tue, 08 Sep 2026",
+        "source": "Yahoo Finance"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-09-09 00:21"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 13.8 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 2.44%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 20 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 68,
+   "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+  }
+ },
+ {
+  "date": "2026-09-04",
+  "market": "美股",
+  "type": "買進候選",
+  "ticker": "VLO",
+  "name": "Valero Energy",
+  "note": "檢核 64/100，候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 370.72 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 29%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -37%，成長年份占 0%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -19%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 49%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 449%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "AI 判斷（僅供參考，請複核依據）：未來獲利成長主要來自於煉油市場趨緊的景氣循環因素，而非結構性變化。",
+     "starred": true,
+     "ai": {
+      "grade": "X",
+      "one_line": "未來獲利成長主要來自於煉油市場趨緊的景氣循環因素，而非結構性變化。",
+      "analysis": "Valero Energy近期獲利雖有顯著成長（近一季獲利年增449%），但新聞報導明確指出其主要驅動力為「煉油市場趨緊」。根據判斷標準，此類「景氣發言」屬於產業循環因素，而非公司自身商業模式或產業結構的長期性改變。公司過去五年平均年成長為負值，也顯示其獲利穩定性不足。儘管公司有再生柴油業務，但提供的證據並未明確指出其為近期獲利大幅成長或未來穩健成長的主要結構性驅動力。",
+      "risks": "煉油市場景氣循環波動大，未來獲利穩定性受市場供需影響劇烈；公司長期獲利成長動能不明確，過去五年平均成長為負值。",
+      "sources": [
+       {
+        "title": "Valero Energy (VLO) Is Up 7.0% After Analyst Upgrades And Tighter Fuel Markets What’s Changed - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNVlWUmhGVFZkdUhuNjRuNmpSSURnUkFPbDMweF9XcEF4a0pYU2NWZXhra1YyY3dwMExpTDdNVUtpeTcxVlZkLTVUSFE1cVdNakMwSHJvc3p2MHgzeTVMcWRYdzJmVko0NmV1Q3N5QWJHcmVaODBGY1dudk4zZTUwYWtLYXg0S3NQZHhPakl5SzFfNkJld2lhb0lDWkpsTk5XSmZVak9zVHdieVN2d29JVkl5NjNPQm1KdGtXN1otcVYtUUJmV1HSAcsBQVVfeXFMT3g4Z3d5XzFuNkpqXzRFU2NMZ2Q2alhHbld6UXdZTEtYckw0Smkwbnd1MDJPTmd1d21ydVV1QVM4c1FfVC1ERU1wQVRvUmJ4WnFoak9IbWhfQ1JvZ2hxV1poNXZhdTlSSDVqZkhmUjRfalJ1X2VZbkNFLW9UNHBLVS16SkNKX2RycDJJMENUTzNKX1JlaF9ZWnZJM1l0eThVQ3cwLS1SR3Bmakp2bWVLdmlsLU81RTFMNUZ0aHowSjRRODNhZWVvUmZGT2M?oc=5",
+        "date": "Fri, 04 Sep 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Is Valero Energy Poised to Benefit From a Tight Refining Market? - qz.com",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ0E0ZDNldHhXMnZGRVRobGlHdFNKMDVwTXBSV2dMLWw4Qk1zcG8tRHVoVXhGc0xNdUduNEhEWHFmajYxbGFTbndTTjVtMEdwQjlBSUpvdzhlT2FkcjBxLXhpVDFwS1BwZVhvcDFqdHZ6MVlrblRyMU1PcHZXSjVqR2liRi0?oc=5",
+        "date": "Sun, 06 Sep 2026",
+        "source": "qz.com"
+       },
+       {
+        "title": "Earnings call transcript: Valero Energy posts huge Q2 2026 beat as stock rises - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUnJ3WVFOUHRLZGxrbXMwN3dKUWVRa3FKd29PMVRaYTVCRW1RLUhveHItSDFNNzRhNVhMRmI3ZHR5ZlFwUmxNckk2VWZEWkx3bldiTmlhd1ZDNHJWODVBX1hRRTc2dXZSNU00NnJSN3NNS3BScmdVYTJwUk8tejA2TlNFSEYwa0g5dVpwUTVoVUxQQTAydmhDakFrVV9sanR0LUdUYWFKM0cwUGlPVVdZb1BrMGh3Q3cxRkpRTTQxcVh3T2xHQ2hUdnpzelY5QQ?oc=5",
+        "date": "Thu, 30 Jul 2026",
+        "source": "Investing.com"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Valero plans to issue its third-quarter earnings release Oct. 22 - Stock Titan",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLTBRQW9FdlVzak4waC0yOFZVNllNZWRJS0J2dkFyVEdKT3NrOWw4Rk9XUWlmY2plTmJGMEVnckQxdnRaV1ZGNXhqcDVzbnViUmJxT21aTHFITVpUU3NGZkZSOVJUemV6dEV6VXJZWnpNTmt6ZC1maXdON0JIOE1MLU9rejZnQ0t3d2wzSkVpY042NHZPamNueGZBTVY4S3liZ1VlNkpJMUJJTWx1UXZSX3RSR0JlZjdDVHZn?oc=5",
+        "date": "Tue, 08 Sep 2026",
+        "source": "Stock Titan"
+       },
+       {
+        "title": "Does Valero Energy (VLO) Still Sit Above Fair Value After Its 7x Run? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQS0FIY1JMOEd6QU1qU2x2cmpUUmlGM2xxS3NYbUZ6NVo5M2d6OVBWM2R0MGwtUF9rTW1yLU9qNUtCbllQZnQxVnhHUlR3MXItekR1TlRIUUEtVnFBS0VpbU1OSGE4eWRpWFJwY19PQmV6b3FJWms2eUVadlJ0dlV3R0xiVlZfNFZCdFg1V0FncmdMMUdBTm8ycw?oc=5",
+        "date": "Sat, 05 Sep 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Valero Energy (VLO) Q1 2026 Earnings Call Transcript - fortune.com",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjYlliZDdyMmdYT282XzZOa3dDRjdCMVlnWnJzUnRvY2hmb29XcDlLUkVXRUFOalN6bmtzd3lyQ3lzWVFrNVk0VFhJM2VtVGlEcUNJck9VRjYyUzFfalFHTzFNZGVVV0lBMTI4?oc=5",
+        "date": "Sat, 05 Sep 2026",
+        "source": "fortune.com"
+       },
+       {
+        "title": "Valero Energy (VLO) Is Up 7.0% After Analyst Upgrades And Tighter Fuel Markets What’s Changed - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNVlWUmhGVFZkdUhuNjRuNmpSSURnUkFPbDMweF9XcEF4a0pYU2NWZXhra1YyY3dwMExpTDdNVUtpeTcxVlZkLTVUSFE1cVdNakMwSHJvc3p2MHgzeTVMcWRYdzJmVko0NmV1Q3N5QWJHcmVaODBGY1dudk4zZTUwYWtLYXg0S3NQZHhPakl5SzFfNkJld2lhb0lDWkpsTk5XSmZVak9zVHdieVN2d29JVkl5NjNPQm1KdGtXN1otcVYtUUJmV1HSAcsBQVVfeXFMT3g4Z3d5XzFuNkpqXzRFU2NMZ2Q2alhHbld6UXdZTEtYckw0Smkwbnd1MDJPTmd1d21ydVV1QVM4c1FfVC1ERU1wQVRvUmJ4WnFoak9IbWhfQ1JvZ2hxV1poNXZhdTlSSDVqZkhmUjRfalJ1X2VZbkNFLW9UNHBLVS16SkNKX2RycDJJMENUTzNKX1JlaF9ZWnZJM1l0eThVQ3cwLS1SR3Bmakp2bWVLdmlsLU81RTFMNUZ0aHowSjRRODNhZWVvUmZGT2M?oc=5",
+        "date": "Fri, 04 Sep 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Goldman Sachs raises Valero Energy target to $357 - scanx.trade",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc0h1TVYyRHdjdkJERkNfbW1HQ012cDFMQlNla2VFUTdZdjV0QndyTjQ3TEZ0MnE4Sjc2UjNRVGZmNklnaERDRGQwdTl5UE9YaE9LclJpcW5WcFdhVG9oYjhOaTVJNHVZVDhDRHZscTZUQklhVGE2REZENGoxazBCczZRa0hRUTFzSEdwbWJ5TFJXY29NbjF5eDhuTUlMMkFOY1g5V2Q4bG9KWktqMUM0cHhNdw?oc=5",
+        "date": "Tue, 08 Sep 2026",
+        "source": "scanx.trade"
+       },
+       {
+        "title": "Is Valero Energy Poised to Benefit From a Tight Refining Market? - qz.com",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ0E0ZDNldHhXMnZGRVRobGlHdFNKMDVwTXBSV2dMLWw4Qk1zcG8tRHVoVXhGc0xNdUduNEhEWHFmajYxbGFTbndTTjVtMEdwQjlBSUpvdzhlT2FkcjBxLXhpVDFwS1BwZVhvcDFqdHZ6MVlrblRyMU1PcHZXSjVqR2liRi0?oc=5",
+        "date": "Sun, 06 Sep 2026",
+        "source": "qz.com"
+       },
+       {
+        "title": "Valero Energy (VLO) Laps the Stock Market: Here's Why - Eastern Progress",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQ2F3V3hwVXFOMzFRd2cxZVdOWFlSZE1WemZoNFJtSG01MkVUZzFiRVVKUmtqY1llbmIxZlcxYmxXc3J0Vll0QXZjQmdBR2xWODhfVUZfMDczb0ZyZTJrMDFSN2YyQWpZYXB6dmpiOXRLNU1oeXB2MzdMSm9yamRJeGNROWJmZE9ESVR4WXRYVHlJemFYUTBLM01FU3hkbkk5QU5JU2ZyUjBuWGE2STRmalYydVlXYWFNT1Vsb3RQWm54SmtaZDJiUGRrQQ?oc=5",
+        "date": "Thu, 03 Sep 2026",
+        "source": "Eastern Progress"
+       },
+       {
+        "title": "Earnings call transcript: Valero Energy posts huge Q2 2026 beat as stock rises - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUnJ3WVFOUHRLZGxrbXMwN3dKUWVRa3FKd29PMVRaYTVCRW1RLUhveHItSDFNNzRhNVhMRmI3ZHR5ZlFwUmxNckk2VWZEWkx3bldiTmlhd1ZDNHJWODVBX1hRRTc2dXZSNU00NnJSN3NNS3BScmdVYTJwUk8tejA2TlNFSEYwa0g5dVpwUTVoVUxQQTAydmhDakFrVV9sanR0LUdUYWFKM0cwUGlPVVdZb1BrMGh3Q3cxRkpRTTQxcVh3T2xHQ2hUdnpzelY5QQ?oc=5",
+        "date": "Thu, 30 Jul 2026",
+        "source": "Investing.com"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-09-09 00:21"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 16.0 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 2.44%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 20 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 64,
+   "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+  }
+ },
+ {
+  "date": "2026-09-04",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "MPC",
+  "name": "Marathon Petroleum",
+  "note": "準備交叉向上，距3年收盤高 100.0%（K 84.4／D 85.69）"
+ },
+ {
+  "date": "2026-09-04",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "IVZ",
+  "name": "Invesco",
+  "note": "準備交叉向上，距3年收盤高 99.28%（K 54.49／D 54.93）"
+ },
+ {
+  "date": "2026-09-04",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "IQV",
+  "name": "IQVIA",
+  "note": "準備交叉向上，距3年收盤高 98.58%（K 83.97／D 84.44）"
+ },
+ {
+  "date": "2026-09-04",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "AMGN",
+  "name": "Amgen",
+  "note": "準備交叉向上，距3年收盤高 98.45%（K 65.18／D 66.75）"
+ },
+ {
+  "date": "2026-09-04",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "BEN",
+  "name": "Franklin Resources",
+  "note": "剛黃金交叉，距3年收盤高 97.09%（K 42.98／D 40.84）"
+ },
+ {
+  "date": "2026-09-04",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "CF",
+  "name": "CF Industries",
+  "note": "準備交叉向上，距3年收盤高 95.75%（K 74.0／D 75.81）"
+ },
+ {
+  "date": "2026-09-04",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "APA",
+  "name": "APA Corporation",
+  "note": "準備交叉向上，距3年收盤高 95.68%（K 65.95／D 65.98）"
+ },
+ {
+  "date": "2026-09-04",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "EG",
+  "name": "Everest Group",
+  "note": "準備交叉向上，距3年收盤高 95.53%（K 71.33／D 73.0）"
+ },
+ {
+  "date": "2026-09-04",
+  "market": "美股",
+  "type": "綜合訊號",
+  "ticker": "MPC",
+  "name": "Marathon Petroleum",
+  "note": "雙策略檢核通過：檢核 68/100，準備交叉向上，距3年高 100.0%"
  }
 ]
