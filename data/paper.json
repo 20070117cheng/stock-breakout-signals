@@ -1291,7 +1291,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 13173.559495918858,
+  "cash": 15722.77826910001,
   "positions": [
    {
     "ticker": "AIZ",
@@ -1299,7 +1299,7 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 280.9700012207031,
+    "last_price": 280.44000244140625,
     "signal_date": "2026-07-02",
     "status": "HOLD",
     "status_note": ""
@@ -1310,7 +1310,7 @@
     "shares": 19.9586,
     "buy_price": 150.14999389648438,
     "buy_date": "2026-07-07",
-    "last_price": 162.58999633789062,
+    "last_price": 162.50999450683594,
     "signal_date": "2026-07-06",
     "status": "HOLD",
     "status_note": ""
@@ -1321,21 +1321,10 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 123.27999877929688,
+    "last_price": 126.01000213623047,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "NTAP",
-    "name": "NetApp",
-    "shares": 7.2538,
-    "buy_price": 179.27000427246094,
-    "buy_date": "2026-07-31",
-    "last_price": 183.60000610351562,
-    "signal_date": "2026-08-03",
-    "status": "SELL_SIGNAL",
-    "status_note": "已排明日開盤賣出。技術面：賣壓比例 118% ≥ 117%，股價可能已達中長期高點"
    },
    {
     "ticker": "SCHW",
@@ -1343,21 +1332,10 @@
     "shares": 12.6962,
     "buy_price": 108.5999984741211,
     "buy_date": "2026-08-06",
-    "last_price": 107.33000183105469,
+    "last_price": 106.54000091552734,
     "signal_date": "2026-08-05",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "AMGN",
-    "name": "Amgen",
-    "shares": 2.9911,
-    "buy_price": 415.54998779296875,
-    "buy_date": "2026-08-11",
-    "last_price": 382.4700012207031,
-    "signal_date": "2026-08-10",
-    "status": "SELL_SIGNAL",
-    "status_note": "已排明日開盤賣出。接近停損：跌幅 8.0% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%；技術面：賣壓比例 117% ≥ 117%，股價可能已達中長期高點"
    },
    {
     "ticker": "LH",
@@ -1365,7 +1343,7 @@
     "shares": 3.6928,
     "buy_price": 320.3699951171875,
     "buy_date": "2026-08-11",
-    "last_price": 306.9599914550781,
+    "last_price": 321.1000061035156,
     "signal_date": "2026-08-10",
     "status": "HOLD",
     "status_note": ""
@@ -1376,23 +1354,14 @@
     "shares": 2.9198,
     "buy_price": 462.04998779296875,
     "buy_date": "2026-09-02",
-    "last_price": 506.6199951171875,
+    "last_price": 535.25,
     "signal_date": "2026-09-03",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [],
-  "pending_sells": [
-   {
-    "ticker": "NTAP",
-    "reason": "技術面：賣壓比例 118% ≥ 117%，股價可能已達中長期高點"
-   },
-   {
-    "ticker": "AMGN",
-    "reason": "接近停損：跌幅 8.0% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
-   }
-  ],
+  "pending_sells": [],
   "trades": [
    {
     "date": "2026-07-06",
@@ -1921,6 +1890,28 @@
     "amount": 1243.13,
     "pnl_pct": -0.05140451203838803,
     "reason": "停損：現價 209.42 低於買價 228.19 達 8.2%（門檻 8%），立即賣出"
+   },
+   {
+    "date": "2026-09-09",
+    "action": "SELL",
+    "ticker": "NTAP",
+    "name": "NetApp",
+    "price": 189.35000610351562,
+    "shares": 7.2538,
+    "amount": 1373.51,
+    "pnl_pct": 0.0562280447973591,
+    "reason": "技術面：賣壓比例 118% ≥ 117%，股價可能已達中長期高點"
+   },
+   {
+    "date": "2026-09-09",
+    "action": "SELL",
+    "ticker": "AMGN",
+    "name": "Amgen",
+    "price": 393.07000732421875,
+    "shares": 2.9911,
+    "amount": 1175.71,
+    "pnl_pct": -0.05409693449431585,
+    "reason": "接近停損：跌幅 8.0% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
    }
   ],
   "equity_history": [
@@ -2175,6 +2166,10 @@
    {
     "date": "2026-09-10",
     "equity": 28898.06
+   },
+   {
+    "date": "2026-09-09",
+    "equity": 29159.73
    }
   ]
  }
