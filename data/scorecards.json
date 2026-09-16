@@ -199836,5 +199836,615 @@
    "verdict": "偏弱：獲利成長檢核不合格，觀望為宜"
   },
   "ai7": null
+ },
+ {
+  "date": "2026-09-16",
+  "market": "us",
+  "ticker": "MPC",
+  "name": "Marathon Petroleum",
+  "close": 413.92,
+  "rebound": 1.0,
+  "base_quality": 0.368,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 413.92 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 37%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -24%，成長年份占 33%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近四季獲利年增 18%（接近 20% 門檻）",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 54%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 272%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "AI 判斷（僅供參考，請複核依據）：近期獲利成長主要來自煉油產業的景氣回升，而非穩定的結構性變化。",
+     "starred": true,
+     "ai": {
+      "grade": "X",
+      "one_line": "近期獲利成長主要來自煉油產業的景氣回升，而非穩定的結構性變化。",
+      "analysis": "該公司過去五年的平均獲利成長為負值，顯示其獲利不穩定。儘管近期營收和獲利大幅增長，但新聞標題明確指出這是受「更強勁的煉油業背景」（stronger refining backdrop）[7]所推動，這屬於景氣循環發言。雖然有提及「煉油廠升級」[1]，但證據不足以證明其為未來穩健成長的結構性主因，且其影響被景氣因素所掩蓋。根據判斷標準，成長理由若為景氣發言，則直接淘汰。",
+      "risks": "煉油產業固有的高度景氣循環性；原油價格和煉油利潤波動的風險。",
+      "sources": [
+       {
+        "title": "How Refinery Upgrades At Marathon Petroleum Stock Have Changed Its Investment Story - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS1BuQ2oyTk1leE5jVk5kZTZ6UEhOZjZPNDIyLTBjS1RMLU9hb21LRkpaN096amlLV1VTR3lVazMwNlhyZWhtR2hfSjlEcDRlUE5XNTFGMnp5MnVnaDdoTzN6Wks0eDQ2QUZJMVd5YjJYOWxqaEN2azB3cWNVR2podmVZY1UxMk9kZkl3OU9qdGZCWjg3Y3o4SkZZVlBXWlVxVk1KS3JDWTJMVFpiQVBybDZWVXpyRHFiN09QNXJtSlpHOVhlUG55bXRFWFDSAdIBQVVfeXFMTWdiQWI4d1B1d0dGVklyZmNnM05UbjJBMUhVZGJ0RXJsUkc1UTZuaThqVDZOTDJLTnAzWWhPWm8wQWVvc3N6UDQwMVRkUi1PZm8xcUFPbHpGSEhPUVE2d3ZiQnByc09UcUgxdXdWMm5sUndsSl9rbXVJNnkzaEJ3TkFOdlVmaWRyU0JSbmtMcHVfSmJyc1hJZ2RaOC1VbHM0Slo0X2xPVEg3TmpUczlCcy1uZ2NlQVYyTjlGV1oyVU9FTU9YaXNUWUNlMWdOendkcHNB?oc=5",
+        "date": "Wed, 16 Sep 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Marathon Petroleum gains as stronger refining backdrop and analyst optimism lift shares - Quiver Quantitative",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUTRwV0NDYjRGMXJvU0pXOUVTN0t0WW1ld01aNm1LaWNMcGJ6MWR5SEl0RC16Y2VXRWtNbV8tR0ZHLXlRaEhHNGNJQXpVbl9oRUY5dWlWLUsxX01ZN0JyZUNFVFRqazVIS0ZTOFd0NkR4dk5WMnlpemlQbVVfUmVGa2dnZWJqM1ZSbTR0Z2xBSXdmcHBMci01aVhFUlE2OEFWaklkRURSamYwZktCcU9Gc3JtZXRWeEttNTQ3eA?oc=5",
+        "date": "Fri, 11 Sep 2026",
+        "source": "Quiver Quantitative"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "How Refinery Upgrades At Marathon Petroleum Stock Have Changed Its Investment Story - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS1BuQ2oyTk1leE5jVk5kZTZ6UEhOZjZPNDIyLTBjS1RMLU9hb21LRkpaN096amlLV1VTR3lVazMwNlhyZWhtR2hfSjlEcDRlUE5XNTFGMnp5MnVnaDdoTzN6Wks0eDQ2QUZJMVd5YjJYOWxqaEN2azB3cWNVR2podmVZY1UxMk9kZkl3OU9qdGZCWjg3Y3o4SkZZVlBXWlVxVk1KS3JDWTJMVFpiQVBybDZWVXpyRHFiN09QNXJtSlpHOVhlUG55bXRFWFDSAdIBQVVfeXFMTWdiQWI4d1B1d0dGVklyZmNnM05UbjJBMUhVZGJ0RXJsUkc1UTZuaThqVDZOTDJLTnAzWWhPWm8wQWVvc3N6UDQwMVRkUi1PZm8xcUFPbHpGSEhPUVE2d3ZiQnByc09UcUgxdXdWMm5sUndsSl9rbXVJNnkzaEJ3TkFOdlVmaWRyU0JSbmtMcHVfSmJyc1hJZ2RaOC1VbHM0Slo0X2xPVEg3TmpUczlCcy1uZ2NlQVYyTjlGV1oyVU9FTU9YaXNUWUNlMWdOendkcHNB?oc=5",
+        "date": "Wed, 16 Sep 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Marathon Petroleum stock gains as Bank of America builds $621 million stake - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxON1ZGUVk3S1NPd1FaV3d6V0RUdmJGMjl3N0l0U1lCY2c5Q2kzUXZCSV9hbTVkX191ZHhqQW1xdE8wUjhxVFlOS3dFUWtkZTlkd1piLWp1OFlaUGNaTlh4VW90alotWHRzQ2RzZlUxcjJwdzJaVVY2Mi1LX04xQXp1d1ZCb2JFNE90ZzRXV25DNGxaT0w1U0ZaTjZxTXlJNmV3dmFoenhhLWl0OEpMRTNWZURtYlB1WjdlM3c3LW1mUGlpQkdjcDhkZFo0RQ?oc=5",
+        "date": "Wed, 16 Sep 2026",
+        "source": "ad-hoc-news.de"
+       },
+       {
+        "title": "Should I Buy MPC (Marathon Petroleum Corporation) | AI Analysis, Technical & News Insights - Kavout",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PWk42N05ybGlpMGZUSjZJQThoTGlVOU1xV3hFaHp3STdoWU4zZlczOUFvSzJNRllab1g3YUxCSl9maDFoS20yU1lhTnZ2cTlwM1phdVdqVS1ISzl1dDdjaFZUZHgzcElfcV9nbzdKUlRKUzNSelgwQg?oc=5",
+        "date": "Mon, 14 Sep 2026",
+        "source": "Kavout"
+       },
+       {
+        "title": "Why Is Marathon Petroleum (MPC) Up 30% Since Last Earnings Report? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNY25vczlyWXdGYWp6a0hVczF6aEVYRjhVcUxyZXBBb2Fja0tsZmQ5TENXZlNrXy1fSVFhdmEyNllwM01Sbk45MEplcHA4TTM3LVUtVzFyRzNiZXlrM2ZhX3lNUEZIWEZxaTBDT21RcVAzbVFFLWpEeExtNjFvUWwzdko4NTZmckt1WUc4YmdtZG9BcVNsSm5MUXpR?oc=5",
+        "date": "Thu, 03 Sep 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Marathon Petroleum (MPC) Receives a Buy from UBS - The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNE1LMm5TT0RyR2VXa1lMNlA5dlpBLWdhWTFkT1VhaExzOVY4YnMxdG5hT19pV25mdFhqeWJ4cW5POFZ3V0Q0RjQ2djJ4LWNaMXFuQUNlUlBmUHZEeGhuUFBvYXVsUkJ5RW51VWIxVGlCeEJDNEtac3lxWkk3Q1UySDlLSUpOZXlCMDdFSTNLamtMem56QnFfSmRRbFVFN0FucGV1eW5nN29JTGIzeVZMc09FelBkN1NFVENKNkw4YmFjcXo3WnBNR0JIV1M?oc=5",
+        "date": "Tue, 15 Sep 2026",
+        "source": "The Globe and Mail"
+       },
+       {
+        "title": "Marathon Petroleum Corp (MPC): What a GF Score of 63 Says About the Stock - GuruFocus",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaXFJQkg1dmRmNWRWcDNCYV9WR1AwM2RZekdWN2tEbVZHN1ZOX1ppWm8tNFR3NlFkM2FvUWNhVm1MaFdtTllpeWV4QWJzQkpyVElyS3poZkpqOU1lbzNOdV9MWXlQZXFOVFhfSnF5ck9UeGRmQnNEckdUbnA3Z1JUdnp6S0docFJSTnlPdXN3bllKeU44b0o1bkNCSkI2RHotV3JCVE5Ec1pSX05mbVE?oc=5",
+        "date": "Mon, 14 Sep 2026",
+        "source": "GuruFocus"
+       },
+       {
+        "title": "Marathon Petroleum gains as stronger refining backdrop and analyst optimism lift shares - Quiver Quantitative",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUTRwV0NDYjRGMXJvU0pXOUVTN0t0WW1ld01aNm1LaWNMcGJ6MWR5SEl0RC16Y2VXRWtNbV8tR0ZHLXlRaEhHNGNJQXpVbl9oRUY5dWlWLUsxX01ZN0JyZUNFVFRqazVIS0ZTOFd0NkR4dk5WMnlpemlQbVVfUmVGa2dnZWJqM1ZSbTR0Z2xBSXdmcHBMci01aVhFUlE2OEFWaklkRURSamYwZktCcU9Gc3JtZXRWeEttNTQ3eA?oc=5",
+        "date": "Fri, 11 Sep 2026",
+        "source": "Quiver Quantitative"
+       },
+       {
+        "title": "Marathon Petroleum (NYSE:MPC) Combines High Growth Momentum With a Breakout Setup - ChartMill",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS1FVcW9MNHV6UlZ6MmJjdmo3c2luRGpNVjhZRjg3Um02VWFteWtvQTU1VzVIX1loLXhUTThaSURtb2lYd0ZJZ2JGN3oxQVFoSEMteDROMFNWYjJmZFN4MV9HdkFOUkItNENWNFVCRWpJSFhRNGo1UGVsNkJWbTRpUTBzaHRGbXAwWktsSTQ3MzYxN0ZsbW5vN19ZbjBKdUZtQ0dmQVN0OC1DNzJBa2gzbWZXZlhoZDhOMWFEMmhsdjF2RllZZ3hPWQ?oc=5",
+        "date": "Sat, 29 Aug 2026",
+        "source": "ChartMill"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-09-16 23:50"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 14.4 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.80%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 22 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 68,
+   "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+  },
+  "ai7": {
+   "grade": "X",
+   "one_line": "近期獲利成長主要來自煉油產業的景氣回升，而非穩定的結構性變化。"
+  }
+ },
+ {
+  "date": "2026-09-16",
+  "market": "us",
+  "ticker": "TMO",
+  "name": "Thermo Fisher Scientific",
+  "close": 648.43,
+  "rebound": 0.964,
+  "base_quality": 0.76,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 648.43 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 96%（目標≥60%），平穩期品質 76%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近4年平均年成長 -1%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 4%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 11%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 13%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：公司受惠於生物製藥研發、AI驅動的藥廠支出增加以及在新興市場的擴張，預期獲利將穩健成長。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "公司受惠於生物製藥研發、AI驅動的藥廠支出增加以及在新興市場的擴張，預期獲利將穩健成長。",
+      "analysis": "近期營收與獲利年增率分別達11%和13%，顯示營運成長動能正在加速，扭轉過去四年平均負成長的趨勢。公司獲利成長來自多個結構性變化，包括進入快速成長的研究市場，以及受惠於全球生物製藥研發與製造的提升。執行長明確指出AI將驅動藥廠增加支出，預期至2028年可實現7%的有機成長，這是一個明確的長期結構性成長動能。此外，公司在新興市場如印度的客戶增長潛力，也為未來獲利提供穩健的成長來源。",
+      "risks": [
+       "全球生物製藥研發支出可能受到經濟下行或法規變化的影響，進而影響公司業務。",
+       "AI技術在製藥領域的實際應用進度及效益可能不如預期，影響其對公司獲利的貢獻。"
+      ],
+      "sources": [
+       {
+        "title": "Thermo Fisher at Morgan Stanley healthcare conference: growth gathers pace - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNd2xmMXRzVjNuYmVKN196LWxBLXBFZ1plZkZyb0NrTS1uZWFETDBpYkp6X1c1Uks1a0h2TExCdUNSX0s4OUV1dTZhaVRoa3VTXzU1MnhXTThLWnV0a29PNFZPRVptSEpTck5SNzI4eE51OWxLWGoySmJxRHdGMEFSSnFORGFvdTVpa0x3TXg3MHBtdFl3RHZvdGVWR0I3MzJ0WlJDVGhHUGFmQTh3Q2ZJcmlaemhjNVprb01xRXl0M3pyMThIbGhuSQ?oc=5",
+        "date": "Tue, 15 Sep 2026",
+        "source": "Investing.com"
+       },
+       {
+        "title": "Thermo Fisher Scientific (TMO) Lands In Two Fast Growing Research Markets Investors Missed - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxObllrb0pqZS0zNF92YUl6UVBZbUNKTm9iVEkwOFJ4bF9MbzZwV0hqSEVIYVVDNjE0S29ud1p1d0YxZ2RVRHVzaUtUOENSWnpBeEtTTjc0a0tBbndXMVdWbi1uNnotM25Wbm52MklId0VObzlCWFVLR0x3RnRLa3FLT1k4YWY4aml5YUFvU2hway1vVTQxSWJJczk4ek9UQ2hEMDV0SW5qMWJmS2Y5VGFfWUVqaWczcGR0T3dlcC13eFEwcV9ibnJjTzQyeFpOZGlCX2h1NW56ZHpWZWtpOTNaOFc0d2NDNHBTcWtV0gHwAUFVX3lxTE1HNi05NlZqbmhSaHp2VlVSemYweHdHZHVLMDBEM0xoUXVZeGRha2dQSlhrU2dwWExySUp1UGE2VUV4TGYtNTFKSjBuMFR2c3l0MXlORG8zMGI0eXZUTkV6MDVjVlk0OWMwbTUyN0lKN1dDZmxiRGUzd0plQ1F6ZF9HZWp5YVM1b21qYmlpQmJkRUMzdFg5Z2l6dkVkTGJwcDVDWVNYTDZwS0tQY0xSdjVxYnplT0ZPUENRQl9oY1d6QmkwY2VzSkRzOVA4YnY4bF9BSjN4OFpZQzlNbEh4ejN1WHExLXQwN1U0UUlhNTVybw?oc=5",
+        "date": "Fri, 11 Sep 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Thermo Fisher eyes 15%-20% India customer growth on biopharma research, manufacturing boost - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZmFFNFBZdGFlNVF5TktSUGVpX3hxRm5HT1IxaFdsSlVRNm81Uy1DaHpfc0lGR1BXTnNNTXN0OEZQdTljekRRckMxd25YbVU5RVFKaEF3M1BVemd1YjdpQ1p6NUZIRXR3WWVxNXNFNHc0UnVjZXE4eWlZd29IU2RNczFaR191eEFkNmlPZWp3c2dCMmp6NEhMWHhxVzVmVDl6cXJaRGtSbC1YaXByOUViQXB1WmRPUUg1MnJUSXZCcGtGZ3djRS1QdUpPYlF0Z3ZEcDFvTHpXYTZjeGVMdjNJT3p4OFk2dw?oc=5",
+        "date": "Mon, 10 Aug 2026",
+        "source": "Reuters"
+       },
+       {
+        "title": "Thermo Fisher CEO Says AI Will Drive More Pharma Spending — Sees 7% Organic Growth By 2028 - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPTDZxM215Rml0U2dpeVFqM3JsaWx4MkItbFlTV2hvSzhXcjNHNWRRamFkODVFWFd1RkxTVXFmRTEwbGxaaVZVRklxcUNrcnNrMV9qM0NTemktdzdINkV4RTlQTTFPQlFmZ1pSczRsdWc1SV9HTUtxbWh5eG8zWkQ1TEJnLXNYSXJvTTVyTFNkUUhsZmZpcnZRS2JhQ3g1am56Q1ppejE3dGgwZzZkQnNOZ3RxR1lhZTdVbEdHSzVZWXdlZUFmcWMxbDdxNHl6SVN3aXVlSVkyYlJDb3Rya1Z2UWlR?oc=5",
+        "date": "Tue, 15 Sep 2026",
+        "source": "TradingView"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Thermo Fisher at Morgan Stanley healthcare conference: growth gathers pace - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNd2xmMXRzVjNuYmVKN196LWxBLXBFZ1plZkZyb0NrTS1uZWFETDBpYkp6X1c1Uks1a0h2TExCdUNSX0s4OUV1dTZhaVRoa3VTXzU1MnhXTThLWnV0a29PNFZPRVptSEpTck5SNzI4eE51OWxLWGoySmJxRHdGMEFSSnFORGFvdTVpa0x3TXg3MHBtdFl3RHZvdGVWR0I3MzJ0WlJDVGhHUGFmQTh3Q2ZJcmlaemhjNVprb01xRXl0M3pyMThIbGhuSQ?oc=5",
+        "date": "Tue, 15 Sep 2026",
+        "source": "Investing.com"
+       },
+       {
+        "title": "Thermo Fisher Scientific (TMO) Lands In Two Fast Growing Research Markets Investors Missed - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxObllrb0pqZS0zNF92YUl6UVBZbUNKTm9iVEkwOFJ4bF9MbzZwV0hqSEVIYVVDNjE0S29ud1p1d0YxZ2RVRHVzaUtUOENSWnpBeEtTTjc0a0tBbndXMVdWbi1uNnotM25Wbm52MklId0VObzlCWFVLR0x3RnRLa3FLT1k4YWY4aml5YUFvU2hway1vVTQxSWJJczk4ek9UQ2hEMDV0SW5qMWJmS2Y5VGFfWUVqaWczcGR0T3dlcC13eFEwcV9ibnJjTzQyeFpOZGlCX2h1NW56ZHpWZWtpOTNaOFc0d2NDNHBTcWtV0gHwAUFVX3lxTE1HNi05NlZqbmhSaHp2VlVSemYweHdHZHVLMDBEM0xoUXVZeGRha2dQSlhrU2dwWExySUp1UGE2VUV4TGYtNTFKSjBuMFR2c3l0MXlORG8zMGI0eXZUTkV6MDVjVlk0OWMwbTUyN0lKN1dDZmxiRGUzd0plQ1F6ZF9HZWp5YVM1b21qYmlpQmJkRUMzdFg5Z2l6dkVkTGJwcDVDWVNYTDZwS0tQY0xSdjVxYnplT0ZPUENRQl9oY1d6QmkwY2VzSkRzOVA4YnY4bF9BSjN4OFpZQzlNbEh4ejN1WHExLXQwN1U0UUlhNTVybw?oc=5",
+        "date": "Fri, 11 Sep 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Thermo Fisher Scientific Inc (TMO) Stock Analysis: Strong Buy Ratings and Promising Growth in Healthcare - DirectorsTalk Interviews",
+        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPS2lzRkpaYUJ5bldrYmxpVWpCZGQwbjlCT2dkUHRFbzVjX0s0SDBzUzVPb012SzRhOUVqNU5wc2R3VV8ydmpKRnB1dGRyMVpJRVpzNHIxVmZWRGZkVml2VzBBcmNIMUZMSjByMFhSOVVNNnlGNnpYWWtyWWF5UWU5ZHh5a1dTSmJBTUFleXJUSmVQcnZ4UGlNQVFNSWdTMEluNmthQm12VTNYd1BlVDdaRHlaOGxPZDVvZ2ZPbndiODFPb2xhWFFIOTBGTlBIc0tsY2p0SmE2WXdTTG5VSUdNSDFMV2RFNmc?oc=5",
+        "date": "Mon, 14 Sep 2026",
+        "source": "DirectorsTalk Interviews"
+       },
+       {
+        "title": "Thermo Fisher Scientific Inc Stock (TMO) Moved Up by 3.44% on Sep 15: Facts Behind the Movement - TradingKey",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWmdkWGJkanE2ZEhnb1JhY21Zd05jZnd1Z3c1SUVUcENiUDAzTVpzZzhLM1JKR0ZGaUc0bTl2c0U4OFkwQWN0LUF1cHVXVmNoaHM1Z0ZHZ1c3aEpkdm9DMmZIVzB3Y3BqQWJQcXhXNWlKM0JPdUNHbE16SmNqa245cHVSOUxYX1NGZUE?oc=5",
+        "date": "Tue, 15 Sep 2026",
+        "source": "TradingKey"
+       },
+       {
+        "title": "Analysts Appear Bullish on Thermo Fisher (TMO): Is The Stock Really a Buy After Earnings? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcDdxQmlJMnRqRnRKUnVxNk1nSE15X2dmQkJxZkpnQlhzN2h3ZC0yUzZ2SXJ2LV9CVFpTMnpyOVNSUGVHZmNVaUtCS0NsbGlfVVFWQ1E4dEdCS0dHMEVubHRLTlhSQlNLVUtGRl9SV3VwLXhpWl83a240ZDdXVUYyYzhDQVBxNUZjVUZKOFFGRzNGS0hMT3lFT3JreTJTcktNckd0SA?oc=5",
+        "date": "Fri, 31 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Thermo Fisher eyes 15%-20% India customer growth on biopharma research, manufacturing boost - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZmFFNFBZdGFlNVF5TktSUGVpX3hxRm5HT1IxaFdsSlVRNm81Uy1DaHpfc0lGR1BXTnNNTXN0OEZQdTljekRRckMxd25YbVU5RVFKaEF3M1BVemd1YjdpQ1p6NUZIRXR3WWVxNXNFNHc0UnVjZXE4eWlZd29IU2RNczFaR191eEFkNmlPZWp3c2dCMmp6NEhMWHhxVzVmVDl6cXJaRGtSbC1YaXByOUViQXB1WmRPUUg1MnJUSXZCcGtGZ3djRS1QdUpPYlF0Z3ZEcDFvTHpXYTZjeGVMdjNJT3p4OFk2dw?oc=5",
+        "date": "Mon, 10 Aug 2026",
+        "source": "Reuters"
+       },
+       {
+        "title": "Thermo Fisher Scientific Reports Second Quarter 2026 Results - Business Wire",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSXN6S3JfenFmRjVyQnQ5cDk2TnJXcXZtMy1LdHBwaTJYRXFqU2NDLU44THhWVy1Rc1lJS25YUWNZbE90Wmo0RmdQOGRCUmFoZGVLZndoTzNVOFN2MnJtUnVMN3N4NnJCZndEZmNTSjY5UENlZU0yZmFpZmlMbXVqaFFNX2JUazRHWnRZQWRrNm13NmdSa2drbTZwRktpcllkSmlvQndhSzYyak9oMDVzbklXR2xIRHJW?oc=5",
+        "date": "Thu, 23 Jul 2026",
+        "source": "Business Wire"
+       },
+       {
+        "title": "Thermo Fisher CEO Says AI Will Drive More Pharma Spending — Sees 7% Organic Growth By 2028 - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPTDZxM215Rml0U2dpeVFqM3JsaWx4MkItbFlTV2hvSzhXcjNHNWRRamFkODVFWFd1RkxTVXFmRTEwbGxaaVZVRklxcUNrcnNrMV9qM0NTemktdzdINkV4RTlQTTFPQlFmZ1pSczRsdWc1SV9HTUtxbWh5eG8zWkQ1TEJnLXNYSXJvTTVyTFNkUUhsZmZpcnZRS2JhQ3g1am56Q1ppejE3dGgwZzZkQnNOZ3RxR1lhZTdVbEdHSzVZWXdlZUFmcWMxbDdxNHl6SVN3aXVlSVkyYlJDb3Rya1Z2UWlR?oc=5",
+        "date": "Tue, 15 Sep 2026",
+        "source": "TradingView"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-09-16 23:51"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 34.9 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.80%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 22 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 64,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": {
+   "grade": "O",
+   "one_line": "公司受惠於生物製藥研發、AI驅動的藥廠支出增加以及在新興市場的擴張，預期獲利將穩健成長。"
+  }
+ },
+ {
+  "date": "2026-09-16",
+  "market": "us",
+  "ticker": "VLO",
+  "name": "Valero Energy",
+  "close": 403.28,
+  "rebound": 1.0,
+  "base_quality": 0.256,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 403.28 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 26%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -37%，成長年份占 0%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -19%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 49%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 449%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "AI 判斷（僅供參考，請複核依據）：近期獲利成長主要來自煉油產業的景氣循環回升，而非明確的結構性變化。",
+     "starred": true,
+     "ai": {
+      "grade": "X",
+      "one_line": "近期獲利成長主要來自煉油產業的景氣循環回升，而非明確的結構性變化。",
+      "analysis": "Valero Energy所處的石油與天然氣煉製產業本質上具有高度週期性，其過去五年平均年成長率為負37%且無成長年份，印證了此一特性。儘管近期營收和獲利出現顯著增長（近一季獲利年增449%），並有分析師上調預期，這些表現更符合產業從低谷反彈的週期性復甦。提供的證據並未明確指出此成長是由於市場份額大幅提升、商業模式創新，或「再生柴油」等低碳燃料業務的結構性轉變所驅動，足以抵消其核心煉油業務的週期性影響。",
+      "risks": "煉油利潤率的週期性波動；原油價格和成品油需求的不可預測性。",
+      "sources": [
+       {
+        "title": "How Investors May Respond To Valero Energy Stock As Earnings Estimates Rise - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRVBCbGVsQVRHTTZnSnZiTzV2dXlzN3BHOWY1d050djVfLWR3bHlNY3ZwMHpUb0pvRmpLOEFla09GaW5pVHAtNHdwTDlYQ1duSy1fTzRsNmh6WEw4RXdfWTNWT0VGX1BYWWlJbF93aWxSLS1kLVAwdDBkXzY2RnpLa2VTQ0tzU3Y5ZkNXNzdEaldLR2xOTVFVOUlINUY2WXhlWVVucm12VEVwRkdjVmNKRWhxOEJ4SGxSbEJLZVk1ZUhxeTVVN3fSAcsBQVVfeXFMUFRuMzBYcnhrU3FZY2dYOVdORVJmdkdyTk1DUHY3aHpoWlN5bjJwSFE2dF9ISWZxMUdtTFRTVWVNTnp3TkZ5TEpiUWZLV3k3SkpsWE9iS2ZFaXVHeUl4UF9GN0w0VXRUU0ZpWXBxdy1zUUJoSkUzWTlqMVZ4NjZ3amdMNl9qM0gzcHA3OGUzdmRTX1oxVnc2d2ZMdGtuR3h5SDBBVElUdGQzUlRsRlR1NGRZQzFReUMyZ2oxMzBxRVRhMHN3LXBUbTNmNDg?oc=5",
+        "date": "Fri, 11 Sep 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Valero Energy stock hits new record high as UBS lifts price target - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNXzA0QXQ3YWdlYkFSOHBhRTktczVtVHBKMVpJY083aU5CRzZ3VnhUUTUwNnQ2MWM0d182emRTb3loU2JRSmFWX3ZVblgwNGxtUVJCamhzOGFWazgzaGhJcS1kRmNNZWxuMHZwVzA4T2NmQ3BZNFV4ak5SalZTRmpBeUt6cFRXdnRwQlRVbjdtQmp5Qk1ZdXdneHV2OWl5VGVDNWttVTFZVzRla0xKNzl4VGp3NmQ4bzhwbjY2bEx3Uk1DaFFZMWlRVg?oc=5",
+        "date": "Wed, 16 Sep 2026",
+        "source": "ad-hoc-news.de"
+       },
+       {
+        "title": "Earnings call transcript: Valero Energy posts huge Q2 2026 beat as stock rises - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUnJ3WVFOUHRLZGxrbXMwN3dKUWVRa3FKd29PMVRaYTVCRW1RLUhveHItSDFNNzRhNVhMRmI3ZHR5ZlFwUmxNckk2VWZEWkx3bldiTmlhd1ZDNHJWODVBX1hRRTc2dXZSNU00NnJSN3NNS3BScmdVYTJwUk8tejA2TlNFSEYwa0g5dVpwUTVoVUxQQTAydmhDakFrVV9sanR0LUdUYWFKM0cwUGlPVVdZb1BrMGh3Q3cxRkpRTTQxcVh3T2xHQ2hUdnpzelY5QQ?oc=5",
+        "date": "Thu, 30 Jul 2026",
+        "source": "Investing.com"
+       },
+       {
+        "title": "Valero (VLO) Stock Looks Above Fair Value On Its Big Five Year Run - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObFRWYk5RR3doMjFWNExvQmZxcE9ObnNXbjlsY0ZodHVUdF9kaTVrNWhfWVYzRGxUX3loRDhKR0NkSENSRl9CZFB3SkswcW9iTGxramlaMzZVcjZjZkxMaEQxZ1NpQVNKVXgxcDV6aHVTblVKSDFKLUVCdEpyeC11Mk1Lck5BSHJlM1pIOHhXNUZzYUZhMGFMMkkxX19Od2JhV01aWFZxNUpLNTJHbXI5X1cweURrNGJabG8xS3VEZzBPNkNlMGfSAcsBQVVfeXFMTUtvR2s0ZEVUbVRUOWNHYWZmcFBPYmlxMC1tclBiWk9ackx4QWRQa0FUQXhyMWN2Q0Rxc0hpenNnWktwaDg2elI1d1hGdUxmeFNoOUQwTHBVS1NzRUNaVDJNblNXZjFneGVWTzEzZGExT0VfZTliQXBaMHQzT19KNDZPTzViWUVPOXg1S2ExckxqQUVlMFRHMFlXYmExYmNwMG9QdWtHVURVbGN1MGJxMTJJSlNSUkw3OW8yUTBvT0xaUjdiRDg3SVNQUUE?oc=5",
+        "date": "Sat, 12 Sep 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Valero Energy (VLO) Earnings Expected to Grow: What to Know Ahead of Next Week's Release - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMzZuZzVLUUIydnBZMFRfT20zUGdFaV9CT3Z4aDVoSS05RU92TUxobVFUbjZ5ekE2WHlPZGVTbHhXYVZnaWl1ZEhBOGNYTWFxTXlVaTNSVV81V0NHM2xYUEFxRXVHMHFQVGYtQTB6c2tKSEo3blFJb3Foa1N4Vk1kV1o3RFowUl9QRWs2WnBXdGlpR3p0cVNJQUQ1NU1oMnZFWFE?oc=5",
+        "date": "Thu, 23 Jul 2026",
+        "source": "Yahoo Finance"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "How Investors May Respond To Valero Energy Stock As Earnings Estimates Rise - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRVBCbGVsQVRHTTZnSnZiTzV2dXlzN3BHOWY1d050djVfLWR3bHlNY3ZwMHpUb0pvRmpLOEFla09GaW5pVHAtNHdwTDlYQ1duSy1fTzRsNmh6WEw4RXdfWTNWT0VGX1BYWWlJbF93aWxSLS1kLVAwdDBkXzY2RnpLa2VTQ0tzU3Y5ZkNXNzdEaldLR2xOTVFVOUlINUY2WXhlWVVucm12VEVwRkdjVmNKRWhxOEJ4SGxSbEJLZVk1ZUhxeTVVN3fSAcsBQVVfeXFMUFRuMzBYcnhrU3FZY2dYOVdORVJmdkdyTk1DUHY3aHpoWlN5bjJwSFE2dF9ISWZxMUdtTFRTVWVNTnp3TkZ5TEpiUWZLV3k3SkpsWE9iS2ZFaXVHeUl4UF9GN0w0VXRUU0ZpWXBxdy1zUUJoSkUzWTlqMVZ4NjZ3amdMNl9qM0gzcHA3OGUzdmRTX1oxVnc2d2ZMdGtuR3h5SDBBVElUdGQzUlRsRlR1NGRZQzFReUMyZ2oxMzBxRVRhMHN3LXBUbTNmNDg?oc=5",
+        "date": "Fri, 11 Sep 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Valero Energy Corporation to Announce Third Quarter 2026 Earnings Results on October 22, 2026 - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNmRPWnJ2amNXaUdoOEJRa0FoZllqNDZUV0k1MnRaVzItRzhOblRlRE90U3hUTi02V21MUEZaeWxSQlFGeTNXYVhQbDM3ejA5cHpOWmNXamhFU3lBOFVGWE02NHE4T05SbVp4eUU4a1M4SmljMldqOW8yQTNHMi1nWXFRV1FxSmJzOE5MdXZLaEdxYVJMZ0tZS0RBWVpiZw?oc=5",
+        "date": "Tue, 08 Sep 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Valero Energy Corporation (VLO) Stock Price, News & Analysis - Stock Titan",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1XQ0JhMm11aGUwejQtQzV2Q3FnWHlKeWVFdFVCWDdCclZVMzlEcDlXRnRlcnA1c1pZdmo0M1N4aGFSVXFsLTdlYld6QXEyWURHWmc?oc=5",
+        "date": "Mon, 14 Sep 2026",
+        "source": "Stock Titan"
+       },
+       {
+        "title": "Valero Energy stock hits new record high as UBS lifts price target - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNXzA0QXQ3YWdlYkFSOHBhRTktczVtVHBKMVpJY083aU5CRzZ3VnhUUTUwNnQ2MWM0d182emRTb3loU2JRSmFWX3ZVblgwNGxtUVJCamhzOGFWazgzaGhJcS1kRmNNZWxuMHZwVzA4T2NmQ3BZNFV4ak5SalZTRmpBeUt6cFRXdnRwQlRVbjdtQmp5Qk1ZdXdneHV2OWl5VGVDNWttVTFZVzRla0xKNzl4VGp3NmQ4bzhwbjY2bEx3Uk1DaFFZMWlRVg?oc=5",
+        "date": "Wed, 16 Sep 2026",
+        "source": "ad-hoc-news.de"
+       },
+       {
+        "title": "Earnings call transcript: Valero Energy posts huge Q2 2026 beat as stock rises - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUnJ3WVFOUHRLZGxrbXMwN3dKUWVRa3FKd29PMVRaYTVCRW1RLUhveHItSDFNNzRhNVhMRmI3ZHR5ZlFwUmxNckk2VWZEWkx3bldiTmlhd1ZDNHJWODVBX1hRRTc2dXZSNU00NnJSN3NNS3BScmdVYTJwUk8tejA2TlNFSEYwa0g5dVpwUTVoVUxQQTAydmhDakFrVV9sanR0LUdUYWFKM0cwUGlPVVdZb1BrMGh3Q3cxRkpRTTQxcVh3T2xHQ2hUdnpzelY5QQ?oc=5",
+        "date": "Thu, 30 Jul 2026",
+        "source": "Investing.com"
+       },
+       {
+        "title": "Valero Energy Reports Second Quarter 2026 Results - Business Wire",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNjh3ZTc5SWNISzZiWHRLaUFWR1ZDUTZ2UHFGaWpuVGJaYjM2emFFLXZGcGp4WlNxT3VxOFdLczJESHZDLXBqdEZpUWhOdy12X2o4OUJEN0xyNDBKQmZSOXd2SDVxVzMzUU9kaWFhZE9uYUNubVJyVzVKMlJYZDI4Y3lHVkJJQWtmdW9TVXptRTR3WFJjQTRvRWVRQWJITHZETnpweUNic2pOUQ?oc=5",
+        "date": "Wed, 29 Jul 2026",
+        "source": "Business Wire"
+       },
+       {
+        "title": "Valero (VLO) Stock Looks Above Fair Value On Its Big Five Year Run - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObFRWYk5RR3doMjFWNExvQmZxcE9ObnNXbjlsY0ZodHVUdF9kaTVrNWhfWVYzRGxUX3loRDhKR0NkSENSRl9CZFB3SkswcW9iTGxramlaMzZVcjZjZkxMaEQxZ1NpQVNKVXgxcDV6aHVTblVKSDFKLUVCdEpyeC11Mk1Lck5BSHJlM1pIOHhXNUZzYUZhMGFMMkkxX19Od2JhV01aWFZxNUpLNTJHbXI5X1cweURrNGJabG8xS3VEZzBPNkNlMGfSAcsBQVVfeXFMTUtvR2s0ZEVUbVRUOWNHYWZmcFBPYmlxMC1tclBiWk9ackx4QWRQa0FUQXhyMWN2Q0Rxc0hpenNnWktwaDg2elI1d1hGdUxmeFNoOUQwTHBVS1NzRUNaVDJNblNXZjFneGVWTzEzZGExT0VfZTliQXBaMHQzT19KNDZPTzViWUVPOXg1S2ExckxqQUVlMFRHMFlXYmExYmNwMG9QdWtHVURVbGN1MGJxMTJJSlNSUkw3OW8yUTBvT0xaUjdiRDg3SVNQUUE?oc=5",
+        "date": "Sat, 12 Sep 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Valero Energy (VLO) Earnings Expected to Grow: What to Know Ahead of Next Week's Release - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMzZuZzVLUUIydnBZMFRfT20zUGdFaV9CT3Z4aDVoSS05RU92TUxobVFUbjZ5ekE2WHlPZGVTbHhXYVZnaWl1ZEhBOGNYTWFxTXlVaTNSVV81V0NHM2xYUEFxRXVHMHFQVGYtQTB6c2tKSEo3blFJb3Foa1N4Vk1kV1o3RFowUl9QRWs2WnBXdGlpR3p0cVNJQUQ1NU1oMnZFWFE?oc=5",
+        "date": "Thu, 23 Jul 2026",
+        "source": "Yahoo Finance"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-09-16 23:51"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 16.8 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.80%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 22 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 64,
+   "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+  },
+  "ai7": {
+   "grade": "X",
+   "one_line": "近期獲利成長主要來自煉油產業的景氣循環回升，而非明確的結構性變化。"
+  }
+ },
+ {
+  "date": "2026-09-16",
+  "market": "us",
+  "ticker": "RVTY",
+  "name": "Revvity",
+  "close": 145.73,
+  "rebound": 0.548,
+  "base_quality": 0.761,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 145.73 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "反彈幅度 55%（目標≥60%），平穩期品質 76%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -5%，成長年份占 33%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -15%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 1%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 -7%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "本益比 70.4 倍（≥60 倍，過熱）",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.80%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 22 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 33,
+   "verdict": "淘汰：關鍵項目不合格"
+  },
+  "ai7": null
  }
 ]
