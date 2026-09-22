@@ -1476,10 +1476,10 @@
     "shares": 10.2817,
     "buy_price": 280.1099853515625,
     "buy_date": "2026-07-06",
-    "last_price": 277.3800048828125,
+    "last_price": 271.0799865722656,
     "signal_date": "2026-07-02",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_SIGNAL",
+    "status_note": "已排明日開盤賣出。技術面：賣壓比例 117% ≥ 117%，股價可能已達中長期高點"
    },
    {
     "ticker": "INCY",
@@ -1487,7 +1487,7 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 124.6500015258789,
+    "last_price": 126.93000030517578,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -1498,10 +1498,10 @@
     "shares": 12.6962,
     "buy_price": 108.5999984741211,
     "buy_date": "2026-08-06",
-    "last_price": 106.87999725341797,
+    "last_price": 100.3499984741211,
     "signal_date": "2026-08-05",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_SIGNAL",
+    "status_note": "已排明日開盤賣出。接近停損：跌幅 7.6% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%；技術面：賣壓比例 129% ≥ 117%，股價可能已達中長期高點"
    },
    {
     "ticker": "DELL",
@@ -1509,14 +1509,23 @@
     "shares": 2.9198,
     "buy_price": 462.04998779296875,
     "buy_date": "2026-09-02",
-    "last_price": 575.3099975585938,
+    "last_price": 548.9199829101562,
     "signal_date": "2026-09-03",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [],
-  "pending_sells": [],
+  "pending_sells": [
+   {
+    "ticker": "AIZ",
+    "reason": "技術面：賣壓比例 117% ≥ 117%，股價可能已達中長期高點"
+   },
+   {
+    "ticker": "SCHW",
+    "reason": "接近停損：跌幅 7.6% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
+   }
+  ],
   "trades": [
    {
     "date": "2026-07-06",
@@ -2435,6 +2444,10 @@
    {
     "date": "2026-09-21",
     "equity": 29245.71
+   },
+   {
+    "date": "2026-09-22",
+    "equity": 29079.04
    }
   ]
  }

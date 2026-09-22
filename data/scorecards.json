@@ -216913,5 +216913,972 @@
    "verdict": "偏弱：獲利成長檢核不合格，觀望為宜"
   },
   "ai7": null
+ },
+ {
+  "date": "2026-09-22",
+  "market": "us",
+  "ticker": "FFIV",
+  "name": "F5, Inc.",
+  "close": 453.33,
+  "rebound": 1.0,
+  "base_quality": 0.636,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 453.33 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 64%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近4年平均年成長 28%，成長年份占 100%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近四季獲利年增 16%（接近 20% 門檻）",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 11%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 6%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：受惠多雲與 AI 應用普及帶動安全防護需求擴張，支撐產品營收與獲利持續增長。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "受惠多雲與 AI 應用普及帶動安全防護需求擴張，支撐產品營收與獲利持續增長。",
+      "analysis": "公司專注於多雲應用程式安全與 API 防護，成長動能源於企業由傳統架構轉向多雲與 AI 應用的結構性資安趨勢，而非景氣循環波動。近期第 3 季產品營收維持 19% 的強勁成長，且 AI 安全策略持續展現動能並帶動優於預期的獲利表現。歷史數據顯示近 4 年成長年份達 100%，長線成長邏輯清晰且具備結構性支撐。",
+      "risks": "近 1 季獲利年增放緩至 6% 顯示短期利潤存在波動風險；AI 與資安市場面臨大型軟體巨頭的激烈競爭。",
+      "sources": [
+       {
+        "title": "F5 Reports Third Quarter Results with 19% Product Revenue Growth - Business Wire",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcURvLXBLVktjT2NWZ3hlanZzN0FYY2hhQmJudllaZkRYMFFUTDRCUVhCUDlOTm9kNFFNWXZsbUU4UWd6ZTdid01xYlh5ZGVESjZIMW9OMlFnbzlKSGZYa1g4Y3N2dndpWkY1Z1lhOHBCS3NjUUlKX2hnQ1JmeDl6X2dYRzZwTnRlMnhjelZSM29DaS1vcnduc2Y3N1VadEhncmYzNG1fQ0l5Z2VTY0NpWW9nNXl4NFZEN0FNZA?oc=5",
+        "date": "Mon, 27 Jul 2026",
+        "source": "Business Wire"
+       },
+       {
+        "title": "Is Salesforce (CRM)’s Agentforce Growth Enough to Outpace F5 (FFIV)’s AI Security Momentum? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPV0xNbHhXbnRxdThsZWJtUUpZS1lmNXdhQzY3NF8zX09IdFlBc1RyZGpwU0FUNFVTanV3RTIyeDlsQlNEa1dKTVJnY1VuUjJud0FobERVbnhBMTJWU2NVVTE4dUxTRmMtcVNZQkVuWTYyMl94a294SkhyZVBqUVBVdUFJVDdmamhvVzlEUGJVbG92elloeUgwY0hkSXN6bFFoblZjbngzOA?oc=5",
+        "date": "Wed, 09 Sep 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Results: F5, Inc. Beat Earnings Expectations And Analysts Now Have New Forecasts - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQWQ2US12T3hfZUVuMTNhNWtkNjlic3R0cXFBeHp3SjRUbVJmemszVzZvWXJ4bjVWSUVSNlU0UmRRYUZaTFJoNm4wTmNhYmxJWUxoQU5XN2dncHJsZWc4T1JPSGFVcEMzMlR3aGU4aHE2TktITjNsakVxNzd2NGRubjR4X1R3NHc3dktrOVBQOWRmWlp6N3ZOcA?oc=5",
+        "date": "Fri, 01 May 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "F5 Inc. stock gains as security and AI strategy builds on strong earnings - AD HOC NEWS",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMlBGVTY1WW84cU0tcTE5cGJ3TlNYQmlCYkktNVEwUFlfUnRXTU1iU0NoY2NXSEctdlFLU3I3QnZJNWNNU0R0eWtaZzkyaTRobVkyWkF2ZldiWUZhUzFpY0p0RVhsb2RVbUFSV2VDNGVvaFlIYVhPSXppcWQ2Q0hqSFhwMGJBMWNsV0xNSG85Z08zOTJOQWhHSnJ3QmJmR0MtNWk5dm91LXdCYzVST1d2TG1fMFhhcHBhSHJ6QW4yTHVuckM3eGlCaDRCVmdHYTdT?oc=5",
+        "date": "Sat, 19 Sep 2026",
+        "source": "AD HOC NEWS"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "F5 Inc. stock trades near 52-week high after strong earnings and new institutional buying - AD HOC NEWS",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdGxOaXJINFNkSDg2WXRXMXN2bHRPZE5iYmFUdUJLX3FRRmMtV3BLT2NIQ1g2WnQ3aG5qNDJVVU9kQnZKVEw1OXFBNnBqMTV1LWN2TktKQWs1SmpZeTNfa2ptb3FHbkgtOHdtMURMWm1jeU1jZmNTMk9XUmJEenFxcVN3X21ieEtnRUFxcDl3MVNOYUE2d2J5bS1Ub0E5MWdQREU4bXJzLXEyY1kwQU5CT2pyV2JHTW5iMkM5NWRMeUs0RTI5VGxpTmV3?oc=5",
+        "date": "Sun, 20 Sep 2026",
+        "source": "AD HOC NEWS"
+       },
+       {
+        "title": "F5, Inc. (FFV) Q3 2025 Earnings Report - Results, Call & Slides - TipRanks",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVU5EY2pOa0JBRENQSXB3cENqcjRyYTNBVXZNOGxqWHNMM2pjaEtrbllqdUxYRHBrWDJia3huTWVaUlAyd1Atdk5UNkhSdjNlck5FWGNYeWJybmRIVS1oMjhnNnVGMHladnZVbDUtcWFTVmpZY1NLTFRvM29XQWJ5S0Z3VQ?oc=5",
+        "date": "Sat, 19 Sep 2026",
+        "source": "TipRanks"
+       },
+       {
+        "title": "F5 Reports Third Quarter Results with 19% Product Revenue Growth - Business Wire",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcURvLXBLVktjT2NWZ3hlanZzN0FYY2hhQmJudllaZkRYMFFUTDRCUVhCUDlOTm9kNFFNWXZsbUU4UWd6ZTdid01xYlh5ZGVESjZIMW9OMlFnbzlKSGZYa1g4Y3N2dndpWkY1Z1lhOHBCS3NjUUlKX2hnQ1JmeDl6X2dYRzZwTnRlMnhjelZSM29DaS1vcnduc2Y3N1VadEhncmYzNG1fQ0l5Z2VTY0NpWW9nNXl4NFZEN0FNZA?oc=5",
+        "date": "Mon, 27 Jul 2026",
+        "source": "Business Wire"
+       },
+       {
+        "title": "Is Salesforce (CRM)’s Agentforce Growth Enough to Outpace F5 (FFIV)’s AI Security Momentum? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPV0xNbHhXbnRxdThsZWJtUUpZS1lmNXdhQzY3NF8zX09IdFlBc1RyZGpwU0FUNFVTanV3RTIyeDlsQlNEa1dKTVJnY1VuUjJud0FobERVbnhBMTJWU2NVVTE4dUxTRmMtcVNZQkVuWTYyMl94a294SkhyZVBqUVBVdUFJVDdmamhvVzlEUGJVbG92elloeUgwY0hkSXN6bFFoblZjbngzOA?oc=5",
+        "date": "Wed, 09 Sep 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Here's What to Expect From F5, Inc.'s Next Earnings Report - Barchart.com",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN3FvT25VY3MtV1JGcUZWWkJIbjVoMFhTWjFkTUw3SVFtblFkd3hucG1SZWp2OWltZlRMb0l0Z3oxQjZWejZVNzZDV0NESzdxbUhzdjhVVFBjaDNkdXpmVEFPS3daTHdBSEx6bUs0YWtfZm5OeVF6ZHRTQS0zSnBVZTVRakkxa3o0cVBrRmRvTWNXYmhHczFPbldUWHpTYTVxbHc?oc=5",
+        "date": "Fri, 03 Jul 2026",
+        "source": "Barchart.com"
+       },
+       {
+        "title": "F5, Inc. (FFV) Q3 2023 Earnings Report - Results, Call & Slides - TipRanks",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0yVjNITDVZMVRtNGRBcUxUcFhPSFVDdTkzVERrWTRjX2dKRk5hMzd4YU9uNHZUTHRjRjVYVklVX1ZsQWxrMnlNQzNibENyTjAzcklYSC1GOTAtVmtubGNaZ2dNLWExZW1VYkVFVmxwdw?oc=5",
+        "date": "Sat, 19 Sep 2026",
+        "source": "TipRanks"
+       },
+       {
+        "title": "Results: F5, Inc. Beat Earnings Expectations And Analysts Now Have New Forecasts - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQWQ2US12T3hfZUVuMTNhNWtkNjlic3R0cXFBeHp3SjRUbVJmemszVzZvWXJ4bjVWSUVSNlU0UmRRYUZaTFJoNm4wTmNhYmxJWUxoQU5XN2dncHJsZWc4T1JPSGFVcEMzMlR3aGU4aHE2TktITjNsakVxNzd2NGRubjR4X1R3NHc3dktrOVBQOWRmWlp6N3ZOcA?oc=5",
+        "date": "Fri, 01 May 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "F5 Inc. stock gains as security and AI strategy builds on strong earnings - AD HOC NEWS",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMlBGVTY1WW84cU0tcTE5cGJ3TlNYQmlCYkktNVEwUFlfUnRXTU1iU0NoY2NXSEctdlFLU3I3QnZJNWNNU0R0eWtaZzkyaTRobVkyWkF2ZldiWUZhUzFpY0p0RVhsb2RVbUFSV2VDNGVvaFlIYVhPSXppcWQ2Q0hqSFhwMGJBMWNsV0xNSG85Z08zOTJOQWhHSnJ3QmJmR0MtNWk5dm91LXdCYzVST1d2TG1fMFhhcHBhSHJ6QW4yTHVuckM3eGlCaDRCVmdHYTdT?oc=5",
+        "date": "Sat, 19 Sep 2026",
+        "source": "AD HOC NEWS"
+       }
+      ],
+      "model": "gemini-flash-latest",
+      "judged_at": "2026-09-22 23:51"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 36.1 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.60%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 21 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 75,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": {
+   "grade": "O",
+   "one_line": "受惠多雲與 AI 應用普及帶動安全防護需求擴張，支撐產品營收與獲利持續增長。"
+  }
+ },
+ {
+  "date": "2026-09-22",
+  "market": "us",
+  "ticker": "AMD",
+  "name": "Advanced Micro Devices",
+  "close": 623.77,
+  "rebound": 1.0,
+  "base_quality": 0.0,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 623.77 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 0%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 118%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 108%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 50%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "N",
+     "symbol": "—",
+     "detail": "季獲利資料不足",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "本益比 158.3 倍（≥60 倍，過熱）",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.60%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 21 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 67,
+   "verdict": "淘汰：關鍵項目不合格"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-09-22",
+  "market": "us",
+  "ticker": "A",
+  "name": "Agilent Technologies",
+  "close": 167.26,
+  "rebound": 0.923,
+  "base_quality": 0.787,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 167.26 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 92%（目標≥60%），平穩期品質 79%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近4年平均年成長 -1%，成長年份占 33%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -6%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 8%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 21%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "AI 判斷（僅供參考，請複核依據）：現有資訊僅涵蓋單季財報優於預期的標題，缺乏能證明未來具備結構性獲利成長的具體依據。",
+     "starred": true,
+     "ai": {
+      "grade": "T",
+      "one_line": "現有資訊僅涵蓋單季財報優於預期的標題，缺乏能證明未來具備結構性獲利成長的具體依據。",
+      "analysis": "從營運數字觀察，公司近4年平均年成長為-1%且成長年份僅33%，長期穩健度欠佳，僅近一季獲利出現21%反彈。所提供的8則新聞標題全數為財報公布、優於預期及法說會預告，未包含任何業務細節、商業模式演進或市場份額增長之結構性趨勢。在缺乏足夠證據闡明其成長本質究係結構性轉變抑或短期波動的情況下，依準則保守判定為T。",
+      "risks": "長期營運成長動能停滯甚至衰退的風險；近一季的反彈若僅為短期波動則無法支撐長期獲利成長。",
+      "sources": [
+       {
+        "title": "Agilent Reports Third-Quarter Fiscal Year 2026 Financial Results - Business Wire",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdEJwazFzQl9nN2tHRzNWVl90U3hsbDA1UTJTVlVHVzRzOC1UNDd5NEFWdVlDbEtYa3pTbHR4MTc1T0FCUFptelJldmQ1LWtqT29Uai1JU3F1MmR3bVg0cVB5N2ZBRU9tM0c3VTQ5N2M4V3h5RVdxWE81ekRiMUd4OXdBbGdrbUZqUVJkU0hleklqdFNVNDl6ODJVTVl3MzRIVDRvdHZMcUNYeTFiOHdKUzAwRVdfc2xxS1docnpR?oc=5",
+        "date": "Wed, 26 Aug 2026",
+        "source": "Business Wire"
+       },
+       {
+        "title": "Agilent Technologies stock gains 3.3 percent on strong results - AD HOC NEWS",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNTRFRW02dGNGRFdhdEJoWlYyY2hSN3dtaUM5Uk5JM1lEYXJmWnU3WEhqNjl1dkx1Q0Rscm52cTl0bW43Qk9XWWNDQ3N3X2VTTTBBclMzT2hhS1RmLUs1MW1XYjFKVXRIZ2tKMnJnbnpHcGg3bDc0ZHlaN19sdXktdkRodkg3RDN1SmJmRXBVV05ZVHhFNUFJTFR4ZHJVVlBKY3dKUkJTOWVNeVRpcV9wclpwUmYzcWxQRU8zdmpwM3U4a2M?oc=5",
+        "date": "Tue, 22 Sep 2026",
+        "source": "AD HOC NEWS"
+       },
+       {
+        "title": "Agilent Technologies earnings beat by $0.13, revenue topped estimates - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRXROSTBPWUMzQm9Ga3NoYjdqa1ZZSnVYb0VFNGM2eVRSd2xLU3ZGYkc1LUw1U1lyWDZoY3N1VXljLUQ5bnloREdPa0NXazBaZDU0eUd0RFBtRklhSTNMS2F0VE1haWI5VWs3UV9KZmlIUk82ajJ4SldNWHR1NVdZRjFyUEo2Y2hCazdSWWJhbTJSOXlDQ0ExcUMwdWlyT2ZoSWlnbVN1WWRubHZ5RkZTUEl3QnI?oc=5",
+        "date": "Wed, 26 Aug 2026",
+        "source": "Investing.com"
+       },
+       {
+        "title": "Agilent Technologies (A) Q3 Earnings and Revenues Top Estimates - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWVI4MjljOW10YklubG1lZ3NoaEF6cTA2LTdCZTZpaE5TZ1lnZV9EVzRpQmpDSGQyQUpTbU5TQUo2ejRuYk9jRU9TX1E2aTNSMFZCcmd0NjQwa21PNEt6OGY0M0tZM1hrRWRjbHlQeW5Eb3NEZmxyTDFmMlh5T0ptc09GOG0xMmdoVWd3NWtrcllINU9xbzEtVmwyM0lmV3YydGZPczNrbHJmUQ?oc=5",
+        "date": "Wed, 26 Aug 2026",
+        "source": "Yahoo Finance"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Earnings To Watch: Agilent (A) Reports Q2 Results Tomorrow - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdjhjVGFzb3U3eGlpVjB6eXJwTzNVRHF6dENxQS04LWZCQzFsa1ZOZ3d3V0xGTFpXUnVTdEJNZmlrTmlBWDhFVW5WcmYtRWExYjBMaG14cXlWLV9xY0s2MzFydHpSa01BR1ZYaFpHR0dfVjQzcHQzbDRfaWNsdS0zUDJ4c2dtMnpfVXlyWmtYa0I5b2xkb1BGOFpVTXpQOVE?oc=5",
+        "date": "Tue, 25 Aug 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Agilent Technologies Inc. 2017 Q3 - Results - Earnings Call Slides (NYSE:A) 2017-08-15 - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVmo0YVdzbEYzT1FneF83eW4yX19obmZhWE1lYl9acUlKS0ltSjEzbC1Gd2xlSzgxQVdXcTQtd1lONUlKVUp5aG1RaTdObDJ4bWFISVVQbkRrdDNKX0xEUEU5Y3hRcWlYV3l3SmpHcDBMOHJMNktFN0pIb1o3cGx6VmFvZEQxOUdhVFU2YUIySjlmLUc5S0N5YTlEMFhXSXFyaWVZT3dfZElTMzd4NnJqV3hIN1FMeTRWT1ZmSGE5OTliYnBxWXJhLWpLZklBWlNlUXJIT3p4WVNORkk?oc=5",
+        "date": "Fri, 18 Sep 2026",
+        "source": "Seeking Alpha"
+       },
+       {
+        "title": "Agilent Reports Third-Quarter Fiscal Year 2026 Financial Results - Business Wire",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdEJwazFzQl9nN2tHRzNWVl90U3hsbDA1UTJTVlVHVzRzOC1UNDd5NEFWdVlDbEtYa3pTbHR4MTc1T0FCUFptelJldmQ1LWtqT29Uai1JU3F1MmR3bVg0cVB5N2ZBRU9tM0c3VTQ5N2M4V3h5RVdxWE81ekRiMUd4OXdBbGdrbUZqUVJkU0hleklqdFNVNDl6ODJVTVl3MzRIVDRvdHZMcUNYeTFiOHdKUzAwRVdfc2xxS1docnpR?oc=5",
+        "date": "Wed, 26 Aug 2026",
+        "source": "Business Wire"
+       },
+       {
+        "title": "Agilent Technologies stock gains 3.3 percent on strong results - AD HOC NEWS",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNTRFRW02dGNGRFdhdEJoWlYyY2hSN3dtaUM5Uk5JM1lEYXJmWnU3WEhqNjl1dkx1Q0Rscm52cTl0bW43Qk9XWWNDQ3N3X2VTTTBBclMzT2hhS1RmLUs1MW1XYjFKVXRIZ2tKMnJnbnpHcGg3bDc0ZHlaN19sdXktdkRodkg3RDN1SmJmRXBVV05ZVHhFNUFJTFR4ZHJVVlBKY3dKUkJTOWVNeVRpcV9wclpwUmYzcWxQRU8zdmpwM3U4a2M?oc=5",
+        "date": "Tue, 22 Sep 2026",
+        "source": "AD HOC NEWS"
+       },
+       {
+        "title": "Watch Agilent CEO on 3Q Earnings, Life Sciences Outlook - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNTdzeXFDOWE4YlltZXBGNHB6SF8xcVpiNVV5LWM1WEFwdVBqalBFNWtfRmZMRmVpQWtCVXJnaGZ6aHlpaDI4QTVEZFRELVBJbjNFNFhtVTd5c1p0ejRxdG1lZmU2OExNWXhtMEN0RUVVS3VUc18tV0hHUTY5QkJKZnpmeUhSYWFUNW9MM0E4RlRLVFR3ZGs4TEllcWVuYTIwT2djdU1B?oc=5",
+        "date": "Thu, 27 Aug 2026",
+        "source": "Bloomberg.com"
+       },
+       {
+        "title": "Agilent Technologies earnings beat by $0.13, revenue topped estimates - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRXROSTBPWUMzQm9Ga3NoYjdqa1ZZSnVYb0VFNGM2eVRSd2xLU3ZGYkc1LUw1U1lyWDZoY3N1VXljLUQ5bnloREdPa0NXazBaZDU0eUd0RFBtRklhSTNMS2F0VE1haWI5VWs3UV9KZmlIUk82ajJ4SldNWHR1NVdZRjFyUEo2Y2hCazdSWWJhbTJSOXlDQ0ExcUMwdWlyT2ZoSWlnbVN1WWRubHZ5RkZTUEl3QnI?oc=5",
+        "date": "Wed, 26 Aug 2026",
+        "source": "Investing.com"
+       },
+       {
+        "title": "Agilent (A) Q2 2026 Earnings Call Transcript - The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN3ZwMVBubVpIcW5XTzQ0VzlEREtxbWx5Rm1DNU5RQ3pHNUk0ZlVlR1o0bXhJdDlLMThZLTY1ZjVDYmtQeldZMnM2X21xdVNTOXF4djBnRVowZjZYLUQ3MWJZckx5aTlSMkI4MnF1ajRhalVqd3VNUEt4ZlZ1MmRaRzh5SmtjUHlqVWFIa1ljQ3k1dmZ5LXA3UkZLamxPZ3Q4eE5j?oc=5",
+        "date": "Wed, 27 May 2026",
+        "source": "The Motley Fool"
+       },
+       {
+        "title": "Agilent Technologies (A) Q3 Earnings and Revenues Top Estimates - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWVI4MjljOW10YklubG1lZ3NoaEF6cTA2LTdCZTZpaE5TZ1lnZV9EVzRpQmpDSGQyQUpTbU5TQUo2ejRuYk9jRU9TX1E2aTNSMFZCcmd0NjQwa21PNEt6OGY0M0tZM1hrRWRjbHlQeW5Eb3NEZmxyTDFmMlh5T0ptc09GOG0xMmdoVWd3NWtrcllINU9xbzEtVmwyM0lmV3YydGZPczNrbHJmUQ?oc=5",
+        "date": "Wed, 26 Aug 2026",
+        "source": "Yahoo Finance"
+       }
+      ],
+      "model": "gemini-flash-latest",
+      "judged_at": "2026-09-22 23:51"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 33.0 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.60%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 21 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 64,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": {
+   "grade": "T",
+   "one_line": "現有資訊僅涵蓋單季財報優於預期的標題，缺乏能證明未來具備結構性獲利成長的具體依據。"
+  }
+ },
+ {
+  "date": "2026-09-22",
+  "market": "us",
+  "ticker": "WST",
+  "name": "West Pharmaceutical Services",
+  "close": 371.09,
+  "rebound": 0.658,
+  "base_quality": 0.656,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 371.09 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 66%（目標≥60%），平穩期品質 66%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -4%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 3%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 14%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 15%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：West Pharmaceutical Services的未來獲利將受惠於GLP-1藥物市場的結構性成長以及更嚴格的Annex 1法規對高品質注射藥物包裝系統的需求。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "West Pharmaceutical Services的未來獲利將受惠於GLP-1藥物市場的結構性成長以及更嚴格的Annex 1法規對高品質注射藥物包裝系統的需求。",
+      "analysis": "儘管過去五年平均年成長為負，但公司近期營運數字顯示強勁反彈，近一季營收年增14%，獲利年增15%。此成長動能來自結構性變化，特別是GLP-1藥物市場的快速擴張，以及歐盟GMP Annex 1法規更新對無菌製劑包裝系統的更高要求。作為注射藥物包裝與傳輸系統的供應商，West Pharmaceutical Services能直接從這些長期產業趨勢中獲益，而非僅是景氣循環回升。",
+      "risks": "公司獲利成長高度依賴GLP-1等特定注射藥物市場的持續擴張，以及潛在的競爭加劇或技術變革。",
+      "sources": [
+       {
+        "title": "West Pharmaceutical Services (WST) Could Be 10% Undervalued On GLP 1 And Annex 1 Demand - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQcVZpQWZGa3FmZ0JzUzdrSjdhLUR3MklqTEQzbVpwT0M5bDhyNFBPTHlCSHZLeldDRndpMnJUNEFoTlV6ZmlMSlltVlV1QkRkM2U4QTQ1Vm02azJJcVNJUkhWanB4ZFVrSU1Ka29QSE9XVmNFeGFlV2FMYlM2M3E0b1hyVXdGY2VGdHZkN19ycFl4dUVvV3RKSUdhd3k5amNsLXFwcFViZVFZdE9VNGZ3RFA2QVhiVWlYREt1YU54Y3A2bDJGR1I2ZjRCaXpub0NvNnVvaFNvTTdPT2xoQkctZ0d0azFDeHRObmdUd0k4UdIB9AFBVV95cUxOeWlZTDVYd3dmZGdTY1VuaHpDb1ViNV95Y2tvNGd6cXBMYjdvSkdubExBSFR1MkZ2WjViYzdscURRc1F3NGFSc1dkZmkzVUV3MElpNi1HX1h1RWNiel9hM09BZW5xZnowSGlpOXRtb2JxckRsVlhhcXdoZ0E0MHBLQmdQdmExTHIwN1R4NDZ4ZWxwYjFzVmpaREp5cWFKbFhLY0R0dW4zZDhZcGplYXQ1NzJMR1BkLTVFOUYtWHE2TmhZcE1IVlBHOVlqNHRvTTJlZ0NzbWJjbThqVG1CRUVSRTRqcU1CalZDNGVNaWlxR0t3ZHg2?oc=5",
+        "date": "Sun, 20 Sep 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "West Reports Second-Quarter 2026 Results - PR Newswire",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOU3pnODBrRkdjQ0RjYVBHZnNLT0xKaG5xNmdYYWs4aU9wZU1jVHBRMzFTYkZXdzNIYWJsREFXSzlVZDI0TkYyWVppRktHa3B0VkRXRWlqdGlaRTR3QjhUbWZoNERTOVVlemtFSkl3dXZpeG5haTNCM0NvSTFvcG5lc0drUFZablo0RGNWc28zb0pvWklUcW43cndSSGs?oc=5",
+        "date": "Thu, 23 Jul 2026",
+        "source": "PR Newswire"
+       },
+       {
+        "title": "West Pharmaceutical Services (NYSE:WST) Beats Expectations in Strong Q2 CY2026, Stock Soars - stockstory.org",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQU0RUNUxITEIyeTVEM1VvOVJzTzZiTXVBek41RE1sUk1ReThCTklHb0Q5R3pPOFpJRXNjb3dwTnBINVlFZ0hDSXJTYW1GeTlxV3E5SXFsSW1tQ3RCazZlVGZIckg1MkFJbl9sVWJISzBzbTRsZGVwSW0wX1ladnY0Z0M4a0pjNnBkektUVmYwekFxcTZ2UjlReFNpY2N2LUk1eFd6MlBXZUIxWS1qdkFLbHFmZHM4T25mSXRxbWtVMnJIcWhFUHFPcjlhM0gxSVZlY1g2ZXp1V1NHSDQ?oc=5",
+        "date": "Thu, 23 Jul 2026",
+        "source": "stockstory.org"
+       },
+       {
+        "title": "West Reports First-Quarter 2026 Results - PR Newswire",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRjBKQXM1aUtYenNqWEtCZnZIUy1FOFFMZU43SVNnTDBJcVdyTjczZzItOFZXQTFfa0VmM2xoNTc5dk5iaWF2TFJid0lxT2VCa1JDNHVVWUQ1UGw0X3g0WGswNG5yTWRhbGVMSUVCYVdUZVROMnRrc25sVDJLMmJ0dWswTjgyeWowNVBXZWVGbUI4eGZGZktpV1hFVQ?oc=5",
+        "date": "Thu, 23 Apr 2026",
+        "source": "PR Newswire"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "What Is Drawing Attention To West Pharmaceutical Services (WST)? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONkZNQnhxMURWNFF1dUpiSl93MTFvMW5jSEMwOVVFRFpxVXdpakNjY2ZsNnViWU14Z2tfVUhTcmtQTzNkSmtEZ0RYbHFMUUVOLUc5aExHMVdxTkJESnh4cWNPaEFjOTlLdDduV2ZMLUh2M0p5Q2l6ZVVRYnJsYllOcFNlLXVTOUgyVUVRTElkM0VzZE5INVBCVUR5QjBYMVdSbW5CTlZmUWpNOERabWZqVg?oc=5",
+        "date": "Sun, 20 Sep 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "West Pharmaceutical Services (WST) Could Be 10% Undervalued On GLP 1 And Annex 1 Demand - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQcVZpQWZGa3FmZ0JzUzdrSjdhLUR3MklqTEQzbVpwT0M5bDhyNFBPTHlCSHZLeldDRndpMnJUNEFoTlV6ZmlMSlltVlV1QkRkM2U4QTQ1Vm02azJJcVNJUkhWanB4ZFVrSU1Ka29QSE9XVmNFeGFlV2FMYlM2M3E0b1hyVXdGY2VGdHZkN19ycFl4dUVvV3RKSUdhd3k5amNsLXFwcFViZVFZdE9VNGZ3RFA2QVhiVWlYREt1YU54Y3A2bDJGR1I2ZjRCaXpub0NvNnVvaFNvTTdPT2xoQkctZ0d0azFDeHRObmdUd0k4UdIB9AFBVV95cUxOeWlZTDVYd3dmZGdTY1VuaHpDb1ViNV95Y2tvNGd6cXBMYjdvSkdubExBSFR1MkZ2WjViYzdscURRc1F3NGFSc1dkZmkzVUV3MElpNi1HX1h1RWNiel9hM09BZW5xZnowSGlpOXRtb2JxckRsVlhhcXdoZ0E0MHBLQmdQdmExTHIwN1R4NDZ4ZWxwYjFzVmpaREp5cWFKbFhLY0R0dW4zZDhZcGplYXQ1NzJMR1BkLTVFOUYtWHE2TmhZcE1IVlBHOVlqNHRvTTJlZ0NzbWJjbThqVG1CRUVSRTRqcU1CalZDNGVNaWlxR0t3ZHg2?oc=5",
+        "date": "Sun, 20 Sep 2026",
+        "source": "simplywall.st"
+       },
+       {
+        "title": "Reasons to Add West Pharmaceutical Stock to Your Portfolio Now - Your Wyoming Link",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRkRUMWFoaXVzS3dieUVtRmY0OTJMRUM3SndaUnZ1ZkpocmR3bEJ6SnNCNUdyV21CTGFFZWkxSmY5ZExILW9ySHpsbDJfOUZQUXVfMnpJMzQzWkU1X0hHNXhmVWxhMW9OSGhYdU45U0lteDVnX0Y5QzhMbFdYTXlULXdhN1BEbGdBWXEyZ1ZSclY2SGRyX0I5b3A1WkV5Qk8tbGJvdGJnMnh3N2dmOW1VOG1OS1pTZV9aUUZ0Qm1kajhnak50R082UFFoNlBuZHRIU2g4ckF1a1JDcC1o?oc=5",
+        "date": "Fri, 18 Sep 2026",
+        "source": "Your Wyoming Link"
+       },
+       {
+        "title": "West Pharmaceutical Services (WST) Stock Analysis: A Healthcare Powerhouse with 11.89% Potential Upside - DirectorsTalk Interviews",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNX0xGNmRMVVhqUVJKZzJTTlVZVzNjUzBrRDBpOHM0UFhlN0RzYmYxWVVqOEtxNS1XUTRXQ21aQ2JTNHY5dE9COW1sYi1oQURzdElqY3BWWm9vUDBNRWRsb1ZGOG1RanI0em1DZmczb2RzWXdlcXdFVHFnaXlBcHVVVUoyeFItOG5LRm5kSFpQcUxfTEdPaVRFMzJQSmdoNlRLeXMyaUR5Y1hoT1gyX1ViZEZ6X2dKOVh4SFhncGFWUWJXTTN3NE84Uk5henRjbk9zS2tSZ1NDNDBjMlpsY2kxdDIxWXI?oc=5",
+        "date": "Mon, 21 Sep 2026",
+        "source": "DirectorsTalk Interviews"
+       },
+       {
+        "title": "West Reports Second-Quarter 2026 Results - PR Newswire",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOU3pnODBrRkdjQ0RjYVBHZnNLT0xKaG5xNmdYYWs4aU9wZU1jVHBRMzFTYkZXdzNIYWJsREFXSzlVZDI0TkYyWVppRktHa3B0VkRXRWlqdGlaRTR3QjhUbWZoNERTOVVlemtFSkl3dXZpeG5haTNCM0NvSTFvcG5lc0drUFZablo0RGNWc28zb0pvWklUcW43cndSSGs?oc=5",
+        "date": "Thu, 23 Jul 2026",
+        "source": "PR Newswire"
+       },
+       {
+        "title": "West Pharmaceutical Services (NYSE:WST) Beats Expectations in Strong Q2 CY2026, Stock Soars - stockstory.org",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQU0RUNUxITEIyeTVEM1VvOVJzTzZiTXVBek41RE1sUk1ReThCTklHb0Q5R3pPOFpJRXNjb3dwTnBINVlFZ0hDSXJTYW1GeTlxV3E5SXFsSW1tQ3RCazZlVGZIckg1MkFJbl9sVWJISzBzbTRsZGVwSW0wX1ladnY0Z0M4a0pjNnBkektUVmYwekFxcTZ2UjlReFNpY2N2LUk1eFd6MlBXZUIxWS1qdkFLbHFmZHM4T25mSXRxbWtVMnJIcWhFUHFPcjlhM0gxSVZlY1g2ZXp1V1NHSDQ?oc=5",
+        "date": "Thu, 23 Jul 2026",
+        "source": "stockstory.org"
+       },
+       {
+        "title": "West Reports First-Quarter 2026 Results - PR Newswire",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRjBKQXM1aUtYenNqWEtCZnZIUy1FOFFMZU43SVNnTDBJcVdyTjczZzItOFZXQTFfa0VmM2xoNTc5dk5iaWF2TFJid0lxT2VCa1JDNHVVWUQ1UGw0X3g0WGswNG5yTWRhbGVMSUVCYVdUZVROMnRrc25sVDJLMmJ0dWswTjgyeWowNVBXZWVGbUI4eGZGZktpV1hFVQ?oc=5",
+        "date": "Thu, 23 Apr 2026",
+        "source": "PR Newswire"
+       },
+       {
+        "title": "The 5 Most Interesting Analyst Questions From West Pharmaceutical Services’s Q2 Earnings Call - stockstory.org",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQdTRTVl96dUh4QzZWZ3NxcU4waWUwdkVjUVRGanN6TC1yNTlBQ3JqRjlVSktkc0N3Y1VLQndmODhFalFOUGYxZVBtNjNpTE14MV9WdVJ4b3V1cXYzcTRGYnBySEZVaUx5VVFnaWd0QzhEQmJ0NmxRUFoyZWp5Smg0b19VWEEtSDRlcEpDS0NqVTF6UzE0RzhRS2s1TmlnamRxeUVtdFJURVZCZzlrMnFFYmtaNU0wekVpZ1E2dkJkUEJlY2dURjBEQ2luc0JmTkNQczhtdHd2Rk1Xb0x2eUhtZEhia1FHTGx6enBr?oc=5",
+        "date": "Wed, 29 Jul 2026",
+        "source": "stockstory.org"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-09-22 23:53"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 47.5 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.60%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 21 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 64,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": {
+   "grade": "O",
+   "one_line": "West Pharmaceutical Services的未來獲利將受惠於GLP-1藥物市場的結構性成長以及更嚴格的Annex 1法規對高品質注射藥物包裝系統的需求。"
+  }
+ },
+ {
+  "date": "2026-09-22",
+  "market": "us",
+  "ticker": "BBY",
+  "name": "Best Buy",
+  "close": 94.82,
+  "rebound": 0.749,
+  "base_quality": 0.747,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 94.82 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 75%（目標≥60%），平穩期品質 75%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近4年平均年成長 -7%，成長年份占 33%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 8%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 4%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 70%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "AI 判斷（僅供參考，請複核依據）：公司近期獲利成長主要受惠於計算產品的景氣回升，缺乏明確且足以支撐未來穩健成長的結構性動能。",
+     "starred": true,
+     "ai": {
+      "grade": "X",
+      "one_line": "公司近期獲利成長主要受惠於計算產品的景氣回升，缺乏明確且足以支撐未來穩健成長的結構性動能。",
+      "analysis": "公司過去四年平均年成長為負值，顯示長期營運面臨挑戰。近期獲利成長主要歸因於「計算產品的成長」，但證據未明確指出此為結構性變化，而非景氣循環回升。儘管公司上調財測並超越預期，股價卻下跌，反映市場對其成長的穩健性與持續性存疑。保守分析師應避免將可能為景氣循環的成長視為穩健成長動能，因此判斷其未來獲利無法穩健成長。",
+      "risks": [
+       "公司未能有效轉型以應對零售業的結構性挑戰。",
+       "對單一產品類別（計算產品）的依賴可能導致獲利波動。"
+      ],
+      "sources": [
+       {
+        "title": "Best Buy beats quarterly estimates and hikes its outlook, but stock falls - CNBC",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB1a19EQVBnWUo0OWtXdThZaUlrSzBVRHMwYmJwZGFtNTdCV0lNWXJNV2xzY0JGTXhheEYweElqRldGU1JkUFJlWk5hVVFGTW9SNG9yQnNjcWE3OHdFeVJIUnVVUzFGbU52U1NPcjdmRjFNMUpr0gF6QVVfeXFMTjI2eGQ4MEdnQlJaMnE4NnY1dTBKVmRWeVFkNWVwVlM2YllyZ3YyMHgxbW9oeGFrT094RlRNMnU2Q1hCaUZuNEZtc0hrTVlzZUI4aGNTc1NETTBkSkpTcVBuX3I5UVZxZkE5VDFDb3B1MW51YnIyODhvQUE?oc=5",
+        "date": "Thu, 27 Aug 2026",
+        "source": "CNBC"
+       },
+       {
+        "title": "Best Buy Raises Outlook After Computing Growth Fuels 2Q Sales - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYzFXQ3drb0dvOEdrMENvdWZZY0xrbm83Rl9nNHAya3JicVRHcGE2S3ZaWWJKc0JOZUJha19zSC12VTgwSVNFRlNlZmZmb0F4TzBYM3RORzItNXcyaGNhVDFJSE9IZnA2Q09XNlpWNEd0Sk5mVXd6OGZ2Mk9OcGRWOVJxRHBEa2JPb0E?oc=5",
+        "date": "Thu, 27 Aug 2026",
+        "source": "WSJ"
+       },
+       {
+        "title": "Best Buy's stronger forecast fails to reassure investors; shares fall - reuters.com",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSXJNNkUzUTQwVGZyQXAtbWQza2ZCNVZIOGhVUmN4QXlnLWc0Q1VxMlJ5U2p2aDd4Zy1TTDRLWmowSDNKaTVEOUFoQVdjZHNWakQ2cHQzU1FVem5NcWJITGczTVROUXFjcWJQYUhZUkZDSEZMbFhhZl91YzRuVERSN2tvcW9vN2FGZ0JzaDJ1UnNZVm8teXN0NGFDTlk5YV9Nam05UzJROUxHMVRiS0NfalE0TVhMdWxDdlFnNXhBMA?oc=5",
+        "date": "Thu, 27 Aug 2026",
+        "source": "reuters.com"
+       },
+       {
+        "title": "Best Buy beats Q2 earnings across the board, raises outlook amid computing strength - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRnVfekxxa1pnZ3ozLXdXUUpMY1lOb0tUYko0OU9jVG9IejU4Y3BhRXlwblVqaThraWhVYWZHSVFPd0REbmVORDdzbnJEU01xZE8xbTJtVnM4U0diQ195VnVxSVR4LXROZnRpeWRrU2dLMkE2b1BsZjlDSGFkdlRGUGpjWDlpYVo1Rkt6QjJtV3E4UnA2ZGpFLTBYYmsxcXZNeUVmT2RGNkJROXFMeE5NRDZZdm1FcmNDMERoa05DZlN4eG5CTEQxYkRaVGVjRVZ6RVNpcDcwTDJxRWRWaGZJ?oc=5",
+        "date": "Thu, 27 Aug 2026",
+        "source": "Yahoo Finance"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Best Buy Reports Q2 FY27 Results - corporate.bestbuy.com",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5oWXN5NG5NMjBNaUowRlZZUER6NjJSMVJYTGxUSjIyeDV3TEdKVHNDRUZLbEdadWJkNEMwcThCMHpKMzBxRmd4aDRia0p3UzF5aXI1SmhTbEl4V2pLLXJyaWYzMVRMZTc0Q3Q5TmJscGV4dVNOaUpn?oc=5",
+        "date": "Thu, 27 Aug 2026",
+        "source": "corporate.bestbuy.com"
+       },
+       {
+        "title": "Best Buy beats quarterly estimates and hikes its outlook, but stock falls - CNBC",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB1a19EQVBnWUo0OWtXdThZaUlrSzBVRHMwYmJwZGFtNTdCV0lNWXJNV2xzY0JGTXhheEYweElqRldGU1JkUFJlWk5hVVFGTW9SNG9yQnNjcWE3OHdFeVJIUnVVUzFGbU52U1NPcjdmRjFNMUpr0gF6QVVfeXFMTjI2eGQ4MEdnQlJaMnE4NnY1dTBKVmRWeVFkNWVwVlM2YllyZ3YyMHgxbW9oeGFrT094RlRNMnU2Q1hCaUZuNEZtc0hrTVlzZUI4aGNTc1NETTBkSkpTcVBuX3I5UVZxZkE5VDFDb3B1MW51YnIyODhvQUE?oc=5",
+        "date": "Thu, 27 Aug 2026",
+        "source": "CNBC"
+       },
+       {
+        "title": "Best Buy (BBY) Earnings Expected to Grow: What to Know Ahead of Next Week's Release - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeHVUZlZCTHBqVFlrMXhMV0FrbmFNeFBQT090YzJDR28xU3gybUtONFozWjJDcFFJZGM0Qnl3REwwVTRabi10TzZyS21OT3hjODRIcm0tWVlHU2EwS3FqcnMtQmJma1pxa2lhUjdFTW1BZG92OUpwakhaOEZ1dVByazNMdXNLVklaeXF3Qlc4cEdnck44ejFERmVpNA?oc=5",
+        "date": "Thu, 20 Aug 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Best Buy Raises Outlook After Computing Growth Fuels 2Q Sales - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYzFXQ3drb0dvOEdrMENvdWZZY0xrbm83Rl9nNHAya3JicVRHcGE2S3ZaWWJKc0JOZUJha19zSC12VTgwSVNFRlNlZmZmb0F4TzBYM3RORzItNXcyaGNhVDFJSE9IZnA2Q09XNlpWNEd0Sk5mVXd6OGZ2Mk9OcGRWOVJxRHBEa2JPb0E?oc=5",
+        "date": "Thu, 27 Aug 2026",
+        "source": "WSJ"
+       },
+       {
+        "title": "Best Buy's stronger forecast fails to reassure investors; shares fall - reuters.com",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSXJNNkUzUTQwVGZyQXAtbWQza2ZCNVZIOGhVUmN4QXlnLWc0Q1VxMlJ5U2p2aDd4Zy1TTDRLWmowSDNKaTVEOUFoQVdjZHNWakQ2cHQzU1FVem5NcWJITGczTVROUXFjcWJQYUhZUkZDSEZMbFhhZl91YzRuVERSN2tvcW9vN2FGZ0JzaDJ1UnNZVm8teXN0NGFDTlk5YV9Nam05UzJROUxHMVRiS0NfalE0TVhMdWxDdlFnNXhBMA?oc=5",
+        "date": "Thu, 27 Aug 2026",
+        "source": "reuters.com"
+       },
+       {
+        "title": "Best Buy Earnings Deliver Against Wall Street’s Lofty Expectations - Barron's",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1uMkZVTFowcUxVWDFRWjBqcmp4RHVzeG1qWEtreGtQQVFoZ3JwTnBrMkdzRjhMTjVJVG1JMWRXUGs3RW5UVTEzc2FoWVZxbE1tT0hmM3lUbG1fbTg3SXRpOEtqSkJzTWdSeUNsSTFzYVVTMi1YTVBmTEMtVQ?oc=5",
+        "date": "Thu, 27 Aug 2026",
+        "source": "Barron's"
+       },
+       {
+        "title": "Best Buy online marketplace boosts sales in fiscal Q2 2027 - Digital Commerce 360",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1DQTVvWUFiTHAweWZGa29FUFd3YjlvcV9FOWFlN21ZdTktSzJoa29Ba0NXTHowdndTQl94WFRVdlgwRkcxX2tqUTBWbEs5dDJwbFk3cGRpdmtOWmJIakFKaEUyLXlQMlV2U09VVmF3UGZhUE92ZjFtRmhQcXYyUdIBgwFBVV95cUxOXzFIWXdTRll5ZWhzNVRGYTJzWEZfQlN2cjBuRU1BeWpkdFRqdTVJMGFod1pyMXl1NWlwcjktZ0puTHFXQ0NTN3NGQlIxYkNpQUVyZzhKUGtOaHhsRC1aLTJGc1dzRGkxb3MwT2VmOHdKbDBSNWt1SWVuZTR0ZVh1eHNiMA?oc=5",
+        "date": "Fri, 28 Aug 2026",
+        "source": "Digital Commerce 360"
+       },
+       {
+        "title": "Best Buy beats Q2 earnings across the board, raises outlook amid computing strength - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRnVfekxxa1pnZ3ozLXdXUUpMY1lOb0tUYko0OU9jVG9IejU4Y3BhRXlwblVqaThraWhVYWZHSVFPd0REbmVORDdzbnJEU01xZE8xbTJtVnM4U0diQ195VnVxSVR4LXROZnRpeWRrU2dLMkE2b1BsZjlDSGFkdlRGUGpjWDlpYVo1Rkt6QjJtV3E4UnA2ZGpFLTBYYmsxcXZNeUVmT2RGNkJROXFMeE5NRDZZdm1FcmNDMERoa05DZlN4eG5CTEQxYkRaVGVjRVZ6RVNpcDcwTDJxRWRWaGZJ?oc=5",
+        "date": "Thu, 27 Aug 2026",
+        "source": "Yahoo Finance"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-09-22 23:52"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 15.8 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.60%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 21 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 57,
+   "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+  },
+  "ai7": {
+   "grade": "X",
+   "one_line": "公司近期獲利成長主要受惠於計算產品的景氣回升，缺乏明確且足以支撐未來穩健成長的結構性動能。"
+  }
+ },
+ {
+  "date": "2026-09-22",
+  "market": "us",
+  "ticker": "DE",
+  "name": "Deere & Company",
+  "close": 703.12,
+  "rebound": 1.0,
+  "base_quality": 0.714,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 703.12 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 71%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -6%，成長年份占 33%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -32%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 5%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 18%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 39.0 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.60%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 21 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 50,
+   "verdict": "偏弱：獲利成長檢核不合格，觀望為宜"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-09-22",
+  "market": "us",
+  "ticker": "CRWD",
+  "name": "CrowdStrike",
+  "close": 250.06,
+  "rebound": 1.0,
+  "base_quality": 0.382,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 250.06 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 38%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近4年平均年成長 -181%，成長年份占 0%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -317%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 26%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "N",
+     "symbol": "—",
+     "detail": "季獲利資料不足",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "本益比 5001.2 倍（≥60 倍，過熱）",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.60%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 21 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 50,
+   "verdict": "淘汰：關鍵項目不合格"
+  },
+  "ai7": null
  }
 ]
