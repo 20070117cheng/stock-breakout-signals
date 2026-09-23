@@ -1468,40 +1468,18 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 20182.800212654696,
+  "cash": 24432.319417883886,
   "positions": [
-   {
-    "ticker": "AIZ",
-    "name": "Assurant",
-    "shares": 10.2817,
-    "buy_price": 280.1099853515625,
-    "buy_date": "2026-07-06",
-    "last_price": 271.0799865722656,
-    "signal_date": "2026-07-02",
-    "status": "SELL_SIGNAL",
-    "status_note": "已排明日開盤賣出。技術面：賣壓比例 117% ≥ 117%，股價可能已達中長期高點"
-   },
    {
     "ticker": "INCY",
     "name": "Incyte",
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 126.93000030517578,
+    "last_price": 124.6500015258789,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "SCHW",
-    "name": "Charles Schwab Corporation",
-    "shares": 12.6962,
-    "buy_price": 108.5999984741211,
-    "buy_date": "2026-08-06",
-    "last_price": 100.3499984741211,
-    "signal_date": "2026-08-05",
-    "status": "SELL_SIGNAL",
-    "status_note": "已排明日開盤賣出。接近停損：跌幅 7.6% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%；技術面：賣壓比例 129% ≥ 117%，股價可能已達中長期高點"
    },
    {
     "ticker": "DELL",
@@ -1509,23 +1487,14 @@
     "shares": 2.9198,
     "buy_price": 462.04998779296875,
     "buy_date": "2026-09-02",
-    "last_price": 548.9199829101562,
+    "last_price": 575.3099975585938,
     "signal_date": "2026-09-03",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [],
-  "pending_sells": [
-   {
-    "ticker": "AIZ",
-    "reason": "技術面：賣壓比例 117% ≥ 117%，股價可能已達中長期高點"
-   },
-   {
-    "ticker": "SCHW",
-    "reason": "接近停損：跌幅 7.6% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
-   }
-  ],
+  "pending_sells": [],
   "trades": [
    {
     "date": "2026-07-06",
@@ -2098,6 +2067,28 @@
     "amount": 1206.77,
     "pnl_pct": 0.020039371743867607,
     "reason": "技術面：賣壓比例 121% ≥ 117%，股價可能已達中長期高點"
+   },
+   {
+    "date": "2026-09-21",
+    "action": "SELL",
+    "ticker": "AIZ",
+    "name": "Assurant",
+    "price": 282.5400085449219,
+    "shares": 10.2817,
+    "amount": 2904.99,
+    "pnl_pct": 0.008675246583264462,
+    "reason": "技術面：賣壓比例 117% ≥ 117%，股價可能已達中長期高點"
+   },
+   {
+    "date": "2026-09-21",
+    "action": "SELL",
+    "ticker": "SCHW",
+    "name": "Charles Schwab Corporation",
+    "price": 105.9000015258789,
+    "shares": 12.6962,
+    "amount": 1344.53,
+    "pnl_pct": -0.024861850701458188,
+    "reason": "接近停損：跌幅 7.6% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
    }
   ],
   "equity_history": [
@@ -2448,6 +2439,10 @@
    {
     "date": "2026-09-22",
     "equity": 29079.04
+   },
+   {
+    "date": "2026-09-21",
+    "equity": 29286.32
    }
   ]
  }
