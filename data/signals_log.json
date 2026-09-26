@@ -3,62 +3,6 @@
   "date": "2026-09-18",
   "market": "台股",
   "type": "箱型訊號",
-  "ticker": "2030.TW",
-  "name": "彰源",
-  "note": "剛黃金交叉，距3年收盤高 100.0%（K 65.87／D 57.13）"
- },
- {
-  "date": "2026-09-18",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "2107.TW",
-  "name": "厚生",
-  "note": "剛黃金交叉，距3年收盤高 100.0%（K 66.08／D 55.01）"
- },
- {
-  "date": "2026-09-18",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "2455.TW",
-  "name": "全新",
-  "note": "剛黃金交叉，距3年收盤高 100.0%（K 65.5／D 62.7）"
- },
- {
-  "date": "2026-09-18",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "2887.TW",
-  "name": "台新新光金",
-  "note": "準備交叉向上，距3年收盤高 100.0%（K 88.25／D 88.59）"
- },
- {
-  "date": "2026-09-18",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "2908.TW",
-  "name": "特力",
-  "note": "剛黃金交叉，距3年收盤高 100.0%（K 52.0／D 44.95）"
- },
- {
-  "date": "2026-09-18",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "3324.TWO",
-  "name": "雙鴻",
-  "note": "剛黃金交叉，距3年收盤高 99.66%（K 57.69／D 50.35）"
- },
- {
-  "date": "2026-09-18",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "2880.TW",
-  "name": "華南金",
-  "note": "準備交叉向上，距3年收盤高 99.48%（K 89.84／D 91.61）"
- },
- {
-  "date": "2026-09-18",
-  "market": "台股",
-  "type": "箱型訊號",
   "ticker": "5876.TW",
   "name": "上海商銀",
   "note": "準備交叉向上，距3年收盤高 99.0%（K 92.26／D 93.48）"
@@ -16509,5 +16453,217 @@
   "ticker": "PM",
   "name": "Philip Morris International",
   "note": "準備交叉向上，距3年收盤高 95.67%（K 54.88／D 56.63）"
+ },
+ {
+  "date": "2026-09-25",
+  "market": "美股",
+  "type": "買進候選",
+  "ticker": "AAPL",
+  "name": "Apple Inc.",
+  "note": "檢核 71/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 341.07 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 70%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 4%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 7%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 16%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 29%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "AI 判斷（僅供參考，請複核依據）：證據不足，無法從提供的資訊中明確判斷其未來獲利能否穩健成長的結構性理由。",
+     "starred": true,
+     "ai": {
+      "grade": "T",
+      "one_line": "證據不足，無法從提供的資訊中明確判斷其未來獲利能否穩健成長的結構性理由。",
+      "analysis": "雖然近期營運數字顯示獲利與營收成長強勁，但新聞標題僅模糊提及潛在的AI技術或產品策略可能影響未來成長，並未提供具體細節或確認其為明確的結構性成長驅動力。公司過去五年的平均年成長率為4%，顯示其成長並非爆炸性。由於缺乏明確的結構性變化（如產業趨勢、商業模式或市占提升）作為未來獲利穩健成長的理由，因此無法做出合格判斷。",
+      "risks": "缺乏明確的結構性成長動能，以及與Epic Games的法律訴訟可能帶來的潛在影響。",
+      "sources": [
+       {
+        "title": "Alphabet vs. Apple: Which Consumer AI Tech Stock Has an Edge Now? - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQXZKbXNYS0ZwTzJvb21RZjFwZHJ0QXJlN2VvRzJjVE11TXY4c0pYUGhuT0lhU01wMFR4VGFfRWhibVdicXVnaHdEampwODZHZ2g2MnZNSDVEWW9Zc0s0UTZnS1hoQ3hGcjRuUHFUSnFCbVg4T3JUWUc2UUVRZGE1RW9NTFJPbzladHFFSU8zVzAxcDM5Q3VycnBBR1ppVHJCVGcxTnhMSmg4YjZtZjJvYzFDdWZIMFFwUnc?oc=5",
+        "date": "Fri, 25 Sep 2026",
+        "source": "TradingView"
+       },
+       {
+        "title": "US opposes part of Apple contempt finding in Epic Games case at US Supreme Court - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbFJUUE85TlZta3Jxd29uX0tIZ3JDamR4R1ZyOG5NXzFHTXVEZFhHenV3ZTZZc18yd0Jva2NDQmhBckxKa3NvZUJ5RVVEQ2diaVN3NTE2ZWxSNndpWVJJbzVhZlpYTTNnVFB2VVpPRHc5bDVGU2sybk1xdS01Xy1zUlE1c25QNVExRVh6b1hXTnJfcFBWNUJfSE80amR5VTZQVkpyd3Rlcklfc05xMklNWUxHWkNpcmRPZGY5ZGtpNHZLZw?oc=5",
+        "date": "Tue, 22 Sep 2026",
+        "source": "Reuters"
+       },
+       {
+        "title": "Could John Ternus’ Product Strategy Reshape Apple’s (AAPL) Next Growth Phase? - Insider Monkey",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdlZQYUNqcUVzamR3dXV6YlBTckpNOUNqZlZYUlViSE45ZmVHdWt6N2tpQzJadC0zWDJySmNzc0tsN3N3ZlFXQkwwM3o4eC0zOXVxZnJaTGpXOFQzMEFhdUpBTlFDV003bjJYenItVGNEWEhRNDhUVm16ZTNDS3dzaDQ5S0hPMjNDX3BBRlIySklocXc3Ql9MLTRUWnE2Zmc3YklFY2hkdlVEWEVjS2RPNGJaM2hfeDjSAb8BQVVfeXFMUGxxUk9INHF1cVVyQnBGUkJSSVJLcXd3aHZrczd6Q3FmT0RjT3R2YlBCWERXWU5ZTkpfZVdSUVdyeXJYUFVEYWg1VXNGUHFqQndWNm1MbndkdU00RFo2aGxRVHplbnlhSzQxWWZzY2o4S01xR01kM3hxZEpUdlBySVJZa25DZjZGY3FEMU1xcFVlOGxSbFZkWGZKdHdSR2NicGx4VDhoMENQN1dPRHlDTGNjbEVLaWpzckRKWTBkQzQ?oc=5",
+        "date": "Thu, 24 Sep 2026",
+        "source": "Insider Monkey"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Apple Inc. (AAPL) Q3 FY2026 earnings call transcript - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeUE5VWFTUS1jN3VTVTZtUmZpNEFQSHRxZngxVjFZMTY4WXdHcGJUb2VtLWZLbDRnNEZYRkEtYW1Xc0xJVHYyR2gxTUVjeUlHWER3eXpDaHpWdnZnNm1xMEFyYlhheDR2YnRobWNzdVRQUDY4SG9CTWxJbk43RzFScVZnVGdkTlcwUWQ2T1d3?oc=5",
+        "date": "Thu, 30 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Alphabet vs. Apple: Which Consumer AI Tech Stock Has an Edge Now? - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQXZKbXNYS0ZwTzJvb21RZjFwZHJ0QXJlN2VvRzJjVE11TXY4c0pYUGhuT0lhU01wMFR4VGFfRWhibVdicXVnaHdEampwODZHZ2g2MnZNSDVEWW9Zc0s0UTZnS1hoQ3hGcjRuUHFUSnFCbVg4T3JUWUc2UUVRZGE1RW9NTFJPbzladHFFSU8zVzAxcDM5Q3VycnBBR1ppVHJCVGcxTnhMSmg4YjZtZjJvYzFDdWZIMFFwUnc?oc=5",
+        "date": "Fri, 25 Sep 2026",
+        "source": "TradingView"
+       },
+       {
+        "title": "Ahead of Earnings, Is Apple Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYm1GaHR1eXhVOUtrRmtoUlctSVRDOXphTy1UVjB5SXlnelZGR2pMMGdOOXJKZ0VwQTVsV2NFczFSZ083YmZ1czZMcFQ0YWdCLWlzbGk0VDFFZ1IySE9ELXVzVVlEcTR1ZTZKcjRURHNrc3FYWC1lTW1pUjhFNkdKNWtlS0NJdVhRLTdScHhkTGdNVE1FXzFr?oc=5",
+        "date": "Fri, 24 Jul 2026",
+        "source": "Morningstar"
+       },
+       {
+        "title": "US opposes part of Apple contempt finding in Epic Games case at US Supreme Court - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbFJUUE85TlZta3Jxd29uX0tIZ3JDamR4R1ZyOG5NXzFHTXVEZFhHenV3ZTZZc18yd0Jva2NDQmhBckxKa3NvZUJ5RVVEQ2diaVN3NTE2ZWxSNndpWVJJbzVhZlpYTTNnVFB2VVpPRHc5bDVGU2sybk1xdS01Xy1zUlE1c25QNVExRVh6b1hXTnJfcFBWNUJfSE80amR5VTZQVkpyd3Rlcklfc05xMklNWUxHWkNpcmRPZGY5ZGtpNHZLZw?oc=5",
+        "date": "Tue, 22 Sep 2026",
+        "source": "Reuters"
+       },
+       {
+        "title": "Could John Ternus’ Product Strategy Reshape Apple’s (AAPL) Next Growth Phase? - Insider Monkey",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdlZQYUNqcUVzamR3dXV6YlBTckpNOUNqZlZYUlViSE45ZmVHdWt6N2tpQzJadC0zWDJySmNzc0tsN3N3ZlFXQkwwM3o4eC0zOXVxZnJaTGpXOFQzMEFhdUpBTlFDV003bjJYenItVGNEWEhRNDhUVm16ZTNDS3dzaDQ5S0hPMjNDX3BBRlIySklocXc3Ql9MLTRUWnE2Zmc3YklFY2hkdlVEWEVjS2RPNGJaM2hfeDjSAb8BQVVfeXFMUGxxUk9INHF1cVVyQnBGUkJSSVJLcXd3aHZrczd6Q3FmT0RjT3R2YlBCWERXWU5ZTkpfZVdSUVdyeXJYUFVEYWg1VXNGUHFqQndWNm1MbndkdU00RFo2aGxRVHplbnlhSzQxWWZzY2o4S01xR01kM3hxZEpUdlBySVJZa25DZjZGY3FEMU1xcFVlOGxSbFZkWGZKdHdSR2NicGx4VDhoMENQN1dPRHlDTGNjbEVLaWpzckRKWTBkQzQ?oc=5",
+        "date": "Thu, 24 Sep 2026",
+        "source": "Insider Monkey"
+       },
+       {
+        "title": "Apple Inc (AAPL) (Q3 2026) Earnings Call Highlights: Record Revenue Amid Supply Constraints and ... - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSUZLalVQWmVOcnlOX0Z6WTFyMmk3b0t0SG4wSEJwTklnaTNGakNGMk53SWNFb0syRFpady1NSmJUMXdwWTZsVmdtVmJSUDYtQU41NjhQZ1lDcTB0aUpLUDAwZk9kRm1QZHF3cTJCZzZaczBnNmlXLU96Uk9WX0p4ODl1NmlEdlpESDI2ZG96V0E?oc=5",
+        "date": "Thu, 30 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "After Earnings, Is Apple Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORjZpRVNZOXZfQ1dxcFNtTXJqRjhtdnhNczBRaVc4UElvcnhVV3pRZk1YVTRZYTRmWm84LWp6R2htcm9YS0tCOXJDcVFOUEU1TkRtYWZkTUJFX1YtNG9CdUxIOTAwb0hFeThvWEplWVpUTWpSMmdDLVljenpmWUpLX1dqb2hwU0ZPMXRZZHR5TEVpUnBqTW1mTUFDWnpkUVl0ME1F?oc=5",
+        "date": "Mon, 10 Aug 2026",
+        "source": "Morningstar"
+       },
+       {
+        "title": "Is Apple Stock Getting Too Expensive? for NASDAQ:AAPL by Abirstock - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcGY5Q210V0VsTFdhWWZTaUtZQVJOU1B5UGl6a3ExNGJOclBzcXRFSWd3NloxVXpYSXZMLWNtY1phdjM3NkNyOHVOZjFLMFEwVHRtNHNMMWtRRFBfY2c5YTRZb2JBaVhWTmFXeXYyVnNaQTJScG9TTmpOS3FieV9LNkpoU2M1LUY3V19FZndR?oc=5",
+        "date": "Wed, 23 Sep 2026",
+        "source": "TradingView"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-09-26 01:42"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 39.1 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.90%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 21 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 71,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  }
+ },
+ {
+  "date": "2026-09-25",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "NTAP",
+  "name": "NetApp",
+  "note": "剛黃金交叉，距3年收盤高 97.14%（K 74.74／D 74.41）"
+ },
+ {
+  "date": "2026-09-25",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "KO",
+  "name": "Coca-Cola Company (The)",
+  "note": "準備交叉向上，距3年收盤高 95.46%（K 35.2／D 36.66）"
+ },
+ {
+  "date": "2026-09-25",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "META",
+  "name": "Meta Platforms",
+  "note": "準備交叉向上，距3年收盤高 95.46%（K 85.02／D 86.03）"
+ },
+ {
+  "date": "2026-09-25",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "INCY",
+  "name": "Incyte",
+  "note": "準備交叉向上，距3年收盤高 95.35%（K 52.73／D 54.36）"
+ },
+ {
+  "date": "2026-09-25",
+  "market": "美股",
+  "type": "綜合訊號",
+  "ticker": "NTAP",
+  "name": "NetApp",
+  "note": "雙策略檢核通過：剛黃金交叉，距3年高 97.14%"
+ },
+ {
+  "date": "2026-09-25",
+  "market": "美股",
+  "type": "綜合訊號",
+  "ticker": "INCY",
+  "name": "Incyte",
+  "note": "雙策略檢核通過：準備交叉向上，距3年高 95.35%"
  }
 ]
