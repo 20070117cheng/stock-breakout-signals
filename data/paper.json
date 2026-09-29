@@ -1513,7 +1513,7 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 124.81999969482422,
+    "last_price": 123.19999694824219,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -1524,13 +1524,22 @@
     "shares": 2.9198,
     "buy_price": 462.04998779296875,
     "buy_date": "2026-09-02",
-    "last_price": 543.4299926757812,
+    "last_price": 539.5900268554688,
     "signal_date": "2026-09-03",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [],
+  "pending_buys": [
+   {
+    "ticker": "NTAP",
+    "name": "NetApp",
+    "light": "yellow",
+    "score": 88,
+    "signal_date": "2026-09-29",
+    "signal_close": 209.18
+   }
+  ],
   "pending_sells": [],
   "trades": [
    {
@@ -2520,6 +2529,10 @@
    {
     "date": "2026-09-28",
     "equity": 29197.57
+   },
+   {
+    "date": "2026-09-29",
+    "equity": 29145.1
    }
   ]
  }
