@@ -1566,7 +1566,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 24432.319417883886,
+  "cash": 23149.934916658214,
   "positions": [
    {
     "ticker": "INCY",
@@ -1574,7 +1574,7 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 123.19999694824219,
+    "last_price": 121.3499984741211,
     "signal_date": "2026-07-07",
     "status": "HOLD",
     "status_note": ""
@@ -1585,22 +1585,24 @@
     "shares": 2.9198,
     "buy_price": 462.04998779296875,
     "buy_date": "2026-09-02",
-    "last_price": 539.5900268554688,
+    "last_price": 537.9500122070312,
     "signal_date": "2026-09-03",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "NTAP",
+    "name": "NetApp",
+    "shares": 6.104,
+    "buy_price": 210.08999633789062,
+    "buy_date": "2026-09-30",
+    "last_price": 210.0800018310547,
+    "signal_date": "2026-09-29",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [
-   {
-    "ticker": "NTAP",
-    "name": "NetApp",
-    "light": "yellow",
-    "score": 88,
-    "signal_date": "2026-09-29",
-    "signal_close": 209.18
-   }
-  ],
+  "pending_buys": [],
   "pending_sells": [],
   "trades": [
    {
@@ -2196,6 +2198,17 @@
     "amount": 1344.53,
     "pnl_pct": -0.024861850701458188,
     "reason": "接近停損：跌幅 7.6% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
+   },
+   {
+    "date": "2026-09-30",
+    "action": "BUY",
+    "ticker": "NTAP",
+    "name": "NetApp",
+    "price": 210.08999633789062,
+    "shares": 6.104,
+    "amount": 1282.38,
+    "signal_date": "2026-09-29",
+    "reason": "買進訊號（黃燈基準 × 檢核88分 → 部位 4.4%，訊號日 2026-09-29）"
    }
   ],
   "equity_history": [
@@ -2594,6 +2607,10 @@
    {
     "date": "2026-09-29",
     "equity": 29145.1
+   },
+   {
+    "date": "2026-09-30",
+    "equity": 29093.15
    }
   ]
  }
