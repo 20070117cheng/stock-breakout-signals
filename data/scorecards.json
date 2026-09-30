@@ -234239,5 +234239,613 @@
    "verdict": "偏弱：獲利成長檢核不合格，觀望為宜"
   },
   "ai7": null
+ },
+ {
+  "date": "2026-09-29",
+  "market": "tw",
+  "ticker": "1303.TW",
+  "name": "南亞",
+  "close": 247.0,
+  "rebound": 1.0,
+  "base_quality": 0.0,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 247 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 0%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近9年平均年成長 7%，成長年份占 38%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 43%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近3期季營收年增 -5%、5%、27%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近3季獲利年增 715%、682%、1875%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：南亞受惠於AI趨勢帶動高階電子材料（如CCL）及轉投資南亞科之高頻寬記憶體（HBM）需求成長。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "南亞受惠於AI趨勢帶動高階電子材料（如CCL）及轉投資南亞科之高頻寬記憶體（HBM）需求成長。",
+      "analysis": "南亞近期獲利表現極為強勁，近三季年增率介於715%至1875%，營收亦呈現加速成長。此成長主要來自於AI趨勢帶動的高階電子材料（如CCL）需求，公司正積極擴增相關產能以因應大單。此外，轉投資南亞科受惠於高頻寬記憶體（HBM）擴產潮，其獲利大幅成長亦對南亞整體獲利有顯著貢獻。這些成長動能皆源於AI應用普及與HBM技術發展等產業結構性變化，而非單純的景氣循環回升。",
+      "risks": "記憶體產業（南亞科）的景氣波動性，可能影響轉投資收益；高階電子材料市場競爭加劇或技術快速迭代的風險。",
+      "sources": [
+       {
+        "title": "南亞高階CCL大單拚Q4敲定 續新增30萬張產能 - 台視全球資訊網",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcVI3UnJHbW9rdWNtQmVZclNicDlldmVidkdoelN5dlc1YXFmeHduZGd2RWliNG9BU2JQcGRoUUc1d0xEeTNBSnhfX1JNY0tUME1zOUNySjZpQ25rTVFrU285TENaSEE4SE1XQmc0dHE3bjhLeUZqRlEyLWtadHl5S0Y5akhlcmZ4STBPS0Zhb2NfQQ?oc=5",
+        "date": "Wed, 30 Sep 2026",
+        "source": "台視全球資訊網"
+       },
+       {
+        "title": "CCL獲利空間還很大！外資升評南亞目標價喊到424元台塑化也翻多2力道助攻- 日報 - 工商時報",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBhS0dMaFFQcUxpZFdtaV9KVm1iMVdpM0Y1Smk5Z0lERW9KTFlKM0RvZHZUNTV0ZVFSeFRhOWh4Y2Y2Rm82cGZiUzBWMGJsOU93Yjd3WlJncDRhYnpCUXJR?oc=5",
+        "date": "Tue, 29 Sep 2026",
+        "source": "工商時報"
+       },
+       {
+        "title": "全年獲利拚破1000億元！南亞電子材料、轉投資南亞科雙助攻 法人估EPS上看12.7元 - Yahoo股市",
+        "link": "https://news.google.com/rss/articles/CBMiygNBVV95cUxNUWFiN1dvamoyaFBRY3JlVjA4RlNCLTAtTk0zYXhQQ1Z4Y193YXktS0pVc0pBeWdlczdmRzVWOXJVLTdjRDh2TndScXlMcDBLRFNDdnpyaWpzQVhDNnlSUEVBZ05abkRMd2xWT3N6a3VfZDZOSG5wSUN0UjhPX1BoNVNVWmpYMTlfTWlNMkVKNWw2UGtMcDE1U3NCVHdXeTZneXRzZVNNN2xXMXFVMW5Tb0ZCb202Rlh4QkdFRzJEMmUxV09JSHRYemNmT0NJckpIZlk4SmpQeEh5Rkp0N1A4SzF4VERkbF9MOEZpU1hyMkJFOWpDYXA3ekV0ZWlGNVM5Z2JGX3d6bENGaEpjMmEwaUJpVWFwbGhJZWJUYWNNVTlOWC1LV1gxZDA5VVRyVEd4OWtZR0t6V0p0ZF9tTmo1aVQwbDVIcTZzUFJTQk5oSWNZTkpQZ0dMQXpNS1JPTndQREZuRnMzS3NHajhnWW16TmEwRVpabDNyZDdhWVVvOGhmZ190eHpIT0ZtNWJ6SWpHcG5PNVY2dE92VndudTM3MENMQkJXNkpyV1ZJYy1OZTk5TV9MaTlRNFN4NzJsQXRfTjk1azAzOEU1QQ?oc=5",
+        "date": "Fri, 25 Sep 2026",
+        "source": "Yahoo股市"
+       },
+       {
+        "title": "南亞科8月營收月、年雙增 法人估今年EPS上看74.6元 - udn",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1xbkpNUVpuWHJheG5KSldOQjlUOUFPUWhKaTBjZElwNzE1dWUtSWtjT1lKN25oTnhqZGc4UUk2NUxwT1dTRHY3RDUteGZnUlZC0gFWQVVfeXFMTms4VWlYbmJyb1I5eTZWUzE2U095VjZkTE1vcE42OXNTZjJmVHVrY3A0SXJtdjFhQTFHV2JiMmpHN25MZXBXTG44UzhVQjhHZlZJdm5JQ3c?oc=5",
+        "date": "Sun, 27 Sep 2026",
+        "source": "udn"
+       },
+       {
+        "title": "1303 南亞 - 南亞營收增，AI帶動成長- 股市爆料同學會 - cmoney.tw",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1RMWRLV2E0aHI0TFVNTkRPOWtQT1A3c2xoZE1vdDRBeGJESk1yczVYanJQTkh4eU9ZZXBsSWlKWGI1U0lWX1ZlcE4wa3pYejM3NGcwT2VCdDA?oc=5",
+        "date": "Sun, 27 Sep 2026",
+        "source": "cmoney.tw"
+       },
+       {
+        "title": "高頻寬記憶體引爆擴產潮！韓廠Q3獲利飆升，南亞科急調資本支出逾600億-財經焦點情報站 - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMWlveURLemRlak1xcWhzNU1tWlJPdUJqSjduYW1wZThvbS15VzlKLVFtZVFGajlkdnBLa2tsbzVMRkc0SktFdlJyUXdyYUkwS2F6LWhMdEVnMmNJSG44cGozeW9hRnJMNktmQWJxdHhmN2ZfLU55VjY0S3gtTkhhYjVB?oc=5",
+        "date": "Tue, 29 Sep 2026",
+        "source": "CMoney投資網誌"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "南亞高階CCL大單拚Q4敲定 續新增30萬張產能 - 台視全球資訊網",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcVI3UnJHbW9rdWNtQmVZclNicDlldmVidkdoelN5dlc1YXFmeHduZGd2RWliNG9BU2JQcGRoUUc1d0xEeTNBSnhfX1JNY0tUME1zOUNySjZpQ25rTVFrU285TENaSEE4SE1XQmc0dHE3bjhLeUZqRlEyLWtadHl5S0Y5akhlcmZ4STBPS0Zhb2NfQQ?oc=5",
+        "date": "Wed, 30 Sep 2026",
+        "source": "台視全球資訊網"
+       },
+       {
+        "title": "CCL獲利空間還很大！外資升評南亞目標價喊到424元台塑化也翻多2力道助攻- 日報 - 工商時報",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBhS0dMaFFQcUxpZFdtaV9KVm1iMVdpM0Y1Smk5Z0lERW9KTFlKM0RvZHZUNTV0ZVFSeFRhOWh4Y2Y2Rm82cGZiUzBWMGJsOU93Yjd3WlJncDRhYnpCUXJR?oc=5",
+        "date": "Tue, 29 Sep 2026",
+        "source": "工商時報"
+       },
+       {
+        "title": "全年獲利拚破1000億元！南亞電子材料、轉投資南亞科雙助攻 法人估EPS上看12.7元 - Yahoo股市",
+        "link": "https://news.google.com/rss/articles/CBMiygNBVV95cUxNUWFiN1dvamoyaFBRY3JlVjA4RlNCLTAtTk0zYXhQQ1Z4Y193YXktS0pVc0pBeWdlczdmRzVWOXJVLTdjRDh2TndScXlMcDBLRFNDdnpyaWpzQVhDNnlSUEVBZ05abkRMd2xWT3N6a3VfZDZOSG5wSUN0UjhPX1BoNVNVWmpYMTlfTWlNMkVKNWw2UGtMcDE1U3NCVHdXeTZneXRzZVNNN2xXMXFVMW5Tb0ZCb202Rlh4QkdFRzJEMmUxV09JSHRYemNmT0NJckpIZlk4SmpQeEh5Rkp0N1A4SzF4VERkbF9MOEZpU1hyMkJFOWpDYXA3ekV0ZWlGNVM5Z2JGX3d6bENGaEpjMmEwaUJpVWFwbGhJZWJUYWNNVTlOWC1LV1gxZDA5VVRyVEd4OWtZR0t6V0p0ZF9tTmo1aVQwbDVIcTZzUFJTQk5oSWNZTkpQZ0dMQXpNS1JPTndQREZuRnMzS3NHajhnWW16TmEwRVpabDNyZDdhWVVvOGhmZ190eHpIT0ZtNWJ6SWpHcG5PNVY2dE92VndudTM3MENMQkJXNkpyV1ZJYy1OZTk5TV9MaTlRNFN4NzJsQXRfTjk1azAzOEU1QQ?oc=5",
+        "date": "Fri, 25 Sep 2026",
+        "source": "Yahoo股市"
+       },
+       {
+        "title": "南亞科8月營收月、年雙增 法人估今年EPS上看74.6元 - udn",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1xbkpNUVpuWHJheG5KSldOQjlUOUFPUWhKaTBjZElwNzE1dWUtSWtjT1lKN25oTnhqZGc4UUk2NUxwT1dTRHY3RDUteGZnUlZC0gFWQVVfeXFMTms4VWlYbmJyb1I5eTZWUzE2U095VjZkTE1vcE42OXNTZjJmVHVrY3A0SXJtdjFhQTFHV2JiMmpHN25MZXBXTG44UzhVQjhHZlZJdm5JQ3c?oc=5",
+        "date": "Sun, 27 Sep 2026",
+        "source": "udn"
+       },
+       {
+        "title": "手握M8訂單？ 南亞新利多曝 - 三立新聞",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE04SWdvRTZ4NTVzbF9OZ1hFZVJMMGp5ajFOX28zc2YyQ0FqSVdRMWpvTjdtVmhTeWlyelc5bkh0NFZHZWREM1RsOHBTaw?oc=5",
+        "date": "Tue, 29 Sep 2026",
+        "source": "三立新聞"
+       },
+       {
+        "title": "1303 南亞 - 南亞營收增，AI帶動成長- 股市爆料同學會 - cmoney.tw",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1RMWRLV2E0aHI0TFVNTkRPOWtQT1A3c2xoZE1vdDRBeGJESk1yczVYanJQTkh4eU9ZZXBsSWlKWGI1U0lWX1ZlcE4wa3pYejM3NGcwT2VCdDA?oc=5",
+        "date": "Sun, 27 Sep 2026",
+        "source": "cmoney.tw"
+       },
+       {
+        "title": "高頻寬記憶體引爆擴產潮！韓廠Q3獲利飆升，南亞科急調資本支出逾600億-財經焦點情報站 - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMWlveURLemRlak1xcWhzNU1tWlJPdUJqSjduYW1wZThvbS15VzlKLVFtZVFGajlkdnBLa2tsbzVMRkc0SktFdlJyUXdyYUkwS2F6LWhMdEVnMmNJSG44cGozeW9hRnJMNktmQWJxdHhmN2ZfLU55VjY0S3gtTkhhYjVB?oc=5",
+        "date": "Tue, 29 Sep 2026",
+        "source": "CMoney投資網誌"
+       },
+       {
+        "title": "美伊衝突加劇 鴻海等老AI、國巨等被動、南亞科等記憶體 今天先跑先贏!? - news.cnyes.com",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5jcWhZb2xHYWMzR1RoeEgtTGUyOTh2bExVQWNJT0ZoRFktbXlJWGZvYnJ1S1J6LWYxdFl3LTB0Wm5qRGpkbnpCak94ck9WZlE?oc=5",
+        "date": "Tue, 29 Sep 2026",
+        "source": "news.cnyes.com"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-09-30 16:28"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 39.8 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.48%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 30 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 79,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": {
+   "grade": "O",
+   "one_line": "南亞受惠於AI趨勢帶動高階電子材料（如CCL）及轉投資南亞科之高頻寬記憶體（HBM）需求成長。"
+  }
+ },
+ {
+  "date": "2026-09-29",
+  "market": "tw",
+  "ticker": "9960.TWO",
+  "name": "邁達康",
+  "close": 41.2,
+  "rebound": 1.0,
+  "base_quality": 0.683,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 41.2 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 68%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近9年平均年成長 19%，成長年份占 50%（成長不夠穩定）",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 53%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近3期季營收年增 -2%、3%、24%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近3季獲利年增 36%、43%、1304%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "AI 判斷（僅供參考，請複核依據）：儘管公司透過併購啟動新成長策略，但缺乏足夠證據證明未來獲利能「穩健」成長。",
+     "starred": true,
+     "ai": {
+      "grade": "T",
+      "one_line": "儘管公司透過併購啟動新成長策略，但缺乏足夠證據證明未來獲利能「穩健」成長。",
+      "analysis": "公司近期透過併購世紀民生並整合其AI無人機業務與邁達康現有通路，啟動國際化高速賽道，此為潛在的結構性成長機會 [6]。然而，公司過去九年成長年份僅佔50%，顯示獲利成長不夠穩定。雖然近期獲利表現強勁，但此新策略的長期執行成效與獲利「穩健」性仍待觀察，證據不足以判斷其能穩健成長。",
+      "risks": "M&A整合效益不如預期；新業務市場競爭激烈導致成長不穩。",
+      "sources": [
+       {
+        "title": "拼圖式併購展綜效！世紀民生AI無人機＋邁達康通路啟動國際化高速賽道| 產經 - 非凡新聞台",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1RQW44VHZCYklnZDdKeXdEMnhqRllHLThOY0dMd1VacDhRRFQ2TG9ncm1QcmxXLWw0UXhvYXNSZkRXMDF2UTl2cm14aUk3YXJVNnB1dDhYckZqc2VYUnRJ?oc=5",
+        "date": "Tue, 02 Jun 2026",
+        "source": "非凡新聞台"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "【2026/08月營收公告】邁達康(9960) 八月營收創近3個月以來新高，月增2.27％ - CMoney",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAxSnEwenppVjE3a3RXdkVxdVAyRHVQX1FkMFBlY2NRZU5idzZZQ2ZPTjBqRlh1emNjUUhFUHFNT3JFNjZnck00TjZqR2Y0NFZ5bG1WVENGWHgwTXBLTEtfcmIxZkdiSUU?oc=5",
+        "date": "Thu, 10 Sep 2026",
+        "source": "CMoney"
+       },
+       {
+        "title": "邁達康高球業務續增；海外健身9月恢復出貨 - 台視全球資訊網",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaEx3VnVzQ0JvZXpUM1VxUDlOdlM5ck5GcnJjaGVOejE5VDVCYWRDeEZHTFlwaWtFZDBwUTFUaGhoTFBGQlUyempZeEMta1hXNlV3WTNmWkNiM21XZ2hOa3I3ZUVENXpWRS10YUVheU56NFhPYV9CRGdFRkZuWFVzNVFqdWhpLUtRbGZNQ1RqbFhYUQ?oc=5",
+        "date": "Fri, 11 Sep 2026",
+        "source": "台視全球資訊網"
+       },
+       {
+        "title": "【邁達康法說會重點內容備忘錄】未來展望趨勢20251215 - 富果直送",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LM1Awd2FJTlBkaXBBMzJ3UG1WN1lGMjFEaFR0NXo1WUNtdWQtczlJcHlfWFpQQTlBNm0xMFdLZjlZT25ucWs3NkJMYWxMdkY3RXZIdzdRbUo5R2VkcHRUaktDMHhyQjg?oc=5",
+        "date": "Mon, 15 Dec 2025",
+        "source": "富果直送"
+       },
+       {
+        "title": "邁達康高球業務續增；海外健身9月恢復出貨 - 新聞 - MoneyDJ",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNX2I3ZGVtbTUzb0s4bWUwaXpvdjJoT29fd0VGLVZUVmJQb25MUWx5QnlEaGhUdWIxMU5nZ1ZOUWtvZllrd2kxWW5wVFREN1QwWFJ4QUdLZFhSRGJST0swbE0yazU1bWFXVUtnZVljZXBnVkJrTi0yUk8wRWNuMGZCLUFrSEkwcnljWjRyVFRlVnJQdw?oc=5",
+        "date": "Fri, 11 Sep 2026",
+        "source": "MoneyDJ"
+       },
+       {
+        "title": "信立近3成溢價收購好吸引人！邁達康爆量漲停委買高掛3萬張- 證券 - 工商時報",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JTWp5cC1JVFZ0N1phTDB2STBJRk03Q3Q1OXJIdTZtNmdPYlNMaVVMaVBLYW1uVDFaS3EwanhVenVDcjJLYzBHR09XZURSSnpRSzVFWDlKcUxHMk5jYzNn?oc=5",
+        "date": "Wed, 29 Apr 2026",
+        "source": "工商時報"
+       },
+       {
+        "title": "拼圖式併購展綜效！世紀民生AI無人機＋邁達康通路啟動國際化高速賽道| 產經 - 非凡新聞台",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1RQW44VHZCYklnZDdKeXdEMnhqRllHLThOY0dMd1VacDhRRFQ2TG9ncm1QcmxXLWw0UXhvYXNSZkRXMDF2UTl2cm14aUk3YXJVNnB1dDhYckZqc2VYUnRJ?oc=5",
+        "date": "Tue, 02 Jun 2026",
+        "source": "非凡新聞台"
+       },
+       {
+        "title": "信立斥資3.6億 買邁達康股權 - udn",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBzSEo4b2ptckZOdDRzMGsyM0x1czVKYXc1eG1iaE85QXhLNmY0Wm1jTGVIRkhpVXdva0lGZ1VzMFNkak4yTXYtQlRKa1Q0NndY0gFWQVVfeXFMUGRDY3k4b3lnckhlRDlBb0ZtSm9OOGRKWkR1dDVLRmVsR05KWWdid015VXF5ZG5NcVpWYVJua2x6OTlJTW1KTWNTenF6RHNDYnE3V0ZpY1E?oc=5",
+        "date": "Wed, 29 Apr 2026",
+        "source": "udn"
+       },
+       {
+        "title": "【2026/06月營收公告】邁達康(9960) 六月營收營收雙減，年減15.62％ - CMoney",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqRGlqalN3ZmY5SFBqdENvYnpaQ0FrNTkxeW5GS08wWV9GbW4wenlwOGllUTRTZ0xaRUpZS1FRdElNaUxTZ2JLQVN6REFOTGgzZDlJMDdyeGRCLVZuOS1zRkY1M29Ra0E?oc=5",
+        "date": "Thu, 09 Jul 2026",
+        "source": "CMoney"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-09-30 16:27"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 18.1 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.48%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 30 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 75,
+   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+  },
+  "ai7": {
+   "grade": "T",
+   "one_line": "儘管公司透過併購啟動新成長策略，但缺乏足夠證據證明未來獲利能「穩健」成長。"
+  }
+ },
+ {
+  "date": "2026-09-29",
+  "market": "tw",
+  "ticker": "6213.TW",
+  "name": "聯茂",
+  "close": 620.0,
+  "rebound": 1.0,
+  "base_quality": 0.0,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 620 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 0%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近9年平均年成長 10%，成長年份占 75%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 81%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近3期季營收年增 16%、21%、30%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近3季獲利年增 111%、-10%、174%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "本益比 96.0 倍（≥60 倍，過熱）",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.48%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 30 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 75,
+   "verdict": "淘汰：關鍵項目不合格"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-09-29",
+  "market": "tw",
+  "ticker": "1727.TW",
+  "name": "中華化",
+  "close": 118.5,
+  "rebound": 1.0,
+  "base_quality": 0.0,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 118.5 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 0%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近9年平均年成長 133%，成長年份占 38%（成長不夠穩定）",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 123%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近3期季營收年增 -3%、15%、23%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近3季獲利年增 -93%、-82%、499%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "本益比 171.7 倍（≥60 倍，過熱）",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.48%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 30 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 58,
+   "verdict": "淘汰：關鍵項目不合格"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-09-29",
+  "market": "tw",
+  "ticker": "1558.TW",
+  "name": "伸興",
+  "close": 114.0,
+  "rebound": 0.705,
+  "base_quality": 0.886,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 114 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 70%（目標≥60%），平穩期品質 89%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近9年平均年成長 11%，成長年份占 50%（成長不夠穩定）",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 8%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近3期季營收年增 -20%、-6%、5%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近3季獲利年增 -29%、-8%、138%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 14.4 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.48%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 30 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 54,
+   "verdict": "偏弱：獲利成長檢核不合格，觀望為宜"
+  },
+  "ai7": null
  }
 ]
