@@ -1,77 +1,5 @@
 [
  {
-  "date": "2026-09-24",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "1558.TW",
-  "name": "伸興",
-  "note": "準備交叉向上，距3年收盤高 100.0%（K 88.46／D 88.93）"
- },
- {
-  "date": "2026-09-24",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "2412.TW",
-  "name": "中華電",
-  "note": "準備交叉向上，距3年收盤高 99.32%（K 94.36／D 95.1）"
- },
- {
-  "date": "2026-09-24",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "2305.TW",
-  "name": "全友",
-  "note": "準備交叉向上，距3年收盤高 99.06%（K 92.3／D 93.09）"
- },
- {
-  "date": "2026-09-24",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "1730.TW",
-  "name": "花仙子",
-  "note": "剛黃金交叉，距3年收盤高 98.84%（K 31.88／D 25.28）"
- },
- {
-  "date": "2026-09-24",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "2816.TW",
-  "name": "旺旺保",
-  "note": "準備交叉向上，距3年收盤高 98.53%（K 63.31／D 64.69）"
- },
- {
-  "date": "2026-09-24",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "3467.TWO",
-  "name": "台灣精材",
-  "note": "準備交叉向上，距3年收盤高 97.11%（K 89.59／D 91.5）"
- },
- {
-  "date": "2026-09-24",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "2455.TW",
-  "name": "全新",
-  "note": "準備交叉向上，距3年收盤高 96.33%（K 62.68／D 64.26）"
- },
- {
-  "date": "2026-09-24",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "6168.TW",
-  "name": "宏齊",
-  "note": "準備交叉向上，距3年收盤高 96.14%（K 84.22／D 85.29）"
- },
- {
-  "date": "2026-09-24",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "2033.TW",
-  "name": "佳大",
-  "note": "準備交叉向上，距3年收盤高 95.71%（K 80.1／D 80.5）"
- },
- {
   "date": "2026-09-23",
   "market": "台股",
   "type": "買進候選",
@@ -18499,5 +18427,494 @@
   "ticker": "1268.TWO",
   "name": "漢來美食",
   "note": "雙策略檢核通過：準備交叉向上，距3年高 95.95%"
+ },
+ {
+  "date": "2026-10-01",
+  "market": "美股",
+  "type": "買進候選",
+  "ticker": "NTAP",
+  "name": "NetApp",
+  "note": "檢核 89/100，強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 215.05 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 50%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 16%，成長年份占 100%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近四季獲利年增 19%（接近 20% 門檻）",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 30%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 59%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：NetApp is strategically positioned to achieve steady profit growth by leveraging its data management and storage solutions within the expanding AI infrastructure market, supported by new offerings like Novus.",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "NetApp is strategically positioned to achieve steady profit growth by leveraging its data management and storage solutions within the expanding AI infrastructure market, supported by new offerings like Novus.",
+      "analysis": "NetApp's recent strong financial performance, including 30% quarterly revenue growth and 59% quarterly profit growth, indicates an acceleration in its business. This growth is consistently linked in news reports to a structural shift towards AI infrastructure, a significant industry trend demanding robust data management and storage solutions. The launch of new offerings like Novus Storage Architecture further solidifies NetApp's strategic alignment with this trend. This structural tailwind, rather than mere cyclical recovery, provides a clear and sustainable path for future profit growth.",
+      "risks": [
+       "Intense competition in the rapidly evolving AI data storage and infrastructure market.",
+       "Analyst concerns regarding the risk/reward profile at current valuation levels."
+      ],
+      "sources": [
+       {
+        "title": "NetApp’s AI Opportunity Can Support Higher Growth, Says BofA — Raises Target After INSIGHT Event - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHJoQlVmaHlzaE1LUU9ORS1vZ3VjZV9UM0MzTjZiRG1YQTFkWXJvV1NNRDlYaFRCZkU2bGREcmFfOEgtZ1IzaURIbm5ZTHVBZEhhbTd6dXZVNjRPT3N0N2xCWUJmRUlqWExaS3c2RzdhZ1M3R2pBclg2RGl1TXJUT1Z3eGhPaUtadGxPTW9wT3R4aEltZ0JoeGhyZmQ0UklPN0E?oc=5",
+        "date": "Wed, 30 Sep 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Is NetApp (NTAP) Becoming More Central To AI Infrastructure With Novus? - Simply Wall Street",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSWl2T0Fhc2x1N2tWVnlvSnNRN3MzTFdwNlVUTHNHVGxTNGdYVXBoMnlwcjFCSE1ORnBKelBoYWJxcFBTOFZrY0dzYXJGVjFQTklPa1psZ3dkekFxWjA3VEdMbGxyY3ZJdEFXQTd1c21NSUhob1o5YWs4cy1GYllUemhYZVZmb0lLQ2lKSjRwTVlROXVNaUlmcV8zbzhBdVVEd2QyQ05HX3dNZ19tWjQ0VGQ0SnpoclZMUHdxYTdB0gHDAUFVX3lxTFAzUkhKblJGeVhrVE9Hc3RQQ0tVdy1TdHdvUmlralI4UHZtWmJPTWlwODRrb1hDVWhxOGNBU0FoWlR0TmI2eUFCWHN5QVcxSk9fMWQ2bnR3cW5vSWhXMWFIU0hMbVd6TmhBbGNfMGcxZ0hrR09BQVFOX1lCWTQza2lwTUZpa2E2T3NpT0VBa19ES1BqaHdmRkJOVkZLV2xjV3gySWY5Tk1ZZmdTbEtNcGtVWDJ2bHBLeGM0cVluVU9fWEtOcw?oc=5",
+        "date": "Thu, 01 Oct 2026",
+        "source": "Simply Wall Street"
+       },
+       {
+        "title": "IBD Stock Of The Day: NetApp's AI-Powered Rally Faces Next Test - Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWGFQdDRXczdBdXhzUkpqYUVWWkk1Z0VPT3EyUDItVmRjOTV6RnlocEpzaDlXRzRmZjkzV2lUY1F3elRLUF8wWXpZaXZlanNoZkFmTU5wS1g2RHZwVlUzZEVDWG1MOFl4X3pLekw4c2xERUNhejJzUmlxOVR2eWtSdVk2MlJBV2w0cHdTNTVoNGU?oc=5",
+        "date": "Mon, 28 Sep 2026",
+        "source": "Investor's Business Daily"
+       },
+       {
+        "title": "NetApp: Risk/Reward Is Not Compelling At Current Levels - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR01yV3pmZTJvTDdxNW8xbWNTYUFmNHdqX3FtVGFNMlF3ZGNTbHp3ZmYtRm14d3RqdUFvSnVXdXh6NDZ6S3hVSlczeG1YME5LLURhZnR2MTh0VWxEV1FjbjN6TjBsQ051MjdJTTl3WU5UbWNZLVNZNk5FdjlVZWU3Q3B6NmRUX1FZZUtoaHM3azNhQ0lJdXVkNUZSYUk4QU5qMzBaWUlGMmFKUQ?oc=5",
+        "date": "Wed, 30 Sep 2026",
+        "source": "Seeking Alpha"
+       },
+       {
+        "title": "Seagate vs. NetApp: Which AI Data Storage Stock is the Smarter Bet? - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd1ZIc3pHQ0NaQTluSG5yVTIyVGxxMjV3emY2MTlzYVdNdmtBdGpIWTJJMk5iRVNoX21mckRqSWZUXzVYVVhpbW5LVFM0a0NrTzB2cUp1cHJqUmpDeXlDZmpwdFREYVpvUkczTmJWSmtPS2hQYnZXX3B0dVFnMUJ2cGJVTm5Jc1N0Mmc1YkpyUC1mMEJQMnd0cElDSl9NTDdEeG9GUUlYUWhUSk9qcDNIVE80WXp1emR4WTlGdg?oc=5",
+        "date": "Tue, 29 Sep 2026",
+        "source": "TradingView"
+       },
+       {
+        "title": "NetApp (NTAP) Shares Rise Following Launch of Novus Storage Arch - GuruFocus",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObjZibWlGc0hzLTBLWkVCRFhvOVY5Z00xRGRiWHNDbGZwOG9rMF8zX1ZrdG5YdFdxdllWb3FRZ0d4Z09PSEtnSDVhNHVyMzgyN19EdUFTalowc3hmY0xXM00xM1dOVF9LcGtaMzZOclQyWEZfVTQwNEhUaXExVHZsWTdpZWFyOFBNdC1VSmYtY3dhdnc4U1dwbk41RVN4N3o4U3lhZXBBaE43RFdUZVE?oc=5",
+        "date": "Wed, 30 Sep 2026",
+        "source": "GuruFocus"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "NetApp’s AI Opportunity Can Support Higher Growth, Says BofA — Raises Target After INSIGHT Event - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHJoQlVmaHlzaE1LUU9ORS1vZ3VjZV9UM0MzTjZiRG1YQTFkWXJvV1NNRDlYaFRCZkU2bGREcmFfOEgtZ1IzaURIbm5ZTHVBZEhhbTd6dXZVNjRPT3N0N2xCWUJmRUlqWExaS3c2RzdhZ1M3R2pBclg2RGl1TXJUT1Z3eGhPaUtadGxPTW9wT3R4aEltZ0JoeGhyZmQ0UklPN0E?oc=5",
+        "date": "Wed, 30 Sep 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Is NetApp (NTAP) Becoming More Central To AI Infrastructure With Novus? - Simply Wall Street",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSWl2T0Fhc2x1N2tWVnlvSnNRN3MzTFdwNlVUTHNHVGxTNGdYVXBoMnlwcjFCSE1ORnBKelBoYWJxcFBTOFZrY0dzYXJGVjFQTklPa1psZ3dkekFxWjA3VEdMbGxyY3ZJdEFXQTd1c21NSUhob1o5YWs4cy1GYllUemhYZVZmb0lLQ2lKSjRwTVlROXVNaUlmcV8zbzhBdVVEd2QyQ05HX3dNZ19tWjQ0VGQ0SnpoclZMUHdxYTdB0gHDAUFVX3lxTFAzUkhKblJGeVhrVE9Hc3RQQ0tVdy1TdHdvUmlralI4UHZtWmJPTWlwODRrb1hDVWhxOGNBU0FoWlR0TmI2eUFCWHN5QVcxSk9fMWQ2bnR3cW5vSWhXMWFIU0hMbVd6TmhBbGNfMGcxZ0hrR09BQVFOX1lCWTQza2lwTUZpa2E2T3NpT0VBa19ES1BqaHdmRkJOVkZLV2xjV3gySWY5Tk1ZZmdTbEtNcGtVWDJ2bHBLeGM0cVluVU9fWEtOcw?oc=5",
+        "date": "Thu, 01 Oct 2026",
+        "source": "Simply Wall Street"
+       },
+       {
+        "title": "NetApp Recognizes Winners of 2026 North America Partner Awards - Via TT",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTExyZU1Xa0x6V3ZGVEJ3VE1vR3BCTFp1QkF1dWpmSnZtWUgxZTBUWFBOU08tNlVIYjkxc3JBRWVtMDloQVVYYUh3THlscGVzN3htWTJOWEcyWU9kNG1LbHJIc1J0anVIbHhYQXZYRFJiYjRaMzhYSnVpWjNQZFhmTldISHdIYktVcTdxcGtvaGpISDhzd0lXb1NjRWhQMjJBX2xSajN4SnotRkhxU05NSzhsX3FDVzJGbzhXSGRhQW8?oc=5",
+        "date": "Thu, 01 Oct 2026",
+        "source": "Via TT"
+       },
+       {
+        "title": "IBD Stock Of The Day: NetApp's AI-Powered Rally Faces Next Test - Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWGFQdDRXczdBdXhzUkpqYUVWWkk1Z0VPT3EyUDItVmRjOTV6RnlocEpzaDlXRzRmZjkzV2lUY1F3elRLUF8wWXpZaXZlanNoZkFmTU5wS1g2RHZwVlUzZEVDWG1MOFl4X3pLekw4c2xERUNhejJzUmlxOVR2eWtSdVk2MlJBV2w0cHdTNTVoNGU?oc=5",
+        "date": "Mon, 28 Sep 2026",
+        "source": "Investor's Business Daily"
+       },
+       {
+        "title": "NetApp: Risk/Reward Is Not Compelling At Current Levels - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR01yV3pmZTJvTDdxNW8xbWNTYUFmNHdqX3FtVGFNMlF3ZGNTbHp3ZmYtRm14d3RqdUFvSnVXdXh6NDZ6S3hVSlczeG1YME5LLURhZnR2MTh0VWxEV1FjbjN6TjBsQ051MjdJTTl3WU5UbWNZLVNZNk5FdjlVZWU3Q3B6NmRUX1FZZUtoaHM3azNhQ0lJdXVkNUZSYUk4QU5qMzBaWUlGMmFKUQ?oc=5",
+        "date": "Wed, 30 Sep 2026",
+        "source": "Seeking Alpha"
+       },
+       {
+        "title": "Seagate vs. NetApp: Which AI Data Storage Stock is the Smarter Bet? - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd1ZIc3pHQ0NaQTluSG5yVTIyVGxxMjV3emY2MTlzYVdNdmtBdGpIWTJJMk5iRVNoX21mckRqSWZUXzVYVVhpbW5LVFM0a0NrTzB2cUp1cHJqUmpDeXlDZmpwdFREYVpvUkczTmJWSmtPS2hQYnZXX3B0dVFnMUJ2cGJVTm5Jc1N0Mmc1YkpyUC1mMEJQMnd0cElDSl9NTDdEeG9GUUlYUWhUSk9qcDNIVE80WXp1emR4WTlGdg?oc=5",
+        "date": "Tue, 29 Sep 2026",
+        "source": "TradingView"
+       },
+       {
+        "title": "NetApp (NTAP) Shares Rise Following Launch of Novus Storage Arch - GuruFocus",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObjZibWlGc0hzLTBLWkVCRFhvOVY5Z00xRGRiWHNDbGZwOG9rMF8zX1ZrdG5YdFdxdllWb3FRZ0d4Z09PSEtnSDVhNHVyMzgyN19EdUFTalowc3hmY0xXM00xM1dOVF9LcGtaMzZOclQyWEZfVTQwNEhUaXExVHZsWTdpZWFyOFBNdC1VSmYtY3dhdnc4U1dwbk41RVN4N3o4U3lhZXBBaE43RFdUZVE?oc=5",
+        "date": "Wed, 30 Sep 2026",
+        "source": "GuruFocus"
+       },
+       {
+        "title": "BofA raises target for NetApp stock to USD 220.00 - AD HOC NEWS",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaWMtSEM4Q1VOUG54SjRRbFQwWWd4NVJHWnJHOGRBbmZqX2N4LUk1M1l3U1IwRlU2MG1QSXNULVRxQ3kwUThHU0JDaXpUdXpHRW5qQldzVlBZY01XMUpQc0p0ZldhclprRUR3T2tFRmw3T2RKcHhLTmJKUkdnZkVxaWM1aFdRZW1NR1k1d1ZUSXMtTFZDRk1SejRMMVBnb0VzS21PM1BTbm1GS3ZBb0sxMjhR?oc=5",
+        "date": "Thu, 01 Oct 2026",
+        "source": "AD HOC NEWS"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-10-01 23:50"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 30.4 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.68%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 18 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 89,
+   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+  }
+ },
+ {
+  "date": "2026-10-01",
+  "market": "美股",
+  "type": "買進候選",
+  "ticker": "KEYS",
+  "name": "Keysight Technologies",
+  "note": "檢核 83/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 373.88 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 32%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近4年平均年成長 -2%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 25%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 37%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 98%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 50.6 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.68%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 18 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 83,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  }
+ },
+ {
+  "date": "2026-10-01",
+  "market": "美股",
+  "type": "買進候選",
+  "ticker": "HPE",
+  "name": "Hewlett Packard Enterprise",
+  "note": "檢核 79/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 64.58 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 7%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 26%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -110%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 34%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 512%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "AI 判斷（僅供參考，請複核依據）：儘管有AI基礎設施的結構性成長機會，但近期獲利波動劇烈，無法判斷未來獲利能否穩健成長。",
+     "starred": true,
+     "ai": {
+      "grade": "T",
+      "one_line": "儘管有AI基礎設施的結構性成長機會，但近期獲利波動劇烈，無法判斷未來獲利能否穩健成長。",
+      "analysis": "Hewlett Packard Enterprise近期獲得一筆12億美元的AI伺服器訂單，並受惠於AI基礎設施的結構性成長趨勢，顯示其在關鍵領域的潛力。然而，公司過去四季的獲利年增率為-110%，顯示獲利表現極不穩定，與「穩健成長」的標準不符。儘管最新一季獲利年增512%表現強勁，但這更像是從低谷反彈，而非持續穩定的成長軌跡，因此保守分析師無法確認其未來獲利能穩健成長。",
+      "risks": "獲利波動性高，過去四季獲利表現不穩定；AI訂單的持續性和規模可能存在不確定性。",
+      "sources": [
+       {
+        "title": "Hewlett Packard Enterprise (HPE) Stock Gets Fair Value Bump As Analysts Split On AI Momentum - Yahoo Finance UK",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaHpVOVJTQVA4U2RjX0NiSF9WeUpZMUU1cTh4eEFyWWtUWVlIcTA2OEFnVW5INm9rdXlpM0dSSEJiTWtJemhKOWI5RVVVU2ZfYklOYTY2bmhGVGRzZUJYNzBCY0FHR3BQWm9jN1ctazd2NlE0UmJZcDh4TzBFMlVNWXRQOE1abXIzREx4aXRn?oc=5",
+        "date": "Thu, 01 Oct 2026",
+        "source": "Yahoo Finance UK"
+       },
+       {
+        "title": "HPE boosts networking growth outlook, gets $1.2 billion AI order from cloud firm Vultr - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYWJLN3pOdTRaS09KVDZueFV4TVN0eGpEX3RrRmZYXzJMYVRiVEo1Sk5TRjRlSmJJOFRnenp3M1hpZ2lIajQxSFYtZ1ByS2lBR1JTa256X2R0YUZmMkkxYUo0Y3BQemY0cWk2V1FycEp3VGt0TFpoU2lzaFVTQzA2N3JUcFNkenFuYU53UlZYZVlEaGdZdkNJVnhmSzhmblpvcUNjcGlyV2p4dWxpMW80MENIRXVUSERIeFpxZ1hwQTQ?oc=5",
+        "date": "Wed, 30 Sep 2026",
+        "source": "Reuters"
+       },
+       {
+        "title": "HPE Networking Outlook Gets Boost as Barclays, Citi and Wells Fargo Raise Price Targets - 24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdUlINmY0MjZ3UzNPYVE2MG51eUx6UGV2Zi1kUFJzUjBOUnZJdGxxZkpxTTluYTBkcG1jVUthRUJlR1Q3ZFB1azV0Y0tBcFJmektDaDdoM3AyVnI1LXM0VmJNeVI2emVIZWRodWxpeDlLRkpSQ19Sc3Q1aE1Da0R1YWU0ZzZmckt1bk14ZU84ME1XZXZISTQ5Q3N0Qm5PUUhEU0w4dzZ4LVZLMzhrQTRiaEVrRWxXQklDSmVFMGRqLUpoS3lmTWFwdy1n?oc=5",
+        "date": "Thu, 01 Oct 2026",
+        "source": "24/7 Wall St."
+       },
+       {
+        "title": "Hewlett Packard Enterprise Stock Soars to Fresh Record on Raised Revenue Targets, $1.2B Server Deal - Investopedia",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQXzNhb1RNUFZpQ3ZBUFNsVG54a3dCRjMyMVdxOFhtRjZmdXdLWDRTa2N0dFFDU0FCZkcwR2pjQVloREIzU0pucTNxMFBWMS1jakR5ZExOQjZheU55cmJUYlpKMXVadlFMc3dtSFZ0eXZ5cnctX3NjT1J6cy1scHh0b05Obm1XaDE3eFhqakVJaTViUW8wTHBucHlDam5FUlU4S1BHN3l1SG1wa2J3bEQ4?oc=5",
+        "date": "Wed, 30 Sep 2026",
+        "source": "Investopedia"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Hewlett Packard Enterprise (HPE) Stock Gets Fair Value Bump As Analysts Split On AI Momentum - Yahoo Finance UK",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaHpVOVJTQVA4U2RjX0NiSF9WeUpZMUU1cTh4eEFyWWtUWVlIcTA2OEFnVW5INm9rdXlpM0dSSEJiTWtJemhKOWI5RVVVU2ZfYklOYTY2bmhGVGRzZUJYNzBCY0FHR3BQWm9jN1ctazd2NlE0UmJZcDh4TzBFMlVNWXRQOE1abXIzREx4aXRn?oc=5",
+        "date": "Thu, 01 Oct 2026",
+        "source": "Yahoo Finance UK"
+       },
+       {
+        "title": "What Is The Case For Waiting On Hewlett Packard Enterprise Stock? - Trefis",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYnZfRmNnNVBIalZ6LTZPX3d1Z0pDLWFRYlA5VGpJRVNPWUJEY1R1THdYMkV4V2NPTy1sSzZkRTZhYVFvbEU4cjdfSURIbnd0WU5OOENiNElYRDMtYWxwUVhVdVJTeWJWTDJRQ3d6a01qTDd6eG85eVZ1U21uTUdZd3ZNX01WdVZ3Q0ppQkJvaE0ycFBNOUJRTjZGSUVod1BFV01OTTF4SUxXcG5SU3RyMjZaV05ldlBZeHdmb1pxcDdZUQ?oc=5",
+        "date": "Thu, 01 Oct 2026",
+        "source": "Trefis"
+       },
+       {
+        "title": "HPE boosts networking growth outlook, gets $1.2 billion AI order from cloud firm Vultr - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYWJLN3pOdTRaS09KVDZueFV4TVN0eGpEX3RrRmZYXzJMYVRiVEo1Sk5TRjRlSmJJOFRnenp3M1hpZ2lIajQxSFYtZ1ByS2lBR1JTa256X2R0YUZmMkkxYUo0Y3BQemY0cWk2V1FycEp3VGt0TFpoU2lzaFVTQzA2N3JUcFNkenFuYU53UlZYZVlEaGdZdkNJVnhmSzhmblpvcUNjcGlyV2p4dWxpMW80MENIRXVUSERIeFpxZ1hwQTQ?oc=5",
+        "date": "Wed, 30 Sep 2026",
+        "source": "Reuters"
+       },
+       {
+        "title": "Hewlett Packard Enterprise (NYSE:HPE) Stock Price Expected to Rise, Citigroup Analyst Says - MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQM19ONzVvXy1NUG9GUXpXWUpJS0dpak05YThoTmZZbzZ1S0dpY20zc2NlbUg3Q2Q1eVNBcUNJZTdra3lmenluWFEwTl80T0tPNjBGMmxYMlpIdkpoeE9JV0tTcHl0eFVYMkZCaVFLQzl5VUY0NWlHOEI4OG0yaDRJTjZEdVdWbm5sZm4zVXNrM1UzTVBFd05ZbmdjY2x1RWlodGtzd2JVZFo4U1ZTcWpfU0cwdHloRVg3UC1LX2ZPdlFCWFRKT0lsODNvSHdWZHdTaXdSdlFwOGJZcVQ5Y3NaM2Uwdw?oc=5",
+        "date": "Thu, 01 Oct 2026",
+        "source": "MarketBeat"
+       },
+       {
+        "title": "Why Hewlett Packard Enterprise (HPE) Stock Is Up Today - StockStory",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUWQwUnJqOG10UXhXSERUc3BVYnBmbHdOeVgzb1p6cHFzcW5EYklJRno5aTNZamx3VnhMTUFOQlc0V3pKZXIxbFUzZjZrVHNSQm0wTFNCclBtbDRSYk04WVVvVklTUHJkcTBydnRpdXlncFdUNUFTR1V0UXM1dVV4M2NEdU41akJFZlI2N3NOeENmWDFtbFFzQ3ZQZGR2Nkw1a0RQblhqWkI0ZGtXUjI2NDJNVQ?oc=5",
+        "date": "Wed, 30 Sep 2026",
+        "source": "StockStory"
+       },
+       {
+        "title": "HPE Networking Outlook Gets Boost as Barclays, Citi and Wells Fargo Raise Price Targets - 24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdUlINmY0MjZ3UzNPYVE2MG51eUx6UGV2Zi1kUFJzUjBOUnZJdGxxZkpxTTluYTBkcG1jVUthRUJlR1Q3ZFB1azV0Y0tBcFJmektDaDdoM3AyVnI1LXM0VmJNeVI2emVIZWRodWxpeDlLRkpSQ19Sc3Q1aE1Da0R1YWU0ZzZmckt1bk14ZU84ME1XZXZISTQ5Q3N0Qm5PUUhEU0w4dzZ4LVZLMzhrQTRiaEVrRWxXQklDSmVFMGRqLUpoS3lmTWFwdy1n?oc=5",
+        "date": "Thu, 01 Oct 2026",
+        "source": "24/7 Wall St."
+       },
+       {
+        "title": "Hewlett Packard Enterprise (HPE) Shares Rise Premarket on Citi P - GuruFocus",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRVM3QmFsVnItVzNGTG8xb3RUNUg4MzVRVHFsSF9wblpISnhwUXN2Ul9XMzl1RGhVa2p4c0ZlZU44V25aeHQtQlZmNFg1VDg0WFZZQzRCb3VYemlkcFVfb1hQUWhrTmhOOV9id2NPWnpvV1Q5SWRCazhaNmhsNzEwclNoWjVaSWl5TE41c25HQWE5N0lMeUVLYmJyX2JHN2RtNXI1UGR0RF91dnRFcVVwNVVWNGZWLU11UHc?oc=5",
+        "date": "Thu, 01 Oct 2026",
+        "source": "GuruFocus"
+       },
+       {
+        "title": "Hewlett Packard Enterprise Stock Soars to Fresh Record on Raised Revenue Targets, $1.2B Server Deal - Investopedia",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQXzNhb1RNUFZpQ3ZBUFNsVG54a3dCRjMyMVdxOFhtRjZmdXdLWDRTa2N0dFFDU0FCZkcwR2pjQVloREIzU0pucTNxMFBWMS1jakR5ZExOQjZheU55cmJUYlpKMXVadlFMc3dtSFZ0eXZ5cnctX3NjT1J6cy1scHh0b05Obm1XaDE3eFhqakVJaTViUW8wTHBucHlDam5FUlU4S1BHN3l1SG1wa2J3bEQ4?oc=5",
+        "date": "Wed, 30 Sep 2026",
+        "source": "Investopedia"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-10-01 23:53"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 33.3 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.68%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 18 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 79,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  }
+ },
+ {
+  "date": "2026-10-01",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "FTNT",
+  "name": "Fortinet",
+  "note": "剛黃金交叉，距3年收盤高 99.98%（K 76.49／D 75.48）"
+ },
+ {
+  "date": "2026-10-01",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "MPC",
+  "name": "Marathon Petroleum",
+  "note": "剛黃金交叉，距3年收盤高 98.88%（K 45.45／D 37.04）"
+ },
+ {
+  "date": "2026-10-01",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "VLO",
+  "name": "Valero Energy",
+  "note": "剛黃金交叉，距3年收盤高 98.83%（K 54.59／D 47.4）"
+ },
+ {
+  "date": "2026-10-01",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "EXPD",
+  "name": "Expeditors International",
+  "note": "準備交叉向上，距3年收盤高 96.82%（K 35.45／D 36.94）"
+ },
+ {
+  "date": "2026-10-01",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "EMR",
+  "name": "Emerson Electric",
+  "note": "剛黃金交叉，距3年收盤高 96.79%（K 78.92／D 78.61）"
+ },
+ {
+  "date": "2026-10-01",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "PSX",
+  "name": "Phillips 66",
+  "note": "剛黃金交叉，距3年收盤高 96.36%（K 33.5／D 30.19）"
  }
 ]

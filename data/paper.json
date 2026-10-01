@@ -1586,10 +1586,10 @@
     "shares": 25.465,
     "buy_price": 118.05999755859375,
     "buy_date": "2026-07-08",
-    "last_price": 121.3499984741211,
+    "last_price": 117.13999938964844,
     "signal_date": "2026-07-07",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_SIGNAL",
+    "status_note": "已排明日開盤賣出。技術面：賣壓比例 133% ≥ 117%，股價可能已達中長期高點"
    },
    {
     "ticker": "DELL",
@@ -1597,7 +1597,7 @@
     "shares": 2.9198,
     "buy_price": 462.04998779296875,
     "buy_date": "2026-09-02",
-    "last_price": 537.9500122070312,
+    "last_price": 541.739990234375,
     "signal_date": "2026-09-03",
     "status": "HOLD",
     "status_note": ""
@@ -1608,14 +1608,19 @@
     "shares": 6.104,
     "buy_price": 210.08999633789062,
     "buy_date": "2026-09-30",
-    "last_price": 210.0800018310547,
+    "last_price": 215.0500030517578,
     "signal_date": "2026-09-29",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [],
-  "pending_sells": [],
+  "pending_sells": [
+   {
+    "ticker": "INCY",
+    "reason": "技術面：賣壓比例 133% ≥ 117%，股價可能已達中長期高點"
+   }
+  ],
   "trades": [
    {
     "date": "2026-07-06",
@@ -2631,6 +2636,10 @@
    {
     "date": "2026-09-30",
     "equity": 29093.15
+   },
+   {
+    "date": "2026-10-01",
+    "equity": 29027.34
    }
   ]
  }
