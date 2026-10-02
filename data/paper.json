@@ -1586,26 +1586,15 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 23149.934916658214,
+  "cash": 26123.228371057325,
   "positions": [
-   {
-    "ticker": "INCY",
-    "name": "Incyte",
-    "shares": 25.465,
-    "buy_price": 118.05999755859375,
-    "buy_date": "2026-07-08",
-    "last_price": 117.13999938964844,
-    "signal_date": "2026-07-07",
-    "status": "SELL_SIGNAL",
-    "status_note": "已排明日開盤賣出。技術面：賣壓比例 133% ≥ 117%，股價可能已達中長期高點"
-   },
    {
     "ticker": "DELL",
     "name": "Dell Technologies",
     "shares": 2.9198,
     "buy_price": 462.04998779296875,
     "buy_date": "2026-09-02",
-    "last_price": 541.739990234375,
+    "last_price": 562.52001953125,
     "signal_date": "2026-09-03",
     "status": "HOLD",
     "status_note": ""
@@ -1616,17 +1605,26 @@
     "shares": 6.104,
     "buy_price": 210.08999633789062,
     "buy_date": "2026-09-30",
-    "last_price": 215.0500030517578,
+    "last_price": 226.27000427246094,
     "signal_date": "2026-09-29",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [],
+  "pending_buys": [
+   {
+    "ticker": "JCI",
+    "name": "Johnson Controls",
+    "light": "yellow",
+    "score": 83,
+    "signal_date": "2026-10-02",
+    "signal_close": 156.24
+   }
+  ],
   "pending_sells": [
    {
     "ticker": "INCY",
-    "reason": "技術面：賣壓比例 133% ≥ 117%，股價可能已達中長期高點"
+    "reason": "技術面：賣壓比例 135% ≥ 117%，股價可能已達中長期高點"
    }
   ],
   "trades": [
@@ -2234,6 +2232,17 @@
     "amount": 1282.38,
     "signal_date": "2026-09-29",
     "reason": "買進訊號（黃燈基準 × 檢核88分 → 部位 4.4%，訊號日 2026-09-29）"
+   },
+   {
+    "date": "2026-10-02",
+    "action": "SELL",
+    "ticker": "INCY",
+    "name": "Incyte",
+    "price": 116.76000213623047,
+    "shares": 25.465,
+    "amount": 2973.29,
+    "pnl_pct": -0.011011311614826047,
+    "reason": "技術面：賣壓比例 133% ≥ 117%，股價可能已達中長期高點"
    }
   ],
   "equity_history": [
@@ -2648,6 +2657,10 @@
    {
     "date": "2026-10-01",
     "equity": 29027.34
+   },
+   {
+    "date": "2026-10-02",
+    "equity": 29146.83
    }
   ]
  }
