@@ -1586,7 +1586,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 26123.228371057325,
+  "cash": 24913.63507420553,
   "positions": [
    {
     "ticker": "DELL",
@@ -1594,7 +1594,7 @@
     "shares": 2.9198,
     "buy_price": 462.04998779296875,
     "buy_date": "2026-09-02",
-    "last_price": 562.52001953125,
+    "last_price": 541.739990234375,
     "signal_date": "2026-09-03",
     "status": "HOLD",
     "status_note": ""
@@ -1605,28 +1605,25 @@
     "shares": 6.104,
     "buy_price": 210.08999633789062,
     "buy_date": "2026-09-30",
-    "last_price": 226.27000427246094,
+    "last_price": 215.0500030517578,
     "signal_date": "2026-09-29",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "JCI",
+    "name": "Johnson Controls",
+    "shares": 8.065,
+    "buy_price": 149.97999572753906,
+    "buy_date": "2026-10-01",
+    "last_price": 151.77000427246094,
+    "signal_date": "2026-10-02",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [
-   {
-    "ticker": "JCI",
-    "name": "Johnson Controls",
-    "light": "yellow",
-    "score": 83,
-    "signal_date": "2026-10-02",
-    "signal_close": 156.24
-   }
-  ],
-  "pending_sells": [
-   {
-    "ticker": "INCY",
-    "reason": "技術面：賣壓比例 135% ≥ 117%，股價可能已達中長期高點"
-   }
-  ],
+  "pending_buys": [],
+  "pending_sells": [],
   "trades": [
    {
     "date": "2026-07-06",
@@ -2243,6 +2240,17 @@
     "amount": 2973.29,
     "pnl_pct": -0.011011311614826047,
     "reason": "技術面：賣壓比例 133% ≥ 117%，股價可能已達中長期高點"
+   },
+   {
+    "date": "2026-10-01",
+    "action": "BUY",
+    "ticker": "JCI",
+    "name": "Johnson Controls",
+    "price": 149.97999572753906,
+    "shares": 8.065,
+    "amount": 1209.59,
+    "signal_date": "2026-10-02",
+    "reason": "買進訊號（黃燈基準 × 檢核83分 → 部位 4.2%，訊號日 2026-10-02）"
    }
   ],
   "equity_history": [
@@ -2661,6 +2669,10 @@
    {
     "date": "2026-10-02",
     "equity": 29146.83
+   },
+   {
+    "date": "2026-10-01",
+    "equity": 29032.1
    }
   ]
  }
