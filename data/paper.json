@@ -1626,7 +1626,7 @@
     "shares": 2.9198,
     "buy_price": 462.04998779296875,
     "buy_date": "2026-09-02",
-    "last_price": 562.52001953125,
+    "last_price": 552.2899780273438,
     "signal_date": "2026-09-03",
     "status": "HOLD",
     "status_note": ""
@@ -1637,7 +1637,7 @@
     "shares": 6.104,
     "buy_price": 210.08999633789062,
     "buy_date": "2026-09-30",
-    "last_price": 226.27000427246094,
+    "last_price": 223.77000427246094,
     "signal_date": "2026-09-29",
     "status": "HOLD",
     "status_note": ""
@@ -1648,13 +1648,22 @@
     "shares": 8.065,
     "buy_price": 149.97999572753906,
     "buy_date": "2026-10-01",
-    "last_price": 156.24000549316406,
+    "last_price": 156.85000610351562,
     "signal_date": "2026-10-02",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [],
+  "pending_buys": [
+   {
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "light": "yellow",
+    "score": 92,
+    "signal_date": "2026-10-05",
+    "signal_close": 238.9
+   }
+  ],
   "pending_sells": [],
   "trades": [
    {
@@ -2709,6 +2718,10 @@
    {
     "date": "2026-10-02",
     "equity": 29197.31
+   },
+   {
+    "date": "2026-10-05",
+    "equity": 29157.1
    }
   ]
  }
