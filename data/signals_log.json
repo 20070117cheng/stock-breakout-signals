@@ -1,1300 +1,5 @@
 [
  {
-  "date": "2026-09-29",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "1303.TW",
-  "name": "南亞",
-  "note": "剛黃金交叉，距3年收盤高 100.0%（K 59.87／D 52.65）"
- },
- {
-  "date": "2026-09-29",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "8111.TWO",
-  "name": "立碁",
-  "note": "剛黃金交叉，距3年收盤高 98.88%（K 62.09／D 58.98）"
- },
- {
-  "date": "2026-09-29",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "6133.TW",
-  "name": "金橋",
-  "note": "剛黃金交叉，距3年收盤高 98.45%（K 70.88／D 70.14）"
- },
- {
-  "date": "2026-09-29",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "3118.TWO",
-  "name": "進階",
-  "note": "剛黃金交叉，距3年收盤高 96.17%（K 41.82／D 38.02）"
- },
- {
-  "date": "2026-09-29",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "7713.TWO",
-  "name": "威力德生醫",
-  "note": "剛黃金交叉，距3年收盤高 96.06%（K 49.97／D 49.01）"
- },
- {
-  "date": "2026-09-29",
-  "market": "台股",
-  "type": "綜合訊號",
-  "ticker": "1303.TW",
-  "name": "南亞",
-  "note": "雙策略檢核通過：檢核 79/100，剛黃金交叉，距3年高 100.0%"
- },
- {
-  "date": "2026-09-29",
-  "market": "台股",
-  "type": "綜合訊號",
-  "ticker": "2069.TW",
-  "name": "運錩",
-  "note": "雙策略檢核通過：檢核 71/100，剛黃金交叉，距3年高 100.0%"
- },
- {
-  "date": "2026-09-29",
-  "market": "台股",
-  "type": "綜合訊號",
-  "ticker": "5013.TWO",
-  "name": "強新",
-  "note": "雙策略檢核通過：檢核 62/100，剛黃金交叉，距3年高 100.0%"
- },
- {
-  "date": "2026-09-29",
-  "market": "台股",
-  "type": "綜合訊號",
-  "ticker": "7713.TWO",
-  "name": "威力德生醫",
-  "note": "雙策略檢核通過：剛黃金交叉，距3年高 96.06%"
- },
- {
-  "date": "2026-09-30",
-  "market": "美股",
-  "type": "買進候選",
-  "ticker": "NTAP",
-  "name": "NetApp",
-  "note": "檢核 89/100，強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量",
-  "scorecard": {
-   "items": [
-    {
-     "key": "1",
-     "name": "① 股價突破近年來高價",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "收盤 210.08 創近 2 年新高",
-     "starred": true
-    },
-    {
-     "key": "2",
-     "name": "② 新高價位置（反彈幅度≥60%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 51%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-     "starred": true
-    },
-    {
-     "key": "3",
-     "name": "③ 過去獲利穩健成長（年均≥7%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近5年平均年成長 16%，成長年份占 100%",
-     "starred": false
-    },
-    {
-     "key": "4",
-     "name": "④ 最近1~2年獲利成長≥20%",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "近四季獲利年增 19%（接近 20% 門檻）",
-     "starred": false
-    },
-    {
-     "key": "5",
-     "name": "⑤ 最近2~3季營收成長≥10%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近1期季營收年增 30%",
-     "starred": false
-    },
-    {
-     "key": "6",
-     "name": "⑥ 最近2~3季獲利成長≥20%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近1季獲利年增 59%",
-     "starred": true
-    },
-    {
-     "key": "7",
-     "name": "⑦ 未來獲利能否穩健成長",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "AI 判斷（僅供參考，請複核依據）：NetApp受惠於AI和Flash儲存需求的結構性增長，透過新產品推出和策略性收購提升競爭力。",
-     "starred": true,
-     "ai": {
-      "grade": "O",
-      "one_line": "NetApp受惠於AI和Flash儲存需求的結構性增長，透過新產品推出和策略性收購提升競爭力。",
-      "analysis": "NetApp近期營運數字顯示強勁成長，最新一季營收年增30%及獲利年增59%，顯示動能充沛。多則新聞報導明確指出，AI和Flash儲存需求的結構性增長是推動公司未來獲利成長的核心驅動力。公司積極透過推出Novus儲存架構和收購PEAK:AIO等策略，強化其在AI規模儲存領域的競爭優勢。這些證據表明NetApp正有效抓住產業結構性變化帶來的機會，預期未來獲利能穩健成長。",
-      "risks": "AI儲存市場競爭激烈，公司能否持續保持技術領先和市場份額面臨挑戰；儘管營運表現強勁，市場對其當前估值存在疑慮，可能對股價構成壓力。",
-      "sources": [
-       {
-        "title": "NetApp (NTAP) Shares Rise Following Launch of Novus Storage Arch - GuruFocus",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObjZibWlGc0hzLTBLWkVCRFhvOVY5Z00xRGRiWHNDbGZwOG9rMF8zX1ZrdG5YdFdxdllWb3FRZ0d4Z09PSEtnSDVhNHVyMzgyN19EdUFTalowc3hmY0xXM00xM1dOVF9LcGtaMzZOclQyWEZfVTQwNEhUaXExVHZsWTdpZWFyOFBNdC1VSmYtY3dhdnc4U1dwbk41RVN4N3o4U3lhZXBBaE43RFdUZVE?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "GuruFocus"
-       },
-       {
-        "title": "Can AI and Flash Demand Power NetApp's Raised FY27 Outlook? - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc1Q1QVF6X1VnbE9ZZTAtRlNrZ3FHYUFVdEdDLWVmY21qX2NVbFpFZkhWYmJlQ0tLcFl5dHE5MHFyLWtYSnVmM0xla0RZaUR2ZGhQdHAxQ2w5eHdmd25JT3NtQXNyczRETUpWbjlGRnd3V3ByejhkcmtjbTJzWHBmRFp4MHY4R2xUazhCOXdBazkwblp0S3c1ZA?oc=5",
-        "date": "Fri, 25 Sep 2026",
-        "source": "Yahoo Finance"
-       },
-       {
-        "title": "IBD Stock Of The Day: NetApp's AI-Powered Rally Faces Next Test - Investor's Business Daily",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWGFQdDRXczdBdXhzUkpqYUVWWkk1Z0VPT3EyUDItVmRjOTV6RnlocEpzaDlXRzRmZjkzV2lUY1F3elRLUF8wWXpZaXZlanNoZkFmTU5wS1g2RHZwVlUzZEVDWG1MOFl4X3pLekw4c2xERUNhejJzUmlxOVR2eWtSdVk2MlJBV2w0cHdTNTVoNGU?oc=5",
-        "date": "Mon, 28 Sep 2026",
-        "source": "Investor's Business Daily"
-       },
-       {
-        "title": "NetApp stock reports 30.00 percent revenue growth in Q1 FY27 - AD HOC NEWS",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNODI1Zmg5cm1PWUhCb0pRSDZpcEZsNzBXcGFPdHlKNjJjckFManQxQXV5NUFwclZvNnBiWFA2MTJUOURXc3pZM0VMblV0a3Q0bmFBbFEzTzBfMlFSQ0NmRmY2My1lYy1IR0N4UDh6MW0yVXdNbnh2TTZac1cwR05iYnlnVUp6UmlLVzlFWlpVTVl3WGllU09QZnBMb2xCRkp6dHhjNlotdWZEc3NVbXBHS2Vfa2VadFF5TWR1UUU5YVU?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "AD HOC NEWS"
-       },
-       {
-        "title": "Can PEAK:AIO Buyout Give NetApp a Competitive Edge in AI-Scale Storage? - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ0ZPSEU3VjdDOUlpTXBGd09rTUY5aDB1ZTA2eDVMbjdrc19oTVRaRGRUa2NSbVRvaDVxczFuS3RRWER1LWJHU2h6M1BwVktESjRYbmZ4UmJ6Q0J1aC1oLTFpdHZLYV9CVVRqWXhOaEhvaXZYRTQxenhyVEk1TjVYbDFycElwSU9VYXF0cEpDZDBaQWVkZ2FFakdpRnl6amc?oc=5",
-        "date": "Mon, 28 Sep 2026",
-        "source": "Yahoo Finance"
-       },
-       {
-        "title": "NetApp: Risk/Reward Is Not Compelling At Current Levels - Seeking Alpha",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR01yV3pmZTJvTDdxNW8xbWNTYUFmNHdqX3FtVGFNMlF3ZGNTbHp3ZmYtRm14d3RqdUFvSnVXdXh6NDZ6S3hVSlczeG1YME5LLURhZnR2MTh0VWxEV1FjbjN6TjBsQ051MjdJTTl3WU5UbWNZLVNZNk5FdjlVZWU3Q3B6NmRUX1FZZUtoaHM3azNhQ0lJdXVkNUZSYUk4QU5qMzBaWUlGMmFKUQ?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Seeking Alpha"
-       },
-       {
-        "title": "Can NetApp (NTAP) Justify Its Valuation After Record Results And Higher Guidance? - simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTy1nM1FvODlhdnFDN0x1YkxhMG1SSlZseXNkeXVXVWJRcnhRbEh3Nzk3WHJoTHRUbzAzSGJoY1NFQUE2WjNqendSNll2Ty1ReEdfbjhrYmlrUW9RNTgtdmI2R2hNUHdwUUJaM3Y4OEVmQjZyay1qUHZuQzgxNUstd2Y4RGhXNEpLdkZtQXkzRkpLYjZzWXk2UmdYSUl0dXZVeDRTUjFWUnlDcDIzMS1FUldVclRSTXRxd0FmMDlR0gHDAUFVX3lxTE5rX0ROcDRpOVZieVdnMjRwM0J4bHd6dENtdHR0SmlMdkx5MEx6ZjdFRnhZR2dBMl9GY2tMN3gyM2w4cWxhMmEzbjBSdzZtOXducUVfbk5FMDd0V29Bcm4yX1VKRzBkMmdyRHA1bU92Mk1TODBJY3JhbWt1N3pseGswTlYwaWp1MnNHZWEzVFZuQTdaVUFHVVZzMVpJaWlLb3ZWc3dlZ2RHbHJmMkQ4cjdMZjVPRjBNcE55Z2g0UllYVUFuYw?oc=5",
-        "date": "Sat, 26 Sep 2026",
-        "source": "simplywall.st"
-       }
-      ],
-      "all_news": [
-       {
-        "title": "NetApp: Risk/Reward Is Not Compelling At Current Levels - Seeking Alpha",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR01yV3pmZTJvTDdxNW8xbWNTYUFmNHdqX3FtVGFNMlF3ZGNTbHp3ZmYtRm14d3RqdUFvSnVXdXh6NDZ6S3hVSlczeG1YME5LLURhZnR2MTh0VWxEV1FjbjN6TjBsQ051MjdJTTl3WU5UbWNZLVNZNk5FdjlVZWU3Q3B6NmRUX1FZZUtoaHM3azNhQ0lJdXVkNUZSYUk4QU5qMzBaWUlGMmFKUQ?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Seeking Alpha"
-       },
-       {
-        "title": "NetApp (NTAP) Shares Rise Following Launch of Novus Storage Arch - GuruFocus",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObjZibWlGc0hzLTBLWkVCRFhvOVY5Z00xRGRiWHNDbGZwOG9rMF8zX1ZrdG5YdFdxdllWb3FRZ0d4Z09PSEtnSDVhNHVyMzgyN19EdUFTalowc3hmY0xXM00xM1dOVF9LcGtaMzZOclQyWEZfVTQwNEhUaXExVHZsWTdpZWFyOFBNdC1VSmYtY3dhdnc4U1dwbk41RVN4N3o4U3lhZXBBaE43RFdUZVE?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "GuruFocus"
-       },
-       {
-        "title": "Can AI and Flash Demand Power NetApp's Raised FY27 Outlook? - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc1Q1QVF6X1VnbE9ZZTAtRlNrZ3FHYUFVdEdDLWVmY21qX2NVbFpFZkhWYmJlQ0tLcFl5dHE5MHFyLWtYSnVmM0xla0RZaUR2ZGhQdHAxQ2w5eHdmd25JT3NtQXNyczRETUpWbjlGRnd3V3ByejhkcmtjbTJzWHBmRFp4MHY4R2xUazhCOXdBazkwblp0S3c1ZA?oc=5",
-        "date": "Fri, 25 Sep 2026",
-        "source": "Yahoo Finance"
-       },
-       {
-        "title": "IBD Stock Of The Day: NetApp's AI-Powered Rally Faces Next Test - Investor's Business Daily",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWGFQdDRXczdBdXhzUkpqYUVWWkk1Z0VPT3EyUDItVmRjOTV6RnlocEpzaDlXRzRmZjkzV2lUY1F3elRLUF8wWXpZaXZlanNoZkFmTU5wS1g2RHZwVlUzZEVDWG1MOFl4X3pLekw4c2xERUNhejJzUmlxOVR2eWtSdVk2MlJBV2w0cHdTNTVoNGU?oc=5",
-        "date": "Mon, 28 Sep 2026",
-        "source": "Investor's Business Daily"
-       },
-       {
-        "title": "Can NetApp (NTAP) Justify Its Valuation After Record Results And Higher Guidance? - simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTy1nM1FvODlhdnFDN0x1YkxhMG1SSlZseXNkeXVXVWJRcnhRbEh3Nzk3WHJoTHRUbzAzSGJoY1NFQUE2WjNqendSNll2Ty1ReEdfbjhrYmlrUW9RNTgtdmI2R2hNUHdwUUJaM3Y4OEVmQjZyay1qUHZuQzgxNUstd2Y4RGhXNEpLdkZtQXkzRkpLYjZzWXk2UmdYSUl0dXZVeDRTUjFWUnlDcDIzMS1FUldVclRSTXRxd0FmMDlR0gHDAUFVX3lxTE5rX0ROcDRpOVZieVdnMjRwM0J4bHd6dENtdHR0SmlMdkx5MEx6ZjdFRnhZR2dBMl9GY2tMN3gyM2w4cWxhMmEzbjBSdzZtOXducUVfbk5FMDd0V29Bcm4yX1VKRzBkMmdyRHA1bU92Mk1TODBJY3JhbWt1N3pseGswTlYwaWp1MnNHZWEzVFZuQTdaVUFHVVZzMVpJaWlLb3ZWc3dlZ2RHbHJmMkQ4cjdMZjVPRjBNcE55Z2g0UllYVUFuYw?oc=5",
-        "date": "Sat, 26 Sep 2026",
-        "source": "simplywall.st"
-       },
-       {
-        "title": "Seagate vs. NetApp: Which AI Data Storage Stock is the Smarter Bet? - TradingView",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd1ZIc3pHQ0NaQTluSG5yVTIyVGxxMjV3emY2MTlzYVdNdmtBdGpIWTJJMk5iRVNoX21mckRqSWZUXzVYVVhpbW5LVFM0a0NrTzB2cUp1cHJqUmpDeXlDZmpwdFREYVpvUkczTmJWSmtPS2hQYnZXX3B0dVFnMUJ2cGJVTm5Jc1N0Mmc1YkpyUC1mMEJQMnd0cElDSl9NTDdEeG9GUUlYUWhUSk9qcDNIVE80WXp1emR4WTlGdg?oc=5",
-        "date": "Tue, 29 Sep 2026",
-        "source": "TradingView"
-       },
-       {
-        "title": "NetApp stock reports 30.00 percent revenue growth in Q1 FY27 - AD HOC NEWS",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNODI1Zmg5cm1PWUhCb0pRSDZpcEZsNzBXcGFPdHlKNjJjckFManQxQXV5NUFwclZvNnBiWFA2MTJUOURXc3pZM0VMblV0a3Q0bmFBbFEzTzBfMlFSQ0NmRmY2My1lYy1IR0N4UDh6MW0yVXdNbnh2TTZac1cwR05iYnlnVUp6UmlLVzlFWlpVTVl3WGllU09QZnBMb2xCRkp6dHhjNlotdWZEc3NVbXBHS2Vfa2VadFF5TWR1UUU5YVU?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "AD HOC NEWS"
-       },
-       {
-        "title": "Can PEAK:AIO Buyout Give NetApp a Competitive Edge in AI-Scale Storage? - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ0ZPSEU3VjdDOUlpTXBGd09rTUY5aDB1ZTA2eDVMbjdrc19oTVRaRGRUa2NSbVRvaDVxczFuS3RRWER1LWJHU2h6M1BwVktESjRYbmZ4UmJ6Q0J1aC1oLTFpdHZLYV9CVVRqWXhOaEhvaXZYRTQxenhyVEk1TjVYbDFycElwSU9VYXF0cEpDZDBaQWVkZ2FFakdpRnl6amc?oc=5",
-        "date": "Mon, 28 Sep 2026",
-        "source": "Yahoo Finance"
-       }
-      ],
-      "model": "gemini-2.5-flash",
-      "judged_at": "2026-09-30 23:50"
-     }
-    },
-    {
-     "key": "8",
-     "name": "⑧ 本益比未過熱（<60倍）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "本益比 29.7 倍",
-     "starred": false
-    },
-    {
-     "key": "9",
-     "name": "⑨ 大盤上漲力道",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "創新高股比率僅 1.88%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 20 檔創高，大型股開始帶動",
-     "starred": true
-    }
-   ],
-   "score": 89,
-   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
-  }
- },
- {
-  "date": "2026-09-30",
-  "market": "美股",
-  "type": "買進候選",
-  "ticker": "HPE",
-  "name": "Hewlett Packard Enterprise",
-  "note": "檢核 79/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
-  "scorecard": {
-   "items": [
-    {
-     "key": "1",
-     "name": "① 股價突破近年來高價",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "收盤 63.89 創近 2 年新高",
-     "starred": true
-    },
-    {
-     "key": "2",
-     "name": "② 新高價位置（反彈幅度≥60%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 8%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-     "starred": true
-    },
-    {
-     "key": "3",
-     "name": "③ 過去獲利穩健成長（年均≥7%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近5年平均年成長 26%，成長年份占 67%",
-     "starred": false
-    },
-    {
-     "key": "4",
-     "name": "④ 最近1~2年獲利成長≥20%",
-     "grade": "X",
-     "symbol": "×",
-     "detail": "近四季獲利年增 -110%",
-     "starred": false
-    },
-    {
-     "key": "5",
-     "name": "⑤ 最近2~3季營收成長≥10%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近1期季營收年增 34%",
-     "starred": false
-    },
-    {
-     "key": "6",
-     "name": "⑥ 最近2~3季獲利成長≥20%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近1季獲利年增 512%",
-     "starred": true
-    },
-    {
-     "key": "7",
-     "name": "⑦ 未來獲利能否穩健成長",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "AI 判斷（僅供參考，請複核依據）：儘管搭上AI趨勢，但近期獲利波動劇烈，尚無法證明未來獲利能穩健成長。",
-     "starred": true,
-     "ai": {
-      "grade": "T",
-      "one_line": "儘管搭上AI趨勢，但近期獲利波動劇烈，尚無法證明未來獲利能穩健成長。",
-      "analysis": "公司近期營收與獲利雖大幅成長，並受惠於AI網路解決方案的結構性趨勢及大型訂單。然而，過去四季獲利年增率從-110%劇烈反彈至512%，顯示獲利穩定性不足。此外，有新聞指出「復甦有隱憂」，進一步增加了對其獲利穩健性的疑慮。因此，目前證據尚不足以判斷其未來獲利能否穩健成長。",
-      "risks": "獲利波動性高，AI訂單的持續性與穩定性。",
-      "sources": [
-       {
-        "title": "HPE boosts networking growth outlook, gets $1.2 billion AI order from cloud firm Vultr - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYWJLN3pOdTRaS09KVDZueFV4TVN0eGpEX3RrRmZYXzJMYVRiVEo1Sk5TRjRlSmJJOFRnenp3M1hpZ2lIajQxSFYtZ1ByS2lBR1JTa256X2R0YUZmMkkxYUo0Y3BQemY0cWk2V1FycEp3VGt0TFpoU2lzaFVTQzA2N3JUcFNkenFuYU53UlZYZVlEaGdZdkNJVnhmSzhmblpvcUNjcGlyV2p4dWxpMW80MENIRXVUSERIeFpxZ1hwQTQ?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Reuters"
-       },
-       {
-        "title": "Hewlett Packard Enterprise Raises AI Networking Outlook, Targets $800M in Juniper Synergies - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQT2VFVWV3Yi1xckJ4Q01RMFdWeFl6VEZXS0lrZ3dFNTVnckdDSVU0N0MxUHJ1YV9uNUFMRnNJQmF1aFhKLXViLVp6dmpVc0JLQmxsTEctLWNpUV9vVkVxamFFa25fNDkySzZvaVB1RDlFZHVBU1JDTWd0amdRdW1GVTBuT3Btd2ZzOElPZWkycVlPUVRxb05mSlVGaWtpSGFHVlE?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Yahoo Finance"
-       },
-       {
-        "title": "Hewlett Packard Enterprise Stock Soars to Fresh Record on Raised Revenue Targets, $1.2B Server Deal - Investopedia",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQXzNhb1RNUFZpQ3ZBUFNsVG54a3dCRjMyMVdxOFhtRjZmdXdLWDRTa2N0dFFDU0FCZkcwR2pjQVloREIzU0pucTNxMFBWMS1jakR5ZExOQjZheU55cmJUYlpKMXVadlFMc3dtSFZ0eXZ5cnctX3NjT1J6cy1scHh0b05Obm1XaDE3eFhqakVJaTViUW8wTHBucHlDam5FUlU4S1BHN3l1SG1wa2J3bEQ4?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Investopedia"
-       },
-       {
-        "title": "Hewlett Packard Enterprise: The Comeback Has A Catch (NYSE:HPE) - Seeking Alpha",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNblU0WERVVTRuVGVHM0xXSHFaaUxicU11V05zVnp3bWVEbTduTXFlR2lpQVM5SXV0SjBFNm5BY2FwbXotYW85eFpiSnNVakY0UmgtU2NoaU9wTWpZVkRCVWkzRXpOajFvOUJzdDdwS0UtOUpWVXEyQy1OOV9DZHg5emlwa3pDTy1nSnJNMkdkUkZqRHowWFdR?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Seeking Alpha"
-       }
-      ],
-      "all_news": [
-       {
-        "title": "HPE boosts networking growth outlook, gets $1.2 billion AI order from cloud firm Vultr - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYWJLN3pOdTRaS09KVDZueFV4TVN0eGpEX3RrRmZYXzJMYVRiVEo1Sk5TRjRlSmJJOFRnenp3M1hpZ2lIajQxSFYtZ1ByS2lBR1JTa256X2R0YUZmMkkxYUo0Y3BQemY0cWk2V1FycEp3VGt0TFpoU2lzaFVTQzA2N3JUcFNkenFuYU53UlZYZVlEaGdZdkNJVnhmSzhmblpvcUNjcGlyV2p4dWxpMW80MENIRXVUSERIeFpxZ1hwQTQ?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Reuters"
-       },
-       {
-        "title": "Hewlett Packard Enterprise Raises AI Networking Outlook, Targets $800M in Juniper Synergies - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQT2VFVWV3Yi1xckJ4Q01RMFdWeFl6VEZXS0lrZ3dFNTVnckdDSVU0N0MxUHJ1YV9uNUFMRnNJQmF1aFhKLXViLVp6dmpVc0JLQmxsTEctLWNpUV9vVkVxamFFa25fNDkySzZvaVB1RDlFZHVBU1JDTWd0amdRdW1GVTBuT3Btd2ZzOElPZWkycVlPUVRxb05mSlVGaWtpSGFHVlE?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Yahoo Finance"
-       },
-       {
-        "title": "Why Hewlett Packard Enterprise (HPE) Stock Is Up Today - stockstory.org",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUWQwUnJqOG10UXhXSERUc3BVYnBmbHdOeVgzb1p6cHFzcW5EYklJRno5aTNZamx3VnhMTUFOQlc0V3pKZXIxbFUzZjZrVHNSQm0wTFNCclBtbDRSYk04WVVvVklTUHJkcTBydnRpdXlncFdUNUFTR1V0UXM1dVV4M2NEdU41akJFZlI2N3NOeENmWDFtbFFzQ3ZQZGR2Nkw1a0RQblhqWkI0ZGtXUjI2NDJNVQ?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "stockstory.org"
-       },
-       {
-        "title": "Hewlett Packard Enterprise Stock Soars to Fresh Record on Raised Revenue Targets, $1.2B Server Deal - Investopedia",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQXzNhb1RNUFZpQ3ZBUFNsVG54a3dCRjMyMVdxOFhtRjZmdXdLWDRTa2N0dFFDU0FCZkcwR2pjQVloREIzU0pucTNxMFBWMS1jakR5ZExOQjZheU55cmJUYlpKMXVadlFMc3dtSFZ0eXZ5cnctX3NjT1J6cy1scHh0b05Obm1XaDE3eFhqakVJaTViUW8wTHBucHlDam5FUlU4S1BHN3l1SG1wa2J3bEQ4?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Investopedia"
-       },
-       {
-        "title": "Hewlett Packard Enterprise Raises AI Networking Outlook, Targets $800M in Juniper Synergies - MarketBeat",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZ0NfUmpTeVRNM3JJaUxhaWZ2U3paZVAwWk1KSGdITUIxdHlKX01OaXFCOGp4bGphU2ZSamNwV25BVjBJUHZNQjlQQVhab3doLWtGSlJKMFFZdTlMRkM5bTgyeldFVTE1WEV2TmxYY0FETHBUXzVySzFsM3AzS3NLV2JZZl9jY0tUMEZsS0lnMm15c0RodGlYNngtRHMwaEZJRk9DbGpBZXlHdEhZY1pvaGdhdllEbUI3cDU5RVhkWGdNLUU3OS1EZnV6NGl6d0NwRkx2U3lfam91SUt5Y0E2TldUOA?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "MarketBeat"
-       },
-       {
-        "title": "Hewlett Packard Enterprise (NYSE:HPE) Delivers High Growth and Improving Fundamentals - ChartMill",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVEtCbHRpdGNnMlRFSy16RkRvbTBhby1SYjIyLXBPb3g0OGJVcTBHWjAtWE9tM082d0NTRUtiMmVRT1IyVnZDTzdKYjdibnpycWJVZFdMQTdCNXFyeExDbzZod0dGREZ1X0o2bWdRQ0tCcHI2bUxuNXpkeWxuMEpURVQxNXpneWxiVzI0dmlxZEZoSnZPME45ZmcwTVhUbFpYTlFBMGI1LVNEcXEyRGxtUFdhQTNsVzBTQ0FWeTlKbUJKcUhBSFBOZ0tFQy0yUQ?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "ChartMill"
-       },
-       {
-        "title": "Hewlett Packard Enterprise Jumps 5% on AMD Order; Dell and Super Micro Barely Move - 24/7 Wall St.",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZXVITUlNRXdRbDUxTkFxeXZZVUdITHltcTlOUTFpaURDM1E5NFNRSG52enVkV29KTlJaWFdVMzRtcmhfRFJuMklJU2w0TlhRMjhLZG1URVpjZVVvZkNqMzcwTmNjRkQ3SG1JMEZMOVM2WGZYNGJuazl1bDhYT3BHQzVUWFhtcEhZR3hrN0lQeTVIbnRKWXBadkNXMHhkZ0hNY0dfamV3dnhpMTdpRGw3RTkyVGlDQmFBZFBsMHprMGk2QQ?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "24/7 Wall St."
-       },
-       {
-        "title": "Hewlett Packard Enterprise: The Comeback Has A Catch (NYSE:HPE) - Seeking Alpha",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNblU0WERVVTRuVGVHM0xXSHFaaUxicU11V05zVnp3bWVEbTduTXFlR2lpQVM5SXV0SjBFNm5BY2FwbXotYW85eFpiSnNVakY0UmgtU2NoaU9wTWpZVkRCVWkzRXpOajFvOUJzdDdwS0UtOUpWVXEyQy1OOV9DZHg5emlwa3pDTy1nSnJNMkdkUkZqRHowWFdR?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Seeking Alpha"
-       }
-      ],
-      "model": "gemini-2.5-flash",
-      "judged_at": "2026-09-30 23:51"
-     }
-    },
-    {
-     "key": "8",
-     "name": "⑧ 本益比未過熱（<60倍）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "本益比 32.9 倍",
-     "starred": false
-    },
-    {
-     "key": "9",
-     "name": "⑨ 大盤上漲力道",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "創新高股比率僅 1.88%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 20 檔創高，大型股開始帶動",
-     "starred": true
-    }
-   ],
-   "score": 79,
-   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-  }
- },
- {
-  "date": "2026-09-30",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "CRWD",
-  "name": "CrowdStrike",
-  "note": "剛黃金交叉，距3年收盤高 100.0%（K 86.15／D 85.22）"
- },
- {
-  "date": "2026-09-30",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "FTNT",
-  "name": "Fortinet",
-  "note": "準備交叉向上，距3年收盤高 100.0%（K 74.23／D 74.98）"
- },
- {
-  "date": "2026-09-30",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "RVTY",
-  "name": "Revvity",
-  "note": "準備交叉向上，距3年收盤高 100.0%（K 84.23／D 85.3）"
- },
- {
-  "date": "2026-09-30",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "TMO",
-  "name": "Thermo Fisher Scientific",
-  "note": "準備交叉向上，距3年收盤高 99.33%（K 85.67／D 87.48）"
- },
- {
-  "date": "2026-09-30",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "A",
-  "name": "Agilent Technologies",
-  "note": "準備交叉向上，距3年收盤高 98.34%（K 87.87／D 88.97）"
- },
- {
-  "date": "2026-09-30",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "MTD",
-  "name": "Mettler Toledo",
-  "note": "準備交叉向上，距3年收盤高 97.78%（K 85.77／D 86.47）"
- },
- {
-  "date": "2026-09-30",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "AME",
-  "name": "Ametek",
-  "note": "準備交叉向上，距3年收盤高 95.83%（K 81.08／D 81.48）"
- },
- {
-  "date": "2026-09-30",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "DDOG",
-  "name": "Datadog",
-  "note": "剛黃金交叉，距3年收盤高 95.04%（K 83.24／D 83.05）"
- },
- {
-  "date": "2026-09-29",
-  "market": "美股",
-  "type": "買進候選",
-  "ticker": "NTAP",
-  "name": "NetApp",
-  "note": "檢核 89/100，強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量",
-  "scorecard": {
-   "items": [
-    {
-     "key": "1",
-     "name": "① 股價突破近年來高價",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "收盤 209.18 創近 2 年新高",
-     "starred": true
-    },
-    {
-     "key": "2",
-     "name": "② 新高價位置（反彈幅度≥60%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 51%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-     "starred": true
-    },
-    {
-     "key": "3",
-     "name": "③ 過去獲利穩健成長（年均≥7%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近5年平均年成長 16%，成長年份占 100%",
-     "starred": false
-    },
-    {
-     "key": "4",
-     "name": "④ 最近1~2年獲利成長≥20%",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "近四季獲利年增 19%（接近 20% 門檻）",
-     "starred": false
-    },
-    {
-     "key": "5",
-     "name": "⑤ 最近2~3季營收成長≥10%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近1期季營收年增 30%",
-     "starred": false
-    },
-    {
-     "key": "6",
-     "name": "⑥ 最近2~3季獲利成長≥20%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近1季獲利年增 59%",
-     "starred": true
-    },
-    {
-     "key": "7",
-     "name": "⑦ 未來獲利能否穩健成長",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "AI 判斷（僅供參考，請複核依據）：企業在生成式與代理人AI趨勢下對AI資料引擎架構的需求激增，帶動儲存方案與主權資料雲端業務強勁成長。",
-     "starred": true,
-     "ai": {
-      "grade": "O",
-      "one_line": "企業在生成式與代理人AI趨勢下對AI資料引擎架構的需求激增，帶動儲存方案與主權資料雲端業務強勁成長。",
-      "analysis": "公司長期獲利能力穩定且近期顯著加速，近5年年均成長16%且100%年份實現成長，最新一季營收與獲利分別大增30%與59%，並繳出創紀錄業績與調升財測。此成長並非景氣循環，而是受惠於企業AI資料基礎架構的結構性升級，公司新推出的Novus儲存架構與AI資料引擎切入Agentic AI需求。同時，Keystone Sovereign鎖定歐洲受監管市場，擴大高門檻合規領域的市占與商業化版圖。",
-      "risks": "股價大漲後估值偏高帶來回檔壓力，以及AI儲存市場競爭加劇與需求能否長期持續的考驗。",
-      "sources": [
-       {
-        "title": "NetApp Unveils Novus, AI Data Engine Upgrades to Power Agentic AI - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRDdLaTVTXzA5WDRSUWpCU2E3MTlabXRsQWR1RFg4QmRvcTVydFRoQmR3WklOZEw4SG4tb2tmRUMxaGlmM0VzWkR0Y2liM0t2OGhMNnp5RzlncHh3Ri1ndTFBb09SbGh3eHpKYW83b2lMWXdneGYxVG1YQ01FMUNRVmw0bGFvT3kwdGh0WnByMVdMOFMxaExv?oc=5",
-        "date": "Thu, 01 Oct 2026",
-        "source": "Yahoo Finance"
-       },
-       {
-        "title": "Why NetApp’s AI Push Has BofA Raising Its NTAP Price Target - Stocktwits",
-        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQd0hORG13Zk4yWVNnWFJ6VG9hMVQ2MHdIY0dTQ3d4OUpTSVNzREFVdHEtdzY2Y0RjbXVLVXpSV0laZ0NiZ1NqdGNBbGJVUEVaNTl4UndKTzlpN2htWXFwYjBqWllDek9MUENOVDF3STVuQWVwV3Fxdlg0dmJhb1gxSjZOdFFHaDhZdE1yLVB4QkZNbkhGbEw2RmVnQ0JyNmpLaDhtYTV2bkFSemZJTFh5S1RHYlJ3NDNQb1EyajBsUUo2UEF3amExY0pkWXdBRFVkS29jOXZ4OEdGT25aZnBEdEJnY0ZWZzUzTEcwRTZCc0s?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Stocktwits"
-       },
-       {
-        "title": "NetApp (NTAP) Shares Rise Following Launch of Novus Storage Arch - GuruFocus",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObjZibWlGc0hzLTBLWkVCRFhvOVY5Z00xRGRiWHNDbGZwOG9rMF8zX1ZrdG5YdFdxdllWb3FRZ0d4Z09PSEtnSDVhNHVyMzgyN19EdUFTalowc3hmY0xXM00xM1dOVF9LcGtaMzZOclQyWEZfVTQwNEhUaXExVHZsWTdpZWFyOFBNdC1VSmYtY3dhdnc4U1dwbk41RVN4N3o4U3lhZXBBaE43RFdUZVE?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "GuruFocus"
-       },
-       {
-        "title": "NetApp's Keystone Sovereign Targets Europe's Regulated Data Market - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdFZfaGM4SS1RVmcyV3dxZzNVMnRYbWlnNXBCQkxPSkFyXy1NbmtlYndZTjN0MkF5UVFRMEVPU1YxdHM5WUt0eDRLRTVKdUZTV1NKbndLNHhTVGxfeGJMWVZoa0FXMzJSS256SnJvY0Fkd3FrS2g0T08tRDVLcHNsTEpUdllIVUE0SDU1ZU9tQUs0X3NMcTdmZ1p3VjNQNGtRR3VkVDFR?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Yahoo Finance"
-       },
-       {
-        "title": "Can NetApp (NTAP) Justify Its Valuation After Record Results And Higher Guidance? - simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTy1nM1FvODlhdnFDN0x1YkxhMG1SSlZseXNkeXVXVWJRcnhRbEh3Nzk3WHJoTHRUbzAzSGJoY1NFQUE2WjNqendSNll2Ty1ReEdfbjhrYmlrUW9RNTgtdmI2R2hNUHdwUUJaM3Y4OEVmQjZyay1qUHZuQzgxNUstd2Y4RGhXNEpLdkZtQXkzRkpLYjZzWXk2UmdYSUl0dXZVeDRTUjFWUnlDcDIzMS1FUldVclRSTXRxd0FmMDlR0gHDAUFVX3lxTE5rX0ROcDRpOVZieVdnMjRwM0J4bHd6dENtdHR0SmlMdkx5MEx6ZjdFRnhZR2dBMl9GY2tMN3gyM2w4cWxhMmEzbjBSdzZtOXducUVfbk5FMDd0V29Bcm4yX1VKRzBkMmdyRHA1bU92Mk1TODBJY3JhbWt1N3pseGswTlYwaWp1MnNHZWEzVFZuQTdaVUFHVVZzMVpJaWlLb3ZWc3dlZ2RHbHJmMkQ4cjdMZjVPRjBNcE55Z2g0UllYVUFuYw?oc=5",
-        "date": "Sat, 26 Sep 2026",
-        "source": "simplywall.st"
-       }
-      ],
-      "all_news": [
-       {
-        "title": "NetApp Unveils Novus, AI Data Engine Upgrades to Power Agentic AI - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRDdLaTVTXzA5WDRSUWpCU2E3MTlabXRsQWR1RFg4QmRvcTVydFRoQmR3WklOZEw4SG4tb2tmRUMxaGlmM0VzWkR0Y2liM0t2OGhMNnp5RzlncHh3Ri1ndTFBb09SbGh3eHpKYW83b2lMWXdneGYxVG1YQ01FMUNRVmw0bGFvT3kwdGh0WnByMVdMOFMxaExv?oc=5",
-        "date": "Thu, 01 Oct 2026",
-        "source": "Yahoo Finance"
-       },
-       {
-        "title": "Why NetApp’s AI Push Has BofA Raising Its NTAP Price Target - Stocktwits",
-        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQd0hORG13Zk4yWVNnWFJ6VG9hMVQ2MHdIY0dTQ3d4OUpTSVNzREFVdHEtdzY2Y0RjbXVLVXpSV0laZ0NiZ1NqdGNBbGJVUEVaNTl4UndKTzlpN2htWXFwYjBqWllDek9MUENOVDF3STVuQWVwV3Fxdlg0dmJhb1gxSjZOdFFHaDhZdE1yLVB4QkZNbkhGbEw2RmVnQ0JyNmpLaDhtYTV2bkFSemZJTFh5S1RHYlJ3NDNQb1EyajBsUUo2UEF3amExY0pkWXdBRFVkS29jOXZ4OEdGT25aZnBEdEJnY0ZWZzUzTEcwRTZCc0s?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Stocktwits"
-       },
-       {
-        "title": "NetApp: Risk/Reward Is Not Compelling At Current Levels - Seeking Alpha",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR01yV3pmZTJvTDdxNW8xbWNTYUFmNHdqX3FtVGFNMlF3ZGNTbHp3ZmYtRm14d3RqdUFvSnVXdXh6NDZ6S3hVSlczeG1YME5LLURhZnR2MTh0VWxEV1FjbjN6TjBsQ051MjdJTTl3WU5UbWNZLVNZNk5FdjlVZWU3Q3B6NmRUX1FZZUtoaHM3azNhQ0lJdXVkNUZSYUk4QU5qMzBaWUlGMmFKUQ?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Seeking Alpha"
-       },
-       {
-        "title": "NetApp (NTAP) Shares Rise Following Launch of Novus Storage Arch - GuruFocus",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObjZibWlGc0hzLTBLWkVCRFhvOVY5Z00xRGRiWHNDbGZwOG9rMF8zX1ZrdG5YdFdxdllWb3FRZ0d4Z09PSEtnSDVhNHVyMzgyN19EdUFTalowc3hmY0xXM00xM1dOVF9LcGtaMzZOclQyWEZfVTQwNEhUaXExVHZsWTdpZWFyOFBNdC1VSmYtY3dhdnc4U1dwbk41RVN4N3o4U3lhZXBBaE43RFdUZVE?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "GuruFocus"
-       },
-       {
-        "title": "IBD Stock Of The Day: NetApp's AI-Powered Rally Faces Next Test - Investor's Business Daily",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWGFQdDRXczdBdXhzUkpqYUVWWkk1Z0VPT3EyUDItVmRjOTV6RnlocEpzaDlXRzRmZjkzV2lUY1F3elRLUF8wWXpZaXZlanNoZkFmTU5wS1g2RHZwVlUzZEVDWG1MOFl4X3pLekw4c2xERUNhejJzUmlxOVR2eWtSdVk2MlJBV2w0cHdTNTVoNGU?oc=5",
-        "date": "Mon, 28 Sep 2026",
-        "source": "Investor's Business Daily"
-       },
-       {
-        "title": "NetApp's Keystone Sovereign Targets Europe's Regulated Data Market - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdFZfaGM4SS1RVmcyV3dxZzNVMnRYbWlnNXBCQkxPSkFyXy1NbmtlYndZTjN0MkF5UVFRMEVPU1YxdHM5WUt0eDRLRTVKdUZTV1NKbndLNHhTVGxfeGJMWVZoa0FXMzJSS256SnJvY0Fkd3FrS2g0T08tRDVLcHNsTEpUdllIVUE0SDU1ZU9tQUs0X3NMcTdmZ1p3VjNQNGtRR3VkVDFR?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Yahoo Finance"
-       },
-       {
-        "title": "Can NetApp (NTAP) Justify Its Valuation After Record Results And Higher Guidance? - simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTy1nM1FvODlhdnFDN0x1YkxhMG1SSlZseXNkeXVXVWJRcnhRbEh3Nzk3WHJoTHRUbzAzSGJoY1NFQUE2WjNqendSNll2Ty1ReEdfbjhrYmlrUW9RNTgtdmI2R2hNUHdwUUJaM3Y4OEVmQjZyay1qUHZuQzgxNUstd2Y4RGhXNEpLdkZtQXkzRkpLYjZzWXk2UmdYSUl0dXZVeDRTUjFWUnlDcDIzMS1FUldVclRSTXRxd0FmMDlR0gHDAUFVX3lxTE5rX0ROcDRpOVZieVdnMjRwM0J4bHd6dENtdHR0SmlMdkx5MEx6ZjdFRnhZR2dBMl9GY2tMN3gyM2w4cWxhMmEzbjBSdzZtOXducUVfbk5FMDd0V29Bcm4yX1VKRzBkMmdyRHA1bU92Mk1TODBJY3JhbWt1N3pseGswTlYwaWp1MnNHZWEzVFZuQTdaVUFHVVZzMVpJaWlLb3ZWc3dlZ2RHbHJmMkQ4cjdMZjVPRjBNcE55Z2g0UllYVUFuYw?oc=5",
-        "date": "Sat, 26 Sep 2026",
-        "source": "simplywall.st"
-       },
-       {
-        "title": "Seagate vs. NetApp: Which AI Data Storage Stock is the Smarter Bet? - TradingView",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd1ZIc3pHQ0NaQTluSG5yVTIyVGxxMjV3emY2MTlzYVdNdmtBdGpIWTJJMk5iRVNoX21mckRqSWZUXzVYVVhpbW5LVFM0a0NrTzB2cUp1cHJqUmpDeXlDZmpwdFREYVpvUkczTmJWSmtPS2hQYnZXX3B0dVFnMUJ2cGJVTm5Jc1N0Mmc1YkpyUC1mMEJQMnd0cElDSl9NTDdEeG9GUUlYUWhUSk9qcDNIVE80WXp1emR4WTlGdg?oc=5",
-        "date": "Tue, 29 Sep 2026",
-        "source": "TradingView"
-       }
-      ],
-      "model": "gemini-flash-latest",
-      "judged_at": "2026-10-01 01:24"
-     }
-    },
-    {
-     "key": "8",
-     "name": "⑧ 本益比未過熱（<60倍）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "本益比 29.7 倍",
-     "starred": false
-    },
-    {
-     "key": "9",
-     "name": "⑨ 大盤上漲力道",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "創新高股比率僅 1.82%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 20 檔創高，大型股開始帶動",
-     "starred": true
-    }
-   ],
-   "score": 89,
-   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
-  }
- },
- {
-  "date": "2026-09-29",
-  "market": "美股",
-  "type": "買進候選",
-  "ticker": "TMO",
-  "name": "Thermo Fisher Scientific",
-  "note": "檢核 64/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
-  "scorecard": {
-   "items": [
-    {
-     "key": "1",
-     "name": "① 股價突破近年來高價",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "收盤 679.61 創近 2 年新高",
-     "starred": true
-    },
-    {
-     "key": "2",
-     "name": "② 新高價位置（反彈幅度≥60%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 75%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-     "starred": true
-    },
-    {
-     "key": "3",
-     "name": "③ 過去獲利穩健成長（年均≥7%）",
-     "grade": "X",
-     "symbol": "×",
-     "detail": "近4年平均年成長 -1%，成長年份占 67%",
-     "starred": false
-    },
-    {
-     "key": "4",
-     "name": "④ 最近1~2年獲利成長≥20%",
-     "grade": "X",
-     "symbol": "×",
-     "detail": "近四季獲利年增 4%",
-     "starred": false
-    },
-    {
-     "key": "5",
-     "name": "⑤ 最近2~3季營收成長≥10%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近1期季營收年增 11%",
-     "starred": false
-    },
-    {
-     "key": "6",
-     "name": "⑥ 最近2~3季獲利成長≥20%",
-     "grade": "X",
-     "symbol": "×",
-     "detail": "近1季獲利年增 13%",
-     "starred": true
-    },
-    {
-     "key": "7",
-     "name": "⑦ 未來獲利能否穩健成長",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "AI 判斷（僅供參考，請複核依據）：藉由拓展蛋白質組學新產品平台及掌握印度生技製藥研發與製造的結構性擴張，帶動有機成長穩健向上。",
-     "starred": true,
-     "ai": {
-      "grade": "O",
-      "one_line": "藉由拓展蛋白質組學新產品平台及掌握印度生技製藥研發與製造的結構性擴張，帶動有機成長穩健向上。",
-      "analysis": "公司近期營運動能顯著回溫，近1期季營收與獲利年增率分別達到 11% 與 13%，且調升了 2026 年展望。成長並非僅仰賴週期波動，而是來自具體的結構性布局，包含推出蛋白質組學新分離平台深化技術優勢，以及瞄準印度生醫市場快速發展而鎖定 15%-20% 的客戶成長。德意志銀行亦評估其通往 2028 年的成長基石穩固，顯示其具備清晰且長期的結構性成長動能。",
-      "risks": "印度等新興市場擴張進度不如預期，以及高階研發工具市場競爭加劇或生醫研發支出放緩。",
-      "sources": [
-       {
-        "title": "Thermo Fisher Scientific's Building Blocks to 2028 Growth 'Fundamentally Sound,' Deutsche Bank Says - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY2NSQmUzSUZxQ1RMR2NfeXp0QjRFaUZVeWFfMUFhVlJiVVBZdlVjOW56YWRLeTg1aTVSOVdYNGZKOG5rSUowWVJMcl9uczNDWjZLamxXQ1VfRXNaV2R3SjNjWXBqY3lGWnNEZkxEWGkxdS0wN3dJZlRTS3NScXVfSFFKRUVPUFlEaExXeGJJOEJmSnVxRlhhUHhiQjZfbzM0ZzFYWjlB?oc=5",
-        "date": "Fri, 25 Sep 2026",
-        "source": "Yahoo Finance"
-       },
-       {
-        "title": "Thermo Fisher Scientific (TMO) Adds New Separation Platform To Its Proteomics Toolkit - simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcGgzTnFJQjNBVklldkJBSDNrX1hWTXFpRENfQjhIY2RhTFZaQjBIRVlmSFI4TGh3dFFNMkxaTy1ndUo1RVM5VjQySFo5TmtUQUR3aGhoaGdvOUJUV2YwY0IxMGk1ZTZQcnJacnFlQjg2cUQ1OHV4TFlFQXF1T3FnVzJPWDhwdzUwWlp4UVg3N1VLbmFwYW5NYS1SYmJEY1IyOVFUUzBTVmxkWU5hSlJDLXh6SXppMFRreXB2NGZFSTAzdEw4emlsRXljYndVR0pPbk14QjdtcUZteTl5MG9lRHZPU3lZbFZnTF8zcUhYb0LSAfABQVVfeXFMT3BoM05xSUIzQVZJZXZCQUgza19YVk1xaURDX0I4SGNkYUxWWkIwSEVZZkhSOExod3RRTTJMWk8tZ3VKNUVTOVY0MkhaOU5rVEFEd2hoaGhnbzlCVFdmMGNCMTBpNWU2UHJyWnJxZUI4NnFENTh1eExZRUFxdU9xZ1cyT1g4cHc1MFpaeFFYNzdVS25hcGFuTWEtUmJiRGNSMjlRVFMwU1ZsZFlOYUpSQy14ekl6aTBUa3lwdjRmRUkwM3RMOHppbEV5Y2J3VUdKT25NeEI3bXFGbXk5eTBvZUR2T1N5WWxWZ0xfM3FIWG9C?oc=5",
-        "date": "Tue, 29 Sep 2026",
-        "source": "simplywall.st"
-       },
-       {
-        "title": "Thermo Fisher Scientific (NYSE:TMO) Stock: Faster Organic Growth Lifts Its 2026 Outlook - kalkine.ca",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeWk2d1BnYVlhbEJsejVPaDRQNnRGS3pIeUQ3OS1YMkkxaWtNUmE4X2l0TXkySGZkRExUTTBGejljN2Zfd3JWTEszeHZSQ1dQdlE5TFlQMDBkRXJ4WTYzRS1DaWRhMVlpcERfbmdzN1Z3a3V2bGQxNUNhMG1ZSUM5a2c3eGctd09PNUMtczg2Zldtdk5DTkdCWnRFRG5Cc0ZNekt4di1RRHNuTDBpSm5zR0RzSC04VGItTHc?oc=5",
-        "date": "Tue, 29 Sep 2026",
-        "source": "kalkine.ca"
-       },
-       {
-        "title": "Thermo Fisher eyes 15%-20% India customer growth on biopharma research, manufacturing boost - reuters.com",
-        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZmFFNFBZdGFlNVF5TktSUGVpX3hxRm5HT1IxaFdsSlVRNm81Uy1DaHpfc0lGR1BXTnNNTXN0OEZQdTljekRRckMxd25YbVU5RVFKaEF3M1BVemd1YjdpQ1p6NUZIRXR3WWVxNXNFNHc0UnVjZXE4eWlZd29IU2RNczFaR191eEFkNmlPZWp3c2dCMmp6NEhMWHhxVzVmVDl6cXJaRGtSbC1YaXByOUViQXB1WmRPUUg1MnJUSXZCcGtGZ3djRS1QdUpPYlF0Z3ZEcDFvTHpXYTZjeGVMdjNJT3p4OFk2dw?oc=5",
-        "date": "Mon, 10 Aug 2026",
-        "source": "reuters.com"
-       },
-       {
-        "title": "Thermo Fisher Scientific stock raises guidance and trades at EUR 596.90 - AD HOC NEWS",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVHdRLVhMa1ItTy1Ma3QyRC1pSVd0VGRmQllPT0MyWm5pWG1IUEpJNnFodXZVOXBzQlZGdWp4TXBQOFZHa0NsTGhvbUhhVTZwSWQybXlTS3JkSjhfS25rWWRtek9kOFJ2VlNhUDhzYWlKdlJUU080V1hzR2htaTlUWkhBdkNBaDVQMjlzb2pmTlROcUVlV2xNcHJMYnoyUTgxVThTanJ4dHREcUlUVkdIckp2MHN0ckpMMHJaMGdadGhXZ19Tc2RyZXk1ZWZsYUk?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "AD HOC NEWS"
-       }
-      ],
-      "all_news": [
-       {
-        "title": "Thermo Fisher Scientific to Hold Earnings Conference Call on Wednesday, October 21, 2026 - Business Wire",
-        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdnRZalpUN1NETmJocGZYNVBRbjNfa21MX0JURkR0TnZEaGp0QmRFS3o1ZUpKYmhMd2pkc0gzNTlubkE5UmZEdVJVSVlkVkFJSGVVYllWb3lWVkp1T2gyMmFKUFdURFc2QUJaRDBVbHpTbVRUSllCb1I5ekRuR0VBbUlnVTR2bmhVOHFodGRzN2xJQXpweW1lT0JScGw4b1B5SGtjTXd6ZHpicko5ODBFU3VkaHI2QVFDWncwWW9nWk1ZOWoyTC1IZmd2d2c2bXhNSzNYVVJEV2FjQTg?oc=5",
-        "date": "Mon, 28 Sep 2026",
-        "source": "Business Wire"
-       },
-       {
-        "title": "Thermo Fisher Scientific's Building Blocks to 2028 Growth 'Fundamentally Sound,' Deutsche Bank Says - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY2NSQmUzSUZxQ1RMR2NfeXp0QjRFaUZVeWFfMUFhVlJiVVBZdlVjOW56YWRLeTg1aTVSOVdYNGZKOG5rSUowWVJMcl9uczNDWjZLamxXQ1VfRXNaV2R3SjNjWXBqY3lGWnNEZkxEWGkxdS0wN3dJZlRTS3NScXVfSFFKRUVPUFlEaExXeGJJOEJmSnVxRlhhUHhiQjZfbzM0ZzFYWjlB?oc=5",
-        "date": "Fri, 25 Sep 2026",
-        "source": "Yahoo Finance"
-       },
-       {
-        "title": "Press Release: Thermo Fisher Scientific to Hold Earnings Conference Call on Wednesday, October 21, 2026 - Moomoo",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZFFGUGY4cU9vLTYzSVAzRVJSbTBqX1B6SVZNUnZvc0J2TmptXzAycU1CNWZNVTB5UXl6NUwxcFR4YWNyRWhlSlFUakVSdGUzWUNMUWQyU25IbC1qMU5WWmktWXl6UXlmMTNRbmpQbFpIbm5rcXJrc0ZLd3VDbVVvNDlncVBtZWhvanVHTUp4ajZONnpYODZ3WVhZdEtoTnpBVmNDVEdjM3BhRGZkTFNoVGpnNHR2UQ?oc=5",
-        "date": "Mon, 28 Sep 2026",
-        "source": "Moomoo"
-       },
-       {
-        "title": "Thermo Fisher Scientific (TMO) Adds New Separation Platform To Its Proteomics Toolkit - simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcGgzTnFJQjNBVklldkJBSDNrX1hWTXFpRENfQjhIY2RhTFZaQjBIRVlmSFI4TGh3dFFNMkxaTy1ndUo1RVM5VjQySFo5TmtUQUR3aGhoaGdvOUJUV2YwY0IxMGk1ZTZQcnJacnFlQjg2cUQ1OHV4TFlFQXF1T3FnVzJPWDhwdzUwWlp4UVg3N1VLbmFwYW5NYS1SYmJEY1IyOVFUUzBTVmxkWU5hSlJDLXh6SXppMFRreXB2NGZFSTAzdEw4emlsRXljYndVR0pPbk14QjdtcUZteTl5MG9lRHZPU3lZbFZnTF8zcUhYb0LSAfABQVVfeXFMT3BoM05xSUIzQVZJZXZCQUgza19YVk1xaURDX0I4SGNkYUxWWkIwSEVZZkhSOExod3RRTTJMWk8tZ3VKNUVTOVY0MkhaOU5rVEFEd2hoaGhnbzlCVFdmMGNCMTBpNWU2UHJyWnJxZUI4NnFENTh1eExZRUFxdU9xZ1cyT1g4cHc1MFpaeFFYNzdVS25hcGFuTWEtUmJiRGNSMjlRVFMwU1ZsZFlOYUpSQy14ekl6aTBUa3lwdjRmRUkwM3RMOHppbEV5Y2J3VUdKT25NeEI3bXFGbXk5eTBvZUR2T1N5WWxWZ0xfM3FIWG9C?oc=5",
-        "date": "Tue, 29 Sep 2026",
-        "source": "simplywall.st"
-       },
-       {
-        "title": "Thermo Fisher Scientific (NYSE:TMO) Stock: Faster Organic Growth Lifts Its 2026 Outlook - kalkine.ca",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeWk2d1BnYVlhbEJsejVPaDRQNnRGS3pIeUQ3OS1YMkkxaWtNUmE4X2l0TXkySGZkRExUTTBGejljN2Zfd3JWTEszeHZSQ1dQdlE5TFlQMDBkRXJ4WTYzRS1DaWRhMVlpcERfbmdzN1Z3a3V2bGQxNUNhMG1ZSUM5a2c3eGctd09PNUMtczg2Zldtdk5DTkdCWnRFRG5Cc0ZNekt4di1RRHNuTDBpSm5zR0RzSC04VGItTHc?oc=5",
-        "date": "Tue, 29 Sep 2026",
-        "source": "kalkine.ca"
-       },
-       {
-        "title": "Thermo Fisher eyes 15%-20% India customer growth on biopharma research, manufacturing boost - reuters.com",
-        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZmFFNFBZdGFlNVF5TktSUGVpX3hxRm5HT1IxaFdsSlVRNm81Uy1DaHpfc0lGR1BXTnNNTXN0OEZQdTljekRRckMxd25YbVU5RVFKaEF3M1BVemd1YjdpQ1p6NUZIRXR3WWVxNXNFNHc0UnVjZXE4eWlZd29IU2RNczFaR191eEFkNmlPZWp3c2dCMmp6NEhMWHhxVzVmVDl6cXJaRGtSbC1YaXByOUViQXB1WmRPUUg1MnJUSXZCcGtGZ3djRS1QdUpPYlF0Z3ZEcDFvTHpXYTZjeGVMdjNJT3p4OFk2dw?oc=5",
-        "date": "Mon, 10 Aug 2026",
-        "source": "reuters.com"
-       },
-       {
-        "title": "Thermo Fisher Scientific stock raises guidance and trades at EUR 596.90 - AD HOC NEWS",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVHdRLVhMa1ItTy1Ma3QyRC1pSVd0VGRmQllPT0MyWm5pWG1IUEpJNnFodXZVOXBzQlZGdWp4TXBQOFZHa0NsTGhvbUhhVTZwSWQybXlTS3JkSjhfS25rWWRtek9kOFJ2VlNhUDhzYWlKdlJUU080V1hzR2htaTlUWkhBdkNBaDVQMjlzb2pmTlROcUVlV2xNcHJMYnoyUTgxVThTanJ4dHREcUlUVkdIckp2MHN0ckpMMHJaMGdadGhXZ19Tc2RyZXk1ZWZsYUk?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "AD HOC NEWS"
-       },
-       {
-        "title": "Here's How Much a $1000 Investment in Thermo Fisher Scientific Made 10 Years Ago Would Be Worth Today - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQN0kxbmtnWUJyU0FyRGVOYlo1WkFCQzY0MWdRQjE4THBCT05Eb1RuQ0h6Sk5YM0lKYWt5UDZhamxDb3ZhN3lKTEJDalF1bi16b3VEYjBHNUZxMGlLYmlKdEUxbDB6TUlldGk4dWN0OUE0MkdMZllIaWg5RE9aanNzQWFsN3Q2UjJDazc2RVhHT1RHZUQxcnppcXdwSHlQLW8?oc=5",
-        "date": "Fri, 25 Sep 2026",
-        "source": "Yahoo Finance"
-       }
-      ],
-      "model": "gemini-flash-latest",
-      "judged_at": "2026-10-01 01:25"
-     }
-    },
-    {
-     "key": "8",
-     "name": "⑧ 本益比未過熱（<60倍）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "本益比 36.4 倍",
-     "starred": false
-    },
-    {
-     "key": "9",
-     "name": "⑨ 大盤上漲力道",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "創新高股比率僅 1.82%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 20 檔創高，大型股開始帶動",
-     "starred": true
-    }
-   ],
-   "score": 64,
-   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-  }
- },
- {
-  "date": "2026-09-29",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "CRWD",
-  "name": "CrowdStrike",
-  "note": "準備交叉向上，距3年收盤高 100.0%（K 84.74／D 84.75）"
- },
- {
-  "date": "2026-09-29",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "GILD",
-  "name": "Gilead Sciences",
-  "note": "準備交叉向上，距3年收盤高 98.29%（K 68.27／D 69.84）"
- },
- {
-  "date": "2026-09-29",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "EXPD",
-  "name": "Expeditors International",
-  "note": "剛黃金交叉，距3年收盤高 97.04%（K 41.24／D 40.68）"
- },
- {
-  "date": "2026-09-29",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "MRK",
-  "name": "Merck & Co.",
-  "note": "準備交叉向上，距3年收盤高 95.42%（K 52.83／D 54.35）"
- },
- {
-  "date": "2026-09-30",
-  "market": "美股",
-  "type": "買進候選",
-  "ticker": "NTAP",
-  "name": "NetApp",
-  "note": "檢核 89/100，強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量",
-  "scorecard": {
-   "items": [
-    {
-     "key": "1",
-     "name": "① 股價突破近年來高價",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "收盤 210.08 創近 2 年新高",
-     "starred": true
-    },
-    {
-     "key": "2",
-     "name": "② 新高價位置（反彈幅度≥60%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 51%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-     "starred": true
-    },
-    {
-     "key": "3",
-     "name": "③ 過去獲利穩健成長（年均≥7%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近5年平均年成長 16%，成長年份占 100%",
-     "starred": false
-    },
-    {
-     "key": "4",
-     "name": "④ 最近1~2年獲利成長≥20%",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "近四季獲利年增 19%（接近 20% 門檻）",
-     "starred": false
-    },
-    {
-     "key": "5",
-     "name": "⑤ 最近2~3季營收成長≥10%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近1期季營收年增 30%",
-     "starred": false
-    },
-    {
-     "key": "6",
-     "name": "⑥ 最近2~3季獲利成長≥20%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近1季獲利年增 59%",
-     "starred": true
-    },
-    {
-     "key": "7",
-     "name": "⑦ 未來獲利能否穩健成長",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "AI 判斷（僅供參考，請複核依據）：NetApp的未來獲利將穩健成長，主要受惠於其在AI數據基礎設施市場的戰略佈局與新產品推出。",
-     "starred": true,
-     "ai": {
-      "grade": "O",
-      "one_line": "NetApp的未來獲利將穩健成長，主要受惠於其在AI數據基礎設施市場的戰略佈局與新產品推出。",
-      "analysis": "NetApp近期營運數字顯示強勁成長，最新一季營收年增30%、獲利年增59%，為未來成長奠定基礎。多則新聞標題明確指出公司正積極投入AI數據引擎與儲存解決方案，例如推出Novus，這反映了對AI產業結構性變化的掌握。公司針對AI市場的戰略佈局，以及拓展歐洲受監管數據市場的Keystone Sovereign，均為結構性成長動能。這些證據表明NetApp的成長並非僅來自景氣循環，而是源於對新興技術趨勢的掌握與市場拓展。",
-      "risks": [
-       "市場對其當前估值存在疑慮，可能限制股價上漲空間。",
-       "AI數據儲存市場競爭激烈，公司需持續創新以維持領先地位。"
-      ],
-      "sources": [
-       {
-        "title": "NetApp Unveils Novus, AI Data Engine Upgrades to Power Agentic AI - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRDdLaTVTXzA5WDRSUWpCU2E3MTlabXRsQWR1RFg4QmRvcTVydFRoQmR3WklOZEw4SG4tb2tmRUMxaGlmM0VzWkR0Y2liM0t2OGhMNnp5RzlncHh3Ri1ndTFBb09SbGh3eHpKYW83b2lMWXdneGYxVG1YQ01FMUNRVmw0bGFvT3kwdGh0WnByMVdMOFMxaExv?oc=5",
-        "date": "Thu, 01 Oct 2026",
-        "source": "Yahoo Finance"
-       },
-       {
-        "title": "Why NetApp’s AI Push Has BofA Raising Its NTAP Price Target - Stocktwits",
-        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQd0hORG13Zk4yWVNnWFJ6VG9hMVQ2MHdIY0dTQ3d4OUpTSVNzREFVdHEtdzY2Y0RjbXVLVXpSV0laZ0NiZ1NqdGNBbGJVUEVaNTl4UndKTzlpN2htWXFwYjBqWllDek9MUENOVDF3STVuQWVwV3Fxdlg0dmJhb1gxSjZOdFFHaDhZdE1yLVB4QkZNbkhGbEw2RmVnQ0JyNmpLaDhtYTV2bkFSemZJTFh5S1RHYlJ3NDNQb1EyajBsUUo2UEF3amExY0pkWXdBRFVkS29jOXZ4OEdGT25aZnBEdEJnY0ZWZzUzTEcwRTZCc0s?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Stocktwits"
-       },
-       {
-        "title": "NetApp (NTAP) Shares Rise Following Launch of Novus Storage Arch - GuruFocus",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObjZibWlGc0hzLTBLWkVCRFhvOVY5Z00xRGRiWHNDbGZwOG9rMF8zX1ZrdG5YdFdxdllWb3FRZ0d4Z09PSEtnSDVhNHVyMzgyN19EdUFTalowc3hmY0xXM00xM1dOVF9LcGtaMzZOclQyWEZfVTQwNEhUaXExVHZsWTdpZWFyOFBNdC1VSmYtY3dhdnc4U1dwbk41RVN4N3o4U3lhZXBBaE43RFdUZVE?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "GuruFocus"
-       },
-       {
-        "title": "IBD Stock Of The Day: NetApp's AI-Powered Rally Faces Next Test - Investor's Business Daily",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWGFQdDRXczdBdXhzUkpqYUVWWkk1Z0VPT3EyUDItVmRjOTV6RnlocEpzaDlXRzRmZjkzV2lUY1F3elRLUF8wWXpZaXZlanNoZkFmTU5wS1g2RHZwVlUzZEVDWG1MOFl4X3pLekw4c2xERUNhejJzUmlxOVR2eWtSdVk2MlJBV2w0cHdTNTVoNGU?oc=5",
-        "date": "Mon, 28 Sep 2026",
-        "source": "Investor's Business Daily"
-       },
-       {
-        "title": "NetApp's Keystone Sovereign Targets Europe's Regulated Data Market - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdFZfaGM4SS1RVmcyV3dxZzNVMnRYbWlnNXBCQkxPSkFyXy1NbmtlYndZTjN0MkF5UVFRMEVPU1YxdHM5WUt0eDRLRTVKdUZTV1NKbndLNHhTVGxfeGJMWVZoa0FXMzJSS256SnJvY0Fkd3FrS2g0T08tRDVLcHNsTEpUdllIVUE0SDU1ZU9tQUs0X3NMcTdmZ1p3VjNQNGtRR3VkVDFR?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Yahoo Finance"
-       },
-       {
-        "title": "Can NetApp (NTAP) Justify Its Valuation After Record Results And Higher Guidance? - simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTy1nM1FvODlhdnFDN0x1YkxhMG1SSlZseXNkeXVXVWJRcnhRbEh3Nzk3WHJoTHRUbzAzSGJoY1NFQUE2WjNqendSNll2Ty1ReEdfbjhrYmlrUW9RNTgtdmI2R2hNUHdwUUJaM3Y4OEVmQjZyay1qUHZuQzgxNUstd2Y4RGhXNEpLdkZtQXkzRkpLYjZzWXk2UmdYSUl0dXZVeDRTUjFWUnlDcDIzMS1FUldVclRSTXRxd0FmMDlR0gHDAUFVX3lxTE5rX0ROcDRpOVZieVdnMjRwM0J4bHd6dENtdHR0SmlMdkx5MEx6ZjdFRnhZR2dBMl9GY2tMN3gyM2w4cWxhMmEzbjBSdzZtOXducUVfbk5FMDd0V29Bcm4yX1VKRzBkMmdyRHA1bU92Mk1TODBJY3JhbWt1N3pseGswTlYwaWp1MnNHZWEzVFZuQTdaVUFHVVZzMVpJaWlLb3ZWc3dlZ2RHbHJmMkQ4cjdMZjVPRjBNcE55Z2g0UllYVUFuYw?oc=5",
-        "date": "Sat, 26 Sep 2026",
-        "source": "simplywall.st"
-       },
-       {
-        "title": "Seagate vs. NetApp: Which AI Data Storage Stock is the Smarter Bet? - TradingView",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd1ZIc3pHQ0NaQTluSG5yVTIyVGxxMjV3emY2MTlzYVdNdmtBdGpIWTJJMk5iRVNoX21mckRqSWZUXzVYVVhpbW5LVFM0a0NrTzB2cUp1cHJqUmpDeXlDZmpwdFREYVpvUkczTmJWSmtPS2hQYnZXX3B0dVFnMUJ2cGJVTm5Jc1N0Mmc1YkpyUC1mMEJQMnd0cElDSl9NTDdEeG9GUUlYUWhUSk9qcDNIVE80WXp1emR4WTlGdg?oc=5",
-        "date": "Tue, 29 Sep 2026",
-        "source": "TradingView"
-       }
-      ],
-      "all_news": [
-       {
-        "title": "NetApp Unveils Novus, AI Data Engine Upgrades to Power Agentic AI - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRDdLaTVTXzA5WDRSUWpCU2E3MTlabXRsQWR1RFg4QmRvcTVydFRoQmR3WklOZEw4SG4tb2tmRUMxaGlmM0VzWkR0Y2liM0t2OGhMNnp5RzlncHh3Ri1ndTFBb09SbGh3eHpKYW83b2lMWXdneGYxVG1YQ01FMUNRVmw0bGFvT3kwdGh0WnByMVdMOFMxaExv?oc=5",
-        "date": "Thu, 01 Oct 2026",
-        "source": "Yahoo Finance"
-       },
-       {
-        "title": "Why NetApp’s AI Push Has BofA Raising Its NTAP Price Target - Stocktwits",
-        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQd0hORG13Zk4yWVNnWFJ6VG9hMVQ2MHdIY0dTQ3d4OUpTSVNzREFVdHEtdzY2Y0RjbXVLVXpSV0laZ0NiZ1NqdGNBbGJVUEVaNTl4UndKTzlpN2htWXFwYjBqWllDek9MUENOVDF3STVuQWVwV3Fxdlg0dmJhb1gxSjZOdFFHaDhZdE1yLVB4QkZNbkhGbEw2RmVnQ0JyNmpLaDhtYTV2bkFSemZJTFh5S1RHYlJ3NDNQb1EyajBsUUo2UEF3amExY0pkWXdBRFVkS29jOXZ4OEdGT25aZnBEdEJnY0ZWZzUzTEcwRTZCc0s?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Stocktwits"
-       },
-       {
-        "title": "NetApp: Risk/Reward Is Not Compelling At Current Levels - Seeking Alpha",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR01yV3pmZTJvTDdxNW8xbWNTYUFmNHdqX3FtVGFNMlF3ZGNTbHp3ZmYtRm14d3RqdUFvSnVXdXh6NDZ6S3hVSlczeG1YME5LLURhZnR2MTh0VWxEV1FjbjN6TjBsQ051MjdJTTl3WU5UbWNZLVNZNk5FdjlVZWU3Q3B6NmRUX1FZZUtoaHM3azNhQ0lJdXVkNUZSYUk4QU5qMzBaWUlGMmFKUQ?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Seeking Alpha"
-       },
-       {
-        "title": "NetApp (NTAP) Shares Rise Following Launch of Novus Storage Arch - GuruFocus",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObjZibWlGc0hzLTBLWkVCRFhvOVY5Z00xRGRiWHNDbGZwOG9rMF8zX1ZrdG5YdFdxdllWb3FRZ0d4Z09PSEtnSDVhNHVyMzgyN19EdUFTalowc3hmY0xXM00xM1dOVF9LcGtaMzZOclQyWEZfVTQwNEhUaXExVHZsWTdpZWFyOFBNdC1VSmYtY3dhdnc4U1dwbk41RVN4N3o4U3lhZXBBaE43RFdUZVE?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "GuruFocus"
-       },
-       {
-        "title": "IBD Stock Of The Day: NetApp's AI-Powered Rally Faces Next Test - Investor's Business Daily",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWGFQdDRXczdBdXhzUkpqYUVWWkk1Z0VPT3EyUDItVmRjOTV6RnlocEpzaDlXRzRmZjkzV2lUY1F3elRLUF8wWXpZaXZlanNoZkFmTU5wS1g2RHZwVlUzZEVDWG1MOFl4X3pLekw4c2xERUNhejJzUmlxOVR2eWtSdVk2MlJBV2w0cHdTNTVoNGU?oc=5",
-        "date": "Mon, 28 Sep 2026",
-        "source": "Investor's Business Daily"
-       },
-       {
-        "title": "NetApp's Keystone Sovereign Targets Europe's Regulated Data Market - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdFZfaGM4SS1RVmcyV3dxZzNVMnRYbWlnNXBCQkxPSkFyXy1NbmtlYndZTjN0MkF5UVFRMEVPU1YxdHM5WUt0eDRLRTVKdUZTV1NKbndLNHhTVGxfeGJMWVZoa0FXMzJSS256SnJvY0Fkd3FrS2g0T08tRDVLcHNsTEpUdllIVUE0SDU1ZU9tQUs0X3NMcTdmZ1p3VjNQNGtRR3VkVDFR?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Yahoo Finance"
-       },
-       {
-        "title": "Can NetApp (NTAP) Justify Its Valuation After Record Results And Higher Guidance? - simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTy1nM1FvODlhdnFDN0x1YkxhMG1SSlZseXNkeXVXVWJRcnhRbEh3Nzk3WHJoTHRUbzAzSGJoY1NFQUE2WjNqendSNll2Ty1ReEdfbjhrYmlrUW9RNTgtdmI2R2hNUHdwUUJaM3Y4OEVmQjZyay1qUHZuQzgxNUstd2Y4RGhXNEpLdkZtQXkzRkpLYjZzWXk2UmdYSUl0dXZVeDRTUjFWUnlDcDIzMS1FUldVclRSTXRxd0FmMDlR0gHDAUFVX3lxTE5rX0ROcDRpOVZieVdnMjRwM0J4bHd6dENtdHR0SmlMdkx5MEx6ZjdFRnhZR2dBMl9GY2tMN3gyM2w4cWxhMmEzbjBSdzZtOXducUVfbk5FMDd0V29Bcm4yX1VKRzBkMmdyRHA1bU92Mk1TODBJY3JhbWt1N3pseGswTlYwaWp1MnNHZWEzVFZuQTdaVUFHVVZzMVpJaWlLb3ZWc3dlZ2RHbHJmMkQ4cjdMZjVPRjBNcE55Z2g0UllYVUFuYw?oc=5",
-        "date": "Sat, 26 Sep 2026",
-        "source": "simplywall.st"
-       },
-       {
-        "title": "Seagate vs. NetApp: Which AI Data Storage Stock is the Smarter Bet? - TradingView",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd1ZIc3pHQ0NaQTluSG5yVTIyVGxxMjV3emY2MTlzYVdNdmtBdGpIWTJJMk5iRVNoX21mckRqSWZUXzVYVVhpbW5LVFM0a0NrTzB2cUp1cHJqUmpDeXlDZmpwdFREYVpvUkczTmJWSmtPS2hQYnZXX3B0dVFnMUJ2cGJVTm5Jc1N0Mmc1YkpyUC1mMEJQMnd0cElDSl9NTDdEeG9GUUlYUWhUSk9qcDNIVE80WXp1emR4WTlGdg?oc=5",
-        "date": "Tue, 29 Sep 2026",
-        "source": "TradingView"
-       }
-      ],
-      "model": "gemini-2.5-flash",
-      "judged_at": "2026-10-01 02:15"
-     }
-    },
-    {
-     "key": "8",
-     "name": "⑧ 本益比未過熱（<60倍）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "本益比 29.7 倍",
-     "starred": false
-    },
-    {
-     "key": "9",
-     "name": "⑨ 大盤上漲力道",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "創新高股比率僅 1.88%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 20 檔創高，大型股開始帶動",
-     "starred": true
-    }
-   ],
-   "score": 89,
-   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
-  }
- },
- {
-  "date": "2026-09-30",
-  "market": "美股",
-  "type": "買進候選",
-  "ticker": "HPE",
-  "name": "Hewlett Packard Enterprise",
-  "note": "檢核 79/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
-  "scorecard": {
-   "items": [
-    {
-     "key": "1",
-     "name": "① 股價突破近年來高價",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "收盤 63.89 創近 2 年新高",
-     "starred": true
-    },
-    {
-     "key": "2",
-     "name": "② 新高價位置（反彈幅度≥60%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 8%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-     "starred": true
-    },
-    {
-     "key": "3",
-     "name": "③ 過去獲利穩健成長（年均≥7%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近5年平均年成長 26%，成長年份占 67%",
-     "starred": false
-    },
-    {
-     "key": "4",
-     "name": "④ 最近1~2年獲利成長≥20%",
-     "grade": "X",
-     "symbol": "×",
-     "detail": "近四季獲利年增 -110%",
-     "starred": false
-    },
-    {
-     "key": "5",
-     "name": "⑤ 最近2~3季營收成長≥10%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近1期季營收年增 34%",
-     "starred": false
-    },
-    {
-     "key": "6",
-     "name": "⑥ 最近2~3季獲利成長≥20%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近1季獲利年增 512%",
-     "starred": true
-    },
-    {
-     "key": "7",
-     "name": "⑦ 未來獲利能否穩健成長",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "AI 判斷（僅供參考，請複核依據）：儘管AI相關訂單與展望顯示結構性成長機會，但近期獲利波動劇烈，尚需更多時間觀察其獲利能否穩定化。",
-     "starred": true,
-     "ai": {
-      "grade": "T",
-      "one_line": "儘管AI相關訂單與展望顯示結構性成長機會，但近期獲利波動劇烈，尚需更多時間觀察其獲利能否穩定化。",
-      "analysis": "公司獲得大型AI訂單並上調AI網路業務展望，顯示其受惠於AI基礎設施的結構性需求，這為未來成長提供了堅實基礎。此外，Juniper併購案預計帶來8億美元綜效，亦有助於提升獲利。然而，公司近四季獲利年增率為-110%，而最新一季卻高達512%，這種極端波動性使得其獲利成長的「穩健性」存疑。作為保守分析師，在缺乏更長時間的穩定獲利數據前，難以判斷其未來獲利能否穩健成長。",
-      "risks": "獲利波動性高，可能影響未來獲利成長的穩定性；AI訂單的執行與交付風險，以及市場競爭壓力。",
-      "sources": [
-       {
-        "title": "HPE boosts networking growth outlook, gets $1.2 billion AI order from cloud firm Vultr - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYWJLN3pOdTRaS09KVDZueFV4TVN0eGpEX3RrRmZYXzJMYVRiVEo1Sk5TRjRlSmJJOFRnenp3M1hpZ2lIajQxSFYtZ1ByS2lBR1JTa256X2R0YUZmMkkxYUo0Y3BQemY0cWk2V1FycEp3VGt0TFpoU2lzaFVTQzA2N3JUcFNkenFuYU53UlZYZVlEaGdZdkNJVnhmSzhmblpvcUNjcGlyV2p4dWxpMW80MENIRXVUSERIeFpxZ1hwQTQ?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Reuters"
-       },
-       {
-        "title": "Hewlett Packard Enterprise Raises AI Networking Outlook, Targets $800M in Juniper Synergies - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQT2VFVWV3Yi1xckJ4Q01RMFdWeFl6VEZXS0lrZ3dFNTVnckdDSVU0N0MxUHJ1YV9uNUFMRnNJQmF1aFhKLXViLVp6dmpVc0JLQmxsTEctLWNpUV9vVkVxamFFa25fNDkySzZvaVB1RDlFZHVBU1JDTWd0amdRdW1GVTBuT3Btd2ZzOElPZWkycVlPUVRxb05mSlVGaWtpSGFHVlE?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Yahoo Finance"
-       },
-       {
-        "title": "Hewlett Packard Enterprise Stock Soars to Fresh Record on Raised Revenue Targets, $1.2B Server Deal - Investopedia",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQXzNhb1RNUFZpQ3ZBUFNsVG54a3dCRjMyMVdxOFhtRjZmdXdLWDRTa2N0dFFDU0FCZkcwR2pjQVloREIzU0pucTNxMFBWMS1jakR5ZExOQjZheU55cmJUYlpKMXVadlFMc3dtSFZ0eXZ5cnctX3NjT1J6cy1scHh0b05Obm1XaDE3eFhqakVJaTViUW8wTHBucHlDam5FUlU4S1BHN3l1SG1wa2J3bEQ4?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Investopedia"
-       },
-       {
-        "title": "Hewlett Packard Enterprise Raises AI Networking Outlook, Targets $800M in Juniper Synergies - MarketBeat",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZ0NfUmpTeVRNM3JJaUxhaWZ2U3paZVAwWk1KSGdITUIxdHlKX01OaXFCOGp4bGphU2ZSamNwV25BVjBJUHZNQjlQQVhab3doLWtGSlJKMFFZdTlMRkM5bTgyeldFVTE1WEV2TmxYY0FETHBUXzVySzFsM3AzS3NLV2JZZl9jY0tUMEZsS0lnMm15c0RodGlYNngtRHMwaEZJRk9DbGpBZXlHdEhZY1pvaGdhdllEbUI3cDU5RVhkWGdNLUU3OS1EZnV6NGl6d0NwRkx2U3lfam91SUt5Y0E2TldUOA?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "MarketBeat"
-       }
-      ],
-      "all_news": [
-       {
-        "title": "HPE boosts networking growth outlook, gets $1.2 billion AI order from cloud firm Vultr - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYWJLN3pOdTRaS09KVDZueFV4TVN0eGpEX3RrRmZYXzJMYVRiVEo1Sk5TRjRlSmJJOFRnenp3M1hpZ2lIajQxSFYtZ1ByS2lBR1JTa256X2R0YUZmMkkxYUo0Y3BQemY0cWk2V1FycEp3VGt0TFpoU2lzaFVTQzA2N3JUcFNkenFuYU53UlZYZVlEaGdZdkNJVnhmSzhmblpvcUNjcGlyV2p4dWxpMW80MENIRXVUSERIeFpxZ1hwQTQ?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Reuters"
-       },
-       {
-        "title": "Why Hewlett Packard Enterprise (HPE) Stock Is Up Today - StockStory",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUWQwUnJqOG10UXhXSERUc3BVYnBmbHdOeVgzb1p6cHFzcW5EYklJRno5aTNZamx3VnhMTUFOQlc0V3pKZXIxbFUzZjZrVHNSQm0wTFNCclBtbDRSYk04WVVvVklTUHJkcTBydnRpdXlncFdUNUFTR1V0UXM1dVV4M2NEdU41akJFZlI2N3NOeENmWDFtbFFzQ3ZQZGR2Nkw1a0RQblhqWkI0ZGtXUjI2NDJNVQ?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "StockStory"
-       },
-       {
-        "title": "Hewlett Packard Enterprise Raises AI Networking Outlook, Targets $800M in Juniper Synergies - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQT2VFVWV3Yi1xckJ4Q01RMFdWeFl6VEZXS0lrZ3dFNTVnckdDSVU0N0MxUHJ1YV9uNUFMRnNJQmF1aFhKLXViLVp6dmpVc0JLQmxsTEctLWNpUV9vVkVxamFFa25fNDkySzZvaVB1RDlFZHVBU1JDTWd0amdRdW1GVTBuT3Btd2ZzOElPZWkycVlPUVRxb05mSlVGaWtpSGFHVlE?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Yahoo Finance"
-       },
-       {
-        "title": "Hewlett Packard Enterprise Stock Soars to Fresh Record on Raised Revenue Targets, $1.2B Server Deal - Investopedia",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQXzNhb1RNUFZpQ3ZBUFNsVG54a3dCRjMyMVdxOFhtRjZmdXdLWDRTa2N0dFFDU0FCZkcwR2pjQVloREIzU0pucTNxMFBWMS1jakR5ZExOQjZheU55cmJUYlpKMXVadlFMc3dtSFZ0eXZ5cnctX3NjT1J6cy1scHh0b05Obm1XaDE3eFhqakVJaTViUW8wTHBucHlDam5FUlU4S1BHN3l1SG1wa2J3bEQ4?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "Investopedia"
-       },
-       {
-        "title": "Hewlett Packard Enterprise (HPE) Lands $1.2b Vultr Order, Is The Stock Already Expensive? - simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYWhsOVc0SWdIa0N2dUl4amttV1JqNnpoQTkzVG5UR3VRa1hHZHVlSGtHVDFScmtXYVhRZ1QzeFA4S2FjM0Nrd19vY0MyRWhxZ3RUd1JsSndhSGRWdnVtelZyTzJkY01PRG9RdzJKaGpRa0kyVE1kVXhZV2EyRU9teVZudllzNzJGZTBKNzU2YjRTaElBV3FRbEdmWGpCS0FDOHRQU1ZoUXNza1ZhMV9NcmVKaWpDN0VNc2UzS2ZzMGNJdmc0aWk4YkpYbFhJOEVMV1BF0gHYAUFVX3lxTE4tdTBqVE9DZ253WjB2VnJKdTBUc1h0TWxhV3lwUVJFSDB5OURnanJ4SlY1N0xEMzQwU3lGbVQ3SEEzbFhhQW5QNzRQc3Q3WnVfaUpMUVNzMzdUcVpVeXZfMHZhaThoXzZ1Q3VYSk0xajkxT3dtdDVHRGJZb0dSSXFxLXRJOFVxQmVDcFM2NU81c21CR2NSc0pFQjZWMFJrTnEyTnk1a2dvQTBwSG9wQlotaHRRQ3pSMXB3ejItUF9KQ3ZFdHdOQmprNXRCUjJ5UkNBWkJ0eWlfcQ?oc=5",
-        "date": "Thu, 01 Oct 2026",
-        "source": "simplywall.st"
-       },
-       {
-        "title": "Hewlett Packard Enterprise Raises AI Networking Outlook, Targets $800M in Juniper Synergies - MarketBeat",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZ0NfUmpTeVRNM3JJaUxhaWZ2U3paZVAwWk1KSGdITUIxdHlKX01OaXFCOGp4bGphU2ZSamNwV25BVjBJUHZNQjlQQVhab3doLWtGSlJKMFFZdTlMRkM5bTgyeldFVTE1WEV2TmxYY0FETHBUXzVySzFsM3AzS3NLV2JZZl9jY0tUMEZsS0lnMm15c0RodGlYNngtRHMwaEZJRk9DbGpBZXlHdEhZY1pvaGdhdllEbUI3cDU5RVhkWGdNLUU3OS1EZnV6NGl6d0NwRkx2U3lfam91SUt5Y0E2TldUOA?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "MarketBeat"
-       },
-       {
-        "title": "Hewlett Packard Enterprise (NYSE:HPE) Delivers High Growth and Improving Fundamentals - ChartMill",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVEtCbHRpdGNnMlRFSy16RkRvbTBhby1SYjIyLXBPb3g0OGJVcTBHWjAtWE9tM082d0NTRUtiMmVRT1IyVnZDTzdKYjdibnpycWJVZFdMQTdCNXFyeExDbzZod0dGREZ1X0o2bWdRQ0tCcHI2bUxuNXpkeWxuMEpURVQxNXpneWxiVzI0dmlxZEZoSnZPME45ZmcwTVhUbFpYTlFBMGI1LVNEcXEyRGxtUFdhQTNsVzBTQ0FWeTlKbUJKcUhBSFBOZ0tFQy0yUQ?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "ChartMill"
-       },
-       {
-        "title": "Hewlett Packard Enterprise Jumps 5% on AMD Order; Dell and Super Micro Barely Move - 24/7 Wall St.",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZXVITUlNRXdRbDUxTkFxeXZZVUdITHltcTlOUTFpaURDM1E5NFNRSG52enVkV29KTlJaWFdVMzRtcmhfRFJuMklJU2w0TlhRMjhLZG1URVpjZVVvZkNqMzcwTmNjRkQ3SG1JMEZMOVM2WGZYNGJuazl1bDhYT3BHQzVUWFhtcEhZR3hrN0lQeTVIbnRKWXBadkNXMHhkZ0hNY0dfamV3dnhpMTdpRGw3RTkyVGlDQmFBZFBsMHprMGk2QQ?oc=5",
-        "date": "Wed, 30 Sep 2026",
-        "source": "24/7 Wall St."
-       }
-      ],
-      "model": "gemini-2.5-flash",
-      "judged_at": "2026-10-01 02:16"
-     }
-    },
-    {
-     "key": "8",
-     "name": "⑧ 本益比未過熱（<60倍）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "本益比 32.9 倍",
-     "starred": false
-    },
-    {
-     "key": "9",
-     "name": "⑨ 大盤上漲力道",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "創新高股比率僅 1.88%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 20 檔創高，大型股開始帶動",
-     "starred": true
-    }
-   ],
-   "score": 79,
-   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-  }
- },
- {
-  "date": "2026-09-30",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "CRWD",
-  "name": "CrowdStrike",
-  "note": "剛黃金交叉，距3年收盤高 100.0%（K 86.15／D 85.22）"
- },
- {
-  "date": "2026-09-30",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "FTNT",
-  "name": "Fortinet",
-  "note": "準備交叉向上，距3年收盤高 100.0%（K 74.23／D 74.98）"
- },
- {
-  "date": "2026-09-30",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "RVTY",
-  "name": "Revvity",
-  "note": "準備交叉向上，距3年收盤高 100.0%（K 84.23／D 85.3）"
- },
- {
-  "date": "2026-09-30",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "TMO",
-  "name": "Thermo Fisher Scientific",
-  "note": "準備交叉向上，距3年收盤高 99.33%（K 85.67／D 87.48）"
- },
- {
-  "date": "2026-09-30",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "A",
-  "name": "Agilent Technologies",
-  "note": "準備交叉向上，距3年收盤高 98.34%（K 87.87／D 88.97）"
- },
- {
-  "date": "2026-09-30",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "MTD",
-  "name": "Mettler Toledo",
-  "note": "準備交叉向上，距3年收盤高 97.78%（K 85.76／D 86.46）"
- },
- {
-  "date": "2026-09-30",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "AME",
-  "name": "Ametek",
-  "note": "準備交叉向上，距3年收盤高 95.83%（K 81.08／D 81.48）"
- },
- {
   "date": "2026-09-30",
   "market": "美股",
   "type": "箱型訊號",
@@ -15847,5 +14552,1837 @@
   "ticker": "2882.TW",
   "name": "國泰金",
   "note": "雙策略檢核通過：準備交叉向上，距3年高 96.96%"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "買進候選",
+  "ticker": "6227.TWO",
+  "name": "茂綸",
+  "note": "檢核 86/100，強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 140.5 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 62%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近9年平均年成長 30%，成長年份占 75%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 139%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近3期季營收年增 17%、41%、32%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近3季獲利年增 125%、9%、61%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：茂綸的未來獲利成長將受惠於其4S策略與AI資料中心等結構性產業趨勢的強勁需求。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "茂綸的未來獲利成長將受惠於其4S策略與AI資料中心等結構性產業趨勢的強勁需求。",
+      "analysis": "新聞明確指出，茂綸的獲利暴衝並創歷史新高，主要由其「4S策略與AI資料中心」所支撐 [4]。AI資料中心的需求屬於結構性產業趨勢，而非短期景氣循環，且與公司在AI、IoT及伺服器等領域的業務高度契合。近期營收與獲利數據（如八月營收年增168.86%，上半年獲利年增336%）也印證了這些結構性成長動能已轉化為實際業績 [2, 3, 4]。公司法說會亦持續關注「未來展望趨勢」，顯示其對這些成長動能的信心 [1, 8]。",
+      "risks": "半導體產業供應鏈波動或需求變化可能影響其代理業務的穩定性；AI資料中心市場的競爭加劇或技術快速演進，可能對公司長期策略構成挑戰。",
+      "sources": [
+       {
+        "title": "【茂綸法說會重點內容備忘錄】未來展望趨勢 20260326 - 富果直送",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56Wk5jRXdYWVhqcFFpOWtUTm5xRmJEcV9RdFZSeUZpZnlCMU1Jd2RxT0VJd3Rlb2RsQWJMOG9nbF83Tm9uRkl3d2tLcWdCbkF5UmlXejZDazNzYlN2VDZDMGpQbVcyUjg?oc=5",
+        "date": "Thu, 26 Mar 2026",
+        "source": "富果直送"
+       },
+       {
+        "title": "茂綸財報／第2季營收、獲利雙創高 EPS 3.84元 - 經濟日報",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45bWVNbEhPNkRuRG1kQmFUb1FIVS1INVo2TXFSOEc4eUNWMzRqdEVyZGdvMkFpZk5FM1Y3Rk52QmRGQnEwLUUtLWhHeUhaWFhudnBZVlJNZV90WlXSAWBBVV95cUxNaDZUcjVEN2pVdTRMRjdGSDV1SjRmUlV4aXFzcWlhMmsyVjlYS180dHNCN3oyZ2JxbXlfdGNyRnFKYWRmeDJoSW1lUloxdGQ0cWdqQjdtM2lCREpuY1d1eVk?oc=5",
+        "date": "Tue, 11 Aug 2026",
+        "source": "經濟日報"
+       },
+       {
+        "title": "【2026/08月營收公告】茂綸(6227) 八月營收35.4億元，表現亮眼、呈現雙成長，創歷史新高，年增168.86% - cmoney.tw",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5DSHMyTGhvakJnRS1YSzNVUnUyZlExWk4yczdsdXNqel9LMk1xS1dkSDNPeGJJejJJa2M5WDlKXy1uSFkxaFQyRGdhSEZzWU44M1d3ZGliNFBLdnZ5cFpQWEptUGFNeEE?oc=5",
+        "date": "Thu, 10 Sep 2026",
+        "source": "cmoney.tw"
+       },
+       {
+        "title": "【茂綸 FY2026 H1 法說會】獲利暴衝336%創歷史新高 EPS飆6.84元 靠4S策略與AI資料中心撐腰 - BigGo 財經",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5VcFBuTE02eVB0dFd5R3FKV2JKekhjMU04LWZGMWFpOWZ2RzJoV0YyQTVRWUc5Ri1SYkRTZm40MnppV19DR1lsYjN1OFQ2bzYtNnJjcWJIeU85bWk5NWdZY0lJT3lPdw?oc=5",
+        "date": "Thu, 27 Aug 2026",
+        "source": "BigGo 財經"
+       },
+       {
+        "title": "【茂綸法說會重點內容備忘錄】未來展望趨勢 20250827 - 富果直送",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zbUhHd0VYTDF2ZFItazNqSkRNcVZuT3M5LWVJbkVPUlJDWGtRaUQxcXo1VUhXNk5TZm5tbTU2aDR3M3NjOFU1QWtvZGVfVkF0ZGYzX2pxQXk3em92TnJFbWw5M1dxZU0?oc=5",
+        "date": "Thu, 04 Dec 2025",
+        "source": "富果直送"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "【茂綸法說會重點內容備忘錄】未來展望趨勢 20260326 - 富果直送",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56Wk5jRXdYWVhqcFFpOWtUTm5xRmJEcV9RdFZSeUZpZnlCMU1Jd2RxT0VJd3Rlb2RsQWJMOG9nbF83Tm9uRkl3d2tLcWdCbkF5UmlXejZDazNzYlN2VDZDMGpQbVcyUjg?oc=5",
+        "date": "Thu, 26 Mar 2026",
+        "source": "富果直送"
+       },
+       {
+        "title": "茂綸財報／第2季營收、獲利雙創高 EPS 3.84元 - 經濟日報",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45bWVNbEhPNkRuRG1kQmFUb1FIVS1INVo2TXFSOEc4eUNWMzRqdEVyZGdvMkFpZk5FM1Y3Rk52QmRGQnEwLUUtLWhHeUhaWFhudnBZVlJNZV90WlXSAWBBVV95cUxNaDZUcjVEN2pVdTRMRjdGSDV1SjRmUlV4aXFzcWlhMmsyVjlYS180dHNCN3oyZ2JxbXlfdGNyRnFKYWRmeDJoSW1lUloxdGQ0cWdqQjdtM2lCREpuY1d1eVk?oc=5",
+        "date": "Tue, 11 Aug 2026",
+        "source": "經濟日報"
+       },
+       {
+        "title": "【2026/08月營收公告】茂綸(6227) 八月營收35.4億元，表現亮眼、呈現雙成長，創歷史新高，年增168.86% - cmoney.tw",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5DSHMyTGhvakJnRS1YSzNVUnUyZlExWk4yczdsdXNqel9LMk1xS1dkSDNPeGJJejJJa2M5WDlKXy1uSFkxaFQyRGdhSEZzWU44M1d3ZGliNFBLdnZ5cFpQWEptUGFNeEE?oc=5",
+        "date": "Thu, 10 Sep 2026",
+        "source": "cmoney.tw"
+       },
+       {
+        "title": "【茂綸 FY2026 H1 法說會】獲利暴衝336%創歷史新高 EPS飆6.84元 靠4S策略與AI資料中心撐腰 - BigGo 財經",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5VcFBuTE02eVB0dFd5R3FKV2JKekhjMU04LWZGMWFpOWZ2RzJoV0YyQTVRWUc5Ri1SYkRTZm40MnppV19DR1lsYjN1OFQ2bzYtNnJjcWJIeU85bWk5NWdZY0lJT3lPdw?oc=5",
+        "date": "Thu, 27 Aug 2026",
+        "source": "BigGo 財經"
+       },
+       {
+        "title": "【即時新聞】今日茂綸法說會報喜，淨利年增達3.36倍，有望挑戰歷史新高！ - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX2xWaWdGSDdzQzExd1RLOVI5WFZLQjY0MWpWLTlGTnhjeERoZjZ1aDBaX0pySnd2eUdoZXY3WXhVdFY5bVM4cHhNd28wSFZfcUlTQVlCMXBnLUc4eFQ3OTFfVl9QZERfTmt1bFlpS2RfdFlxdEwybGk1ZXFTN3pMb2piQlE1cExQXzJfZW9qMWs?oc=5",
+        "date": "Fri, 28 Aug 2026",
+        "source": "CMoney投資網誌"
+       },
+       {
+        "title": "茂綸下半年展望樂觀 惟盤中股價重挫 - 經濟日報",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBfTGVub04tRzdaWDBLLXlCbG9EUjNoUWNpY2pDRTd2emRsT3B3Y2c5ZHNhR0w1clRrdE1QSG0yS0t3cTBBcmczVzNfWW5CRjJpRmVDclhuNGFzenPSAWBBVV95cUxNV0FwZGU5eWxieU1BTzNJbVVjVXhJb1g0Z0paR0FYVkp0WFZqWTlneXRQVUNDQUFNeW1vVEhxaGNxUjNBekFnemdwWFp2VDVqdFhES1hjRUxnc1FDMWtFdlQ?oc=5",
+        "date": "Fri, 28 Aug 2026",
+        "source": "經濟日報"
+       },
+       {
+        "title": "6227 茂綸- 今因8月營收大爆發，帶極大量攻上漲停動能大增，週kd黃金交叉- 股市爆料同學會 - cmoney.tw",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1CWWJIOFliZnZ3Slh0czEwVk8yZ3pkQlF5b0ZBWVdDRmRjeVA4S3JxQlZHLXNOak1pWlE0Z011SmYwZ2dpSTVFQXJBWkRrcFk3V2Z5QWdxUjY?oc=5",
+        "date": "Sat, 12 Sep 2026",
+        "source": "cmoney.tw"
+       },
+       {
+        "title": "【茂綸法說會重點內容備忘錄】未來展望趨勢 20250827 - 富果直送",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zbUhHd0VYTDF2ZFItazNqSkRNcVZuT3M5LWVJbkVPUlJDWGtRaUQxcXo1VUhXNk5TZm5tbTU2aDR3M3NjOFU1QWtvZGVfVkF0ZGYzX2pxQXk3em92TnJFbWw5M1dxZU0?oc=5",
+        "date": "Thu, 04 Dec 2025",
+        "source": "富果直送"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-10-05 17:40"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 10.9 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 1.8%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 86,
+   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+  }
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "買進候選",
+  "ticker": "6196.TW",
+  "name": "帆宣",
+  "note": "檢核 79/100，強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 618 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 0%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近9年平均年成長 25%，成長年份占 62%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 87%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近3期季營收年增 -3%、8%、74%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近3季獲利年增 23%、16%、390%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：帆宣未來獲利能穩健成長，主要受惠於主要半導體客戶在全球擴張新建廠房，帶動其廠務與機電系統整合服務的結構性需求。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "帆宣未來獲利能穩健成長，主要受惠於主要半導體客戶在全球擴張新建廠房，帶動其廠務與機電系統整合服務的結構性需求。",
+      "analysis": "公司近期營運數字顯示強勁成長，近四季獲利年增87%，且近三季獲利年增率表現亮眼，反映出良好的營運勢頭。新聞明確指出帆宣受惠於主要半導體客戶（如台積電）赴美設廠的大單，這代表了半導體產業龍頭客戶的全球擴張趨勢。此成長動能來自於客戶在全球範圍內新建晶圓廠的結構性需求，而非單純的景氣循環，為公司提供穩定的廠務與機電系統整合服務訂單。這些大型專案的在手訂單與營運能見度，支持公司未來獲利穩健成長的潛力。",
+      "risks": "主要半導體客戶的資本支出計畫若有變動或延遲，可能影響公司訂單與營收；全球半導體產業景氣波動仍可能對公司長期訂單量造成不確定性。",
+      "sources": [
+       {
+        "title": "漢唐(2404)、帆宣(6196)卡位台積電赴美大單！美國P2、P3發包時程與在手訂單營運能見度全解析 - 優分析UAnalyze",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96YjJYRmMtdHdJZUYyZkVxZjR4TzhXOE1zcl96YUhOdzFLNkRlTDdKaG1CWWRhaUI3ekFiVU5FS3pqNjBDYVMtdVQxV3NXcmVsVlZ0RVJR?oc=5",
+        "date": "Fri, 02 Oct 2026",
+        "source": "優分析UAnalyze"
+       },
+       {
+        "title": "漢唐(2404)、帆宣(6196)卡位台積電赴美大單！美國P2、P3發包時程與在手訂單營運能見度全解析 - news.cnyes.com",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4waE45bEdHZWhTeG9JbDhSYzRWUURPOEhwVUlmTjRXRWQ2RHh3MjJWa1ZhMndWOC1hZHNONjJXU2l0MlFGT0xfSUphZWJVWWs?oc=5",
+        "date": "Fri, 02 Oct 2026",
+        "source": "news.cnyes.com"
+       },
+       {
+        "title": "營收速報 - 帆宣(6196)7月營收75.19億元年增率高達101.35％｜新聞快訊｜豐雲學堂 - sinotrade.com.tw",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0yaTdPOUlpaWZkN2FzQ2Nnc3RuUG9DV0d2ZGRIRy1WWTc0dmloekh2Y1FYREFmSF9NUUpHZ0RqTFhzQndrejhyVGo0Y0JPeDNzdVNuT1hUMFFDUnp6VmR4a1NJdUhFWVQ1WFpjaGdWTmZTY3FHeFE?oc=5",
+        "date": "Fri, 07 Aug 2026",
+        "source": "sinotrade.com.tw"
+       },
+       {
+        "title": "帆宣上半年獲利年增逾倍；今年營運登高可期- 新聞 - MoneyDJ理財網",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPLV9CTFY5enNIUTFWNEY2d2pRUUJ4eTdKRU8wSm9LeTJpQ182eEpsUG9Rc2tQM2YzRHZXZkliMGFQNWk5b1BXaXpuWEU1UmNrTXNocThHdlhHZkRXTVBsaUVjOGRWUGJBUGYyYkVxRk16RGcyUnBtOWcxa1hxdG1VOF9ZbElYNDJKMGhlNXN3czBzdw?oc=5",
+        "date": "Wed, 05 Aug 2026",
+        "source": "MoneyDJ理財網"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "郭哲榮靠0050賺2500萬 再點名4檔黑馬飆股 - 鏡週刊Mirror Media",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5wbkhfZ3lmWGI2c2tOcndHSDg4QVhjQUpCQjFBdVNBa2V2UjM4eElXTDVkWGRFdEZTM09HZDZReGFuMkZyYlkzUXcwb3hxX2ZSblZuUnVZaFFlMmZDRW8zWUN30gFiQVVfeXFMTnBuSF9neWZYYjZza05yd0dIODhBWGNBSkJCMUF1U0FrZXZSMzh4SVdMNWRYZEV0RlMzT0dkNlF4YW4yRnJiWTNRdzBveHFfZlJuVm5SdVloUWUyZkNFbzNZQ3c?oc=5",
+        "date": "Mon, 05 Oct 2026",
+        "source": "鏡週刊Mirror Media"
+       },
+       {
+        "title": "漢唐(2404)、帆宣(6196)卡位台積電赴美大單！美國P2、P3發包時程與在手訂單營運能見度全解析 - 優分析UAnalyze",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96YjJYRmMtdHdJZUYyZkVxZjR4TzhXOE1zcl96YUhOdzFLNkRlTDdKaG1CWWRhaUI3ekFiVU5FS3pqNjBDYVMtdVQxV3NXcmVsVlZ0RVJR?oc=5",
+        "date": "Fri, 02 Oct 2026",
+        "source": "優分析UAnalyze"
+       },
+       {
+        "title": "《其他電》帆宣亮燈再創新天價 法人擴大買超 - 富聯網",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZWZLMUl4bndPT3dHdnJkNFpNeC05WTBTejJOX0lrMmxoOVY3TVhYZTRoU3dpZ2pFWjctS3VvY3dSNmE1T1hLQUhjWGVJSHpIYVRKajRpTzk5T3d2WkNIdHpsUjNOWC00YkxRaEhmeS0wZWh6cXVkLTFEQXNrRnMwSFZJMEkzdU5q?oc=5",
+        "date": "Mon, 05 Oct 2026",
+        "source": "富聯網"
+       },
+       {
+        "title": "漢唐(2404)、帆宣(6196)卡位台積電赴美大單！美國P2、P3發包時程與在手訂單營運能見度全解析 - news.cnyes.com",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4waE45bEdHZWhTeG9JbDhSYzRWUURPOEhwVUlmTjRXRWQ2RHh3MjJWa1ZhMndWOC1hZHNONjJXU2l0MlFGT0xfSUphZWJVWWs?oc=5",
+        "date": "Fri, 02 Oct 2026",
+        "source": "news.cnyes.com"
+       },
+       {
+        "title": "營收速報 - 帆宣(6196)7月營收75.19億元年增率高達101.35％｜新聞快訊｜豐雲學堂 - sinotrade.com.tw",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0yaTdPOUlpaWZkN2FzQ2Nnc3RuUG9DV0d2ZGRIRy1WWTc0dmloekh2Y1FYREFmSF9NUUpHZ0RqTFhzQndrejhyVGo0Y0JPeDNzdVNuT1hUMFFDUnp6VmR4a1NJdUhFWVQ1WFpjaGdWTmZTY3FHeFE?oc=5",
+        "date": "Fri, 07 Aug 2026",
+        "source": "sinotrade.com.tw"
+       },
+       {
+        "title": "帆宣上半年獲利年增逾倍；今年營運登高可期- 新聞 - MoneyDJ理財網",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPLV9CTFY5enNIUTFWNEY2d2pRUUJ4eTdKRU8wSm9LeTJpQ182eEpsUG9Rc2tQM2YzRHZXZkliMGFQNWk5b1BXaXpuWEU1UmNrTXNocThHdlhHZkRXTVBsaUVjOGRWUGJBUGYyYkVxRk16RGcyUnBtOWcxa1hxdG1VOF9ZbElYNDJKMGhlNXN3czBzdw?oc=5",
+        "date": "Wed, 05 Aug 2026",
+        "source": "MoneyDJ理財網"
+       },
+       {
+        "title": "帆宣上半年 EPS 13.26元 - 經濟日報",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zdm5QTzlZeFN1QUdFWG5sQi02NWRGLVRWb25LS3U1cERTM0cyZzMzbVVCb3g4VTg1UTVRRmgxcUhMRjVBMUxoTk95X1lyOGFFWExwTTNKY3owd9IBX0FVX3lxTE52bmg1VWRHSzlzN0FELUNDSTJfUTBmODJ4YmNsQkpGb0RQTVJWcEdsTVRMQmhMRnJJU3ZkUTlmTXZJQU94cWtjV3poV19mc3VsMTNwMUdONk9DR3BBVFdV?oc=5",
+        "date": "Tue, 04 Aug 2026",
+        "source": "經濟日報"
+       },
+       {
+        "title": "【2026/08月營收公告】帆宣(6196) 八月營收月減年增，全年營運續看向上 - cmoney.tw",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9nZ0hTNXNkbXRST2RZRmQxUEVLdnJscjk3SEJMV09jNzRLM3h0Tzhxc2ZpUGZQNHlScXp0NWxMVW90ajNURER1UXhIWTViYWJGZlJFMGdaN2NqRmhFYmg0NjAweVAyY0k?oc=5",
+        "date": "Mon, 07 Sep 2026",
+        "source": "cmoney.tw"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-10-05 17:44"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 27.7 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 1.8%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 79,
+   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+  }
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "買進候選",
+  "ticker": "1459.TW",
+  "name": "聯發",
+  "note": "檢核 75/100，強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 18.7 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 90%（目標≥60%），平穩期品質 74%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近9年平均年成長 66%，成長年份占 50%（成長不夠穩定）",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 109%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近3期季營收年增 -19%、-18%、-0%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近3季獲利年增 164%、88%、69%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "AI 判斷（僅供參考，請複核依據）：提供的近期新聞標題皆指向餐飲零售業的「聯發國際」，而非業務簡介所述的紡織製造業「聯發」，導致判斷依據不足。",
+     "starred": true,
+     "ai": {
+      "grade": "T",
+      "one_line": "提供的近期新聞標題皆指向餐飲零售業的「聯發國際」，而非業務簡介所述的紡織製造業「聯發」，導致判斷依據不足。",
+      "analysis": "公司業務簡介明確指出為「紡織製造業」，但所有提供的近期新聞標題皆提及「聯發國際」並討論其餐飲零售業務，例如茶飲品牌、肉骨茶引進及展店等。這些新聞內容與紡織製造業的業務性質完全不符，無法作為判斷紡織公司未來獲利成長的依據。在缺乏與紡織本業相關的結構性成長證據下，無法判斷其未來獲利能否穩健成長。",
+      "risks": "公司實際業務與提供資訊不符的風險；無法評估紡織本業的市場趨勢與競爭力。",
+      "sources": [
+       {
+        "title": "聯發國際上半年獲利年增26.3% 看好營運逐季上升 - UDN",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yV3dMYzJOXzI4cjNobS0wZF9EdE1rVjlTb3pIUy1VZUhSalE1UzdqalA1OXVOblh4aE9kM3JNdnNaR0htdXlWUWJIdlBSMjlz0gFWQVVfeXFMTWJfOEpDS1BBZ2Z1cjZnSFdhdXpadGZSeXpqbGFmQVI4bU1WZkg0OV8zWEM2bVpxa3RUOXd0MnhVQXNVdXhOcy1FZDNaRXp4ZXRra25NbXc?oc=5",
+        "date": "Fri, 07 Aug 2026",
+        "source": "UDN"
+       },
+       {
+        "title": "聯發國際雙茶飲品牌爆發！去年全年獲利大增6成 今年營收和獲利可望再創新高 - Yahoo股市",
+        "link": "https://news.google.com/rss/articles/CBMi6wNBVV95cUxQaFJ3XzZzNUJDUjJWb3Z3a1V2ajhMMU5Ta0hOVzFfWGpHWnp2eVY1S2ROU1ZQbVNlYkppX19pWWZqbmdoLXhEeXo4S2ZLUHpVcEVySVJVaUJJVm9RbU9aOVNtQk5uenE0WVhhdXhuREdCTGt4T2kyMm1JTDBxcG5Ecm1OV3BRdDNGY1hTTjVOY0tNUXdXblQ0ZVQ3YzVCX3dYc1pGa01kREtOd2JXeElIYW9IYnVYaDl6M29oXzU3YTdvSlc4N2RobXVqMDRmdDFNTlNvXzYxU3dMZTl0ZkpxS1FsSmZ1Q2N1Y24xY2FBUjBtRU5FMjd4U2Z4amxXWFAtMTVXX0xFMktEcklEdnNqaFpNVUVtUGlXaE5PanlmcTAyQkd4WUdfMGtpd2ZRYURncGdVNEFLUlc5c1VnYXR2QXRpckZoemJWU0pPZjFuaGJLVU5ZeGZ0ZUVLM002UzNQNXNOekczRzZJNlRXNndmY2lxeFY0Z2ticjQtX3RWYXN3QXV4YVhuZnM1V3V1Z01WSGNYb0RKelppelBNUHdTX0NqVTNUSUNEMXZNdU96eXBobU5hTktJQ01YUnBGUTItQlpFc2JiMXlIeFI0RDR0cUkyV1FJdDlfaFA5ajVwTzRVMW42T19IbjNPMA?oc=5",
+        "date": "Tue, 10 Mar 2026",
+        "source": "Yahoo股市"
+       },
+       {
+        "title": "【2026/08月營收公告】聯發國際(2756) 八月營收營收雙減，年減17.57％ - cmoney.tw",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xaEdIQ1dZbHF3czhPRkRtRDFFYURwNEFnWGtPVy0wdUxtMDFrRzlfNkhEWFMxYXNTalRLNEkwRDBodWlsSTJkYVdGN3lROG00ZG5kQXl5NHdaem9nemdNcENpYjBlZU0?oc=5",
+        "date": "Thu, 10 Sep 2026",
+        "source": "cmoney.tw"
+       },
+       {
+        "title": "聯發國際上半年營收 6.11 億創同期高！下半年引進大馬「新峰肉骨茶」首店 - TechNews 科技新報",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA3UW14THl1T3FIUDJtUUJqaC01NnM1R1ZwdVNpamZRRlFZb1k2d0lkM0swUExqRFhPeHJYMy1pTVZ2ME1wNWlqMXdWbEZ5Uzl6dGp1Z3hjcGs?oc=5",
+        "date": "Mon, 13 Jul 2026",
+        "source": "TechNews 科技新報"
+       },
+       {
+        "title": "聯發國際3月營收創單月次高 UG台美兩地強力展店 - news.cnyes.com",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZRHZOX2FvZDktMTYyY3duQTF6YzFuMkMxRm1OcmFpVU8zQWNteGJCX1E5MVdyalFkSlFnYlV1ejFJbkkxME55OU1Eb25zVVE?oc=5",
+        "date": "Thu, 09 Apr 2026",
+        "source": "news.cnyes.com"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "【聯發法說會重點內容備忘錄】未來展望趨勢 20260921 - 富果直送",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mUlFIUFJhLUs5MVRGN1Vlbko3d21wYk5QS0pNS2tzOW1zWDNqVTZCUXd0SlJka3ppWlpDejduempkaVNqeUdLWlNVY1E1M1VMazA0a1FoRDNTY0dXb3pfZWNLS2twcGc?oc=5",
+        "date": "Mon, 21 Sep 2026",
+        "source": "富果直送"
+       },
+       {
+        "title": "聯發國際上半年獲利年增26.3% 看好營運逐季上升 - UDN",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yV3dMYzJOXzI4cjNobS0wZF9EdE1rVjlTb3pIUy1VZUhSalE1UzdqalA1OXVOblh4aE9kM3JNdnNaR0htdXlWUWJIdlBSMjlz0gFWQVVfeXFMTWJfOEpDS1BBZ2Z1cjZnSFdhdXpadGZSeXpqbGFmQVI4bU1WZkg0OV8zWEM2bVpxa3RUOXd0MnhVQXNVdXhOcy1FZDNaRXp4ZXRra25NbXc?oc=5",
+        "date": "Fri, 07 Aug 2026",
+        "source": "UDN"
+       },
+       {
+        "title": "聯發國際 2026-09-23 法說會 - BigGo 財經",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRGctd0RlUkh1Q09uSG5Wb21GYy0tQjFtN0FmZEtNV3owcFRlMGlWS3hPM1UyVnhQQVJyR1NUcUZ0cW5YVENvR0xDWjRyelNTR2twNmwyUDBlZXkzcURhTHNRQmQzb2dGODRTSk9XZjJPVVFtZEM4cENPbzZfeUxwZTdfWFg?oc=5",
+        "date": "Wed, 23 Sep 2026",
+        "source": "BigGo 財經"
+       },
+       {
+        "title": "聯發國際雙茶飲品牌爆發！去年全年獲利大增6成 今年營收和獲利可望再創新高 - Yahoo股市",
+        "link": "https://news.google.com/rss/articles/CBMi6wNBVV95cUxQaFJ3XzZzNUJDUjJWb3Z3a1V2ajhMMU5Ta0hOVzFfWGpHWnp2eVY1S2ROU1ZQbVNlYkppX19pWWZqbmdoLXhEeXo4S2ZLUHpVcEVySVJVaUJJVm9RbU9aOVNtQk5uenE0WVhhdXhuREdCTGt4T2kyMm1JTDBxcG5Ecm1OV3BRdDNGY1hTTjVOY0tNUXdXblQ0ZVQ3YzVCX3dYc1pGa01kREtOd2JXeElIYW9IYnVYaDl6M29oXzU3YTdvSlc4N2RobXVqMDRmdDFNTlNvXzYxU3dMZTl0ZkpxS1FsSmZ1Q2N1Y24xY2FBUjBtRU5FMjd4U2Z4amxXWFAtMTVXX0xFMktEcklEdnNqaFpNVUVtUGlXaE5PanlmcTAyQkd4WUdfMGtpd2ZRYURncGdVNEFLUlc5c1VnYXR2QXRpckZoemJWU0pPZjFuaGJLVU5ZeGZ0ZUVLM002UzNQNXNOekczRzZJNlRXNndmY2lxeFY0Z2ticjQtX3RWYXN3QXV4YVhuZnM1V3V1Z01WSGNYb0RKelppelBNUHdTX0NqVTNUSUNEMXZNdU96eXBobU5hTktJQ01YUnBGUTItQlpFc2JiMXlIeFI0RDR0cUkyV1FJdDlfaFA5ajVwTzRVMW42T19IbjNPMA?oc=5",
+        "date": "Tue, 10 Mar 2026",
+        "source": "Yahoo股市"
+       },
+       {
+        "title": "【2026/08月營收公告】聯發國際(2756) 八月營收營收雙減，年減17.57％ - cmoney.tw",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xaEdIQ1dZbHF3czhPRkRtRDFFYURwNEFnWGtPVy0wdUxtMDFrRzlfNkhEWFMxYXNTalRLNEkwRDBodWlsSTJkYVdGN3lROG00ZG5kQXl5NHdaem9nemdNcENpYjBlZU0?oc=5",
+        "date": "Thu, 10 Sep 2026",
+        "source": "cmoney.tw"
+       },
+       {
+        "title": "聯發國際上半年營收 6.11 億創同期高！下半年引進大馬「新峰肉骨茶」首店 - TechNews 科技新報",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA3UW14THl1T3FIUDJtUUJqaC01NnM1R1ZwdVNpamZRRlFZb1k2d0lkM0swUExqRFhPeHJYMy1pTVZ2ME1wNWlqMXdWbEZ5Uzl6dGp1Z3hjcGs?oc=5",
+        "date": "Mon, 13 Jul 2026",
+        "source": "TechNews 科技新報"
+       },
+       {
+        "title": "聯發減資/併子公司縮股本；租金收入成營運穩定來源 - 新聞 - MoneyDJ理財網",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZ01lWEJVV18xYUxieUJnY2FxOTRSRll4LVRqNEpfNW84U0diWFA4elF6ZjNWRUdVVEY5bG5sTUhPYkw2ckF0T0pwRzRDaUo0aTdacW1QdndDRmFacVN1dlh3OWpXRG5RRk9TVGVrWkx5RW9uTWhkSjVHNUYxclVHTVpDVHExcEdGM0hGNEpSOUVHdw?oc=5",
+        "date": "Thu, 24 Sep 2026",
+        "source": "MoneyDJ理財網"
+       },
+       {
+        "title": "聯發國際3月營收創單月次高 UG台美兩地強力展店 - news.cnyes.com",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZRHZOX2FvZDktMTYyY3duQTF6YzFuMkMxRm1OcmFpVU8zQWNteGJCX1E5MVdyalFkSlFnYlV1ejFJbkkxME55OU1Eb25zVVE?oc=5",
+        "date": "Thu, 09 Apr 2026",
+        "source": "news.cnyes.com"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-10-05 17:40"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 9.3 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 1.8%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 75,
+   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+  }
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "買進候選",
+  "ticker": "6292.TWO",
+  "name": "迅德",
+  "note": "檢核 75/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 70.9 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 87%（目標≥60%），平穩期品質 66%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近9年平均年成長 2%，成長年份占 62%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 607%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近3期季營收年增 5%、24%、39%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近3季獲利年增 130%、165%、79%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "AI 判斷（僅供參考，請複核依據）：無法確認近期獲利成長是否源於明確的結構性變化，證據不足以支持穩健成長的判斷。",
+     "starred": true,
+     "ai": {
+      "grade": "T",
+      "one_line": "無法確認近期獲利成長是否源於明確的結構性變化，證據不足以支持穩健成長的判斷。",
+      "analysis": "公司過去九年平均年成長率僅2%，與近期強勁的營收及獲利成長形成對比。雖然業務簡介提及電動車與醫療設備等潛在結構性成長領域，但新聞標題並未提供足夠證據，明確連結近期成長與這些結構性趨勢的具體貢獻。有新聞質疑公司能否擺脫「成熟產業天花板」，進一步突顯其利基市場策略的結構性成長潛力仍不明確。在缺乏明確結構性成長證據的情況下，無法判斷近期獲利成長是否穩健，或僅為景氣回升或低基期效應。",
+      "risks": [
+       "若近期成長僅為景氣循環回升而非結構性變化，則未來獲利成長的穩健性將難以持續。",
+       "公司未能有效擴大其利基市場的結構性優勢，可能導致長期成長再次趨緩。"
+      ],
+      "sources": [
+       {
+        "title": "【迅德法說會重點內容備忘錄】未來展望趨勢 20251212 - 富果直送",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xcTR3QU04R3pOVzlYVF9XaGtRYlFPdGwtdzlDazVPc1dqSGllSnU3Q0pDWEZqbXhqdmwtelZfV0d3dWdFSTJIdkU0d1ZNdG9KbFJnR1ZEbVdRZS16YjdfY2FVTlNEeWc?oc=5",
+        "date": "Fri, 12 Dec 2025",
+        "source": "富果直送"
+       },
+       {
+        "title": "【26Q2財報公告】迅德(6292) Q2 營收3.0836億元，連2季成長，季增 7.56％、年成長 39.23％ - cmoney.tw",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TRVZmZFNlc0c5Y2t3RmVva0puU0xyM1NfYzRWWnhlX1RuVm8tNDZnZEVhNUZtbEFsZ0thWmt0Sm5Ick9xNS1UenVpdEs2am5faEFiWU50WlJRZndlMmJmd3NzWU8yTFE?oc=5",
+        "date": "Thu, 30 Jul 2026",
+        "source": "cmoney.tw"
+       },
+       {
+        "title": "【2026/07月營收公告】迅德(6292) 七月營收1.18億元，表現亮眼、呈現雙成長，創近31個月以來新高，年增25.96% - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTXBHV1pBWjJSX3FkN2YxaFJUWU54Q01kLXBQdWlYY2hSYnBNQ0ZVSFducVVFVDdrN1YzMEtMeGU0V0J5MTVneFRQaUxDcTFlNlY3T1QwTHFEaFhwQWs3NXJCQTZuS2VWbmtlMHl0NDJIQ2xJTWRKZl82aF9sdGJwUW1hOXVjckhITXc?oc=5",
+        "date": "Mon, 10 Aug 2026",
+        "source": "CMoney投資網誌"
+       },
+       {
+        "title": "【2026/08月營收公告】迅德(6292) 八月營收月減年增，全年營運續看向上 - cmoney.tw",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94b2Y0ekdKWlVMMXN0OUF0VGpPbm5VZUg5RkNfWml2cHNidzB5Wk9CVW02SWJoYUVCT1RWa2lQRkdiamt3SUxmXzY2TTZTdC1IZXQzSTFVendoOW9yYUY4d0pFa1hsSmc?oc=5",
+        "date": "Thu, 10 Sep 2026",
+        "source": "cmoney.tw"
+       },
+       {
+        "title": "《業績-電零組》迅德8月營收為1.10億元，年增30.69% - 富聯網",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdlE3MWtXTHpzckZkY2Z2VzJkUXRLOVo4OTJGNnBvYkMxSWxENTBxQU1tT2d5ZlZHX2ZGQTdteEdFVE5PLWdQQ29EekpsRFRGUzRLZEdSbHd4MEFYT3lqdmdES0J1MTg3X0xfaDN2OXA4VTR1ZElMN1lkeXlRSEhlVTdFN3hWOFk4?oc=5",
+        "date": "Thu, 10 Sep 2026",
+        "source": "富聯網"
+       },
+       {
+        "title": "高階少量能撐業績？迅德(6292)利基市場緊抓不放能否擺脫成熟產業天花板？ - 優分析UAnalyze",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84MGtBdVUwWHp4emZDeTRPU1dXU25yejdST0Q1cU56a2xFeVctUHpsSGlpanY4RWJIQmYwaDJ2MDJ0RTVOWjVEX211SGxGQWo2Y25UdVlB?oc=5",
+        "date": "Tue, 06 May 2025",
+        "source": "優分析UAnalyze"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "【迅德法說會重點內容備忘錄】未來展望趨勢 20251212 - 富果直送",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xcTR3QU04R3pOVzlYVF9XaGtRYlFPdGwtdzlDazVPc1dqSGllSnU3Q0pDWEZqbXhqdmwtelZfV0d3dWdFSTJIdkU0d1ZNdG9KbFJnR1ZEbVdRZS16YjdfY2FVTlNEeWc?oc=5",
+        "date": "Fri, 12 Dec 2025",
+        "source": "富果直送"
+       },
+       {
+        "title": "營收：迅德(6292)7月營收1億1770萬元，月增率19.57%，年增率25.96% - 富聯網",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSjdIME42SUFVMC1hT1NWM3RXZ2pMcU12S25UV3RUaXlOS2dURGRyQS1DMHBvRGdrUXNJSExRMlZqcDNnRDFOQmdfQ18yd3cwSVVaQkJJSW1WU1F0TkRFcGJtNVBCV1dWVmdLV1RBRHJSTWxzTjRwNU1TcXBxdHRMdnhaTV9PSzVw?oc=5",
+        "date": "Mon, 10 Aug 2026",
+        "source": "富聯網"
+       },
+       {
+        "title": "【26Q2財報公告】迅德(6292) Q2 營收3.0836億元，連2季成長，季增 7.56％、年成長 39.23％ - cmoney.tw",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TRVZmZFNlc0c5Y2t3RmVva0puU0xyM1NfYzRWWnhlX1RuVm8tNDZnZEVhNUZtbEFsZ0thWmt0Sm5Ick9xNS1UenVpdEs2am5faEFiWU50WlJRZndlMmJmd3NzWU8yTFE?oc=5",
+        "date": "Thu, 30 Jul 2026",
+        "source": "cmoney.tw"
+       },
+       {
+        "title": "【2026/07月營收公告】迅德(6292) 七月營收1.18億元，表現亮眼、呈現雙成長，創近31個月以來新高，年增25.96% - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTXBHV1pBWjJSX3FkN2YxaFJUWU54Q01kLXBQdWlYY2hSYnBNQ0ZVSFducVVFVDdrN1YzMEtMeGU0V0J5MTVneFRQaUxDcTFlNlY3T1QwTHFEaFhwQWs3NXJCQTZuS2VWbmtlMHl0NDJIQ2xJTWRKZl82aF9sdGJwUW1hOXVjckhITXc?oc=5",
+        "date": "Mon, 10 Aug 2026",
+        "source": "CMoney投資網誌"
+       },
+       {
+        "title": "【2026/08月營收公告】迅德(6292) 八月營收月減年增，全年營運續看向上 - cmoney.tw",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94b2Y0ekdKWlVMMXN0OUF0VGpPbm5VZUg5RkNfWml2cHNidzB5Wk9CVW02SWJoYUVCT1RWa2lQRkdiamt3SUxmXzY2TTZTdC1IZXQzSTFVendoOW9yYUY4d0pFa1hsSmc?oc=5",
+        "date": "Thu, 10 Sep 2026",
+        "source": "cmoney.tw"
+       },
+       {
+        "title": "【10:34 即時新聞】迅德(6292)亮燈漲停至68.7元，高殖利率搭配營收成長題材帶動多方追價＋股價脫離整理區呈多頭加速格局 - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTmxEdlZYZXRHTEIyejdxWXd5cDNhVlZBaDE0bXZrTEk2NDlwV0o4c2Rvd0JUWU40Q3JVcHBPbEJ6NHVEVEZYTTBhVXkyekIxR3pzRFZfWGp0cHE4SVptcEF6cWF6U2tINV93TERsdU1tWVRFTFBDd3BWR1QxY1VaRkItZmF4NXc5N0lfYU9n?oc=5",
+        "date": "Thu, 28 May 2026",
+        "source": "CMoney投資網誌"
+       },
+       {
+        "title": "《業績-電零組》迅德8月營收為1.10億元，年增30.69% - 富聯網",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdlE3MWtXTHpzckZkY2Z2VzJkUXRLOVo4OTJGNnBvYkMxSWxENTBxQU1tT2d5ZlZHX2ZGQTdteEdFVE5PLWdQQ29EekpsRFRGUzRLZEdSbHd4MEFYT3lqdmdES0J1MTg3X0xfaDN2OXA4VTR1ZElMN1lkeXlRSEhlVTdFN3hWOFk4?oc=5",
+        "date": "Thu, 10 Sep 2026",
+        "source": "富聯網"
+       },
+       {
+        "title": "高階少量能撐業績？迅德(6292)利基市場緊抓不放能否擺脫成熟產業天花板？ - 優分析UAnalyze",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84MGtBdVUwWHp4emZDeTRPU1dXU25yejdST0Q1cU56a2xFeVctUHpsSGlpanY4RWJIQmYwaDJ2MDJ0RTVOWjVEX211SGxGQWo2Y25UdVlB?oc=5",
+        "date": "Tue, 06 May 2025",
+        "source": "優分析UAnalyze"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-10-05 17:41"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 12.8 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 1.8%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 75,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  }
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "買進候選",
+  "ticker": "1709.TW",
+  "name": "和益",
+  "note": "檢核 75/100，強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 58.5 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 46%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近9年平均年成長 17%，成長年份占 50%（成長不夠穩定）",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 75%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近3期季營收年增 -7%、-8%、23%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近3季獲利年增 78%、30%、535%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "AI 判斷（僅供參考，請複核依據）：儘管公司有高值化產品布局與切入半導體市場的潛力，但證據不足以判斷其能否帶來穩健的未來獲利成長。",
+     "starred": true,
+     "ai": {
+      "grade": "T",
+      "one_line": "儘管公司有高值化產品布局與切入半導體市場的潛力，但證據不足以判斷其能否帶來穩健的未來獲利成長。",
+      "analysis": "公司過去九年獲利成長不穩定，僅有50%年份呈現成長，顯示其傳統業務具備景氣循環特性。近期獲利雖有顯著增長，部分歸因於油價走高及整體化工產業景氣回升，這些皆非穩健成長的結構性因素。儘管新聞提及公司正推進高值化布局，並有碳氫樹脂切入半導體市場的潛力，此為具備結構性變化的成長動能。然而，這些高值化策略目前仍處於「布局」或「傳聞」階段，證據不足以證明其已形成足夠規模或穩定性，以確保公司未來獲利能穩健成長。",
+      "risks": [
+       "傳統業務仍受景氣循環影響，導致獲利波動。",
+       "高值化產品市場拓展進度與競爭存在不確定性。"
+      ],
+      "sources": [
+       {
+        "title": "和益受惠油價走高 本業獲利有撐、高值化布局持續推進 - 經濟日報",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0tTld5NjNxTmdwRUdoc0x4UF9MNnhwTEpwUXpjY1RfWXotek9GWlVBRHBiM0p2VVpNUThCQWR3VWJfMHB1SU1ORXpBRU9HMHVzT3d0Q0dnakRzSzjSAWBBVV95cUxNYjBmdm9fNzV0Z2VveHZwWTNnajZyWU9Kd0lhdnMwMzhtMW1LVS1XY0hTZEdSZ2ZkMlNtY0FTZzVsTXBMMlhGaldJTHB4dHBvakZPS0w0dUtRTmdzTFNVX1Y?oc=5",
+        "date": "Tue, 21 Jul 2026",
+        "source": "經濟日報"
+       },
+       {
+        "title": "焦點股》和益：傳碳氫樹脂搶進半導體 亮燈漲停 - 自由財經",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5OdFF5aTJ4NjQtZEJxcGlNTFRSbEotckxKQWFySmltMDRfdVJVT2lKcFF1Z0FxMEVyOVI4M1JPVURDeWd4TnVKdlNhLWloWV9GMnAyZ0ZOdmt5Y3NSV3pV0gFkQVVfeXFMT0xVbVBMRktPSWtSYnhkSlcxeWZPQ3hydXg2UVV1czNqWjNBLXlzY2lOdExPT19lS1BCRFQ4ZkZSRWUtRWJEbzh2VlY4SmQ2S2hwbzNrUWFBQ2ZVUTlWQmsyVEhrdA?oc=5",
+        "date": "Wed, 16 Sep 2026",
+        "source": "自由財經"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "【和益法說會重點內容備忘錄】未來展望趨勢 20260714 - 富果直送",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5IWnRQVmtEb25xQlVQQlpRMGNoc1JuM1JfLWxsR2FjQXhBU0I5eWFUMDZOMWlsSXVpUXhtQWRNV3RqMFVkNXBMUE50bUstR21pR0ltX1ZpYV8xMjZKZTJyX1Vmc3lWMzA?oc=5",
+        "date": "Tue, 14 Jul 2026",
+        "source": "富果直送"
+       },
+       {
+        "title": "和益(1709)營收查詢｜月營收統計與YOY年增率圖表 - 股市爆料同學會 - cmoney.tw",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HNVdfRHM2NUFqSnpWOFVQTTJFWGxWOXcyb0h2TUx0UmY0ZHNhTVU5WUhPQng3QmdqT0hhaXZSeEJGYkFkeHhKY3htZXdiNkNEenR6Q1JkNmRoOTBW?oc=5",
+        "date": "Thu, 01 Oct 2026",
+        "source": "cmoney.tw"
+       },
+       {
+        "title": "和益受惠油價走高 本業獲利有撐、高值化布局持續推進 - 經濟日報",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0tTld5NjNxTmdwRUdoc0x4UF9MNnhwTEpwUXpjY1RfWXotek9GWlVBRHBiM0p2VVpNUThCQWR3VWJfMHB1SU1ORXpBRU9HMHVzT3d0Q0dnakRzSzjSAWBBVV95cUxNYjBmdm9fNzV0Z2VveHZwWTNnajZyWU9Kd0lhdnMwMzhtMW1LVS1XY0hTZEdSZ2ZkMlNtY0FTZzVsTXBMMlhGaldJTHB4dHBvakZPS0w0dUtRTmdzTFNVX1Y?oc=5",
+        "date": "Tue, 21 Jul 2026",
+        "source": "經濟日報"
+       },
+       {
+        "title": "油價大漲反而讓毛利率翻倍？和益三個月營收暴增，真正的題材是? - moneyweekly.com.tw",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5PTGZ2N2N1TXRNSzhzRmhuQVM0eEdONjZUV2VnMk1DOFUtTUZmcFJsNmZOQV9NamxuS291cFQ1STBMdF9BTWtBTV9ic2JmTXdpR1RlMno1UE9RRGpodkItWnFnS09WcmJpdEtYUU9kVQ?oc=5",
+        "date": "Tue, 22 Sep 2026",
+        "source": "moneyweekly.com.tw"
+       },
+       {
+        "title": "焦點股》和益：傳碳氫樹脂搶進半導體 亮燈漲停 - 自由財經",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5OdFF5aTJ4NjQtZEJxcGlNTFRSbEotckxKQWFySmltMDRfdVJVT2lKcFF1Z0FxMEVyOVI4M1JPVURDeWd4TnVKdlNhLWloWV9GMnAyZ0ZOdmt5Y3NSV3pV0gFkQVVfeXFMT0xVbVBMRktPSWtSYnhkSlcxeWZPQ3hydXg2UVV1czNqWjNBLXlzY2lOdExPT19lS1BCRFQ4ZkZSRWUtRWJEbzh2VlY4SmQ2S2hwbzNrUWFBQ2ZVUTlWQmsyVEhrdA?oc=5",
+        "date": "Wed, 16 Sep 2026",
+        "source": "自由財經"
+       },
+       {
+        "title": "【09:17 即時新聞】和益(1709)亮燈漲停，營收連月強攻成焦點 - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcGRmMVV3MXFnbmRwNjBHVnVmVTdpRFJycUl0UFZ1aXQ0eWxIS0RCZEJNemtKWHlFdzVDQVlSalBlMHZJS2RxOVZYbnNLcW1lZ0VFNmd5ckdLLVJ0XzlJWGdURi1xWXpBRkpwV0pObThReHFFbFh5VDlzMTdXaDN3d2JVYjZmbl9ZdE5qeUxR?oc=5",
+        "date": "Wed, 16 Sep 2026",
+        "source": "CMoney投資網誌"
+       },
+       {
+        "title": "化工股旺起來了！中華化、和益、三福化等8檔獲利報喜 上半年成長王是「它」 - 工商時報",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBrcTZUdEpydG5DVjJhVGZ5bkIzc3k0TzFLbnJHZXdydXRTX3laUk9CTExocWQ0RzF4VEJHS3FMVWlSYmFIZWJtTk1NQXRwUUlxLXNMTm10ejRtU3c3b2o0?oc=5",
+        "date": "Fri, 14 Aug 2026",
+        "source": "工商時報"
+       },
+       {
+        "title": "營收速報 - 和益(1709)6月營收10.31億元年增率高達70.14％｜新聞快訊｜豐雲學堂 - sinotrade.com.tw",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IWTNCRFRvU1A2LVQxakFCLUpSa1h0N3UxbHFmT3ZNVUFISmlIZS1WZi1IemE3ekRMaDJMWi0wVjZtSV9FMXJmM0I5T2YtTnVYVjFwR2xiaWtDX3Jodml5ZmFsSTNWM3dBbWtXV0hYODJHbkpTcWc?oc=5",
+        "date": "Thu, 09 Jul 2026",
+        "source": "sinotrade.com.tw"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-10-05 17:42"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 29.2 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 1.8%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 75,
+   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+  }
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "買進候選",
+  "ticker": "3311.TW",
+  "name": "閎暉",
+  "note": "檢核 71/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 49.65 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 85%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近9年平均年成長 -4725%，成長年份占 50%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 199%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近3期季營收年增 -17%、-13%、11%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近3季獲利年增 13%、44%、191%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：公司透過跨足電力市場、FDK合作及轉型佈局，成功開拓新業務與市場，帶動獲利穩健成長。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "公司透過跨足電力市場、FDK合作及轉型佈局，成功開拓新業務與市場，帶動獲利穩健成長。",
+      "analysis": "儘管公司過往營運表現不佳，但近期獲利與營收呈現顯著成長，尤其近四季獲利年增199%，八月營收年增104%並創153個月新高。此成長並非單純景氣循環，而是來自明確的結構性變化，包括「跨足電力市場」及「FDK挹注」等新業務與合作。新聞亦提及公司正進行「轉型佈局」，顯示其透過策略性調整商業模式與市場重心，以實現長期成長。這些證據支持公司正透過結構性轉型，開拓新成長動能，有望帶動未來獲利穩健成長。",
+      "risks": "公司過往營運表現極度不穩定，顯示其業務模式可能存在較高風險或執行挑戰；新跨足的電力市場及FDK合作的具體細節與貢獻程度不明，其對未來獲利的持續性影響仍需觀察。",
+      "sources": [
+       {
+        "title": "FDK挹注，閎暉今年合併營收挑戰13年新高 - 新聞 - MoneyDJ理財網",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRHc4dUstS3VkX3UzeXRvM09McTJkQ05yZGJOY0RvTkJjZFRGSmhmaFJveDJlaWxrdS1xbUVXVmVsaHFnZS1TRWgxdDZDSjBHN3dhNm5PeGxPUWhHQVVtWV9MYVBzbFpEMFkzTWpGbk5QdmJHM3BTQmZxTG1najc2em52cE1qeldSUl9FcVlkVHNzQQ?oc=5",
+        "date": "Fri, 11 Sep 2026",
+        "source": "MoneyDJ理財網"
+       },
+       {
+        "title": "【11:01 即時新聞】閎暉(3311)盤中走強聚焦營收爆發與轉型佈局 - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOVFMRU81dkVqV2RFUV9ncVVoT2dmSncxWVplM1YyTEEya0k3blpWbTZMckNvWnF3ZHdYQm1RNm9hcjBlNnI1Qk5qM1ZIaGlxcHNvR1pCa0JSaC1penEzeXVrR2h3bVVTRzRwU0hSb3RzWEdtZDdzeVl6STUwaFVyTEw3Rng4VkVhTUNXSF9R?oc=5",
+        "date": "Tue, 15 Sep 2026",
+        "source": "CMoney投資網誌"
+       },
+       {
+        "title": "【2026/08月營收公告】閎暉(3311) 八月營收4.22億元，表現亮眼、呈現雙成長，創近153個月以來新高，年增104.38% - CMoney",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pcEN6aG0wbDBGMmZmb2lwV09Fd3l0dW1CamhadFJoY01HNnhGcDFhNWp3Nmc4bDVVWG5raUZaT2xlYWEtVk1sU0JXVmRHY3VEYlQ5QkRLZUI3TGlpU01DUDFaRnh3bFE?oc=5",
+        "date": "Thu, 10 Sep 2026",
+        "source": "CMoney"
+       },
+       {
+        "title": "閎暉2025年獲利年增143.9％ EPS 1.67元 - 自由財經",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iR1RObXNzb1o3a3FVNkFnWFREUF9tUkZEWUFUdUtycWJTVzUyUGdoeUJ5WWdfWUNIVjNDcmE5TmxQdjdXaVdQOVZuZ3BsNXdBZ0k4andFX29SNE5RQlo00gFkQVVfeXFMTS0yR25INUdvOHJNaW1feHZWeHRPc1FoSUZQWExoUjg5OWFvMUU4MzVseDhOOGFGMS1sMjM2eV9KcVdIaEpBSmZZTVJmVHpJTzNJQXBwUXhuejhXaTFqMlM2SDNhZg?oc=5",
+        "date": "Tue, 24 Feb 2026",
+        "source": "自由財經"
+       },
+       {
+        "title": "閎暉2025年 EPS 1.67元 跨足電力市場 - 經濟日報",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CNWl5WE94ZjVxTW9QTXlxUVYxamJ2amQwbTZCX0JIekFyc3FBRlFVb1V1QzFJaDc5emhHWXhnaEE0TWpucUVHS0hYUFFaWGt2ZzVHR2JTb2dkUdIBX0FVX3lxTE5yWlJqbmItU0ktUVEybWRia2Zsbzk2OTdKQ29CLVVaWHRCWDFObmlWbWR0Y1Fna0NNMFI0MjJIQUlhNjE1RXJPb0c2TWVLcUJ4Ul96T0JFUUtnN3JzWVFN?oc=5",
+        "date": "Wed, 25 Feb 2026",
+        "source": "經濟日報"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "連拉兩根漲停、8月營收暴增104%！閎暉飆上45元 - 理財周刊",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rVTlsNl83ZHh5M0o0WnV3VnBDUUdfdnlmekNRd1Q4QTNzYkZ6bVdXRTRnU21BVDdab2F0MmFiSGJvMHVBVDctSTdSeWRYdWdHYzBJdGdxTXA3MUhPUHR0M3dyOVZMQ1ZNejNLMjlBUQ?oc=5",
+        "date": "Thu, 01 Oct 2026",
+        "source": "理財周刊"
+       },
+       {
+        "title": "FDK挹注，閎暉今年合併營收挑戰13年新高 - 新聞 - MoneyDJ理財網",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRHc4dUstS3VkX3UzeXRvM09McTJkQ05yZGJOY0RvTkJjZFRGSmhmaFJveDJlaWxrdS1xbUVXVmVsaHFnZS1TRWgxdDZDSjBHN3dhNm5PeGxPUWhHQVVtWV9MYVBzbFpEMFkzTWpGbk5QdmJHM3BTQmZxTG1najc2em52cE1qeldSUl9FcVlkVHNzQQ?oc=5",
+        "date": "Fri, 11 Sep 2026",
+        "source": "MoneyDJ理財網"
+       },
+       {
+        "title": "【閎暉法說會重點內容備忘錄】未來展望趨勢 20251219 - 富果直送",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5ZmpIZ0xYQ0dwTGJCdGc3UHZpNmxkTkZjMFBGLXVSLTRGZS1PWXU0WlFfbThHdTZuVE0yN3c2dUxabnZROUJsSUEyVTNRMnBOVVN6QUZiVkxKTDVlMUJ3clQ4bkZhd1U?oc=5",
+        "date": "Fri, 19 Dec 2025",
+        "source": "富果直送"
+       },
+       {
+        "title": "【11:01 即時新聞】閎暉(3311)盤中走強聚焦營收爆發與轉型佈局 - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOVFMRU81dkVqV2RFUV9ncVVoT2dmSncxWVplM1YyTEEya0k3blpWbTZMckNvWnF3ZHdYQm1RNm9hcjBlNnI1Qk5qM1ZIaGlxcHNvR1pCa0JSaC1penEzeXVrR2h3bVVTRzRwU0hSb3RzWEdtZDdzeVl6STUwaFVyTEw3Rng4VkVhTUNXSF9R?oc=5",
+        "date": "Tue, 15 Sep 2026",
+        "source": "CMoney投資網誌"
+       },
+       {
+        "title": "【2026/08月營收公告】閎暉(3311) 八月營收4.22億元，表現亮眼、呈現雙成長，創近153個月以來新高，年增104.38% - CMoney",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pcEN6aG0wbDBGMmZmb2lwV09Fd3l0dW1CamhadFJoY01HNnhGcDFhNWp3Nmc4bDVVWG5raUZaT2xlYWEtVk1sU0JXVmRHY3VEYlQ5QkRLZUI3TGlpU01DUDFaRnh3bFE?oc=5",
+        "date": "Thu, 10 Sep 2026",
+        "source": "CMoney"
+       },
+       {
+        "title": "營收：閎暉(3311)8月營收4億2160萬元，月增率79.75%，年增率104.38% - 富聯網",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQM3JHcVFBQ2dyTklkMHVmRkNzSUpodFZMdE9UVmpla0IzZFRkTmxHV3JkVFBtcmZweXhVMmtESlNsbHF2NVlzeGNJaExoSS0zYzAtSzZqUS12LTZxeEtXc184TVNCTUsxM2xzb040Nk40MnNhQW4yd2tKeGFzVmI0blFPQ0xFTzVp?oc=5",
+        "date": "Thu, 10 Sep 2026",
+        "source": "富聯網"
+       },
+       {
+        "title": "閎暉2025年獲利年增143.9％ EPS 1.67元 - 自由財經",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iR1RObXNzb1o3a3FVNkFnWFREUF9tUkZEWUFUdUtycWJTVzUyUGdoeUJ5WWdfWUNIVjNDcmE5TmxQdjdXaVdQOVZuZ3BsNXdBZ0k4andFX29SNE5RQlo00gFkQVVfeXFMTS0yR25INUdvOHJNaW1feHZWeHRPc1FoSUZQWExoUjg5OWFvMUU4MzVseDhOOGFGMS1sMjM2eV9KcVdIaEpBSmZZTVJmVHpJTzNJQXBwUXhuejhXaTFqMlM2SDNhZg?oc=5",
+        "date": "Tue, 24 Feb 2026",
+        "source": "自由財經"
+       },
+       {
+        "title": "閎暉2025年 EPS 1.67元 跨足電力市場 - 經濟日報",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CNWl5WE94ZjVxTW9QTXlxUVYxamJ2amQwbTZCX0JIekFyc3FBRlFVb1V1QzFJaDc5emhHWXhnaEE0TWpucUVHS0hYUFFaWGt2ZzVHR2JTb2dkUdIBX0FVX3lxTE5yWlJqbmItU0ktUVEybWRia2Zsbzk2OTdKQ29CLVVaWHRCWDFObmlWbWR0Y1Fna0NNMFI0MjJIQUlhNjE1RXJPb0c2TWVLcUJ4Ul96T0JFUUtnN3JzWVFN?oc=5",
+        "date": "Wed, 25 Feb 2026",
+        "source": "經濟日報"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-10-05 17:46"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 25.9 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 1.8%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 71,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  }
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "買進候選",
+  "ticker": "9933.TW",
+  "name": "中鼎",
+  "note": "檢核 71/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 45.8 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 68%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近9年平均年成長 5%，成長年份占 38%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 265%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近3期季營收年增 -23%、-23%、-15%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近3季獲利年增 51%、116%、128%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "AI 判斷（僅供參考，請複核依據）：儘管AI與高科技產業擴張帶來龐大在手訂單，但公司過去獲利成長不穩健且近期營收持續衰退，缺乏足夠證據證明未來獲利能「穩健」成長。",
+     "starred": true,
+     "ai": {
+      "grade": "T",
+      "one_line": "儘管AI與高科技產業擴張帶來龐大在手訂單，但公司過去獲利成長不穩健且近期營收持續衰退，缺乏足夠證據證明未來獲利能「穩健」成長。",
+      "analysis": "1. 公司過去九年平均年成長率僅5%，且成長年份僅佔38%，顯示其獲利成長歷史上並不穩健。\n2. 儘管近期獲利大幅回升，新聞指出主要原因為「揮別美國投資踩雷風暴」，這屬於一次性因素或循環回升，而非持續性的結構性成長。\n3. 更重要的是，公司近三期季營收年增率分別為-23%、-23%、-15%，營收持續大幅衰退，與「穩健成長」的判斷相悖。\n4. 雖然新聞提及AI基建需求暢旺、高科技業擴產以及在手訂單高達年營收5倍，這些是強勁的未來結構性成長潛力，但缺乏證據說明公司如何將這些潛力轉化為穩定的營收與獲利增長，尤其是在當前營收衰退的背景下。",
+      "risks": [
+       "工程專案型業務的營收認列具有波動性，可能導致獲利表現不穩定。",
+       "儘管在手訂單龐大，但若無法有效管理專案執行與成本控制，可能影響獲利轉換效率。"
+      ],
+      "sources": [
+       {
+        "title": "【09:30 即時新聞】中鼎(9933)亮燈漲停，買盤聚焦工程在手量與獲利回升 - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdnViay1XRW5qN19LSWtidzdLeW5qOXd1bDgzR0dBY1NzXzJYZG1ZM2wtbFYtMXhKNWN5LVZjU1pmOEZvckNUWjN4enN4RnlsUlkyTzB1YnRobTB5SHF6TElmUGtsZEFSV0ZyMVRyRm1BR2xiclJCOWdEVF9YMXBUbU84dWxzd3plVWpuX19B?oc=5",
+        "date": "Fri, 02 Oct 2026",
+        "source": "CMoney投資網誌"
+       },
+       {
+        "title": "中鼎財報／第2季獲利激增逾五倍、EPS 達1.7元 揮別美國投資踩雷風暴 - 經濟日報",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Nc0hLdmN3T1dtdVVmQ3d4dlE3VnMwWkZvaWFxSnVsWWFtSi1wN0dMcXJYMnNwZW9vZncwV3hjVDdWdUJ6SExXdUUxVllqdHN5WHRKdzdnTWpnZ9IBX0FVX3lxTE1fOFYyb3dxNlJLMHBfMHBkeWtkV21fSjZWemlwWERDSTY0QXFWZlJoaTZicUROMi1GQmRjSUE2ak5EcU92MW5abHNvdmxoaVB2VVNlYV9rX3AxN0V2M3FJ?oc=5",
+        "date": "Wed, 12 Aug 2026",
+        "source": "經濟日報"
+       },
+       {
+        "title": "個股：AI基建需求暢旺，中鼎營收力拚逐季走高，今股價亮燈站近兩年高點 - 富聯網",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT2V3azdUY09BY1U2b01oUi1TakNHb1JsdW5HVEd5TWVKaUFZNGZodWhSbGd3SHNFNHpidVZiWUJHWXl3SnAzLTI2Wi1KTjYzU0FPTU92NEFBUUM2UkJ4OWZrSGktSFdUU2FPeUtVR2FzTWc4Z1FkOV9sU0QzVXdxZlhOVy12UWI0?oc=5",
+        "date": "Fri, 02 Oct 2026",
+        "source": "富聯網"
+       },
+       {
+        "title": "崑鼎、中鼎法說：AI與高科技業擴產推升營運成長- 產業 - 工商時報",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8zZWNKQTFkLWdfUk9GRjYxaWNuSjVGVThrdVZDV0h5SlpfdGplVzVESERkUC04Sjc2MDNUY1VWMTdGUU51WXIycjFHbnlDRy1vbWVnMWkzNFNmSEdHdGJZ?oc=5",
+        "date": "Thu, 14 May 2026",
+        "source": "工商時報"
+       },
+       {
+        "title": "強強聯手！中鼎(9933)私募引進台達電 在手訂單衝年營收5倍 - moneyweekly.com.tw",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1oTURUa1FUbnlpSHpLcWIyQlBNMDJwZ194cDhhYWFOb01od0JkcHhIbHhrUGQ5ZUtVZWJSQWtlWHFWYlNKVHhsOWNVM1d2NlZ5aXRiNThZSVRDQnFoOGFMY2Nzb2t0VlB6Q01YOTlIQQ?oc=5",
+        "date": "Thu, 16 Apr 2026",
+        "source": "moneyweekly.com.tw"
+       },
+       {
+        "title": "中鼎法說會／AI 產業擴張 在建工程近5,000億元 - 經濟日報",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CNzduVjJuQzhPbV9aaVJUdE9idmJ2QlhQd1RBNFpmc2JTdk9CemV5YkJJSXB1bVRGcGExU2xVR3BJMldYMm80Q1pXN0hSd1M3OVdNOUhoMng0d9IBX0FVX3lxTE9zOHRnZERmczZvc0s2TDk0LUJLbElBQTFnX1JuTGxUTnFWRzIzU0Q2bXFBOEZtYkU0UGJWV2I2NjBUNzB0M0tSZENZSlpVR1pzekFoRGpMQTE1Zm8zQWRn?oc=5",
+        "date": "Thu, 14 May 2026",
+        "source": "經濟日報"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "【09:30 即時新聞】中鼎(9933)亮燈漲停，買盤聚焦工程在手量與獲利回升 - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdnViay1XRW5qN19LSWtidzdLeW5qOXd1bDgzR0dBY1NzXzJYZG1ZM2wtbFYtMXhKNWN5LVZjU1pmOEZvckNUWjN4enN4RnlsUlkyTzB1YnRobTB5SHF6TElmUGtsZEFSV0ZyMVRyRm1BR2xiclJCOWdEVF9YMXBUbU84dWxzd3plVWpuX19B?oc=5",
+        "date": "Fri, 02 Oct 2026",
+        "source": "CMoney投資網誌"
+       },
+       {
+        "title": "中鼎財報／第2季獲利激增逾五倍、EPS 達1.7元 揮別美國投資踩雷風暴 - 經濟日報",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Nc0hLdmN3T1dtdVVmQ3d4dlE3VnMwWkZvaWFxSnVsWWFtSi1wN0dMcXJYMnNwZW9vZncwV3hjVDdWdUJ6SExXdUUxVllqdHN5WHRKdzdnTWpnZ9IBX0FVX3lxTE1fOFYyb3dxNlJLMHBfMHBkeWtkV21fSjZWemlwWERDSTY0QXFWZlJoaTZicUROMi1GQmRjSUE2ak5EcU92MW5abHNvdmxoaVB2VVNlYV9rX3AxN0V2M3FJ?oc=5",
+        "date": "Wed, 12 Aug 2026",
+        "source": "經濟日報"
+       },
+       {
+        "title": "個股：AI基建需求暢旺，中鼎營收力拚逐季走高，今股價亮燈站近兩年高點 - 富聯網",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT2V3azdUY09BY1U2b01oUi1TakNHb1JsdW5HVEd5TWVKaUFZNGZodWhSbGd3SHNFNHpidVZiWUJHWXl3SnAzLTI2Wi1KTjYzU0FPTU92NEFBUUM2UkJ4OWZrSGktSFdUU2FPeUtVR2FzTWc4Z1FkOV9sU0QzVXdxZlhOVy12UWI0?oc=5",
+        "date": "Fri, 02 Oct 2026",
+        "source": "富聯網"
+       },
+       {
+        "title": "中鼎 2026-08-12 法說會 - BigGo 財經",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOEYwcXNkY1Boc2R6V3ZoeGJrNTNVWWgtMlBIblVFZ0k0eFNYQXJkV2ROYVRjNzVWTE5vb1ZPQWx6czBsaF9QT09QcEdyX0tBVzIxN29URnl5LUpXb25PRmVVWlh0RnlSajNmcVczUVNXLUg1TTRyWXdXaVNWTk1KcXZuMHM?oc=5",
+        "date": "Wed, 12 Aug 2026",
+        "source": "BigGo 財經"
+       },
+       {
+        "title": "崑鼎、中鼎法說：AI與高科技業擴產推升營運成長- 產業 - 工商時報",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8zZWNKQTFkLWdfUk9GRjYxaWNuSjVGVThrdVZDV0h5SlpfdGplVzVESERkUC04Sjc2MDNUY1VWMTdGUU51WXIycjFHbnlDRy1vbWVnMWkzNFNmSEdHdGJZ?oc=5",
+        "date": "Thu, 14 May 2026",
+        "source": "工商時報"
+       },
+       {
+        "title": "【2026/06月營收公告】中鼎(9933) 六月營收72.97億元，創近6個月以來新高，月增5.81％ - cmoney.tw",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9meVM3VGpuU1VZQm9aVkJBMjNWVE9NNW04YmQ4WDM4UHFrWWk3OEo3akdaRGxwenJMc1J5YVZRTTRERmp0VzA4b09jZ0taZXFaZE0zOTk0MWdZSEstc0w4Mlc5bGtVZ3c?oc=5",
+        "date": "Tue, 07 Jul 2026",
+        "source": "cmoney.tw"
+       },
+       {
+        "title": "強強聯手！中鼎(9933)私募引進台達電 在手訂單衝年營收5倍 - moneyweekly.com.tw",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1oTURUa1FUbnlpSHpLcWIyQlBNMDJwZ194cDhhYWFOb01od0JkcHhIbHhrUGQ5ZUtVZWJSQWtlWHFWYlNKVHhsOWNVM1d2NlZ5aXRiNThZSVRDQnFoOGFMY2Nzb2t0VlB6Q01YOTlIQQ?oc=5",
+        "date": "Thu, 16 Apr 2026",
+        "source": "moneyweekly.com.tw"
+       },
+       {
+        "title": "中鼎法說會／AI 產業擴張 在建工程近5,000億元 - 經濟日報",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CNzduVjJuQzhPbV9aaVJUdE9idmJ2QlhQd1RBNFpmc2JTdk9CemV5YkJJSXB1bVRGcGExU2xVR3BJMldYMm80Q1pXN0hSd1M3OVdNOUhoMng0d9IBX0FVX3lxTE9zOHRnZERmczZvc0s2TDk0LUJLbElBQTFnX1JuTGxUTnFWRzIzU0Q2bXFBOEZtYkU0UGJWV2I2NjBUNzB0M0tSZENZSlpVR1pzekFoRGpMQTE1Zm8zQWRn?oc=5",
+        "date": "Thu, 14 May 2026",
+        "source": "經濟日報"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-10-05 17:43"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 8.0 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 1.8%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 71,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  }
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "買進候選",
+  "ticker": "5013.TWO",
+  "name": "強新",
+  "note": "檢核 62/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 46.85 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 85%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近9年平均年成長 9%，成長年份占 50%（成長不夠穩定）",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 28%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近3期季營收年增 -8%、-1%、17%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近3季獲利年增 13%、-11%、134%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 21.5 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 1.8%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 62,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  }
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "買進候選",
+  "ticker": "2030.TW",
+  "name": "彰源",
+  "note": "檢核 62/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 38.4 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 63%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近9年平均年成長 92%，成長年份占 38%（成長不夠穩定）",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 179%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近3期季營收年增 -18%、-1%、26%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近3季獲利年增 -82%、5%、101%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 19.7 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 1.8%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 62,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  }
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "買進候選",
+  "ticker": "6505.TW",
+  "name": "台塑化",
+  "note": "檢核 61/100，候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 100 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 77%（目標≥60%），平穩期品質 44%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近9年平均年成長 56%，成長年份占 38%（成長不夠穩定）",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 94%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近3期季營收年增 -3%、-7%、26%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近3季獲利年增 -392%、396%、432%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "AI 判斷（僅供參考，請複核依據）：獲利成長主要來自煉油利差擴大與柴油供應短缺等循環性因素，不具備結構性成長基礎。",
+     "starred": true,
+     "ai": {
+      "grade": "X",
+      "one_line": "獲利成長主要來自煉油利差擴大與柴油供應短缺等循環性因素，不具備結構性成長基礎。",
+      "analysis": "公司近期獲利大幅增長，新聞明確指出是因「煉油利差爆發」及「柴油供應短缺」所致。這些因素本質上屬於短期市場供需失衡，具有高度循環性，並非產業結構的根本性轉變。新聞標題亦質疑「利差能撐多久？」，顯示其成長動能缺乏長期穩定性。此外，公司過往獲利成長年份僅佔38%，且近期獲利年增率極度波動，皆指向其獲利不穩定的特性。",
+      "risks": [
+       "全球原油供需與煉油利差的波動性，將直接影響公司獲利。",
+       "地緣政治事件或全球經濟景氣變化，可能導致獲利大幅波動。"
+      ],
+      "sources": [
+       {
+        "title": "中國、俄羅斯、沙國同時斷柴油：台塑化半年多賺510億！利差能撐多久？｜股市話題｜豐雲學堂2026 年 10 月 - sinotrade.com.tw",
+        "link": "https://news.google.com/rss/articles/CBMi8ANBVV95cUxPRVBPd3BuR3JfRXM0Sk9RS0JOaVo1ZzFqcm1DRmxiY01ONVBVXzdWakpoLWx1SWkwRDhESDVWMS00d2ZGc1c4VzQxbURMN0RHc0doZTNleklpRmVlck9kdFdfLVhyQ1pHVnZEbXdkNUFZY1d1NFFIWFlla3FCRzFOZ0NEbDBqZ2RRTnJZNFFJZlh6UXpvQXZRTmN5TUhXSTZiY0w0b3dHNjByd1UxaFdwaEttSW5qSVJWM3l0S1BadTF1RHlhZTd3a3YtZF9kbE5fM1ZWVEZJTjN4SjF4aWN5aHl4eFgyMjI3ZkhtbHBZNVZvdUtGX0tLVnhtZGRUZnZLUUVkWE1HWWZ3NGFLNFI1Q3dHLW5rSmVjSEFXWjg5Mm5mbTFUX0xXNEJ3b3BQSU53RXRLaldpN01hN19nWjM3NjV6MHdES0I4YkdwY3ZBeWMxeXpnbDNSbW9sYnJudldKVW8zUWRGTUh5Y2NNSlNCMWZMblM0aUVPdnlEWGtZc2ZaaFlHTnY3ME5sWmZYZlprZzE4dUMxVEhERUlpMHNRSERYWVR5d05sSlNVTmY5ZFBKX003SDBmeEdsVEt4Z2ZSQkRRcFozSTFSUmZvT1lDVzhXV2pob2xESVVsa2xoYjVzUUlnZklNdllXOU50bk5j?oc=5",
+        "date": "Fri, 02 Oct 2026",
+        "source": "sinotrade.com.tw"
+       },
+       {
+        "title": "煉油利差爆發！法人看好台塑化全年EPS暴增7.6倍 調升目標價 - TVBS新聞網",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9XS1BieTAxaVJQX0VzSkV1UUY3b0xaMzIwMFQwNG5RR25pNU04cmN2cDU2aGxkTy1Rdlo0MEY5c19aNzZGMGwyaWN4VWNnbTg?oc=5",
+        "date": "Sat, 03 Oct 2026",
+        "source": "TVBS新聞網"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "1301 台塑- 股市小白的新手筆記- 股市爆料同學會 - CMoney",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5iYmNoWGVSQjB1R0s3clBQSEdPZmtxMm5uUjVfWEdEZUQwYTZCZUctb1luV21RMlpFM0JBTG0tOTE0VUctYjByNC1tcnowYUE5anV5UzlrSkY?oc=5",
+        "date": "Mon, 05 Oct 2026",
+        "source": "CMoney"
+       },
+       {
+        "title": "中國、俄羅斯、沙國同時斷柴油：台塑化半年多賺510億！利差能撐多久？｜股市話題｜豐雲學堂2026 年 10 月 - sinotrade.com.tw",
+        "link": "https://news.google.com/rss/articles/CBMi8ANBVV95cUxPRVBPd3BuR3JfRXM0Sk9RS0JOaVo1ZzFqcm1DRmxiY01ONVBVXzdWakpoLWx1SWkwRDhESDVWMS00d2ZGc1c4VzQxbURMN0RHc0doZTNleklpRmVlck9kdFdfLVhyQ1pHVnZEbXdkNUFZY1d1NFFIWFlla3FCRzFOZ0NEbDBqZ2RRTnJZNFFJZlh6UXpvQXZRTmN5TUhXSTZiY0w0b3dHNjByd1UxaFdwaEttSW5qSVJWM3l0S1BadTF1RHlhZTd3a3YtZF9kbE5fM1ZWVEZJTjN4SjF4aWN5aHl4eFgyMjI3ZkhtbHBZNVZvdUtGX0tLVnhtZGRUZnZLUUVkWE1HWWZ3NGFLNFI1Q3dHLW5rSmVjSEFXWjg5Mm5mbTFUX0xXNEJ3b3BQSU53RXRLaldpN01hN19nWjM3NjV6MHdES0I4YkdwY3ZBeWMxeXpnbDNSbW9sYnJudldKVW8zUWRGTUh5Y2NNSlNCMWZMblM0aUVPdnlEWGtZc2ZaaFlHTnY3ME5sWmZYZlprZzE4dUMxVEhERUlpMHNRSERYWVR5d05sSlNVTmY5ZFBKX003SDBmeEdsVEt4Z2ZSQkRRcFozSTFSUmZvT1lDVzhXV2pob2xESVVsa2xoYjVzUUlnZklNdllXOU50bk5j?oc=5",
+        "date": "Fri, 02 Oct 2026",
+        "source": "sinotrade.com.tw"
+       },
+       {
+        "title": "台塑(1301) Q2擺脫連六季虧損！28億獲利能維持多久？電子化學品開啟營收質變 - 優分析UAnalyze",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LZzlHcnZhTnZLV0hjVGdUc0dNX285OG9sc3dLMHBfZzk0TG1tWTdkaGlxb2F5bU9wdW93dXFzSzVfTzZDYXNNOGJja3ptc3dFQ3Qxa2Z3?oc=5",
+        "date": "Mon, 05 Oct 2026",
+        "source": "優分析UAnalyze"
+       },
+       {
+        "title": "台塑化、南亞、台塑、台化…台塑四寶選誰？最新目標價曝光，這檔外資喊到3位數，利多頻發還會再漲？ - 今周刊",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaXJ1WWZITFZxQnR0eEllS0JfbHh6ZmFjUHJUMzRVQ2ZYUm5EblNpLUxwSjR3LUFuVTN4cUJubXk5TF8zaDF2bjRrLTZ5WWpCd2lOcmd0VVJkNUFLWXNveHpOWEFpN2RYeVhTVmtSU1QwZ1I4UXpFMlVvelBlQklZSg?oc=5",
+        "date": "Tue, 29 Sep 2026",
+        "source": "今周刊"
+       },
+       {
+        "title": "CCL獲利空間還很大！外資升評南亞目標價喊到424元台塑化也翻多2力道助攻- 日報 - 工商時報",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBhS0dMaFFQcUxpZFdtaV9KVm1iMVdpM0Y1Smk5Z0lERW9KTFlKM0RvZHZUNTV0ZVFSeFRhOWh4Y2Y2Rm82cGZiUzBWMGJsOU93Yjd3WlJncDRhYnpCUXJR?oc=5",
+        "date": "Tue, 29 Sep 2026",
+        "source": "工商時報"
+       },
+       {
+        "title": "台塑化元大64購02 帶勁 - 經濟日報",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxcS1JLThyUmx1MnUwR0ZHX1BwLW9CTVM2aFlvVzV6YVQtTnlQYS14MnNuM1R6UEZXVU1HZnNaTVA5WHNUOVFtREp0VTdWQmlaTWRGdjd0UjVHZ9IBX0FVX3lxTE9xV0xfMGpJX3VkV2I1V1JOX2Z5VE5raVJsZHUtQzlFenZMV0lSUTVxenBYdjFzZS1wQ3l1TTRCczVrSjNkNHJXN092UGJscHpELUl0MldGT0d5NVBCd0Rr?oc=5",
+        "date": "Sat, 03 Oct 2026",
+        "source": "經濟日報"
+       },
+       {
+        "title": "台塑四寶8月營收一表看！台塑化年增5成最猛 南亞創50個月新高 - Yahoo股市",
+        "link": "https://news.google.com/rss/articles/CBMimgNBVV95cUxPaEthdVRsdnVnSk9SYlhMZmtkaGt3VmppU3hpMlJwQWZGOGdJNVN3VGctOXJGTTRxN1dpcHlVLTE4ZGZweG90TUFMWHJIcEd4SEROb1FMdHgxelN3YUtXZnMxWmtUSnhkMEtSZGVfT2d6OHZoMDZ2YTAxVjdPSzVnU1JTQ1dnRkJaZG8xVnJQc0s4WkdRNmZ5MWtYWG9fSW5UeVl4QlF3SUNuRVc5UGZCWWhlVDBPS2NRVTRqcF9EUWk2djhkel95eHVRcjg2cUxFUDFVU1Z4R2pMd2NlNkYySFhsTmo0ck5lYlhTbVVOellnMlNrNEZqenhmbklyXzN1anZaUTNhU1A5ejFvbkFQZjQ5cGYxNFhrS0kyZDJfRm9yU2NfVGxFTkh4OFZkLW82Z01lS210OVBySlVuOE9WTUpCQkVONGlhWjBsVGtmZjNXODB0SWdNdGFJNE12eHBQR2ZnLTJsdU5jbUdhbjNSYmowLTNDdUNuZllpZzhSaUN3WlB0eFp3VkxSYXlVaHQxOG9NbEVmLVJoZw?oc=5",
+        "date": "Mon, 07 Sep 2026",
+        "source": "Yahoo股市"
+       },
+       {
+        "title": "煉油利差爆發！法人看好台塑化全年EPS暴增7.6倍 調升目標價 - TVBS新聞網",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9XS1BieTAxaVJQX0VzSkV1UUY3b0xaMzIwMFQwNG5RR25pNU04cmN2cDU2aGxkTy1Rdlo0MEY5c19aNzZGMGwyaWN4VWNnbTg?oc=5",
+        "date": "Sat, 03 Oct 2026",
+        "source": "TVBS新聞網"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-10-05 17:45"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 17.4 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 1.8%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 61,
+   "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+  }
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "買進候選",
+  "ticker": "6122.TWO",
+  "name": "擎邦",
+  "note": "檢核 58/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 63.9 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 87%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近9年平均年成長 132%，成長年份占 75%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 12%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近3期季營收年增 11%、-8%、-2%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近3季獲利年增 41%、-11%、7%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 13.4 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 1.8%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 58,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  }
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "5209.TWO",
+  "name": "新鼎",
+  "note": "剛黃金交叉，距3年收盤高 100.0%（K 45.78／D 33.3）"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "6227.TWO",
+  "name": "茂綸",
+  "note": "剛黃金交叉，距3年收盤高 100.0%（K 61.82／D 56.81）"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "1727.TW",
+  "name": "中華化",
+  "note": "剛黃金交叉，距3年收盤高 100.0%（K 74.33／D 72.52）"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "8111.TWO",
+  "name": "立碁",
+  "note": "剛黃金交叉，距3年收盤高 100.0%（K 73.32／D 64.84）"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "2455.TW",
+  "name": "全新",
+  "note": "剛黃金交叉，距3年收盤高 100.0%（K 62.8／D 59.1）"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "3055.TW",
+  "name": "蔚華科",
+  "note": "準備交叉向上，距3年收盤高 100.0%（K 78.36／D 78.37）"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "2412.TW",
+  "name": "中華電",
+  "note": "準備交叉向上，距3年收盤高 99.66%（K 75.62／D 76.65）"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "2855.TW",
+  "name": "統一證",
+  "note": "準備交叉向上，距3年收盤高 99.65%（K 67.35／D 69.03）"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "6133.TW",
+  "name": "金橋",
+  "note": "準備交叉向上，距3年收盤高 98.31%（K 72.98／D 73.53）"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "6957.TW",
+  "name": "裕慶-KY",
+  "note": "準備交叉向上，距3年收盤高 98.18%（K 89.5／D 90.77）"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "6168.TW",
+  "name": "宏齊",
+  "note": "準備交叉向上，距3年收盤高 97.87%（K 90.34／D 90.41）"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "7792.TWO",
+  "name": "安葆",
+  "note": "準備交叉向上，距3年收盤高 97.59%（K 80.08／D 80.53）"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "9933.TW",
+  "name": "中鼎",
+  "note": "剛黃金交叉，距3年收盤高 97.34%（K 54.26／D 42.91）"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "2426.TW",
+  "name": "鼎元",
+  "note": "準備交叉向上，距3年收盤高 96.74%（K 56.24／D 56.94）"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "1788.TWO",
+  "name": "杏昌",
+  "note": "剛黃金交叉，距3年收盤高 96.39%（K 34.62／D 32.14）"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "1268.TWO",
+  "name": "漢來美食",
+  "note": "準備交叉向上，距3年收盤高 95.95%（K 78.68／D 79.59）"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "2606.TW",
+  "name": "裕民",
+  "note": "剛黃金交叉，距3年收盤高 95.23%（K 31.55／D 31.35）"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "綜合訊號",
+  "ticker": "6227.TWO",
+  "name": "茂綸",
+  "note": "雙策略檢核通過：檢核 86/100，剛黃金交叉，距3年高 100.0%"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "綜合訊號",
+  "ticker": "9933.TW",
+  "name": "中鼎",
+  "note": "雙策略檢核通過：檢核 71/100，剛黃金交叉，距3年高 97.34%"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "綜合訊號",
+  "ticker": "2855.TW",
+  "name": "統一證",
+  "note": "雙策略檢核通過：準備交叉向上，距3年高 99.65%"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "綜合訊號",
+  "ticker": "6957.TW",
+  "name": "裕慶-KY",
+  "note": "雙策略檢核通過：準備交叉向上，距3年高 98.18%"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "綜合訊號",
+  "ticker": "1268.TWO",
+  "name": "漢來美食",
+  "note": "雙策略檢核通過：準備交叉向上，距3年高 95.95%"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "台股",
+  "type": "綜合訊號",
+  "ticker": "2606.TW",
+  "name": "裕民",
+  "note": "雙策略檢核通過：剛黃金交叉，距3年高 95.23%"
  }
 ]
