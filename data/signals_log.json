@@ -2,70 +2,6 @@
  {
   "date": "2026-10-06",
   "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "2459.TW",
-  "name": "敦吉",
-  "note": "剛黃金交叉，距3年收盤高 96.73%（K 31.44／D 28.1）"
- },
- {
-  "date": "2026-10-06",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "8021.TW",
-  "name": "尖點",
-  "note": "準備交叉向上，距3年收盤高 96.56%（K 89.09／D 90.68）"
- },
- {
-  "date": "2026-10-06",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "1726.TW",
-  "name": "永記",
-  "note": "剛黃金交叉，距3年收盤高 96.46%（K 18.26／D 14.18）"
- },
- {
-  "date": "2026-10-06",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "3105.TWO",
-  "name": "穩懋",
-  "note": "準備交叉向上，距3年收盤高 96.26%（K 84.89／D 85.44）"
- },
- {
-  "date": "2026-10-06",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "2884.TW",
-  "name": "玉山金",
-  "note": "剛黃金交叉，距3年收盤高 96.09%（K 35.45／D 34.71）"
- },
- {
-  "date": "2026-10-06",
-  "market": "台股",
-  "type": "綜合訊號",
-  "ticker": "6257.TW",
-  "name": "矽格",
-  "note": "雙策略檢核通過：檢核 89/100，剛黃金交叉，距3年高 100.0%"
- },
- {
-  "date": "2026-10-06",
-  "market": "台股",
-  "type": "綜合訊號",
-  "ticker": "3265.TWO",
-  "name": "台星科",
-  "note": "雙策略檢核通過：檢核 71/100，剛黃金交叉，距3年高 100.0%"
- },
- {
-  "date": "2026-10-06",
-  "market": "台股",
-  "type": "綜合訊號",
-  "ticker": "1315.TW",
-  "name": "達新",
-  "note": "雙策略檢核通過：檢核 62/100，準備交叉向上，距3年高 100.0%"
- },
- {
-  "date": "2026-10-06",
-  "market": "台股",
   "type": "綜合訊號",
   "ticker": "6227.TWO",
   "name": "茂綸",
@@ -12774,5 +12710,519 @@
   "ticker": "2330.TW",
   "name": "台積電",
   "note": "雙策略檢核通過：準備交叉向上，距3年高 98.65%"
+ },
+ {
+  "date": "2026-10-08",
+  "market": "美股",
+  "type": "買進候選",
+  "ticker": "PM",
+  "name": "Philip Morris International",
+  "note": "檢核 75/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 200.5 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 73%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 7%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 14%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 10%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 25%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 28.8 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 1.8%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 75,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  }
+ },
+ {
+  "date": "2026-10-08",
+  "market": "美股",
+  "type": "買進候選",
+  "ticker": "VLO",
+  "name": "Valero Energy",
+  "note": "檢核 75/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 443.8 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 19%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -37%，成長年份占 0%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -19%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 49%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 449%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 18.5 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 1.8%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 75,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  }
+ },
+ {
+  "date": "2026-10-08",
+  "market": "美股",
+  "type": "買進候選",
+  "ticker": "PSX",
+  "name": "Phillips 66",
+  "note": "檢核 71/100，候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 281.6 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 43%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -1%，成長年份占 33%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 103%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 53%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 344%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "AI 判斷（僅供參考，請複核依據）：公司近期獲利成長主要來自煉油利潤提高等景氣循環因素，而非可持續的結構性變化。",
+     "starred": true,
+     "ai": {
+      "grade": "X",
+      "one_line": "公司近期獲利成長主要來自煉油利潤提高等景氣循環因素，而非可持續的結構性變化。",
+      "analysis": "Phillips 66 近五年平均年成長為負值，但近四季及近一季獲利卻大幅成長，顯示其獲利表現具高度循環性。新聞報導指出公司獲利驚喜來自「更高的煉油利潤」[4]，這類利潤波動是能源產業典型的景氣循環指標。儘管有新聞標題聲稱獲利條件「看似結構性而非循環性」[7]，但證據中並未提供具體的結構性變化（如新技術、市佔率提升或商業模式轉型）來支持此論點。在缺乏明確結構性成長證據的情況下，保守分析師將其歸因於景氣回升，不符合穩健成長的標準。",
+      "risks": "煉油利潤受原油價格和產品需求波動影響，未來獲利不確定性高；公司營運易受整體能源市場景氣循環影響。",
+      "sources": [
+       {
+        "title": "Phillips 66 Posts Surprise Profit on Higher Refining Margins - EnergyNow.com",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeGlxa3JWTXJfd2VUd244enpNNEU4dS1lenJkYUVIUnlNcU1qZ1lBc1FjaFlKRlktNmtHTUYtZUZ6Qk1PNHpiMTRJMTI4UXFXTE1rZEN5dTRraVhCYlhkZ2FFMk1pbUFmUHVHLVhHUm9NR09ZQ2hSNDNJM3kxVHRYUllQa094LXIzRmpNeFpFbUxQVW0zRWc?oc=5",
+        "date": "Thu, 08 Oct 2026",
+        "source": "EnergyNow.com"
+       },
+       {
+        "title": "Phillips 66: Earnings Conditions Look To Be Structural, Rather Than Cyclical - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONkhiWE14cXFsaUV3MmZYUmZhV1JMMDhjN2VzUVZZeUpEMFFLSTV2RmFPTHctN19oeUs4QWk3b1B4Z3U1SEs2UUl1VGpDM21MT2RjVUNsMTh3Y1ZrUG9fbDQ3Q0MtRTZCVFFLbVJnSERYbDNEU1BmXzFpNFpmdExGeDY4WGRtLVZoNTA1SzJHSmhrNFpyNGV4LXZSUjFiNnMzemF6eW8tUHRQbDJoOFVUdVdFWkhFQQ?oc=5",
+        "date": "Sat, 03 Oct 2026",
+        "source": "Seeking Alpha"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Phillips 66 (PSX) Q1 2026 Earnings Call Transcript - Fortune",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpdy1lTVhMcFpqZXYxN3dmS1YxcnE2SW5rZzJCR2I0Z3Y5aTZZdl9zT01sS2drQWltVE9oZUZtLU1iMThYdjVrdm9DaUQ2UTQxRk9Wcm1UY2tlRG54blFNMDJZelg?oc=5",
+        "date": "Wed, 07 Oct 2026",
+        "source": "Fortune"
+       },
+       {
+        "title": "Refiners Phillips 66, Delek, Par Pacific cut at Mizuho after more than doubling YTD (PSX:NYSE) - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbnMtME5SaFFiRWdYOXRnS2ZsQ3lIRUtmNnJ4emQwaWZjUTNjMFlMa0tFOF9UVU8yZlZXNjVEUmtfX2oyV2RpLXFwWnJkREpLWlJVVU1EZTl1Y2hYYndSLU9USHJQVDVkYk1Qb0tZV09GVU54TGRlaG5ocWdRdlh3aExNX04zU292ZFZJUk1xQjBUZml0RVB2TG1NVDVDbU9fRkNfdVRvaGdreF8zTUxDS3JodFN5bEN6UG00?oc=5",
+        "date": "Thu, 08 Oct 2026",
+        "source": "Seeking Alpha"
+       },
+       {
+        "title": "Here's Why You Should Add Phillips 66 Stock to Your Portfolio Now - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeXhMYTljOWtNR25rWnlSVC05aVdPVUJPY0w1eFBZZVpoMVQyQzBqRjVqQkNfakFkcXR3TnF0bUZ0aGZSczJNclUwSm1VQmJva2V5azBlMkhGc0lNQ2ZnTWNOcmxBMTd4MnBjd3RNX3ZpY3NiM2tlVWp6andObjJTdEFMVDVhWEo4Sm55b3FpVWxROWRG?oc=5",
+        "date": "Wed, 07 Oct 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Phillips 66 Posts Surprise Profit on Higher Refining Margins - EnergyNow.com",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeGlxa3JWTXJfd2VUd244enpNNEU4dS1lenJkYUVIUnlNcU1qZ1lBc1FjaFlKRlktNmtHTUYtZUZ6Qk1PNHpiMTRJMTI4UXFXTE1rZEN5dTRraVhCYlhkZ2FFMk1pbUFmUHVHLVhHUm9NR09ZQ2hSNDNJM3kxVHRYUllQa094LXIzRmpNeFpFbUxQVW0zRWc?oc=5",
+        "date": "Thu, 08 Oct 2026",
+        "source": "EnergyNow.com"
+       },
+       {
+        "title": "Phillips 66 (NYSE:PSX): A Dividend Quality Pick With Solid Financial Health - ChartMill",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVXZNY0dUbWxBajNOQlkxbmVkX3FOYzNtOW9CcVFVaGNZdFlQbnN4dHJkMzRTX0VQa0JGTDc0SWNtX1Z6NmpWSlNPaFVyc1FRZDgzWVd0Z2VEU1RRdUQwbWhOMG9NeEVIcmN6NF9UR1JlOFlPRm9fNEhTMVhoZ2t4Y3pNVE42eWFzUTNiVDhGYWN6MTNTN2U4cG5lSFRVRFRlSE9kSG5uVWwtc0pZeTBsamVEdXVwUE5aYWtIUmNnMA?oc=5",
+        "date": "Mon, 05 Oct 2026",
+        "source": "ChartMill"
+       },
+       {
+        "title": "Phillips 66 reports nearly 20 times-higher quarter-over-quarter earnings - Oil & Gas Journal",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNejJXR0pYNjU1WjZLUm5MbU9yRWtfSjYtc2hJYkRmaEI1NWh4TE1BYTF6dG55R2tQMFRnRHlCN2VIZFZnMGJXd1Y3SnpWcEEweF9kdXNaR2M2Zzg1bWl5djV4S3o0UlJfUkQwYUNWS1Z1VVRaNTNpQXRXU3VYbUhJNUg0M2w0QmhYN1FZQ2t3VVAzYkVvZTFVOVpRdE1kSmZZdG9ZZTdjLWFSMUJsc3pQM2NpSFdvYkNOR0NzdEVjWlNCZlFwMG1pc3NhZm1iQQ?oc=5",
+        "date": "Wed, 05 Aug 2026",
+        "source": "Oil & Gas Journal"
+       },
+       {
+        "title": "Phillips 66: Earnings Conditions Look To Be Structural, Rather Than Cyclical - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONkhiWE14cXFsaUV3MmZYUmZhV1JMMDhjN2VzUVZZeUpEMFFLSTV2RmFPTHctN19oeUs4QWk3b1B4Z3U1SEs2UUl1VGpDM21MT2RjVUNsMTh3Y1ZrUG9fbDQ3Q0MtRTZCVFFLbVJnSERYbDNEU1BmXzFpNFpmdExGeDY4WGRtLVZoNTA1SzJHSmhrNFpyNGV4LXZSUjFiNnMzemF6eW8tUHRQbDJoOFVUdVdFWkhFQQ?oc=5",
+        "date": "Sat, 03 Oct 2026",
+        "source": "Seeking Alpha"
+       },
+       {
+        "title": "Phillips 66 stock stands at EUR 250.60, USD 112.6 billion market cap - AD HOC NEWS",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWDZ1bkZFZWVWc0ltbWR1YjFWZGtMcFFncTFjb3lWVEYyS1ZRMUJvVnRqaWU0U0EzT2sxUERHMXBrNS1zWHFKWDVsMzVXRklrTWJ5WmVoZ3dpYWxrdWdTcWdzVXN5TWR6S1dTMEdOUW45R3ZSSUtZRjlDZU5RcGx3RjVrNXNTV212NTBBQXhQczNBaDhtaWhQbWwwRW9pdlluemhqdEs1eW5TYktRV1Z1MEJZVEpiaWVxdXVaZ1pxSjNzNnppdGEtWmlB?oc=5",
+        "date": "Thu, 08 Oct 2026",
+        "source": "AD HOC NEWS"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-10-08 23:52"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 16.1 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 1.8%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 71,
+   "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+  }
+ },
+ {
+  "date": "2026-10-08",
+  "market": "美股",
+  "type": "買進候選",
+  "ticker": "MPC",
+  "name": "Marathon Petroleum",
+  "note": "檢核 68/100，候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 463.34 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 29%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -24%，成長年份占 33%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近四季獲利年增 18%（接近 20% 門檻）",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 54%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 272%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "AI 判斷（僅供參考，請複核依據）：未來獲利成長主要來自煉油利潤的景氣循環性順風，而非結構性變化。",
+     "starred": true,
+     "ai": {
+      "grade": "X",
+      "one_line": "未來獲利成長主要來自煉油利潤的景氣循環性順風，而非結構性變化。",
+      "analysis": "公司近期的獲利成長（近四季18%，近一季272%）表現強勁，但其五年平均年成長率為負24%，顯示獲利波動性大且缺乏長期穩定成長。新聞標題明確指出「煉油利潤順風強勁」（refining-margin tailwinds stay strong）是公司獲利上漲的原因。煉油利潤屬於高度景氣循環的因素，受原油價格、產品需求及煉油產能等影響，不符合「結構性變化」的判斷標準。儘管公司業務包含「再生柴油」部門，但現有證據並未提供足夠資訊證明其為未來獲利穩健成長的結構性驅動力。",
+      "risks": "煉油利潤受原油價格波動及市場供需影響，未來獲利穩定性低；公司過去五年獲利表現不穩定，顯示其業務本質具有高度週期性。",
+      "sources": [
+       {
+        "title": "Marathon Petroleum gains as refining-margin tailwinds stay strong - Quiver Quantitative",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMkNJaS0wdS15bldFRlRCeVlVVmlHYi1nWkFodHdiUVJWSTF5MTdYdHpoODVWdXAzWkFXOFhtSkRGMVF3MVpnSXVGMFp2R1A1eXBTOEltY2FQZmNDSFRqVHc4QXowaERTVTliUG1FTkdTazZldWZWS2ZHV0U5R0hFeUlqNFN1MVFqcmtxVGZLZHdlel85RXllejRxU1V1YWM?oc=5",
+        "date": "Thu, 08 Oct 2026",
+        "source": "Quiver Quantitative"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Will Marathon Petroleum (MPC) Beat Estimates Again in Its Next Earnings Report? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZkN5UlgwV2NyRFZDTExCU3BtVXRPUEV1VXFBU1dzVzJkdW1MZDlzTWVheEhGS3RYWktjaWsxSkZZeHJJbkgyWWdQRzRwVzZDZ1QxLXgxb1ladXZkRDc4ZVNzSVR5Umg0bUdXZFZPbVU5RnQzT3RIaVpMRzc5TThVaEk0QS0xczBoTXBWRFdxZG8tb0NVbmJmY25qeEoxTnFPZnY4bA?oc=5",
+        "date": "Mon, 05 Oct 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Marathon Petroleum Stock Powers Higher As Wall Street Lifts Targets - Timothy Sykes",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaFRQblFVOGpuMTRMMUh0MVhPVE16Z2hoX01FNWI4bW1hZlp5aDA1blpnaEtJUUZFWlpLNFNBd2h0cm9KQ2plTGpfdzUxSWZySkctNXhNMXJoR3lRNXo3RFlkWFpsX3ZoMzNhWW1ISHVfejJ6OGpCUVhIZF9pUnkzUGM1MnpDVWtM?oc=5",
+        "date": "Thu, 08 Oct 2026",
+        "source": "Timothy Sykes"
+       },
+       {
+        "title": "Marathon Petroleum gains as refining-margin tailwinds stay strong - Quiver Quantitative",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMkNJaS0wdS15bldFRlRCeVlVVmlHYi1nWkFodHdiUVJWSTF5MTdYdHpoODVWdXAzWkFXOFhtSkRGMVF3MVpnSXVGMFp2R1A1eXBTOEltY2FQZmNDSFRqVHc4QXowaERTVTliUG1FTkdTazZldWZWS2ZHV0U5R0hFeUlqNFN1MVFqcmtxVGZLZHdlel85RXllejRxU1V1YWM?oc=5",
+        "date": "Thu, 08 Oct 2026",
+        "source": "Quiver Quantitative"
+       },
+       {
+        "title": "Marathon Petroleum Stock Extends Rally As Wall Street Targets Soar - StocksToTrade",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOU3VwOGl2MUZnN24wMzhzRk93c3dibzZ0QUlzUG1Cb3VDM3pWclFuWmFHc3dSRTVSLTBnUlFhVlBQZTNET0U5ak4zZXhnNGp1djdkT3ltWmYzeFhmekJtQjR4cVNFNDhITS1WaVIwMVJUU052TVRmalpQcXYxUlZGcWVZa0xNbm9uUFE?oc=5",
+        "date": "Thu, 08 Oct 2026",
+        "source": "StocksToTrade"
+       },
+       {
+        "title": "Marathon Petroleum (MPC) Stock May Be 26% Undervalued After Diesel Export Ban Risk - Simply Wall Street",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNDV2RWY3QU14cjQtbDRWeTRUMU51cG53bUtjWkprcTBtNXNUTGtzV1BvWXpGTEI3SmJLRWMzMDB0dm9mRnBfcmxyWjlETzNYSnZkeU0zY3EwRzNqWlRRRWNVai1HNTJpQVhxUVluZGFBUUhqeXk0VXoyQ2lXT1ZQUHowcHgxV3dvNWh0RUlGTHd4NUhvYWZfSi1RXzBmWkFCNnNHN0dGaXJvOVVYUkNubjhzUkUzM1E2RWUwU0lmYVZWZlMzQTIxblFHalrSAdIBQVVfeXFMUGNwbW55NEVnbEpQcUhETDZoVzJCVEVkc2xWTW9jRm1pVmVNdEROSXE4Zm5HMzh5d0dDQW4tS2otbmRkTUxlcnBKYzN3ZlhVZHA1NmZ5eHdZa2tQZVlZSHY5Y2lnYWFMWk04YWV0RG52N0lpWkpxcldSb0lDZ3gyNVhsY292UF9YMjdCRG9VY1F5bVVGSDl1dXYtemlqYlFDTEJ4U19WQXc2UnA1NDE1Ymt4bDBYTWJub0NHeEl5d2JZbzNZVzc0RV9YSmNMbTBxbjhR?oc=5",
+        "date": "Tue, 06 Oct 2026",
+        "source": "Simply Wall Street"
+       },
+       {
+        "title": "5 Green Days In A Row: Marathon Petroleum Stock Is Up 11% - Trefis",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxON3I0Tmdzak1pNU1iUXBuZTctZzY4akJjVDE5VFYwMjh2bnhIb3BPOGpmbHZ6SU5XU0NuM0xNeE5WR2tmdHRNLWQyRUxwYXVFaDJEZk1yUFFLRWN4WklGbUV0VjlpNnd2Rl85Z21XdkN1UEJjaXNRUEJUdVl5RVotWFpBZ1pHUUJBdUFmVnh2dnF6MF9Qa0ZMck5BSXpEMHBjdnlOWWg3YmxoQUZMdTQ1TWxWZThIUQ?oc=5",
+        "date": "Tue, 06 Oct 2026",
+        "source": "Trefis"
+       },
+       {
+        "title": "Is Marathon Petroleum (NYSE:MPC) Refining Its Way To Fresh Highs? - Kalkine Media",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRzhhVWN0dVJsdndnc1pvMlk5cC1BNVRSaDRieE5VajNiemg2bWVlc2JyeUpqNjYwQ000UE42OHdZVFZaXzljbnRrZ01FaHpVX3hQdF95WDZHTWItU2VKNGZDM1VuUm1FUXR4UmxfUElYSUxTS2ZKXzVrNDU5MG5FNlpKVzJpekpHMy1WR2hENHU4MF9rVWJNRXdPNzBGX0pOWFlacktn?oc=5",
+        "date": "Thu, 08 Oct 2026",
+        "source": "Kalkine Media"
+       },
+       {
+        "title": "Marathon Petroleum Corp (MPC): What a GF Score of 58 Says About the Stock - GuruFocus",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQN2tBWU9FSFF5b2ZLekh6LXJhTXZVUXdicHFJeG5yeG92TVJqbG9HRXM5Q3RXQVVTbmdFbmdlQUwyV2xWVTl3YWJ6Q1BxNEdKX0h4N2dZR1NHVVpWSURzSHFzMmxJeXJFUWtfQU04LUlFZDlLSHhXNFJwM1RPMWFwZm9CY21LSDBDb2hKQjAyU2FkRUd3MFI4OUQ3ZHp1elFabk92M3pMOTlFQUpoeUE?oc=5",
+        "date": "Mon, 05 Oct 2026",
+        "source": "GuruFocus"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-10-08 23:54"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 16.0 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 1.8%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 68,
+   "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+  }
+ },
+ {
+  "date": "2026-10-08",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "P",
+  "name": "Everpure",
+  "note": "準備交叉向上，距3年收盤高 98.63%（K 90.66／D 92.66）"
+ },
+ {
+  "date": "2026-10-08",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "MSFT",
+  "name": "Microsoft",
+  "note": "準備交叉向上，距3年收盤高 97.02%（K 74.39／D 75.38）"
+ },
+ {
+  "date": "2026-10-08",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "GILD",
+  "name": "Gilead Sciences",
+  "note": "剛黃金交叉，距3年收盤高 95.58%（K 33.18／D 31.32）"
+ },
+ {
+  "date": "2026-10-08",
+  "market": "美股",
+  "type": "綜合訊號",
+  "ticker": "MSFT",
+  "name": "Microsoft",
+  "note": "雙策略檢核通過：準備交叉向上，距3年高 97.02%"
  }
 ]
