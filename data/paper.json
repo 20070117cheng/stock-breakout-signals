@@ -1736,7 +1736,7 @@
     "shares": 2.9198,
     "buy_price": 462.04998779296875,
     "buy_date": "2026-09-02",
-    "last_price": 586.0599975585938,
+    "last_price": 576.760009765625,
     "signal_date": "2026-09-03",
     "status": "HOLD",
     "status_note": ""
@@ -1747,7 +1747,7 @@
     "shares": 6.104,
     "buy_price": 210.08999633789062,
     "buy_date": "2026-09-30",
-    "last_price": 237.14999389648438,
+    "last_price": 239.17999267578125,
     "signal_date": "2026-09-29",
     "status": "HOLD",
     "status_note": ""
@@ -1758,7 +1758,7 @@
     "shares": 8.065,
     "buy_price": 149.97999572753906,
     "buy_date": "2026-10-01",
-    "last_price": 157.44000244140625,
+    "last_price": 155.41000366210938,
     "signal_date": "2026-10-02",
     "status": "HOLD",
     "status_note": ""
@@ -1769,13 +1769,22 @@
     "shares": 5.681,
     "buy_price": 236.08999633789062,
     "buy_date": "2026-10-06",
-    "last_price": 229.27999877929688,
+    "last_price": 226.32000732421875,
     "signal_date": "2026-10-05",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [],
+  "pending_buys": [
+   {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "light": "yellow",
+    "score": 92,
+    "signal_date": "2026-10-12",
+    "signal_close": 541.15
+   }
+  ],
   "pending_sells": [],
   "trades": [
    {
@@ -2861,6 +2870,10 @@
    {
     "date": "2026-10-09",
     "equity": 29303.44
+   },
+   {
+    "date": "2026-10-12",
+    "equity": 29255.49
    }
   ]
  }
