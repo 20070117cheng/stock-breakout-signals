@@ -1746,7 +1746,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 23572.40853136726,
+  "cash": 22226.655866048644,
   "positions": [
    {
     "ticker": "DELL",
@@ -1754,7 +1754,7 @@
     "shares": 2.9198,
     "buy_price": 462.04998779296875,
     "buy_date": "2026-09-02",
-    "last_price": 576.760009765625,
+    "last_price": 572.469970703125,
     "signal_date": "2026-09-03",
     "status": "HOLD",
     "status_note": ""
@@ -1765,7 +1765,7 @@
     "shares": 6.104,
     "buy_price": 210.08999633789062,
     "buy_date": "2026-09-30",
-    "last_price": 239.17999267578125,
+    "last_price": 239.00999450683594,
     "signal_date": "2026-09-29",
     "status": "HOLD",
     "status_note": ""
@@ -1776,7 +1776,7 @@
     "shares": 8.065,
     "buy_price": 149.97999572753906,
     "buy_date": "2026-10-01",
-    "last_price": 155.41000366210938,
+    "last_price": 156.47000122070312,
     "signal_date": "2026-10-02",
     "status": "HOLD",
     "status_note": ""
@@ -1787,22 +1787,24 @@
     "shares": 5.681,
     "buy_price": 236.08999633789062,
     "buy_date": "2026-10-06",
-    "last_price": 226.32000732421875,
+    "last_price": 228.52000427246094,
     "signal_date": "2026-10-05",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "shares": 2.471,
+    "buy_price": 544.625,
+    "buy_date": "2026-10-13",
+    "last_price": 543.4500122070312,
+    "signal_date": "2026-10-12",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [
-   {
-    "ticker": "MSFT",
-    "name": "Microsoft",
-    "light": "yellow",
-    "score": 92,
-    "signal_date": "2026-10-12",
-    "signal_close": 541.15
-   }
-  ],
+  "pending_buys": [],
   "pending_sells": [],
   "trades": [
    {
@@ -2442,6 +2444,17 @@
     "amount": 1341.23,
     "signal_date": "2026-10-05",
     "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%，訊號日 2026-10-05）"
+   },
+   {
+    "date": "2026-10-13",
+    "action": "BUY",
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "price": 544.625,
+    "shares": 2.471,
+    "amount": 1345.75,
+    "signal_date": "2026-10-12",
+    "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%，訊號日 2026-10-12）"
    }
   ],
   "equity_history": [
@@ -2892,6 +2905,10 @@
    {
     "date": "2026-10-12",
     "equity": 29255.49
+   },
+   {
+    "date": "2026-10-13",
+    "equity": 29260.09
    }
   ]
  }
