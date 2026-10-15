@@ -1778,26 +1778,15 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 22226.655866048644,
+  "cash": 23602.494799099182,
   "positions": [
-   {
-    "ticker": "DELL",
-    "name": "Dell Technologies",
-    "shares": 2.9198,
-    "buy_price": 462.04998779296875,
-    "buy_date": "2026-09-02",
-    "last_price": 507.92999267578125,
-    "signal_date": "2026-09-03",
-    "status": "SELL_SIGNAL",
-    "status_note": "已排明日開盤賣出。技術面：賣壓比例 126% ≥ 117%，股價可能已達中長期高點"
-   },
    {
     "ticker": "NTAP",
     "name": "NetApp",
     "shares": 6.104,
     "buy_price": 210.08999633789062,
     "buy_date": "2026-09-30",
-    "last_price": 222.1999969482422,
+    "last_price": 214.6999969482422,
     "signal_date": "2026-09-29",
     "status": "HOLD",
     "status_note": ""
@@ -1808,7 +1797,7 @@
     "shares": 8.065,
     "buy_price": 149.97999572753906,
     "buy_date": "2026-10-01",
-    "last_price": 152.44000244140625,
+    "last_price": 147.6300048828125,
     "signal_date": "2026-10-02",
     "status": "HOLD",
     "status_note": ""
@@ -1819,10 +1808,10 @@
     "shares": 5.681,
     "buy_price": 236.08999633789062,
     "buy_date": "2026-10-06",
-    "last_price": 221.3000030517578,
+    "last_price": 217.22999572753906,
     "signal_date": "2026-10-05",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_SIGNAL",
+    "status_note": "已排明日開盤賣出。接近停損：跌幅 8.0% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
    },
    {
     "ticker": "MSFT",
@@ -1830,17 +1819,38 @@
     "shares": 2.471,
     "buy_price": 544.625,
     "buy_date": "2026-10-13",
-    "last_price": 533.6900024414062,
+    "last_price": 539.4400024414062,
     "signal_date": "2026-10-12",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [],
+  "pending_buys": [
+   {
+    "ticker": "VEEV",
+    "name": "Veeva Systems",
+    "light": "yellow",
+    "score": 92,
+    "signal_date": "2026-10-15",
+    "signal_close": 313.03
+   },
+   {
+    "ticker": "MCK",
+    "name": "McKesson",
+    "light": "yellow",
+    "score": 83,
+    "signal_date": "2026-10-15",
+    "signal_close": 998.64
+   }
+  ],
   "pending_sells": [
    {
     "ticker": "DELL",
-    "reason": "技術面：賣壓比例 126% ≥ 117%，股價可能已達中長期高點"
+    "reason": "技術面：賣壓比例 145% ≥ 117%，股價可能已達中長期高點"
+   },
+   {
+    "ticker": "NVDA",
+    "reason": "接近停損：跌幅 8.0% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
    }
   ],
   "trades": [
@@ -2492,6 +2502,17 @@
     "amount": 1345.75,
     "signal_date": "2026-10-12",
     "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%，訊號日 2026-10-12）"
+   },
+   {
+    "date": "2026-10-15",
+    "action": "SELL",
+    "ticker": "DELL",
+    "name": "Dell Technologies",
+    "price": 471.2099914550781,
+    "shares": 2.9198,
+    "amount": 1375.84,
+    "pnl_pct": 0.019824702746694456,
+    "reason": "技術面：賣壓比例 126% ≥ 117%，股價可能已達中長期高點"
    }
   ],
   "equity_history": [
@@ -2958,6 +2979,10 @@
    {
     "date": "2026-10-14",
     "equity": 28871.4
+   },
+   {
+    "date": "2026-10-15",
+    "equity": 28670.7
    }
   ]
  }
