@@ -1778,7 +1778,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 23602.494799099182,
+  "cash": 22317.887824134526,
   "positions": [
    {
     "ticker": "NTAP",
@@ -1786,7 +1786,7 @@
     "shares": 6.104,
     "buy_price": 210.08999633789062,
     "buy_date": "2026-09-30",
-    "last_price": 214.6999969482422,
+    "last_price": 222.1999969482422,
     "signal_date": "2026-09-29",
     "status": "HOLD",
     "status_note": ""
@@ -1797,21 +1797,10 @@
     "shares": 8.065,
     "buy_price": 149.97999572753906,
     "buy_date": "2026-10-01",
-    "last_price": 147.6300048828125,
+    "last_price": 152.44000244140625,
     "signal_date": "2026-10-02",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "NVDA",
-    "name": "Nvidia",
-    "shares": 5.681,
-    "buy_price": 236.08999633789062,
-    "buy_date": "2026-10-06",
-    "last_price": 217.22999572753906,
-    "signal_date": "2026-10-05",
-    "status": "SELL_SIGNAL",
-    "status_note": "已排明日開盤賣出。接近停損：跌幅 8.0% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
    },
    {
     "ticker": "MSFT",
@@ -1819,35 +1808,36 @@
     "shares": 2.471,
     "buy_price": 544.625,
     "buy_date": "2026-10-13",
-    "last_price": 539.4400024414062,
+    "last_price": 533.6900024414062,
     "signal_date": "2026-10-12",
     "status": "HOLD",
     "status_note": ""
-   }
-  ],
-  "pending_buys": [
+   },
    {
     "ticker": "VEEV",
     "name": "Veeva Systems",
-    "light": "yellow",
-    "score": 92,
+    "shares": 4.3924,
+    "buy_price": 300.1400146484375,
+    "buy_date": "2026-10-14",
+    "last_price": 297.3500061035156,
     "signal_date": "2026-10-15",
-    "signal_close": 313.03
+    "status": "HOLD",
+    "status_note": ""
    },
    {
     "ticker": "MCK",
     "name": "McKesson",
-    "light": "yellow",
-    "score": 83,
+    "shares": 1.1944,
+    "buy_price": 995.7999877929688,
+    "buy_date": "2026-10-14",
+    "last_price": 976.5700073242188,
     "signal_date": "2026-10-15",
-    "signal_close": 998.64
+    "status": "HOLD",
+    "status_note": ""
    }
   ],
+  "pending_buys": [],
   "pending_sells": [
-   {
-    "ticker": "DELL",
-    "reason": "技術面：賣壓比例 145% ≥ 117%，股價可能已達中長期高點"
-   },
    {
     "ticker": "NVDA",
     "reason": "接近停損：跌幅 8.0% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
@@ -2513,6 +2503,39 @@
     "amount": 1375.84,
     "pnl_pct": 0.019824702746694456,
     "reason": "技術面：賣壓比例 126% ≥ 117%，股價可能已達中長期高點"
+   },
+   {
+    "date": "2026-10-14",
+    "action": "SELL",
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "price": 215.3000030517578,
+    "shares": 5.681,
+    "amount": 1223.12,
+    "pnl_pct": -0.08805961120173134,
+    "reason": "接近停損：跌幅 8.0% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
+   },
+   {
+    "date": "2026-10-14",
+    "action": "BUY",
+    "ticker": "VEEV",
+    "name": "Veeva Systems",
+    "price": 300.1400146484375,
+    "shares": 4.3924,
+    "amount": 1318.35,
+    "signal_date": "2026-10-15",
+    "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%，訊號日 2026-10-15）"
+   },
+   {
+    "date": "2026-10-14",
+    "action": "BUY",
+    "ticker": "MCK",
+    "name": "McKesson",
+    "price": 995.7999877929688,
+    "shares": 1.1944,
+    "amount": 1189.38,
+    "signal_date": "2026-10-15",
+    "reason": "買進訊號（黃燈基準 × 檢核83分 → 部位 4.2%，訊號日 2026-10-15）"
    }
   ],
   "equity_history": [
@@ -2983,6 +3006,10 @@
    {
     "date": "2026-10-15",
     "equity": 28670.7
+   },
+   {
+    "date": "2026-10-14",
+    "equity": 28694.87
    }
   ]
  }
