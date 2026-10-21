@@ -1785,7 +1785,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 22317.887824134526,
+  "cash": 20995.98430253005,
   "positions": [
    {
     "ticker": "NTAP",
@@ -1793,7 +1793,7 @@
     "shares": 6.104,
     "buy_price": 210.08999633789062,
     "buy_date": "2026-09-30",
-    "last_price": 209.97000122070312,
+    "last_price": 207.3699951171875,
     "signal_date": "2026-09-29",
     "status": "HOLD",
     "status_note": ""
@@ -1804,7 +1804,7 @@
     "shares": 8.065,
     "buy_price": 149.97999572753906,
     "buy_date": "2026-10-01",
-    "last_price": 147.94000244140625,
+    "last_price": 148.22000122070312,
     "signal_date": "2026-10-02",
     "status": "HOLD",
     "status_note": ""
@@ -1815,7 +1815,7 @@
     "shares": 2.471,
     "buy_price": 544.625,
     "buy_date": "2026-10-13",
-    "last_price": 531.8699951171875,
+    "last_price": 533.52001953125,
     "signal_date": "2026-10-12",
     "status": "HOLD",
     "status_note": ""
@@ -1826,7 +1826,7 @@
     "shares": 4.3924,
     "buy_price": 300.1400146484375,
     "buy_date": "2026-10-14",
-    "last_price": 318.6700134277344,
+    "last_price": 316.79998779296875,
     "signal_date": "2026-10-15",
     "status": "HOLD",
     "status_note": ""
@@ -1837,22 +1837,24 @@
     "shares": 1.1944,
     "buy_price": 995.7999877929688,
     "buy_date": "2026-10-14",
-    "last_price": 1030.1199951171875,
+    "last_price": 1010.4299926757812,
     "signal_date": "2026-10-15",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "LLY",
+    "name": "Lilly (Eli)",
+    "shares": 1.0631,
+    "buy_price": 1243.3900146484375,
+    "buy_date": "2026-10-19",
+    "last_price": 1240.3399658203125,
+    "signal_date": "2026-10-20",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [
-   {
-    "ticker": "LLY",
-    "name": "Lilly (Eli)",
-    "light": "yellow",
-    "score": 92,
-    "signal_date": "2026-10-20",
-    "signal_close": 1283.66
-   }
-  ],
+  "pending_buys": [],
   "pending_sells": [],
   "trades": [
    {
@@ -2547,6 +2549,17 @@
     "amount": 1189.38,
     "signal_date": "2026-10-15",
     "reason": "買進訊號（黃燈基準 × 檢核83分 → 部位 4.2%，訊號日 2026-10-15）"
+   },
+   {
+    "date": "2026-10-19",
+    "action": "BUY",
+    "ticker": "LLY",
+    "name": "Lilly (Eli)",
+    "price": 1243.3900146484375,
+    "shares": 1.0631,
+    "amount": 1321.9,
+    "signal_date": "2026-10-20",
+    "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%，訊號日 2026-10-20）"
    }
   ],
   "equity_history": [
@@ -3053,6 +3066,10 @@
    {
     "date": "2026-10-20",
     "equity": 28737.03
+   },
+   {
+    "date": "2026-10-19",
+    "equity": 28692.47
    }
   ]
  }
