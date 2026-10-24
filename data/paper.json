@@ -1,7 +1,7 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 811.9042407929373,
+  "cash": 425.3681596510942,
   "positions": [
    {
     "ticker": "2880.TW",
@@ -169,17 +169,6 @@
     "status_note": ""
    },
    {
-    "ticker": "3264.TWO",
-    "name": "欣銓",
-    "shares": 215.4741,
-    "buy_price": 229.5,
-    "buy_date": "2026-09-17",
-    "last_price": 246.5,
-    "signal_date": "2026-09-18",
-    "status": "SELL_SIGNAL",
-    "status_note": "已排明日開盤賣出。技術面：賣壓比例 118% ≥ 117%，股價可能已達中長期高點"
-   },
-   {
     "ticker": "1459.TW",
     "name": "聯發",
     "shares": 2750.0624,
@@ -244,40 +233,21 @@
     "signal_date": "2026-10-21",
     "status": "HOLD",
     "status_note": ""
-   }
-  ],
-  "pending_buys": [
+   },
    {
     "ticker": "6782.TW",
     "name": "視陽",
-    "light": "yellow",
-    "score": 92,
+    "shares": 196.2733,
+    "buy_price": 271.0,
+    "buy_date": "2026-10-23",
+    "last_price": 271.0,
     "signal_date": "2026-10-22",
-    "signal_close": 271.0
-   },
-   {
-    "ticker": "6870.TWO",
-    "name": "騰雲",
-    "light": "yellow",
-    "score": 83,
-    "signal_date": "2026-10-22",
-    "signal_close": 346.0
-   },
-   {
-    "ticker": "2891.TW",
-    "name": "中信金",
-    "light": "yellow",
-    "score": 75,
-    "signal_date": "2026-10-22",
-    "signal_close": 74.9
+    "status": "HOLD",
+    "status_note": ""
    }
   ],
-  "pending_sells": [
-   {
-    "ticker": "3264.TWO",
-    "reason": "技術面：賣壓比例 118% ≥ 117%，股價可能已達中長期高點"
-   }
-  ],
+  "pending_buys": [],
+  "pending_sells": [],
   "trades": [
    {
     "date": "2026-07-06",
@@ -1314,6 +1284,28 @@
     "amount": 55099.94,
     "signal_date": "2026-10-21",
     "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%，訊號日 2026-10-21）"
+   },
+   {
+    "date": "2026-10-23",
+    "action": "SELL",
+    "ticker": "3264.TWO",
+    "name": "欣銓",
+    "price": 246.5,
+    "shares": 215.4741,
+    "amount": 52879.33,
+    "pnl_pct": 0.07407407407407418,
+    "reason": "技術面：賣壓比例 118% ≥ 117%，股價可能已達中長期高點"
+   },
+   {
+    "date": "2026-10-23",
+    "action": "BUY",
+    "ticker": "6782.TW",
+    "name": "視陽",
+    "price": 271.0,
+    "shares": 196.2733,
+    "amount": 53265.87,
+    "signal_date": "2026-10-22",
+    "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%，訊號日 2026-10-22）"
    }
   ],
   "equity_history": [
@@ -1852,6 +1844,10 @@
    {
     "date": "2026-10-22",
     "equity": 1156541.01
+   },
+   {
+    "date": "2026-10-23",
+    "equity": 1156230.17
    }
   ]
  },
