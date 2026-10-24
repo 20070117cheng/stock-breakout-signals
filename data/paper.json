@@ -1857,7 +1857,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 17279.536049876275,
+  "cash": 16083.788184937292,
   "positions": [
    {
     "ticker": "NTAP",
@@ -1865,7 +1865,7 @@
     "shares": 6.104,
     "buy_price": 210.08999633789062,
     "buy_date": "2026-09-30",
-    "last_price": 215.47999572753906,
+    "last_price": 212.50999450683594,
     "signal_date": "2026-09-29",
     "status": "HOLD",
     "status_note": ""
@@ -1876,7 +1876,7 @@
     "shares": 8.065,
     "buy_price": 149.97999572753906,
     "buy_date": "2026-10-01",
-    "last_price": 143.9600067138672,
+    "last_price": 143.0,
     "signal_date": "2026-10-02",
     "status": "HOLD",
     "status_note": ""
@@ -1887,7 +1887,7 @@
     "shares": 2.471,
     "buy_price": 544.625,
     "buy_date": "2026-10-13",
-    "last_price": 524.510009765625,
+    "last_price": 521.0800170898438,
     "signal_date": "2026-10-12",
     "status": "HOLD",
     "status_note": ""
@@ -1898,7 +1898,7 @@
     "shares": 4.3924,
     "buy_price": 300.1400146484375,
     "buy_date": "2026-10-14",
-    "last_price": 323.0400085449219,
+    "last_price": 322.54998779296875,
     "signal_date": "2026-10-15",
     "status": "HOLD",
     "status_note": ""
@@ -1909,7 +1909,7 @@
     "shares": 1.1944,
     "buy_price": 995.7999877929688,
     "buy_date": "2026-10-14",
-    "last_price": 1000.77001953125,
+    "last_price": 1012.3400268554688,
     "signal_date": "2026-10-15",
     "status": "HOLD",
     "status_note": ""
@@ -1920,7 +1920,7 @@
     "shares": 1.0631,
     "buy_price": 1243.3900146484375,
     "buy_date": "2026-10-19",
-    "last_price": 1273.4599609375,
+    "last_price": 1306.68994140625,
     "signal_date": "2026-10-20",
     "status": "HOLD",
     "status_note": ""
@@ -1931,7 +1931,7 @@
     "shares": 3.0782,
     "buy_price": 388.6700134277344,
     "buy_date": "2026-10-20",
-    "last_price": 398.2799987792969,
+    "last_price": 405.44000244140625,
     "signal_date": "2026-10-21",
     "status": "HOLD",
     "status_note": ""
@@ -1942,7 +1942,7 @@
     "shares": 11.8766,
     "buy_price": 111.55000305175781,
     "buy_date": "2026-10-21",
-    "last_price": 115.73999786376953,
+    "last_price": 116.26000213623047,
     "signal_date": "2026-10-22",
     "status": "HOLD",
     "status_note": ""
@@ -1953,20 +1953,31 @@
     "shares": 2.7151,
     "buy_price": 440.2099914550781,
     "buy_date": "2026-10-21",
-    "last_price": 439.260009765625,
+    "last_price": 447.2799987792969,
     "signal_date": "2026-10-22",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "TRGP",
+    "name": "Targa Resources",
+    "shares": 4.0184,
+    "buy_price": 297.57000732421875,
+    "buy_date": "2026-10-22",
+    "last_price": 289.5400085449219,
+    "signal_date": "2026-10-23",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [
    {
-    "ticker": "TRGP",
-    "name": "Targa Resources",
+    "ticker": "EG",
+    "name": "Everest Group",
     "light": "yellow",
     "score": 83,
-    "signal_date": "2026-10-23",
-    "signal_close": 302.37
+    "signal_date": "2026-10-22",
+    "signal_close": 407.56
    }
   ],
   "pending_sells": [],
@@ -2707,6 +2718,17 @@
     "amount": 1195.23,
     "signal_date": "2026-10-22",
     "reason": "買進訊號（黃燈基準 × 檢核83分 → 部位 4.2%，訊號日 2026-10-22）"
+   },
+   {
+    "date": "2026-10-22",
+    "action": "BUY",
+    "ticker": "TRGP",
+    "name": "Targa Resources",
+    "price": 297.57000732421875,
+    "shares": 4.0184,
+    "amount": 1195.75,
+    "signal_date": "2026-10-23",
+    "reason": "買進訊號（黃燈基準 × 檢核83分 → 部位 4.2%，訊號日 2026-10-23）"
    }
   ],
   "equity_history": [
@@ -3249,6 +3271,10 @@
    {
     "date": "2026-10-23",
     "equity": 28813.2
+   },
+   {
+    "date": "2026-10-22",
+    "equity": 28843.58
    }
   ]
  }
