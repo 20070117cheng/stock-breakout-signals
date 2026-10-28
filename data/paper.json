@@ -1883,7 +1883,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 15965.565833727007,
+  "cash": 14764.58739056958,
   "positions": [
    {
     "ticker": "NTAP",
@@ -1891,7 +1891,7 @@
     "shares": 6.104,
     "buy_price": 210.08999633789062,
     "buy_date": "2026-09-30",
-    "last_price": 227.5800018310547,
+    "last_price": 222.0800018310547,
     "signal_date": "2026-09-29",
     "status": "HOLD",
     "status_note": ""
@@ -1902,7 +1902,7 @@
     "shares": 8.065,
     "buy_price": 149.97999572753906,
     "buy_date": "2026-10-01",
-    "last_price": 155.8800048828125,
+    "last_price": 147.5,
     "signal_date": "2026-10-02",
     "status": "HOLD",
     "status_note": ""
@@ -1913,7 +1913,7 @@
     "shares": 2.471,
     "buy_price": 544.625,
     "buy_date": "2026-10-13",
-    "last_price": 531.3300170898438,
+    "last_price": 532.5999755859375,
     "signal_date": "2026-10-12",
     "status": "HOLD",
     "status_note": ""
@@ -1924,7 +1924,7 @@
     "shares": 4.3924,
     "buy_price": 300.1400146484375,
     "buy_date": "2026-10-14",
-    "last_price": 313.4599914550781,
+    "last_price": 318.17999267578125,
     "signal_date": "2026-10-15",
     "status": "HOLD",
     "status_note": ""
@@ -1935,7 +1935,7 @@
     "shares": 1.1944,
     "buy_price": 995.7999877929688,
     "buy_date": "2026-10-14",
-    "last_price": 967.02001953125,
+    "last_price": 992.8699951171875,
     "signal_date": "2026-10-15",
     "status": "HOLD",
     "status_note": ""
@@ -1946,7 +1946,7 @@
     "shares": 1.0631,
     "buy_price": 1243.3900146484375,
     "buy_date": "2026-10-19",
-    "last_price": 1281.9100341796875,
+    "last_price": 1279.1400146484375,
     "signal_date": "2026-10-20",
     "status": "HOLD",
     "status_note": ""
@@ -1957,7 +1957,7 @@
     "shares": 11.8766,
     "buy_price": 111.55000305175781,
     "buy_date": "2026-10-21",
-    "last_price": 115.02999877929688,
+    "last_price": 115.41999816894531,
     "signal_date": "2026-10-22",
     "status": "HOLD",
     "status_note": ""
@@ -1968,7 +1968,7 @@
     "shares": 2.7151,
     "buy_price": 440.2099914550781,
     "buy_date": "2026-10-21",
-    "last_price": 447.95001220703125,
+    "last_price": 444.6300048828125,
     "signal_date": "2026-10-22",
     "status": "HOLD",
     "status_note": ""
@@ -1979,7 +1979,7 @@
     "shares": 4.0184,
     "buy_price": 297.57000732421875,
     "buy_date": "2026-10-22",
-    "last_price": 302.6099853515625,
+    "last_price": 304.67999267578125,
     "signal_date": "2026-10-23",
     "status": "HOLD",
     "status_note": ""
@@ -1990,32 +1990,25 @@
     "shares": 12.6618,
     "buy_price": 105.0,
     "buy_date": "2026-10-27",
-    "last_price": 104.36000061035156,
+    "last_price": 104.72000122070312,
     "signal_date": "2026-10-26",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "EMR",
+    "name": "Emerson Electric",
+    "shares": 7.3775,
+    "buy_price": 162.7899932861328,
+    "buy_date": "2026-10-26",
+    "last_price": 161.6999969482422,
+    "signal_date": "2026-10-27",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [
-   {
-    "ticker": "EMR",
-    "name": "Emerson Electric",
-    "light": "yellow",
-    "score": 83,
-    "signal_date": "2026-10-27",
-    "signal_close": 166.27
-   }
-  ],
-  "pending_sells": [
-   {
-    "ticker": "TRV",
-    "reason": "基本面惡化：最新一季獲利年增 1% < 20%，賣出"
-   },
-   {
-    "ticker": "EG",
-    "reason": "基本面惡化：最新一季獲利年增 -16% < 20%，賣出"
-   }
-  ],
+  "pending_buys": [],
+  "pending_sells": [],
   "trades": [
    {
     "date": "2026-07-06",
@@ -2808,6 +2801,17 @@
     "amount": 1329.49,
     "signal_date": "2026-10-26",
     "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%，訊號日 2026-10-26）"
+   },
+   {
+    "date": "2026-10-26",
+    "action": "BUY",
+    "ticker": "EMR",
+    "name": "Emerson Electric",
+    "price": 162.7899932861328,
+    "shares": 7.3775,
+    "amount": 1200.98,
+    "signal_date": "2026-10-27",
+    "reason": "買進訊號（黃燈基準 × 檢核83分 → 部位 4.2%，訊號日 2026-10-27）"
    }
   ],
   "equity_history": [
@@ -3366,6 +3370,10 @@
    {
     "date": "2026-10-27",
     "equity": 28939.24
+   },
+   {
+    "date": "2026-10-26",
+    "equity": 28890.34
    }
   ]
  }
