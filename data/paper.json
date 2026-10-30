@@ -1968,7 +1968,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 14764.58739056958,
+  "cash": 13618.72089089582,
   "positions": [
    {
     "ticker": "NTAP",
@@ -1976,7 +1976,7 @@
     "shares": 6.104,
     "buy_price": 210.08999633789062,
     "buy_date": "2026-09-30",
-    "last_price": 223.66000366210938,
+    "last_price": 218.4199981689453,
     "signal_date": "2026-09-29",
     "status": "HOLD",
     "status_note": ""
@@ -1987,7 +1987,7 @@
     "shares": 8.065,
     "buy_price": 149.97999572753906,
     "buy_date": "2026-10-01",
-    "last_price": 157.35000610351562,
+    "last_price": 158.27000427246094,
     "signal_date": "2026-10-02",
     "status": "HOLD",
     "status_note": ""
@@ -1998,7 +1998,7 @@
     "shares": 2.471,
     "buy_price": 544.625,
     "buy_date": "2026-10-13",
-    "last_price": 531.010009765625,
+    "last_price": 530.1400146484375,
     "signal_date": "2026-10-12",
     "status": "HOLD",
     "status_note": ""
@@ -2009,7 +2009,7 @@
     "shares": 4.3924,
     "buy_price": 300.1400146484375,
     "buy_date": "2026-10-14",
-    "last_price": 317.82000732421875,
+    "last_price": 310.3399963378906,
     "signal_date": "2026-10-15",
     "status": "HOLD",
     "status_note": ""
@@ -2020,7 +2020,7 @@
     "shares": 1.1944,
     "buy_price": 995.7999877929688,
     "buy_date": "2026-10-14",
-    "last_price": 960.5599975585938,
+    "last_price": 980.8800048828125,
     "signal_date": "2026-10-15",
     "status": "HOLD",
     "status_note": ""
@@ -2031,7 +2031,7 @@
     "shares": 1.0631,
     "buy_price": 1243.3900146484375,
     "buy_date": "2026-10-19",
-    "last_price": 1288.300048828125,
+    "last_price": 1373.699951171875,
     "signal_date": "2026-10-20",
     "status": "HOLD",
     "status_note": ""
@@ -2042,7 +2042,7 @@
     "shares": 11.8766,
     "buy_price": 111.55000305175781,
     "buy_date": "2026-10-21",
-    "last_price": 114.1500015258789,
+    "last_price": 115.48999786376953,
     "signal_date": "2026-10-22",
     "status": "HOLD",
     "status_note": ""
@@ -2053,7 +2053,7 @@
     "shares": 2.7151,
     "buy_price": 440.2099914550781,
     "buy_date": "2026-10-21",
-    "last_price": 451.8299865722656,
+    "last_price": 460.7300109863281,
     "signal_date": "2026-10-22",
     "status": "HOLD",
     "status_note": ""
@@ -2064,7 +2064,7 @@
     "shares": 4.0184,
     "buy_price": 297.57000732421875,
     "buy_date": "2026-10-22",
-    "last_price": 305.8999938964844,
+    "last_price": 312.3699951171875,
     "signal_date": "2026-10-23",
     "status": "HOLD",
     "status_note": ""
@@ -2075,7 +2075,7 @@
     "shares": 12.6618,
     "buy_price": 105.0,
     "buy_date": "2026-10-27",
-    "last_price": 105.55000305175781,
+    "last_price": 105.5999984741211,
     "signal_date": "2026-10-26",
     "status": "HOLD",
     "status_note": ""
@@ -2086,22 +2086,24 @@
     "shares": 7.3775,
     "buy_price": 162.7899932861328,
     "buy_date": "2026-10-26",
-    "last_price": 167.7100067138672,
+    "last_price": 170.74000549316406,
     "signal_date": "2026-10-27",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "LH",
+    "name": "Labcorp",
+    "shares": 3.3257,
+    "buy_price": 344.54998779296875,
+    "buy_date": "2026-10-29",
+    "last_price": 368.1600036621094,
+    "signal_date": "2026-10-28",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [
-   {
-    "ticker": "LH",
-    "name": "Labcorp",
-    "light": "yellow",
-    "score": 79,
-    "signal_date": "2026-10-28",
-    "signal_close": 360.25
-   }
-  ],
+  "pending_buys": [],
   "pending_sells": [],
   "trades": [
    {
@@ -2906,6 +2908,17 @@
     "amount": 1200.98,
     "signal_date": "2026-10-27",
     "reason": "買進訊號（黃燈基準 × 檢核83分 → 部位 4.2%，訊號日 2026-10-27）"
+   },
+   {
+    "date": "2026-10-29",
+    "action": "BUY",
+    "ticker": "LH",
+    "name": "Labcorp",
+    "price": 344.54998779296875,
+    "shares": 3.3257,
+    "amount": 1145.87,
+    "signal_date": "2026-10-28",
+    "reason": "買進訊號（黃燈基準 × 檢核79分 → 部位 4.0%，訊號日 2026-10-28）"
    }
   ],
   "equity_history": [
@@ -3476,6 +3489,10 @@
    {
     "date": "2026-10-28",
     "equity": 29009.28
+   },
+   {
+    "date": "2026-10-29",
+    "equity": 29232.36
    }
   ]
  }
