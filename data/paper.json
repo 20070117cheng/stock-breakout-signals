@@ -2006,7 +2006,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 13618.72089089582,
+  "cash": 15099.77868185041,
   "positions": [
    {
     "ticker": "NTAP",
@@ -2014,10 +2014,10 @@
     "shares": 6.104,
     "buy_price": 210.08999633789062,
     "buy_date": "2026-09-30",
-    "last_price": 199.17999267578125,
+    "last_price": 185.25999450683594,
     "signal_date": "2026-09-29",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。停損：現價 185.26 低於買價 210.09 達 11.8%（門檻 8%），立即賣出；技術面：賣壓比例 120% ≥ 117%，股價可能已達中長期高點"
    },
    {
     "ticker": "JCI",
@@ -2025,7 +2025,7 @@
     "shares": 8.065,
     "buy_price": 149.97999572753906,
     "buy_date": "2026-10-01",
-    "last_price": 149.02999877929688,
+    "last_price": 146.49000549316406,
     "signal_date": "2026-10-02",
     "status": "HOLD",
     "status_note": ""
@@ -2036,7 +2036,7 @@
     "shares": 2.471,
     "buy_price": 544.625,
     "buy_date": "2026-10-13",
-    "last_price": 521.9099731445312,
+    "last_price": 507.1199951171875,
     "signal_date": "2026-10-12",
     "status": "HOLD",
     "status_note": ""
@@ -2047,7 +2047,7 @@
     "shares": 4.3924,
     "buy_price": 300.1400146484375,
     "buy_date": "2026-10-14",
-    "last_price": 312.9599914550781,
+    "last_price": 307.0,
     "signal_date": "2026-10-15",
     "status": "HOLD",
     "status_note": ""
@@ -2058,21 +2058,10 @@
     "shares": 1.1944,
     "buy_price": 995.7999877929688,
     "buy_date": "2026-10-14",
-    "last_price": 994.5800170898438,
+    "last_price": 998.3800048828125,
     "signal_date": "2026-10-15",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "LLY",
-    "name": "Lilly (Eli)",
-    "shares": 1.0631,
-    "buy_price": 1243.3900146484375,
-    "buy_date": "2026-10-19",
-    "last_price": 1417.5400390625,
-    "signal_date": "2026-10-20",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。基本面惡化：最新一季獲利年增 16% < 20%，賣出"
    },
    {
     "ticker": "ED",
@@ -2080,7 +2069,7 @@
     "shares": 11.8766,
     "buy_price": 111.55000305175781,
     "buy_date": "2026-10-21",
-    "last_price": 116.63999938964844,
+    "last_price": 118.4800033569336,
     "signal_date": "2026-10-22",
     "status": "HOLD",
     "status_note": ""
@@ -2091,7 +2080,7 @@
     "shares": 2.7151,
     "buy_price": 440.2099914550781,
     "buy_date": "2026-10-21",
-    "last_price": 466.010009765625,
+    "last_price": 465.45001220703125,
     "signal_date": "2026-10-22",
     "status": "HOLD",
     "status_note": ""
@@ -2102,7 +2091,7 @@
     "shares": 4.0184,
     "buy_price": 297.57000732421875,
     "buy_date": "2026-10-22",
-    "last_price": 314.989990234375,
+    "last_price": 294.7300109863281,
     "signal_date": "2026-10-23",
     "status": "HOLD",
     "status_note": ""
@@ -2113,7 +2102,7 @@
     "shares": 12.6618,
     "buy_price": 105.0,
     "buy_date": "2026-10-27",
-    "last_price": 106.2300033569336,
+    "last_price": 108.62000274658203,
     "signal_date": "2026-10-26",
     "status": "HOLD",
     "status_note": ""
@@ -2124,7 +2113,7 @@
     "shares": 7.3775,
     "buy_price": 162.7899932861328,
     "buy_date": "2026-10-26",
-    "last_price": 164.94000244140625,
+    "last_price": 165.9600067138672,
     "signal_date": "2026-10-27",
     "status": "HOLD",
     "status_note": ""
@@ -2135,7 +2124,7 @@
     "shares": 3.3257,
     "buy_price": 344.54998779296875,
     "buy_date": "2026-10-29",
-    "last_price": 361.3900146484375,
+    "last_price": 355.5899963378906,
     "signal_date": "2026-10-28",
     "status": "HOLD",
     "status_note": ""
@@ -2143,6 +2132,10 @@
   ],
   "pending_buys": [],
   "pending_sells": [
+   {
+    "ticker": "NTAP",
+    "reason": "停損：現價 185.26 低於買價 210.09 達 11.8%（門檻 8%），立即賣出"
+   },
    {
     "ticker": "LLY",
     "reason": "基本面惡化：最新一季獲利年增 16% < 20%，賣出"
@@ -2962,6 +2955,17 @@
     "amount": 1145.87,
     "signal_date": "2026-10-28",
     "reason": "買進訊號（黃燈基準 × 檢核79分 → 部位 4.0%，訊號日 2026-10-28）"
+   },
+   {
+    "date": "2026-11-02",
+    "action": "SELL",
+    "ticker": "LLY",
+    "name": "Lilly (Eli)",
+    "price": 1393.1500244140625,
+    "shares": 1.0631,
+    "amount": 1481.06,
+    "pnl_pct": 0.1204449191334136,
+    "reason": "基本面惡化：最新一季獲利年增 16% < 20%，賣出"
    }
   ],
   "equity_history": [
@@ -3540,6 +3544,10 @@
    {
     "date": "2026-10-30",
     "equity": 29075.73
+   },
+   {
+    "date": "2026-11-02",
+    "equity": 28843.58
    }
   ]
  }
