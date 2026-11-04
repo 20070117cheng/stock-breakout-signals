@@ -2014,7 +2014,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 16245.37735714338,
+  "cash": 17421.677487740304,
   "positions": [
    {
     "ticker": "JCI",
@@ -2022,7 +2022,7 @@
     "shares": 8.065,
     "buy_price": 149.97999572753906,
     "buy_date": "2026-10-01",
-    "last_price": 149.91000366210938,
+    "last_price": 146.49000549316406,
     "signal_date": "2026-10-02",
     "status": "HOLD",
     "status_note": ""
@@ -2033,7 +2033,7 @@
     "shares": 2.471,
     "buy_price": 544.625,
     "buy_date": "2026-10-13",
-    "last_price": 520.989990234375,
+    "last_price": 507.1199951171875,
     "signal_date": "2026-10-12",
     "status": "HOLD",
     "status_note": ""
@@ -2044,7 +2044,7 @@
     "shares": 4.3924,
     "buy_price": 300.1400146484375,
     "buy_date": "2026-10-14",
-    "last_price": 303.2099914550781,
+    "last_price": 307.0,
     "signal_date": "2026-10-15",
     "status": "HOLD",
     "status_note": ""
@@ -2055,7 +2055,7 @@
     "shares": 1.1944,
     "buy_price": 995.7999877929688,
     "buy_date": "2026-10-14",
-    "last_price": 999.6199951171875,
+    "last_price": 998.3800048828125,
     "signal_date": "2026-10-15",
     "status": "HOLD",
     "status_note": ""
@@ -2066,7 +2066,7 @@
     "shares": 11.8766,
     "buy_price": 111.55000305175781,
     "buy_date": "2026-10-21",
-    "last_price": 116.80999755859375,
+    "last_price": 118.4800033569336,
     "signal_date": "2026-10-22",
     "status": "HOLD",
     "status_note": ""
@@ -2077,7 +2077,7 @@
     "shares": 2.7151,
     "buy_price": 440.2099914550781,
     "buy_date": "2026-10-21",
-    "last_price": 461.260009765625,
+    "last_price": 465.45001220703125,
     "signal_date": "2026-10-22",
     "status": "HOLD",
     "status_note": ""
@@ -2088,7 +2088,7 @@
     "shares": 4.0184,
     "buy_price": 297.57000732421875,
     "buy_date": "2026-10-22",
-    "last_price": 298.55999755859375,
+    "last_price": 294.7300109863281,
     "signal_date": "2026-10-23",
     "status": "HOLD",
     "status_note": ""
@@ -2099,7 +2099,7 @@
     "shares": 12.6618,
     "buy_price": 105.0,
     "buy_date": "2026-10-27",
-    "last_price": 106.97000122070312,
+    "last_price": 108.62000274658203,
     "signal_date": "2026-10-26",
     "status": "HOLD",
     "status_note": ""
@@ -2110,29 +2110,14 @@
     "shares": 7.3775,
     "buy_price": 162.7899932861328,
     "buy_date": "2026-10-26",
-    "last_price": 166.38999938964844,
+    "last_price": 165.9600067138672,
     "signal_date": "2026-10-27",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "LH",
-    "name": "Labcorp",
-    "shares": 3.3257,
-    "buy_price": 344.54998779296875,
-    "buy_date": "2026-10-29",
-    "last_price": 353.9200134277344,
-    "signal_date": "2026-10-28",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。基本面惡化：最新一季獲利年增 -3% < 20%，賣出"
    }
   ],
   "pending_buys": [],
   "pending_sells": [
-   {
-    "ticker": "NTAP",
-    "reason": "停損：現價 190.78 低於買價 210.09 達 9.2%（門檻 8%），立即賣出"
-   },
    {
     "ticker": "LH",
     "reason": "基本面惡化：最新一季獲利年增 -3% < 20%，賣出"
@@ -2974,6 +2959,17 @@
     "amount": 1145.6,
     "pnl_pct": -0.10666858990309591,
     "reason": "停損：現價 185.26 低於買價 210.09 達 11.8%（門檻 8%），立即賣出"
+   },
+   {
+    "date": "2026-11-02",
+    "action": "SELL",
+    "ticker": "LH",
+    "name": "Labcorp",
+    "price": 353.70001220703125,
+    "shares": 3.3257,
+    "amount": 1176.3,
+    "pnl_pct": 0.02655644968288473,
+    "reason": "基本面惡化：最新一季獲利年增 -3% < 20%，賣出"
    }
   ],
   "equity_history": [
@@ -3560,6 +3556,10 @@
    {
     "date": "2026-11-03",
     "equity": 28865.95
+   },
+   {
+    "date": "2026-11-02",
+    "equity": 28852.07
    }
   ]
  }
