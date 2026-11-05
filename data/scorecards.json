@@ -338746,5 +338746,2907 @@
    "verdict": "淘汰：關鍵項目不合格"
   },
   "ai7": null
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "ED",
+  "name": "Consolidated Edison",
+  "close": 120.3,
+  "rebound": 1.0,
+  "base_quality": 0.853,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 120.3 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 85%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 12%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 21%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 13%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 38%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "AI 判斷（僅供參考，請複核依據）：儘管近期獲利表現強勁，但證據中缺乏明確的結構性變化（如產業趨勢、商業模式或市占提升）來支持未來獲利穩健成長。",
+     "starred": true,
+     "ai": {
+      "grade": "T",
+      "one_line": "儘管近期獲利表現強勁，但證據中缺乏明確的結構性變化（如產業趨勢、商業模式或市占提升）來支持未來獲利穩健成長。",
+      "analysis": "Consolidated Edison近期營運數字顯示獲利成長表現亮眼，但這些成長的具體驅動因素，特別是是否源於結構性變化，並未在提供的證據中明確說明。公司業務為受管制的公用事業，其成長通常依賴於費率基礎擴張和基礎設施投資，但證據中未提及具體的未來重大投資計畫或有利的產業趨勢來支持穩健成長。新聞標題多聚焦於短期財報預期或過去表現，缺乏對長期結構性成長動能的闡述。HSBC分析師給予「Hold」評級並提及「growth outlook」，暗示市場對其未來成長前景持保留態度，與穩健成長的判斷相悖。因此，現有證據不足以判斷其未來獲利能否穩健成長，缺乏符合標準的結構性成長理由。",
+      "risks": [
+       "監管環境變化可能限制費率調整或資本支出回報，影響獲利能力。",
+       "缺乏明確的結構性成長動能，可能導致未來成長趨緩。"
+      ],
+      "sources": [
+       {
+        "title": "Consolidated Edison (ED) Reports Next Week: Wall Street Expects Earnings Growth - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN18wWVcyOWpCTmluaWhxalhyaGY0bm03VGVxOGxTZjRZZ1pkVzVETVhiM1YtTERvNnFnWk5ITnhkWU8wODNCSXd3MFZhM1BBaVZIV0xBYTZ1ZFhuUGItalFSeHhfNnMxSW1ENWZORHZvSXU2X3hEb0swUnVQT2Z2UlRHWTNGQUMzdG5JTFZNQTI3NlA3dGU1R3NXTXlkeFUzWHc?oc=5",
+        "date": "Thu, 29 Oct 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Consolidated Edison Reports Higher Profit, Revenue - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUkxJWmRNSG0xMWZtZkdiLVF4YWtLbmtYNl9qQ3U3U2RON3lUQVlMZlluWHpCRzh3ZEkySURkNE1ZQjFtZ3d1M2VxTTc4blRCR2h2aGtUcUpVWlcwYy1nZXU5bG8weG1YZmtwamtEYzM4Z1ZtX0FsUXdENDdaUDllQXI4clY0b1hEUDdqdGJhWmJtVXNYV1A0b2x3Tms?oc=5",
+        "date": "Thu, 06 Aug 2026",
+        "source": "WSJ"
+       },
+       {
+        "title": "HSBC initiates Consolidated Edison stock with Hold on growth outlook - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRDc0eEltdk9IeVhuSTV3djZvZUozdEExUTRIOUQ4Uno0ZFRRNEdQcThURE9VNnpJb2tZcVduTzl0LW8tNmtwdU55Q0tWbGhUdEVUd0dTWWRnSkhydzd2WC1PU3NJa2dONzhYMmhnY3hXRDJ2Tk4xbWdESnozNTBkYTItLTN2T3BKSDJvbjlzdGJOX0U0eGxGRk5UQ0c1YkpKSmZmTXRwUjFzQnJQazVsaFNMOHhDNF90d0RYLVhLc09QZk42amc4?oc=5",
+        "date": "Thu, 22 Oct 2026",
+        "source": "Investing.com"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Consolidated Edison, Inc. (ED) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9rRW0tUk5RUHl0YUJlTkMycU84aTVYeFRFeGFVWjZjOXc4SWNPaDIyN25yVnRNSjRuYUlON0RKVmZESEVteExlblZ6VFBMZ00?oc=5",
+        "date": "Tue, 03 Nov 2026",
+        "source": "Yahoo! Finance Canada"
+       },
+       {
+        "title": "Consolidated Edison to Report Q3 Results: What's in the Cards? - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbTBRa25TMEV2enUxRWtDQnVZV3BNU3N3R3pZaE1NSzBGZWVrZm1GYlVBSUFYVnduU2p1Zjgyc2JnMmpGYTNYaUkteDg0UUFWZmVvNWtJRGRtWEFyYVZfaFpybl9SWHNOZ0VxQzNJWWY1YlZZMjFFNThzN3h3NUxXM0pIaE91VkdCaE84WmJ3SEdZd0EwdmRBQTNaT2ZpN296TS1RX1k0UjFnVldPZnUwRndfOFN0NFk?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "TradingView"
+       },
+       {
+        "title": "Consolidated Edison Earnings Preview: What to Expect - Barchart.com",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUEtpaU9rQzF6TnF1bWd2N3VLVmxPQmV1czJPbHB3aXJxX2VSc1RMUVBMN2xQOXpNZmtXRDBDbndsU0NZbm1jcjlhNm5tMlY3S0JtNGt6WDlZR3pUSFlocVBPZlQ5cE04cTNxeG5TcnNDY2JreGNEYkE1TVd2UVdQTUpQZzh1bWhIdGpvME0wUm5JRVFGWkNsV1Zncw?oc=5",
+        "date": "Mon, 26 Oct 2026",
+        "source": "Barchart.com"
+       },
+       {
+        "title": "Consolidated Edison (ED) Reports Next Week: Wall Street Expects Earnings Growth - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN18wWVcyOWpCTmluaWhxalhyaGY0bm03VGVxOGxTZjRZZ1pkVzVETVhiM1YtTERvNnFnWk5ITnhkWU8wODNCSXd3MFZhM1BBaVZIV0xBYTZ1ZFhuUGItalFSeHhfNnMxSW1ENWZORHZvSXU2X3hEb0swUnVQT2Z2UlRHWTNGQUMzdG5JTFZNQTI3NlA3dGU1R3NXTXlkeFUzWHc?oc=5",
+        "date": "Thu, 29 Oct 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Consolidated Edison Reports Higher Profit, Revenue - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUkxJWmRNSG0xMWZtZkdiLVF4YWtLbmtYNl9qQ3U3U2RON3lUQVlMZlluWHpCRzh3ZEkySURkNE1ZQjFtZ3d1M2VxTTc4blRCR2h2aGtUcUpVWlcwYy1nZXU5bG8weG1YZmtwamtEYzM4Z1ZtX0FsUXdENDdaUDllQXI4clY0b1hEUDdqdGJhWmJtVXNYV1A0b2x3Tms?oc=5",
+        "date": "Thu, 06 Aug 2026",
+        "source": "WSJ"
+       },
+       {
+        "title": "Are These 5 Utility Stocks Set to Surpass Q3 Earnings Estimates? - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOR3c4WnZ0UHNTemxVRWJNZHVobUN1RGNNOTU2ZW50clY3cVdkN0NSTkhSRUJlOG9Ray1mcDU4cmhDYVdSWHMtb0FsWDdzRVowck9INk42X3VCalEzQV9lZkJsaFpteVFPR3FqWU52NC00UzFvWk94cExEa3FXbFhCWUI1b2NIUV9jVlYyU1BjczZZbG1JelRtN0Rka3NlQkhVUDRsWlNwYThFQWZQcVpwU2VHNGVIOTU3bFA0?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "TradingView"
+       },
+       {
+        "title": "Quarterly Earnings Outlook Could Be A Game Changer For Con Edison Stock (ED) - Simply Wall St",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOGRyQ1l2NVdrNmJaMHhrQk5YQ3A4MTdvSm1JQ040N3FKZjhJSE9kaXlTVVBqT1UzVHFPamFkeEtER0pvRU5mU3ZCcUtMbFdIb0lldkllT0xIMWZRNUlJTldWRHNxdi12VmhvYVRfSi12ZG5zOUVRb0JXQW5xeW04VW9yU3c2VWhoQ0FCMmRBWi1TTElrUXZsTmI5M3FkUWV5bmszeVFXbDRnVHIyV0FPTk9mNjJZZmV0OHNfNnYzS2w3WEhNOUZIVEdOVmdQeWgw0gHWAUFVX3lxTE14azZCLWtaLTAxdUtPaWdzMFl6Z3lvaE1HUEJyMUF2bVIzR241bnFqb3NWTGFvUDZrdHR0aGlEaXlQR3hxY29aYmJVN2RQR2VZZ1d1Zk1fSk45cVctTWtJWUUyWmpPRTFoc240clJEZ0NVWVA5dURMY3RWNC1td2RIT2RuemdmaVhjeVZpMFM5cUd2MTUwSXN3blB4SWxGTkpVYVBGdTZqbmFZRzc1NlFKdmxaYk9JUlpDY0Z4Y3dGcHVnYlFldDJkaG5oYkF6UEpQRG4xeFE?oc=5",
+        "date": "Sat, 31 Oct 2026",
+        "source": "Simply Wall St"
+       },
+       {
+        "title": "HSBC initiates Consolidated Edison stock with Hold on growth outlook - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRDc0eEltdk9IeVhuSTV3djZvZUozdEExUTRIOUQ4Uno0ZFRRNEdQcThURE9VNnpJb2tZcVduTzl0LW8tNmtwdU55Q0tWbGhUdEVUd0dTWWRnSkhydzd2WC1PU3NJa2dONzhYMmhnY3hXRDJ2Tk4xbWdESnozNTBkYTItLTN2T3BKSDJvbjlzdGJOX0U0eGxGRk5UQ0c1YkpKSmZmTXRwUjFzQnJQazVsaFNMOHhDNF90d0RYLVhLc09QZk42amc4?oc=5",
+        "date": "Thu, 22 Oct 2026",
+        "source": "Investing.com"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-11-04 23:52"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 19.8 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 93,
+   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+  },
+  "ai7": {
+   "grade": "T",
+   "one_line": "儘管近期獲利表現強勁，但證據中缺乏明確的結構性變化（如產業趨勢、商業模式或市占提升）來支持未來獲利穩健成長。"
+  }
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "BLK",
+  "name": "BlackRock",
+  "close": 1224.37,
+  "rebound": 1.0,
+  "base_quality": 0.85,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 1224.37 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 85%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近4年平均年成長 7%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -8%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 31%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 21%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：BlackRock透過深化現有客戶關係並擴展其Aladdin風險管理平台夥伴關係，實現穩健的結構性成長。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "BlackRock透過深化現有客戶關係並擴展其Aladdin風險管理平台夥伴關係，實現穩健的結構性成長。",
+      "analysis": "新聞[5]指出公司透過「高成長顧問擴大其在現有關係中的影響力」，顯示其在客戶關係管理和滲透率方面的結構性提升。新聞[6]提及「Aladdin夥伴關係」，表明其核心技術平台正在擴展，這代表了商業模式的結構性強化和市場覆蓋的增加。儘管過去四季獲利年增為負，但最新一季營收年增31%及獲利年增21%的強勁表現，可能反映了這些結構性策略的初步成效，為未來穩健成長奠定基礎。這些成長動能並非來自景氣循環，而是來自於公司內部策略和商業模式的優化。",
+      "risks": [
+       "資產管理行業易受市場波動和投資者情緒影響，可能導致資產管理規模（AUM）和費用收入的不穩定。",
+       "部分基金（如BlackRock Greater Europe）表現不佳，可能影響整體品牌聲譽和資金流入，對整體獲利造成壓力。"
+      ],
+      "sources": [
+       {
+        "title": "BlackRock: High-Growth Advisers Expand Their Reach Within Existing Relationships - planadviser",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOV2N0TExHSkt6bHNPS1ZEd0JmMmtTbWpxSzBkWjVabk5qUG1KWEtuOC03bmRoTXctOVJjQkRwSlZsUkpCZEppcVVqR3BPUDdDQU1laW5tcEZpcDUtVE5FZkdFZkFLRG52VmNyQzRXWVQ3b3MyRkVXek5GdlQ1TVZBdjA4dERSQW43QnQ3cUtHb3duNEZfdW05THNwTmRja0o2SkprM0QydmhvX0lt?oc=5",
+        "date": "Mon, 02 Nov 2026",
+        "source": "planadviser"
+       },
+       {
+        "title": "How Investors Are Reacting To BlackRock (BLK) Earnings Growth And Aladdin Partnership - Simply Wall St",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVkJES19FaDI4djZxX3ZqQlBidjJMTWdPZDRyNDNWRXQ1RlVJZUxTU1UwOHp1dGN0OUZmUXZVbnUzVDlGdVZqbmdBZ1NUNW1zOERfU0o5YlZKRGViWVNKcG54TmZEYi1zdnJ5UW1oeVBIVm1hVTlOZ0tmUlVmd2JncWQ2Q1J6ZEp3N1FJOEZoUW1aSmNESml3cXVsTjNzeHFfWXgzUDM5bG5GX3VtckZ4R2Nlbkd2eno4aDUtenMtbDlyRlNzNjdoUm9pOGxxQy1BUm1XeNIB2gFBVV95cUxOUDl5TDdfd1RDSGgyRDFKb0ZERnNWT1h6ak5XUHdGb0tZdGxPQnBYYWhvQ3A5cGtqaGRtS2gwNDA3VmVoVlV5b05LSHJGYjJZZnhHcXR2TGVHOE9ucm45ZnNBamZDUUt5bHlCV2doVVF3MTE2LXlOZ2IxT0M5RVZqQ0dkVkRJZlhwOE5iT3h5VEZJYmYtVV8wbDI4dERjLVl1Ykk1M3A2R2YwWG16c0xaT1JCSlpocWpuMUJGbGcwM3FBcFdfYXhhWjNhM1o4NlVfTnRLODRNOGpnQQ?oc=5",
+        "date": "Tue, 03 Nov 2026",
+        "source": "Simply Wall St"
+       },
+       {
+        "title": "BlackRock Greater Europe to rename and target 4.5% payout after lagging index - Scottish Financial News",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNT1FzY3QxaldJMHJoSDFaYWtiRkVMeUY4UDlOdmZYdmN5ZVJQcGZHRUQxQmtic3lhWlFVRHVBRFFCUXQzV0IxTFlKbU5vbkpYVVctUlVFbUEtX2VDX3FhZV9raHBweGk2VHV2S1VnQlVqZWNXOUhmTEpUSHF0eFBlUTVSZ0VyTlRTLWZUeHdsbFhqdW02bHNXendFNWFmRG93N1g1aFVreVBPcmRidTF6djBLRjNtSDRnZ0pKQThqUThvSXBzTGo0ZGVOSl9mTnlB?oc=5",
+        "date": "Tue, 03 Nov 2026",
+        "source": "Scottish Financial News"
+       },
+       {
+        "title": "BlackRock Greater Europe unveils package of strategic initiatives after subpar performance - Investment Week",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN1RGQjQ2TlpZMk84OU9RZkI3RHYyellOczVyVGtjdUtYWXNhdlAyX0JlVVZsa3ZUcHJaRTNCUG1GMkpfLUxqWHpMdW1fR3pqR1ZmZXhrZ2lrQUtDalI3R2d3bFhTN2tzcy0yTUdxczRxbGFaUlhfbmhONE9TWUlLcll0M3VFZ0N6STFDd2hTbHlJbC1DeElVY1RhX0l0dEtzRkRMTTQ3aEYtNFhGQnk3TkJUWmNyc2FSQjNB?oc=5",
+        "date": "Tue, 03 Nov 2026",
+        "source": "Investment Week"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Weekly market commentary - BlackRock",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+        "date": "Mon, 02 Nov 2026",
+        "source": "BlackRock"
+       },
+       {
+        "title": "U.S. midterms results won't halt crypto's momentum as 85% of activity is abroad, Grayscale says - CoinDesk",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNalB6clNocmltQnFRcW5oM3VQMkotYjJCUm1UZWJuclN3SVJSa2lHT290eGM2WTVocUZsQVdLQm4wM05uLXlhZVk0Nk5VSzBUZ2ZlYXl4ODhudGFMeThOVnd5M3lNVXlOeXpSX3haNmJrcVQzTUduRWpOV2syS2pCdHFJR01nQTUtRXMxdzctTHZyVlJIM3kyRnFfQUZfcXFhUUE4V1pDVjVUSzNkVmljOGlkTmY5ODJ5OGRpUg?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "CoinDesk"
+       },
+       {
+        "title": "Weekly market commentary - BlackRock",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORkJPa3I0ekJyVEI0RFJhY210TmplVHJZQ0xJNy1qenNkc0lMMHk0TmZwdDV1TEVZNmJoV3dfVlNTT3UyZHE5Q01SdmQ4eDd4WjAzZVhFMFB3VUd5QjlYXzZ5MWFRYzdIQVRVM1JMZXNyQ05aTExrejM4cHdBSktKSlJOOWxkY0V4YkNRRDZZTzlDZUYzZHlUWXdhTFUxNXJSNXc?oc=5",
+        "date": "Sun, 01 Nov 2026",
+        "source": "BlackRock"
+       },
+       {
+        "title": "BlackRock (NYSE:BLK) Combines Strong Growth With a High-Quality Technical Breakout Setup - ChartMill",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdG40N1dEc21JaWptOXhnR1VhaHZkVVppTnhqS1A1SzMycjVUc1k2ZTNvSlU4WEpuSU9GdjRLMHBlVER4WjR0ZkFiSTVzOHFWd2pTdnJIWlI4b0RVcEJnbUdrUkQ2VUdOU28tVFlIVWZRRmZlNzJhRFFTN092MHhRWWpvU1NjeFVFZUd4R3R6YTdVRUo4QWRMX2pUSFJFLVZCaEVsVjdnWV84S2JjRkdWa09fYW9iZkUzaGNCRmxrVXJ4VGEzX1lybXYxMDBkb0ctWEE?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "ChartMill"
+       },
+       {
+        "title": "BlackRock: High-Growth Advisers Expand Their Reach Within Existing Relationships - planadviser",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOV2N0TExHSkt6bHNPS1ZEd0JmMmtTbWpxSzBkWjVabk5qUG1KWEtuOC03bmRoTXctOVJjQkRwSlZsUkpCZEppcVVqR3BPUDdDQU1laW5tcEZpcDUtVE5FZkdFZkFLRG52VmNyQzRXWVQ3b3MyRkVXek5GdlQ1TVZBdjA4dERSQW43QnQ3cUtHb3duNEZfdW05THNwTmRja0o2SkprM0QydmhvX0lt?oc=5",
+        "date": "Mon, 02 Nov 2026",
+        "source": "planadviser"
+       },
+       {
+        "title": "How Investors Are Reacting To BlackRock (BLK) Earnings Growth And Aladdin Partnership - Simply Wall St",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVkJES19FaDI4djZxX3ZqQlBidjJMTWdPZDRyNDNWRXQ1RlVJZUxTU1UwOHp1dGN0OUZmUXZVbnUzVDlGdVZqbmdBZ1NUNW1zOERfU0o5YlZKRGViWVNKcG54TmZEYi1zdnJ5UW1oeVBIVm1hVTlOZ0tmUlVmd2JncWQ2Q1J6ZEp3N1FJOEZoUW1aSmNESml3cXVsTjNzeHFfWXgzUDM5bG5GX3VtckZ4R2Nlbkd2eno4aDUtenMtbDlyRlNzNjdoUm9pOGxxQy1BUm1XeNIB2gFBVV95cUxOUDl5TDdfd1RDSGgyRDFKb0ZERnNWT1h6ak5XUHdGb0tZdGxPQnBYYWhvQ3A5cGtqaGRtS2gwNDA3VmVoVlV5b05LSHJGYjJZZnhHcXR2TGVHOE9ucm45ZnNBamZDUUt5bHlCV2doVVF3MTE2LXlOZ2IxT0M5RVZqQ0dkVkRJZlhwOE5iT3h5VEZJYmYtVV8wbDI4dERjLVl1Ykk1M3A2R2YwWG16c0xaT1JCSlpocWpuMUJGbGcwM3FBcFdfYXhhWjNhM1o4NlVfTnRLODRNOGpnQQ?oc=5",
+        "date": "Tue, 03 Nov 2026",
+        "source": "Simply Wall St"
+       },
+       {
+        "title": "BlackRock Greater Europe to rename and target 4.5% payout after lagging index - Scottish Financial News",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNT1FzY3QxaldJMHJoSDFaYWtiRkVMeUY4UDlOdmZYdmN5ZVJQcGZHRUQxQmtic3lhWlFVRHVBRFFCUXQzV0IxTFlKbU5vbkpYVVctUlVFbUEtX2VDX3FhZV9raHBweGk2VHV2S1VnQlVqZWNXOUhmTEpUSHF0eFBlUTVSZ0VyTlRTLWZUeHdsbFhqdW02bHNXendFNWFmRG93N1g1aFVreVBPcmRidTF6djBLRjNtSDRnZ0pKQThqUThvSXBzTGo0ZGVOSl9mTnlB?oc=5",
+        "date": "Tue, 03 Nov 2026",
+        "source": "Scottish Financial News"
+       },
+       {
+        "title": "BlackRock Greater Europe unveils package of strategic initiatives after subpar performance - Investment Week",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN1RGQjQ2TlpZMk84OU9RZkI3RHYyellOczVyVGtjdUtYWXNhdlAyX0JlVVZsa3ZUcHJaRTNCUG1GMkpfLUxqWHpMdW1fR3pqR1ZmZXhrZ2lrQUtDalI3R2d3bFhTN2tzcy0yTUdxczRxbGFaUlhfbmhONE9TWUlLcll0M3VFZ0N6STFDd2hTbHlJbC1DeElVY1RhX0l0dEtzRkRMTTQ3aEYtNFhGQnk3TkJUWmNyc2FSQjNB?oc=5",
+        "date": "Tue, 03 Nov 2026",
+        "source": "Investment Week"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-11-04 23:55"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 27.9 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 93,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": {
+   "grade": "O",
+   "one_line": "BlackRock透過深化現有客戶關係並擴展其Aladdin風險管理平台夥伴關係，實現穩健的結構性成長。"
+  }
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "PRU",
+  "name": "Prudential Financial",
+  "close": 126.63,
+  "rebound": 1.0,
+  "base_quality": 0.842,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 126.63 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 84%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近4年平均年成長 25%，成長年份占 100%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 45%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 14%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 59%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "AI 判斷（僅供參考，請複核依據）：儘管近期獲利表現強勁且有策略性調整，但缺乏明確的結構性成長驅動力以判斷未來獲利能否穩健成長。",
+     "starred": true,
+     "ai": {
+      "grade": "T",
+      "one_line": "儘管近期獲利表現強勁且有策略性調整，但缺乏明確的結構性成長驅動力以判斷未來獲利能否穩健成長。",
+      "analysis": "公司近期獲利表現亮眼，且新聞提及PGIM與美國保護業務表現強勁，並進行了地理足跡的策略性調整。然而，這些資訊並未充分說明PGIM與美國保護業務的「強勁」是否源於可持續的結構性變化，而非短期因素。同時，地理足跡的調整（如出售拉丁美洲業務）雖可能優化資產配置，但其本身並非持續性的成長引擎。此外，日本市場的銷售暫停問題，也為國際業務的未來成長帶來不確定性。因此，在缺乏明確的結構性成長驅動力證據下，無法判斷其未來獲利能否穩健成長。",
+      "risks": [
+       "缺乏明確的結構性成長驅動力，未來獲利成長可能不穩定。",
+       "日本市場的營運問題可能持續影響國際業務表現。"
+      ],
+      "sources": [
+       {
+        "title": "PRU Q3 Earnings Beat Estimates on PGIM and U.S. Protection Strength - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQazMtRlF4UzRWMk9uTzQ1T05PNHozZW5Ba2F3YXlDdjNLcm1HWmtuQnEwMzRPUFVUZVIzMlgtbktESTcxOHU2NUlDUjZITERMV01FeWRSSkJva1UyZ3F3cDZvXzZ3eTdYakNPNURTR1RZWFplcXU1bnIxU3plTjFPTlBaUTdrNWo1V2pyeDc0MGM3RlB1SWVjbFVMWUcxc0VlN2tYcHhwYlh3MlpEVFBUVHEyOWIxeUE1cks5ZE9ITQ?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "TradingView"
+       },
+       {
+        "title": "Prudential Financial Q3 earnings beat amid Japan issues, more concentrated geographic footprint (PRU:NYSE) - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPemlnNWpNaVNsM3lxVkctLTQ1TWVYQ3M3eWw1anEyNlpMZmZQT19BQ3Z4Tklkel90aExRRG81REVIbFFVN0FaRmZLajlCZFJHbHQxY3MwaXgwQUJhUm9sUzBLVGpobFhFVkc5dTZJbDVsR0NOQjJSMTZkb0Fmd2lJY21JZHV6c3NpMWlianBTbkxiVHY4Qlk0elczSDgwS2FDanRLcGc0cTJ0UC1MMFJrcEE4UVZkUHh4TDhIWHQ2cFZPUnJPVGRNTDFmRFg?oc=5",
+        "date": "Tue, 03 Nov 2026",
+        "source": "Seeking Alpha"
+       },
+       {
+        "title": "Prudential Financial (NYSE:PRU) Earnings Beat Meets Revenue Miss as Japan Weighs - ChartMill",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObjFRbHlOSEo5LU5IR25GSy1uZlQtYmdkMFFWYk5EZ2xDWGxqWnZPWnE1cUdYNnZOM3hBLVBZMU9wc3Z5RVNOaXlLSWo3dW94ZGtLeVhHZzFYWHBGQWM3ZXJBc3NIWnk2N3dFdkNVZXExSGRHMzEwSjRDWlZDSlo0RExwQjJid2x1Y0J6NjltcjZSNGJNNk93TlpScmo4UVp6bVRTTHYtSjV5MmR3SFY4V2JaYUU4cFoxTFhsejBHU1lvMnJIcEhZ?oc=5",
+        "date": "Tue, 03 Nov 2026",
+        "source": "ChartMill"
+       },
+       {
+        "title": "[Prudential Financial Q3 2026 Earnings Call] Prudential Posts $3.77 EPS as $140 Million Japan Sales Suspension Bites; LATAM Sale Nets $3.1 Billion - BigGo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15M1JKUWZpblZCMHFaNnNmYzQ5Z2pmTUF3MWN5ak13ajN6RGd3dHB2a3VkdjAwa3czY3YySDhhYmdtV1J5Ym1sRGR5UndyRS1MQVoyeWEyNEYwZzAy?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "BigGo Finance"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Prudential Financial Q3 2026 Earnings Call Transcript - Benzinga",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQzJQZk1Fd0xMMXlQdHZjQ1JyLW5xN1ZTTGs3MDc1T1c2STZreEdacEI1WDdHT2NuUnpXdWFYZzNpcENhWnV6RXU4dVh3V2U0dDR5b1NRUWxPSWZUNlMyTVBSRVVGcjhPbGVNS0tzdmZ4bmNpQWwxSjJ1OE5TeDg2TFpxQUpSSFI0akRGWnFLdEZoMk1NU0hLRll5RnFFWWc?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "Benzinga"
+       },
+       {
+        "title": "Earnings call transcript: Prudential Financial Q3 2026 profit slips as sales surge - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcmhpaWpUdVlZcE1RdUVBRUl6T2ZneU03Sm5idHgyNUNSTk1paEdkazRyNGpLNVp0X29jMEhndHR2c1VpeWYxaDZjNHRsWmNJLVZFUkR4SDBmd0U3WE1FaVA4NlgwTjZ0NEp0NXFZd1Znak9fdjQzMl9abzVqbWtlUlM0QTZOM1RZY0Z3VWpORUEyMGMtSG1GbmxOSmVuQm05V1BpcF9XSUxkMG8xTFo0VjFuTndqM0RCQzQ1T2p5YXZiMnlKbERlOUxtY2NnZzJBeG1r?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "Investing.com"
+       },
+       {
+        "title": "Transcript : Prudential Financial, Inc., Q3 2026 Earnings Call, Nov 04, 2026 - www.marketscreener.com",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZXNidDJCR0RQRElFSDZjTUNxNDF1alF3NGpnLWxwUlNaVE9PVzA3cmkxR3c3OVNxSzBkUVNVdVFmUjhEQnFMTXYydDNRcUpKOUtfMzZSSlUwa0lHZTRwNmcyeUFBcVlsV0diaVF4V0g3RG01N3pueHpUTHBldFBqTWpvTjhMTWtBLWRIYnRlRWtKdVFiQzYzenE2SEVVM0dSU0xJRC1wZFpzQWtKaWtjRkxMMkZBOV9UUEsxTDlrYw?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "www.marketscreener.com"
+       },
+       {
+        "title": "Prudential earnings: what to look for from PRU - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONTNvclhhZlFzNm91bVpfbVJ5bFYyQl9OOC1ReldHTW5sbmJNeWgxbE5ySDRyRVZ1UkMwRG5BMTFuejI1TUpETWNtSXRQVVlPVUc4MmlIOWlSd0xfaEZHNHU3UjF2NEJfTDEyQzVtTGtqU1VGRlZ3UDJFaVZLMXZDRmNieEZpYTZFdDJmUi0xVkhFdDFuQ2FfeA?oc=5",
+        "date": "Mon, 02 Nov 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "PRU Q3 Earnings Beat Estimates on PGIM and U.S. Protection Strength - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQazMtRlF4UzRWMk9uTzQ1T05PNHozZW5Ba2F3YXlDdjNLcm1HWmtuQnEwMzRPUFVUZVIzMlgtbktESTcxOHU2NUlDUjZITERMV01FeWRSSkJva1UyZ3F3cDZvXzZ3eTdYakNPNURTR1RZWFplcXU1bnIxU3plTjFPTlBaUTdrNWo1V2pyeDc0MGM3RlB1SWVjbFVMWUcxc0VlN2tYcHhwYlh3MlpEVFBUVHEyOWIxeUE1cks5ZE9ITQ?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "TradingView"
+       },
+       {
+        "title": "Prudential Financial Q3 earnings beat amid Japan issues, more concentrated geographic footprint (PRU:NYSE) - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPemlnNWpNaVNsM3lxVkctLTQ1TWVYQ3M3eWw1anEyNlpMZmZQT19BQ3Z4Tklkel90aExRRG81REVIbFFVN0FaRmZLajlCZFJHbHQxY3MwaXgwQUJhUm9sUzBLVGpobFhFVkc5dTZJbDVsR0NOQjJSMTZkb0Fmd2lJY21JZHV6c3NpMWlianBTbkxiVHY4Qlk0elczSDgwS2FDanRLcGc0cTJ0UC1MMFJrcEE4UVZkUHh4TDhIWHQ2cFZPUnJPVGRNTDFmRFg?oc=5",
+        "date": "Tue, 03 Nov 2026",
+        "source": "Seeking Alpha"
+       },
+       {
+        "title": "Prudential Financial (NYSE:PRU) Earnings Beat Meets Revenue Miss as Japan Weighs - ChartMill",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObjFRbHlOSEo5LU5IR25GSy1uZlQtYmdkMFFWYk5EZ2xDWGxqWnZPWnE1cUdYNnZOM3hBLVBZMU9wc3Z5RVNOaXlLSWo3dW94ZGtLeVhHZzFYWHBGQWM3ZXJBc3NIWnk2N3dFdkNVZXExSGRHMzEwSjRDWlZDSlo0RExwQjJid2x1Y0J6NjltcjZSNGJNNk93TlpScmo4UVp6bVRTTHYtSjV5MmR3SFY4V2JaYUU4cFoxTFhsejBHU1lvMnJIcEhZ?oc=5",
+        "date": "Tue, 03 Nov 2026",
+        "source": "ChartMill"
+       },
+       {
+        "title": "[Prudential Financial Q3 2026 Earnings Call] Prudential Posts $3.77 EPS as $140 Million Japan Sales Suspension Bites; LATAM Sale Nets $3.1 Billion - BigGo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15M1JKUWZpblZCMHFaNnNmYzQ5Z2pmTUF3MWN5ak13ajN6RGd3dHB2a3VkdjAwa3czY3YySDhhYmdtV1J5Ym1sRGR5UndyRS1MQVoyeWEyNEYwZzAy?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "BigGo Finance"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-11-04 23:54"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 11.5 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 93,
+   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+  },
+  "ai7": {
+   "grade": "T",
+   "one_line": "儘管近期獲利表現強勁且有策略性調整，但缺乏明確的結構性成長驅動力以判斷未來獲利能否穩健成長。"
+  }
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "MA",
+  "name": "Mastercard",
+  "close": 672.68,
+  "rebound": 1.0,
+  "base_quality": 0.88,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 672.68 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 88%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近4年平均年成長 17%，成長年份占 100%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 22%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 14%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 15%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：Mastercard的獲利能穩健成長，因為它受惠於全球數位支付的結構性趨勢，並透過策略夥伴關係積極拓展AI驅動的創新商務模式。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "Mastercard的獲利能穩健成長，因為它受惠於全球數位支付的結構性趨勢，並透過策略夥伴關係積極拓展AI驅動的創新商務模式。",
+      "analysis": "Mastercard的獲利成長主要來自全球數位支付的結構性趨勢，這是一個長期且持續的產業轉變，而非短期景氣循環。公司近期營運數字顯示穩健的成長軌跡，近四年平均年成長17%且成長年份佔100%，近四季獲利年增22%，證明其能持續從此趨勢中獲益。此外，Mastercard透過與OpenAI和騰訊的合作，積極發展「Agentic Commerce」，這代表公司正透過創新商業模式和技術應用，開拓新的成長動能。這些因素共同支持其未來獲利能穩健成長的判斷。",
+      "risks": [
+       "全球支付產業的激烈競爭可能壓縮其市場份額或交易費率。",
+       "各國政府對支付服務的監管政策變化，可能對其營運模式及獲利能力造成衝擊。"
+      ],
+      "sources": [
+       {
+        "title": "Mastercard Incorporated (MA) Is Riding the Global Shift Toward Digital Payments: Here’s Why It Matters - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN3NoczRTRnQwSDRZb3NiQ3kyZ1JjSXFUY0Y0Q2xydlpYS0pLNDZqSFBseDdkaGFXOVNpaUNEdGtFQm9vN2NwVjYydnN3VUlsQlBwMXNRbDJRWWM4YXpSUVp2VFVDNFUzWVhqR1VHRE9vcEZzX0dEZmViWEI0cTRJWThxYThVZlFhMjhaaDd6VURKQjBOT05lWnI3Tkp1SUNVSlE1MmR1bHc?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Mastercard Profit Rises on Payment Network, Services Growth - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdVRaMHlQOGFwWlQwXzJ1bFZFTEhQaW8zMEdQYU5TRk0xbHM2LWlvdTVoYzR5Y2cxZTVvX1VxOGZKbzU1dkJVT0VZbngyQnVuNmVoZjdsQnlBOVZsV2FBMlcteVRjRVdoQjc3QUFmbHBxZklrTEVGUFBNekFMYTRtVXF1ek5mOEZpNlBTSm5TYmctM21TMXRPQXhmZXVzU3pLYzNlZUQ0cnU?oc=5",
+        "date": "Thu, 29 Oct 2026",
+        "source": "WSJ"
+       },
+       {
+        "title": "Mastercard Forms OpenAI and Tencent Partnerships to Drive Agentic Commerce - PYMNTS.com",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR085TUQtTFhyempjMDdaQUlpdzdrOHJ2RGVMUXlMTi1hME1IZVZiRXZLckFkM0hIcjFtT0FrN0p6d28zMzJ6RWEzbHBzY2dnVHNlTGlWa2dEN1Z0TmNaMHFtdW9lR0w2eHhHOE5tMkxETl9oRTA2bVdKNHgtSWVBVTRZRm1qcDY3SG5MMWhFd1J2OGVtYTdHdk1ySFpRMG1LZDFlWUZFVHpTZXF1TU5WUTJDb0pFVEU?oc=5",
+        "date": "Tue, 03 Nov 2026",
+        "source": "PYMNTS.com"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Mastercard Incorporated (MA) Is Riding the Global Shift Toward Digital Payments: Here’s Why It Matters - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN3NoczRTRnQwSDRZb3NiQ3kyZ1JjSXFUY0Y0Q2xydlpYS0pLNDZqSFBseDdkaGFXOVNpaUNEdGtFQm9vN2NwVjYydnN3VUlsQlBwMXNRbDJRWWM4YXpSUVp2VFVDNFUzWVhqR1VHRE9vcEZzX0dEZmViWEI0cTRJWThxYThVZlFhMjhaaDd6VURKQjBOT05lWnI3Tkp1SUNVSlE1MmR1bHc?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Earnings Review: Trust at work, powering our next chapter of growth - Mastercard",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNM1h2ZkJYZ1hTSWZWM1R0Q0gtSl9Qdk5XOHVTSms5Ny13UHB1NU42RHlpTmtFdm1DUUU5bDhSTVl3RTFQWE5hY2YyV1NZb29YV2dzZ2VkSl9SVktGRlB2Rl96SDFpNDN0YW94Q0hSNFdDTEpDSUdRQ3pFN0hOT3g1X1VBajZLdU85bDU4NTB3dXMwZWxpMjRid3lKMTdaUUZXQ2Z4eDdGZ3Q?oc=5",
+        "date": "Thu, 29 Oct 2026",
+        "source": "Mastercard"
+       },
+       {
+        "title": "Mastercard Profit Rises on Payment Network, Services Growth - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdVRaMHlQOGFwWlQwXzJ1bFZFTEhQaW8zMEdQYU5TRk0xbHM2LWlvdTVoYzR5Y2cxZTVvX1VxOGZKbzU1dkJVT0VZbngyQnVuNmVoZjdsQnlBOVZsV2FBMlcteVRjRVdoQjc3QUFmbHBxZklrTEVGUFBNekFMYTRtVXF1ek5mOEZpNlBTSm5TYmctM21TMXRPQXhmZXVzU3pLYzNlZUQ0cnU?oc=5",
+        "date": "Thu, 29 Oct 2026",
+        "source": "WSJ"
+       },
+       {
+        "title": "Mastercard Inc Stock (MA) Moved Up by 3.47% on Nov 4: What Signal Does It Send? - TradingKey",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRDdZYkVNWGJ5eXkzQVpJcklPX3VIdmJwZU54T3hfZFowT1A5aTVGbmstWFdCdzF2a0M5Q3hEd0ExbVpST2o4SGpDbnp3Z2NQV2dPa2ZmNzRWMUhUVmg0Q2ZJVFFXZzhCOEtZYUZ5amo1aHBRY1lCamNSVTVmTkRxLThBVXNpc1df?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "TradingKey"
+       },
+       {
+        "title": "Mastercard vs. S&P Global: Which Financial Stock Is a Better Buy for 2027? - The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRVp6eWhNV040ZVhHS296VmJTemRoSkVCc1hGQW1RRFl1S3lCSjA3enNrQ3h0SjFySDRidFFvaWVNOHhmaXRPVDllSHgtcEd2QzFJWmI2UWpVbndYUlAwaDk1cTZNSDFZT1BwLWdkTFVFLTI3djVVeXBCVjRaUDF5ekxvVUt6NXc1cTF5UWYwLWxwcEhSVl9PTUhhTXZQUTBUTTV2VXJ6eS1GT0c2bVloaS04aUZhckRKczdScndEakY?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "The Motley Fool"
+       },
+       {
+        "title": "Mastercard Forms OpenAI and Tencent Partnerships to Drive Agentic Commerce - PYMNTS.com",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR085TUQtTFhyempjMDdaQUlpdzdrOHJ2RGVMUXlMTi1hME1IZVZiRXZLckFkM0hIcjFtT0FrN0p6d28zMzJ6RWEzbHBzY2dnVHNlTGlWa2dEN1Z0TmNaMHFtdW9lR0w2eHhHOE5tMkxETl9oRTA2bVdKNHgtSWVBVTRZRm1qcDY3SG5MMWhFd1J2OGVtYTdHdk1ySFpRMG1LZDFlWUZFVHpTZXF1TU5WUTJDb0pFVEU?oc=5",
+        "date": "Tue, 03 Nov 2026",
+        "source": "PYMNTS.com"
+       },
+       {
+        "title": "Visa vs Mastercard: growth, valuation, and fair value compared - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPc29NWE5TeHFZTU13MmQwQm92MkFUZURoQWZtUGNiVDVKMl9zT2x1c3JfNkJyVV83bFo2Y25mQk0tUXVLb1hXbzVhUTVZVVJMck5oWm9kbGZyN2lmZkFIZlFWU2NaVFNERDJRZ21oRXBMcWxhQ08yc1B0aGdWZ2JUbUlScEVUR3IwY3pMRnVRZ3VnS2Y4cDJPYjhSMndYd1NyUEE?oc=5",
+        "date": "Tue, 03 Nov 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Is Mastercard’s Next Big Thing Already Here? - Trefis",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUmVlOEZndGx2MzRhdzM1OUxPLUg2eDI1WExLWFZxMVkydklQQ0NTbE1ISnBRNUw0Y09nSTJHaEJXVnBranUxcTdqNEtXb00tak9Da21iNV9rNVJRb09OOUVsb01kbGlTcGlwYWZCS1U5cGtQNHhoZGxmamktWUVJcFVBWkZQNW1MRGZsQURSeWw2STRyRUVJbm5mTFN0VVIxbklr?oc=5",
+        "date": "Tue, 03 Nov 2026",
+        "source": "Trefis"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-11-04 23:58"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 35.2 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 86,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": {
+   "grade": "O",
+   "one_line": "Mastercard的獲利能穩健成長，因為它受惠於全球數位支付的結構性趨勢，並透過策略夥伴關係積極拓展AI驅動的創新商務模式。"
+  }
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "MSI",
+  "name": "Motorola Solutions",
+  "close": 496.99,
+  "rebound": 1.0,
+  "base_quality": 0.851,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 496.99 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 85%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 25%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 43%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 13%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 9%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：Motorola Solutions受惠於全球政府、公共安全及企業對關鍵任務通訊與安全解決方案持續升級與現代化的結構性需求。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "Motorola Solutions受惠於全球政府、公共安全及企業對關鍵任務通訊與安全解決方案持續升級與現代化的結構性需求。",
+      "analysis": "該公司核心業務專注於公共安全、政府、國防及企業安全解決方案，滿足了對安全可靠通訊基礎設施的根本且持續演進的需求。這項判斷得到其強勁歷史表現的支持，包括五年平均年成長25%以及近四季獲利年增43%。管理層上調2026年全年財測（新聞[6]）進一步表明對持續需求和未來獲利能力的信心，儘管單季營收指引略低於預期（新聞[8]）。因此，其成長動能源於關鍵基礎設施現代化和安全需求提升等結構性趨勢，而非暫時的經濟週期。",
+      "risks": [
+       "依賴政府與公共安全部門的預算支出，可能受政治與經濟週期影響。",
+       "通訊與安全解決方案市場競爭激烈，技術快速演進可能帶來挑戰。"
+      ],
+      "sources": [
+       {
+        "title": "Motorola Solutions Q3 Adjusted Earnings, Revenue Rise; Lifts 2026 Guidance - marketscreener.com",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU3pNV0o0bVJqR1kwWE1xYmNSMjZhN2p4TWlpaVB0Q0N5MUVkeHQ2N1VlZkpKVkQ5WWRJelBwa2owS1hHb3NEX1hmaVBKZ1VSZ1drOEVDY0s0MmdPRlUwMXJIU2lCaVNTdjZQNlI3V1JhUW0zc0hYQWxuYzNNUHBndXFCV0tlWHBGNzdXZVpwRjR6RkFOQjVYbzNTMUNaVUhYRDZocHFtc1JTdDcxcE1CNGlKbmhoRUxWZEkxOUVlWWtyNTQ?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "marketscreener.com"
+       },
+       {
+        "title": "Motorola Solutions (NYSE:MSI) posts better-than-expected sales in Q3 2026 but quarterly revenue guidance slightly misses expectations - StockStory",
+        "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPUnRKSk1Qc2tDRHNBVnVCUHdUMFJSaXkzSWRpaWROcGRfekZHV2RTejJXd1hDNWpDbHc4bWtxVmdKRHZ6N1M0aFpXa3luOXJzX283WmpHRy12dW51amFYTGVYLU8teHlUbnFraFZwamdTR1NFNmFUQkNWYXFRMVF5QlBZUGVRVUR1TnFNVGNJUDJNek5WeW9xeGVpUnFVYU02cjQweDBGUFVGLWp1NFpobWtLUElyM0paaWlzU0g2S01oWkc1YTN3YTdvUm94clFGWEVHUExVQVJvb2RzaU9wU2JJVTVYNFdqdFZMTlBBdlVMaVpQOEJHOWNjQW95MU5hTFZMSExmZ1hpOXRoXzA3T0VVQzk?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "StockStory"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Motorola: Q3 Earnings Snapshot - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMWhfZHpmcE1tMXY2cngzRTBvakl2N0YyeklKTW1raUtkT1BvcEJqUEVnZkpaUHdCalVCbnd0elRWZm80eVUyQ0xDZFRIVWZHaVR6RTYzUGRJdFJaVlIzOGFtd3E1cDlVamVOc2NBYVktY3hzWjB0VWJnVncyMl91bDZ5VWN2aW53aklCXzRsa252SEM3U3pycVR3?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Motorola Solutions Q3 2026 Earnings Call Is Live - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONGM0bE1uM0hKUFBtenpXd2tNRHVSOFkxNVdXZHZUMGZOeWRPbXFncXVFdVdUQmRTMUdjZ2FPVFZLQjlra3ZMcmlHei1YUTMtSWNobTVJb0wzMFpYVFBVcFJhcVdRY3FYN3N2aV9JSHlIbUhscGZMYUpGTHZoU1Q2MGpmZG5VaGZCMWU3T0YxazlQV216T1MwQ1gtRGwwWTZ1aFZldnFBT21halRFQkZnckJ4Q1poMVNI?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "TradingView"
+       },
+       {
+        "title": "Motorola Solutions, Inc. 2026 Q3 - Results - Earnings Call Presentation (NYSE:MSI) 2026-11-04 - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNN0R6bTl1b2xTZjlPMU1YQnhsQVBUSHVoMld0S0FINVI1a1drbjJHSkRmcWhJa0lyUkVjaDR6dE11NTBMYndTeGtiNjRkQ281c2o3MGRIQUFrNjBidHlTTzJfSXJ4QURZU0JSbHlzRlJ0Sy1iWkJXMUV6VjBCb1E1WlZDbXQ4ZVNSR1NCbEZqOVdaenc2RmtUNGVEcnFUTkRPdDV3emlfTExOUQ?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "Seeking Alpha"
+       },
+       {
+        "title": "Motorola Solutions in spotlight as Q3 earnings loom tonight - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVDhMNlNXcXVodzhQSnNWM0lXUmFUa1RpVkw4VnpySkFHcF9uem1ZR1dPdGg0b1phZ0pGX3lVZ0ZGUTh6d0Q4M1gtT3dYSmlRMmdwNHR1MTgtYVFUUm5NMDZkblMzdHFJUEhUdUk3bHpBVzMyZUdodXFJYmttQUc4dFNZS2NuUHBLLThWaU4tMUVfRzFRZDlsS0YxRURiVm9UOG5GV0lQWWpwa0FYd2JfZGFR?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "Investing.com"
+       },
+       {
+        "title": "Motorola Solns Q3 2026 Earnings Call Transcript - Benzinga",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNa0Q2anN6SkR2cndxZXhNMjVWZVV4V2YzRWFRUHhYYWR3OHU1emluOTk1cndVYkxWZElwem8wV2FFTm85TjRId1BRTTVvQ2RGRGNtZWVwZlA2Q1pFalZZYXNFa0JvNDR4THNmMVNRajYzenJ0eU1Oc09uVkZNbHkwMFRZSFEyc0M2YmlfS1NoT1A0QlluN29B?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "Benzinga"
+       },
+       {
+        "title": "Motorola Solutions Q3 Adjusted Earnings, Revenue Rise; Lifts 2026 Guidance - marketscreener.com",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU3pNV0o0bVJqR1kwWE1xYmNSMjZhN2p4TWlpaVB0Q0N5MUVkeHQ2N1VlZkpKVkQ5WWRJelBwa2owS1hHb3NEX1hmaVBKZ1VSZ1drOEVDY0s0MmdPRlUwMXJIU2lCaVNTdjZQNlI3V1JhUW0zc0hYQWxuYzNNUHBndXFCV0tlWHBGNzdXZVpwRjR6RkFOQjVYbzNTMUNaVUhYRDZocHFtc1JTdDcxcE1CNGlKbmhoRUxWZEkxOUVlWWtyNTQ?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "marketscreener.com"
+       },
+       {
+        "title": "How Will Motorola Solutions Stock React To Its Upcoming Earnings? - Trefis",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbUFCMXE0SnU2ODVYWFVxeFFyV0hvUm5mQzBEU0VaWWlwZm1NSXk5c3dQbVdqR1dsOHdMSGx0SG9XR29UcE9NbmVpenRISEpmYTVjWDF3NUtkd0RJX3VMS0hzRVpONl9URl83SHktYUVqTzBaUzktM2xqZ0Y1dmU5RlNsdThTWjJsSk92TG92VUhLeENCRWtyLVNpcWM3VWhCdW91azc0X1RQdTZMc1FUa2c3YXJrMmhLX3h1X0Z4cE1lcEtT?oc=5",
+        "date": "Tue, 03 Nov 2026",
+        "source": "Trefis"
+       },
+       {
+        "title": "Motorola Solutions (NYSE:MSI) posts better-than-expected sales in Q3 2026 but quarterly revenue guidance slightly misses expectations - StockStory",
+        "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPUnRKSk1Qc2tDRHNBVnVCUHdUMFJSaXkzSWRpaWROcGRfekZHV2RTejJXd1hDNWpDbHc4bWtxVmdKRHZ6N1M0aFpXa3luOXJzX283WmpHRy12dW51amFYTGVYLU8teHlUbnFraFZwamdTR1NFNmFUQkNWYXFRMVF5QlBZUGVRVUR1TnFNVGNJUDJNek5WeW9xeGVpUnFVYU02cjQweDBGUFVGLWp1NFpobWtLUElyM0paaWlzU0g2S01oWkc1YTN3YTdvUm94clFGWEVHUExVQVJvb2RzaU9wU2JJVTVYNFdqdFZMTlBBdlVMaVpQOEJHOWNjQW95MU5hTFZMSExmZ1hpOXRoXzA3T0VVQzk?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "StockStory"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-11-04 23:58"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 39.1 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 86,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": {
+   "grade": "O",
+   "one_line": "Motorola Solutions受惠於全球政府、公共安全及企業對關鍵任務通訊與安全解決方案持續升級與現代化的結構性需求。"
+  }
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "MDT",
+  "name": "Medtronic",
+  "close": 104.96,
+  "rebound": 0.813,
+  "base_quality": 0.847,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 104.96 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 81%（目標≥60%），平穩期品質 85%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近4年平均年成長 5%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 9%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 14%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 36%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：Medtronic透過廣泛的產品組合優異表現及策略性併購，在醫療器材市場中展現結構性的獲利成長潛力。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "Medtronic透過廣泛的產品組合優異表現及策略性併購，在醫療器材市場中展現結構性的獲利成長潛力。",
+      "analysis": "Medtronic近期營收與獲利顯著成長，尤其最新一季營收年增14%、獲利年增36%，並上調了財測指引[3, 6]。公司報告指出其成長來自「廣泛的產品組合表現」，顯示其核心業務具備內生性成長動能，而非單一產品或景氣循環[3, 4]。此外，新聞提及公司正透過併購策略尋求成長，這是一種擴大市場份額或進入新領域的結構性成長方式[7]。這些因素共同支持其未來獲利穩健成長的潛力，並獲得市場「成長前景改善」的評價[1]。",
+      "risks": "併購策略的整合風險可能影響長期獲利穩定性[7]；儘管季度表現強勁，但年度展望未變可能暗示管理層對全年成長的保守態度或潛在挑戰[2]。",
+      "sources": [
+       {
+        "title": "Medtronic’s Modest Valuation Meets an Improving Growth Outlook - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVWtmUnRkYk16MW5zUXZIMGQwdTRPWlZ4NW9Ub09DTElUcXZRV2wzUVVTSG4zOTVpTmVSQU5hdWZTdGVmNUFqekdNemFELUEwSzRaTUJ4R1V2VncyVkpFSkdONXBubF9OazI0Q2hHbFJkOUlmSk44cWRxSXMzZldjZDVKOEZjZnpJMGJCcUx5ektWSXlYdFZGWXhDd05uRTZrczNJQ2h3?oc=5",
+        "date": "Sun, 11 Oct 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Medtronic's unchanged annual outlook clouds upbeat quarterly results - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORFZTN3lmSVRZcnVITTJ2VzEwQm1oZHhTSENTbVJlUGd0aEhxeV9RbXFrNTJFMTYwVnRBa21SQko5aVJ0RGc2azBrRkJ4RWl5SXRJN1VMbDB5VUF3MXhVdzFtaDQyc3BnU2Z6eG5tQV82QkhZTGwxaERWdFlEZkkwdU5ZSmxhZ0lZUVBybEVKMkU3WDc5X2JQSU1lMklsOWp6V1FmNTk0TGVRQUNScVlCY3RaMXg5WDNyZVU2d3lzY1U3M294VndsNXZqZ2c2UVRWWHllMy0tR0gzdw?oc=5",
+        "date": "Tue, 17 Feb 2026",
+        "source": "Reuters"
+       },
+       {
+        "title": "Medtronic reports first quarter fiscal 2027 results; delivers broad-based portfolio performance and raises fiscal 2027 guidance - Sep 1, 2026 - Medtronic",
+        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNWUtCY1A3TzlUUjNOdjdXOG1LZnlidlRBWS1Tc1ZzbUxKNHdiVmNYU3FXUDdkdUdmN3NXSG1HY0dKYWlwOVQ5OWNFUVhXWnltUFBaUjNITW5tdk1uWWotNE42TURScnB3Y1IxRm1FdnM3cDBqdkt1MlAzQlljbG9FWFdTaHZPMk11eWdhb2VCM01MMTdhSWVIOC1mTzBhSlRmR2M0OXVJN19HX0Z6UVhjUTBiQWxzVFYzanNqemd1NHpMYm5BODlxZmNIMVBwRkFIRXNGeGJWeG5ZQ3dkT0JYUG9NLVB5RTZRY3VVY3M5dVdzUWYwWVhF?oc=5",
+        "date": "Tue, 01 Sep 2026",
+        "source": "Medtronic"
+       },
+       {
+        "title": "Medtronic kicks off its fiscal year on a high note - MedTech Dive",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVUtOdTZPbGJidk1wWks1UFgxS3NaTjRXbWRyakhQVWQ4Q0d4Q001dllvOF8zUHR1aGNHRWYzWGQtd0hiYmhpY2diRUxUUHFRVndrLW1tT0pGU3FhM2VCNmdiVWl1U0o2STJuZzQzOVJiQlJiUF9hVHBsM19rQ09pSXlLTXd6cW1QUzM0VV91WEdvMWptVkE?oc=5",
+        "date": "Tue, 01 Sep 2026",
+        "source": "MedTech Dive"
+       },
+       {
+        "title": "Medtronic earnings beat by $0.06, revenue topped estimates - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNkhGUzFyY1oyNFVxS3lZUDBGUFEwVFZ0YS1YSXlPTzZ0VWJaVjc0LUc5RDI2eDd3WGxmQzQ5SlRiemR5aTM0dEtVdjUyNWVJR01MM01zQi1iN1pVZkZGU1NWWFlKckxDeXRTaVNLLU1zOTcwR18zUEhsT2FtdEZRSFVPdm84TjdYX09tSmIzb3FncHZjYXJSSWFnS0JzSlpfY0hfaFpR?oc=5",
+        "date": "Tue, 01 Sep 2026",
+        "source": "Investing.com"
+       },
+       {
+        "title": "Can Medtronic Buy Its Way to Growth? It Sure Thinks So. - The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQnYtbllHVFlCYVpDVklvRnp5eFF5b2x6RHRjMVFJYUdTaUx1R2ltd3VXRlVHOG5oQ2MzU0lZYnRWMkxrOUc5c01QYkpwRUlLd1ZzdTdOWDRzMVFPX2FNbUVyT25FbkNEMTVSV3puMnJ3QU5zbDByQ2tpR0dEcE5YQm4yRVFWTXRvWFRVUEJscnJmMlJzcjZTaXFVckw?oc=5",
+        "date": "Wed, 03 Jun 2026",
+        "source": "The Motley Fool"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Medtronic’s Modest Valuation Meets an Improving Growth Outlook - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVWtmUnRkYk16MW5zUXZIMGQwdTRPWlZ4NW9Ub09DTElUcXZRV2wzUVVTSG4zOTVpTmVSQU5hdWZTdGVmNUFqekdNemFELUEwSzRaTUJ4R1V2VncyVkpFSkdONXBubF9OazI0Q2hHbFJkOUlmSk44cWRxSXMzZldjZDVKOEZjZnpJMGJCcUx5ektWSXlYdFZGWXhDd05uRTZrczNJQ2h3?oc=5",
+        "date": "Sun, 11 Oct 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Medtronic's unchanged annual outlook clouds upbeat quarterly results - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORFZTN3lmSVRZcnVITTJ2VzEwQm1oZHhTSENTbVJlUGd0aEhxeV9RbXFrNTJFMTYwVnRBa21SQko5aVJ0RGc2azBrRkJ4RWl5SXRJN1VMbDB5VUF3MXhVdzFtaDQyc3BnU2Z6eG5tQV82QkhZTGwxaERWdFlEZkkwdU5ZSmxhZ0lZUVBybEVKMkU3WDc5X2JQSU1lMklsOWp6V1FmNTk0TGVRQUNScVlCY3RaMXg5WDNyZVU2d3lzY1U3M294VndsNXZqZ2c2UVRWWHllMy0tR0gzdw?oc=5",
+        "date": "Tue, 17 Feb 2026",
+        "source": "Reuters"
+       },
+       {
+        "title": "Medtronic reports first quarter fiscal 2027 results; delivers broad-based portfolio performance and raises fiscal 2027 guidance - Sep 1, 2026 - Medtronic",
+        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNWUtCY1A3TzlUUjNOdjdXOG1LZnlidlRBWS1Tc1ZzbUxKNHdiVmNYU3FXUDdkdUdmN3NXSG1HY0dKYWlwOVQ5OWNFUVhXWnltUFBaUjNITW5tdk1uWWotNE42TURScnB3Y1IxRm1FdnM3cDBqdkt1MlAzQlljbG9FWFdTaHZPMk11eWdhb2VCM01MMTdhSWVIOC1mTzBhSlRmR2M0OXVJN19HX0Z6UVhjUTBiQWxzVFYzanNqemd1NHpMYm5BODlxZmNIMVBwRkFIRXNGeGJWeG5ZQ3dkT0JYUG9NLVB5RTZRY3VVY3M5dVdzUWYwWVhF?oc=5",
+        "date": "Tue, 01 Sep 2026",
+        "source": "Medtronic"
+       },
+       {
+        "title": "Medtronic kicks off its fiscal year on a high note - MedTech Dive",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVUtOdTZPbGJidk1wWks1UFgxS3NaTjRXbWRyakhQVWQ4Q0d4Q001dllvOF8zUHR1aGNHRWYzWGQtd0hiYmhpY2diRUxUUHFRVndrLW1tT0pGU3FhM2VCNmdiVWl1U0o2STJuZzQzOVJiQlJiUF9hVHBsM19rQ09pSXlLTXd6cW1QUzM0VV91WEdvMWptVkE?oc=5",
+        "date": "Tue, 01 Sep 2026",
+        "source": "MedTech Dive"
+       },
+       {
+        "title": "Medtronic Q1 Earnings Call Highlights - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSkJKYnJ0ZTBvaUpxVzkwdmx4T2h0SEpJV3VoSDUzS3BmWTM0bGlSZnhBREdydWRublg3QlFsZEc5WjFVdEk0dU1hS05XX0dHQmNpMGJ4TEJkU1hJenJfSndkRnpzczloSlBFamg2WUExX3Z2bEhYZFlqME5SdnFyUENQbThvZlZQZ2R1RG1CcXR3RW1QeVJyTngyeVV2dw?oc=5",
+        "date": "Tue, 01 Sep 2026",
+        "source": "TradingView"
+       },
+       {
+        "title": "Medtronic earnings beat by $0.06, revenue topped estimates - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNkhGUzFyY1oyNFVxS3lZUDBGUFEwVFZ0YS1YSXlPTzZ0VWJaVjc0LUc5RDI2eDd3WGxmQzQ5SlRiemR5aTM0dEtVdjUyNWVJR01MM01zQi1iN1pVZkZGU1NWWFlKckxDeXRTaVNLLU1zOTcwR18zUEhsT2FtdEZRSFVPdm84TjdYX09tSmIzb3FncHZjYXJSSWFnS0JzSlpfY0hfaFpR?oc=5",
+        "date": "Tue, 01 Sep 2026",
+        "source": "Investing.com"
+       },
+       {
+        "title": "Can Medtronic Buy Its Way to Growth? It Sure Thinks So. - The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQnYtbllHVFlCYVpDVklvRnp5eFF5b2x6RHRjMVFJYUdTaUx1R2ltd3VXRlVHOG5oQ2MzU0lZYnRWMkxrOUc5c01QYkpwRUlLd1ZzdTdOWDRzMVFPX2FNbUVyT25FbkNEMTVSV3puMnJ3QU5zbDByQ2tpR0dEcE5YQm4yRVFWTXRvWFRVUEJscnJmMlJzcjZTaXFVckw?oc=5",
+        "date": "Wed, 03 Jun 2026",
+        "source": "The Motley Fool"
+       },
+       {
+        "title": "Medtronic Earnings Preview: What to Expect - Barchart.com",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWDg5cGNyVkN4bVViMWhNQm9KTFRBcVkxY0N3dXdja0FjV2I2Y1p3eHJqYmhoTjdRdDdnMW9XRFFSTVA5andjOGJkcGV1bFlrSERGMXVNU3lUQkdPNVlFa1A2cWlYV25mNFItbUdZdEtBdDBfTTdyUXZXSmFmWS1nUGpzdENiSG8wNEpGWmVn?oc=5",
+        "date": "Thu, 23 Jul 2026",
+        "source": "Barchart.com"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-11-04 23:59"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 25.8 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 86,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": {
+   "grade": "O",
+   "one_line": "Medtronic透過廣泛的產品組合優異表現及策略性併購，在醫療器材市場中展現結構性的獲利成長潛力。"
+  }
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "MSCI",
+  "name": "MSCI",
+  "close": 674.3,
+  "rebound": 1.0,
+  "base_quality": 0.913,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 674.3 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 91%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 13%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 10%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 12%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 8%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：MSCI的獲利成長來自於全球投資對其標準化指數和數據分析的持續依賴，以及其在策略性收購和新興市場趨勢中的拓展。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "MSCI的獲利成長來自於全球投資對其標準化指數和數據分析的持續依賴，以及其在策略性收購和新興市場趨勢中的拓展。",
+      "analysis": "MSCI的核心業務是提供全球投資所需的標準化指數和數據分析服務，這在全球資產管理中具有結構性需求，而非單純的景氣循環。公司透過策略性收購來擴大其市場份額和服務範圍（新聞[3]），並積極參與如碳信用等新興投資趨勢（新聞[5]），顯示其業務具備持續的結構性成長動能。即使在市場挑戰下，MSCI仍能實現強勁成長（新聞[1]），且其指數在全球投資決策中扮演關鍵角色（新聞[7]），證明其服務的不可或缺性與市場地位。近期的營運數字也顯示其獲利和營收保持穩健的年增長，支持未來獲利穩健成長的判斷。",
+      "risks": "金融市場監管政策的變化可能影響其指數和數據產品的需求；來自其他數據提供商或交易所的競爭加劇，可能壓縮其定價能力。",
+      "sources": [
+       {
+        "title": "MSCI Inc (MSCI) Q2 2026 Earnings Call Highlights: Strong Growth Amid Market Challenges - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYzM4amhrcEhORGhDaGJWeVhxdTF0RWJub09FSVBBSkNOSGFRRGNNOUh1ZFdZbVp4RTEzZy1ISlNteUtzY2NFYTRaX05tdUI5eUZuVm1Cdm1qS2t2Q0tPX0d6dlREajZTUmtPNldzV1IxNzVSbWx0eWs1bXNFa3RZaldHSngtRHhzV1pwQjVJdw?oc=5",
+        "date": "Tue, 21 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "MSCI Inc (MSCI) Q1 2026 Earnings Call Highlights: Robust Growth and Strategic Acquisitions ... - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbEZ0RkNKS29CLVBaemtYM0lEb3VBWG02ZmszYVFJbXZvd3cwS1VMMG5EMnBUNUNKSFdIZUdzTmJVRUhwa1YwTldvVE81X1paYjdWbkwzVEhra1hUeG5vOHl2bmlRT2JZR1MxTVNLUVY2b1MxaVI0QmplXzNBVnhlM1VYdmplSmhXVWhIUE9Xdw?oc=5",
+        "date": "Wed, 22 Apr 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Carbon Credits Come of Age in 2025 - MSCI",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVXRkVGtNOXhpakdsVWRkUDdpX1djZ3ZsaFdkTTNuejRaNUxxOHpHNDFTUThLSDFZbE85MFhsUVctSllYMDN6YVhDZ0ZfaGRSSFREUExGWUszMXBzbHhYR0t6WlptSkZkMGlIbERwXzR0WkVxbHdzakx5cG1yd0poWTI1S1Awd2VTOWJIOFJSdnI?oc=5",
+        "date": "Tue, 06 Jan 2026",
+        "source": "MSCI"
+       },
+       {
+        "title": "Indonesia’s Big Banks After the Market Crash: BCA, BRI and Mandiri Under the MSCI Cloud - JournalArta",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZGoxdTdGSHR2Y0J5QVVqTzQyWGdVUVA0SUFHTzFvYW9vOGdTYV9icFU5S2dWN1VXU0dwdTNWeWthNVVESXJhQTFnZTB4bUkyMkdYSXFSdkphaFNlaG1xVE9TZ3Bxc21EX2NRZnpxck8yZHJQUHdCTWp5T2tFZUZNbkpBdG56dnczTlFfV2M0NUV1NENZaUNR?oc=5",
+        "date": "Mon, 02 Nov 2026",
+        "source": "JournalArta"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "MSCI Inc (MSCI) Q2 2026 Earnings Call Highlights: Strong Growth Amid Market Challenges - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYzM4amhrcEhORGhDaGJWeVhxdTF0RWJub09FSVBBSkNOSGFRRGNNOUh1ZFdZbVp4RTEzZy1ISlNteUtzY2NFYTRaX05tdUI5eUZuVm1Cdm1qS2t2Q0tPX0d6dlREajZTUmtPNldzV1IxNzVSbWx0eWs1bXNFa3RZaldHSngtRHhzV1pwQjVJdw?oc=5",
+        "date": "Tue, 21 Jul 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "International Value Has Outshone US Growth - MSCI",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPV2htUHZHR0ZoYzhXMEtuaVA3akhSQzhlVlVBTllDdUJBUml3T1FEbVd2MXZoZU1aTEM5eHBFY1Jvc2g3N0JsdVVrTFZGbFl2eFdjWWlQTmZ0UkNrRXFmRnFzcXhiTHpLZ2NlWjVXZ3B5V3VQemF6LU9VcjRtQTZBaHFVQ2JOX2xtQkdGQ2hVQ0dVQmdWNzRhRnhmSQ?oc=5",
+        "date": "Thu, 11 Dec 2025",
+        "source": "MSCI"
+       },
+       {
+        "title": "MSCI Inc (MSCI) Q1 2026 Earnings Call Highlights: Robust Growth and Strategic Acquisitions ... - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbEZ0RkNKS29CLVBaemtYM0lEb3VBWG02ZmszYVFJbXZvd3cwS1VMMG5EMnBUNUNKSFdIZUdzTmJVRUhwa1YwTldvVE81X1paYjdWbkwzVEhra1hUeG5vOHl2bmlRT2JZR1MxTVNLUVY2b1MxaVI0QmplXzNBVnhlM1VYdmplSmhXVWhIUE9Xdw?oc=5",
+        "date": "Wed, 22 Apr 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Repositioning for Slower Growth: The Case for Quality - MSCI",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSGdRWVo5bUZoRWJDbVpVTkxpUVlLd3kyVmtnMlNvQlBlUTJFV0llalNpbVdWRk5pQVlmRjZ2bEpoOWxSbDI2X1dNOVZiSUZpUUZIdjhWYUZVVmNwT18yN3BERkMtWDhTRExXZ2lITGJRYTVOMDJHNmZ2VzQtUnhIV0lyOTJDTVZOUEgwaThISU5ldXZjQy1aMGpraGJ2SEZxSF9CSkdvZ2o?oc=5",
+        "date": "Tue, 16 Dec 2025",
+        "source": "MSCI"
+       },
+       {
+        "title": "Carbon Credits Come of Age in 2025 - MSCI",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVXRkVGtNOXhpakdsVWRkUDdpX1djZ3ZsaFdkTTNuejRaNUxxOHpHNDFTUThLSDFZbE85MFhsUVctSllYMDN6YVhDZ0ZfaGRSSFREUExGWUszMXBzbHhYR0t6WlptSkZkMGlIbERwXzR0WkVxbHdzakx5cG1yd0poWTI1S1Awd2VTOWJIOFJSdnI?oc=5",
+        "date": "Tue, 06 Jan 2026",
+        "source": "MSCI"
+       },
+       {
+        "title": "MSCI Markets in Motion - MSCI",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAycER2cWd4LW1NQ2M0azFpLTRqcmJuUXhLcDRzTklBRVlkMDdRbzRqSUstV1RvZWZyMHZkeXkxSTdVVVpKQm1kMWE5QTZyRlRYSzhtbFlJWWFLdw?oc=5",
+        "date": "Fri, 26 Sep 2025",
+        "source": "MSCI"
+       },
+       {
+        "title": "Indonesia’s Big Banks After the Market Crash: BCA, BRI and Mandiri Under the MSCI Cloud - JournalArta",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZGoxdTdGSHR2Y0J5QVVqTzQyWGdVUVA0SUFHTzFvYW9vOGdTYV9icFU5S2dWN1VXU0dwdTNWeWthNVVESXJhQTFnZTB4bUkyMkdYSXFSdkphaFNlaG1xVE9TZ3Bxc21EX2NRZnpxck8yZHJQUHdCTWp5T2tFZUZNbkpBdG56dnczTlFfV2M0NUV1NENZaUNR?oc=5",
+        "date": "Mon, 02 Nov 2026",
+        "source": "JournalArta"
+       },
+       {
+        "title": "Feeling Déjà Vu After 25 Years? - MSCI",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNFM2cGZ1NXZpcEVoU1oza1lOdWNHaGhIQUJwSG9QQ0VuaWpFMDViZURVVTRUUDZDYzlfdVZyVkxrS2Jfd2t0RVZEa1NydVR2SjlzdmwwQ0F0VDNNeXMyQjNiSjFqaTA2MGVxRm5kZW90LUFRUnc0S1F0TVFoVHBQQ2ZMRUFIZGtiOW5r?oc=5",
+        "date": "Mon, 24 Mar 2025",
+        "source": "MSCI"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-11-05 00:02"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 35.7 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 79,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": {
+   "grade": "O",
+   "one_line": "MSCI的獲利成長來自於全球投資對其標準化指數和數據分析的持續依賴，以及其在策略性收購和新興市場趨勢中的拓展。"
+  }
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "FTV",
+  "name": "Fortive",
+  "close": 68.34,
+  "rebound": 1.0,
+  "base_quality": 0.839,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 68.34 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 84%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -5%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近四季獲利年增 19%（接近 20% 門檻）",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 8%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 50%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 32.4 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 79,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "EG",
+  "name": "Everest Group",
+  "close": 421.3,
+  "rebound": 1.0,
+  "base_quality": 0.879,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 421.3 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 88%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 87%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 26%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 -15%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 -0%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 8.9 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 75,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "ECL",
+  "name": "Ecolab",
+  "close": 315.01,
+  "rebound": 1.0,
+  "base_quality": 0.875,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 315.01 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 88%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 25%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -1%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 13%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 -3%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 42.9 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 75,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "V",
+  "name": "Visa Inc.",
+  "close": 436.57,
+  "rebound": 1.0,
+  "base_quality": 0.865,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 436.57 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 86%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近4年平均年成長 10%，成長年份占 100%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 1%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 14%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 8%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 35.4 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 75,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "CHD",
+  "name": "Church & Dwight",
+  "close": 112.03,
+  "rebound": 1.0,
+  "base_quality": 0.854,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 112.03 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 85%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近4年平均年成長 30%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 27%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 6%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 9%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 34.4 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 75,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "CTAS",
+  "name": "Cintas",
+  "close": 229.03,
+  "rebound": 1.0,
+  "base_quality": 0.844,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 229.03 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 84%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 14%，成長年份占 100%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 11%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 11%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 16%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 45.2 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 75,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "MMM",
+  "name": "3M",
+  "close": 193.95,
+  "rebound": 1.0,
+  "base_quality": 0.822,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 193.95 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 82%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -190%，成長年份占 0%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -13%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 1%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 46%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 28.9 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 75,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "BRK-B",
+  "name": "Berkshire Hathaway",
+  "close": 579.09,
+  "rebound": 1.0,
+  "base_quality": 0.92,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 579.09 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 92%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -17%，成長年份占 0%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -25%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 42%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 523%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "AI 判斷（僅供參考，請複核依據）：公司近期獲利雖大幅成長，但缺乏明確的結構性變化支持其未來能穩健成長，更像是景氣循環回升或投資收益波動。",
+     "starred": true,
+     "ai": {
+      "grade": "X",
+      "one_line": "公司近期獲利雖大幅成長，但缺乏明確的結構性變化支持其未來能穩健成長，更像是景氣循環回升或投資收益波動。",
+      "analysis": "Berkshire Hathaway過去五年及近四季獲利均呈現負成長，顯示其營運缺乏穩健性。儘管最新一季獲利年增高達523%，但此劇烈反彈在缺乏明確結構性變化的情況下，更可能反映景氣循環回升或一次性投資收益。新聞提及部分持股公司表現良好或公司買入其他前景看好的股票，這屬於投資策略而非伯克希爾自身核心業務的結構性成長。綜合來看，現有證據未能明確指出公司未來獲利能來自穩定的結構性變化，因此不符合穩健成長的標準。",
+      "risks": [
+       "公司業務多元且成熟，缺乏新的結構性成長動能，易受景氣循環影響。",
+       "獲利高度依賴投資組合表現，其波動性可能導致未來獲利不穩定。"
+      ],
+      "sources": [
+       {
+        "title": "Berkshire Hathaway Buys $26.9 Million of SiriusXM Stock After Company Raises Outlook - Barchart.com",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVDN1MVIyckRLemtMSGM5UkxkLWlWSWRUOEtBYllRc2tTTGNnekNoWXg1Y1k0R1VTNTFLSl85MEFaNmZBUEhxR1QxdXNIWGdZRXB1SWlkNXlESFBYOGJxTzhWYkZsVmlJN05Ic2NweUZscFBPblVJQjZ5NTlYMVNET0Q1SGZ4TE5WenUyUjctZ1FpaS03Qm1kbkdsaGZneFlKOTBPeXcxc3FxV3dEb285NlgwbVRxekNSekx4UjgzVEhOek9USlE?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "Barchart.com"
+       },
+       {
+        "title": "2 Berkshire Hathaway Holdings to Buy After Record Third Quarters - The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOd3lOMHZXODRmbnkzOWhkdU8xZ2xFSVFUVVB6ZlFXeFNROTdNUEVHcFU3aXUwSmZhbGVySU15YkNuVC05V2tpWjc0aGU4VU1uYW1CRUFyTUdsdURoOEt4cE1NeUNOSlhyRXlKV18tQWVGUHEzLTh2cGhHNDZTdzVfcDdCMjNXcXdGZUhVOUV3?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "The Motley Fool"
+       },
+       {
+        "title": "Berkshire Hathaway Is Buying More Sirius XM. Here’s What It May See - 24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeTdkM0Nsd2pDMkVxN2NRakNnLWYxUXJaRi1MU1htT2IyaG9CZ0p4RUotWmgzRUc2Sl9lVnQxUTYyRVJYdVAwVVJpdUR1T0FzVGdpZXRMNXFRVmtKZmJtWXlsNUhmaW1xd0NBa05TZUdzbC1ySVFZVG1XTHNQMFN6VW8tNWJiLXpQWlhFNm9ET2EtTjUyWW9qR3k0c2pMYzhMNF9nUTFLdEZiX1NXNEE?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "24/7 Wall St."
+       },
+       {
+        "title": "2 Berkshire Hathaway Holdings to Buy After Record Third Quarters - The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORHFxc0VDd1lQZ3d2UWtrRnFWcG0yYmV6aVRNVDZLYTAyQzZISGo1X0lpSU9JZDZ1bE5ySWpQdWFYOXlVeVY3RExxckVrWmFIQXNmSjUwMDAyeWh0UlpDOWpFVkhxekhVYzE0SXh5QWVtYjVQbE0yOGZES2ozd1ZpUGpyNFNBZHZvNnUtdTdxU2pKRm9ibksxQjlRVHZGc0doRE04VlV3YTJCR2RjaGVRYkRtY1FDWnlSOEM3bTZlYkVqYmZEc2RYcExVeFVOcTVmYk1zT2V0TlRISUdZZGVyc0FR?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "The Globe and Mail"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Berkshire Hathaway Earnings Put BRKU in the Limelight - ETF Database",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOVRqbHA4czI5ZUF1Z0x4enZnbG8zeVNOWG05Z3NRTF9laERKY1BPWUU4WXA5YjFmY2lrQjlROVRtbkpNU2ZjamlVUTM5UDBINEx6LXlRR2hHUEJjc0VxYkRwVzFzZ1BPVXJrMC1FYzN3ZVpEOWRjUUhGZDVoUTlFZzdYTGJCaUxD?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "ETF Database"
+       },
+       {
+        "title": "Berkshire Hathaway Shares Are Up 11% This Year. Is the Stock a Buy Ahead of Earnings? - Morningstar",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRm5DaTN3NmRadmh5LVczYXBueVBlUnhtaDZrQ2FGRGtmS0J1WnRkOWcwQ1FmT1pLN0dwQUV2ajRWZENUTGRFRmRBMEpJdjBMbUVmcnB0ZGxRWTNDRWV6RlItbjBfWndhNWVhVVZuWkxWdUY5RnZmU3h5dVlfaXItdEs4NDN5RVdnTFF6RnNBWXZMTExSRUoyS3B6UTNiSE9qbWx2X3VHNVZYRENl?oc=5",
+        "date": "Tue, 03 Nov 2026",
+        "source": "Morningstar"
+       },
+       {
+        "title": "Berkshire Hathaway Buys $26.9 Million of SiriusXM Stock After Company Raises Outlook - Barchart.com",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVDN1MVIyckRLemtMSGM5UkxkLWlWSWRUOEtBYllRc2tTTGNnekNoWXg1Y1k0R1VTNTFLSl85MEFaNmZBUEhxR1QxdXNIWGdZRXB1SWlkNXlESFBYOGJxTzhWYkZsVmlJN05Ic2NweUZscFBPblVJQjZ5NTlYMVNET0Q1SGZ4TE5WenUyUjctZ1FpaS03Qm1kbkdsaGZneFlKOTBPeXcxc3FxV3dEb285NlgwbVRxekNSekx4UjgzVEhOek9USlE?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "Barchart.com"
+       },
+       {
+        "title": "2 Berkshire Hathaway Holdings to Buy After Record Third Quarters - The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOd3lOMHZXODRmbnkzOWhkdU8xZ2xFSVFUVVB6ZlFXeFNROTdNUEVHcFU3aXUwSmZhbGVySU15YkNuVC05V2tpWjc0aGU4VU1uYW1CRUFyTUdsdURoOEt4cE1NeUNOSlhyRXlKV18tQWVGUHEzLTh2cGhHNDZTdzVfcDdCMjNXcXdGZUhVOUV3?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "The Motley Fool"
+       },
+       {
+        "title": "Berkshire Hathaway Inc. Information Regarding Third Quarter Earnings Release - StreetInsider",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSTd1UHRackQzaXRRZUhkUmtnT1QyZTd6akUyTlF1cEVvRlliS2VyWUNqanl2RWc4eEFneXQyZVlLeU9jenZmYnhPVHQxRjcyWENrQkRlWXdXY3VKX3NJZDBpVmJzRVFtdUhpcFQtZnc3bzdtRU9yQWJKbDVRclVrYy1CYUJ3eXBRV2xzSF9VSnB6TEstNGFON01odHFPLVJvQlp2QmlCVlo0eEpyblROUHlYYndKM05YSlBSb1QxSkV6U19tNk9UUmdfSGNYVFE?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "StreetInsider"
+       },
+       {
+        "title": "Berkshire Hathaway Inc Stock (BRKb) Moved Up by 3.29% on Nov 4: Key Drivers Unveiled - TradingKey",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc25UQUFicDNuQlhrOENfcjlPa0U0dlFOanFxWS11by1FYWhfMExVUG9tblZMczhOVlprdnllOG11YXN5a0N3ZjBGa2V2Zm5xUW56Rk1NaVZBSDRiMXRONzN5NlRYZHN5SEFjWEVVQ2lxWTFhUmRjTndrdVpOb2JxV1J1RktBRDZzcW53?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "TradingKey"
+       },
+       {
+        "title": "Berkshire Hathaway Is Buying More Sirius XM. Here’s What It May See - 24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeTdkM0Nsd2pDMkVxN2NRakNnLWYxUXJaRi1MU1htT2IyaG9CZ0p4RUotWmgzRUc2Sl9lVnQxUTYyRVJYdVAwVVJpdUR1T0FzVGdpZXRMNXFRVmtKZmJtWXlsNUhmaW1xd0NBa05TZUdzbC1ySVFZVG1XTHNQMFN6VW8tNWJiLXpQWlhFNm9ET2EtTjUyWW9qR3k0c2pMYzhMNF9nUTFLdEZiX1NXNEE?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "24/7 Wall St."
+       },
+       {
+        "title": "2 Berkshire Hathaway Holdings to Buy After Record Third Quarters - The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORHFxc0VDd1lQZ3d2UWtrRnFWcG0yYmV6aVRNVDZLYTAyQzZISGo1X0lpSU9JZDZ1bE5ySWpQdWFYOXlVeVY3RExxckVrWmFIQXNmSjUwMDAyeWh0UlpDOWpFVkhxekhVYzE0SXh5QWVtYjVQbE0yOGZES2ozd1ZpUGpyNFNBZHZvNnUtdTdxU2pKRm9ibksxQjlRVHZGc0doRE04VlV3YTJCR2RjaGVRYkRtY1FDWnlSOEM3bTZlYkVqYmZEc2RYcExVeFVOcTVmYk1zT2V0TlRISUdZZGVyc0FR?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "The Globe and Mail"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-11-04 23:56"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 14.6 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 71,
+   "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+  },
+  "ai7": {
+   "grade": "X",
+   "one_line": "公司近期獲利雖大幅成長，但缺乏明確的結構性變化支持其未來能穩健成長，更像是景氣循環回升或投資收益波動。"
+  }
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "DRI",
+  "name": "Darden Restaurants",
+  "close": 230.61,
+  "rebound": 1.0,
+  "base_quality": 0.851,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 230.61 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 85%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近4年平均年成長 8%，成長年份占 100%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近四季獲利年增 17%（接近 20% 門檻）",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 5%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 -8%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 22.4 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 71,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "ACGL",
+  "name": "Arch Capital Group",
+  "close": 110.68,
+  "rebound": 1.0,
+  "base_quality": 0.911,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 110.68 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 91%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 57%，成長年份占 100%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 11%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 -10%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 -17%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 9.0 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 67,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "AWK",
+  "name": "American Water Works",
+  "close": 149.63,
+  "rebound": 0.675,
+  "base_quality": 0.899,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 149.63 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 67%（目標≥60%），平穩期品質 90%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 12%，成長年份占 100%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 5%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 4%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 1%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 25.9 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 67,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "CL",
+  "name": "Colgate-Palmolive",
+  "close": 98.76,
+  "rebound": 0.852,
+  "base_quality": 0.879,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 98.76 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 85%（目標≥60%），平穩期品質 88%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 7%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -23%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 5%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 3%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 38.4 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 67,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "PSA",
+  "name": "Public Storage",
+  "close": 342.76,
+  "rebound": 1.0,
+  "base_quality": 0.873,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 342.76 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 87%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -23%，成長年份占 0%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -14%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 12%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 -30%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 36.0 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 67,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "WRB",
+  "name": "W. R. Berkley Corporation",
+  "close": 76.71,
+  "rebound": 1.0,
+  "base_quality": 0.852,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 76.71 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 85%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 11%，成長年份占 100%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 1%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 -1%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 -11%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 16.2 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 67,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "EXR",
+  "name": "Extra Space Storage",
+  "close": 161.04,
+  "rebound": 0.74,
+  "base_quality": 0.901,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 161.04 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 74%（目標≥60%），平穩期品質 90%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 5%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 14%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 6%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 -1%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 32.7 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 58,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "VLTO",
+  "name": "Veralto",
+  "close": 117.02,
+  "rebound": 1.0,
+  "base_quality": 0.87,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 117.02 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 87%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近4年平均年成長 2%，成長年份占 33%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 8%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 7%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 -11%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 28.8 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 58,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "MAS",
+  "name": "Masco",
+  "close": 86.82,
+  "rebound": 1.0,
+  "base_quality": 0.83,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 86.82 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 83%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -2%，成長年份占 33%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -2%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 3%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 17%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 19.1 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 58,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": null
+ },
+ {
+  "date": "2026-11-04",
+  "market": "us",
+  "ticker": "EW",
+  "name": "Edwards Lifesciences",
+  "close": 99.37,
+  "rebound": 0.559,
+  "base_quality": 0.839,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 99.37 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "反彈幅度 56%（目標≥60%），平穩期品質 84%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -5%，成長年份占 33%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -18%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "N",
+     "symbol": "—",
+     "detail": "營收資料不足",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "N",
+     "symbol": "—",
+     "detail": "季獲利資料不足",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 59.1 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "創新高股比率 5.8%，位於近一年前 38% 強、趨勢向上",
+     "starred": true
+    }
+   ],
+   "score": 50,
+   "verdict": "偏弱：獲利成長檢核不合格，觀望為宜"
+  },
+  "ai7": null
  }
 ]
