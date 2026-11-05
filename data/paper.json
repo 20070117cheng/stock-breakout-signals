@@ -20,7 +20,7 @@
     "shares": 269.0178,
     "buy_price": 151.0,
     "buy_date": "2026-08-03",
-    "last_price": 202.0,
+    "last_price": 174.5,
     "signal_date": "2026-07-31",
     "status": "HOLD",
     "status_note": ""
@@ -31,7 +31,7 @@
     "shares": 1119.8872,
     "buy_price": 39.099998474121094,
     "buy_date": "2026-08-19",
-    "last_price": 48.95000076293945,
+    "last_price": 49.5,
     "signal_date": "2026-08-18",
     "status": "HOLD",
     "status_note": ""
@@ -42,10 +42,10 @@
     "shares": 429.0272,
     "buy_price": 102.0,
     "buy_date": "2026-08-21",
-    "last_price": 162.0,
+    "last_price": 156.0,
     "signal_date": "2026-08-20",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_SIGNAL",
+    "status_note": "已排明日開盤賣出。技術面：賣壓比例 137% ≥ 117%，股價可能已達中長期高點"
    },
    {
     "ticker": "2107.TW",
@@ -53,7 +53,7 @@
     "shares": 1428.8801,
     "buy_price": 26.100000381469727,
     "buy_date": "2026-08-21",
-    "last_price": 27.5,
+    "last_price": 27.899999618530273,
     "signal_date": "2026-08-20",
     "status": "HOLD",
     "status_note": ""
@@ -64,7 +64,7 @@
     "shares": 1297.7515,
     "buy_price": 32.400001525878906,
     "buy_date": "2026-09-04",
-    "last_price": 45.0,
+    "last_price": 50.0,
     "signal_date": "2026-09-07",
     "status": "HOLD",
     "status_note": ""
@@ -75,7 +75,7 @@
     "shares": 937.0329,
     "buy_price": 45.0,
     "buy_date": "2026-09-10",
-    "last_price": 47.400001525878906,
+    "last_price": 48.04999923706055,
     "signal_date": "2026-09-08",
     "status": "HOLD",
     "status_note": ""
@@ -86,7 +86,7 @@
     "shares": 1097.0889,
     "buy_price": 42.599998474121094,
     "buy_date": "2026-09-10",
-    "last_price": 44.400001525878906,
+    "last_price": 43.349998474121094,
     "signal_date": "2026-09-08",
     "status": "HOLD",
     "status_note": ""
@@ -97,7 +97,7 @@
     "shares": 895.4726,
     "buy_price": 43.400001525878906,
     "buy_date": "2026-09-16",
-    "last_price": 53.0,
+    "last_price": 51.79999923706055,
     "signal_date": "2026-09-14",
     "status": "HOLD",
     "status_note": ""
@@ -108,7 +108,7 @@
     "shares": 417.2366,
     "buy_price": 99.80000305175781,
     "buy_date": "2026-09-29",
-    "last_price": 109.0,
+    "last_price": 99.5999984741211,
     "signal_date": "2026-09-30",
     "status": "HOLD",
     "status_note": ""
@@ -119,10 +119,10 @@
     "shares": 455.4155,
     "buy_price": 96.0,
     "buy_date": "2026-10-08",
-    "last_price": 91.4000015258789,
+    "last_price": 89.4000015258789,
     "signal_date": "2026-10-12",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_SIGNAL",
+    "status_note": "已排明日開盤賣出。接近停損：跌幅 7.2% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
    },
    {
     "ticker": "3356.TW",
@@ -130,7 +130,7 @@
     "shares": 664.1363,
     "buy_price": 67.5,
     "buy_date": "2026-10-08",
-    "last_price": 66.5999984741211,
+    "last_price": 66.5,
     "signal_date": "2026-10-13",
     "status": "HOLD",
     "status_note": ""
@@ -141,10 +141,10 @@
     "shares": 145.7524,
     "buy_price": 377.5,
     "buy_date": "2026-10-20",
-    "last_price": 375.5,
+    "last_price": 341.0,
     "signal_date": "2026-10-21",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。停損：現價 341 低於買價 377.5 達 9.7%（門檻 8%），立即賣出"
    },
    {
     "ticker": "6782.TW",
@@ -152,7 +152,7 @@
     "shares": 196.2733,
     "buy_price": 271.0,
     "buy_date": "2026-10-23",
-    "last_price": 256.0,
+    "last_price": 267.0,
     "signal_date": "2026-10-22",
     "status": "HOLD",
     "status_note": ""
@@ -163,7 +163,7 @@
     "shares": 612.4464,
     "buy_price": 85.0999984741211,
     "buy_date": "2026-10-27",
-    "last_price": 134.5,
+    "last_price": 151.5,
     "signal_date": "2026-10-28",
     "status": "HOLD",
     "status_note": ""
@@ -174,7 +174,7 @@
     "shares": 123.0843,
     "buy_price": 390.0,
     "buy_date": "2026-10-30",
-    "last_price": 413.0,
+    "last_price": 421.5,
     "signal_date": "2026-10-29",
     "status": "HOLD",
     "status_note": ""
@@ -185,14 +185,27 @@
     "shares": 350.7269,
     "buy_price": 135.0,
     "buy_date": "2026-11-04",
-    "last_price": 136.5,
+    "last_price": 135.0,
     "signal_date": "2026-11-02",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [],
-  "pending_sells": [],
+  "pending_sells": [
+   {
+    "ticker": "3441.TWO",
+    "reason": "技術面：賣壓比例 137% ≥ 117%，股價可能已達中長期高點"
+   },
+   {
+    "ticker": "2347.TW",
+    "reason": "接近停損：跌幅 7.2% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
+   },
+   {
+    "ticker": "6894.TWO",
+    "reason": "停損：現價 341 低於買價 377.5 達 9.7%（門檻 8%），立即賣出"
+   }
+  ],
   "trades": [
    {
     "date": "2026-07-06",
@@ -2030,6 +2043,10 @@
    {
     "date": "2026-11-03",
     "equity": 1118122.51
+   },
+   {
+    "date": "2026-11-05",
+    "equity": 1117372.16
    }
   ]
  },
