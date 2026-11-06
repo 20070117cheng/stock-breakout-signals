@@ -2,62 +2,6 @@
  {
   "date": "2026-11-02",
   "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "XEL",
-  "name": "Xcel Energy",
-  "note": "準備交叉向上，距3年收盤高 95.96%（K 77.36／D 79.13）"
- },
- {
-  "date": "2026-11-02",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "CINF",
-  "name": "Cincinnati Financial",
-  "note": "準備交叉向上，距3年收盤高 95.7%（K 84.25／D 84.75）"
- },
- {
-  "date": "2026-11-02",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "LMT",
-  "name": "Lockheed Martin",
-  "note": "準備交叉向上，距3年收盤高 95.66%（K 88.58／D 89.23）"
- },
- {
-  "date": "2026-11-02",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "TDY",
-  "name": "Teledyne Technologies",
-  "note": "準備交叉向上，距3年收盤高 95.46%（K 78.98／D 79.54）"
- },
- {
-  "date": "2026-11-02",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "CBOE",
-  "name": "Cboe Global Markets",
-  "note": "剛黃金交叉，距3年收盤高 95.43%（K 73.72／D 70.74）"
- },
- {
-  "date": "2026-11-02",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "COST",
-  "name": "Costco",
-  "note": "剛黃金交叉，距3年收盤高 95.09%（K 68.76／D 60.97）"
- },
- {
-  "date": "2026-11-02",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "LIN",
-  "name": "Linde plc",
-  "note": "剛黃金交叉，距3年收盤高 95.08%（K 77.73／D 76.78）"
- },
- {
-  "date": "2026-11-02",
-  "market": "美股",
   "type": "綜合訊號",
   "ticker": "ED",
   "name": "Consolidated Edison",
@@ -14200,5 +14144,550 @@
   "ticker": "2880.TW",
   "name": "華南金",
   "note": "雙策略檢核通過：剛黃金交叉，距3年高 98.91%"
+ },
+ {
+  "date": "2026-11-05",
+  "market": "台股",
+  "type": "買進候選",
+  "ticker": "8099.TWO",
+  "name": "大世科",
+  "note": "檢核 93/100，強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 152 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 74%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近9年平均年成長 13%，成長年份占 75%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 72%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近3期季營收年增 36%、28%、36%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近3季獲利年增 38%、94%、105%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：公司獲利成長主要來自企業對AI運算與AIDC解決方案的結構性需求，並輔以東南亞市場拓展。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "公司獲利成長主要來自企業對AI運算與AIDC解決方案的結構性需求，並輔以東南亞市場拓展。",
+      "analysis": "大世科的業務簡介顯示其專注於AI運算架構與資料管理等AI解決方案。近期營運數字與新聞標題（如[2]、[8]）明確指出，公司獲利爆發性成長主要受惠於企業對AI專案與算力需求的結構性增加，以及對AIDC（AI資料中心）的佈局[6]。此外，公司積極將業務拓展至東南亞市場[6]，為其提供額外的結構性成長動能。這些因素共同支持未來獲利穩健成長的判斷。",
+      "risks": "AI/AIDC市場競爭激烈且技術迭代快速，可能影響公司長期獲利能力；對母公司大同的依賴性可能限制其獨立發展與策略彈性。",
+      "sources": [
+       {
+        "title": "大世科財報／前三季 EPS 2.53元創同期新高 賺贏去年全年 - 經濟日報",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjMlVXbWpPYUF5dkw4TGoxelo1VmJMeVR1OTljWXAxWlZKcWRMSGtxQ1lTTTlEOGFBR0xOZUdmanlJbnM0cUNtRXNVUHRTWUxDcDR4YmFiamh5WVnSAWBBVV95cUxORG1NamRTcjlreGhCRkpueDdsQkN6RXJ0TWc0dloyRHMxSFFRemJnVlI5VFlJaTltVmZpNTJXWDhZTk5Od3VYSFdYY2RIWXVmTmk4Q2hhQ0JMU0ktMlZCZDE?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "經濟日報"
+       },
+       {
+        "title": "【即時新聞】大世科最新前三季EPS達2.53元，AI專案爆發賺贏去年全年！ - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPY2UzVDJxa1ZEUkFqMU42Qjg2VFota1VHSXlxNlRsSjcwNGZfZnRQOTREbzdfVVBnRlB4b0xoaTBPN1ZBbWU4VFB5R0JFZTBiOS1IM1l2bGEtT2o3WnV2emgtR0djd0RHbjl5RTlUSW9XOHB3b3EwTTcxWHd5Vm1FSldldC15UXQtUmlsMkFNMmQ?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "CMoney投資網誌"
+       },
+       {
+        "title": "【大世科FY2026 H1 法說會】H1稅後淨利年增93%、EPS 1.58元創新高，四大引擎搶攻AIDC與東南亞 - BigGo 財經",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PTGkyM0FxOHJDZm1lTDBoNUI5ZHd1V0k1UUpTWWhmNTN1dHlUdElHbHBEQ3g3YTE3TmtodmkwREZyNlA2enF0WjhGWTB4eHI4S2p3ckpJNXZocExBWG0wcTk1SE93dw?oc=5",
+        "date": "Tue, 18 Aug 2026",
+        "source": "BigGo 財經"
+       },
+       {
+        "title": "AI與算力需求旺！大世科上半年獲利創新高 每股盈餘1.58元 - Yahoo新聞",
+        "link": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxPVEdVSkY2eE02aEd2eldpd0lscDJ1UmVuajRtMmtWRHBDNmhfNENuSUxNTFd5UFNxQ3RNcW9zcktQSXFzUlhKX0pCdl9mbllYejBCdVcwZk9uYllRZk5oa3ROQ2xSZW95VXFzb3l4VjdNUjRrWDJnbUZ5V2w1Y2VpZVpRbkZqUWtBR1lQTGlMNkxuWFlfTy05Nk1fN0VvR1oyOHJkTHNpNGpFQ0xWUldXRWtnUEFtR3g5Nl9naUp3bElHVFR0UVpLUVF3M1Q0ZGdZMmpqUnVmY2Q0RUtXN1BuX3hXcUlqR2k2NExRQVljS0dERHhyS0RMbDgtVV9mYlVQcTVUeFZMdmt2d0JNZ1IwMHpLRUNORDFqZXB1czRHemo5bDU5MEZlN0UxY0gwaExaSDN4YVZxNzBrY1VXUEx0ejVHeEpqSlBkYlFXMzYzU29FWkFUZzBoMzhaOXFjSWozdWlfSVB3?oc=5",
+        "date": "Thu, 06 Aug 2026",
+        "source": "Yahoo新聞"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "大世科財報／前三季 EPS 2.53元創同期新高 賺贏去年全年 - 經濟日報",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjMlVXbWpPYUF5dkw4TGoxelo1VmJMeVR1OTljWXAxWlZKcWRMSGtxQ1lTTTlEOGFBR0xOZUdmanlJbnM0cUNtRXNVUHRTWUxDcDR4YmFiamh5WVnSAWBBVV95cUxORG1NamRTcjlreGhCRkpueDdsQkN6RXJ0TWc0dloyRHMxSFFRemJnVlI5VFlJaTltVmZpNTJXWDhZTk5Od3VYSFdYY2RIWXVmTmk4Q2hhQ0JMU0ktMlZCZDE?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "經濟日報"
+       },
+       {
+        "title": "【即時新聞】大世科最新前三季EPS達2.53元，AI專案爆發賺贏去年全年！ - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPY2UzVDJxa1ZEUkFqMU42Qjg2VFota1VHSXlxNlRsSjcwNGZfZnRQOTREbzdfVVBnRlB4b0xoaTBPN1ZBbWU4VFB5R0JFZTBiOS1IM1l2bGEtT2o3WnV2emgtR0djd0RHbjl5RTlUSW9XOHB3b3EwTTcxWHd5Vm1FSldldC15UXQtUmlsMkFNMmQ?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "CMoney投資網誌"
+       },
+       {
+        "title": "飆股幕後》母公司大同加持 大世科股價本月漲9成 - 自由財經",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94UURRbjh0alNOOWRfR2c0eDNPRDQ5aG9SRU85Q2Z3aXpDdVZveHFEQXZfMEFENkUyeEIyUzNyMEZBaDVzU05xd2xTb2Q3dzF0MC1BSUVn0gFbQVVfeXFMT2hMOWZ5TGU0WWlZNlQzSEdxalRReWNETms3RGVNMjlPeUc1UnhSbnhKRmJXay1JWm05YkUtV04tcWJkU1dyN25wZG4tRjc4Ulc1a2J1SkZXM2c3bw?oc=5",
+        "date": "Fri, 30 Oct 2026",
+        "source": "自由財經"
+       },
+       {
+        "title": "【大世科法說會重點內容備忘錄】未來展望趨勢 20260327 - 富果直送",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tTmRKYzdoeW5vWkpROTBxSkM5SWMwN3lyRU9ESnpJcXNQNEUxQ3JCNGRZdF9xV2duWTJkTTZPWnh5Q19nS0FVQzJWM2YwYzBMYlFwV1NVRkczcWI4RFU5MmdHbkNCMzg?oc=5",
+        "date": "Sat, 28 Mar 2026",
+        "source": "富果直送"
+       },
+       {
+        "title": "大世科9月/前3季營收創同期高，明年營運再向上- 新聞 - MoneyDJ",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQby02ZVBYbGlnVFB4SFNPT1JCSUtNMy1MRk91a1hHZXpXcjBPYUpnT2g0djd1UFhIZVVDUXM1U3NpdUg1ajBJbDE0S3RUUTFfTkZDYW5RaFJhWkZWWkVQb2Y2dlBGa2wxMHZBVjB4U3MtcVRxYkY2TVFmWVdfaWdicDM3QlRHY29kVzlJOExULW81dw?oc=5",
+        "date": "Wed, 14 Oct 2026",
+        "source": "MoneyDJ"
+       },
+       {
+        "title": "【大世科FY2026 H1 法說會】H1稅後淨利年增93%、EPS 1.58元創新高，四大引擎搶攻AIDC與東南亞 - BigGo 財經",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PTGkyM0FxOHJDZm1lTDBoNUI5ZHd1V0k1UUpTWWhmNTN1dHlUdElHbHBEQ3g3YTE3TmtodmkwREZyNlA2enF0WjhGWTB4eHI4S2p3ckpJNXZocExBWG0wcTk1SE93dw?oc=5",
+        "date": "Tue, 18 Aug 2026",
+        "source": "BigGo 財經"
+       },
+       {
+        "title": "大世科9月EPS 0.47元 碩禾0.42元 - UDN",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5LOWdLSHNYSkRkQ2hZdUV5czU2eHpiLVZMaG5iaWNiSUlyRXU4OXBOWlE3ZjFiSWx0RmF5OEhwZU9aTHp5LUFOaTdYc0hxTmxu0gFWQVVfeXFMTVBRSHE2bVhRT3dtRHNNUGU5MjllemNFVDhfZ1lndF9wS1k3MEhFTVY1eGRodkF4UHRGTWpyd2ViV0swVGxKemE5TlRGLVY1ZDdBeEZTbnc?oc=5",
+        "date": "Mon, 02 Nov 2026",
+        "source": "UDN"
+       },
+       {
+        "title": "AI與算力需求旺！大世科上半年獲利創新高 每股盈餘1.58元 - Yahoo新聞",
+        "link": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxPVEdVSkY2eE02aEd2eldpd0lscDJ1UmVuajRtMmtWRHBDNmhfNENuSUxNTFd5UFNxQ3RNcW9zcktQSXFzUlhKX0pCdl9mbllYejBCdVcwZk9uYllRZk5oa3ROQ2xSZW95VXFzb3l4VjdNUjRrWDJnbUZ5V2w1Y2VpZVpRbkZqUWtBR1lQTGlMNkxuWFlfTy05Nk1fN0VvR1oyOHJkTHNpNGpFQ0xWUldXRWtnUEFtR3g5Nl9naUp3bElHVFR0UVpLUVF3M1Q0ZGdZMmpqUnVmY2Q0RUtXN1BuX3hXcUlqR2k2NExRQVljS0dERHhyS0RMbDgtVV9mYlVQcTVUeFZMdmt2d0JNZ1IwMHpLRUNORDFqZXB1czRHemo5bDU5MEZlN0UxY0gwaExaSDN4YVZxNzBrY1VXUEx0ejVHeEpqSlBkYlFXMzYzU29FWkFUZzBoMzhaOXFjSWozdWlfSVB3?oc=5",
+        "date": "Thu, 06 Aug 2026",
+        "source": "Yahoo新聞"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-11-06 16:28"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 46.2 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.08%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 35 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 93,
+   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+  }
+ },
+ {
+  "date": "2026-11-05",
+  "market": "台股",
+  "type": "買進候選",
+  "ticker": "6590.TWO",
+  "name": "普鴻",
+  "note": "檢核 68/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 89.3 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 85%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近7年平均年成長 23%，成長年份占 83%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -1%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近3期季營收年增 0%、23%、17%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近3季獲利年增 -4%、8%、-2%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：普鴻受惠於企業資安預算擴大，並成功將PQC資安產品導入金融、醫療及政府等新興市場，此結構性變化將帶動未來獲利穩健成長。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "普鴻受惠於企業資安預算擴大，並成功將PQC資安產品導入金融、醫療及政府等新興市場，此結構性變化將帶動未來獲利穩健成長。",
+      "analysis": "普鴻的未來獲利成長主要來自於企業資安預算擴大的結構性趨勢，特別是後量子密碼（PQC）產品的成功導入。公司已將PQC資安解決方案推廣至金融、醫療及政府等新興市場，顯示其業務模式具備擴展性。近期營收數據亦反映此策略奏效，顯示其成長動能來自於產業升級而非短期景氣循環。",
+      "risks": "主要風險在於PQC產品市場競爭加劇，以及新產品導入初期可能面臨的獲利壓力，因近期獲利年增率表現不如營收強勁。",
+      "sources": [
+       {
+        "title": "《業績-資服》普鴻10月營收為0.65億元，年增24.65% - 富聯網",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcnJuT2lHaVhQVndrOV9lYkxiRDA1NjRtaDQ5WVA1a25NTW4xdEZtekowZ0tjQTFYYkhTQk5TWUhYck9sV2dHaWhEQjVuQy1rcndQLTNPX0FtZzZzemFINkNsTHE5U1Y4MHV0LU5iMmZiaE9JMXpqSk1SZDRRTEhmOERYMXVMTFBI?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "富聯網"
+       },
+       {
+        "title": "普鴻加速PQC產品導入，衍生應用瞄準醫療政府 - 台視全球資訊網",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYnBTdDY0cnFOdUtnZEhqNU9xXy1sanZPc3pmNExWVy1kejI4QTNGaFRZM29KTC1xc1NRdUs3MWYtTnZuOC1aeS04NlJGc1A4ZGRUa1psMVc1VHMxUi1YRVVrR3VBVk14d0FVU3dxU0NHc0UzTlpGU3BjbEZMSk1qV1REanMzeGZaaEY0Y1JiaVNnQQ?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "台視全球資訊網"
+       },
+       {
+        "title": "普鴻PQC已獲客戶導入，將陸續發表衍生產品- 新聞 - MoneyDJ",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYk9zSHZPRHRuZXFWa1M3OXVHUEhjZWNmOXpMNGItakxKdlJmRDhWemRFMFRoYlhteXBxUHpzWjRVNkJabkRvN05JMV9BMmFFeU0zQThDLUVVTWM3QW1Ra3c3dHpMZE14Zk9zblVKeDN1emZuT3dxcFF3ZW03MmM3TGJJZTVsbk1oUHpSZ0Z0eTByUQ?oc=5",
+        "date": "Mon, 02 Nov 2026",
+        "source": "MoneyDJ"
+       },
+       {
+        "title": "營收：普鴻(6590)10月營收6488萬元，月增率-4.04%，年增率24.65% - 富聯網",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVEpMWGxucVFYeHVsd3M4UnNoWDJWcXFTVG9KdWtJRGQ3VjdIZ3JoN3FyTEpKV2dReWpWd3FkdE1pc0FUSjdXbkNySVp5WUF3bGtiZmwwOElSMU1jdWdlQlFGVnRiNU11QXZKRlhHUFczWlBKeDlGcFYzdFM2LVVNWVllZktlVGZ0?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "富聯網"
+       },
+       {
+        "title": "企業資安預算擴大，邁達特與普鴻誰先把需求變營收？-CY Research - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcW90SV9UbTQ1SzNUQ3N0eWJDM3ZNX1pnOTlTd29NR1FkejRCTUllLVRTZ2hVWmdNak5ScmpuUHY2cUEwbFVsZHpsUm5xR1ZrVFRGZGI2dmF4N2FzaU41dENZOFFVN3ZvWE01TlpfandRdG56NDFVekhQTHA1WFVscUR5dw?oc=5",
+        "date": "Mon, 02 Nov 2026",
+        "source": "CMoney投資網誌"
+       },
+       {
+        "title": "普鴻資訊上半年每股賺 2.5 元！PQC 資安設備成功搶灘醫療業 - TechNews 科技新報",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1PV3czRnJCelJZVkpYT2ZvNjRNQ1didzV4WHZ5X01ZSDVzREJnQTZ2THVqdUdNS0xIVVJnYmFIdTNSWFNUQldhaVVaemRZZjNIeVZwZW1MNFFob2U0Q2FnMFBKemFVT0RO?oc=5",
+        "date": "Fri, 07 Aug 2026",
+        "source": "TechNews 科技新報"
+       },
+       {
+        "title": "【2026/08月營收公告】普鴻(6590) 八月營收表現亮眼、呈現雙成長，創近2個月以來新高，年增20.88% - CMoney",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uaVU0M2lEVmUxVjNZc2tIU3kzYUEzYVdab1R2STFjNDJmVGdFTVNMUk1aYWFMYm5EWXJicnRHNG5uX3BzM3pTSF9fTUxsd2RSTG9MbE0tTUhPUk51ck90RzZyd0FuR0E?oc=5",
+        "date": "Fri, 04 Sep 2026",
+        "source": "CMoney"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "《業績-資服》普鴻10月營收為0.65億元，年增24.65% - 富聯網",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcnJuT2lHaVhQVndrOV9lYkxiRDA1NjRtaDQ5WVA1a25NTW4xdEZtekowZ0tjQTFYYkhTQk5TWUhYck9sV2dHaWhEQjVuQy1rcndQLTNPX0FtZzZzemFINkNsTHE5U1Y4MHV0LU5iMmZiaE9JMXpqSk1SZDRRTEhmOERYMXVMTFBI?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "富聯網"
+       },
+       {
+        "title": "普鴻加速PQC產品導入，衍生應用瞄準醫療政府 - 台視全球資訊網",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYnBTdDY0cnFOdUtnZEhqNU9xXy1sanZPc3pmNExWVy1kejI4QTNGaFRZM29KTC1xc1NRdUs3MWYtTnZuOC1aeS04NlJGc1A4ZGRUa1psMVc1VHMxUi1YRVVrR3VBVk14d0FVU3dxU0NHc0UzTlpGU3BjbEZMSk1qV1REanMzeGZaaEY0Y1JiaVNnQQ?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "台視全球資訊網"
+       },
+       {
+        "title": "普鴻PQC已獲客戶導入，將陸續發表衍生產品- 新聞 - MoneyDJ",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYk9zSHZPRHRuZXFWa1M3OXVHUEhjZWNmOXpMNGItakxKdlJmRDhWemRFMFRoYlhteXBxUHpzWjRVNkJabkRvN05JMV9BMmFFeU0zQThDLUVVTWM3QW1Ra3c3dHpMZE14Zk9zblVKeDN1emZuT3dxcFF3ZW03MmM3TGJJZTVsbk1oUHpSZ0Z0eTByUQ?oc=5",
+        "date": "Mon, 02 Nov 2026",
+        "source": "MoneyDJ"
+       },
+       {
+        "title": "營收：普鴻(6590)10月營收6488萬元，月增率-4.04%，年增率24.65% - 富聯網",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVEpMWGxucVFYeHVsd3M4UnNoWDJWcXFTVG9KdWtJRGQ3VjdIZ3JoN3FyTEpKV2dReWpWd3FkdE1pc0FUSjdXbkNySVp5WUF3bGtiZmwwOElSMU1jdWdlQlFGVnRiNU11QXZKRlhHUFczWlBKeDlGcFYzdFM2LVVNWVllZktlVGZ0?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "富聯網"
+       },
+       {
+        "title": "企業資安預算擴大，邁達特與普鴻誰先把需求變營收？-CY Research - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcW90SV9UbTQ1SzNUQ3N0eWJDM3ZNX1pnOTlTd29NR1FkejRCTUllLVRTZ2hVWmdNak5ScmpuUHY2cUEwbFVsZHpsUm5xR1ZrVFRGZGI2dmF4N2FzaU41dENZOFFVN3ZvWE01TlpfandRdG56NDFVekhQTHA1WFVscUR5dw?oc=5",
+        "date": "Mon, 02 Nov 2026",
+        "source": "CMoney投資網誌"
+       },
+       {
+        "title": "普鴻金融機動能強勁 續展三策略布局 - CIO Taiwan",
+        "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1FRWFURnNjMDZhYXgxNFJIVGtHZzhlenFJV2VJb3BEYUpveXowNUVHR24xMWxNNGNSLWhaeUVvOS1WQ0tB?oc=5",
+        "date": "Mon, 09 Mar 2026",
+        "source": "CIO Taiwan"
+       },
+       {
+        "title": "普鴻資訊上半年每股賺 2.5 元！PQC 資安設備成功搶灘醫療業 - TechNews 科技新報",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1PV3czRnJCelJZVkpYT2ZvNjRNQ1didzV4WHZ5X01ZSDVzREJnQTZ2THVqdUdNS0xIVVJnYmFIdTNSWFNUQldhaVVaemRZZjNIeVZwZW1MNFFob2U0Q2FnMFBKemFVT0RO?oc=5",
+        "date": "Fri, 07 Aug 2026",
+        "source": "TechNews 科技新報"
+       },
+       {
+        "title": "【2026/08月營收公告】普鴻(6590) 八月營收表現亮眼、呈現雙成長，創近2個月以來新高，年增20.88% - CMoney",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uaVU0M2lEVmUxVjNZc2tIU3kzYUEzYVdab1R2STFjNDJmVGdFTVNMUk1aYWFMYm5EWXJicnRHNG5uX3BzM3pTSF9fTUxsd2RSTG9MbE0tTUhPUk51ck90RzZyd0FuR0E?oc=5",
+        "date": "Fri, 04 Sep 2026",
+        "source": "CMoney"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-11-06 16:29"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 17.8 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.08%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 35 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 68,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  }
+ },
+ {
+  "date": "2026-11-05",
+  "market": "台股",
+  "type": "買進候選",
+  "ticker": "1416.TW",
+  "name": "廣豐",
+  "note": "檢核 64/100，候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 14.9 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 90%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近9年平均年成長 -14%，成長年份占 50%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 33%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近3期季營收年增 17%、29%、50%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近3季獲利年增 -29%、40%、155%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "AI 判斷（僅供參考，請複核依據）：公司過去獲利表現不穩健且近期波動劇烈，不符合未來獲利穩健成長的標準。",
+     "starred": true,
+     "ai": {
+      "grade": "X",
+      "one_line": "公司過去獲利表現不穩健且近期波動劇烈，不符合未來獲利穩健成長的標準。",
+      "analysis": "公司過去九年平均年成長為-14%，且僅有50%的年份呈現成長，顯示其歷史獲利表現極不穩健。儘管近期營收與獲利數據呈現強勁成長，例如近三季獲利年增率從-29%跳升至155%，但這種劇烈波動性與「穩健成長」的定義相悖。雖然新聞提及「數位科技發威」可能為結構性成長動能，但其影響是否足以抵銷公司整體業務的波動性，並帶來持續且穩定的成長，證據尚不足以支持「穩健」的判斷。作為保守分析師，歷史數據的負成長與近期獲利的高度不穩定性，是判斷未來獲利能否「穩健」成長的關鍵阻礙。",
+      "risks": [
+       "公司業務包含資訊服務與房地產，若數位科技業務成長未能持續抵銷其他業務的波動或衰退，整體獲利穩定性將受影響。",
+       "近期獲利雖有爆發性成長，但其劇烈波動性顯示獲利基礎可能不夠穩固，未來成長的持續性與可預測性存疑。"
+      ],
+      "sources": [
+       {
+        "title": "【廣豐FY2026 Q2 法說會】數位科技發威Q2稅後淨利年增140%、EPS 0.62元創佳績，毛利率衝上40% - BigGo 財經",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5BMVBfOXpRN2FsWnRxdHVtYXljSlVSeFlIRmwxQTdsRWkzajRLZkRNNllqT0xsdXo0Q2FpSXViM3RzNk93WXF5cHBVN2pkdEF3dFNQU2ZtMldpNklhbUJkRy1KSnJ6UQ?oc=5",
+        "date": "Thu, 24 Sep 2026",
+        "source": "BigGo 財經"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "【10:35 即時新聞】廣豐(1416)盤中走強，買盤聚焦獲利成長題材 - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMVEyV2RrNFF2aHFoclFhRENkM19waWtOREdwQ0YzTEZWUW5HcHJKMTJNazMyTVdsNjF4RlFKSmsySFI1WEl5dVVjemF1RGoxN1VfVVl1RllVTk5pc3VmNHV4UE13TGVDVHl2bW53cy15NmRZODRRVWV4cjNpSUZOOTN3YlNuZkNDQmVpbkRB?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "CMoney投資網誌"
+       },
+       {
+        "title": "【廣豐法說會重點內容備忘錄】未來展望趨勢 20260924 - 富果直送",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91TmR6U2VHMmpmOVk1Xy1PcWhMemg3YUZxTjV5d3pLWE56Y3d4eEpUbUhCUjF1QmJ4SHNpUHoxY0tJd2hqQ2ZMMVR5aXdneGV2UzVqdGZZelg3VnRvTzc2eE1LVjVKWDg?oc=5",
+        "date": "Thu, 24 Sep 2026",
+        "source": "富果直送"
+       },
+       {
+        "title": "【廣豐FY2026 Q2 法說會】數位科技發威Q2稅後淨利年增140%、EPS 0.62元創佳績，毛利率衝上40% - BigGo 財經",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5BMVBfOXpRN2FsWnRxdHVtYXljSlVSeFlIRmwxQTdsRWkzajRLZkRNNllqT0xsdXo0Q2FpSXViM3RzNk93WXF5cHBVN2pkdEF3dFNQU2ZtMldpNklhbUJkRy1KSnJ6UQ?oc=5",
+        "date": "Thu, 24 Sep 2026",
+        "source": "BigGo 財經"
+       },
+       {
+        "title": "營收速報 - 廣豐(1416)6月營收4,873萬元年增率高達68.33％｜新聞快訊｜豐雲學堂 - 永豐金證券",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51ZWxsTWJaV2tHaHJTcEROaGFWOUwzMlkyei1EeUpqdF8yVWhUMHRvNm1oNm9VUnR0R1lCUThtdFhmNDUyMF80V0xtcDNiOEJrVVFIM2V0OGpPMGo0aC1EOFRQcTdnZTR1NGwyeGtuTTVZeFRuSWc?oc=5",
+        "date": "Sun, 12 Jul 2026",
+        "source": "永豐金證券"
+       },
+       {
+        "title": "【13:24 即時新聞】廣豐(1416)股價走強，市場聚焦營收與獲利成長 - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQ0FITlE5a0FZbVhUYTJndnlDVktSSnBiNGEtbUhNUlhGYTR1czlWUGZ0VFZocllUYS1zVnlXYjI3aTFnTjhXX1B1bm5JQ2FoLVN0NUdFelA0N1J5SzBDaGhvb1ZYRjcxOFotbGhpTWZlRXZUUWNYY1FEbVhoQmJPbHBGdjlOU25kenRtUmtR?oc=5",
+        "date": "Mon, 02 Nov 2026",
+        "source": "CMoney投資網誌"
+       },
+       {
+        "title": "廣豐 2026-09-24 法說會 - BigGo 財經",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdGxPOU9XUmpOSmU4TFhJdXdXUnptX1h5QWtFODJxcDRPWlRPQmtEX09oTnhRZTVyajM0Z285a1pZUkFlelcxcmFEQ1ZyYi0tdGY1TE1HMzE5LUlGbEZXb3cxMmpHWGdxdG1iM09tbVFzRjcyeFd4VlBNcUlFZWRsNDJhQ0I?oc=5",
+        "date": "Thu, 24 Sep 2026",
+        "source": "BigGo 財經"
+       },
+       {
+        "title": "【廣豐法說會重點內容備忘錄】未來展望趨勢 20251218 - 富果直送",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41SjlhRmo1SGhOWUFIZ0JxTG1DMjZ0U3RZMGxWOVE4N1RMczRsY1pWdUJEM1BUaFRvRmFEaTFuU1NxdzBuUmROaG5WZFhtRjJHUThSbEVjMzZwVThHWldxamY2aUVtX28?oc=5",
+        "date": "Thu, 18 Dec 2025",
+        "source": "富果直送"
+       },
+       {
+        "title": "【11:36 即時新聞】廣豐(1416)股價走強，延續獲利成長與營收爆發焦點 - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdVhYaGxGVWZzSGlyRzFtWWgzaS1NRW54TDBpME1FMWgtNkdaUDZMQk9VeHJvZ1Jld3BHRDVWR0xteExENkNHdUdiMVZxcXVUNkJIWWJ6cDc1MEQwMXVyUnRGR01BVEZTUTZEcUd5cEFTbE5QVVAwOXR1TG02anluZkhxRjhkazlOU1RYWDhR?oc=5",
+        "date": "Mon, 12 Oct 2026",
+        "source": "CMoney投資網誌"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-11-06 16:29"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 12.6 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 1.08%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 35 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 64,
+   "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+  }
+ },
+ {
+  "date": "2026-11-05",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "2321.TW",
+  "name": "東訊",
+  "note": "剛黃金交叉，距3年收盤高 100.0%（K 89.18／D 86.75）"
+ },
+ {
+  "date": "2026-11-05",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "1730.TW",
+  "name": "花仙子",
+  "note": "準備交叉向上，距3年收盤高 97.5%（K 13.43／D 14.77）"
+ },
+ {
+  "date": "2026-11-05",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "2033.TW",
+  "name": "佳大",
+  "note": "準備交叉向上，距3年收盤高 96.89%（K 73.71／D 74.24）"
+ },
+ {
+  "date": "2026-11-05",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "1726.TW",
+  "name": "永記",
+  "note": "準備交叉向上，距3年收盤高 95.96%（K 60.41／D 62.41）"
  }
 ]
