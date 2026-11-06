@@ -2052,7 +2052,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 17421.677487740304,
+  "cash": 14512.705024676417,
   "positions": [
    {
     "ticker": "JCI",
@@ -2060,10 +2060,10 @@
     "shares": 8.065,
     "buy_price": 149.97999572753906,
     "buy_date": "2026-10-01",
-    "last_price": 140.52999877929688,
+    "last_price": 131.4600067138672,
     "signal_date": "2026-10-02",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。停損：現價 131.46 低於買價 149.98 達 12.3%（門檻 8%），立即賣出；技術面：賣壓比例 126% ≥ 117%，股價可能已達中長期高點"
    },
    {
     "ticker": "MSFT",
@@ -2071,7 +2071,7 @@
     "shares": 2.471,
     "buy_price": 544.625,
     "buy_date": "2026-10-13",
-    "last_price": 555.7999877929688,
+    "last_price": 535.9299926757812,
     "signal_date": "2026-10-12",
     "status": "HOLD",
     "status_note": ""
@@ -2082,7 +2082,7 @@
     "shares": 4.3924,
     "buy_price": 300.1400146484375,
     "buy_date": "2026-10-14",
-    "last_price": 310.6300048828125,
+    "last_price": 310.1000061035156,
     "signal_date": "2026-10-15",
     "status": "HOLD",
     "status_note": ""
@@ -2093,10 +2093,10 @@
     "shares": 1.1944,
     "buy_price": 995.7999877929688,
     "buy_date": "2026-10-14",
-    "last_price": 1069.43994140625,
+    "last_price": 1072.0,
     "signal_date": "2026-10-15",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。基本面惡化：最新一季獲利年增 12% < 20%，賣出"
    },
    {
     "ticker": "ED",
@@ -2104,7 +2104,7 @@
     "shares": 11.8766,
     "buy_price": 111.55000305175781,
     "buy_date": "2026-10-21",
-    "last_price": 120.30000305175781,
+    "last_price": 121.44000244140625,
     "signal_date": "2026-10-22",
     "status": "HOLD",
     "status_note": ""
@@ -2115,10 +2115,10 @@
     "shares": 2.7151,
     "buy_price": 440.2099914550781,
     "buy_date": "2026-10-21",
-    "last_price": 478.4800109863281,
+    "last_price": 460.2799987792969,
     "signal_date": "2026-10-22",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。基本面惡化：最新一季獲利年增 20% < 20%，賣出"
    },
    {
     "ticker": "TRGP",
@@ -2126,10 +2126,10 @@
     "shares": 4.0184,
     "buy_price": 297.57000732421875,
     "buy_date": "2026-10-22",
-    "last_price": 285.0,
+    "last_price": 271.82000732421875,
     "signal_date": "2026-10-23",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。停損：現價 271.82 低於買價 297.57 達 8.7%（門檻 8%），立即賣出"
    },
    {
     "ticker": "NDAQ",
@@ -2137,7 +2137,7 @@
     "shares": 12.6618,
     "buy_price": 105.0,
     "buy_date": "2026-10-27",
-    "last_price": 109.69999694824219,
+    "last_price": 106.83000183105469,
     "signal_date": "2026-10-26",
     "status": "HOLD",
     "status_note": ""
@@ -2148,23 +2148,42 @@
     "shares": 7.3775,
     "buy_price": 162.7899932861328,
     "buy_date": "2026-10-26",
-    "last_price": 170.44000244140625,
+    "last_price": 162.61000061035156,
     "signal_date": "2026-10-27",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "PRU",
+    "name": "Prudential Financial",
+    "shares": 22.7263,
+    "buy_price": 128.0,
+    "buy_date": "2026-11-05",
+    "last_price": 122.45999908447266,
+    "signal_date": "2026-11-04",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [
+  "pending_buys": [],
+  "pending_sells": [
    {
-    "ticker": "PRU",
-    "name": "Prudential Financial",
-    "light": "green",
-    "score": 100,
-    "signal_date": "2026-11-04",
-    "signal_close": 126.63
+    "ticker": "JCI",
+    "reason": "停損：現價 131.46 低於買價 149.98 達 12.3%（門檻 8%），立即賣出"
+   },
+   {
+    "ticker": "MCK",
+    "reason": "基本面惡化：最新一季獲利年增 12% < 20%，賣出"
+   },
+   {
+    "ticker": "AMGN",
+    "reason": "基本面惡化：最新一季獲利年增 20% < 20%，賣出"
+   },
+   {
+    "ticker": "TRGP",
+    "reason": "停損：現價 271.82 低於買價 297.57 達 8.7%（門檻 8%），立即賣出"
    }
   ],
-  "pending_sells": [],
   "trades": [
    {
     "date": "2026-07-06",
@@ -3012,6 +3031,17 @@
     "amount": 1176.3,
     "pnl_pct": 0.02655644968288473,
     "reason": "基本面惡化：最新一季獲利年增 -3% < 20%，賣出"
+   },
+   {
+    "date": "2026-11-05",
+    "action": "BUY",
+    "ticker": "PRU",
+    "name": "Prudential Financial",
+    "price": 128.0,
+    "shares": 22.7263,
+    "amount": 2908.97,
+    "signal_date": "2026-11-04",
+    "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%，訊號日 2026-11-04）"
    }
   ],
   "equity_history": [
@@ -3610,6 +3640,10 @@
    {
     "date": "2026-11-04",
     "equity": 29089.72
+   },
+   {
+    "date": "2026-11-05",
+    "equity": 28659.35
    }
   ]
  }
