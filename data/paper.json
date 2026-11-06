@@ -2073,26 +2073,15 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 14512.705024676417,
+  "cash": 19169.534613976954,
   "positions": [
-   {
-    "ticker": "JCI",
-    "name": "Johnson Controls",
-    "shares": 8.065,
-    "buy_price": 149.97999572753906,
-    "buy_date": "2026-10-01",
-    "last_price": 131.4600067138672,
-    "signal_date": "2026-10-02",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。停損：現價 131.46 低於買價 149.98 達 12.3%（門檻 8%），立即賣出；技術面：賣壓比例 126% ≥ 117%，股價可能已達中長期高點"
-   },
    {
     "ticker": "MSFT",
     "name": "Microsoft",
     "shares": 2.471,
     "buy_price": 544.625,
     "buy_date": "2026-10-13",
-    "last_price": 535.9299926757812,
+    "last_price": 530.6099853515625,
     "signal_date": "2026-10-12",
     "status": "HOLD",
     "status_note": ""
@@ -2103,21 +2092,10 @@
     "shares": 4.3924,
     "buy_price": 300.1400146484375,
     "buy_date": "2026-10-14",
-    "last_price": 310.1000061035156,
+    "last_price": 303.7300109863281,
     "signal_date": "2026-10-15",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "MCK",
-    "name": "McKesson",
-    "shares": 1.1944,
-    "buy_price": 995.7999877929688,
-    "buy_date": "2026-10-14",
-    "last_price": 1072.0,
-    "signal_date": "2026-10-15",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。基本面惡化：最新一季獲利年增 12% < 20%，賣出"
    },
    {
     "ticker": "ED",
@@ -2125,32 +2103,10 @@
     "shares": 11.8766,
     "buy_price": 111.55000305175781,
     "buy_date": "2026-10-21",
-    "last_price": 121.44000244140625,
+    "last_price": 118.55999755859375,
     "signal_date": "2026-10-22",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "AMGN",
-    "name": "Amgen",
-    "shares": 2.7151,
-    "buy_price": 440.2099914550781,
-    "buy_date": "2026-10-21",
-    "last_price": 460.2799987792969,
-    "signal_date": "2026-10-22",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。基本面惡化：最新一季獲利年增 20% < 20%，賣出"
-   },
-   {
-    "ticker": "TRGP",
-    "name": "Targa Resources",
-    "shares": 4.0184,
-    "buy_price": 297.57000732421875,
-    "buy_date": "2026-10-22",
-    "last_price": 271.82000732421875,
-    "signal_date": "2026-10-23",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。停損：現價 271.82 低於買價 297.57 達 8.7%（門檻 8%），立即賣出"
    },
    {
     "ticker": "NDAQ",
@@ -2158,7 +2114,7 @@
     "shares": 12.6618,
     "buy_price": 105.0,
     "buy_date": "2026-10-27",
-    "last_price": 106.83000183105469,
+    "last_price": 107.12000274658203,
     "signal_date": "2026-10-26",
     "status": "HOLD",
     "status_note": ""
@@ -2169,7 +2125,7 @@
     "shares": 7.3775,
     "buy_price": 162.7899932861328,
     "buy_date": "2026-10-26",
-    "last_price": 162.61000061035156,
+    "last_price": 162.35000610351562,
     "signal_date": "2026-10-27",
     "status": "HOLD",
     "status_note": ""
@@ -2180,17 +2136,17 @@
     "shares": 22.7263,
     "buy_price": 128.0,
     "buy_date": "2026-11-05",
-    "last_price": 122.45999908447266,
+    "last_price": 119.23999786376953,
     "signal_date": "2026-11-04",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。基本面惡化：最新一季獲利年增 -8% < 20%，賣出"
    }
   ],
   "pending_buys": [],
   "pending_sells": [
    {
     "ticker": "JCI",
-    "reason": "停損：現價 131.46 低於買價 149.98 達 12.3%（門檻 8%），立即賣出"
+    "reason": "停損：現價 135.03 低於買價 149.98 達 10.0%（門檻 8%），立即賣出"
    },
    {
     "ticker": "MCK",
@@ -2202,7 +2158,11 @@
    },
    {
     "ticker": "TRGP",
-    "reason": "停損：現價 271.82 低於買價 297.57 達 8.7%（門檻 8%），立即賣出"
+    "reason": "停損：現價 264.59 低於買價 297.57 達 11.1%（門檻 8%），立即賣出"
+   },
+   {
+    "ticker": "PRU",
+    "reason": "基本面惡化：最新一季獲利年增 -8% < 20%，賣出"
    }
   ],
   "trades": [
@@ -3063,6 +3023,50 @@
     "amount": 2908.97,
     "signal_date": "2026-11-04",
     "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%，訊號日 2026-11-04）"
+   },
+   {
+    "date": "2026-11-06",
+    "action": "SELL",
+    "ticker": "JCI",
+    "name": "Johnson Controls",
+    "price": 134.73500061035156,
+    "shares": 8.065,
+    "amount": 1086.64,
+    "pnl_pct": -0.10164685659067696,
+    "reason": "停損：現價 131.46 低於買價 149.98 達 12.3%（門檻 8%），立即賣出"
+   },
+   {
+    "date": "2026-11-06",
+    "action": "SELL",
+    "ticker": "MCK",
+    "name": "McKesson",
+    "price": 1051.6700439453125,
+    "shares": 1.1944,
+    "amount": 1256.11,
+    "pnl_pct": 0.05610570078050592,
+    "reason": "基本面惡化：最新一季獲利年增 12% < 20%，賣出"
+   },
+   {
+    "date": "2026-11-06",
+    "action": "SELL",
+    "ticker": "AMGN",
+    "name": "Amgen",
+    "price": 448.1650085449219,
+    "shares": 2.7151,
+    "amount": 1216.81,
+    "pnl_pct": 0.018070959869741055,
+    "reason": "基本面惡化：最新一季獲利年增 20% < 20%，賣出"
+   },
+   {
+    "date": "2026-11-06",
+    "action": "SELL",
+    "ticker": "TRGP",
+    "name": "Targa Resources",
+    "price": 273.05999755859375,
+    "shares": 4.0184,
+    "amount": 1097.26,
+    "pnl_pct": -0.08236720490086225,
+    "reason": "停損：現價 271.82 低於買價 297.57 達 8.7%（門檻 8%），立即賣出"
    }
   ],
   "equity_history": [
@@ -3665,6 +3669,10 @@
    {
     "date": "2026-11-05",
     "equity": 28659.35
+   },
+   {
+    "date": "2026-11-06",
+    "equity": 28486.82
    }
   ]
  }

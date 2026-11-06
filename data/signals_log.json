@@ -1,374 +1,5 @@
 [
  {
-  "date": "2026-11-02",
-  "market": "美股",
-  "type": "綜合訊號",
-  "ticker": "ED",
-  "name": "Consolidated Edison",
-  "note": "雙策略檢核通過：檢核 86/100，剛黃金交叉，距3年高 100.0%"
- },
- {
-  "date": "2026-11-02",
-  "market": "美股",
-  "type": "綜合訊號",
-  "ticker": "BRK-B",
-  "name": "Berkshire Hathaway",
-  "note": "雙策略檢核通過：檢核 75/100，剛黃金交叉，距3年高 100.0%"
- },
- {
-  "date": "2026-11-02",
-  "market": "美股",
-  "type": "綜合訊號",
-  "ticker": "FTV",
-  "name": "Fortive",
-  "note": "雙策略檢核通過：檢核 71/100，剛黃金交叉，距3年高 100.0%"
- },
- {
-  "date": "2026-11-02",
-  "market": "美股",
-  "type": "綜合訊號",
-  "ticker": "KO",
-  "name": "Coca-Cola Company (The)",
-  "note": "雙策略檢核通過：檢核 67/100，剛黃金交叉，距3年高 100.0%"
- },
- {
-  "date": "2026-11-02",
-  "market": "美股",
-  "type": "綜合訊號",
-  "ticker": "AWK",
-  "name": "American Water Works",
-  "note": "雙策略檢核通過：檢核 58/100，剛黃金交叉，距3年高 100.0%"
- },
- {
-  "date": "2026-11-03",
-  "market": "台股",
-  "type": "買進候選",
-  "ticker": "8099.TWO",
-  "name": "大世科",
-  "note": "檢核 93/100，強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量",
-  "scorecard": {
-   "items": [
-    {
-     "key": "1",
-     "name": "① 股價突破近年來高價",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "收盤 134.5 創近 2 年新高",
-     "starred": true
-    },
-    {
-     "key": "2",
-     "name": "② 新高價位置（反彈幅度≥60%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 78%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-     "starred": true
-    },
-    {
-     "key": "3",
-     "name": "③ 過去獲利穩健成長（年均≥7%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近9年平均年成長 13%，成長年份占 75%",
-     "starred": false
-    },
-    {
-     "key": "4",
-     "name": "④ 最近1~2年獲利成長≥20%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近四季獲利年增 72%",
-     "starred": false
-    },
-    {
-     "key": "5",
-     "name": "⑤ 最近2~3季營收成長≥10%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近3期季營收年增 36%、28%、36%",
-     "starred": false
-    },
-    {
-     "key": "6",
-     "name": "⑥ 最近2~3季獲利成長≥20%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近3季獲利年增 38%、94%、105%",
-     "starred": true
-    },
-    {
-     "key": "7",
-     "name": "⑦ 未來獲利能否穩健成長",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "AI 判斷（僅供參考，請複核依據）：公司受惠於AI算力建置的結構性需求成長，並積極拓展東南亞市場，有望帶動未來獲利穩健成長。",
-     "starred": true,
-     "ai": {
-      "grade": "O",
-      "one_line": "公司受惠於AI算力建置的結構性需求成長，並積極拓展東南亞市場，有望帶動未來獲利穩健成長。",
-      "analysis": "近期營運數據顯示公司獲利呈現顯著且持續的成長趨勢，近四季獲利年增72%，近三季獲利年增率更達38%至105%。新聞報導明確指出，此成長動能主要來自於AI算力建置的結構性需求與AIDC（AI資料中心）的市場機會。此外，公司積極拓展東南亞市場，鎖定台商需求，為其帶來新的成長引擎。這些皆屬於產業趨勢及市場擴張的結構性變化，而非短期景氣循環，符合未來獲利穩健成長的判斷標準。",
-      "risks": [
-       "AI算力市場競爭激烈，可能影響獲利能力。",
-       "東南亞市場拓展存在執行風險及地緣政治不確定性。"
-      ],
-      "sources": [
-       {
-        "title": "【09:12 即時新聞】大世科(8099)股價走強，注意股列與算力題材成焦點 - CMoney投資網誌",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdWJuTEF0NWNVWFlHV0NFSlBkZXZJb1JCUDRtVDBUNFNyRU5LX3hLbHhLWjdBTVdXTjh6d19DRUhwTnNGM0toS1BBUjRpRUNfWVdUZF9VYnBVN2hrTTVFNmRMcGxHblRpY29HTFRnQ0R4RFB6T0p5VUx0Nk9nWk92UDRHVjRrQWhSSEhJRjFB?oc=5",
-        "date": "Tue, 03 Nov 2026",
-        "source": "CMoney投資網誌"
-       },
-       {
-        "title": "大世科獲利／自結9月4,700萬元、年增90.8% 算力建置需求夯 - UDN",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wY29zSk5KcU84RzFPZG05SlgwakRqa1NqXzEwNFMycUZfS29qa0hfRjFmRnlMNzBobGlnS0Y3UUFJaFJtSkZDY0Q1bWFDMFllZkFIcTZB0gFWQVVfeXFMT3Bjb3NKTkpxTzhHMU9kbTlKWDBqRGprU2pfMTA0UzJxRl9Lb2prSF9GMWZGeUw3MGhsaWdLRjdRQUloUm1KRkNjRDVtYUMwWWVmQUhxNkE?oc=5",
-        "date": "Mon, 02 Nov 2026",
-        "source": "UDN"
-       },
-       {
-        "title": "大世科AI算力訂單增，續攻東南亞鎖定台商需求 - 台視全球資訊網",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdlRlcnVTVzFwWmloTTFvcFUwcGFUcFpGcnd3YnZyM1ZWU0JJWjlfR2xkOE93eDFqTHFtYXc3WDRUSk1fV3l3SXhIX2NHYVhtWUJXekxpczh0WjZnbVU0a2xKYjZCbFNUdUJ2STNiNndKanB3VUhHY1RtMmFFM3IzOWtVN3psMTdWODh4cFFOZUtMdw?oc=5",
-        "date": "Wed, 21 Oct 2026",
-        "source": "台視全球資訊網"
-       },
-       {
-        "title": "大世科9月/前3季營收創同期高，明年營運再向上- 新聞 - MoneyDJ",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQby02ZVBYbGlnVFB4SFNPT1JCSUtNMy1MRk91a1hHZXpXcjBPYUpnT2g0djd1UFhIZVVDUXM1U3NpdUg1ajBJbDE0S3RUUTFfTkZDYW5RaFJhWkZWWkVQb2Y2dlBGa2wxMHZBVjB4U3MtcVRxYkY2TVFmWVdfaWdicDM3QlRHY29kVzlJOExULW81dw?oc=5",
-        "date": "Wed, 14 Oct 2026",
-        "source": "MoneyDJ"
-       },
-       {
-        "title": "【大世科FY2026 H1 法說會】H1稅後淨利年增93%、EPS 1.58元創新高，四大引擎搶攻AIDC與東南亞 - BigGo 財經",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PTGkyM0FxOHJDZm1lTDBoNUI5ZHd1V0k1UUpTWWhmNTN1dHlUdElHbHBEQ3g3YTE3TmtodmkwREZyNlA2enF0WjhGWTB4eHI4S2p3ckpJNXZocExBWG0wcTk1SE93dw?oc=5",
-        "date": "Tue, 18 Aug 2026",
-        "source": "BigGo 財經"
-       }
-      ],
-      "all_news": [
-       {
-        "title": "【09:12 即時新聞】大世科(8099)股價走強，注意股列與算力題材成焦點 - CMoney投資網誌",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdWJuTEF0NWNVWFlHV0NFSlBkZXZJb1JCUDRtVDBUNFNyRU5LX3hLbHhLWjdBTVdXTjh6d19DRUhwTnNGM0toS1BBUjRpRUNfWVdUZF9VYnBVN2hrTTVFNmRMcGxHblRpY29HTFRnQ0R4RFB6T0p5VUx0Nk9nWk92UDRHVjRrQWhSSEhJRjFB?oc=5",
-        "date": "Tue, 03 Nov 2026",
-        "source": "CMoney投資網誌"
-       },
-       {
-        "title": "大世科獲利／自結9月4,700萬元、年增90.8% 算力建置需求夯 - UDN",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wY29zSk5KcU84RzFPZG05SlgwakRqa1NqXzEwNFMycUZfS29qa0hfRjFmRnlMNzBobGlnS0Y3UUFJaFJtSkZDY0Q1bWFDMFllZkFIcTZB0gFWQVVfeXFMT3Bjb3NKTkpxTzhHMU9kbTlKWDBqRGprU2pfMTA0UzJxRl9Lb2prSF9GMWZGeUw3MGhsaWdLRjdRQUloUm1KRkNjRDVtYUMwWWVmQUhxNkE?oc=5",
-        "date": "Mon, 02 Nov 2026",
-        "source": "UDN"
-       },
-       {
-        "title": "飆股幕後》母公司大同加持 大世科股價本月漲9成 - 自由財經",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94UURRbjh0alNOOWRfR2c0eDNPRDQ5aG9SRU85Q2Z3aXpDdVZveHFEQXZfMEFENkUyeEIyUzNyMEZBaDVzU05xd2xTb2Q3dzF0MC1BSUVn0gFbQVVfeXFMT2hMOWZ5TGU0WWlZNlQzSEdxalRReWNETms3RGVNMjlPeUc1UnhSbnhKRmJXay1JWm05YkUtV04tcWJkU1dyN25wZG4tRjc4Ulc1a2J1SkZXM2c3bw?oc=5",
-        "date": "Fri, 30 Oct 2026",
-        "source": "自由財經"
-       },
-       {
-        "title": "大世科AI算力訂單增，續攻東南亞鎖定台商需求 - 台視全球資訊網",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdlRlcnVTVzFwWmloTTFvcFUwcGFUcFpGcnd3YnZyM1ZWU0JJWjlfR2xkOE93eDFqTHFtYXc3WDRUSk1fV3l3SXhIX2NHYVhtWUJXekxpczh0WjZnbVU0a2xKYjZCbFNUdUJ2STNiNndKanB3VUhHY1RtMmFFM3IzOWtVN3psMTdWODh4cFFOZUtMdw?oc=5",
-        "date": "Wed, 21 Oct 2026",
-        "source": "台視全球資訊網"
-       },
-       {
-        "title": "大世科9月/前3季營收創同期高，明年營運再向上- 新聞 - MoneyDJ",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQby02ZVBYbGlnVFB4SFNPT1JCSUtNMy1MRk91a1hHZXpXcjBPYUpnT2g0djd1UFhIZVVDUXM1U3NpdUg1ajBJbDE0S3RUUTFfTkZDYW5RaFJhWkZWWkVQb2Y2dlBGa2wxMHZBVjB4U3MtcVRxYkY2TVFmWVdfaWdicDM3QlRHY29kVzlJOExULW81dw?oc=5",
-        "date": "Wed, 14 Oct 2026",
-        "source": "MoneyDJ"
-       },
-       {
-        "title": "【大世科法說會重點內容備忘錄】未來展望趨勢 20260327 - 富果直送",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tTmRKYzdoeW5vWkpROTBxSkM5SWMwN3lyRU9ESnpJcXNQNEUxQ3JCNGRZdF9xV2duWTJkTTZPWnh5Q19nS0FVQzJWM2YwYzBMYlFwV1NVRkczcWI4RFU5MmdHbkNCMzg?oc=5",
-        "date": "Sat, 28 Mar 2026",
-        "source": "富果直送"
-       },
-       {
-        "title": "【大世科FY2026 H1 法說會】H1稅後淨利年增93%、EPS 1.58元創新高，四大引擎搶攻AIDC與東南亞 - BigGo 財經",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PTGkyM0FxOHJDZm1lTDBoNUI5ZHd1V0k1UUpTWWhmNTN1dHlUdElHbHBEQ3g3YTE3TmtodmkwREZyNlA2enF0WjhGWTB4eHI4S2p3ckpJNXZocExBWG0wcTk1SE93dw?oc=5",
-        "date": "Tue, 18 Aug 2026",
-        "source": "BigGo 財經"
-       },
-       {
-        "title": "大世科9月 EPS 0.47元 碩禾0.42元 - 經濟日報",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GRk04ZE1ZdEFYRFlKa1JYN2p3Sk5uWUJRNnlzNDI0UXNPeGFYbDNKSG5KWGNEZkVQTXoycXZaY2hHU3dtOXUxR1IyQW9rNTVUbTlrOVdJNDVWU1nSAWBBVV95cUxOUVpZRXdISWlyZUV2aTk2a29kZ1hCTG1lUWV0S1NMWVpZbHJnUEUtM3BQaldCSzk0bEZjVVY4eUstNWJXQU95YU0zbzFUYTJrYTlKQl8xY2NvU1hXdGMyWDg?oc=5",
-        "date": "Sun, 01 Nov 2026",
-        "source": "經濟日報"
-       }
-      ],
-      "model": "gemini-2.5-flash",
-      "judged_at": "2026-11-03 04:05"
-     }
-    },
-    {
-     "key": "8",
-     "name": "⑧ 本益比未過熱（<60倍）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "本益比 40.9 倍",
-     "starred": false
-    },
-    {
-     "key": "9",
-     "name": "⑨ 大盤上漲力道",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "創新高股比率僅 1.17%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 35 檔創高，大型股開始帶動",
-     "starred": true
-    }
-   ],
-   "score": 93,
-   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
-  }
- },
- {
-  "date": "2026-11-03",
-  "market": "台股",
-  "type": "買進候選",
-  "ticker": "5013.TWO",
-  "name": "強新",
-  "note": "檢核 62/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
-  "scorecard": {
-   "items": [
-    {
-     "key": "1",
-     "name": "① 股價突破近年來高價",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "收盤 66.6 創近 2 年新高",
-     "starred": true
-    },
-    {
-     "key": "2",
-     "name": "② 新高價位置（反彈幅度≥60%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 69%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-     "starred": true
-    },
-    {
-     "key": "3",
-     "name": "③ 過去獲利穩健成長（年均≥7%）",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "近9年平均年成長 9%，成長年份占 50%（成長不夠穩定）",
-     "starred": false
-    },
-    {
-     "key": "4",
-     "name": "④ 最近1~2年獲利成長≥20%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近四季獲利年增 28%",
-     "starred": false
-    },
-    {
-     "key": "5",
-     "name": "⑤ 最近2~3季營收成長≥10%",
-     "grade": "X",
-     "symbol": "×",
-     "detail": "近3期季營收年增 -8%、-1%、17%",
-     "starred": false
-    },
-    {
-     "key": "6",
-     "name": "⑥ 最近2~3季獲利成長≥20%",
-     "grade": "X",
-     "symbol": "×",
-     "detail": "近3季獲利年增 13%、-11%、134%",
-     "starred": true
-    },
-    {
-     "key": "7",
-     "name": "⑦ 未來獲利能否穩健成長",
-     "grade": "M",
-     "symbol": "人工",
-     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
-     "starred": true
-    },
-    {
-     "key": "8",
-     "name": "⑧ 本益比未過熱（<60倍）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "本益比 30.6 倍",
-     "starred": false
-    },
-    {
-     "key": "9",
-     "name": "⑨ 大盤上漲力道",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "創新高股比率僅 1.17%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 35 檔創高，大型股開始帶動",
-     "starred": true
-    }
-   ],
-   "score": 62,
-   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
-  }
- },
- {
-  "date": "2026-11-03",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "2908.TW",
-  "name": "特力",
-  "note": "準備交叉向上，距3年收盤高 99.33%（K 64.55／D 65.11）"
- },
- {
-  "date": "2026-11-03",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "2466.TW",
-  "name": "冠西電",
-  "note": "準備交叉向上，距3年收盤高 98.68%（K 90.82／D 91.62）"
- },
- {
-  "date": "2026-11-03",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "2727.TW",
-  "name": "王品",
-  "note": "準備交叉向上，距3年收盤高 97.8%（K 62.27／D 62.97）"
- },
- {
-  "date": "2026-11-03",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "9933.TW",
-  "name": "中鼎",
-  "note": "準備交叉向上，距3年收盤高 97.08%（K 67.12／D 69.05）"
- },
- {
-  "date": "2026-11-03",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "8284.TWO",
-  "name": "三竹",
-  "note": "剛黃金交叉，距3年收盤高 96.68%（K 23.91／D 22.57）"
- },
- {
-  "date": "2026-11-03",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "6581.TW",
-  "name": "鋼聯",
-  "note": "準備交叉向上，距3年收盤高 96.46%（K 38.27／D 38.37）"
- },
- {
-  "date": "2026-11-03",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "1726.TW",
-  "name": "永記",
-  "note": "剛黃金交叉，距3年收盤高 96.09%（K 64.5／D 64.08）"
- },
- {
-  "date": "2026-11-03",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "6506.TWO",
-  "name": "雙邦",
-  "note": "剛黃金交叉，距3年收盤高 95.65%（K 64.04／D 63.58）"
- },
- {
   "date": "2026-11-03",
   "market": "台股",
   "type": "綜合訊號",
@@ -14689,5 +14320,638 @@
   "ticker": "1726.TW",
   "name": "永記",
   "note": "準備交叉向上，距3年收盤高 95.96%（K 60.41／D 62.41）"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "美股",
+  "type": "買進候選",
+  "ticker": "HUM",
+  "name": "Humana",
+  "note": "檢核 71/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 433.74 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 72%（目標≥60%），平穩期品質 52%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近4年平均年成長 -21%，成長年份占 0%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -10%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 26%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 28%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "AI 判斷（僅供參考，請複核依據）：儘管受惠於Medicare Advantage會員數的結構性成長，但過往獲利波動劇烈，尚無法判斷未來獲利能否穩健成長。",
+     "starred": true,
+     "ai": {
+      "grade": "T",
+      "one_line": "儘管受惠於Medicare Advantage會員數的結構性成長，但過往獲利波動劇烈，尚無法判斷未來獲利能否穩健成長。",
+      "analysis": "公司過去四年平均年獲利成長為-21%，且成長年份為0%，顯示獲利表現極不穩定。儘管近期營收與獲利年增率轉正，且管理層上調財測，並預期Medicare Advantage會員數將持續成長，這是一個結構性利多。然而，僅憑一季的轉正表現和未來展望，不足以抵消過往獲利劇烈波動的紀錄。因此，目前尚無法判斷其未來獲利能否達到「穩健」成長的標準。",
+      "risks": [
+       "醫療成本控制的不確定性，可能影響獲利能力。",
+       "Medicare Advantage市場競爭加劇或政策變化，可能影響會員成長速度及獲利空間。"
+      ],
+      "sources": [
+       {
+        "title": "Humana Lifts Outlook as Quarterly Revenue Jumps - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQc094bHZCZDRCMGlObG1pUEhhZEVBa1hDLWNFak83YVpSeEVrRnRJWVJReUFCVUVBTzdoM1kzRzhfYjdPXzJnbjZKdDJLUDlFOXVtTWxDeXJCLW9VNDVXLVp2TWlzUlFWYV9zOUN1N1NyNWpzaGh1ZWdFSG1CRU4xMjZfcmYtQ2lKRzFzUVNiQkdsd1B0SzBkd0R3?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "WSJ"
+       },
+       {
+        "title": "Humana expects another year of Medicare Advantage membership growth in 2027 - Healthcare Dive",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORlhOMEhhWlZBa3FTZTdDcXhqbENlYmQ5MWpTVVJWVjlDa2lmTFh0aWV1TUVocHYtTTRTdDFuZXJORFlNTzF2Yi1mR1k4VzB6Zkx6RExnZGF6MmMtakcyWjBrVHVqcFRnQnF0cC12N0RIcUgzTWpGV0JUTEhRYnd0WlJPOTVha3VyMlVsZnc4MzhrOVA4Zi1RZHFZMV9YQjF4bW9UVzFOYVdTMlE?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "Healthcare Dive"
+       },
+       {
+        "title": "Humana boosts forecast, capping strong quarter for insurers - Modern Healthcare",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZUd1VjdxdThyWjMteEpxdEdGYlI5NWNfVjVTTkdRTVVrbnhGVFIzZDN5b3hENzZWbEIzVkNtSzVJekQ3cFZTa3ZNTUV4bmlBUDUxRFZndDFWRlBTZnJKMFBGeEx1WUg4bmFFZHdqanFtWmdMcDBNSjBsblZLMy1JcHFDNjdXZzhTZFFwT29tR0hhSC1KbkpLNw?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "Modern Healthcare"
+       },
+       {
+        "title": "Humana raises outlook, sees Medicare Advantage gains - Healthcare Finance News",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRjhDOEJIY0VrNm0yc2F4cXAtWW8za2JDSXVuVEcwcHdIZEp0VnJ2V1lPanFnWmhCN3RucElRZ0FaR3d5VnJ2c3VQOF91eEt1cmpOcGQ1aGpQUGZOOHVMZlU5UzNiN00zZHdWYmtsWnFsbFFMeXFlSXFlNV9nMVM1YmROWE5Rd3d1Rks1RnBjbDF0aWV3WDlrQjhB?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "Healthcare Finance News"
+       },
+       {
+        "title": "Humana Stock Gets a Boost From Unexpected Decline in Medical Costs - Barron's",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeXRzbTZuR3R1bXJ1REdueXkzUTFsNjliUVRiNk96TDF6VWg5Tl9ZeUtMTW9WUkh0aTJ1cC01emZyMlBiaWpmQTVFTWIxY3p5TUo5dWxlZmFMQU5uaDY3SmtoR3BMUkNVdlNMd1VJYURrZ2tIc0hNWnc2YnI3X2V1V3dvSmtkSzQ?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "Barron's"
+       },
+       {
+        "title": "Humana pacing ahead of expectations during Medicare enrollment window, CEO says - Fierce Healthcare",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOblQ5SENaQ0F0V3JCME15T3FlMi1NdWlXLWQxb0NiTjVzSTRBbm0tY29tRXA0Z2RJZ0JIZ3JxNl9iaHY3WVlLQ0tyUFpic254d1A5Y1ppSlhZMkNCSlBHUWtZU3pqeWdsQmZYOUFuMUotVngxUHpTOHdzUzBnV2tETy15YVhwSHdaUnZFTkJJU28teUFxYVFGTHpocmJ4dmc2eFNj?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "Fierce Healthcare"
+       },
+       {
+        "title": "Humana Stock Rises After Narrower-Than-Expected Loss, Raised 2026 Profit Outlook - Benzinga",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeS13WlJheWZyaWtyMlZaS3NZY19HeGNCSUFUZVV4a19lOHZMVzNMTzJFTzNMVjk1ekQ4NzdzT2ZvWXRrS0VVc2tzODlhdFhuVjBkNmFzVFJqdHlnZEJNdV9ienVJSmRMakR4aUltS2JoRFVHc0RBbVBCcDdUb1pHd0NoUFJXeG1qUlZDVEJmWmZDQnNxZ1pRdjZlSFZraVZNcm9YMURJNmlKTDZLTFJBLS1iTDdzRkZWdXhTbTBhNHB2MVB3SFN3aHFpNUZ6QXlfaGc?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "Benzinga"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Humana Lifts Outlook as Quarterly Revenue Jumps - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQc094bHZCZDRCMGlObG1pUEhhZEVBa1hDLWNFak83YVpSeEVrRnRJWVJReUFCVUVBTzdoM1kzRzhfYjdPXzJnbjZKdDJLUDlFOXVtTWxDeXJCLW9VNDVXLVp2TWlzUlFWYV9zOUN1N1NyNWpzaGh1ZWdFSG1CRU4xMjZfcmYtQ2lKRzFzUVNiQkdsd1B0SzBkd0R3?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "WSJ"
+       },
+       {
+        "title": "Humana expects another year of Medicare Advantage membership growth in 2027 - Healthcare Dive",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORlhOMEhhWlZBa3FTZTdDcXhqbENlYmQ5MWpTVVJWVjlDa2lmTFh0aWV1TUVocHYtTTRTdDFuZXJORFlNTzF2Yi1mR1k4VzB6Zkx6RExnZGF6MmMtakcyWjBrVHVqcFRnQnF0cC12N0RIcUgzTWpGV0JUTEhRYnd0WlJPOTVha3VyMlVsZnc4MzhrOVA4Zi1RZHFZMV9YQjF4bW9UVzFOYVdTMlE?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "Healthcare Dive"
+       },
+       {
+        "title": "Humana boosts forecast, capping strong quarter for insurers - Modern Healthcare",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZUd1VjdxdThyWjMteEpxdEdGYlI5NWNfVjVTTkdRTVVrbnhGVFIzZDN5b3hENzZWbEIzVkNtSzVJekQ3cFZTa3ZNTUV4bmlBUDUxRFZndDFWRlBTZnJKMFBGeEx1WUg4bmFFZHdqanFtWmdMcDBNSjBsblZLMy1JcHFDNjdXZzhTZFFwT29tR0hhSC1KbkpLNw?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "Modern Healthcare"
+       },
+       {
+        "title": "Humana raises outlook, sees Medicare Advantage gains - Healthcare Finance News",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRjhDOEJIY0VrNm0yc2F4cXAtWW8za2JDSXVuVEcwcHdIZEp0VnJ2V1lPanFnWmhCN3RucElRZ0FaR3d5VnJ2c3VQOF91eEt1cmpOcGQ1aGpQUGZOOHVMZlU5UzNiN00zZHdWYmtsWnFsbFFMeXFlSXFlNV9nMVM1YmROWE5Rd3d1Rks1RnBjbDF0aWV3WDlrQjhB?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "Healthcare Finance News"
+       },
+       {
+        "title": "Humana Stock Gets a Boost From Unexpected Decline in Medical Costs - Barron's",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeXRzbTZuR3R1bXJ1REdueXkzUTFsNjliUVRiNk96TDF6VWg5Tl9ZeUtMTW9WUkh0aTJ1cC01emZyMlBiaWpmQTVFTWIxY3p5TUo5dWxlZmFMQU5uaDY3SmtoR3BMUkNVdlNMd1VJYURrZ2tIc0hNWnc2YnI3X2V1V3dvSmtkSzQ?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "Barron's"
+       },
+       {
+        "title": "Humana pacing ahead of expectations during Medicare enrollment window, CEO says - Fierce Healthcare",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOblQ5SENaQ0F0V3JCME15T3FlMi1NdWlXLWQxb0NiTjVzSTRBbm0tY29tRXA0Z2RJZ0JIZ3JxNl9iaHY3WVlLQ0tyUFpic254d1A5Y1ppSlhZMkNCSlBHUWtZU3pqeWdsQmZYOUFuMUotVngxUHpTOHdzUzBnV2tETy15YVhwSHdaUnZFTkJJU28teUFxYVFGTHpocmJ4dmc2eFNj?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "Fierce Healthcare"
+       },
+       {
+        "title": "Humana (HUM) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaHdpR3dpdnJXQy01Um02d25ybi1PTVlCcUxZQkpXQ2xzd2M5OENBdGQ5dXV0WVdnZEd2Z3N0NUhoek5CYnJJZGNfb0wxUTZTYUtqbmFaeDJEcmdiZENIZGN2Q0h2c21Ja3Z1dG1wLWc4Z0hjd3RidFRBelBDRW4tRVRPQ3JtbmxXcVJkRTN6M1JmVnlteEhmaDF3?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Humana Stock Rises After Narrower-Than-Expected Loss, Raised 2026 Profit Outlook - Benzinga",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeS13WlJheWZyaWtyMlZaS3NZY19HeGNCSUFUZVV4a19lOHZMVzNMTzJFTzNMVjk1ekQ4NzdzT2ZvWXRrS0VVc2tzODlhdFhuVjBkNmFzVFJqdHlnZEJNdV9ienVJSmRMakR4aUltS2JoRFVHc0RBbVBCcDdUb1pHd0NoUFJXeG1qUlZDVEJmWmZDQnNxZ1pRdjZlSFZraVZNcm9YMURJNmlKTDZLTFJBLS1iTDdzRkZWdXhTbTBhNHB2MVB3SFN3aHFpNUZ6QXlfaGc?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "Benzinga"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-11-06 23:52"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 41.0 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 5.0%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 71,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  }
+ },
+ {
+  "date": "2026-11-06",
+  "market": "美股",
+  "type": "買進候選",
+  "ticker": "CPAY",
+  "name": "Corpay",
+  "note": "檢核 64/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 455.16 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 78%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 7%，成長年份占 100%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 11%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 21%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 -12%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：Corpay透過提供企業支付與費用管理解決方案，受惠於企業數位轉型與支付現代化的結構性趨勢，推動其核心業務穩健成長。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "Corpay透過提供企業支付與費用管理解決方案，受惠於企業數位轉型與支付現代化的結構性趨勢，推動其核心業務穩健成長。",
+      "analysis": "Corpay的企業支付解決方案（如AP現代化、虛擬卡片）直接受益於企業數位轉型與支付流程現代化的結構性趨勢。近期營運數據顯示營收持續增長，且公司已上調財測，並預期2027年有機成長率達9%至11%，顯示管理層對未來成長的信心。新聞報導指出其企業支付業務營收強勁增長18%，且調整後獲利與現金每股盈餘顯著提升，證明核心業務動能來自結構性變化。儘管最新一季GAAP獲利年增為負，但整體營收與調整後獲利表現強勁，且公司目標有機成長，預示未來獲利仍具穩健成長潛力。",
+      "risks": [
+       "近期一季GAAP獲利年增為負12%，與調整後獲利成長形成對比，需釐清其原因及對未來獲利的潛在影響。",
+       "支付產業競爭激烈，技術快速演進，公司需持續創新以維持市場地位。"
+      ],
+      "sources": [
+       {
+        "title": "Corpay Q3 Adjusted Earnings, Revenue Increase; Fiscal 2026 Outlook Raised - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMnE0NHFiMlVJT0ZSSER2S0VBeVI3dnNlMFR0dmVQUnVsMTJjdHoxZnQ3d3N0SC15WnRwT0RCUUJsZnNoWF8xMXI5QmFNRlQ0dm5MS1lxaXNybm04UF9sbmJ2RnlOMHBhVjF3dlhlMkxnWFFGSVowZENRWHA3bE5iSHd4Vk5ScVBwOC1SSVlDc2p6MlltckZ2NEJvY0FQUGRqYmc?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Corpay Q3 Earnings Beat Estimates, Revenues Increase 18% Y/Y - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZkJuTWtBWlFnQVRnN2NjeF9DNHhjNXRBS0lMQXAtUFNxczBVWkhUbkZjWDBiM0NpSzFlQjNqbXlma1gzY1ZLODJGYnpGR0RNeVN6NW9YMTJQMjZLSjRsX3pSNXowNUE0dGw2dm9IdXMxd2EwUlptaHdZU3Q2LVZBTnhQVEV2cTdXWmxuaGFVVWZKLUNGeFdqc0tBS1BjcFJpSVUtejF2TldiY3RYNEJkTjdXTVE?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "TradingView"
+       },
+       {
+        "title": "Corpay Targets 9% to 11% Organic Growth in 2027, Plans $2 Billion in Cash Deployment - TOKENPOST",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE54TWN6Z0N2SFY1N0NqbWtEODB5TWxqajBncVcxTHoxMnJSYVZYRGpxSzFBNWxiUjhxZjJOekl2UTBIMElFaU9sa2RaY2RjQlNvQjFobFNSLTU?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "TOKENPOST"
+       },
+       {
+        "title": "[Corpay Q3 2026 Earnings Call] Corpay Raises Guidance as Corporate Payments Surge 18% and Cash EPS Jumps 32% to $7.54 - BigGo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBuQkdqM0lQUU1yMHhheTYtQTM4WG80eGZpclVmTGhiaVZlVHdDYnc1SldKQzExRE9JVFUtMHdtTFVUNDRBVkdqQklkeHZEUDg1MmtsWTBUXzBmS29SUEE?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "BigGo Finance"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Corpay Q3 Adjusted Earnings, Revenue Increase; Fiscal 2026 Outlook Raised - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMnE0NHFiMlVJT0ZSSER2S0VBeVI3dnNlMFR0dmVQUnVsMTJjdHoxZnQ3d3N0SC15WnRwT0RCUUJsZnNoWF8xMXI5QmFNRlQ0dm5MS1lxaXNybm04UF9sbmJ2RnlOMHBhVjF3dlhlMkxnWFFGSVowZENRWHA3bE5iSHd4Vk5ScVBwOC1SSVlDc2p6MlltckZ2NEJvY0FQUGRqYmc?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Corpay earnings up next: Can payments giant sustain growth pace? - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSC16WGlPeUdPYm1tc3lJV1drYVp0MXhTVHdvVE9Oc2hud19fc1g3TG1uLUxlSHI3SUpCU0tQOE9UQS1jV1Y3LXRoWFRwTmZiXzc1cDZiU2dadkhacGVmTjBnNmJqclRXeTFyNXhGZFFzZFFJZk43TDh3YkE3dHcwNThmQkM0aFFuM1FpaUlwbGhiMjVJdGtIX2pCOGhVd3NZdVgzY0ZLSGhRWnJ2Ny14cFFCY3hpdw?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "Investing.com"
+       },
+       {
+        "title": "Corpay Q3 Earnings Beat Estimates, Revenues Increase 18% Y/Y - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZkJuTWtBWlFnQVRnN2NjeF9DNHhjNXRBS0lMQXAtUFNxczBVWkhUbkZjWDBiM0NpSzFlQjNqbXlma1gzY1ZLODJGYnpGR0RNeVN6NW9YMTJQMjZLSjRsX3pSNXowNUE0dGw2dm9IdXMxd2EwUlptaHdZU3Q2LVZBTnhQVEV2cTdXWmxuaGFVVWZKLUNGeFdqc0tBS1BjcFJpSVUtejF2TldiY3RYNEJkTjdXTVE?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "TradingView"
+       },
+       {
+        "title": "Corpay Targets 9% to 11% Organic Growth in 2027, Plans $2 Billion in Cash Deployment - TOKENPOST",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE54TWN6Z0N2SFY1N0NqbWtEODB5TWxqajBncVcxTHoxMnJSYVZYRGpxSzFBNWxiUjhxZjJOekl2UTBIMElFaU9sa2RaY2RjQlNvQjFobFNSLTU?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "TOKENPOST"
+       },
+       {
+        "title": "Corpay Q3 2026 Earnings Call Transcript - Benzinga",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSTFLdDgzSGdJeS1ySmtDVEZndGRQczJJZEhWTjF3aW0wZHFOQ2F0bFByMW1HN01odmttM0VRQWUwcTdvZmJrRU5lM0VJMFhuc1NrLVl3SUs1bk5DdTc3QmJ0RFBxdWFQZm9DY01zWXQ3UmNuU3JicDcteERzQ1hWajFsRmt0Ul80eG5RSA?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "Benzinga"
+       },
+       {
+        "title": "Corpay Inc (CPAY) (Q3 2026) Earnings Call Highlights: Sixth Stra - GuruFocus",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQdVk5WHVLV0F2RzRIM0c1b1I5R2hZeVZGb3R0MGFuTjV6emhVTGZzdGh4R3NqcjlXSFJjOXJJeXZTYV9faHVRVnpSVUdIUFRzZ1VTTlRmZC1Zb2F0UmYyeWVQXzhyaDJ1LUk2RHdWVEc5M3BmTUY0b0JRMmpnOXhnLXdsUG1rY2pCdXpwSXJVWDgxMEhzQ3NSQXUtSEZ6S0dBdXZnVHBSMFpqN1RRbXJzZ2JtS1hHOFlDanlwZ3owdXR5QndwS0xEaWZVcVFqUEdrOTU4NWNuOGdlbEFleUwwdlNXVlVJR2pHYXNMcUVibGRNZ2M?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "GuruFocus"
+       },
+       {
+        "title": "Corpay (CPAY) reports earnings tomorrow: what to expect - FinancialContent",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZmk5dHBwM1lEUUJqVWFWTmFDbE1vUUh6TDFLdGRIeEJoS05QcE52ejhQV1lTbHRUTzZfVmcwejFDTWY4VHo5ZDIwTGU4bnhRd3dRRFdpOFY2OXlrMjFlZGlyc3JxaWs0MW01OGVIZkhyMmxFQ19VVzFXbGI3TXRobklRanAweWJPZkRoMmQxaWpyNkVIYnJYbnFMZlhFUmdGZ0Mza0VCSWJzTUM1QVRpUDJKQWhsdTdVdUhnUFc1SERrenc?oc=5",
+        "date": "Tue, 03 Nov 2026",
+        "source": "FinancialContent"
+       },
+       {
+        "title": "[Corpay Q3 2026 Earnings Call] Corpay Raises Guidance as Corporate Payments Surge 18% and Cash EPS Jumps 32% to $7.54 - BigGo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBuQkdqM0lQUU1yMHhheTYtQTM4WG80eGZpclVmTGhiaVZlVHdDYnc1SldKQzExRE9JVFUtMHdtTFVUNDRBVkdqQklkeHZEUDg1MmtsWTBUXzBmS29SUEE?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "BigGo Finance"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-11-06 23:54"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 25.0 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 5.0%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 64,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  }
+ },
+ {
+  "date": "2026-11-06",
+  "market": "美股",
+  "type": "買進候選",
+  "ticker": "CAH",
+  "name": "Cardinal Health",
+  "note": "檢核 64/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 271.72 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 53%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近5年平均年成長 53%，成長年份占 100%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 3%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 5%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 15%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：Cardinal Health的未來獲利成長來自於專業藥品市場的結構性擴張，其專業藥品部門表現強勁。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "Cardinal Health的未來獲利成長來自於專業藥品市場的結構性擴張，其專業藥品部門表現強勁。",
+      "analysis": "該公司近期財報和展望持續強調其專業藥品部門的強勁表現，這是未來獲利能力的關鍵驅動力。此成長源於專業藥品市場的結構性擴張，這是一個長期產業趨勢而非景氣循環復甦。管理層已上調其展望，強化了對持續成長的信心，並得到近期季度營收和獲利正成長的支持。這種向高價值專業治療的結構性轉變，為未來獲利成長提供了清晰且可持續的途徑。",
+      "risks": [
+       "持續的「溫和商品壓力」可能影響其利潤率。",
+       "醫療保健產業的高度監管性質，可能因藥品定價或報銷政策的潛在變化而帶來風險。"
+      ],
+      "sources": [
+       {
+        "title": "CAH Q1 Earnings Call Highlights Raised Outlook and Specialty Growth - The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTDhxTk52ZWNsa1FuWjdfX3RmWTFrUHRteWI0QmNQSjNLZHRrOG5zNTV5eFlWSEFBTVdmUzhCWENmNngtNFFNYm1EWG5JNXF6b3lMTWZmRUpEVGpuR0IyUFk2TXdBVzNiT1k4c0Fsa0hlR3BXV29TV0RJajhMQ2tLbUxtV21jejlFQmc1MzhCemRtSnV0UkhBdDFjTTJyTV9fNmNLQnhCbDRsUG1xY1FlWUtqYzNRUEFKVjVTelhWYWNjOGMxQUFENnF1NXF0Zk9CQmxEYzUyTzhJUkhablFQMVhwZDYwQQ?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "The Globe and Mail"
+       },
+       {
+        "title": "Cardinal Health Sees Healthy Demand, Despite Modest Commodity Pressure - Benzinga",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSGVlOXlFU1ZVeUM0ZDZCRFBMYU5jMXVMM1FudkFzc2E1V1RpcVY1V0pGWV9kcDJOUHhjSDVMYW5pMjMxSlBPTjFQc2I3QXg3UGNXTE5RSkxrMlNPVkFkWGstS1FIdW5WVjZJT2ZhNWVBWGM2Q1JhRDVmaV9VMThyaFAxODF1VjNRX2FzTy1udU9Mam12cE5CeTJzM2hUQWFhSTVhTzg4aTFTNDJhQktScnRHa0NhYlc2V1dUSTh4VVpMNjNE?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "Benzinga"
+       },
+       {
+        "title": "Cardinal Health Reports First Quarter Fiscal Year 2027 Results and Raises Outlook - PR Newswire",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMS1BQkRWZ1RuTlkzUmdjUWEwUGhfRUxwRWl6ZElGZmlzbHR5aWt5czZZazVwTF9QNnVpalpZVmFoNzdwaWFkZTlhRnlDVGJjckNvTURweG1BQUZaUkh3ODlNN05RWFd3aWtxUGt2cXVaZGtCVzJHdDVaaVFReXJ2QnV4VmxsQnVLTjU5WmEteFlJZ2JSa2l3M3laYlBscU02aFg2NnZILUJXdUotVHl0el9JYTNKaWlrZ3BCRWxGS1VidXI2bkY2TF9iaTA3UWFUNkc0?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "PR Newswire"
+       },
+       {
+        "title": "Cardinal Health Lifts Outlook as Specialty Drug Unit Beats, Shares Hit Record - BigGo Finance",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43S0dMUDZ0cTI1X1FzdVoyMkgybnF3eUlpZlBBSmJhUnhwMmJIcDVnOVh2OWdDcmJjS0ZqOERsdW9MWWUzTmY3NTN4VVRnd2JRZlFQNkk4ZHAyMFpQVHN4MW1ja2lsOWtHMFhKcVNiQjhmNk1pLVE?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "BigGo Finance"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Does Earnings Beat Change The Bull Case For Cardinal Health Stock (CAH)? - Yahoo! Finance Canada",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUlQzZWo1Z2VfejB2RDUxT3lsN0REMHhDOUxGZTdRTXlUakxyMGlEa3M3WE1iYWRYNDBDYTkwOXg3Z01qT0YxQzZwanRMQVZPeFRCZ1FzV0k3cUdxbG82eW5FRks1SU9ldVFYVFhyNG94RTJmWjZ3Njg1cnNwN2lBOVFjVldnQQ?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "Yahoo! Finance Canada"
+       },
+       {
+        "title": "CAH Q1 Earnings Call Highlights Raised Outlook and Specialty Growth - The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTDhxTk52ZWNsa1FuWjdfX3RmWTFrUHRteWI0QmNQSjNLZHRrOG5zNTV5eFlWSEFBTVdmUzhCWENmNngtNFFNYm1EWG5JNXF6b3lMTWZmRUpEVGpuR0IyUFk2TXdBVzNiT1k4c0Fsa0hlR3BXV29TV0RJajhMQ2tLbUxtV21jejlFQmc1MzhCemRtSnV0UkhBdDFjTTJyTV9fNmNLQnhCbDRsUG1xY1FlWUtqYzNRUEFKVjVTelhWYWNjOGMxQUFENnF1NXF0Zk9CQmxEYzUyTzhJUkhablFQMVhwZDYwQQ?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "The Globe and Mail"
+       },
+       {
+        "title": "Cardinal Health earnings on deck: Can revenue match EPS growth? - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMXZxRGJvUC1OdUwxMFVjQXBjbGgtQTctSkVWajhld3pJMGFUQ1FSQmdrY3hDRHVhMm9HRnRPU2dOSGMxZG40ZEVHTXkwTnpIU3ctaWtleGZLbEFXZjZfWmNWcXJDMWRDM1E1ZEpHZjdWYUtRYnBEUFZsY0ZGX3ZDcjF2TFdFY3liYjNJVDNHc09hRGNhOVQtbFJJcnhLWXJtQzBtVGFFS2plSjFZY1l5OVE5dWI?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "Investing.com"
+       },
+       {
+        "title": "Cardinal Health Sees Healthy Demand, Despite Modest Commodity Pressure - Benzinga",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSGVlOXlFU1ZVeUM0ZDZCRFBMYU5jMXVMM1FudkFzc2E1V1RpcVY1V0pGWV9kcDJOUHhjSDVMYW5pMjMxSlBPTjFQc2I3QXg3UGNXTE5RSkxrMlNPVkFkWGstS1FIdW5WVjZJT2ZhNWVBWGM2Q1JhRDVmaV9VMThyaFAxODF1VjNRX2FzTy1udU9Mam12cE5CeTJzM2hUQWFhSTVhTzg4aTFTNDJhQktScnRHa0NhYlc2V1dUSTh4VVpMNjNE?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "Benzinga"
+       },
+       {
+        "title": "Drug Wholesalers Go Three-For-Three In Earnings Beats, But Only Two Stocks Pop - Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOFluM2EzakZBSTNOeVNqSlNyTVdRc0p2Z1EtVExta1k0bjM1THhqa1ZFV09wa2FqY0EyWXBCX29ub1pldVJBQlNVME1VZ1RnQWF0Rm5JV0tKM3NsQ0RFZFUyN0M4UlpSenNtdFZsNVV5VnhuUXY5ZTNuVzBCbmtGOGMtN1RrRXpjRWstTFItZ2ZCbjc2bG1UTUQ0SEk2UQ?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "Investor's Business Daily"
+       },
+       {
+        "title": "We're raising our price target on Cardinal Health after another stellar quarter of profits - CNBC",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORWlGS0VaWW9iM29QbU55VFg2RlBuVmxjcG5uMTdSQ1dpVGY1V1hYUGt6N1pLMFJMUnVKSEp6cWZjTFVaeXBESGhmZkNId2tOZ0o1YTNfS1lvaUJKekozR1Y4RndRWkEwRlpyYVhPLW85TVIydHFmYUdiOHpwLTRaLTRZRGkzVnEyc2VPS2Qtalo3ZVlOWWVOeXpBTmNqOUdqMDZGb0RhNWtwTEhyUUJhbUQxVVd2dWlnSkNWM3l4THIzVi1XaE5KeTh3ZWVhMkREYUhHQ0dVdw?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "CNBC"
+       },
+       {
+        "title": "Cardinal Health Reports First Quarter Fiscal Year 2027 Results and Raises Outlook - PR Newswire",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMS1BQkRWZ1RuTlkzUmdjUWEwUGhfRUxwRWl6ZElGZmlzbHR5aWt5czZZazVwTF9QNnVpalpZVmFoNzdwaWFkZTlhRnlDVGJjckNvTURweG1BQUZaUkh3ODlNN05RWFd3aWtxUGt2cXVaZGtCVzJHdDVaaVFReXJ2QnV4VmxsQnVLTjU5WmEteFlJZ2JSa2l3M3laYlBscU02aFg2NnZILUJXdUotVHl0el9JYTNKaWlrZ3BCRWxGS1VidXI2bkY2TF9iaTA3UWFUNkc0?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "PR Newswire"
+       },
+       {
+        "title": "Cardinal Health Lifts Outlook as Specialty Drug Unit Beats, Shares Hit Record - BigGo Finance",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43S0dMUDZ0cTI1X1FzdVoyMkgybnF3eUlpZlBBSmJhUnhwMmJIcDVnOVh2OWdDcmJjS0ZqOERsdW9MWWUzTmY3NTN4VVRnd2JRZlFQNkk4ZHAyMFpQVHN4MW1ja2lsOWtHMFhKcVNiQjhmNk1pLVE?oc=5",
+        "date": "Thu, 05 Nov 2026",
+        "source": "BigGo Finance"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-11-06 23:56"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 35.2 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率 5.0%，上漲力道普通——書中建議減少單次購買量",
+     "starred": true
+    }
+   ],
+   "score": 64,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  }
+ },
+ {
+  "date": "2026-11-06",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "VTRS",
+  "name": "Viatris",
+  "note": "剛黃金交叉，距3年收盤高 100.0%（K 75.2／D 72.09）"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "DGX",
+  "name": "Quest Diagnostics",
+  "note": "準備交叉向上，距3年收盤高 99.98%（K 82.16／D 82.66）"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "LH",
+  "name": "Labcorp",
+  "note": "剛黃金交叉，距3年收盤高 99.57%（K 82.82／D 82.29）"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "AWK",
+  "name": "American Water Works",
+  "note": "準備交叉向上，距3年收盤高 98.6%（K 85.9／D 86.49）"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "PSA",
+  "name": "Public Storage",
+  "note": "準備交叉向上，距3年收盤高 98.45%（K 87.97／D 89.95）"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "BBY",
+  "name": "Best Buy",
+  "note": "準備交叉向上，距3年收盤高 98.29%（K 61.65／D 61.96）"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "DRI",
+  "name": "Darden Restaurants",
+  "note": "準備交叉向上，距3年收盤高 98.15%（K 75.11／D 76.35）"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "IQV",
+  "name": "IQVIA",
+  "note": "剛黃金交叉，距3年收盤高 97.3%（K 43.87／D 40.95）"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "MA",
+  "name": "Mastercard",
+  "note": "準備交叉向上，距3年收盤高 97.03%（K 72.16／D 73.99）"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "MDT",
+  "name": "Medtronic",
+  "note": "準備交叉向上，距3年收盤高 96.99%（K 80.03／D 80.78）"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "SPG",
+  "name": "Simon Property Group",
+  "note": "準備交叉向上，距3年收盤高 96.5%（K 86.63／D 88.52）"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "美股",
+  "type": "箱型訊號",
+  "ticker": "YUM",
+  "name": "Yum! Brands",
+  "note": "準備交叉向上，距3年收盤高 96.21%（K 78.0／D 78.57）"
  }
 ]
