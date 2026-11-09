@@ -2,228 +2,6 @@
  {
   "date": "2026-11-03",
   "market": "美股",
-  "type": "買進候選",
-  "ticker": "EXPD",
-  "name": "Expeditors International",
-  "note": "檢核 64/100，候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定",
-  "scorecard": {
-   "items": [
-    {
-     "key": "1",
-     "name": "① 股價突破近年來高價",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "收盤 204.31 創近 2 年新高",
-     "starred": true
-    },
-    {
-     "key": "2",
-     "name": "② 新高價位置（反彈幅度≥60%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 60%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-     "starred": true
-    },
-    {
-     "key": "3",
-     "name": "③ 過去獲利穩健成長（年均≥7%）",
-     "grade": "X",
-     "symbol": "×",
-     "detail": "近5年平均年成長 -12%，成長年份占 33%",
-     "starred": false
-    },
-    {
-     "key": "4",
-     "name": "④ 最近1~2年獲利成長≥20%",
-     "grade": "X",
-     "symbol": "×",
-     "detail": "近四季獲利年增 -0%",
-     "starred": false
-    },
-    {
-     "key": "5",
-     "name": "⑤ 最近2~3季營收成長≥10%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近1期季營收年增 32%",
-     "starred": false
-    },
-    {
-     "key": "6",
-     "name": "⑥ 最近2~3季獲利成長≥20%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近1季獲利年增 39%",
-     "starred": true
-    },
-    {
-     "key": "7",
-     "name": "⑦ 未來獲利能否穩健成長",
-     "grade": "X",
-     "symbol": "×",
-     "detail": "AI 判斷（僅供參考，請複核依據）：公司近期獲利成長部分來自景氣循環回升的亞洲出口需求，不符合結構性成長的標準。",
-     "starred": true,
-     "ai": {
-      "grade": "X",
-      "one_line": "公司近期獲利成長部分來自景氣循環回升的亞洲出口需求，不符合結構性成長的標準。",
-      "analysis": "Expeditors International近期營運數字顯示營收與獲利有顯著成長（近1季營收年增32%，獲利年增39%），扭轉了過去五年平均負成長的趨勢。然而，新聞報導指出此成長部分歸因於「科技相關需求」及「超大規模企業業務」（結構性變化），但也明確提及「亞洲出口復甦」（景氣循環）。根據判斷標準，若成長理由包含景氣循環因素，則不符合「未來獲利穩健成長」的條件。由於證據未能區分結構性與循環性因素對獲利的貢獻比例，且保守原則下，景氣發言即淘汰。",
-      "risks": "全球貿易景氣波動可能影響公司獲利穩定性；對特定產業（如超大規模企業）的依賴可能帶來集中風險。",
-      "sources": [
-       {
-        "title": "Successful quarter at Expeditors boosted by hyperscaler business - FreightWaves",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWTRuTnRmUzB0eGlyaGlmOWtWb1RkVFR6V29oTzNVY2MxbUVlYXg1OEZOaS1xNTl2ajZLUW8zTXRzaXNoWTBjOFNDSmtGQ0pTTkhNaEViaXpncnNkQWt6WEJuMkVvZ1ZXdGxfVFRDMU9fWUFrLVBRYTMwbGlzTkY4Q1FuTHNudzRuOHdhTjFSNWRsZnMyQ0JsRW1NNnNCdW8?oc=5",
-        "date": "Tue, 03 Nov 2026",
-        "source": "FreightWaves"
-       },
-       {
-        "title": "Expeditors' Net Revenue Surging on Tech-Related Demand and Recovering Asia Exports - Morningstar",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZU5mVF9VdUgwTWw2Qk9kam92Vnc3Nk5wSE93WHJCQm5ucG52M21RdWRBZExORWd3V3h4SVZzdlVGYjYyY2loNTdmV3JjOFF3SFRIM0ptTmpXRHBmNEJZNE5rQUxLLXpIaERCeG5pTXBEc095amxMVnVUTkp2WFlJXzlLcnVMbm9WNEZRYTkxZEh1SnJCN2VxdWpfRW1BZktYYldsTHJsQnBQbjRVTlBUbWRnU29QQmd4eWtaQzNlb3hfMUhYaENBZF9RNHFkQQ?oc=5",
-        "date": "Tue, 03 Nov 2026",
-        "source": "Morningstar"
-       }
-      ],
-      "all_news": [
-       {
-        "title": "Expeditors International: Q3 Earnings Snapshot - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMmU3ZkE3c2g2dGIxVFljdzhtU0UyRGpCXzliaEpfMWpkOXB4eTFLYVJhQk04X1ktdUFWQWdGXzdxTXpJdEpjS2ktZjBZYXdsaXQ1N1FMbjNSeFEyUHdIT1BiY285TjhXMGRZMFBmbUlkN1JhNkxWLWFpc0Rma1ZOWXFuTUxHNVNWelNRZkVxVHcwOWxFSzl3NVE3ekNXc1dXTE1IeEFLLWJuV19Rd1Iw?oc=5",
-        "date": "Tue, 03 Nov 2026",
-        "source": "Yahoo Finance"
-       },
-       {
-        "title": "Successful quarter at Expeditors boosted by hyperscaler business - FreightWaves",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWTRuTnRmUzB0eGlyaGlmOWtWb1RkVFR6V29oTzNVY2MxbUVlYXg1OEZOaS1xNTl2ajZLUW8zTXRzaXNoWTBjOFNDSmtGQ0pTTkhNaEViaXpncnNkQWt6WEJuMkVvZ1ZXdGxfVFRDMU9fWUFrLVBRYTMwbGlzTkY4Q1FuTHNudzRuOHdhTjFSNWRsZnMyQ0JsRW1NNnNCdW8?oc=5",
-        "date": "Tue, 03 Nov 2026",
-        "source": "FreightWaves"
-       },
-       {
-        "title": "Expeditors' Net Revenue Surging on Tech-Related Demand and Recovering Asia Exports - Morningstar",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZU5mVF9VdUgwTWw2Qk9kam92Vnc3Nk5wSE93WHJCQm5ucG52M21RdWRBZExORWd3V3h4SVZzdlVGYjYyY2loNTdmV3JjOFF3SFRIM0ptTmpXRHBmNEJZNE5rQUxLLXpIaERCeG5pTXBEc095amxMVnVUTkp2WFlJXzlLcnVMbm9WNEZRYTkxZEh1SnJCN2VxdWpfRW1BZktYYldsTHJsQnBQbjRVTlBUbWRnU29QQmd4eWtaQzNlb3hfMUhYaENBZF9RNHFkQQ?oc=5",
-        "date": "Tue, 03 Nov 2026",
-        "source": "Morningstar"
-       },
-       {
-        "title": "EXPD: Expeditors International of Washington Inc. filed SEC Form... - Quantisnow",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUWNEQlE0Zk5JVU41Q1BBYWNKRkV3RjhtN1lUOEdIYkhZcU03SzNGNFVNSW14ZG0wNF9vc0tjVkxXU245V09uZ25VTVNhNG1DbEl6MDljclNVM2VBZnBMSkFFUnB4bW9lVnBWUzUyWUY5QjZpSHBaQUlPTGdtSlpibDdvR3Vva2J0Nzk0YTVqV2VZMF82UVBLdjQ0dWo3NzZ6VGVrd1lBWU44QTRL?oc=5",
-        "date": "Tue, 03 Nov 2026",
-        "source": "Quantisnow"
-       },
-       {
-        "title": "Expeditors International Reports Q3 2026 Earnings: Revenue Hits - GuruFocus",
-        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQanA2bjRtbzZ1NkJqZUhJbUZOQWd1MWR6VWVTa0x4RU9aTENVLWFuaFZUWjRIZ1cwVU5OdWtpMVFNSEZpZnJjNU10dzV2X0xSOHB5YVNpVzdLbjlyb082VUY3azJaeEJGc3YzMXhXWEV5aXhBZWxoMlpnS1p6R3ZESnVTc2dpTzhpdmY0dUFIX2hkNTdITTBXNml2Y1dKMl9ia1NpNEN1eUt3RUE1NUpCdjB2ZzNGYlhiVFpsTXlxRUJMZFVMcFpoeXljOHF4eDF3bzdJbVZ1TngtLWlQTU5EOGRlREYwQVdTOTdoVW12MA?oc=5",
-        "date": "Tue, 03 Nov 2026",
-        "source": "GuruFocus"
-       },
-       {
-        "title": "Expeditors International of Washington's Q3 Earnings, Revenue Rise - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOS1iZmd0LVBCQklpTHgzSFh2OUctNy1KeTRFVVQ5eDlIOXVYalZ3cGRVZTBVdUtFYkx4d2h5QVgyc2pMM0c5S2g3S1BvWXpRdmpBOHlwYkZBLW9GWlA2YWNQQVhKMEt5WS1qUzg1YV93dlA0bjkySFB6VUk4dm1LSHFFVXlBNXZZa21kb05sWFhDenl4UTJDdFM2bTRIUnhlOEgxaEpaSkVLYk5Z?oc=5",
-        "date": "Tue, 03 Nov 2026",
-        "source": "Yahoo Finance"
-       },
-       {
-        "title": "Expeditors International of Washington Q3 EPS Rises 62% to $2.65 - TradingView",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZFZidmpKejVSRDJwc0E1LUQtZ1VvT1BuSmp2Z2lkUVRjY3Vzc2M4MTlEVlBrcjgwOWE5QUgxY3JVS0h4R2NmSGF1VkNadWZPRU53UWZCLUtZUk1UcHlLc0o0WW9nWlNNdEtRN2NRYU5yek02QnJvclNhbHd0WGRKM2pzcThPaE5ibXhmaGI4MkxnTFZLV3hscDdicmRCcjZBYjZ0bGxKcU9pYjZVcUlJN0RrQklpWFNoVFpqTU9zeElUZw?oc=5",
-        "date": "Tue, 03 Nov 2026",
-        "source": "TradingView"
-       },
-       {
-        "title": "Earnings Flash (EXPD) Expeditors International of Washington, Inc. Reports Q3 Revenue $4.11B, vs. FactSet Est of $3.60B - marketscreener.com",
-        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPR3Jvc0JwYVJiSk9yNTIzQ2wtajJsQ21WbmZiMUFqUks0YWdMMFBMUFFqMUVTNFI4cU01YWlzVk56MG5KdmdiSVJVZHJzUW5IZXlQeTBvWDhtTUZsZUo3V1dJU2xYS3duSElDVkx4QUR4MTlpSnB3QVBtbVltWVNiOExWal9pN3kxMklRbFdGRWZlLWx2YTI0RU1QS0QxU0E1YzlKZFFGMlFtSGg1TEtaaTdCUHdISEh0bzBjWlVjQ3N4M1hNemp6UlJBWHJ1bmhVTUhaT3ppN05ZVVhVYVJB?oc=5",
-        "date": "Tue, 03 Nov 2026",
-        "source": "marketscreener.com"
-       }
-      ],
-      "model": "gemini-2.5-flash",
-      "judged_at": "2026-11-03 23:55"
-     }
-    },
-    {
-     "key": "8",
-     "name": "⑧ 本益比未過熱（<60倍）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "本益比 29.7 倍",
-     "starred": false
-    },
-    {
-     "key": "9",
-     "name": "⑨ 大盤上漲力道",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "創新高股比率 4.8%，上漲力道普通——書中建議減少單次購買量",
-     "starred": true
-    }
-   ],
-   "score": 64,
-   "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
-  }
- },
- {
-  "date": "2026-11-03",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "BRK-B",
-  "name": "Berkshire Hathaway",
-  "note": "剛黃金交叉，距3年收盤高 100.0%（K 78.33／D 75.29）"
- },
- {
-  "date": "2026-11-03",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "MAR",
-  "name": "Marriott International",
-  "note": "準備交叉向上，距3年收盤高 100.0%（K 66.62／D 66.77）"
- },
- {
-  "date": "2026-11-03",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "PM",
-  "name": "Philip Morris International",
-  "note": "準備交叉向上，距3年收盤高 99.64%（K 74.96／D 75.94）"
- },
- {
-  "date": "2026-11-03",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "EW",
-  "name": "Edwards Lifesciences",
-  "note": "準備交叉向上，距3年收盤高 99.61%（K 81.07／D 81.78）"
- },
- {
-  "date": "2026-11-03",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "BDX",
-  "name": "Becton Dickinson",
-  "note": "準備交叉向上，距3年收盤高 98.88%（K 70.82／D 72.31）"
- },
- {
-  "date": "2026-11-03",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "ALLE",
-  "name": "Allegion",
-  "note": "準備交叉向上，距3年收盤高 98.76%（K 92.67／D 93.65）"
- },
- {
-  "date": "2026-11-03",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "PNW",
-  "name": "Pinnacle West Capital",
-  "note": "準備交叉向上，距3年收盤高 98.51%（K 84.28／D 84.33）"
- },
- {
-  "date": "2026-11-03",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "NDAQ",
-  "name": "Nasdaq, Inc.",
-  "note": "準備交叉向上，距3年收盤高 98.48%（K 90.19／D 90.33）"
- },
- {
-  "date": "2026-11-03",
-  "market": "美股",
   "type": "箱型訊號",
   "ticker": "TMO",
   "name": "Thermo Fisher Scientific",
@@ -13888,5 +13666,401 @@
   "ticker": "2637.TW",
   "name": "慧洋-KY",
   "note": "雙策略檢核通過：剛黃金交叉，距3年高 95.07%"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "台股",
+  "type": "買進候選",
+  "ticker": "6782.TW",
+  "name": "視陽",
+  "note": "檢核 93/100，強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 274.5 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 70%（目標≥60%），平穩期品質 74%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近4年平均年成長 45%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 45%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近3期季營收年增 30%、18%、28%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近3季獲利年增 41%、54%、32%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：因市場對其矽水膠隱形眼鏡（特別是彩拋產品）需求強勁且供不應求，公司正積極擴充產能以滿足持續成長的訂單。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "因市場對其矽水膠隱形眼鏡（特別是彩拋產品）需求強勁且供不應求，公司正積極擴充產能以滿足持續成長的訂單。",
+      "analysis": "視陽近期營運數字顯示營收與獲利皆呈現高雙位數成長，且連續多季表現亮眼。新聞報導明確指出其彩拋產品供不應求，並已啟動大規模產能擴張，預計供不應求的狀況將持續至2027年。這表明其成長來自於產品的強勁市場需求與市占提升，屬於結構性變化而非景氣循環，支持未來獲利穩健成長的潛力。",
+      "risks": [
+       "產能擴張的執行風險，可能影響新產能的效率與成本控制。",
+       "隱形眼鏡市場競爭激烈，若有新競爭者或技術突破，可能影響其市場地位與獲利能力。"
+      ],
+      "sources": [
+       {
+        "title": "TWA00 加權指數- 視陽彩拋供不應求，Q3擴產開始反映營收- 股市爆料同學會 - CMoney",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE42X093LWkwM1lfUHlVZ1QyZjBmQkZBbjhHVFlYMVppN01aWEoyaFozSzJwczRpY3VJT0hQN0E5cWZISWdCc3R1cUxFWmxPZUNfdENJZFowQWs?oc=5",
+        "date": "Sun, 08 Nov 2026",
+        "source": "CMoney"
+       },
+       {
+        "title": "視陽(6782) 產能三級跳、供不應求看到2027！48.8% 毛利率是天花板還是起點？ - 優分析UAnalyze",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtd3pRd1MyQ3gwNzgyNGxTWTdkWW5fTWdGUzQ4anJPTDZuaHVWNUViSjE2cm0tWjlqcFd5TXBYRmZYVjB1MEpBT2loSDJBZ2FIRWQ5ZDhR?oc=5",
+        "date": "Mon, 12 Oct 2026",
+        "source": "優分析UAnalyze"
+       },
+       {
+        "title": "視陽財報／第3季 EPS 6.32元、創單季歷史新高 前三季 EPS 14.77元 - 經濟日報",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ERTd2Sm9faVNVMTJGQVNKc01ZYjJoWjZWMzhoWm1PdXozTmpjV2JmOWJIeXozWk43MWRLQWRvNS1VTVZOdjNhOHB6aEp6ZUxvNWQ5ekE0NzF3Z9IBX0FVX3lxTE1RMEZCSjE3NGEwYUFFQVRXVEFvRXFNWDdQeWhVWHMzbzRYWm9RZXFGWS16LXJLQmlXNU9GUm1pcXJJZFpUeHdZZW1pUk40NEI2Q3NjSG9JUmc0aDRIR3Nn?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "經濟日報"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "TWA00 加權指數- 視陽彩拋供不應求，Q3擴產開始反映營收- 股市爆料同學會 - CMoney",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE42X093LWkwM1lfUHlVZ1QyZjBmQkZBbjhHVFlYMVppN01aWEoyaFozSzJwczRpY3VJT0hQN0E5cWZISWdCc3R1cUxFWmxPZUNfdENJZFowQWs?oc=5",
+        "date": "Sun, 08 Nov 2026",
+        "source": "CMoney"
+       },
+       {
+        "title": "視陽上季EPS 6.32元創單季新高| 個股情報| 股市 - UDN",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE04Sk9JcFRpZUxMbmYwVUtJU3lMYktFd1ZYOENBZkdpcXp0ZjVaTmthNWt0Q3ZPZ1hoYVozM3MxX2U3di1TbHRJQzI5bGFHQ1pY?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "UDN"
+       },
+       {
+        "title": "視陽 2026-08-21 法說會 - BigGo 財經",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMzRtUE5wdkxYSUpWTVk4TDQ2LTd3YjNVb0ZTMXRWbUltSHRJM3hQdDVUSFpUdjY4SGd2NGlWWmMzZERQMHYxM2tyaUl0T1kwQ1F5eW5QY2c5MExuN0ZnVHJoU1liM1NRZUVuZFk2QXFIeFlvaVVpMDg0ZzV5TnE5WG54NDE?oc=5",
+        "date": "Fri, 21 Aug 2026",
+        "source": "BigGo 財經"
+       },
+       {
+        "title": "【視陽法說會重點內容備忘錄】20260313 - 富果直送",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53SWlfbnU1ajJoODR0aHdmYTZ5OWlCc3FyNGUzTGlicHVLUFA5eG1jd1gzTU96NXQ5cGdTX20tVXFEZHl1SkRjT3hoZWo5UUlDbGJ3bE9HTXg1am5uUC1kZUgtdGJIMnc?oc=5",
+        "date": "Fri, 13 Mar 2026",
+        "source": "富果直送"
+       },
+       {
+        "title": "視陽(6782) 產能三級跳、供不應求看到2027！48.8% 毛利率是天花板還是起點？ - 優分析UAnalyze",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtd3pRd1MyQ3gwNzgyNGxTWTdkWW5fTWdGUzQ4anJPTDZuaHVWNUViSjE2cm0tWjlqcFd5TXBYRmZYVjB1MEpBT2loSDJBZ2FIRWQ5ZDhR?oc=5",
+        "date": "Mon, 12 Oct 2026",
+        "source": "優分析UAnalyze"
+       },
+       {
+        "title": "晶碩、視陽Q4業績迎成長- 日報 - 工商時報",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kUXlsSHVRTEZlLUFPMXhYYTVScFg4MlBneklMNmEzTlBiOVVNNUs2NDkwbDNMMlRkMk9QYlV3MlZpWmdqR1RDbFZ0bzhSU3VKVlB0TGFvWU90Z3lzeUdj?oc=5",
+        "date": "Mon, 12 Oct 2026",
+        "source": "工商時報"
+       },
+       {
+        "title": "〈焦點股〉視陽Q2營收展望正向 漲逾半根停板 - 鉅亨網",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5reS13Z2g4Zkl1VTRJREZXQi1FcTd1SHBFcDVudUg2RXZuX2txVHhPelpYMkRIVWhsYUxiRUxQMUJJQi1zb3B5VzNHTTFxUDQ?oc=5",
+        "date": "Thu, 16 Apr 2026",
+        "source": "鉅亨網"
+       },
+       {
+        "title": "視陽財報／第3季 EPS 6.32元、創單季歷史新高 前三季 EPS 14.77元 - 經濟日報",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ERTd2Sm9faVNVMTJGQVNKc01ZYjJoWjZWMzhoWm1PdXozTmpjV2JmOWJIeXozWk43MWRLQWRvNS1VTVZOdjNhOHB6aEp6ZUxvNWQ5ekE0NzF3Z9IBX0FVX3lxTE1RMEZCSjE3NGEwYUFFQVRXVEFvRXFNWDdQeWhVWHMzbzRYWm9RZXFGWS16LXJLQmlXNU9GUm1pcXJJZFpUeHdZZW1pUk40NEI2Q3NjSG9JUmc0aDRIR3Nn?oc=5",
+        "date": "Wed, 04 Nov 2026",
+        "source": "經濟日報"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-11-09 19:17"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 14.6 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 0.96%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 35 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 93,
+   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
+  }
+ },
+ {
+  "date": "2026-11-06",
+  "market": "台股",
+  "type": "買進候選",
+  "ticker": "1416.TW",
+  "name": "廣豐",
+  "note": "檢核 71/100，候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補",
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 16.35 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 90%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近9年平均年成長 -14%，成長年份占 50%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近四季獲利年增 33%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近3期季營收年增 17%、29%、50%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近3季獲利年增 -29%、40%、155%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "AI 判斷（僅供參考，請複核依據）：儘管近期獲利因數位科技發威而強勁成長，但過往營運高度不穩，尚無足夠證據判斷未來獲利能否穩健成長。",
+     "starred": true,
+     "ai": {
+      "grade": "T",
+      "one_line": "儘管近期獲利因數位科技發威而強勁成長，但過往營運高度不穩，尚無足夠證據判斷未來獲利能否穩健成長。",
+      "analysis": "公司過去九年平均年成長為負，且成長年份僅佔一半，顯示獲利表現極不穩定，不符合「穩健」的標準。雖然近期營收與獲利呈現顯著加速成長，且法說會提及「數位科技發威」為獲利動能，暗示存在結構性成長機會。然而，僅憑短期強勁成長與單一結構性因素，難以推論公司能克服長期不穩定的歷史，達成「穩健」的未來獲利成長，尤其公司業務涵蓋資訊服務與房地產，需更多證據說明數位科技對整體業務的長期穩定影響。",
+      "risks": [
+       "歷史獲利波動劇烈，近期成長趨勢能否持續並轉為穩健仍是未知數。",
+       "公司業務多元，數位科技對房地產業務的影響不明，可能稀釋資訊服務的成長動能。"
+      ],
+      "sources": [
+       {
+        "title": "【廣豐法說會重點內容備忘錄】未來展望趨勢 20260924 - 富果直送",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91TmR6U2VHMmpmOVk1Xy1PcWhMemg3YUZxTjV5d3pLWE56Y3d4eEpUbUhCUjF1QmJ4SHNpUHoxY0tJd2hqQ2ZMMVR5aXdneGV2UzVqdGZZelg3VnRvTzc2eE1LVjVKWDg?oc=5",
+        "date": "Thu, 24 Sep 2026",
+        "source": "富果直送"
+       },
+       {
+        "title": "【廣豐FY2026 Q2 法說會】數位科技發威Q2稅後淨利年增140%、EPS 0.62元創佳績，毛利率衝上40% - BigGo 財經",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5BMVBfOXpRN2FsWnRxdHVtYXljSlVSeFlIRmwxQTdsRWkzajRLZkRNNllqT0xsdXo0Q2FpSXViM3RzNk93WXF5cHBVN2pkdEF3dFNQU2ZtMldpNklhbUJkRy1KSnJ6UQ?oc=5",
+        "date": "Thu, 24 Sep 2026",
+        "source": "BigGo 財經"
+       },
+       {
+        "title": "營收速報 - 廣豐(1416)6月營收4,873萬元年增率高達68.33％｜新聞快訊｜豐雲學堂 - 永豐金證券",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51ZWxsTWJaV2tHaHJTcEROaGFWOUwzMlkyei1EeUpqdF8yVWhUMHRvNm1oNm9VUnR0R1lCUThtdFhmNDUyMF80V0xtcDNiOEJrVVFIM2V0OGpPMGo0aC1EOFRQcTdnZTR1NGwyeGtuTTVZeFRuSWc?oc=5",
+        "date": "Sun, 12 Jul 2026",
+        "source": "永豐金證券"
+       },
+       {
+        "title": "【廣豐法說會重點內容備忘錄】未來展望趨勢 20251218 - 富果直送",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41SjlhRmo1SGhOWUFIZ0JxTG1DMjZ0U3RZMGxWOVE4N1RMczRsY1pWdUJEM1BUaFRvRmFEaTFuU1NxdzBuUmROaG5WZFhtRjJHUThSbEVjMzZwVThHWldxamY2aUVtX28?oc=5",
+        "date": "Thu, 18 Dec 2025",
+        "source": "富果直送"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "【廣豐法說會重點內容備忘錄】未來展望趨勢 20260924 - 富果直送",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91TmR6U2VHMmpmOVk1Xy1PcWhMemg3YUZxTjV5d3pLWE56Y3d4eEpUbUhCUjF1QmJ4SHNpUHoxY0tJd2hqQ2ZMMVR5aXdneGV2UzVqdGZZelg3VnRvTzc2eE1LVjVKWDg?oc=5",
+        "date": "Thu, 24 Sep 2026",
+        "source": "富果直送"
+       },
+       {
+        "title": "【10:35 即時新聞】廣豐(1416)盤中走強，買盤聚焦獲利成長題材 - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMVEyV2RrNFF2aHFoclFhRENkM19waWtOREdwQ0YzTEZWUW5HcHJKMTJNazMyTVdsNjF4RlFKSmsySFI1WEl5dVVjemF1RGoxN1VfVVl1RllVTk5pc3VmNHV4UE13TGVDVHl2bW53cy15NmRZODRRVWV4cjNpSUZOOTN3YlNuZkNDQmVpbkRB?oc=5",
+        "date": "Fri, 06 Nov 2026",
+        "source": "CMoney投資網誌"
+       },
+       {
+        "title": "【廣豐FY2026 Q2 法說會】數位科技發威Q2稅後淨利年增140%、EPS 0.62元創佳績，毛利率衝上40% - BigGo 財經",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5BMVBfOXpRN2FsWnRxdHVtYXljSlVSeFlIRmwxQTdsRWkzajRLZkRNNllqT0xsdXo0Q2FpSXViM3RzNk93WXF5cHBVN2pkdEF3dFNQU2ZtMldpNklhbUJkRy1KSnJ6UQ?oc=5",
+        "date": "Thu, 24 Sep 2026",
+        "source": "BigGo 財經"
+       },
+       {
+        "title": "營收速報 - 廣豐(1416)6月營收4,873萬元年增率高達68.33％｜新聞快訊｜豐雲學堂 - 永豐金證券",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51ZWxsTWJaV2tHaHJTcEROaGFWOUwzMlkyei1EeUpqdF8yVWhUMHRvNm1oNm9VUnR0R1lCUThtdFhmNDUyMF80V0xtcDNiOEJrVVFIM2V0OGpPMGo0aC1EOFRQcTdnZTR1NGwyeGtuTTVZeFRuSWc?oc=5",
+        "date": "Sun, 12 Jul 2026",
+        "source": "永豐金證券"
+       },
+       {
+        "title": "廣豐 2026-09-24 法說會 - BigGo 財經",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdGxPOU9XUmpOSmU4TFhJdXdXUnptX1h5QWtFODJxcDRPWlRPQmtEX09oTnhRZTVyajM0Z285a1pZUkFlelcxcmFEQ1ZyYi0tdGY1TE1HMzE5LUlGbEZXb3cxMmpHWGdxdG1iM09tbVFzRjcyeFd4VlBNcUlFZWRsNDJhQ0I?oc=5",
+        "date": "Thu, 24 Sep 2026",
+        "source": "BigGo 財經"
+       },
+       {
+        "title": "【11:36 即時新聞】廣豐(1416)股價走強，延續獲利成長與營收爆發焦點 - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdVhYaGxGVWZzSGlyRzFtWWgzaS1NRW54TDBpME1FMWgtNkdaUDZMQk9VeHJvZ1Jld3BHRDVWR0xteExENkNHdUdiMVZxcXVUNkJIWWJ6cDc1MEQwMXVyUnRGR01BVEZTUTZEcUd5cEFTbE5QVVAwOXR1TG02anluZkhxRjhkazlOU1RYWDhR?oc=5",
+        "date": "Mon, 12 Oct 2026",
+        "source": "CMoney投資網誌"
+       },
+       {
+        "title": "【廣豐法說會重點內容備忘錄】未來展望趨勢 20251218 - 富果直送",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41SjlhRmo1SGhOWUFIZ0JxTG1DMjZ0U3RZMGxWOVE4N1RMczRsY1pWdUJEM1BUaFRvRmFEaTFuU1NxdzBuUmROaG5WZFhtRjJHUThSbEVjMzZwVThHWldxamY2aUVtX28?oc=5",
+        "date": "Thu, 18 Dec 2025",
+        "source": "富果直送"
+       },
+       {
+        "title": "【13:24 即時新聞】廣豐(1416)股價走強，市場聚焦營收與獲利成長 - CMoney投資網誌",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQ0FITlE5a0FZbVhUYTJndnlDVktSSnBiNGEtbUhNUlhGYTR1czlWUGZ0VFZocllUYS1zVnlXYjI3aTFnTjhXX1B1bm5JQ2FoLVN0NUdFelA0N1J5SzBDaGhvb1ZYRjcxOFotbGhpTWZlRXZUUWNYY1FEbVhoQmJPbHBGdjlOU25kenRtUmtR?oc=5",
+        "date": "Mon, 02 Nov 2026",
+        "source": "CMoney投資網誌"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-11-09 19:19"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 13.9 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 0.96%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 35 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 71,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  }
+ },
+ {
+  "date": "2026-11-06",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "9960.TWO",
+  "name": "邁達康",
+  "note": "準備交叉向上，距3年收盤高 98.8%（K 43.53／D 43.55）"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "1742.TWO",
+  "name": "台蠟",
+  "note": "剛黃金交叉，距3年收盤高 98.4%（K 48.07／D 47.9）"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "6782.TW",
+  "name": "視陽",
+  "note": "剛黃金交叉，距3年收盤高 96.9%（K 60.48／D 56.72）"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "1558.TW",
+  "name": "伸興",
+  "note": "剛黃金交叉，距3年收盤高 96.58%（K 36.82／D 25.33）"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "2010.TW",
+  "name": "春源",
+  "note": "準備交叉向上，距3年收盤高 95.98%（K 33.03／D 33.12）"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "8284.TWO",
+  "name": "三竹",
+  "note": "準備交叉向上，距3年收盤高 95.24%（K 13.67／D 14.07）"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "台股",
+  "type": "綜合訊號",
+  "ticker": "6782.TW",
+  "name": "視陽",
+  "note": "雙策略檢核通過：檢核 93/100，剛黃金交叉，距3年高 96.9%"
  }
 ]
