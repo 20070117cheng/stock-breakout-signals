@@ -2111,7 +2111,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 19169.534613976954,
+  "cash": 21918.73515271902,
   "positions": [
    {
     "ticker": "MSFT",
@@ -2119,7 +2119,7 @@
     "shares": 2.471,
     "buy_price": 544.625,
     "buy_date": "2026-10-13",
-    "last_price": 530.6099853515625,
+    "last_price": 545.1799926757812,
     "signal_date": "2026-10-12",
     "status": "HOLD",
     "status_note": ""
@@ -2130,7 +2130,7 @@
     "shares": 4.3924,
     "buy_price": 300.1400146484375,
     "buy_date": "2026-10-14",
-    "last_price": 303.7300109863281,
+    "last_price": 306.3999938964844,
     "signal_date": "2026-10-15",
     "status": "HOLD",
     "status_note": ""
@@ -2141,10 +2141,10 @@
     "shares": 11.8766,
     "buy_price": 111.55000305175781,
     "buy_date": "2026-10-21",
-    "last_price": 118.55999755859375,
+    "last_price": 118.38999938964844,
     "signal_date": "2026-10-22",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。基本面惡化：最新一季獲利年增 15% < 20%，賣出"
    },
    {
     "ticker": "NDAQ",
@@ -2152,7 +2152,7 @@
     "shares": 12.6618,
     "buy_price": 105.0,
     "buy_date": "2026-10-27",
-    "last_price": 107.12000274658203,
+    "last_price": 108.5,
     "signal_date": "2026-10-26",
     "status": "HOLD",
     "status_note": ""
@@ -2163,40 +2163,26 @@
     "shares": 7.3775,
     "buy_price": 162.7899932861328,
     "buy_date": "2026-10-26",
-    "last_price": 162.35000610351562,
+    "last_price": 169.52000427246094,
     "signal_date": "2026-10-27",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "PRU",
-    "name": "Prudential Financial",
-    "shares": 22.7263,
-    "buy_price": 128.0,
-    "buy_date": "2026-11-05",
-    "last_price": 119.23999786376953,
-    "signal_date": "2026-11-04",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。基本面惡化：最新一季獲利年增 -8% < 20%，賣出"
    }
   ],
-  "pending_buys": [],
+  "pending_buys": [
+   {
+    "ticker": "KDP",
+    "name": "Keurig Dr Pepper",
+    "light": "yellow",
+    "score": 92,
+    "signal_date": "2026-11-09",
+    "signal_close": 36.94
+   }
+  ],
   "pending_sells": [
    {
-    "ticker": "JCI",
-    "reason": "停損：現價 135.03 低於買價 149.98 達 10.0%（門檻 8%），立即賣出"
-   },
-   {
-    "ticker": "MCK",
-    "reason": "基本面惡化：最新一季獲利年增 12% < 20%，賣出"
-   },
-   {
-    "ticker": "AMGN",
-    "reason": "基本面惡化：最新一季獲利年增 20% < 20%，賣出"
-   },
-   {
-    "ticker": "TRGP",
-    "reason": "停損：現價 264.59 低於買價 297.57 達 11.1%（門檻 8%），立即賣出"
+    "ticker": "ED",
+    "reason": "基本面惡化：最新一季獲利年增 15% < 20%，賣出"
    },
    {
     "ticker": "PRU",
@@ -3105,6 +3091,17 @@
     "amount": 1097.26,
     "pnl_pct": -0.08236720490086225,
     "reason": "停損：現價 271.82 低於買價 297.57 達 8.7%（門檻 8%），立即賣出"
+   },
+   {
+    "date": "2026-11-09",
+    "action": "SELL",
+    "ticker": "PRU",
+    "name": "Prudential Financial",
+    "price": 120.97000122070312,
+    "shares": 22.7263,
+    "amount": 2749.2,
+    "pnl_pct": -0.054921865463256836,
+    "reason": "基本面惡化：最新一季獲利年增 -8% < 20%，賣出"
    }
   ],
   "equity_history": [
@@ -3711,6 +3708,10 @@
    {
     "date": "2026-11-06",
     "equity": 28486.82
+   },
+   {
+    "date": "2026-11-09",
+    "equity": 28642.22
    }
   ]
  }
