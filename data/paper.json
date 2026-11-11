@@ -2124,7 +2124,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 21918.73515271902,
+  "cash": 22000.239078862767,
   "positions": [
    {
     "ticker": "MSFT",
@@ -2132,7 +2132,7 @@
     "shares": 2.471,
     "buy_price": 544.625,
     "buy_date": "2026-10-13",
-    "last_price": 545.1799926757812,
+    "last_price": 533.1599731445312,
     "signal_date": "2026-10-12",
     "status": "HOLD",
     "status_note": ""
@@ -2143,21 +2143,10 @@
     "shares": 4.3924,
     "buy_price": 300.1400146484375,
     "buy_date": "2026-10-14",
-    "last_price": 306.3999938964844,
+    "last_price": 305.54998779296875,
     "signal_date": "2026-10-15",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "ED",
-    "name": "Consolidated Edison",
-    "shares": 11.8766,
-    "buy_price": 111.55000305175781,
-    "buy_date": "2026-10-21",
-    "last_price": 118.38999938964844,
-    "signal_date": "2026-10-22",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。基本面惡化：最新一季獲利年增 15% < 20%，賣出"
    },
    {
     "ticker": "NDAQ",
@@ -2165,7 +2154,7 @@
     "shares": 12.6618,
     "buy_price": 105.0,
     "buy_date": "2026-10-27",
-    "last_price": 108.5,
+    "last_price": 110.0199966430664,
     "signal_date": "2026-10-26",
     "status": "HOLD",
     "status_note": ""
@@ -2176,30 +2165,37 @@
     "shares": 7.3775,
     "buy_price": 162.7899932861328,
     "buy_date": "2026-10-26",
-    "last_price": 169.52000427246094,
+    "last_price": 167.5399932861328,
     "signal_date": "2026-10-27",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "KDP",
+    "name": "Keurig Dr Pepper",
+    "shares": 35.2401,
+    "buy_price": 37.37799835205078,
+    "buy_date": "2026-11-10",
+    "last_price": 37.59000015258789,
+    "signal_date": "2026-11-09",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [
    {
-    "ticker": "KDP",
-    "name": "Keurig Dr Pepper",
+    "ticker": "BEN",
+    "name": "Franklin Resources",
     "light": "yellow",
-    "score": 92,
-    "signal_date": "2026-11-09",
-    "signal_close": 36.94
+    "score": 79,
+    "signal_date": "2026-11-10",
+    "signal_close": 36.29
    }
   ],
   "pending_sells": [
    {
     "ticker": "ED",
     "reason": "基本面惡化：最新一季獲利年增 15% < 20%，賣出"
-   },
-   {
-    "ticker": "PRU",
-    "reason": "基本面惡化：最新一季獲利年增 -8% < 20%，賣出"
    }
   ],
   "trades": [
@@ -3115,6 +3111,28 @@
     "amount": 2749.2,
     "pnl_pct": -0.054921865463256836,
     "reason": "基本面惡化：最新一季獲利年增 -8% < 20%，賣出"
+   },
+   {
+    "date": "2026-11-10",
+    "action": "SELL",
+    "ticker": "ED",
+    "name": "Consolidated Edison",
+    "price": 117.7699966430664,
+    "shares": 11.8766,
+    "amount": 1398.71,
+    "pnl_pct": 0.055759690014733465,
+    "reason": "基本面惡化：最新一季獲利年增 15% < 20%，賣出"
+   },
+   {
+    "date": "2026-11-10",
+    "action": "BUY",
+    "ticker": "KDP",
+    "name": "Keurig Dr Pepper",
+    "price": 37.37799835205078,
+    "shares": 35.2401,
+    "amount": 1317.2,
+    "signal_date": "2026-11-09",
+    "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%，訊號日 2026-11-09）"
    }
   ],
   "equity_history": [
@@ -3725,6 +3743,10 @@
    {
     "date": "2026-11-09",
     "equity": 28642.22
+   },
+   {
+    "date": "2026-11-10",
+    "equity": 28613.53
    }
   ]
  }
