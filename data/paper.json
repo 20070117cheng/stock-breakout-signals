@@ -1,7 +1,7 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 446575.2196629769,
+  "cash": 456592.91070021363,
   "positions": [
    {
     "ticker": "2880.TW",
@@ -9,7 +9,7 @@
     "shares": 1007.0701,
     "buy_price": 38.849998474121094,
     "buy_date": "2026-07-16",
-    "last_price": 49.900001525878906,
+    "last_price": 49.349998474121094,
     "signal_date": "2026-07-17",
     "status": "HOLD",
     "status_note": ""
@@ -20,21 +20,10 @@
     "shares": 269.0178,
     "buy_price": 151.0,
     "buy_date": "2026-08-03",
-    "last_price": 188.0,
+    "last_price": 184.5,
     "signal_date": "2026-07-31",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "2851.TW",
-    "name": "中再保",
-    "shares": 1119.8872,
-    "buy_price": 39.099998474121094,
-    "buy_date": "2026-08-19",
-    "last_price": 45.650001525878906,
-    "signal_date": "2026-08-18",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。基本面惡化：最新一季獲利年增 -9% < 20%，賣出"
    },
    {
     "ticker": "2107.TW",
@@ -42,7 +31,7 @@
     "shares": 1428.8801,
     "buy_price": 26.100000381469727,
     "buy_date": "2026-08-21",
-    "last_price": 26.850000381469727,
+    "last_price": 26.399999618530273,
     "signal_date": "2026-08-20",
     "status": "HOLD",
     "status_note": ""
@@ -53,10 +42,10 @@
     "shares": 1297.7515,
     "buy_price": 32.400001525878906,
     "buy_date": "2026-09-04",
-    "last_price": 40.0,
+    "last_price": 42.0,
     "signal_date": "2026-09-07",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。基本面惡化：最新一季獲利年增 5% < 20%，賣出"
    },
    {
     "ticker": "2884.TW",
@@ -64,7 +53,7 @@
     "shares": 937.0329,
     "buy_price": 45.0,
     "buy_date": "2026-09-10",
-    "last_price": 47.349998474121094,
+    "last_price": 46.95000076293945,
     "signal_date": "2026-09-08",
     "status": "HOLD",
     "status_note": ""
@@ -75,7 +64,7 @@
     "shares": 1097.0889,
     "buy_price": 42.599998474121094,
     "buy_date": "2026-09-10",
-    "last_price": 42.0,
+    "last_price": 42.099998474121094,
     "signal_date": "2026-09-08",
     "status": "HOLD",
     "status_note": ""
@@ -86,7 +75,7 @@
     "shares": 196.2733,
     "buy_price": 271.0,
     "buy_date": "2026-10-23",
-    "last_price": 281.0,
+    "last_price": 288.0,
     "signal_date": "2026-10-22",
     "status": "HOLD",
     "status_note": ""
@@ -97,7 +86,7 @@
     "shares": 612.4464,
     "buy_price": 85.0999984741211,
     "buy_date": "2026-10-27",
-    "last_price": 138.5,
+    "last_price": 137.0,
     "signal_date": "2026-10-28",
     "status": "HOLD",
     "status_note": ""
@@ -108,7 +97,7 @@
     "shares": 123.0843,
     "buy_price": 390.0,
     "buy_date": "2026-10-30",
-    "last_price": 474.0,
+    "last_price": 449.0,
     "signal_date": "2026-10-29",
     "status": "HOLD",
     "status_note": ""
@@ -119,7 +108,7 @@
     "shares": 350.7269,
     "buy_price": 135.0,
     "buy_date": "2026-11-04",
-    "last_price": 131.0,
+    "last_price": 132.5,
     "signal_date": "2026-11-02",
     "status": "HOLD",
     "status_note": ""
@@ -130,7 +119,7 @@
     "shares": 826.737,
     "buy_price": 56.5,
     "buy_date": "2026-11-06",
-    "last_price": 61.70000076293945,
+    "last_price": 61.5,
     "signal_date": "2026-11-04",
     "status": "HOLD",
     "status_note": ""
@@ -145,16 +134,27 @@
     "signal_date": "2026-11-09",
     "status": "HOLD",
     "status_note": ""
+   },
+   {
+    "ticker": "5209.TWO",
+    "name": "新鼎",
+    "shares": 218.1288,
+    "buy_price": 192.5,
+    "buy_date": "2026-11-10",
+    "last_price": 198.5,
+    "signal_date": "2026-11-11",
+    "status": "HOLD",
+    "status_note": ""
    }
   ],
   "pending_buys": [
    {
-    "ticker": "5209.TWO",
-    "name": "新鼎",
+    "ticker": "3147.TWO",
+    "name": "大綜",
     "light": "yellow",
-    "score": 75,
-    "signal_date": "2026-11-11",
-    "signal_close": 218.0
+    "score": 79,
+    "signal_date": "2026-11-10",
+    "signal_close": 351.0
    }
   ],
   "pending_sells": [
@@ -163,8 +163,8 @@
     "reason": "基本面惡化：最新一季獲利年增 -9% < 20%，賣出"
    },
    {
-    "ticker": "6021.TWO",
-    "reason": "基本面惡化：最新一季獲利年增 -74% < 20%，賣出"
+    "ticker": "4706.TWO",
+    "reason": "基本面惡化：最新一季獲利年增 5% < 20%，賣出"
    }
   ],
   "trades": [
@@ -1486,6 +1486,28 @@
     "amount": 44842.96,
     "pnl_pct": 0.15898611678774377,
     "reason": "基本面惡化：最新一季獲利年增 -74% < 20%，賣出"
+   },
+   {
+    "date": "2026-11-10",
+    "action": "SELL",
+    "ticker": "2851.TW",
+    "name": "中再保",
+    "price": 46.70000076293945,
+    "shares": 1119.8872,
+    "amount": 52067.31,
+    "pnl_pct": 0.1943734676575124,
+    "reason": "基本面惡化：最新一季獲利年增 -9% < 20%，賣出"
+   },
+   {
+    "date": "2026-11-10",
+    "action": "BUY",
+    "ticker": "5209.TWO",
+    "name": "新鼎",
+    "price": 192.5,
+    "shares": 218.1288,
+    "amount": 42049.62,
+    "signal_date": "2026-11-11",
+    "reason": "買進訊號（黃燈基準 × 檢核75分 → 部位 3.8%，訊號日 2026-11-11）"
    }
   ],
   "equity_history": [
@@ -2136,6 +2158,10 @@
    {
     "date": "2026-11-11",
     "equity": 1118783.13
+   },
+   {
+    "date": "2026-11-10",
+    "equity": 1118907.37
    }
   ]
  },
