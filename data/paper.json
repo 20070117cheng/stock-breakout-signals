@@ -1,7 +1,7 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 456592.91070021363,
+  "cash": 470764.02498849266,
   "positions": [
    {
     "ticker": "2880.TW",
@@ -9,7 +9,7 @@
     "shares": 1007.0701,
     "buy_price": 38.849998474121094,
     "buy_date": "2026-07-16",
-    "last_price": 49.349998474121094,
+    "last_price": 50.599998474121094,
     "signal_date": "2026-07-17",
     "status": "HOLD",
     "status_note": ""
@@ -20,7 +20,7 @@
     "shares": 269.0178,
     "buy_price": 151.0,
     "buy_date": "2026-08-03",
-    "last_price": 184.5,
+    "last_price": 193.0,
     "signal_date": "2026-07-31",
     "status": "HOLD",
     "status_note": ""
@@ -31,21 +31,10 @@
     "shares": 1428.8801,
     "buy_price": 26.100000381469727,
     "buy_date": "2026-08-21",
-    "last_price": 26.399999618530273,
+    "last_price": 27.149999618530273,
     "signal_date": "2026-08-20",
-    "status": "HOLD",
-    "status_note": ""
-   },
-   {
-    "ticker": "4706.TWO",
-    "name": "大恭",
-    "shares": 1297.7515,
-    "buy_price": 32.400001525878906,
-    "buy_date": "2026-09-04",
-    "last_price": 42.0,
-    "signal_date": "2026-09-07",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。基本面惡化：最新一季獲利年增 5% < 20%，賣出"
+    "status": "SELL_SIGNAL",
+    "status_note": "已排明日開盤賣出。技術面：賣壓比例 120% ≥ 117%，股價可能已達中長期高點"
    },
    {
     "ticker": "2884.TW",
@@ -53,7 +42,7 @@
     "shares": 937.0329,
     "buy_price": 45.0,
     "buy_date": "2026-09-10",
-    "last_price": 46.95000076293945,
+    "last_price": 47.150001525878906,
     "signal_date": "2026-09-08",
     "status": "HOLD",
     "status_note": ""
@@ -64,7 +53,7 @@
     "shares": 1097.0889,
     "buy_price": 42.599998474121094,
     "buy_date": "2026-09-10",
-    "last_price": 42.099998474121094,
+    "last_price": 43.54999923706055,
     "signal_date": "2026-09-08",
     "status": "HOLD",
     "status_note": ""
@@ -75,7 +64,7 @@
     "shares": 196.2733,
     "buy_price": 271.0,
     "buy_date": "2026-10-23",
-    "last_price": 288.0,
+    "last_price": 278.0,
     "signal_date": "2026-10-22",
     "status": "HOLD",
     "status_note": ""
@@ -86,7 +75,7 @@
     "shares": 612.4464,
     "buy_price": 85.0999984741211,
     "buy_date": "2026-10-27",
-    "last_price": 137.0,
+    "last_price": 165.5,
     "signal_date": "2026-10-28",
     "status": "HOLD",
     "status_note": ""
@@ -97,7 +86,7 @@
     "shares": 123.0843,
     "buy_price": 390.0,
     "buy_date": "2026-10-30",
-    "last_price": 449.0,
+    "last_price": 510.0,
     "signal_date": "2026-10-29",
     "status": "HOLD",
     "status_note": ""
@@ -108,7 +97,7 @@
     "shares": 350.7269,
     "buy_price": 135.0,
     "buy_date": "2026-11-04",
-    "last_price": 132.5,
+    "last_price": 130.0,
     "signal_date": "2026-11-02",
     "status": "HOLD",
     "status_note": ""
@@ -119,7 +108,7 @@
     "shares": 826.737,
     "buy_price": 56.5,
     "buy_date": "2026-11-06",
-    "last_price": 61.5,
+    "last_price": 60.900001525878906,
     "signal_date": "2026-11-04",
     "status": "HOLD",
     "status_note": ""
@@ -130,7 +119,7 @@
     "shares": 600.5659,
     "buy_price": 69.19999694824219,
     "buy_date": "2026-11-06",
-    "last_price": 73.69999694824219,
+    "last_price": 75.4000015258789,
     "signal_date": "2026-11-09",
     "status": "HOLD",
     "status_note": ""
@@ -141,26 +130,28 @@
     "shares": 218.1288,
     "buy_price": 192.5,
     "buy_date": "2026-11-10",
-    "last_price": 198.5,
+    "last_price": 223.0,
     "signal_date": "2026-11-11",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "3147.TWO",
+    "name": "大綜",
+    "shares": 124.7772,
+    "buy_price": 355.5,
+    "buy_date": "2026-11-12",
+    "last_price": 329.5,
+    "signal_date": "2026-11-10",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [
-   {
-    "ticker": "3147.TWO",
-    "name": "大綜",
-    "light": "yellow",
-    "score": 79,
-    "signal_date": "2026-11-10",
-    "signal_close": 351.0
-   }
-  ],
+  "pending_buys": [],
   "pending_sells": [
    {
-    "ticker": "2851.TW",
-    "reason": "基本面惡化：最新一季獲利年增 -9% < 20%，賣出"
+    "ticker": "2107.TW",
+    "reason": "技術面：賣壓比例 120% ≥ 117%，股價可能已達中長期高點"
    },
    {
     "ticker": "4706.TWO",
@@ -1508,6 +1499,28 @@
     "amount": 42049.62,
     "signal_date": "2026-11-11",
     "reason": "買進訊號（黃燈基準 × 檢核75分 → 部位 3.8%，訊號日 2026-11-11）"
+   },
+   {
+    "date": "2026-11-12",
+    "action": "SELL",
+    "ticker": "4706.TWO",
+    "name": "大恭",
+    "price": 45.349998474121094,
+    "shares": 1297.7515,
+    "amount": 58592.6,
+    "pnl_pct": 0.39969124501116515,
+    "reason": "基本面惡化：最新一季獲利年增 5% < 20%，賣出"
+   },
+   {
+    "date": "2026-11-12",
+    "action": "BUY",
+    "ticker": "3147.TWO",
+    "name": "大綜",
+    "price": 355.5,
+    "shares": 124.7772,
+    "amount": 44421.49,
+    "signal_date": "2026-11-10",
+    "reason": "買進訊號（黃燈基準 × 檢核79分 → 部位 4.0%，訊號日 2026-11-10）"
    }
   ],
   "equity_history": [
@@ -2162,6 +2175,10 @@
    {
     "date": "2026-11-10",
     "equity": 1118907.37
+   },
+   {
+    "date": "2026-11-12",
+    "equity": 1154074.73
    }
   ]
  },
