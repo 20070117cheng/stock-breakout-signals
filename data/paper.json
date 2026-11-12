@@ -1,7 +1,7 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 470764.02498849266,
+  "cash": 508817.4329121558,
   "positions": [
    {
     "ticker": "2880.TW",
@@ -9,7 +9,7 @@
     "shares": 1007.0701,
     "buy_price": 38.849998474121094,
     "buy_date": "2026-07-16",
-    "last_price": 50.599998474121094,
+    "last_price": 50.5,
     "signal_date": "2026-07-17",
     "status": "HOLD",
     "status_note": ""
@@ -20,21 +20,10 @@
     "shares": 269.0178,
     "buy_price": 151.0,
     "buy_date": "2026-08-03",
-    "last_price": 193.0,
+    "last_price": 193.5,
     "signal_date": "2026-07-31",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "2107.TW",
-    "name": "厚生",
-    "shares": 1428.8801,
-    "buy_price": 26.100000381469727,
-    "buy_date": "2026-08-21",
-    "last_price": 27.149999618530273,
-    "signal_date": "2026-08-20",
-    "status": "SELL_SIGNAL",
-    "status_note": "已排明日開盤賣出。技術面：賣壓比例 120% ≥ 117%，股價可能已達中長期高點"
    },
    {
     "ticker": "2884.TW",
@@ -42,7 +31,7 @@
     "shares": 937.0329,
     "buy_price": 45.0,
     "buy_date": "2026-09-10",
-    "last_price": 47.150001525878906,
+    "last_price": 47.599998474121094,
     "signal_date": "2026-09-08",
     "status": "HOLD",
     "status_note": ""
@@ -53,7 +42,7 @@
     "shares": 1097.0889,
     "buy_price": 42.599998474121094,
     "buy_date": "2026-09-10",
-    "last_price": 43.54999923706055,
+    "last_price": 42.79999923706055,
     "signal_date": "2026-09-08",
     "status": "HOLD",
     "status_note": ""
@@ -64,7 +53,7 @@
     "shares": 196.2733,
     "buy_price": 271.0,
     "buy_date": "2026-10-23",
-    "last_price": 278.0,
+    "last_price": 282.5,
     "signal_date": "2026-10-22",
     "status": "HOLD",
     "status_note": ""
@@ -75,7 +64,7 @@
     "shares": 612.4464,
     "buy_price": 85.0999984741211,
     "buy_date": "2026-10-27",
-    "last_price": 165.5,
+    "last_price": 150.5,
     "signal_date": "2026-10-28",
     "status": "HOLD",
     "status_note": ""
@@ -86,7 +75,7 @@
     "shares": 123.0843,
     "buy_price": 390.0,
     "buy_date": "2026-10-30",
-    "last_price": 510.0,
+    "last_price": 493.5,
     "signal_date": "2026-10-29",
     "status": "HOLD",
     "status_note": ""
@@ -97,7 +86,7 @@
     "shares": 350.7269,
     "buy_price": 135.0,
     "buy_date": "2026-11-04",
-    "last_price": 130.0,
+    "last_price": 132.5,
     "signal_date": "2026-11-02",
     "status": "HOLD",
     "status_note": ""
@@ -108,7 +97,7 @@
     "shares": 826.737,
     "buy_price": 56.5,
     "buy_date": "2026-11-06",
-    "last_price": 60.900001525878906,
+    "last_price": 61.900001525878906,
     "signal_date": "2026-11-04",
     "status": "HOLD",
     "status_note": ""
@@ -119,7 +108,7 @@
     "shares": 600.5659,
     "buy_price": 69.19999694824219,
     "buy_date": "2026-11-06",
-    "last_price": 75.4000015258789,
+    "last_price": 74.69999694824219,
     "signal_date": "2026-11-09",
     "status": "HOLD",
     "status_note": ""
@@ -130,7 +119,7 @@
     "shares": 218.1288,
     "buy_price": 192.5,
     "buy_date": "2026-11-10",
-    "last_price": 223.0,
+    "last_price": 218.0,
     "signal_date": "2026-11-11",
     "status": "HOLD",
     "status_note": ""
@@ -141,23 +130,14 @@
     "shares": 124.7772,
     "buy_price": 355.5,
     "buy_date": "2026-11-12",
-    "last_price": 329.5,
+    "last_price": 356.0,
     "signal_date": "2026-11-10",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [],
-  "pending_sells": [
-   {
-    "ticker": "2107.TW",
-    "reason": "技術面：賣壓比例 120% ≥ 117%，股價可能已達中長期高點"
-   },
-   {
-    "ticker": "4706.TWO",
-    "reason": "基本面惡化：最新一季獲利年增 5% < 20%，賣出"
-   }
-  ],
+  "pending_sells": [],
   "trades": [
    {
     "date": "2026-07-06",
@@ -1521,6 +1501,17 @@
     "amount": 44421.49,
     "signal_date": "2026-11-10",
     "reason": "買進訊號（黃燈基準 × 檢核79分 → 部位 4.0%，訊號日 2026-11-10）"
+   },
+   {
+    "date": "2026-11-11",
+    "action": "SELL",
+    "ticker": "2107.TW",
+    "name": "厚生",
+    "price": 26.75,
+    "shares": 1428.8801,
+    "amount": 38053.41,
+    "pnl_pct": 0.024904199579696362,
+    "reason": "技術面：賣壓比例 120% ≥ 117%，股價可能已達中長期高點"
    }
   ],
   "equity_history": [
@@ -2179,6 +2170,10 @@
    {
     "date": "2026-11-12",
     "equity": 1154074.73
+   },
+   {
+    "date": "2026-11-11",
+    "equity": 1146131.45
    }
   ]
  },
