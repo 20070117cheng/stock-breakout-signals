@@ -2179,7 +2179,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 20870.004722972357,
+  "cash": 18011.01568307861,
   "positions": [
    {
     "ticker": "MSFT",
@@ -2187,7 +2187,7 @@
     "shares": 2.471,
     "buy_price": 544.625,
     "buy_date": "2026-10-13",
-    "last_price": 521.125,
+    "last_price": 523.0,
     "signal_date": "2026-10-12",
     "status": "HOLD",
     "status_note": ""
@@ -2198,7 +2198,7 @@
     "shares": 4.3924,
     "buy_price": 300.1400146484375,
     "buy_date": "2026-10-14",
-    "last_price": 304.7699890136719,
+    "last_price": 302.4200134277344,
     "signal_date": "2026-10-15",
     "status": "HOLD",
     "status_note": ""
@@ -2209,7 +2209,7 @@
     "shares": 12.6618,
     "buy_price": 105.0,
     "buy_date": "2026-10-27",
-    "last_price": 109.68000030517578,
+    "last_price": 108.6500015258789,
     "signal_date": "2026-10-26",
     "status": "HOLD",
     "status_note": ""
@@ -2220,7 +2220,7 @@
     "shares": 7.3775,
     "buy_price": 162.7899932861328,
     "buy_date": "2026-10-26",
-    "last_price": 167.05999755859375,
+    "last_price": 166.9199981689453,
     "signal_date": "2026-10-27",
     "status": "HOLD",
     "status_note": ""
@@ -2231,7 +2231,7 @@
     "shares": 35.2401,
     "buy_price": 37.37799835205078,
     "buy_date": "2026-11-10",
-    "last_price": 38.25,
+    "last_price": 35.41999816894531,
     "signal_date": "2026-11-09",
     "status": "HOLD",
     "status_note": ""
@@ -2242,22 +2242,24 @@
     "shares": 30.9738,
     "buy_price": 36.4900016784668,
     "buy_date": "2026-11-11",
-    "last_price": 36.29999923706055,
+    "last_price": 35.86000061035156,
     "signal_date": "2026-11-10",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "CBOE",
+    "name": "Cboe Global Markets",
+    "shares": 7.6295,
+    "buy_price": 374.7300109863281,
+    "buy_date": "2026-11-12",
+    "last_price": 368.8900146484375,
+    "signal_date": "2026-11-11",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [
-   {
-    "ticker": "CBOE",
-    "name": "Cboe Global Markets",
-    "light": "green",
-    "score": 100,
-    "signal_date": "2026-11-11",
-    "signal_close": 369.19
-   }
-  ],
+  "pending_buys": [],
   "pending_sells": [],
   "trades": [
    {
@@ -3205,6 +3207,17 @@
     "amount": 1130.23,
     "signal_date": "2026-11-10",
     "reason": "買進訊號（黃燈基準 × 檢核79分 → 部位 4.0%，訊號日 2026-11-10）"
+   },
+   {
+    "date": "2026-11-12",
+    "action": "BUY",
+    "ticker": "CBOE",
+    "name": "Cboe Global Markets",
+    "price": 374.7300109863281,
+    "shares": 7.6295,
+    "amount": 2858.99,
+    "signal_date": "2026-11-11",
+    "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%，訊號日 2026-11-11）"
    }
   ],
   "equity_history": [
@@ -3823,6 +3836,10 @@
    {
     "date": "2026-11-11",
     "equity": 28589.89
+   },
+   {
+    "date": "2026-11-12",
+    "equity": 28412.23
    }
   ]
  }
