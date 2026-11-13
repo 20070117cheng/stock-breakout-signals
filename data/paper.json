@@ -1,7 +1,7 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 508817.4329121558,
+  "cash": 560508.1203855108,
   "positions": [
    {
     "ticker": "2880.TW",
@@ -9,21 +9,10 @@
     "shares": 1007.0701,
     "buy_price": 38.849998474121094,
     "buy_date": "2026-07-16",
-    "last_price": 51.5,
+    "last_price": 50.5,
     "signal_date": "2026-07-17",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "6214.TW",
-    "name": "精誠",
-    "shares": 269.0178,
-    "buy_price": 151.0,
-    "buy_date": "2026-08-03",
-    "last_price": 178.0,
-    "signal_date": "2026-07-31",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。基本面惡化：最新一季獲利年增 -29% < 20%，賣出"
    },
    {
     "ticker": "2884.TW",
@@ -31,7 +20,7 @@
     "shares": 937.0329,
     "buy_price": 45.0,
     "buy_date": "2026-09-10",
-    "last_price": 47.75,
+    "last_price": 47.20000076293945,
     "signal_date": "2026-09-08",
     "status": "HOLD",
     "status_note": ""
@@ -42,7 +31,7 @@
     "shares": 1097.0889,
     "buy_price": 42.599998474121094,
     "buy_date": "2026-09-10",
-    "last_price": 43.75,
+    "last_price": 43.25,
     "signal_date": "2026-09-08",
     "status": "HOLD",
     "status_note": ""
@@ -53,7 +42,7 @@
     "shares": 196.2733,
     "buy_price": 271.0,
     "buy_date": "2026-10-23",
-    "last_price": 286.0,
+    "last_price": 279.0,
     "signal_date": "2026-10-22",
     "status": "HOLD",
     "status_note": ""
@@ -64,7 +53,7 @@
     "shares": 612.4464,
     "buy_price": 85.0999984741211,
     "buy_date": "2026-10-27",
-    "last_price": 182.0,
+    "last_price": 165.5,
     "signal_date": "2026-10-28",
     "status": "HOLD",
     "status_note": ""
@@ -75,7 +64,7 @@
     "shares": 123.0843,
     "buy_price": 390.0,
     "buy_date": "2026-10-30",
-    "last_price": 504.0,
+    "last_price": 492.0,
     "signal_date": "2026-10-29",
     "status": "HOLD",
     "status_note": ""
@@ -86,7 +75,7 @@
     "shares": 350.7269,
     "buy_price": 135.0,
     "buy_date": "2026-11-04",
-    "last_price": 134.5,
+    "last_price": 133.0,
     "signal_date": "2026-11-02",
     "status": "HOLD",
     "status_note": ""
@@ -97,7 +86,7 @@
     "shares": 826.737,
     "buy_price": 56.5,
     "buy_date": "2026-11-06",
-    "last_price": 61.0,
+    "last_price": 61.20000076293945,
     "signal_date": "2026-11-04",
     "status": "HOLD",
     "status_note": ""
@@ -108,7 +97,7 @@
     "shares": 600.5659,
     "buy_price": 69.19999694824219,
     "buy_date": "2026-11-06",
-    "last_price": 79.0,
+    "last_price": 75.4000015258789,
     "signal_date": "2026-11-09",
     "status": "HOLD",
     "status_note": ""
@@ -119,7 +108,7 @@
     "shares": 218.1288,
     "buy_price": 192.5,
     "buy_date": "2026-11-10",
-    "last_price": 229.0,
+    "last_price": 223.0,
     "signal_date": "2026-11-11",
     "status": "HOLD",
     "status_note": ""
@@ -130,10 +119,10 @@
     "shares": 124.7772,
     "buy_price": 355.5,
     "buy_date": "2026-11-12",
-    "last_price": 328.5,
+    "last_price": 326.0,
     "signal_date": "2026-11-10",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。停損：現價 326 低於買價 355.5 達 8.3%（門檻 8%），立即賣出"
    }
   ],
   "pending_buys": [],
@@ -141,6 +130,10 @@
    {
     "ticker": "6214.TW",
     "reason": "基本面惡化：最新一季獲利年增 -29% < 20%，賣出"
+   },
+   {
+    "ticker": "3147.TWO",
+    "reason": "停損：現價 326 低於買價 355.5 達 8.3%（門檻 8%），立即賣出"
    }
   ],
   "trades": [
@@ -1517,6 +1510,17 @@
     "amount": 38053.41,
     "pnl_pct": 0.024904199579696362,
     "reason": "技術面：賣壓比例 120% ≥ 117%，股價可能已達中長期高點"
+   },
+   {
+    "date": "2026-11-12",
+    "action": "SELL",
+    "ticker": "6214.TW",
+    "name": "精誠",
+    "price": 193.0,
+    "shares": 269.0178,
+    "amount": 51690.69,
+    "pnl_pct": 0.2781456953642385,
+    "reason": "基本面惡化：最新一季獲利年增 -29% < 20%，賣出"
    }
   ],
   "equity_history": [
@@ -2183,6 +2187,10 @@
    {
     "date": "2026-11-13",
     "equity": 1166930.8
+   },
+   {
+    "date": "2026-11-12",
+    "equity": 1151565.56
    }
   ]
  },
