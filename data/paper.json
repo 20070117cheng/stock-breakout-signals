@@ -1,7 +1,7 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 601688.7280705458,
+  "cash": 615303.9187021892,
   "positions": [
    {
     "ticker": "2880.TW",
@@ -9,7 +9,7 @@
     "shares": 1007.0701,
     "buy_price": 38.849998474121094,
     "buy_date": "2026-07-16",
-    "last_price": 51.900001525878906,
+    "last_price": 50.70000076293945,
     "signal_date": "2026-07-17",
     "status": "HOLD",
     "status_note": ""
@@ -31,7 +31,7 @@
     "shares": 1097.0889,
     "buy_price": 42.599998474121094,
     "buy_date": "2026-09-10",
-    "last_price": 43.849998474121094,
+    "last_price": 42.599998474121094,
     "signal_date": "2026-09-08",
     "status": "HOLD",
     "status_note": ""
@@ -42,7 +42,7 @@
     "shares": 196.2733,
     "buy_price": 271.0,
     "buy_date": "2026-10-23",
-    "last_price": 285.0,
+    "last_price": 273.0,
     "signal_date": "2026-10-22",
     "status": "HOLD",
     "status_note": ""
@@ -53,21 +53,10 @@
     "shares": 612.4464,
     "buy_price": 85.0999984741211,
     "buy_date": "2026-10-27",
-    "last_price": 182.0,
+    "last_price": 200.0,
     "signal_date": "2026-10-28",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "6870.TWO",
-    "name": "騰雲",
-    "shares": 123.0843,
-    "buy_price": 390.0,
-    "buy_date": "2026-10-30",
-    "last_price": 498.0,
-    "signal_date": "2026-10-29",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。基本面惡化：最新一季獲利年增 -17% < 20%，賣出"
    },
    {
     "ticker": "6655.TW",
@@ -86,7 +75,7 @@
     "shares": 826.737,
     "buy_price": 56.5,
     "buy_date": "2026-11-06",
-    "last_price": 61.29999923706055,
+    "last_price": 61.20000076293945,
     "signal_date": "2026-11-04",
     "status": "HOLD",
     "status_note": ""
@@ -97,7 +86,7 @@
     "shares": 600.5659,
     "buy_price": 69.19999694824219,
     "buy_date": "2026-11-06",
-    "last_price": 78.69999694824219,
+    "last_price": 76.80000305175781,
     "signal_date": "2026-11-09",
     "status": "HOLD",
     "status_note": ""
@@ -108,30 +97,28 @@
     "shares": 218.1288,
     "buy_price": 192.5,
     "buy_date": "2026-11-10",
-    "last_price": 232.5,
+    "last_price": 218.0,
     "signal_date": "2026-11-11",
+    "status": "HOLD",
+    "status_note": ""
+   },
+   {
+    "ticker": "6199.TWO",
+    "name": "天品",
+    "shares": 272.8071,
+    "buy_price": 169.5,
+    "buy_date": "2026-11-16",
+    "last_price": 169.0,
+    "signal_date": "2026-11-13",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [
-   {
-    "ticker": "6199.TWO",
-    "name": "天品",
-    "light": "yellow",
-    "score": 79,
-    "signal_date": "2026-11-13",
-    "signal_close": 169.0
-   }
-  ],
+  "pending_buys": [],
   "pending_sells": [
    {
     "ticker": "6870.TWO",
     "reason": "基本面惡化：最新一季獲利年增 -17% < 20%，賣出"
-   },
-   {
-    "ticker": "3147.TWO",
-    "reason": "停損：現價 313 低於買價 355.5 達 12.0%（門檻 8%），立即賣出"
    }
   ],
   "trades": [
@@ -1530,6 +1517,28 @@
     "amount": 41180.61,
     "pnl_pct": -0.0675105485232067,
     "reason": "停損：現價 326 低於買價 355.5 達 8.3%（門檻 8%），立即賣出"
+   },
+   {
+    "date": "2026-11-16",
+    "action": "SELL",
+    "ticker": "6870.TWO",
+    "name": "騰雲",
+    "price": 489.0,
+    "shares": 123.0843,
+    "amount": 59921.89,
+    "pnl_pct": 0.25384615384615383,
+    "reason": "基本面惡化：最新一季獲利年增 -17% < 20%，賣出"
+   },
+   {
+    "date": "2026-11-16",
+    "action": "BUY",
+    "ticker": "6199.TWO",
+    "name": "天品",
+    "price": 169.5,
+    "shares": 272.8071,
+    "amount": 46306.7,
+    "signal_date": "2026-11-13",
+    "reason": "買進訊號（黃燈基準 × 檢核79分 → 部位 4.0%，訊號日 2026-11-13）"
    }
   ],
   "equity_history": [
@@ -2204,6 +2213,10 @@
    {
     "date": "2026-11-13",
     "equity": 1172027.41
+   },
+   {
+    "date": "2026-11-16",
+    "equity": 1172153.32
    }
   ]
  },
