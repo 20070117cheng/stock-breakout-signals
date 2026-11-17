@@ -20,7 +20,7 @@
     "shares": 937.0329,
     "buy_price": 45.0,
     "buy_date": "2026-09-10",
-    "last_price": 48.29999923706055,
+    "last_price": 46.79999923706055,
     "signal_date": "2026-09-08",
     "status": "HOLD",
     "status_note": ""
@@ -31,7 +31,7 @@
     "shares": 1097.0889,
     "buy_price": 42.599998474121094,
     "buy_date": "2026-09-10",
-    "last_price": 42.599998474121094,
+    "last_price": 41.70000076293945,
     "signal_date": "2026-09-08",
     "status": "HOLD",
     "status_note": ""
@@ -42,7 +42,7 @@
     "shares": 196.2733,
     "buy_price": 271.0,
     "buy_date": "2026-10-23",
-    "last_price": 273.0,
+    "last_price": 268.0,
     "signal_date": "2026-10-22",
     "status": "HOLD",
     "status_note": ""
@@ -53,7 +53,7 @@
     "shares": 612.4464,
     "buy_price": 85.0999984741211,
     "buy_date": "2026-10-27",
-    "last_price": 200.0,
+    "last_price": 180.0,
     "signal_date": "2026-10-28",
     "status": "HOLD",
     "status_note": ""
@@ -64,7 +64,7 @@
     "shares": 350.7269,
     "buy_price": 135.0,
     "buy_date": "2026-11-04",
-    "last_price": 135.0,
+    "last_price": 138.0,
     "signal_date": "2026-11-02",
     "status": "HOLD",
     "status_note": ""
@@ -75,7 +75,7 @@
     "shares": 826.737,
     "buy_price": 56.5,
     "buy_date": "2026-11-06",
-    "last_price": 61.20000076293945,
+    "last_price": 61.599998474121094,
     "signal_date": "2026-11-04",
     "status": "HOLD",
     "status_note": ""
@@ -86,7 +86,7 @@
     "shares": 600.5659,
     "buy_price": 69.19999694824219,
     "buy_date": "2026-11-06",
-    "last_price": 76.80000305175781,
+    "last_price": 78.19999694824219,
     "signal_date": "2026-11-09",
     "status": "HOLD",
     "status_note": ""
@@ -97,7 +97,7 @@
     "shares": 218.1288,
     "buy_price": 192.5,
     "buy_date": "2026-11-10",
-    "last_price": 218.0,
+    "last_price": 218.5,
     "signal_date": "2026-11-11",
     "status": "HOLD",
     "status_note": ""
@@ -108,13 +108,22 @@
     "shares": 272.8071,
     "buy_price": 169.5,
     "buy_date": "2026-11-16",
-    "last_price": 169.0,
+    "last_price": 170.0,
     "signal_date": "2026-11-13",
     "status": "HOLD",
     "status_note": ""
    }
   ],
-  "pending_buys": [],
+  "pending_buys": [
+   {
+    "ticker": "8415.TWO",
+    "name": "大國鋼",
+    "light": "yellow",
+    "score": 92,
+    "signal_date": "2026-11-17",
+    "signal_close": 41.35
+   }
+  ],
   "pending_sells": [],
   "trades": [
    {
@@ -2220,6 +2229,10 @@
    {
     "date": "2026-11-16",
     "equity": 1172153.32
+   },
+   {
+    "date": "2026-11-17",
+    "equity": 1159135.63
    }
   ]
  },
