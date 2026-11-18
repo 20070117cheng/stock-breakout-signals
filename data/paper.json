@@ -2276,10 +2276,10 @@
     "shares": 2.471,
     "buy_price": 544.625,
     "buy_date": "2026-10-13",
-    "last_price": 511.5150146484375,
+    "last_price": 505.69000244140625,
     "signal_date": "2026-10-12",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_SIGNAL",
+    "status_note": "已排明日開盤賣出。接近停損：跌幅 7.2% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%；技術面：賣壓比例 121% ≥ 117%，股價可能已達中長期高點"
    },
    {
     "ticker": "VEEV",
@@ -2287,10 +2287,10 @@
     "shares": 4.3924,
     "buy_price": 300.1400146484375,
     "buy_date": "2026-10-14",
-    "last_price": 297.4200134277344,
+    "last_price": 287.57501220703125,
     "signal_date": "2026-10-15",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_SIGNAL",
+    "status_note": "已排明日開盤賣出。技術面：賣壓比例 122% ≥ 117%，股價可能已達中長期高點"
    },
    {
     "ticker": "NDAQ",
@@ -2298,7 +2298,7 @@
     "shares": 12.6618,
     "buy_price": 105.0,
     "buy_date": "2026-10-27",
-    "last_price": 108.11499786376953,
+    "last_price": 105.17500305175781,
     "signal_date": "2026-10-26",
     "status": "HOLD",
     "status_note": ""
@@ -2309,7 +2309,7 @@
     "shares": 7.3775,
     "buy_price": 162.7899932861328,
     "buy_date": "2026-10-26",
-    "last_price": 162.13999938964844,
+    "last_price": 158.9499969482422,
     "signal_date": "2026-10-27",
     "status": "HOLD",
     "status_note": ""
@@ -2320,7 +2320,7 @@
     "shares": 35.2401,
     "buy_price": 37.37799835205078,
     "buy_date": "2026-11-10",
-    "last_price": 35.775001525878906,
+    "last_price": 34.685001373291016,
     "signal_date": "2026-11-09",
     "status": "HOLD",
     "status_note": ""
@@ -2331,7 +2331,7 @@
     "shares": 30.9738,
     "buy_price": 36.4900016784668,
     "buy_date": "2026-11-11",
-    "last_price": 35.064998626708984,
+    "last_price": 34.35499954223633,
     "signal_date": "2026-11-10",
     "status": "HOLD",
     "status_note": ""
@@ -2342,14 +2342,23 @@
     "shares": 7.6295,
     "buy_price": 374.7300109863281,
     "buy_date": "2026-11-12",
-    "last_price": 375.07501220703125,
+    "last_price": 367.0950012207031,
     "signal_date": "2026-11-11",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [],
-  "pending_sells": [],
+  "pending_sells": [
+   {
+    "ticker": "MSFT",
+    "reason": "接近停損：跌幅 7.2% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
+   },
+   {
+    "ticker": "VEEV",
+    "reason": "技術面：賣壓比例 122% ≥ 117%，股價可能已達中長期高點"
+   }
+  ],
   "trades": [
    {
     "date": "2026-07-06",
@@ -3941,6 +3950,10 @@
    {
     "date": "2026-11-17",
     "equity": 28354.92
+   },
+   {
+    "date": "2026-11-18",
+    "equity": 28115.24
    }
   ]
  }
