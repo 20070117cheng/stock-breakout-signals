@@ -1,7 +1,7 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 561907.6984554235,
+  "cash": 653175.5936597018,
   "positions": [
    {
     "ticker": "2880.TW",
@@ -9,32 +9,10 @@
     "shares": 1007.0701,
     "buy_price": 38.849998474121094,
     "buy_date": "2026-07-16",
-    "last_price": 48.349998474121094,
+    "last_price": 50.79999923706055,
     "signal_date": "2026-07-17",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "2884.TW",
-    "name": "玉山金",
-    "shares": 937.0329,
-    "buy_price": 45.0,
-    "buy_date": "2026-09-10",
-    "last_price": 42.54999923706055,
-    "signal_date": "2026-09-08",
-    "status": "SELL_SIGNAL",
-    "status_note": "已排明日開盤賣出。技術面：賣壓比例 122% ≥ 117%，股價可能已達中長期高點"
-   },
-   {
-    "ticker": "2890.TW",
-    "name": "永豐金",
-    "shares": 1097.0889,
-    "buy_price": 42.599998474121094,
-    "buy_date": "2026-09-10",
-    "last_price": 39.95000076293945,
-    "signal_date": "2026-09-08",
-    "status": "SELL_SIGNAL",
-    "status_note": "已排明日開盤賣出。技術面：賣壓比例 119% ≥ 117%，股價可能已達中長期高點"
    },
    {
     "ticker": "6782.TW",
@@ -53,7 +31,7 @@
     "shares": 612.4464,
     "buy_price": 85.0999984741211,
     "buy_date": "2026-10-27",
-    "last_price": 168.5,
+    "last_price": 180.0,
     "signal_date": "2026-10-28",
     "status": "HOLD",
     "status_note": ""
@@ -64,7 +42,7 @@
     "shares": 350.7269,
     "buy_price": 135.0,
     "buy_date": "2026-11-04",
-    "last_price": 139.0,
+    "last_price": 138.5,
     "signal_date": "2026-11-02",
     "status": "HOLD",
     "status_note": ""
@@ -75,7 +53,7 @@
     "shares": 826.737,
     "buy_price": 56.5,
     "buy_date": "2026-11-06",
-    "last_price": 61.5,
+    "last_price": 61.400001525878906,
     "signal_date": "2026-11-04",
     "status": "HOLD",
     "status_note": ""
@@ -86,7 +64,7 @@
     "shares": 600.5659,
     "buy_price": 69.19999694824219,
     "buy_date": "2026-11-06",
-    "last_price": 73.80000305175781,
+    "last_price": 77.5,
     "signal_date": "2026-11-09",
     "status": "HOLD",
     "status_note": ""
@@ -97,7 +75,7 @@
     "shares": 218.1288,
     "buy_price": 192.5,
     "buy_date": "2026-11-10",
-    "last_price": 218.0,
+    "last_price": 218.5,
     "signal_date": "2026-11-11",
     "status": "HOLD",
     "status_note": ""
@@ -108,7 +86,7 @@
     "shares": 272.8071,
     "buy_price": 169.5,
     "buy_date": "2026-11-16",
-    "last_price": 171.5,
+    "last_price": 170.0,
     "signal_date": "2026-11-13",
     "status": "HOLD",
     "status_note": ""
@@ -119,23 +97,14 @@
     "shares": 1414.3299,
     "buy_price": 37.70000076293945,
     "buy_date": "2026-11-16",
-    "last_price": 41.400001525878906,
+    "last_price": 41.349998474121094,
     "signal_date": "2026-11-17",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [],
-  "pending_sells": [
-   {
-    "ticker": "2884.TW",
-    "reason": "技術面：賣壓比例 122% ≥ 117%，股價可能已達中長期高點"
-   },
-   {
-    "ticker": "2890.TW",
-    "reason": "技術面：賣壓比例 119% ≥ 117%，股價可能已達中長期高點"
-   }
-  ],
+  "pending_sells": [],
   "trades": [
    {
     "date": "2026-07-06",
@@ -1565,6 +1534,28 @@
     "amount": 53396.22,
     "signal_date": "2026-11-17",
     "reason": "買進訊號（黃燈基準 × 檢核92分 → 部位 4.6%，訊號日 2026-11-17）"
+   },
+   {
+    "date": "2026-11-17",
+    "action": "SELL",
+    "ticker": "2884.TW",
+    "name": "玉山金",
+    "price": 48.25,
+    "shares": 937.0329,
+    "amount": 45011.78,
+    "pnl_pct": 0.07222222222222219,
+    "reason": "技術面：賣壓比例 122% ≥ 117%，股價可能已達中長期高點"
+   },
+   {
+    "date": "2026-11-17",
+    "action": "SELL",
+    "ticker": "2890.TW",
+    "name": "永豐金",
+    "price": 42.349998474121094,
+    "shares": 1097.0889,
+    "amount": 46256.12,
+    "pnl_pct": -0.005868544811142962,
+    "reason": "技術面：賣壓比例 119% ≥ 117%，股價可能已達中長期高點"
    }
   ],
   "equity_history": [
@@ -2263,6 +2254,10 @@
    {
     "date": "2026-11-18",
     "equity": 1146808.2
+   },
+   {
+    "date": "2026-11-17",
+    "equity": 1165480.29
    }
   ]
  },
