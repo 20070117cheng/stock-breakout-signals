@@ -2267,37 +2267,15 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 18011.01568307861,
+  "cash": 20558.26195005859,
   "positions": [
-   {
-    "ticker": "MSFT",
-    "name": "Microsoft",
-    "shares": 2.471,
-    "buy_price": 544.625,
-    "buy_date": "2026-10-13",
-    "last_price": 505.69000244140625,
-    "signal_date": "2026-10-12",
-    "status": "SELL_SIGNAL",
-    "status_note": "已排明日開盤賣出。接近停損：跌幅 7.2% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%；技術面：賣壓比例 121% ≥ 117%，股價可能已達中長期高點"
-   },
-   {
-    "ticker": "VEEV",
-    "name": "Veeva Systems",
-    "shares": 4.3924,
-    "buy_price": 300.1400146484375,
-    "buy_date": "2026-10-14",
-    "last_price": 287.57501220703125,
-    "signal_date": "2026-10-15",
-    "status": "SELL_SIGNAL",
-    "status_note": "已排明日開盤賣出。技術面：賣壓比例 122% ≥ 117%，股價可能已達中長期高點"
-   },
    {
     "ticker": "NDAQ",
     "name": "Nasdaq, Inc.",
     "shares": 12.6618,
     "buy_price": 105.0,
     "buy_date": "2026-10-27",
-    "last_price": 105.17500305175781,
+    "last_price": 105.70500183105469,
     "signal_date": "2026-10-26",
     "status": "HOLD",
     "status_note": ""
@@ -2308,7 +2286,7 @@
     "shares": 7.3775,
     "buy_price": 162.7899932861328,
     "buy_date": "2026-10-26",
-    "last_price": 158.9499969482422,
+    "last_price": 162.41000366210938,
     "signal_date": "2026-10-27",
     "status": "HOLD",
     "status_note": ""
@@ -2319,10 +2297,10 @@
     "shares": 35.2401,
     "buy_price": 37.37799835205078,
     "buy_date": "2026-11-10",
-    "last_price": 34.685001373291016,
+    "last_price": 34.20000076293945,
     "signal_date": "2026-11-09",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。停損：現價 34.18 低於買價 37.378 達 8.6%（門檻 8%），立即賣出"
    },
    {
     "ticker": "BEN",
@@ -2330,7 +2308,7 @@
     "shares": 30.9738,
     "buy_price": 36.4900016784668,
     "buy_date": "2026-11-11",
-    "last_price": 34.35499954223633,
+    "last_price": 34.54499816894531,
     "signal_date": "2026-11-10",
     "status": "HOLD",
     "status_note": ""
@@ -2341,7 +2319,7 @@
     "shares": 7.6295,
     "buy_price": 374.7300109863281,
     "buy_date": "2026-11-12",
-    "last_price": 367.0950012207031,
+    "last_price": 357.75,
     "signal_date": "2026-11-11",
     "status": "HOLD",
     "status_note": ""
@@ -2350,12 +2328,12 @@
   "pending_buys": [],
   "pending_sells": [
    {
-    "ticker": "MSFT",
-    "reason": "接近停損：跌幅 7.2% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
+    "ticker": "VEEV",
+    "reason": "技術面：賣壓比例 135% ≥ 117%，股價可能已達中長期高點"
    },
    {
-    "ticker": "VEEV",
-    "reason": "技術面：賣壓比例 122% ≥ 117%，股價可能已達中長期高點"
+    "ticker": "KDP",
+    "reason": "停損：現價 34.18 低於買價 37.378 達 8.6%（門檻 8%），立即賣出"
    }
   ],
   "trades": [
@@ -3315,6 +3293,28 @@
     "amount": 2858.99,
     "signal_date": "2026-11-11",
     "reason": "買進訊號（綠燈基準 × 檢核100分 → 部位 10.0%，訊號日 2026-11-11）"
+   },
+   {
+    "date": "2026-11-19",
+    "action": "SELL",
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "price": 519.5,
+    "shares": 2.471,
+    "amount": 1283.68,
+    "pnl_pct": -0.04613266008721595,
+    "reason": "接近停損：跌幅 7.2% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
+   },
+   {
+    "date": "2026-11-19",
+    "action": "SELL",
+    "ticker": "VEEV",
+    "name": "Veeva Systems",
+    "price": 287.6700134277344,
+    "shares": 4.3924,
+    "amount": 1263.56,
+    "pnl_pct": -0.041547279976345663,
+    "reason": "技術面：賣壓比例 122% ≥ 117%，股價可能已達中長期高點"
    }
   ],
   "equity_history": [
@@ -3953,6 +3953,10 @@
    {
     "date": "2026-11-18",
     "equity": 28115.24
+   },
+   {
+    "date": "2026-11-19",
+    "equity": 28099.51
    }
   ]
  }
