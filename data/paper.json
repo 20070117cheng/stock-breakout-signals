@@ -2279,7 +2279,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 20558.26195005859,
+  "cash": 21785.322221304166,
   "positions": [
    {
     "ticker": "NDAQ",
@@ -2287,7 +2287,7 @@
     "shares": 12.6618,
     "buy_price": 105.0,
     "buy_date": "2026-10-27",
-    "last_price": 105.70500183105469,
+    "last_price": 102.91999816894531,
     "signal_date": "2026-10-26",
     "status": "HOLD",
     "status_note": ""
@@ -2298,21 +2298,10 @@
     "shares": 7.3775,
     "buy_price": 162.7899932861328,
     "buy_date": "2026-10-26",
-    "last_price": 162.41000366210938,
+    "last_price": 150.92999267578125,
     "signal_date": "2026-10-27",
-    "status": "HOLD",
-    "status_note": ""
-   },
-   {
-    "ticker": "KDP",
-    "name": "Keurig Dr Pepper",
-    "shares": 35.2401,
-    "buy_price": 37.37799835205078,
-    "buy_date": "2026-11-10",
-    "last_price": 34.20000076293945,
-    "signal_date": "2026-11-09",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。停損：現價 34.18 低於買價 37.378 達 8.6%（門檻 8%），立即賣出"
+    "status": "SELL_SIGNAL",
+    "status_note": "已排明日開盤賣出。接近停損：跌幅 7.3% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
    },
    {
     "ticker": "BEN",
@@ -2320,10 +2309,10 @@
     "shares": 30.9738,
     "buy_price": 36.4900016784668,
     "buy_date": "2026-11-11",
-    "last_price": 34.54499816894531,
+    "last_price": 32.040000915527344,
     "signal_date": "2026-11-10",
-    "status": "HOLD",
-    "status_note": ""
+    "status": "SELL_NOW",
+    "status_note": "已排明日開盤賣出。停損：現價 32.04 低於買價 36.49 達 12.2%（門檻 8%），立即賣出"
    },
    {
     "ticker": "CBOE",
@@ -2331,7 +2320,7 @@
     "shares": 7.6295,
     "buy_price": 374.7300109863281,
     "buy_date": "2026-11-12",
-    "last_price": 357.75,
+    "last_price": 357.7099914550781,
     "signal_date": "2026-11-11",
     "status": "HOLD",
     "status_note": ""
@@ -2340,12 +2329,12 @@
   "pending_buys": [],
   "pending_sells": [
    {
-    "ticker": "VEEV",
-    "reason": "技術面：賣壓比例 135% ≥ 117%，股價可能已達中長期高點"
+    "ticker": "EMR",
+    "reason": "接近停損：跌幅 7.3% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
    },
    {
-    "ticker": "KDP",
-    "reason": "停損：現價 34.18 低於買價 37.378 達 8.6%（門檻 8%），立即賣出"
+    "ticker": "BEN",
+    "reason": "停損：現價 32.04 低於買價 36.49 達 12.2%（門檻 8%），立即賣出"
    }
   ],
   "trades": [
@@ -3327,6 +3316,17 @@
     "amount": 1263.56,
     "pnl_pct": -0.041547279976345663,
     "reason": "技術面：賣壓比例 122% ≥ 117%，股價可能已達中長期高點"
+   },
+   {
+    "date": "2026-11-20",
+    "action": "SELL",
+    "ticker": "KDP",
+    "name": "Keurig Dr Pepper",
+    "price": 34.81999969482422,
+    "shares": 35.2401,
+    "amount": 1227.06,
+    "pnl_pct": -0.06843594547609622,
+    "reason": "停損：現價 34.18 低於買價 37.378 達 8.6%（門檻 8%），立即賣出"
    }
   ],
   "equity_history": [
@@ -3969,6 +3969,10 @@
    {
     "date": "2026-11-19",
     "equity": 28099.51
+   },
+   {
+    "date": "2026-11-20",
+    "equity": 27923.51
    }
   ]
  }
