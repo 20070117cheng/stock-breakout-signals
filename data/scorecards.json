@@ -376032,5 +376032,434 @@
    "grade": "X",
    "one_line": "公司過去獲利表現極不穩健，且近期獲利波動劇烈，不符合未來獲利能穩健成長的標準。"
   }
+ },
+ {
+  "date": "2026-11-23",
+  "market": "us",
+  "ticker": "DGX",
+  "name": "Quest Diagnostics",
+  "close": 263.12,
+  "rebound": 1.0,
+  "base_quality": 0.707,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 263.12 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 71%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 3%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 12%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 10%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1季獲利年增 27%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "AI 判斷（僅供參考，請複核依據）：醫院因營運壓力增加而將診斷服務外包，為Quest Diagnostics帶來結構性的市場份額增長機會。",
+     "starred": true,
+     "ai": {
+      "grade": "O",
+      "one_line": "醫院因營運壓力增加而將診斷服務外包，為Quest Diagnostics帶來結構性的市場份額增長機會。",
+      "analysis": "近期營運數據顯示獲利加速成長，且公司上調財測，反映市場需求增加。關鍵在於醫院面臨營運壓力，正將診斷服務外包給Quest Diagnostics等專業機構，這構成產業結構性變化。Quest Diagnostics積極透過醫院合作協議擴大市場份額，以應對此趨勢並抵銷Medicare削減的影響。此為商業模式與市場結構的轉變，而非單純的景氣循環，支持未來獲利穩健成長的潛力。",
+      "risks": "Medicare給付削減可能持續對營收造成壓力，儘管公司正積極透過醫院合作協議來抵銷此影響。此外，若未能持續取得新的醫院合作協議，市場份額增長可能受限。",
+      "sources": [
+       {
+        "title": "Quest Diagnostics Sees Hospital Deal Growth as 2027 Medicare Cuts Loom - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUlU0UHhnaG5jVXowZG9LRThIU0djbU95Q2NvQ2pfemR1c0RrNDR0b2R2dG9RaG1CQmo5Q0QzSUU2NkFNWmNsczRrN3Z0bm13b3pDS0M5eVEyWnJOT29xU0psZzlWZzdJdTYtVTJVbTZJX0xmTDdQQnhaTjU5MkotMUtQTFRoVlNTa2hhWTNQN3Z0RWxmUW9NbFhEVjNUZw?oc=5",
+        "date": "Sun, 22 Nov 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Quest Diagnostics raises annual forecast on testing demand - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMHpmU282a0dXWXpRRXJYbjNxZEIxSUJ1OFZ4ZldHNk9DUGNjdGNXUkNlUVpWVDEtalZGRk1tUndTWTVWLUFTbzIxTVVDczNURDdLNkJGbl9TRW5meFU4clJjRUl1S3pYeVRSZkFGTS1aeVB6dXQyeHJ5bmZwbmFJR24wOXVZTjRhcTl0WUNVY3VoODVsSDgxN0wzZVJsRGRwOWJCQncxdGhDNzNfT08yN2lqUGh0UVRuWGhGc2RPT1R3STMzZnc?oc=5",
+        "date": "Thu, 23 Jul 2026",
+        "source": "Reuters"
+       },
+       {
+        "title": "Labcorp and Quest Diagnostics expand as hospitals face new pressure - Modern Healthcare",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYnpxTDZ5NGV5WWtGWTdaQ1VRZEczU0NMN0lvcmVQTUpPQWFNREZNaHZHZzhMQ2xHMGFZV09PLTNwVDJUNFFuMXFGMlNKZEFqaFZkTmx4dl9pUFI3R0dnRUFhV3Z6ZnN6a3J3Zm96N2g3SFlJZFpmN0RVa3FqRFFmT28wYkx3b3lrNXFEVWRzU2g?oc=5",
+        "date": "Fri, 11 Sep 2026",
+        "source": "Modern Healthcare"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Quest Diagnostics Sees Hospital Deal Growth as 2027 Medicare Cuts Loom - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUlU0UHhnaG5jVXowZG9LRThIU0djbU95Q2NvQ2pfemR1c0RrNDR0b2R2dG9RaG1CQmo5Q0QzSUU2NkFNWmNsczRrN3Z0bm13b3pDS0M5eVEyWnJOT29xU0psZzlWZzdJdTYtVTJVbTZJX0xmTDdQQnhaTjU5MkotMUtQTFRoVlNTa2hhWTNQN3Z0RWxmUW9NbFhEVjNUZw?oc=5",
+        "date": "Sun, 22 Nov 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Quest Diagnostics stock hits all-time high at 263.26 USD - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNkh3ZmFXNUQ1TGNTRU1DYXI3Rm1LUnVDX0JvWndlN0pncEhGQWtnb0dtS1YzQ3htOVhPUzVYSmNLSjJFeGJMc2NFSG5FU3c1OUJ4dV9IV1gyNVdwbGF2SE1xRHRPaDU5VlVTZzZCd3ptakF6dURNVGhsSFRDb2lHR01VWDdULW1qcWl1dHEyY20yMHplRVVGWHc2SGRjdG1xNGc4ZjNnTWF5eFZCaWNuUw?oc=5",
+        "date": "Mon, 23 Nov 2026",
+        "source": "Investing.com"
+       },
+       {
+        "title": "Weekly Recap: Medicare cuts to trim revenue and Co-Lab revenue outlook - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeTU2Nk9DUE5QVENvREJwck1iMm8xbUZWZGhZRUs5bGtnOUNpYlAydVZzV2I5ZDBLZG1hb1NsQTM2ZTdzOGtPWnZ0dmFaOFA0SFUzdnVPcGhyTXNzNi00aEkxTDAwcjNQaUpDLUhVdmZLbnRheElhbEwtS05WYjh0UTBnRGtvYS1NUkR3Q2NKTmJUU1JvVEN5dUNOenprajk5bkprYXNnZTJsNnhrUnM2TVFHRURCd1U3V2ZlUEJyeUpQVHktcXRCQlphMA?oc=5",
+        "date": "Mon, 23 Nov 2026",
+        "source": "TradingView"
+       },
+       {
+        "title": "TE Isaiah Likely on the growth of Malachi Fields - Giants.com",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTlRtMTJCOXRTR2QwRFQtNVVOWFh1TnZmcHpKSUdjTVdPS1g3X1E0eUV5RGlIeWpPaVNORzd4d28waXQ2djN2Qkx6aHJ4MkZIVVdqZDBXdmZGeGdMY1JUMF9BQ0h2VkFHWkp6aWExbW1EVC14Y1RjbHFMQ1Z6elVtZWl4TQ?oc=5",
+        "date": "Thu, 19 Nov 2026",
+        "source": "Giants.com"
+       },
+       {
+        "title": "Quest Diagnostics raises annual forecast on testing demand - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMHpmU282a0dXWXpRRXJYbjNxZEIxSUJ1OFZ4ZldHNk9DUGNjdGNXUkNlUVpWVDEtalZGRk1tUndTWTVWLUFTbzIxTVVDczNURDdLNkJGbl9TRW5meFU4clJjRUl1S3pYeVRSZkFGTS1aeVB6dXQyeHJ5bmZwbmFJR24wOXVZTjRhcTl0WUNVY3VoODVsSDgxN0wzZVJsRGRwOWJCQncxdGhDNzNfT08yN2lqUGh0UVRuWGhGc2RPT1R3STMzZnc?oc=5",
+        "date": "Thu, 23 Jul 2026",
+        "source": "Reuters"
+       },
+       {
+        "title": "Quest Diagnostics Stock Gains 49.3% YTD: What's Behind the Rally? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN0kya3ozS0daNW1zbXZKLWN4Y1JIam1CZUY2LVlET2dTd1RHQkhEN08zai03MmoyNzEzVndVREs5RXA3UFFMUDI2VGhKSVVRVDQtdVFnMEhzN01sLTZGdjJUb19jcWNpOEEySm1WNU5BaXFIc2hKUU1KTENfOGwtSFdEY0RYd0R5d0taV2Y1N011QTJ5dTlhVw?oc=5",
+        "date": "Fri, 20 Nov 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Should Labcorp Stock Holders Look At Quest Diagnostics Instead? - Trefis",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSngycUpaZ2hpOVdqa1k2MnEyZXdzTlpRWWtuMWVvdWpQdFExU01kTDU4QkpEZVhoUkdtUXpBRnlFMFU0T0pKWTdhM0ZXRVZld0xnbHloWFFtNzI1bzM2VTZKT0YzWUhjNkUxZnZDLXgtX3c2LUtjdHpheTN0TV9KeEFPMWVaWmk3cFhEb2tJLWFnRm1iVm5OS1FqM1FXc3VNSGlqMXE4Ym1WaHhfRXJ0Ty1sa0ExTnJqV1pTQ2hR?oc=5",
+        "date": "Fri, 13 Nov 2026",
+        "source": "Trefis"
+       },
+       {
+        "title": "Labcorp and Quest Diagnostics expand as hospitals face new pressure - Modern Healthcare",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYnpxTDZ5NGV5WWtGWTdaQ1VRZEczU0NMN0lvcmVQTUpPQWFNREZNaHZHZzhMQ2xHMGFZV09PLTNwVDJUNFFuMXFGMlNKZEFqaFZkTmx4dl9pUFI3R0dnRUFhV3Z6ZnN6a3J3Zm96N2g3SFlJZFpmN0RVa3FqRFFmT28wYkx3b3lrNXFEVWRzU2g?oc=5",
+        "date": "Fri, 11 Sep 2026",
+        "source": "Modern Healthcare"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-11-23 23:51"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 26.2 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 2.40%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 19 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 71,
+   "verdict": "候選（有硬傷）：獲利成長檢核有 × 項目，書中原則上應淘汰（p.122），除非其他表現足以彌補"
+  },
+  "ai7": {
+   "grade": "O",
+   "one_line": "醫院因營運壓力增加而將診斷服務外包，為Quest Diagnostics帶來結構性的市場份額增長機會。"
+  }
+ },
+ {
+  "date": "2026-11-23",
+  "market": "us",
+  "ticker": "LH",
+  "name": "Labcorp",
+  "close": 372.56,
+  "rebound": 1.0,
+  "base_quality": 0.755,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 372.56 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 76%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近4年平均年成長 10%，成長年份占 67%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "近四季獲利年增 15%（接近 20% 門檻）",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1期季營收年增 7%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 -3%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "AI 判斷（僅供參考，請複核依據）：近期獲利出現衰退且面臨重大償付風險，其未來獲利成長的穩健性存疑。",
+     "starred": true,
+     "ai": {
+      "grade": "X",
+      "one_line": "近期獲利出現衰退且面臨重大償付風險，其未來獲利成長的穩健性存疑。",
+      "analysis": "儘管公司受惠於醫療檢測需求成長及全球擴張等結構性趨勢，但最新一季獲利年增率為負 3%，顯示近期獲利成長並不穩健。此外，公司面臨高達 1.25 億美元的償付風險，此一結構性風險可能對未來獲利造成顯著衝擊。這些因素使得公司未來獲利能否穩健成長存在高度不確定性，因此不符合穩健成長的標準。",
+      "risks": [
+       "償付風險",
+       "近期獲利波動"
+      ],
+      "sources": [
+       {
+        "title": "Labcorp’s Lab Growth Surges as $125 Million Reimbursement Risk Looms - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVEFpX0dJanpSN19hVHFTaVhBU3c3ZE9jM3M0VzRCdExsaWhQMl9MZ3d6R0Q4UDJSUmFxb3Nka0JBUUV3bGtoV1ZrZFlPeEVsYjNBMWlEQWVwb2VkckI0YW1wUUtXTjdiMGZ0dG90bURRR1poeGlwbFNDYUUxdEhEYndUZTV2bXpxYUVmcGJqc2ZndjZE?oc=5",
+        "date": "Fri, 13 Nov 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Labcorp raises earnings outlook on strong medical testing demand - Modern Healthcare",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOU1WMXl6em9LM2JpZ2hfaE0zQXgxM2NPZTRMalJScGQ0RktramZ4alRSS2NCeFNwRzZGanNPYnhBeDdHSUpkcTNLZzdwN1FYQTY0MUVlUjQwMlRiVjRyRmJ1SWlNdXB1ZVMyVHZ5TTk3eFh3VGo3b2t5NmhVRk1YUmdVMmpEMHd3RFVqV0ZTT3Q?oc=5",
+        "date": "Fri, 31 Jul 2026",
+        "source": "Modern Healthcare"
+       },
+       {
+        "title": "Labcorp acquires MLM Medical Labs in global expansion - MedTech Dive",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ2lyd2FkZHJQQktXSkJsLXRQNy1MZGZWVVppZVR6MkUxc01sbDBBVklhTzhuRjZrbFJRYU1wZTRiMDdlT0xfUkE3VWtVVmZacnhMalNxTjNsLVFBNzdqMjZTMnROSVBaS0pnOUlFY1pyZE5rMF9Oa3FLREZiaUhTX29Mekg2VFVNNm5WX1VKSWR3TmNzQVpFeklB?oc=5",
+        "date": "Wed, 09 Sep 2026",
+        "source": "MedTech Dive"
+       }
+      ],
+      "all_news": [
+       {
+        "title": "Labcorp posts higher Q2 earnings on strength of diagnostics, lab services; adjusts full-year guidance - Fierce Biotech",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYkt4eTN2Q0llZHJlS21VeUxvUnF0c1BNNzRTYVJLTXFwMFMtbGdYQXBBTUthSUJKeS1nN2NhSnd0TTNWZzNSd0R6eldzQllldUp1NkR4YWtsSEZCRTdZdFBYMURHQ3Z5MWN6ZWN1cGh1OTg0TEE3aUNqSDAzM20xLUtvNmZCLWo2dGFlbF9PbUVRV1g1UHpDcjhwN29lRXlmUGs0bzRtbUR5bW1pR3hSUmVXOTFxc3RpVUZQdGtwSQ?oc=5",
+        "date": "Thu, 30 Jul 2026",
+        "source": "Fierce Biotech"
+       },
+       {
+        "title": "Labcorp’s Lab Growth Surges as $125 Million Reimbursement Risk Looms - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVEFpX0dJanpSN19hVHFTaVhBU3c3ZE9jM3M0VzRCdExsaWhQMl9MZ3d6R0Q4UDJSUmFxb3Nka0JBUUV3bGtoV1ZrZFlPeEVsYjNBMWlEQWVwb2VkckI0YW1wUUtXTjdiMGZ0dG90bURRR1poeGlwbFNDYUUxdEhEYndUZTV2bXpxYUVmcGJqc2ZndjZE?oc=5",
+        "date": "Fri, 13 Nov 2026",
+        "source": "Yahoo Finance"
+       },
+       {
+        "title": "Labcorp (LH) Q2 2026 Earnings Call Transcript - The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMVkySi04LVJuZ21YM05SOGxVOWxESF9zakRBeTljUVRBSjlLa0d2eVlBMVlPdDhlamQ4Qm1DbkNTanI2ekxqZElLdklGdWdYLXB5a3dhNW9CV1hSdXI2cW1DNWZBQXE5WUJqQXNXVGpselJ3VjNRRnhTVW1HVW5KeE1RdElRaUhIRlVPYjlBWk8zNXVjcWEtUzdWUVhYVUdiUWZJWA?oc=5",
+        "date": "Thu, 30 Jul 2026",
+        "source": "The Motley Fool"
+       },
+       {
+        "title": "Labcorp raises earnings outlook on strong medical testing demand - Modern Healthcare",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOU1WMXl6em9LM2JpZ2hfaE0zQXgxM2NPZTRMalJScGQ0RktramZ4alRSS2NCeFNwRzZGanNPYnhBeDdHSUpkcTNLZzdwN1FYQTY0MUVlUjQwMlRiVjRyRmJ1SWlNdXB1ZVMyVHZ5TTk3eFh3VGo3b2t5NmhVRk1YUmdVMmpEMHd3RFVqV0ZTT3Q?oc=5",
+        "date": "Fri, 31 Jul 2026",
+        "source": "Modern Healthcare"
+       },
+       {
+        "title": "Labcorp Announces 2026 Second Quarter Results; Raises Full Year 2026 Guidance - PR Newswire",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObWdPQWZLcHJmTG93cU1naGROeTlna09oOXNNdmF1NlFtTlNuY0swLTJvZU50bG95cmxGTm9udk1nbTZWS3dHZWNJamNFWFFFM3RRMlI4WndnZzhJaGZVMGtBRVFJZF96QUtDRFdmMXFrMEx6VDA3Tk51eGsxa2JZa2VFRUpZMjFLS2hkbjg0RUdnTTI4QWpjRVQwUU9KNEJPQUJRWm1wc2tjUjJQWVUwV2txeDFOSnMyWGhkWUg3eHN6TEI4RURHazFMNzM?oc=5",
+        "date": "Thu, 30 Jul 2026",
+        "source": "PR Newswire"
+       },
+       {
+        "title": "Labcorp: Q3 Earnings Snapshot - KTVB",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPODhVSTlVa2JRNUt1T2FfRWVUMExzSThrM0lJdzVUUy1Xc004dVQxVjgxVjNYNTFIMkZpOWVMZ0pQbTI3Y0dvb0p0TE9SUkYtem0yWkdtd1M1aWZNX2tNcVkwc3h1MlVNSUU5T1BsOGZVVFN3ZnhaX0pVc2FRUDZzXzltUXlqVlBLemd0YUdVMHRvSmJaaGFrZFROakVhc0dsNHNmT2VDd1k4REJ5Q0J6ZjBiYk9pNzQ1LWVfN1R1X21PSU5k?oc=5",
+        "date": "Wed, 28 Oct 2026",
+        "source": "KTVB"
+       },
+       {
+        "title": "Labcorp acquires MLM Medical Labs in global expansion - MedTech Dive",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ2lyd2FkZHJQQktXSkJsLXRQNy1MZGZWVVppZVR6MkUxc01sbDBBVklhTzhuRjZrbFJRYU1wZTRiMDdlT0xfUkE3VWtVVmZacnhMalNxTjNsLVFBNzdqMjZTMnROSVBaS0pnOUlFY1pyZE5rMF9Oa3FLREZiaUhTX29Mekg2VFVNNm5WX1VKSWR3TmNzQVpFeklB?oc=5",
+        "date": "Wed, 09 Sep 2026",
+        "source": "MedTech Dive"
+       },
+       {
+        "title": "Is Now the Right Time to Hold Labcorp Stock in Your Portfolio? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRi1PNWNfdFQ2VURFb2FqdUpGbmdUMC04S2pBaFRZc0lqQV9WWEM4cDc1WDNZNWhiZnptbTlrcFo1cDBKRWY1cWRZM1dJRjN5M0NxUnpLQjQ1OU4wZTEwdVJJOGRuVE5uWXduVkx0djYzdWxpa3UxM1VGRjZGNXQ5Rnh1RDZIVDQwRkkzbTVTYU5pUQ?oc=5",
+        "date": "Tue, 10 Nov 2026",
+        "source": "Yahoo Finance"
+       }
+      ],
+      "model": "gemini-2.5-flash",
+      "judged_at": "2026-11-23 23:53"
+     }
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "本益比 30.5 倍",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 2.40%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 19 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 54,
+   "verdict": "候選（AI 對未來成長持疑）：AI 判斷成長理由不成立或僅靠景氣，請自行複核其依據後再決定"
+  },
+  "ai7": {
+   "grade": "X",
+   "one_line": "近期獲利出現衰退且面臨重大償付風險，其未來獲利成長的穩健性存疑。"
+  }
+ },
+ {
+  "date": "2026-11-23",
+  "market": "us",
+  "ticker": "BIIB",
+  "name": "Biogen",
+  "close": 256.71,
+  "rebound": 0.476,
+  "base_quality": 0.575,
+  "scorecard": {
+   "items": [
+    {
+     "key": "1",
+     "name": "① 股價突破近年來高價",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "收盤 256.71 創近 2 年新高",
+     "starred": true
+    },
+    {
+     "key": "2",
+     "name": "② 新高價位置（反彈幅度≥60%）",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "反彈幅度 48%（目標≥60%），平穩期品質 58%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
+     "starred": true
+    },
+    {
+     "key": "3",
+     "name": "③ 過去獲利穩健成長（年均≥7%）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近5年平均年成長 -12%，成長年份占 33%",
+     "starred": false
+    },
+    {
+     "key": "4",
+     "name": "④ 最近1~2年獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近四季獲利年增 -18%",
+     "starred": false
+    },
+    {
+     "key": "5",
+     "name": "⑤ 最近2~3季營收成長≥10%",
+     "grade": "O",
+     "symbol": "○",
+     "detail": "近1期季營收年增 11%",
+     "starred": false
+    },
+    {
+     "key": "6",
+     "name": "⑥ 最近2~3季獲利成長≥20%",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "近1季獲利年增 -102%",
+     "starred": true
+    },
+    {
+     "key": "7",
+     "name": "⑦ 未來獲利能否穩健成長",
+     "grade": "M",
+     "symbol": "人工",
+     "detail": "需人工確認：看公司法說會/財報說明，判斷成長理由能否用一句話說清楚（書 p.131-146）",
+     "starred": true
+    },
+    {
+     "key": "8",
+     "name": "⑧ 本益比未過熱（<60倍）",
+     "grade": "X",
+     "symbol": "×",
+     "detail": "本益比 111.1 倍（≥60 倍，過熱）",
+     "starred": false
+    },
+    {
+     "key": "9",
+     "name": "⑨ 大盤上漲力道",
+     "grade": "T",
+     "symbol": "△",
+     "detail": "創新高股比率僅 2.40%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 19 檔創高，大型股開始帶動",
+     "starred": true
+    }
+   ],
+   "score": 42,
+   "verdict": "淘汰：關鍵項目不合格"
+  },
+  "ai7": null
  }
 ]

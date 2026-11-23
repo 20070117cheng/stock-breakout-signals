@@ -2295,7 +2295,7 @@
  },
  "us": {
   "start_capital": 30000,
-  "cash": 21785.322221304166,
+  "cash": 23994.786594286954,
   "positions": [
    {
     "ticker": "NDAQ",
@@ -2303,32 +2303,10 @@
     "shares": 12.6618,
     "buy_price": 105.0,
     "buy_date": "2026-10-27",
-    "last_price": 102.91999816894531,
+    "last_price": 105.33999633789062,
     "signal_date": "2026-10-26",
     "status": "HOLD",
     "status_note": ""
-   },
-   {
-    "ticker": "EMR",
-    "name": "Emerson Electric",
-    "shares": 7.3775,
-    "buy_price": 162.7899932861328,
-    "buy_date": "2026-10-26",
-    "last_price": 150.92999267578125,
-    "signal_date": "2026-10-27",
-    "status": "SELL_SIGNAL",
-    "status_note": "已排明日開盤賣出。接近停損：跌幅 7.3% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
-   },
-   {
-    "ticker": "BEN",
-    "name": "Franklin Resources",
-    "shares": 30.9738,
-    "buy_price": 36.4900016784668,
-    "buy_date": "2026-11-11",
-    "last_price": 32.040000915527344,
-    "signal_date": "2026-11-10",
-    "status": "SELL_NOW",
-    "status_note": "已排明日開盤賣出。停損：現價 32.04 低於買價 36.49 達 12.2%（門檻 8%），立即賣出"
    },
    {
     "ticker": "CBOE",
@@ -2336,7 +2314,7 @@
     "shares": 7.6295,
     "buy_price": 374.7300109863281,
     "buy_date": "2026-11-12",
-    "last_price": 357.7099914550781,
+    "last_price": 354.6700134277344,
     "signal_date": "2026-11-11",
     "status": "HOLD",
     "status_note": ""
@@ -2345,12 +2323,8 @@
   "pending_buys": [],
   "pending_sells": [
    {
-    "ticker": "EMR",
-    "reason": "接近停損：跌幅 7.3% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
-   },
-   {
     "ticker": "BEN",
-    "reason": "停損：現價 32.04 低於買價 36.49 達 12.2%（門檻 8%），立即賣出"
+    "reason": "停損：現價 33.53 低於買價 36.49 達 8.1%（門檻 8%），立即賣出"
    }
   ],
   "trades": [
@@ -3343,6 +3317,28 @@
     "amount": 1227.06,
     "pnl_pct": -0.06843594547609622,
     "reason": "停損：現價 34.18 低於買價 37.378 達 8.6%（門檻 8%），立即賣出"
+   },
+   {
+    "date": "2026-11-23",
+    "action": "SELL",
+    "ticker": "EMR",
+    "name": "Emerson Electric",
+    "price": 158.83999633789062,
+    "shares": 7.3775,
+    "amount": 1171.84,
+    "pnl_pct": -0.02426437195865816,
+    "reason": "接近停損：跌幅 7.3% 已達 7% 且收盤跌破近期最低價——書 p.228：此時即可提前賣出，不必等到 8%"
+   },
+   {
+    "date": "2026-11-23",
+    "action": "SELL",
+    "ticker": "BEN",
+    "name": "Franklin Resources",
+    "price": 33.5,
+    "shares": 30.9738,
+    "amount": 1037.62,
+    "pnl_pct": -0.08194029983372775,
+    "reason": "停損：現價 32.04 低於買價 36.49 達 12.2%（門檻 8%），立即賣出"
    }
   ],
   "equity_history": [
@@ -3989,6 +3985,10 @@
    {
     "date": "2026-11-20",
     "equity": 27923.51
+   },
+   {
+    "date": "2026-11-23",
+    "equity": 28034.54
    }
   ]
  }
