@@ -1,26 +1,15 @@
 {
  "tw": {
   "start_capital": 1000000,
-  "cash": 691322.1488614754,
+  "cash": 738695.6516111298,
   "positions": [
-   {
-    "ticker": "2880.TW",
-    "name": "華南金",
-    "shares": 1007.0701,
-    "buy_price": 38.849998474121094,
-    "buy_date": "2026-07-16",
-    "last_price": 44.900001525878906,
-    "signal_date": "2026-07-17",
-    "status": "SELL_SIGNAL",
-    "status_note": "已排明日開盤賣出。技術面：賣壓比例 119% ≥ 117%，股價可能已達中長期高點"
-   },
    {
     "ticker": "6782.TW",
     "name": "視陽",
     "shares": 196.2733,
     "buy_price": 271.0,
     "buy_date": "2026-10-23",
-    "last_price": 283.0,
+    "last_price": 283.5,
     "signal_date": "2026-10-22",
     "status": "HOLD",
     "status_note": ""
@@ -31,7 +20,7 @@
     "shares": 612.4464,
     "buy_price": 85.0999984741211,
     "buy_date": "2026-10-27",
-    "last_price": 140.0,
+    "last_price": 142.5,
     "signal_date": "2026-10-28",
     "status": "HOLD",
     "status_note": ""
@@ -42,7 +31,7 @@
     "shares": 350.7269,
     "buy_price": 135.0,
     "buy_date": "2026-11-04",
-    "last_price": 135.5,
+    "last_price": 139.0,
     "signal_date": "2026-11-02",
     "status": "HOLD",
     "status_note": ""
@@ -53,7 +42,7 @@
     "shares": 826.737,
     "buy_price": 56.5,
     "buy_date": "2026-11-06",
-    "last_price": 59.0,
+    "last_price": 58.599998474121094,
     "signal_date": "2026-11-04",
     "status": "HOLD",
     "status_note": ""
@@ -64,7 +53,7 @@
     "shares": 218.1288,
     "buy_price": 192.5,
     "buy_date": "2026-11-10",
-    "last_price": 184.0,
+    "last_price": 187.0,
     "signal_date": "2026-11-11",
     "status": "HOLD",
     "status_note": ""
@@ -75,7 +64,7 @@
     "shares": 272.8071,
     "buy_price": 169.5,
     "buy_date": "2026-11-16",
-    "last_price": 172.5,
+    "last_price": 169.5,
     "signal_date": "2026-11-13",
     "status": "HOLD",
     "status_note": ""
@@ -86,23 +75,14 @@
     "shares": 1414.3299,
     "buy_price": 37.70000076293945,
     "buy_date": "2026-11-16",
-    "last_price": 41.099998474121094,
+    "last_price": 39.849998474121094,
     "signal_date": "2026-11-17",
     "status": "HOLD",
     "status_note": ""
    }
   ],
   "pending_buys": [],
-  "pending_sells": [
-   {
-    "ticker": "2880.TW",
-    "reason": "技術面：賣壓比例 119% ≥ 117%，股價可能已達中長期高點"
-   },
-   {
-    "ticker": "2891.TW",
-    "reason": "基本面惡化：最新一季獲利年增 4% < 20%，賣出"
-   }
-  ],
+  "pending_sells": [],
   "trades": [
    {
     "date": "2026-07-06",
@@ -1565,6 +1545,17 @@
     "amount": 38146.56,
     "pnl_pct": -0.0780346524468859,
     "reason": "基本面惡化：最新一季獲利年增 4% < 20%，賣出"
+   },
+   {
+    "date": "2026-11-20",
+    "action": "SELL",
+    "ticker": "2880.TW",
+    "name": "華南金",
+    "price": 47.25,
+    "shares": 1007.0701,
+    "amount": 47373.5,
+    "pnl_pct": 0.21621626398452354,
+    "reason": "技術面：賣壓比例 119% ≥ 117%，股價可能已達中長期高點"
    }
   ],
   "equity_history": [
@@ -2291,6 +2282,10 @@
    {
     "date": "2026-11-23",
     "equity": 1119452.3
+   },
+   {
+    "date": "2026-11-20",
+    "equity": 1122202.5
    }
   ]
  },
