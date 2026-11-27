@@ -1,498 +1,5 @@
 [
  {
-  "date": "2026-11-17",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "1236.TW",
-  "name": "宏亞",
-  "note": "準備交叉向上，距3年收盤高 96.09%（K 59.71／D 60.53）"
- },
- {
-  "date": "2026-11-17",
-  "market": "台股",
-  "type": "綜合訊號",
-  "ticker": "8432.TWO",
-  "name": "東生華",
-  "note": "雙策略檢核通過：準備交叉向上，距3年高 96.55%"
- },
- {
-  "date": "2026-11-19",
-  "market": "台股",
-  "type": "買進候選",
-  "ticker": "6782.TW",
-  "name": "視陽",
-  "note": "檢核 93/100，強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量",
-  "scorecard": {
-   "items": [
-    {
-     "key": "1",
-     "name": "① 股價突破近年來高價",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "收盤 293 創近 2 年新高",
-     "starred": true
-    },
-    {
-     "key": "2",
-     "name": "② 新高價位置（反彈幅度≥60%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "反彈幅度 78%（目標≥60%），平穩期品質 72%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-     "starred": true
-    },
-    {
-     "key": "3",
-     "name": "③ 過去獲利穩健成長（年均≥7%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近4年平均年成長 45%，成長年份占 67%",
-     "starred": false
-    },
-    {
-     "key": "4",
-     "name": "④ 最近1~2年獲利成長≥20%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近四季獲利年增 45%",
-     "starred": false
-    },
-    {
-     "key": "5",
-     "name": "⑤ 最近2~3季營收成長≥10%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近3期季營收年增 30%、18%、28%",
-     "starred": false
-    },
-    {
-     "key": "6",
-     "name": "⑥ 最近2~3季獲利成長≥20%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近3季獲利年增 41%、54%、32%",
-     "starred": true
-    },
-    {
-     "key": "7",
-     "name": "⑦ 未來獲利能否穩健成長",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "AI 判斷（僅供參考，請複核依據）：視陽透過擴建第三廠並提升彩拋隱形眼鏡產能，以滿足強勁的市場需求，預期獲利將穩健成長。",
-     "starred": true,
-     "ai": {
-      "grade": "O",
-      "one_line": "視陽透過擴建第三廠並提升彩拋隱形眼鏡產能，以滿足強勁的市場需求，預期獲利將穩健成長。",
-      "analysis": "公司近期營收與獲利皆呈現雙位數強勁成長，且因彩拋隱形眼鏡訂單滿載，產能已近乎全開。為滿足市場需求，公司正積極啟動第三廠建置並計畫將月產能提升至8,000萬片，此為明確的結構性擴張。新聞預期Q4及明年Q1營收將季季高，顯示其成長動能來自具體的產品需求與產能擴張，而非景氣循環。",
-      "risks": "新廠建置與產能擴張可能面臨執行風險，且彩拋隱形眼鏡市場的競爭態勢與需求持續性未明確說明。",
-      "sources": [
-       {
-        "title": "視陽法說／第三季EPS 衝上6.32 元創單季新高！彩拋訂單推升產能近滿載，明年 Q1 月產能上看8,000 萬片並啟動第三廠建置｜股市話題｜豐雲學堂2026 年 11 月 - 永豐金證券",
-        "link": "https://news.google.com/rss/articles/CBMi0wVBVV95cUxOa2gyUGQzbXdGaERjTklkZVZiMzRHcmZLejNweEl3ZXNCbUJnOEx6XzdsZEpaRDJKUWRBYXJZTVQ0TjZIeG9jcnZMX0NJeHVPMW81TVNRV1FzNGpTNTRMVzhxNFhjS0VPc2xnN3ZhaUNzWHJhd1BLT0RtcWdDM3BndEtuaEkydVEycjU0QjdTTko3RzhsTzgxRkR1cXhwSUlSUF9LLWotYWhYaDNsdW5qckdTVzUwSWtjMFBNNEhtXzc0bWYxcE9sVEtBVDNDZm9CT3lkWkt4bG9uX3FYRUdLX1V1emZ2NFpCbVRhWWQwanU3bmpkNjFING1JOUtoeUdZZndPOHZNa3RGZ2ZvS3g1TENhSWVWOFdTNFVoOHRUVlVGNS1DQmhhYkZyZlhuM25scHctT2FlWVlyaThzMUhhRDA5NkJJN3FEbmtaNjYwVnM2QjZnckN4UHhtVFpCSlFJQXJOLU5kZ1lDZzF3QTliRExmZG1YWlc3a1NqejhQXy16Q2VTWVF3bTlzYURWVk41clpMMHdvSGRiNkdRanBqbHgtQW5NNEUxWTlhcFJrUU55eXFFN2haZVgwS2tMbmRZRVJ4TEE2UC15ZXh0c2lKb2hnbGhUYl9fLTV4T3Z5S1I2UmlZVzhxU0J6OERRYlEzVGdKS3FsdHhaVHhMcnp0dVNCa1dOUExXX21wSVdrY1pZUUk5S1pwVjlEOXdXVlJpeUNkUGhQSHFlYmg2d3FFWktGckZNbkRLS2VQUjZCcE83NWQyQVhlTzdoekFYOXB5dHVCQ1BvdmxZekZ6LTJGd2EyNHBUXzkxZTZ1Q3kteW5OeFhvd0dvN3BaUlRvYlMxVGZ6bVB6azN4VVpmNjVWQjNmSGs5VTljNnhIcUVQdjRrS3dVeFdmRTZXNm16a3hpc1lzMDZZcWdrd3BvOG9MX3JXbjJueFl2ZjRpbTdlV2p3TjA?oc=5",
-        "date": "Thu, 19 Nov 2026",
-        "source": "永豐金證券"
-       },
-       {
-        "title": "視陽（6782）營運動能強勁 Q4產能滿載、2027年首季目標上修至8,000萬片 - 理財周刊",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE96c3V2M3lRcXY1bEM4RFBIZzlmN1lrdEgwRkh5R0lBaDBhd3lQUTZlYVBhTm11aEdiUVZSb013SUNmeDNtbUZ1ZGw3azJQV2NqWW1ScDJ6OV9YY3FVZVpFMmRtclNPUHZ3aEZUbzNZQQ?oc=5",
-        "date": "Thu, 19 Nov 2026",
-        "source": "理財周刊"
-       },
-       {
-        "title": "寫最賺Q3 視陽喊看旺到明年- 日報 - 工商時報",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5taUhxNmVnYjhNdDA5cE9ROWRXUGdmbE51Tm00U0J2NkRGVmROeFRTSmRHS0FRNE5zOU4weGIxWU94NkNRd01wNl9vaE5XLXpUYVprUnp3ajVwR293TWF3?oc=5",
-        "date": "Wed, 18 Nov 2026",
-        "source": "工商時報"
-       },
-       {
-        "title": "視陽擴產效益續顯，看Q4、明年Q1營收季季高- 新聞 - MoneyDJ",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRGxneTVVb3ZTdGZHc0NGNngtV1FLbXZJclVSLVJ4eFBGaU9MM0tQTlVKdHVramd4blpzd002ZjNiUHV5U2lYV0NNUERzZ0I3a1VvaWtoNklIRlVDb2RTcWNldl96RDRmY2hZUVgyTWJPWGNFVnRrUlFKWkNYdVd4N3lMTHBpUGdCREtzcnI0empIZw?oc=5",
-        "date": "Wed, 18 Nov 2026",
-        "source": "MoneyDJ"
-       }
-      ],
-      "all_news": [
-       {
-        "title": "視陽法說／第三季EPS 衝上6.32 元創單季新高！彩拋訂單推升產能近滿載，明年 Q1 月產能上看8,000 萬片並啟動第三廠建置｜股市話題｜豐雲學堂2026 年 11 月 - 永豐金證券",
-        "link": "https://news.google.com/rss/articles/CBMi0wVBVV95cUxOa2gyUGQzbXdGaERjTklkZVZiMzRHcmZLejNweEl3ZXNCbUJnOEx6XzdsZEpaRDJKUWRBYXJZTVQ0TjZIeG9jcnZMX0NJeHVPMW81TVNRV1FzNGpTNTRMVzhxNFhjS0VPc2xnN3ZhaUNzWHJhd1BLT0RtcWdDM3BndEtuaEkydVEycjU0QjdTTko3RzhsTzgxRkR1cXhwSUlSUF9LLWotYWhYaDNsdW5qckdTVzUwSWtjMFBNNEhtXzc0bWYxcE9sVEtBVDNDZm9CT3lkWkt4bG9uX3FYRUdLX1V1emZ2NFpCbVRhWWQwanU3bmpkNjFING1JOUtoeUdZZndPOHZNa3RGZ2ZvS3g1TENhSWVWOFdTNFVoOHRUVlVGNS1DQmhhYkZyZlhuM25scHctT2FlWVlyaThzMUhhRDA5NkJJN3FEbmtaNjYwVnM2QjZnckN4UHhtVFpCSlFJQXJOLU5kZ1lDZzF3QTliRExmZG1YWlc3a1NqejhQXy16Q2VTWVF3bTlzYURWVk41clpMMHdvSGRiNkdRanBqbHgtQW5NNEUxWTlhcFJrUU55eXFFN2haZVgwS2tMbmRZRVJ4TEE2UC15ZXh0c2lKb2hnbGhUYl9fLTV4T3Z5S1I2UmlZVzhxU0J6OERRYlEzVGdKS3FsdHhaVHhMcnp0dVNCa1dOUExXX21wSVdrY1pZUUk5S1pwVjlEOXdXVlJpeUNkUGhQSHFlYmg2d3FFWktGckZNbkRLS2VQUjZCcE83NWQyQVhlTzdoekFYOXB5dHVCQ1BvdmxZekZ6LTJGd2EyNHBUXzkxZTZ1Q3kteW5OeFhvd0dvN3BaUlRvYlMxVGZ6bVB6azN4VVpmNjVWQjNmSGs5VTljNnhIcUVQdjRrS3dVeFdmRTZXNm16a3hpc1lzMDZZcWdrd3BvOG9MX3JXbjJueFl2ZjRpbTdlV2p3TjA?oc=5",
-        "date": "Thu, 19 Nov 2026",
-        "source": "永豐金證券"
-       },
-       {
-        "title": "視陽（6782）營運動能強勁 Q4產能滿載、2027年首季目標上修至8,000萬片 - 理財周刊",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE96c3V2M3lRcXY1bEM4RFBIZzlmN1lrdEgwRkh5R0lBaDBhd3lQUTZlYVBhTm11aEdiUVZSb013SUNmeDNtbUZ1ZGw3azJQV2NqWW1ScDJ6OV9YY3FVZVpFMmRtclNPUHZ3aEZUbzNZQQ?oc=5",
-        "date": "Thu, 19 Nov 2026",
-        "source": "理財周刊"
-       },
-       {
-        "title": "寫最賺Q3 視陽喊看旺到明年- 日報 - 工商時報",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5taUhxNmVnYjhNdDA5cE9ROWRXUGdmbE51Tm00U0J2NkRGVmROeFRTSmRHS0FRNE5zOU4weGIxWU94NkNRd01wNl9vaE5XLXpUYVprUnp3ajVwR293TWF3?oc=5",
-        "date": "Wed, 18 Nov 2026",
-        "source": "工商時報"
-       },
-       {
-        "title": "台股殺聲隆隆它卻漲停！視陽、晶碩、望隼…到底在漲什麼？法人逆勢看好揭3大利多：產線忙翻天 - 旺得富理財網",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE01NGhTNTdKMkhYa2dSOFE5MUFfSkJRemtRQ1V5ZlhOcUZSTlNMQTJydDcySzNqUTlwT2l3T0V6Vnk0Y2x6cHpYcGVONFdLOU15dEpxYXBSb3JBSnJaWEtGQS0xbEQwRmtud2c?oc=5",
-        "date": "Thu, 19 Nov 2026",
-        "source": "旺得富理財網"
-       },
-       {
-        "title": "視陽(6782) - 富聯網",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQb1dlMHhWd1o0ZGdBX3Jlc3Ewd2Ywdll4T0FpR0ZiYXI1a0M4X0VRUkZVdFJLbXNqeTVtbTVXMV8xVXdBaV9UUzFpMXVNSmszTUNkY1puQXpxR0U5UUtnT3k3amg3emctbHRvUDhFdXR6bUQxZlNMVnhnMExCOElrRVZTdUFoQQ?oc=5",
-        "date": "Thu, 19 Nov 2026",
-        "source": "富聯網"
-       },
-       {
-        "title": "視陽擴產效益續顯，看Q4、明年Q1營收季季高- 新聞 - MoneyDJ",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRGxneTVVb3ZTdGZHc0NGNngtV1FLbXZJclVSLVJ4eFBGaU9MM0tQTlVKdHVramd4blpzd002ZjNiUHV5U2lYV0NNUERzZ0I3a1VvaWtoNklIRlVDb2RTcWNldl96RDRmY2hZUVgyTWJPWGNFVnRrUlFKWkNYdVd4N3lMTHBpUGdCREtzcnI0empIZw?oc=5",
-        "date": "Wed, 18 Nov 2026",
-        "source": "MoneyDJ"
-       },
-       {
-        "title": "視陽 2026-08-21 法說會 - BigGo 財經",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMzRtUE5wdkxYSUpWTVk4TDQ2LTd3YjNVb0ZTMXRWbUltSHRJM3hQdDVUSFpUdjY4SGd2NGlWWmMzZERQMHYxM2tyaUl0T1kwQ1F5eW5QY2c5MExuN0ZnVHJoU1liM1NRZUVuZFk2QXFIeFlvaVVpMDg0ZzV5TnE5WG54NDE?oc=5",
-        "date": "Fri, 21 Aug 2026",
-        "source": "BigGo 財經"
-       },
-       {
-        "title": "【視陽法說會重點內容備忘錄】20260313 - 富果直送",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53SWlfbnU1ajJoODR0aHdmYTZ5OWlCc3FyNGUzTGlicHVLUFA5eG1jd1gzTU96NXQ5cGdTX20tVXFEZHl1SkRjT3hoZWo5UUlDbGJ3bE9HTXg1am5uUC1kZUgtdGJIMnc?oc=5",
-        "date": "Fri, 13 Mar 2026",
-        "source": "富果直送"
-       }
-      ],
-      "model": "gemini-2.5-flash",
-      "judged_at": "2026-11-19 04:33"
-     }
-    },
-    {
-     "key": "8",
-     "name": "⑧ 本益比未過熱（<60倍）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "本益比 15.6 倍",
-     "starred": false
-    },
-    {
-     "key": "9",
-     "name": "⑨ 大盤上漲力道",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "創新高股比率僅 0.82%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 34 檔創高，大型股開始帶動",
-     "starred": true
-    }
-   ],
-   "score": 93,
-   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
-  }
- },
- {
-  "date": "2026-11-19",
-  "market": "台股",
-  "type": "買進候選",
-  "ticker": "8415.TWO",
-  "name": "大國鋼",
-  "note": "檢核 86/100，強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量",
-  "scorecard": {
-   "items": [
-    {
-     "key": "1",
-     "name": "① 股價突破近年來高價",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "收盤 42.7 創近 2 年新高",
-     "starred": true
-    },
-    {
-     "key": "2",
-     "name": "② 新高價位置（反彈幅度≥60%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 87%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-     "starred": true
-    },
-    {
-     "key": "3",
-     "name": "③ 過去獲利穩健成長（年均≥7%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近9年平均年成長 39%，成長年份占 62%",
-     "starred": false
-    },
-    {
-     "key": "4",
-     "name": "④ 最近1~2年獲利成長≥20%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近四季獲利年增 73%",
-     "starred": false
-    },
-    {
-     "key": "5",
-     "name": "⑤ 最近2~3季營收成長≥10%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近3期季營收年增 13%、25%、40%",
-     "starred": false
-    },
-    {
-     "key": "6",
-     "name": "⑥ 最近2~3季獲利成長≥20%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近3季獲利年增 44%、132%、55%",
-     "starred": true
-    },
-    {
-     "key": "7",
-     "name": "⑦ 未來獲利能否穩健成長",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "AI 判斷（僅供參考，請複核依據）：缺乏產業與商業模式資訊，無法判斷其成長是否來自結構性變化。",
-     "starred": true,
-     "ai": {
-      "grade": "T",
-      "one_line": "缺乏產業與商業模式資訊，無法判斷其成長是否來自結構性變化。",
-      "analysis": "大國鋼近期營運數字顯示強勁的營收與獲利成長動能，近九年平均年成長率達39%，且近四季獲利年增73%。然而，判斷未來獲利能否穩健成長的關鍵在於其成長是否源於結構性變化。目前缺乏關於公司所處產業、商業模式或市場地位的詳細資訊，無法判斷其成長是來自產業趨勢、市占提升等結構性因素，抑或是景氣循環回升。在無法確認成長驅動因素的情況下，無法判斷其獲利能否穩健且可持續地成長。",
-      "risks": [
-       "成長動能可能受景氣循環影響，而非結構性變化所驅動。",
-       "缺乏產業與商業模式資訊，難以評估其競爭優勢及市場風險。"
-      ],
-      "sources": [],
-      "all_news": [],
-      "model": "gemini-2.5-flash",
-      "judged_at": "2026-11-19 04:33"
-     }
-    },
-    {
-     "key": "8",
-     "name": "⑧ 本益比未過熱（<60倍）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "本益比 9.2 倍",
-     "starred": false
-    },
-    {
-     "key": "9",
-     "name": "⑨ 大盤上漲力道",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "創新高股比率僅 0.82%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 34 檔創高，大型股開始帶動",
-     "starred": true
-    }
-   ],
-   "score": 86,
-   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
-  }
- },
- {
-  "date": "2026-11-19",
-  "market": "台股",
-  "type": "買進候選",
-  "ticker": "6199.TWO",
-  "name": "天品",
-  "note": "檢核 75/100，強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量",
-  "scorecard": {
-   "items": [
-    {
-     "key": "1",
-     "name": "① 股價突破近年來高價",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "收盤 172.5 創近 2 年新高",
-     "starred": true
-    },
-    {
-     "key": "2",
-     "name": "② 新高價位置（反彈幅度≥60%）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "反彈幅度 100%（目標≥60%），平穩期品質 69%——建議自己看一眼月K線確認平穩期（書 p.72：無法純用程式認定）",
-     "starred": true
-    },
-    {
-     "key": "3",
-     "name": "③ 過去獲利穩健成長（年均≥7%）",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "近9年平均年成長 35%，成長年份占 43%（成長不夠穩定）",
-     "starred": false
-    },
-    {
-     "key": "4",
-     "name": "④ 最近1~2年獲利成長≥20%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近四季獲利年增 2277%",
-     "starred": false
-    },
-    {
-     "key": "5",
-     "name": "⑤ 最近2~3季營收成長≥10%",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "近3期季營收年增 1172%、558%、193%",
-     "starred": false
-    },
-    {
-     "key": "6",
-     "name": "⑥ 最近2~3季獲利成長≥20%",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "近3季獲利年增 -185%、45%、1016%",
-     "starred": true
-    },
-    {
-     "key": "7",
-     "name": "⑦ 未來獲利能否穩健成長",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "AI 判斷（僅供參考，請複核依據）：儘管公司受惠於AI液冷散熱的結構性趨勢，但過往及近期獲利波動劇烈，尚無法判斷未來獲利能否穩健成長。",
-     "starred": true,
-     "ai": {
-      "grade": "T",
-      "one_line": "儘管公司受惠於AI液冷散熱的結構性趨勢，但過往及近期獲利波動劇烈，尚無法判斷未來獲利能否穩健成長。",
-      "analysis": "公司正積極轉型至AI伺服器液冷散熱領域，此為具備長期潛力的結構性成長趨勢，並有新產能開出以應對需求 [1, 4, 6, 7]。然而，公司過去九年成長年份僅佔43%，且近三季獲利年增率呈現-185%、45%、1016%的劇烈波動。儘管近期營收有爆發性成長，但這些數據並未證明獲利能持續且穩健地成長。作為保守分析師，在缺乏更長時間的穩定獲利數據支持下，難以判斷其未來獲利能否穩健成長。",
-      "risks": "1. 獲利波動性: 公司過往及近期獲利表現均高度不穩定，可能影響未來成長的預測性與持續性。2. 市場競爭與執行風險: AI液冷市場競爭激烈，公司能否有效擴大市佔並維持高稼動率，仍有待觀察。",
-      "sources": [
-       {
-        "title": "【10:38 即時新聞】天品(6199)股價平穩微升，AI液冷潔淨題材持續受關注 - CMoney投資網誌",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONkcwWmdETDZ2RVVjVExPUkN5NWFjWFhiLVNlOHkwRzc1Y1pHNTRyNmRteVRQdGtuaU1vWnQ2bWw1aVAwZzhmTm10dTBtOEFrTmo2OUoxSUo1cWVhMHNyN1VaWmZ6dkZ4SkhWVHA1VWg4WDMxNFlISThjUVN6bm9BV0I1UGZLRmJfcERTbGl3?oc=5",
-        "date": "Thu, 19 Nov 2026",
-        "source": "CMoney投資網誌"
-       },
-       {
-        "title": "營收速報 - 天品(6199)9月營收8,573萬元年增率高達146.61％｜新聞快訊｜豐雲學堂 - 永豐金證券",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HaFJOcnB6N25ITDk0T0pVMldCd3ZyMFF2Q0RvMTg5MWRpeGZrTEZYVjBPZGxFVGxab3Zib0p1RTA3Mmt3ZGhFN1lFVUFqZHpjSEgzbXVMcHJ0T2YtY3l3dWxEVTF0QVhUdE1RZmZwbS01akk0QVE?oc=5",
-        "date": "Mon, 12 Oct 2026",
-        "source": "永豐金證券"
-       },
-       {
-        "title": "天品7月營收雙增；伺服器液冷清洗能見度達Q4 - MoneyDJ",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWDJ1NlM5cS1KZ1hlMTlVQU1vdkRDLURMZ1kxQ2NJQ1dwb0JsM0p0MU41WGctNk9ycDd2dnNISTRqZTlabTV4aDJySTQtZzlpT2E0UmpMTkxBbkJlQ1poMnc5NTZrTUZJLTRGbDlsVUZ0QmxVaTF0cVBnZThoWXJkanBSdmtOeExlSG1WVHZfUUJMUQ?oc=5",
-        "date": "Tue, 11 Aug 2026",
-        "source": "MoneyDJ"
-       },
-       {
-        "title": "天品營收／8月8,294萬元創單月新高 新產能開出、稼動率衝高 - 經濟日報",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHSzlfUzFvOTRzbjNfQ2lYdEtSYk5GX2tOOGxKOXFXeTd6TWllX3dMa0lFWUljeDVTWGlfVHpycFpYSkdFVU1fNnd1SEpWS2VvUVV1ZUZQX3FjUUnSAWBBVV95cUxPczB2eUF2aGloSlYzRkFVVDQ0UHd2QWtldnZGMUEwdXRBNXRZZjVIakIyMzRlcUF5b1NTcW9ydHlDVGVHWnNuaV92R0tjcFFPTXgzdE0zRWx4Q0VQVnl1bFI?oc=5",
-        "date": "Fri, 11 Sep 2026",
-        "source": "經濟日報"
-       },
-       {
-        "title": "天品(6199)站上百元押注液冷轉型，第三季先驗證哪個關鍵數字-跟著大資走 澤明 - CMoney投資網誌",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQblZtNlJsV2hFaUhwc18xSnpQalAxYlJPanhyWERaakJVMGtUUVRPU2tNc1RYc2JwOG5NU2kxbWctYXlRS2xiMnp6ZHNlTzA2UWlncnF1VDIyZzVabnM1dU51R3JJdWs4SUowc0RFdWRGeHNwYzVXVWhiNlp1Vm5CNk95cw?oc=5",
-        "date": "Wed, 29 Jul 2026",
-        "source": "CMoney投資網誌"
-       }
-      ],
-      "all_news": [
-       {
-        "title": "【10:38 即時新聞】天品(6199)股價平穩微升，AI液冷潔淨題材持續受關注 - CMoney投資網誌",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONkcwWmdETDZ2RVVjVExPUkN5NWFjWFhiLVNlOHkwRzc1Y1pHNTRyNmRteVRQdGtuaU1vWnQ2bWw1aVAwZzhmTm10dTBtOEFrTmo2OUoxSUo1cWVhMHNyN1VaWmZ6dkZ4SkhWVHA1VWg4WDMxNFlISThjUVN6bm9BV0I1UGZLRmJfcERTbGl3?oc=5",
-        "date": "Thu, 19 Nov 2026",
-        "source": "CMoney投資網誌"
-       },
-       {
-        "title": "股價升天！天品再創新高 兩個月大漲逾7成 - 經濟日報",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94NU1PQXpDRllPSm52akZjcUVhMnhwUWt1S1hvWlk5cnoyMktHTTZqc1dMSkpOYjhzSDdrcDBod3pOdUtIREMxc2dUMTFKeHpVZUJaLTNOUkRlV0nSAWBBVV95cUxOREg0ajdicVZvZ05SYzN5b19DNlhsVUxSU1dpZTVrdFF1Yzk4NEpvamR2WkJTdmstMzZsbm83OUk3MmpQY2NuZGxSaWZlbUpQUHZxd2FDdEV0SGV0VHVwNEQ?oc=5",
-        "date": "Fri, 30 Oct 2026",
-        "source": "經濟日報"
-       },
-       {
-        "title": "營收速報 - 天品(6199)9月營收8,573萬元年增率高達146.61％｜新聞快訊｜豐雲學堂 - 永豐金證券",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HaFJOcnB6N25ITDk0T0pVMldCd3ZyMFF2Q0RvMTg5MWRpeGZrTEZYVjBPZGxFVGxab3Zib0p1RTA3Mmt3ZGhFN1lFVUFqZHpjSEgzbXVMcHJ0T2YtY3l3dWxEVTF0QVhUdE1RZmZwbS01akk0QVE?oc=5",
-        "date": "Mon, 12 Oct 2026",
-        "source": "永豐金證券"
-       },
-       {
-        "title": "天品7月營收雙增；伺服器液冷清洗能見度達Q4 - MoneyDJ",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWDJ1NlM5cS1KZ1hlMTlVQU1vdkRDLURMZ1kxQ2NJQ1dwb0JsM0p0MU41WGctNk9ycDd2dnNISTRqZTlabTV4aDJySTQtZzlpT2E0UmpMTkxBbkJlQ1poMnc5NTZrTUZJLTRGbDlsVUZ0QmxVaTF0cVBnZThoWXJkanBSdmtOeExlSG1WVHZfUUJMUQ?oc=5",
-        "date": "Tue, 11 Aug 2026",
-        "source": "MoneyDJ"
-       },
-       {
-        "title": "(6199) 天品聯合企業法說會 2026/04、天品財報、天品展望、天品財報投資亮點｜理柴知道:法說最速報! - 方格子 - Vocus",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5SMS0xME5nZnIxRUN4RWFLcFdselNtdk5nSFdONUZPRVZibFQzVDhLUzZ0LU5wb3dXQjRkWWtfa2JVRGxUNHJkVGhlVlZydkJ6UVpOZEhhS3BPSWtOWFHSAWNBVV95cUxOYW1tbGRoUVVMN3lhaDBrRFRQd3dMckU2d1hBcWdjZmVCYnhscEI4dnNUSUNGZUNpaTQ1NDJVRVBOU1dVNG55Z3JvdFlwNWVhMmk0dWlhWjlMZmhlLVlHeU42ZWM?oc=5",
-        "date": "Thu, 16 Apr 2026",
-        "source": "Vocus"
-       },
-       {
-        "title": "天品營收／8月8,294萬元創單月新高 新產能開出、稼動率衝高 - 經濟日報",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHSzlfUzFvOTRzbjNfQ2lYdEtSYk5GX2tOOGxKOXFXeTd6TWllX3dMa0lFWUljeDVTWGlfVHpycFpYSkdFVU1fNnd1SEpWS2VvUVV1ZUZQX3FjUUnSAWBBVV95cUxPczB2eUF2aGloSlYzRkFVVDQ0UHd2QWtldnZGMUEwdXRBNXRZZjVIakIyMzRlcUF5b1NTcW9ydHlDVGVHWnNuaV92R0tjcFFPTXgzdE0zRWx4Q0VQVnl1bFI?oc=5",
-        "date": "Fri, 11 Sep 2026",
-        "source": "經濟日報"
-       },
-       {
-        "title": "天品(6199)站上百元押注液冷轉型，第三季先驗證哪個關鍵數字-跟著大資走 澤明 - CMoney投資網誌",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQblZtNlJsV2hFaUhwc18xSnpQalAxYlJPanhyWERaakJVMGtUUVRPU2tNc1RYc2JwOG5NU2kxbWctYXlRS2xiMnp6ZHNlTzA2UWlncnF1VDIyZzVabnM1dU51R3JJdWs4SUowc0RFdWRGeHNwYzVXVWhiNlp1Vm5CNk95cw?oc=5",
-        "date": "Wed, 29 Jul 2026",
-        "source": "CMoney投資網誌"
-       },
-       {
-        "title": "天品4月營收寫次高Q2拚持穩向上- 新聞 - MoneyDJ",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMnJjYTd6NUJhdkZKNEpxN0M4Q213SG9sOXA3OVlIXzNqTXJOazNMQW9NTldxV2dsOURzeVQzcmZyQ1FjZm96ZHk5QS1VTjJPdHNxT0ZYZml2S2tnVTdGRm9mVlZhNnYtc2tpUHlCUTIweDhVb1hEU3BXdHJWSDl5OXZjc2RIZVRIeUQzV01BRXFjUQ?oc=5",
-        "date": "Tue, 12 May 2026",
-        "source": "MoneyDJ"
-       }
-      ],
-      "model": "gemini-2.5-flash",
-      "judged_at": "2026-11-19 04:35"
-     }
-    },
-    {
-     "key": "8",
-     "name": "⑧ 本益比未過熱（<60倍）",
-     "grade": "O",
-     "symbol": "○",
-     "detail": "本益比 15.1 倍",
-     "starred": false
-    },
-    {
-     "key": "9",
-     "name": "⑨ 大盤上漲力道",
-     "grade": "T",
-     "symbol": "△",
-     "detail": "創新高股比率僅 0.82%，位於近一年後段且未回升——書中建議此時不進場；但前50大已有 34 檔創高，大型股開始帶動",
-     "starred": true
-    }
-   ],
-   "score": 75,
-   "verdict": "強力候選：多數項目合格（⑦ 為 AI 參考意見，請複核其依據）後依⑨燈號決定買進量"
-  }
- },
- {
-  "date": "2026-11-19",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "6782.TW",
-  "name": "視陽",
-  "note": "剛黃金交叉，距3年收盤高 100.0%（K 69.61／D 66.01）"
- },
- {
-  "date": "2026-11-19",
-  "market": "台股",
-  "type": "箱型訊號",
-  "ticker": "1236.TW",
-  "name": "宏亞",
-  "note": "準備交叉向上，距3年收盤高 95.74%（K 57.51／D 58.99）"
- },
- {
-  "date": "2026-11-19",
-  "market": "台股",
-  "type": "綜合訊號",
-  "ticker": "6782.TW",
-  "name": "視陽",
-  "note": "雙策略檢核通過：檢核 93/100，剛黃金交叉，距3年高 100.0%"
- },
- {
-  "date": "2026-11-19",
-  "market": "美股",
-  "type": "箱型訊號",
-  "ticker": "DIS",
-  "name": "Walt Disney Company (The)",
-  "note": "準備交叉向上，距3年收盤高 98.81%（K 69.63／D 71.34）"
- },
- {
   "date": "2026-11-19",
   "market": "美股",
   "type": "箱型訊號",
@@ -11068,5 +10575,77 @@
   "ticker": "6581.TW",
   "name": "鋼聯",
   "note": "雙策略檢核通過：準備交叉向上，距3年高 95.58%"
+ },
+ {
+  "date": "2026-11-27",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "6199.TWO",
+  "name": "天品",
+  "note": "準備交叉向上，距3年收盤高 100.0%（K 82.65／D 83.44）"
+ },
+ {
+  "date": "2026-11-27",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "8415.TWO",
+  "name": "大國鋼",
+  "note": "剛黃金交叉，距3年收盤高 99.53%（K 70.62／D 69.92）"
+ },
+ {
+  "date": "2026-11-27",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "2412.TW",
+  "name": "中華電",
+  "note": "準備交叉向上，距3年收盤高 99.4%（K 51.57／D 52.17）"
+ },
+ {
+  "date": "2026-11-27",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "6581.TW",
+  "name": "鋼聯",
+  "note": "剛黃金交叉，距3年收盤高 96.02%（K 38.52／D 33.4）"
+ },
+ {
+  "date": "2026-11-27",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "2849.TW",
+  "name": "安泰銀",
+  "note": "剛黃金交叉，距3年收盤高 95.69%（K 47.55／D 41.25）"
+ },
+ {
+  "date": "2026-11-27",
+  "market": "台股",
+  "type": "箱型訊號",
+  "ticker": "1232.TW",
+  "name": "大統益",
+  "note": "準備交叉向上，距3年收盤高 95.55%（K 40.72／D 41.87）"
+ },
+ {
+  "date": "2026-11-27",
+  "market": "台股",
+  "type": "綜合訊號",
+  "ticker": "6199.TWO",
+  "name": "天品",
+  "note": "雙策略檢核通過：準備交叉向上，距3年高 100.0%"
+ },
+ {
+  "date": "2026-11-27",
+  "market": "台股",
+  "type": "綜合訊號",
+  "ticker": "8415.TWO",
+  "name": "大國鋼",
+  "note": "雙策略檢核通過：剛黃金交叉，距3年高 99.53%"
+ },
+ {
+  "date": "2026-11-27",
+  "market": "台股",
+  "type": "綜合訊號",
+  "ticker": "6581.TW",
+  "name": "鋼聯",
+  "note": "雙策略檢核通過：剛黃金交叉，距3年高 96.02%"
  }
 ]
